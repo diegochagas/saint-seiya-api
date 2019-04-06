@@ -224,13 +224,16 @@
         "Ushô da Armadura da Água (Ômega)",
         "Ushô da Armadura do Mar"
       ],
-      "Saintias": [],
+      "Saintias": [
+        "Elda de Cassiopéia",
+        "Katya de Coroa Boreal",
+        "Kyoko de Cavalo Menor",
+        "Mii de Golfinho",
+        "Shoko de Cavalo Menor",
+        "Xiaoling de Ursa Menor"
+      ],
       "Sem constelação": []
     }, 
-    "Berserkers":	[
-      "Ema de Jamadhar",
-      "Kokalo de Buhj"
-    ],
     "Cavaleiros Negros": [
       "Allegre de Baleia Negra",
       "Andrômeda Negro",
@@ -246,103 +249,151 @@
       "Rusé de Corvo Negro",
       "Shinadekuro de Dragão Negro",
       "Yudo de Cães de Caça Negro"
+    ],
+    "Coroa do Sol": [
+      "Atlas de Carena",
+      "Berengue de Coma Berenices",
+      "Jaô de Lince"
     ], 
-    "Outros": {
-      "Coroa do Sol": [
-        "Atlas de Carena",
-        "Berengue de Coma Berenices",
-        "Jaô de Lince"
-      ], 
-      "Gigas": [
-        "Ágrios (Força Brutal)",
-        "Anemos de Leucotes",
-        "Bronte de Melas",
-        "Electron de Fera Âmbar",
-        "Encélado (Brado de Combate)",
-        "Encélado (Lost Canvas)",
-        "Equidina (Mulher Giga)",
-        "Ladon (Dragão de Cem Cabeças)",
-        "Lyax de Poinx",
-        "Margarites de Dragão de Pérola",
-        "Nephiritis de Couraça de Jade",
-        "Ortos (Cão Bicéfalo do Mal)",
-        "Pallas (Parvo)",
-        "Phlox de Cianos",
-        "Quimera (Fera Pluriforme)",
-        "Spate de Paios",
-        "Tífon (Deus Giga)",
-        "Tífon (Episódio G)",
-        "Tífon (Lost Canvas)",
-        "Toas (Relâmpago Célebre)",
-        "Zugilos de Anthrakma"
-      ],
-      "Titãs": [
-        "Atlas",
-        "Céos (Relâmpago Negro)",
-        "Créos (Galáxia)",
-        "Cronos (Tempo)",
-        "Euríbia",
-        "Febe (Lua)",
-        "Hyperion (Ébano)",
-        "Iápeto (Dimensões)",
-        "Mnemôsine (Memória)",
-        "Oceano (Dilúvio)",
-        "Prometeu",
-        "Réia (Mãe dos Deuses)",
-        "Téia (Luz e Fogo)",
-        "Têmis (Justiça)",
-        "Tétis (Mar)",
-      ],
-      "Dríades": [
-        "Ate de Ruína",
-        "Disnomia",
-        "Emony de Malícia",
-        "Mania de Loucura",
-        "Phonos de Assassinato"
-      ],
-      "Taonias": [], 
-      "Pítias": [],
-      "Berserkers": [],
-      "Jóias": [
-        "Chaceldony de Ilusões",
-        "Cornelian de Sangue da Carne Cortada",
-        "Flint de Punhos Flamejantes",
-        "Garnet de Vouivre",
-        "Krest de Koh-Í-Noor",
-        "Tourmaline de Eletricidade"
-      ],
-      "Jaguares": [
-        "Jaguares",
-        "Nahualpilli de Youaltepuztli"
-      ],
-      "Satélites": [],
-      "Marcianos": [
-        "Baco",
-        "Comandante Marciano",
-        "Diana",
-        "Escaravelho #1",
-        "Escaravelho #2",
-        "Medea",
-        "Ordykia de Mantis",
-        "Radzinsky de Formiga",
-        "Ragno de Aranha",
-        "Rômulo",
-        "Sonia de Vespa",
-        "Vulcano"
-      ],
-      "Pallasitos": [],
-      "Sem Face": [],
-      "Gladiadores": [
-        "Alice de Vorpal",
-        "Lancelot de Arondight",
-        "Paracelsus de Azoth",
-        "Roland de Durandal",
-        "Sigurd de Gram"
-      ], 
-      "Coadjuvantes, secundários e animais": [
-        
-      ]
-    }, 
+    "Gigas": [
+      "Ágrios (Força Brutal)",
+      "Anemos de Leucotes",
+      "Bronte de Melas",
+      "Electron de Fera Âmbar",
+      "Encélado (Brado de Combate)",
+      "Encélado (Lost Canvas)",
+      "Equidina (Mulher Giga)",
+      "Ladon (Dragão de Cem Cabeças)",
+      "Lyax de Poinx",
+      "Margarites de Dragão de Pérola",
+      "Nephiritis de Couraça de Jade",
+      "Ortos (Cão Bicéfalo do Mal)",
+      "Pallas (Parvo)",
+      "Phlox de Cianos",
+      "Quimera (Fera Pluriforme)",
+      "Spate de Paios",
+      "Tífon (Deus Giga)",
+      "Tífon (Episódio G)",
+      "Tífon (Lost Canvas)",
+      "Toas (Relâmpago Célebre)",
+      "Zugilos de Anthrakma"
+    ],
+    "Titãs": [
+      "Atlas",
+      "Céos (Relâmpago Negro)",
+      "Créos (Galáxia)",
+      "Cronos (Tempo)",
+      "Euríbia",
+      "Febe (Lua)",
+      "Hyperion (Ébano)",
+      "Iápeto (Dimensões)",
+      "Mnemôsine (Memória)",
+      "Oceano (Dilúvio)",
+      "Prometeu",
+      "Réia (Mãe dos Deuses)",
+      "Téia (Luz e Fogo)",
+      "Têmis (Justiça)",
+      "Tétis (Mar)"
+    ],
+    "Dríades": [
+      "Ate de Ruína",
+      "Disnomia",
+      "Emony de Malícia",
+      "Mania de Loucura",
+      "Phonos de Assassinato"
+    ],
+    "Taonias": [
+      "Feiyan de Hakutaku",
+      "Hakuryu",
+      "Hui de Kyuubi",
+      "Liu Xing",
+      "Mudan de Pardal",
+      "Taonias de alto escalão",
+      "Taonias de baixo escalão"
+    ], 
+    "Pítias": [
+      "Arches",
+      "Ninfas (Pítias)"
+    ],
+    "Berserkers": [
+      "Ema de Jamadhar",
+      "Kokalo de Buhj"
+    ],
+    "Jóias": [
+      "Chaceldony de Ilusões",
+      "Cornelian de Sangue da Carne Cortada",
+      "Flint de Punhos Flamejantes",
+      "Garnet de Vouivre",
+      "Krest de Koh-Í-Noor",
+      "Tourmaline de Eletricidade"
+    ],
+    "Jaguares": [
+      "Jaguares",
+      "Nahualpilli de Youaltepuztli"
+    ],
+    "Satélites": [
+      "Calisto",
+      "Rasku Moon",
+      "Satélite #1",
+      "Satélite #2",
+      "Satélite #3",
+      "Satélite #4",
+      "Satélite #5",
+      "Satélite #6",
+      "Satélite #7",
+      "Satélite #8"
+    ],
+    "Marcianos": [
+      "Baco",
+      "Comandante Marciano",
+      "Diana",
+      "Escaravelho #1",
+      "Escaravelho #2",
+      "Medea",
+      "Ordykia de Mantis",
+      "Radzinsky de Formiga",
+      "Ragno de Aranha",
+      "Rômulo",
+      "Sonia de Vespa",
+      "Vulcano"
+    ],
+    "Pallasitos": [
+      "Aegir de Braço Fantasma (Manopla)",
+      "Aigaion de Espada do Trovão",
+      "Cilene de Matador de Almas (Foice da Morte)",
+      "Dione de Cobra de Plasma (Chicote)",
+      "Eden de Maça de Impulso (Clava)",
+      "Europa de Corte Retalhador (Chakram)",
+      "Gália de Espada da Guerra",
+      "Greip de Matador de Almas (Foice da Morte)",
+      "Halimede (Barra Tripla)",
+      "Hati (Adaga)",
+      "Hyperion de Espada da Destruição",
+      "Loge de Brionac (Lança)",
+      "Metone de Máxima Brilhante (Garras)",
+      "Miller de Luva Alquímica",
+      "Paradox de Jano Escarlate (Cetro)",
+      "Réia de Marionetes",
+      "Surtr de Pedra Mística",
+      "Tarvos de Esmagador de Estrelas (Mangual)",
+      "Tebe de Impacto Demoníaco (Martelo)",
+      "Titan de Espada da Criação",
+      "Tokisada de Relógio da Morte",
+      "Ymir de Máxima Brilhante (Garras)"
+    ],
+    "Sem Face": [
+      "Sem Face Ceifador de Almas",
+      "Sem Face Dragão",
+      "Sem Face Piromaníaco",
+      "Wadatsumi"
+    ],
+    "Gladiadores": [
+      "Alice de Vorpal",
+      "Lancelot de Arondight",
+      "Paracelsus de Azoth",
+      "Roland de Durandal",
+      "Sigurd de Gram"
+    ], 
     "Cavaleiros Fantasmas": {
       "Fantasmas liderados por Jisty": [
         "Golfinho",
@@ -655,287 +706,246 @@
       "(Ômega) Pallas",
       "(Ômega) Saturno"
     ]
+  }, 
+  "Outros": {
+    "Animais": [
+      "Adolf",
+      "Blondie",
+      "Cacatua da Paradox",
+      "Cãozinho do Alone (Lost Canvas)",
+      "Cérbero",
+      "Cérbero (Animal - Lost Canvas)",
+      "Coelho (Shina)",
+      "Corvos (Jamian)",
+      "Esquilo da Paradox",
+      "Fadas do Submundo",
+      "Goldie",
+      "Guing",
+      "Hayate",
+      "Kokuto",
+      "Lebre",
+      "Lebre (história budista)",
+      "Lobos do Fenrir",
+      "Morcegos do Wimber",
+      "Moscas da Verônica",
+      "Pardais da Mudan",
+      "Pássaro (Água da Vida)",
+      "Pássaros da Paradox",
+      "Pégaso",
+      "Raposa (história budista)",
+      "Tigre (Shaka)",
+      "Urso (Geki)",
+      "Urso (Hyoga)",
+      "Urso e Peixe (história budista)"
+    ],
+    "Coadjuvantes ou secundários": [
+      "Adversário do Ohko #1",
+      "Adversário do Ohko #2",
+      "Agathia",
+      "Ahimsa",
+      "Akira",
+      "Amazona #1",
+      "Amazona #2",
+      "Ana",
+      "Anna",
+      "Anna (Lost Canvas)",
+      "Ares (Arles)",
+      "Atla",
+      "Avô da Helen",
+      "Bombeiros",
+      "Caro",
+      "Cássios",
+      "Cavaleiro do Fogo",
+      "Centauros",
+      "Cliff Okentos",
+      "Conner",
+      "Cor Tauri",
+      "Deles",
+      "Desconhecido #1 (Lost Canvas)",
+      "Discípulos do Albion",
+      "Dócrates",
+      "Dr. Asamori Hakase",
+      "Eiri",
+      "Empregada da Fundação Graad",
+      "Esmeralda",
+      "Esperança",
+      "Espião da NTE",
+      "Espião do Santuário",
+      "Esqueletos de Jamiel #1",
+      "Esqueletos de Jamiel #2",
+      "Ethlinn",
+      "Eurídice",
+      "Europa",
+      "Europa (Lost Canvas)",
+      "Failinis",
+      "Ferser de Terror Negro",
+      "Filha adotiva da Selinsa",
+      "Filhos da Europa",
+      "Flaille",
+      "Fluorite",
+      "Fugitivos do Santuário (Algol)",
+      "Funcionário da Fundação Graad #1",
+      "Funcionário da Fundação Graad #2",
+      "Funcionário da Fundação Graad #3",
+      "Gangsa",
+      "Garan",
+      "Garoto Pobre #1 (Lost Canvas)",
+      "Garoto Pobre #2 (Lost Canvas)",
+      "Georges",
+      "Gigars",
+      "Gioca",
+      "Gladiador (Lost Canvas)",
+      "Hao",
+      "Hécate",
+      "Hecatônquiros",
+      "Héctor",
+      "Helen",
+      "Helena",
+      "Irmãos da Helena",
+      "Jacob",
+      "Jaki",
+      "Jericho (Ciclone Diabólico)",
+      "Jet",
+      "Ji-Woo",
+      "John Black",
+      "Kiki",
+      "Legionários de Rá",
+      "Lithos",
+      "Lyfia",
+      "Mãe da Conner",
+      "Mãe do Ahimsa",
+      "Mãe do Gioca",
+      "Maiya (Lost Canvas)",
+      "Makoto",
+      "Maria",
+      "Marido da Garnet",
+      "Médico da Fundação Graad #1",
+      "Médicos da Fundação Graad",
+      "Mei de Coma Berenices",
+      "Mestre Ares (Arles)",
+      "Mestre Cristal",
+      "Mestre do Sage e Hakurei",
+      "Mi-Young",
+      "Miko Hasegawa",
+      "Militar #1",
+      "Militares",
+      "Mimiko",
+      "Mine",
+      "Minu",
+      "Mirai",
+      "Mischa",
+      "Mito",
+      "Mitsumasa Kido",
+      "Motoqueiro",
+      "Muirgheas Lugh",
+      "Natássia (Episódio G)",
+      "Natássia (mãe do Hyoga)",
+      "Náufrago (Sibéria)",
+      "Nguyen",
+      "Ninfas",
+      "Nishiyama",
+      "Ohko",
+      "Padre (Lost Canvas)",
+      "Pai da Agathia",
+      "Pai da Fluorite",
+      "Pai do Lacaille",
+      "Pais do Alone e Sasha",
+      "Pakia",
+      "Palmer",
+      "Pandora",
+      "Paulo",
+      "Pefko",
+      "Pesce",
+      "Phillip",
+      "Pigro",
+      "Piloto da Fundação Graad #1",
+      "Piloto da Fundação Graad #2",
+      "Piloto da Fundação Graad #3",
+      "Piloto da Fundação Graad #4",
+      "Piloto da Fundação Graad #5",
+      "Pilotos de Helicóptero",
+      "Pirata #1 (Jisty)",
+      "Pirata #2 (Jisty)",
+      "Pirata #3 (Jisty)",
+      "Piratas (Jisty)",
+      "Píton",
+      "Policial",
+      "População de Kohoutek",
+      "População de Rozan",
+      "Povo dos Titãs",
+      "Primo da Ursula e Chris Walden",
+      "Raki",
+      "Ray",
+      "Reda",
+      "Rei Minos",
+      "Repórter da NHA",
+      "Repórter da NHK",
+      "Rine",
+      "Rumi",
+      "Salo",
+      "Seika",
+      "Selene",
+      "Selinsa",
+      "Servas de Ares (Arles)",
+      "Servente da Aria",
+      "Shinato",
+      "Shoryu",
+      "Shunrei",
+      "Soldado de Kohoutek",
+      "Soldados de Dócrates",
+      "Soldados do Jamian",
+      "Spartan",
+      "Spika",
+      "Sra. Fraille",
+      "Sui",
+      "Suisho",
+      "Takamichi",
+      "Tatsumi",
+      "Tatsuya",
+      "Terrorista #1",
+      "Terrorista #2",
+      "Terrorista de Three Mile Island",
+      "Toki de Esperança",
+      "Tomoe",
+      "Tripulantes do Navio da Fundação Graad",
+      "Turistas na Grécia",
+      "Ursula Walden",
+      "Viajante (história budista)",
+      "Vice-Diretor da Palaestra",
+      "Viviane (Dama do Lago)",
+      "Yilin",
+      "Yoshimi Morigakure Masataka",
+      "Yoshino Hino"
+    ],
+    "Líderes": [
+      "Alberich XIII",
+      "Ancestral do Siegfried",
+      "Folken",
+      "Frey",
+      "Freya (irmã da Hilda)",
+      "Freya (irmã do Frey)",
+      "Hilda de Polaris",
+      "Mãe do Fenrir",
+      "Mãe do Mime",
+      "Mãe do Shido e Bado",
+      "Pai do Fenrir",
+      "Pai do Mime",
+      "Pai do Shido e Bado"
+    ],
+    "GC": [
+      "Médico da Guerra Galáctica #1",
+      "Médico da Guerra Galáctica #2",
+      "Médico da Guerra Galáctica #3",
+      "Narrador da Guerra Galáctica"
+    ],
+    "Soldados": [
+      "Soldado do Santuário #1",
+      "Soldado do Santuário #2",
+      "Soldado do Santuário #3",
+      "Soldado do Santuário #4",
+      "Soldado do Santuário #5",
+      "Soldado do Santuário #6",
+      "Soldado do Santuário #7"
+    ]
   }
 }
-
-Outro - Animal	Adolf
-Outro - Animal	Blondie
-Outro - Animal	Cacatua da Paradox
-Outro - Animal	Cãozinho do Alone (Lost Canvas)
-Outro - Animal	Cérbero
-Outro - Animal	Cérbero (Animal - Lost Canvas)
-Outro - Animal	Coelho (Shina)
-Outro - Animal	Corvos (Jamian)
-Outro - Animal	Esquilo da Paradox
-Outro - Animal	Fadas do Submundo
-Outro - Animal	Goldie
-Outro - Animal	Guing
-Outro - Animal	Hayate
-Outro - Animal	Kokuto
-Outro - Animal	Lebre
-Outro - Animal	Lebre (história budista)
-Outro - Animal	Lobos do Fenrir
-Outro - Animal	Morcegos do Wimber
-Outro - Animal	Moscas da Verônica
-Outro - Animal	Pardais da Mudan
-Outro - Animal	Pássaro (Água da Vida)
-Outro - Animal	Pássaros da Paradox
-Outro - Animal	Pégaso
-Outro - Animal	Raposa (história budista)
-Outro - Animal	Tigre (Shaka)
-Outro - Animal	Urso (Geki)
-Outro - Animal	Urso (Hyoga)
-Outro - Animal	Urso e Peixe (história budista)
-Outro - Coadjuvante ou Secundário	Adversário do Ohko #1
-Outro - Coadjuvante ou Secundário	Adversário do Ohko #2
-Outro - Coadjuvante ou Secundário	Agathia
-Outro - Coadjuvante ou Secundário	Ahimsa
-Outro - Coadjuvante ou Secundário	Akira
-Outro - Coadjuvante ou Secundário	Amazona #1
-Outro - Coadjuvante ou Secundário	Amazona #2
-Outro - Coadjuvante ou Secundário	Ana
-Outro - Coadjuvante ou Secundário	Anna
-Outro - Coadjuvante ou Secundário	Anna (Lost Canvas)
-Outro - Coadjuvante ou Secundário	Ares (Arles)
-Outro - Coadjuvante ou Secundário	Atla
-Outro - Coadjuvante ou Secundário	Avô da Helen
-Outro - Coadjuvante ou Secundário	Bombeiros
-Outro - Coadjuvante ou Secundário	Caro
-Outro - Coadjuvante ou Secundário	Cássios
-Outro - Coadjuvante ou Secundário	Cavaleiro do Fogo
-Outro - Coadjuvante ou Secundário	Centauros
-Outro - Coadjuvante ou Secundário	Cliff Okentos
-Outro - Coadjuvante ou Secundário	Conner
-Outro - Coadjuvante ou Secundário	Cor Tauri
-Outro - Coadjuvante ou Secundário	Deles
-Outro - Coadjuvante ou Secundário	Desconhecido #1 (Lost Canvas)
-Outro - Coadjuvante ou Secundário	Discípulos do Albion
-Outro - Coadjuvante ou Secundário	Dócrates
-Outro - Coadjuvante ou Secundário	Dr. Asamori Hakase
-Outro - Coadjuvante ou Secundário	Eiri
-Outro - Coadjuvante ou Secundário	Empregada da Fundação Graad
-Outro - Coadjuvante ou Secundário	Esmeralda
-Outro - Coadjuvante ou Secundário	Esperança
-Outro - Coadjuvante ou Secundário	Espião da NTE
-Outro - Coadjuvante ou Secundário	Espião do Santuário
-Outro - Coadjuvante ou Secundário	Esqueletos de Jamiel #1
-Outro - Coadjuvante ou Secundário	Esqueletos de Jamiel #2
-Outro - Coadjuvante ou Secundário	Ethlinn
-Outro - Coadjuvante ou Secundário	Eurídice
-Outro - Coadjuvante ou Secundário	Europa
-Outro - Coadjuvante ou Secundário	Europa (Lost Canvas)
-Outro - Coadjuvante ou Secundário	Failinis
-Outro - Coadjuvante ou Secundário	Ferser de Terror Negro
-Outro - Coadjuvante ou Secundário	Filha adotiva da Selinsa
-Outro - Coadjuvante ou Secundário	Filhos da Europa
-Outro - Coadjuvante ou Secundário	Flaille
-Outro - Coadjuvante ou Secundário	Fluorite
-Outro - Coadjuvante ou Secundário	Fugitivos do Santuário (Algol)
-Outro - Coadjuvante ou Secundário	Funcionário da Fundação Graad #1
-Outro - Coadjuvante ou Secundário	Funcionário da Fundação Graad #2
-Outro - Coadjuvante ou Secundário	Funcionário da Fundação Graad #3
-Outro - Coadjuvante ou Secundário	Gangsa
-Outro - Coadjuvante ou Secundário	Garan
-Outro - Coadjuvante ou Secundário	Garoto Pobre #1 (Lost Canvas)
-Outro - Coadjuvante ou Secundário	Garoto Pobre #2 (Lost Canvas)
-Outro - Coadjuvante ou Secundário	Georges
-Outro - Coadjuvante ou Secundário	Gigars
-Outro - Coadjuvante ou Secundário	Gioca
-Outro - Coadjuvante ou Secundário	Gladiador (Lost Canvas)
-Outro - Coadjuvante ou Secundário	Hao
-Outro - Coadjuvante ou Secundário	Hécate
-Outro - Coadjuvante ou Secundário	Hecatônquiros
-Outro - Coadjuvante ou Secundário	Héctor
-Outro - Coadjuvante ou Secundário	Helen
-Outro - Coadjuvante ou Secundário	Helena
-Outro - Coadjuvante ou Secundário	Irmãos da Helena
-Outro - Coadjuvante ou Secundário	Jacob
-Outro - Coadjuvante ou Secundário	Jaki
-Outro - Coadjuvante ou Secundário	Jericho (Ciclone Diabólico)
-Outro - Coadjuvante ou Secundário	Jet
-Outro - Coadjuvante ou Secundário	Ji-Woo
-Outro - Coadjuvante ou Secundário	John Black
-Outro - Coadjuvante ou Secundário	Kiki
-Outro - Coadjuvante ou Secundário	Legionários de Rá
-Outro - Coadjuvante ou Secundário	Lithos
-Outro - Coadjuvante ou Secundário	Lyfia
-Outro - Coadjuvante ou Secundário	Mãe da Conner
-Outro - Coadjuvante ou Secundário	Mãe do Ahimsa
-Outro - Coadjuvante ou Secundário	Mãe do Gioca
-Outro - Coadjuvante ou Secundário	Maiya (Lost Canvas)
-Outro - Coadjuvante ou Secundário	Makoto
-Outro - Coadjuvante ou Secundário	Maria
-Outro - Coadjuvante ou Secundário	Marido da Garnet
-Outro - Coadjuvante ou Secundário	Médico da Fundação Graad #1
-Outro - Coadjuvante ou Secundário	Médicos da Fundação Graad
-Outro - Coadjuvante ou Secundário	Mei de Coma Berenices
-Outro - Coadjuvante ou Secundário	Mestre Ares (Arles)
-Outro - Coadjuvante ou Secundário	Mestre Cristal
-Outro - Coadjuvante ou Secundário	Mestre do Sage e Hakurei
-Outro - Coadjuvante ou Secundário	Mi-Young
-Outro - Coadjuvante ou Secundário	Miko Hasegawa
-Outro - Coadjuvante ou Secundário	Militar #1
-Outro - Coadjuvante ou Secundário	Militares
-Outro - Coadjuvante ou Secundário	Mimiko
-Outro - Coadjuvante ou Secundário	Mine
-Outro - Coadjuvante ou Secundário	Minu
-Outro - Coadjuvante ou Secundário	Mirai
-Outro - Coadjuvante ou Secundário	Mischa
-Outro - Coadjuvante ou Secundário	Mito
-Outro - Coadjuvante ou Secundário	Mitsumasa Kido
-Outro - Coadjuvante ou Secundário	Motoqueiro
-Outro - Coadjuvante ou Secundário	Muirgheas Lugh
-Outro - Coadjuvante ou Secundário	Natássia (Episódio G)
-Outro - Coadjuvante ou Secundário	Natássia (mãe do Hyoga)
-Outro - Coadjuvante ou Secundário	Náufrago (Sibéria)
-Outro - Coadjuvante ou Secundário	Nguyen
-Outro - Coadjuvante ou Secundário	Ninfas
-Outro - Coadjuvante ou Secundário	Nishiyama
-Outro - Coadjuvante ou Secundário	Ohko
-Outro - Coadjuvante ou Secundário	Padre (Lost Canvas)
-Outro - Coadjuvante ou Secundário	Pai da Agathia
-Outro - Coadjuvante ou Secundário	Pai da Fluorite
-Outro - Coadjuvante ou Secundário	Pai do Lacaille
-Outro - Coadjuvante ou Secundário	Pais do Alone e Sasha
-Outro - Coadjuvante ou Secundário	Pakia
-Outro - Coadjuvante ou Secundário	Palmer
-Outro - Coadjuvante ou Secundário	Pandora
-Outro - Coadjuvante ou Secundário	Paulo
-Outro - Coadjuvante ou Secundário	Pefko
-Outro - Coadjuvante ou Secundário	Pesce
-Outro - Coadjuvante ou Secundário	Phillip
-Outro - Coadjuvante ou Secundário	Pigro
-Outro - Coadjuvante ou Secundário	Piloto da Fundação Graad #1
-Outro - Coadjuvante ou Secundário	Piloto da Fundação Graad #2
-Outro - Coadjuvante ou Secundário	Piloto da Fundação Graad #3
-Outro - Coadjuvante ou Secundário	Piloto da Fundação Graad #4
-Outro - Coadjuvante ou Secundário	Piloto da Fundação Graad #5
-Outro - Coadjuvante ou Secundário	Pilotos de Helicóptero
-Outro - Coadjuvante ou Secundário	Pirata #1 (Jisty)
-Outro - Coadjuvante ou Secundário	Pirata #2 (Jisty)
-Outro - Coadjuvante ou Secundário	Pirata #3 (Jisty)
-Outro - Coadjuvante ou Secundário	Piratas (Jisty)
-Outro - Coadjuvante ou Secundário	Píton
-Outro - Coadjuvante ou Secundário	Policial
-Outro - Coadjuvante ou Secundário	População de Kohoutek
-Outro - Coadjuvante ou Secundário	População de Rozan
-Outro - Coadjuvante ou Secundário	Povo dos Titãs
-Outro - Coadjuvante ou Secundário	Primo da Ursula e Chris Walden
-Outro - Coadjuvante ou Secundário	Raki
-Outro - Coadjuvante ou Secundário	Ray
-Outro - Coadjuvante ou Secundário	Reda
-Outro - Coadjuvante ou Secundário	Rei Minos
-Outro - Coadjuvante ou Secundário	Repórter da NHA
-Outro - Coadjuvante ou Secundário	Repórter da NHK
-Outro - Coadjuvante ou Secundário	Rine
-Outro - Coadjuvante ou Secundário	Rumi
-Outro - Coadjuvante ou Secundário	Salo
-Outro - Coadjuvante ou Secundário	Seika
-Outro - Coadjuvante ou Secundário	Selene
-Outro - Coadjuvante ou Secundário	Selinsa
-Outro - Coadjuvante ou Secundário	Servas de Ares (Arles)
-Outro - Coadjuvante ou Secundário	Servente da Aria
-Outro - Coadjuvante ou Secundário	Shinato
-Outro - Coadjuvante ou Secundário	Shoryu
-Outro - Coadjuvante ou Secundário	Shunrei
-Outro - Coadjuvante ou Secundário	Soldado de Kohoutek
-Outro - Coadjuvante ou Secundário	Soldados de Dócrates
-Outro - Coadjuvante ou Secundário	Soldados do Jamian
-Outro - Coadjuvante ou Secundário	Spartan
-Outro - Coadjuvante ou Secundário	Spika
-Outro - Coadjuvante ou Secundário	Sra. Fraille
-Outro - Coadjuvante ou Secundário	Sui
-Outro - Coadjuvante ou Secundário	Suisho
-Outro - Coadjuvante ou Secundário	Takamichi
-Outro - Coadjuvante ou Secundário	Tatsumi
-Outro - Coadjuvante ou Secundário	Tatsuya
-Outro - Coadjuvante ou Secundário	Terrorista #1
-Outro - Coadjuvante ou Secundário	Terrorista #2
-Outro - Coadjuvante ou Secundário	Terrorista de Three Mile Island
-Outro - Coadjuvante ou Secundário	Toki de Esperança
-Outro - Coadjuvante ou Secundário	Tomoe
-Outro - Coadjuvante ou Secundário	Tripulantes do Navio da Fundação Graad
-Outro - Coadjuvante ou Secundário	Turistas na Grécia
-Outro - Coadjuvante ou Secundário	Ursula Walden
-Outro - Coadjuvante ou Secundário	Viajante (história budista)
-Outro - Coadjuvante ou Secundário	Vice-Diretor da Palaestra
-Outro - Coadjuvante ou Secundário	Viviane (Dama do Lago)
-Outro - Coadjuvante ou Secundário	Yilin
-Outro - Coadjuvante ou Secundário	Yoshimi Morigakure Masataka
-Outro - Coadjuvante ou Secundário	Yoshino Hino
-Outro - Líder	Alberich XIII
-Outro - Líder	Ancestral do Siegfried
-Outro - Líder	Folken
-Outro - Líder	Frey
-Outro - Líder	Freya (irmã da Hilda)
-Outro - Líder	Freya (irmã do Frey)
-Outro - Líder	Hilda de Polaris
-Outro - Líder	Mãe do Fenrir
-Outro - Líder	Mãe do Mime
-Outro - Líder	Mãe do Shido e Bado
-Outro - Líder	Pai do Fenrir
-Outro - Líder	Pai do Mime
-Outro - Líder	Pai do Shido e Bado
-OutrosGC	Médico da Guerra Galáctica #1
-OutrosGC	Médico da Guerra Galáctica #2
-OutrosGC	Médico da Guerra Galáctica #3
-OutrosGC	Narrador da Guerra Galáctica
-OutrosSoldados	Soldado do Santuário #1
-OutrosSoldados	Soldado do Santuário #2
-OutrosSoldados	Soldado do Santuário #3
-OutrosSoldados	Soldado do Santuário #4
-OutrosSoldados	Soldado do Santuário #5
-OutrosSoldados	Soldado do Santuário #6
-OutrosSoldados	Soldado do Santuário #7
-Pallasita	Aegir de Braço Fantasma (Manopla)
-Pallasita	Aigaion de Espada do Trovão
-Pallasita	Cilene de Matador de Almas (Foice da Morte)
-Pallasita	Dione de Cobra de Plasma (Chicote)
-Pallasita	Eden de Maça de Impulso (Clava)
-Pallasita	Europa de Corte Retalhador (Chakram)
-Pallasita	Gália de Espada da Guerra
-Pallasita	Greip de Matador de Almas (Foice da Morte)
-Pallasita	Halimede (Barra Tripla)
-Pallasita	Hati (Adaga)
-Pallasita	Hyperion de Espada da Destruição
-Pallasita	Loge de Brionac (Lança)
-Pallasita	Metone de Máxima Brilhante (Garras)
-Pallasita	Miller de Luva Alquímica
-Pallasita	Paradox de Jano Escarlate (Cetro)
-Pallasita	Réia de Marionetes
-Pallasita	Surtr de Pedra Mística
-Pallasita	Tarvos de Esmagador de Estrelas (Mangual)
-Pallasita	Tebe de Impacto Demoníaco (Martelo)
-Pallasita	Titan de Espada da Criação
-Pallasita	Tokisada de Relógio da Morte
-Pallasita	Ymir de Máxima Brilhante (Garras)
-Pítia	Arches
-Pítia	Ninfas (Pítias)
-Saintia	Elda de Cassiopéia
-Saintia	Katya de Coroa Boreal
-Saintia	Kyoko de Cavalo Menor
-Saintia	Mii de Golfinho
-Saintia	Shoko de Cavalo Menor
-Saintia	Xiaoling de Ursa Menor
-Satélite	Calisto
-Satélite	Rasku Moon
-Satélite	Satélite #1
-Satélite	Satélite #2
-Satélite	Satélite #3
-Satélite	Satélite #4
-Satélite	Satélite #5
-Satélite	Satélite #6
-Satélite	Satélite #7
-Satélite	Satélite #8
-Sem Face	Sem Face Ceifador de Almas
-Sem Face	Sem Face Dragão
-Sem Face	Sem Face Piromaníaco
-Sem Face	Wadatsumi
-Taonia	Feiyan de Hakutaku
-Taonia	Hakuryu
-Taonia	Hui de Kyuubi
-Taonia	Liu Xing
-Taonia	Mudan de Pardal
-Taonia	Taonias de alto escalão
-Taonia	Taonias de baixo escalão
-
