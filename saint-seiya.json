@@ -284,23 +284,27 @@
       {"Toas (Relâmpago Célebre)": {}},
       {"Zugilos de Anthrakma":{}}
     ],
-    "Titãs": [
-      {"Atlas": {}},
-      {"Céos (Relâmpago Negro)": {}},
-      {"Créos (Galáxia)": {}},
-      {"Cronos (Tempo)": {}},
-      {"Euríbia": {}},
-      {"Febe (Lua)": {}},
-      {"Hyperion (Ébano)": {}},
-      {"Iápeto (Dimensões)": {}},
-      {"Mnemôsine (Memória)": {}},
-      {"Oceano (Dilúvio)": {}},
-      {"Prometeu": {}},
-      {"Réia (Mãe dos Deuses)": {}},
-      {"Téia (Luz e Fogo)": {}},
-      {"Têmis (Justiça)": {}},
-      {"Tétis (Mar)": {}}
-    ],
+    "Titãs": {
+      "Os 12 Titãs": [
+        {"Céos (Relâmpago Negro)": {}},
+        {"Créos (Galáxia)": {}},
+        {"Cronos (Tempo)": {}},
+        {"Febe (Lua)": {}},
+        {"Hyperion (Ébano)": {}},
+        {"Iápeto (Dimensões)": {}},
+        {"Mnemôsine (Memória)": {}},
+        {"Oceano (Dilúvio)": {}},
+        {"Réia (Mãe dos Deuses)": {}},
+        {"Téia (Luz e Fogo)": {}},
+        {"Têmis (Justiça)": {}},
+        {"Tétis (Mar)": {}}
+      ],
+      "Outros titãs": [
+        {"Atlas": {}},
+        {"Euríbia": {}},
+        {"Prometeu": {}},
+      ]
+    },
     "Fadas de Balor": [
       {"Shelley de Banshee": {}}
     ],
