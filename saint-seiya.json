@@ -83,179 +83,366 @@
           ]
         },
         "Carina": {
-          "BronzeSaints": [{"Atlas de Carena": {"Corona Saints": []}}]
+          "BronzeSaints": [{"Atlas de Carena": {"Rank": ["Corona Saints"]}}]
         },
         "Cassiopeia": {
-          "BronzeSaints": [{"Cassiopéia (Lost Canvas)": {}}, {"Elda de Cassiopéia": {}}]
+          "BronzeSaints": [{"Cassiopéia (Lost Canvas)": {}}, {"Elda de Cassiopéia": {"Rank": ["Saintia"]}}]
         },
-        "Cavaleiros de Bronze": [
-          {"Argo de Peixe-Voador": {}},
-          {"Arne de Lebre": {}},
-          {"Ban de Leão Menor": {}},
-          {"Bleriot de Leão Menor": {}},
-          {"Camaleão (Lost Canvas, séc. 15)": {}},
-          {"Celeris de Cavalo Menor": {}},
-          {"Curtis de Hidra": {}},
-          {"Dali de Coroa Boreal": {}},
-          {"Douglas de Urso": {}},
-          {"Eden de Orion": {}},
-          {"Erídano (Lost Canvas)": {}},
-          {"Geki de Urso": {}},
-          {"Gray de Pombo": {}},
-          {"Guney de Golfinho": {}},
-          {"Haruto de Lobo": {}},
-          {"Hidra (Lost Canvas, séc. 15)": {}},
-          {"Hook de Compasso": {}},
-          {"Hyoga de Cisne": {}},
-          {"Ichi de Hidra": {}},
-          {"Ichi de Hidra (Ômega)": {}},
-          {"Ikki de Fênix": {}},
-          {"Índio (Lost Canvas)": {}},
-          {"Jabu de Unicórnio": {}},
-          {"Jabu de Unicórnio (Ômega)": {}},
-          {"June de Camaleão": {}},
-          {"Junkers de Lobo": {}},
-          {"Kitalpha de Cavalo Menor": {}},
-          {"Komachi de Grou": {}},
-          {"Kouga de Pégaso": {}},
-          {"Luciano de Esquadro": {}},
-          {"Mei de Coma Berenices": {}},
-          {"Mirapolos de Lince": {}},
-          {"Nachi de Lobo": {}},
-          {"Peixe-Voador (Lost Canvas)": {}},
-          {"Retsu de Lince": {}},
-          {"Rudolph de Rena": {}},
-          {"Rusk de Bússola": {}},
-          {"Ryuho de Dragão": {}},
-          {"Seiya de Pégaso": {}},
-          {"Shiryu de Dragão": {}},
-          {"Souma de Leão Menor": {}},
-          {"Spear de Peixe-Espada": {}},
-          {"Subaru de Cavalo Menor": {}},
-          {"Tenma de Pégaso (Lost Canvas)": {}},
-          {"Tenma de Pégaso (Next Dimension)": {}},
-          {"Urso (Lost Canvas, séc. 15)": {}},
-          {"Yato de Unicórnio": {}},
-          {"Yoshitomi de Lobo": {}},
-          {"Yuuri de Sextante": {}},
-          {"Katya de Coroa Boreal": {}},
-          {"Kyoko de Cavalo Menor": {}},
-          {"Mii de Golfinho": {}},
-          {"Shoko de Cavalo Menor": {}},
-          {"Xiaoling de Ursa Menor": {}}
-        ], 
-        "Cavaleiros de Prata": [
-          {"Ágora de Lótus": {}},
-          {"Albion (Daidaros) de Cefeu": {}},
-          {"Alfa do Centauro (Lost Canvas, Grupo do Sísifo)": {}},
-          {"Algethi de Hércules": {}},
-          {"Algol de Perseu": {}},
-          {"Aracne de Tarântula": {}},
-          {"Archon de Sagita": {}},
-          {"Babel de Centauro": {}},
-          {"Baleia (Lost Canvas)": {}},
-          {"Berlozzo de Retículo": {}},
-          {"Cavaleiro de Prata - #1": {}},
-          {"Cavaleiro de Prata - #2": {}},
-          {"Cavaleiro de Prata - #3": {}},
-          {"Cavaleiro de Prata - #4": {}},
-          {"Cérbero (Lost Canvas, séc. 15)": {}},
-          {"Cérbero (Lost Canvas)": {}},
-          {"Cobra (Lost Canvas, séc. 15)": {}},
-          {"Cobra (Lost Canvas)": {}},
-          {"Coroa Boreal (Lost Canvas, Grupo do Sísifo)": {}},
-          {"Corvo (Lost Canvas)": {}},
-          {"Dante de Cérbero": {}},
-          {"Desconhecido (Lost Canvas)": {}},
-          {"Dio de Mosca": {}},
-          {"Dorer de Cérbero": {}},
-          {"Ennead de Escudo": {}},
-          {"Fly de Mosca": {}},
-          {"Georg de Cruzeiro do Sul": {}},
-          {"Golfinho (Lost Canvas, Grupo do Sísifo)": {}},
-          {"Hércules (Lost Canvas)": {}},
-          {"Jamian de Corvo": {}},
-          {"Johan de Corvo": {}},
-          {"Juan de Escudo": {}},
-          {"Kazuma de Cruzeiro do Sul": {}},
-          {"Lacaille de Popa": {}},
-          {"Lagarto (Lost Canvas)": {}},
-          {"Lebre (Lost Canvas, Grupo do Sísifo)": {}},
-          {"Lira (Lost Canvas, séc. 15)": {}},
-          {"Mayura de Pavão": {}},
-          {"Menkar de Baleia": {}},
-          {"Mirfak de Perseu": {}},
-          {"Misty de Lagarto": {}},
-          {"Mosca (Lost Canvas)": {}},
-          {"Mouses de Baleia": {}},
-          {"Noesis de Triângulo": {}},
-          {"Orfeu de Lira": {}},
-          {"Perseu (Lost Canvas, Grupo do Sísifo)": {}},
-          {"Perseu (Lost Canvas, séc. 15)": {}},
-          {"Plavin de Pavão": {}},
-          {"Rigel de Orion": {}},
-          {"Sagita (Lost Canvas)": {}},
-          {"Shina de Cobra": {}},
-          {"Shina de Cobra (Ômega)": {}},
-          {"Shiva de Pavão": {}},
-          {"Siam de Sagita": {}},
-          {"Suikyô de Taça": {}},
-          {"Tokisada de Relógio": {}},
-          {"Tremy de Flecha (Sagita)": {}},
-          {"Tsubaki de Vela": {}},
-          {"Tucano (Lost Canvas, Grupo do Sísifo)": {}},
-          {"Yuzuriha de Grou": {}}
-        ], 
-        "Cavaleiros de Ouro": [
-          {"Abel de Gêmeos": {}},
-          {"Afrodite de Peixes": {}},
-          {"Aiolia de Leão": {}},
-          {"Aiolos de Sagitário": {}},
-          {"Albafica de Peixes": {}},
-          {"Aldebaran de Touro": {}},
-          {"Amor de Peixes": {}},
-          {"Asmita de Virgem": {}},
-          {"Aspros de Gêmeos": {}},
-          {"Cain de Gêmeos": {}},
-          {"Cardinale de Peixes": {}},
-          {"Defteros de Gêmeos": {}},
-          {"Dohko de Libra": {}},
-          {"Dohko de Libra (Lost Canvas)": {}},
-          {"Dohko de Libra (Next Dimension)": {}},
-          {"Escarlate (Écarlate) de Escorpião": {}},
-          {"Francisca de Touro": {}},
-          {"Fudou de Virgem": {}},
-          {"Gembu de Libra": {}},
-          {"Gestalt de Sagitário": {}},
-          {"Harbinger de Touro": {}},
-          {"Hasgard de Touro": {}},
-          {"Ilias de Leão": {}},
-          {"Itia de Libra": {}},
-          {"Kaiser de Leão": {}},
-          {"Kanon de Gêmeos": {}},
-          {"Kardia de Escorpião": {}},
-          {"Leão (Lost Canvas, séc. 13)": {}},
-          {"Leão (Lost Canvas, séc. 16)": {}},
-          {"Lugonis de Peixes": {}},
-          {"Micenas de Leão": {}},
-          {"Milo de Escorpião": {}},
-          {"Ox de Touro": {}},
-          {"Paradox de Gêmeos": {}},
-          {"Peixes (Lost Canvas, séc. 15)": {}},
-          {"Regulus de Leão": {}},
-          {"Saga de Gêmeos": {}},
-          {"Sagitário (Lost Canvas, séc. 16)": {}},
-          {"Seiya de Sagitário (Ômega)": {}},
-          {"Shaka de Virgem": {}},
-          {"Shijima de Virgem": {}},
-          {"Shiryu de Libra": {}},
-          {"Sísifo de Sagitário": {}},
-          {"Sonia de Escorpião": {}},
-          {"Teneo de Touro": {}},
-          {"Touro (Lost Canvas, séc. 15)": {}},
-          {"Touro (Lost Canvas, séc.16)": {}},
-          {"Zafiri de Escorpião": {}}
-        ], 
+        "Centaurus": {
+          "SilverSaints": [{"Alfa do Centauro (Lost Canvas, Grupo do Sísifo)": {}}, {"Babel de Centauro": {}}]
+        },
+        "Cepheus": {
+          "SilverSaints": [{"Albion (Daidaros) de Cefeu": {}}]
+        },
+        "Cetus": {
+          "SilverSaints": [
+            {"Baleia (Lost Canvas)": {}}, 
+            {"Menkar de Baleia": {}},
+            {"Mouses de Baleia": {}}
+          ]
+        },
+        "Chameleon": {
+          "BronzeSaints": [{"Camaleão (Lost Canvas, séc. 15)": {}}, {"June de Camaleão": {}}]
+        },
+        "Circinus": {
+          "BronzeSaints": [{"Hook de Compasso": {}}]
+        },
+        "Columba": {
+          "BronzeSaints": [{"Gray de Pombo": {}}],
+          "SilverSaints": [{"Armadura de Pomba Silver": {"Midia": ["Saint Seiya Online"]}}]
+        },
+        "Comas Berenices": {
+          "BronzeSaints": [
+            {"Berengue de Coma Berenices": {"Rank": ["Corona Saints"]}},
+            {"Mei de Coma Berenices": {"Rank": ["Unknown Cloths"]}}
+          ]
+        },
+        "Corona Australis": {
+          "BronzeSaints": [{"Armadura de Coroa Austral": {"Midia": "Saint Seiya Online"}}]
+        },
+        "Corona Borealis": {
+          "BronzeSaints": [
+            {"Dali de Coroa Boreal": {}},
+            {"Katya de Coroa Boreal": {"Rank": ["Saintia"]}},
+            {"Armadura de Coroa Boreal Bronze": {"Midia": ["Saint Seiya Online"]}}
+          ],
+          "SilverSaints": [{"Coroa Boreal (Lost Canvas, Grupo do Sísifo)": {}}]
+        },
+        "Corvus": {
+          "SilverSaints": [
+            {"Corvo (Lost Canvas)": {}},
+            {"Jamian de Corvo": {}},
+            {"Johan de Corvo": {}}
+          ]
+        },
+        "Crater": {
+          "SilverSaints": [{"Suikyô de Taça": {}}]
+        },
+        "Crux": {
+          "SilverSaints": [
+            {"Georg de Cruzeiro do Sul": {}},
+            {"Kazuma de Cruzeiro do Sul": {}},
+            {"Kraisto de Cruzeiro do Sul": {"Rank": ["Cavaleiro Fantasmas de Éris"]}}
+          ]
+        },
+        "Cygnus": {
+          "BronzeSaints": [{"Hyoga de Cisne": {}}, {"Isaak de Cisne": {}}]
+        },
+        "Delphinus": {
+          "BronzeSaints": [
+            {"Guney de Golfinho": {"Rank": ["Saintia"]}},
+            {"Golfinho (Lost Canvas, Grupo do Sísifo)": {}},
+            {"Mii de Golfinho": {}},
+            {"Golfinho": {"Rank": ["Cavaleiro Fantasma de Jisty"]}}
+          ]
+        },
+        "Dorado": {
+          "BronzeSaints": [{"Spear de Peixe-Espada": {}}]
+        },
+        "Draco": {
+          "BronzeSaints": [{"Ryuho de Dragão": {}}, {"Shiryu de Dragão": {}}]
+        },
+        "Equuleus": {
+          "BronzeSaints": [
+            {"Celeris de Cavalo Menor": {}},
+            {"Kitalpha de Cavalo Menor": {}},
+            {"Subaru de Cavalo Menor": {}},
+            {"Kyoko de Cavalo Menor": {"Rank": ["Saintia"]}},
+            {"Shoko de Cavalo Menor": {"Rank": ["Saintia"]}}
+          ]
+        },
+        "Eridanus": {
+          "BronzeSaints": [{"Erídano (Lost Canvas)": {}}]
+        },
+        "Fornax": {
+          "BronzeSaints": [{"Armadura de Fornalha Silver": {"Midia": "Saint Seiya Online"}}]
+        },
+        "Gemini": {
+          "GoldSaints": [
+            {"Abel de Gêmeos": {}},
+            {"Aspros de Gêmeos": {}},
+            {"Cain de Gêmeos": {}},
+            {"Defteros de Gêmeos": {}},
+            {"Kanon de Gêmeos": {}},
+            {"Paradox de Gêmeos": {}},
+            {"Saga de Gêmeos": {}}
+          ]
+        },
+        "Grus": {
+          "BronzeSaints": [{"Komachi de Grou": {}}],
+          "SilverSaints": [{"Yuzuriha de Grou": {}}]
+        },
+        "Heracles": {
+          "SilverSaints": [{"Algethi de Hércules": {}}, {"Hércules (Lost Canvas)": {}}]
+        },
+        "Horologium": {
+          "SilverSaints": [{"Tokisada de Relógio": {}}]
+        },
+        "Hydra": {
+          "BronzeSaints": [
+            {"Curtis de Hidra": {}},
+            {"Hidra (Lost Canvas, séc. 15)": {}},
+            {"Ichi de Hidra": {}}
+          ]
+        },
+        "Hydrus": {
+          "BronzeSaints": [{"Armadura de Hidra Macho": {"Midia": "Saint Seiya Online"}}],
+          "SilverSaints": [{"Ichi de Hidra (Ômega)": {}}]
+        },
+        "Indus": {
+          "BronzeSaints": [{"Índio (Lost Canvas)": {}}]
+        },
+        "Lacerta": {
+          "SilverSaints": [{"Lagarto (Lost Canvas)": {}}, {"Misty de Lagarto": {}}]
+        },
+        "Leo": {
+          "GoldSaints": [
+            {"Aiolia de Leão": {}},
+            {"Ilias de Leão": {}},
+            {"Kaiser de Leão": {}},
+            {"Micenas de Leão": {}},
+            {"Leão (Lost Canvas, séc. 13)": {}},
+            {"Leão (Lost Canvas, séc. 16)": {}},
+            {"Regulus de Leão": {}}
+          ]
+        },
+        "Leo Minor": {
+          "BronzeSaints": [
+            {"Ban de Leão Menor": {}},
+            {"Bleriot de Leão Menor": {}},
+            {"Souma de Leão Menor": {}}
+          ]
+        },
+        "Lepus": {
+          "BronzeSaints": [{"Arne de Lebre": {}}, {"Lebre (Lost Canvas, Grupo do Sísifo)": {}}],
+          "SilverSaints": [{"Armadura de Lebre": {"Midia": "Saint Seiya Online"}}]
+        },
+        "Libra": {
+          "GoldSaints": [
+            {"Dohko de Libra": {}},
+            {"Dohko de Libra (Lost Canvas)": {}},
+            {"Dohko de Libra (Next Dimension)": {}},
+            {"Gembu de Libra": {}},
+            {"Itia de Libra": {}},
+            {"Shiryu de Libra": {}}
+          ]
+        },
+        "Lupus": {
+          "BronzeSaints": [
+            {"Haruto de Lobo": {}},
+            {"Yoshitomi de Lobo": {}},
+            {"Junkers de Lobo": {}},
+            {"Nachi de Lobo": {}}
+          ]
+        },
+        "Lynx": {
+          "BronzeSaints": [
+            {"Mirapolos de Lince": {}},
+            {"Retsu de Lince": {}},
+            {"Jaô de Lince": {"Rank": ["Corona Saints"]}}
+          ]
+        },
+        "Lyra": {
+          "SilverSaints": [
+            {"Lira (Lost Canvas, séc. 15)": {}},
+            {"Orfeu de Lira": {}},
+            {"Orfeu de Harpa": {"Rank": ["Cavaleiro Fantasmas de Éris"]}}
+          ]
+        },
+        "Mensa": {
+          "SilverSaints": [{"Armadura de Mensa": {"Midia": "Saint Seiya Online"}}]
+        },
+        "Microscopium": {},
+        "Monoceros": {
+          "BronzeSaints": [
+            {"Jabu de Unicórnio": {}},
+            {"Jabu de Unicórnio (Ômega)": {}},
+            {"Yato de Unicórnio": {}}
+          ]
+        },
+        "Musca": {
+          "SilverSaints": [
+            {"Dio de Mosca": {}},
+            {"Fly de Mosca": {}},
+            {"Mosca (Lost Canvas)": {}}
+          ]
+        },
+        "Norma": {
+          "BronzeSaints": [{"Luciano de Esquadro": {}}]
+        },
+        "Octans": {},
+        "Ophiuchus": {
+          "SilverSaints": [
+            {"Shina de Cobra": {}},
+            {"Cobra (Lost Canvas, séc. 15)": {}},
+            {"Cobra (Lost Canvas)": {}},
+            {"Shina de Cobra (Ômega)": {}}
+          ],
+          "GoldSaints": [{"Odisseu de Serpentário": {}}]
+        },
+        "Orion": {
+          "BronzeSaints": [{"Eden de Orion": {}}],
+          "SilverSaints": [
+            {"Rigel de Orion": {"Rank": ["Cavaleiro Fantasmas de Éris"]}},
+            {"Jaga de Orion": {"Rank": ["Cavaleiro Fantasmas de Éris"]}}
+          ]
+        },
+        "Pavo": {
+          "BronzeSaints": [{"Mayura de Pavão": {}}],
+          "SilverSaints": [
+            {"Plavin de Pavão": {}},
+            {"Shiva de Pavão": {}},
+            {"Armadura de Pavão": {"Midia": "Saint Seiya Online"}}
+          ]
+        },
+        "Pegasus": {
+          "BronzeSaints": [
+            {"Seiya de Pégaso": {}},
+            {"Tenma de Pégaso (Lost Canvas)": {}},
+            {"Tenma de Pégaso (Next Dimension)": {}},
+            {"Kouga de Pégaso": {}}
+          ]
+        },
+        "Perseus": {
+          "SilverSaints": [
+            {"Algol de Perseu": {}},
+            {"Mirfak de Perseu": {}},
+            {"Perseu (Lost Canvas, Grupo do Sísifo)": {}},
+            {"Perseu (Lost Canvas, séc. 15)": {}}
+          ]
+        },
+        "Phoenix": {
+          "BronzeSaints": [{"Ikki de Fênix": {}}]
+        },
+        "Pictor": {},
+        "Pisces": {
+          "GoldSaints": [
+            {"Albafica de Peixes": {}},
+            {"Amor de Peixes": {}},
+            {"Cardinale de Peixes": {}},
+            {"Lugonis de Peixes": {}},
+            {"Afrodite de Peixes": {}},
+            {"Peixes (Lost Canvas, séc. 15)": {}}
+          ]
+        },
+        "Piscis Austrinus": {
+          "BronzeSaints": [{"Armadura de Peixe Austral": {"Midia": "Saint Seiya Online"}}]
+        },
+        "Puppis": {
+          "BronzeSaints": [{"Lacaille de Popa": {}}]
+        },
+        "Pyxis": {
+          "BronzeSaints": [{"Rusk de Bússola": {}}]
+        },
+        "Reticulum": {
+          "SilverSaints": [{"Berlozzo de Retículo": {}}]
+        },
+        "Sagitta": {
+          "SilverSaints": [
+            {"Archon de Sagita": {}},
+            {"Sagita (Lost Canvas)": {}},
+            {"Siam de Sagita": {}},
+            {"Tremy de Flecha (Sagita)": {}},
+            {"Maiya de Sagita": {"Rank": ["Cavaleiro Fantasmas de Éris"]}}
+          ]
+        },
+        "Sagittarius": {
+          "GoldSaints": [
+            {"Aiolos de Sagitário": {}},
+            {"Gestalt de Sagitário": {}},
+            {"Sagitário (Lost Canvas, séc. 16)": {}},
+            {"Seiya de Sagitário (Ômega)": {}},
+            {"Sísifo de Sagitário": {}}
+          ]
+        },
+        "Scorpio": {
+          "GoldSaints": [
+            {"Escarlate (Écarlate) de Escorpião": {}},
+            {"Kardia de Escorpião": {}},
+            {"Milo de Escorpião": {}},
+            {"Sonia de Escorpião": {}},
+            {"Zafiri de Escorpião": {}}
+          ]
+        },
+        "Sculptor": {},
+        "Scutum": {
+          "SilverSaints": [
+            {"Ennead de Escudo": {}},
+            {"Juan de Escudo": {}},
+            {"Yan de Escudo": {"Rank": ["Cavaleiro Fantasmas de Éris"]}}
+          ]
+        },
+        "Serpens": {
+          "BronzeSaints": [{"Armadura de Serpente": {"Midia": "Saint Seiya Online"}}]
+        },
+        "Sextans": {
+          "BronzeSaints": [{"Yuuri de Sextante": {}}]
+        },
+        "Taurus": {
+          "GoldSaints": [
+            {"Aldebaran de Touro": {}},
+            {"Francisca de Touro": {}},
+            {"Harbinger de Touro": {}},
+            {"Hasgard de Touro": {}},
+            {"Ox de Touro": {}},
+            {"Teneo de Touro": {}},
+            {"Touro (Lost Canvas, séc. 15)": {}},
+            {"Touro (Lost Canvas, séc.16)": {}}
+          ]
+        },
+        "Telescopium": {},
+        "Triangulum": {
+          "SilverSaints": [{"Noesis de Triângulo": {}}]
+        },
+        "Triangulum Australe": {},
+        "Tucana": {
+          "SilverSaints": [{"Tucano (Lost Canvas, Grupo do Sísifo)": {}}]
+        },
+        "Ursa Major": {
+          "BronzeSaints": [
+            {"Douglas de Urso": {}}, 
+            {"Urso (Lost Canvas, séc. 15)": {}},
+            {"Geki de Urso": {}}
+          ]
+        },
+        "Ursa Minor": {
+          "BronzeSaints": [{"Xiaoling de Ursa Menor": {}}]
+        },
+        "Velame": {
+          "SilverSaints": [{"Tsubaki de Vela": {}}]
+        },
+        "Virgo": {
+          "GoldSaints": [
+            {"Asmita de Virgem": {}},
+            {"Fudou de Virgem": {}},
+            {"Shaka de Virgem": {}},
+            {"Shijima de Virgem": {}}
+          ] 
+        },
+        "Volans": {
+          "BronzeSaints": [{"Argo de Peixe-Voador": {}}, {"Peixe-Voador (Lost Canvas)": {}}]
+        },
+        "Vulpecula": {},
         "Cavaleiros de Aço": [
           {"Ban de Leão Menor (Ômega)": {}},
           {"Daichi da Armadura da Terra": {}},
@@ -273,17 +460,37 @@
           {"Ushô da Armadura do Mar": {}}
         ]
       },
-      "Sem constelação": [
-        {"Cavaleiro do Fogo": {}},
-        {"Spartan": {}},
-        {"Reda": {}},
-        {"Spika": {}},
-        {"Dócrates": {}},
-        {"Píton": {}},
-        {"Gigars": {}},
-        {"Mestre Cristal": {}}
-      ]
-    }, 
+      "NoConstellations": {
+        "Reindeer ": {"Status": "Extinct", "BronzeSaints": [{"Rudolph de Rena": {}}]},
+        "Cerberus": {
+          "Status": "Extinct",
+          "SilverSaints": [
+            {"Cérbero (Lost Canvas, séc. 15)": {}},
+            {"Cérbero (Lost Canvas)": {}},
+            {"Dante de Cérbero": {}},
+            {"Dorer de Cérbero": {}}
+          ]
+        },
+        "Lotus": {"Status": "Constelação oriental da Índia", "SilverSaints": [{"Ágora de Lótus": {}}]},
+        "Tarantula": {"SilverSaints": [{"Aracne de Tarântula": {}}]},
+        "Cavaleiro do Fogo": {},
+        "Spartan": {},
+        "Reda": {},
+        "Spika": {},
+        "Dócrates": {},
+        "Píton": {},
+        "Gigars": {},
+        "Mestre Cristal": {},
+        "Mestre dos Fantasmas": {
+          "SilverSaints": [
+            {"Jisty": {}},
+            {"Armadura de Mestre dos Fantasmas": {"Midia": "Saint Seiya Online"}}
+          ]
+        },
+        "Medusa": {"Rank": ["Cavaleiro Fantasma de Jisty"]}},
+        "Serpente Marinha": {"Rank": ["Cavaleiro Fantasma de Jisty"]}}
+      }
+    },
     "Cavaleiros Negros": [
       {"Allegre de Baleia Negra": {}},
       {"Andrômeda Negro": {}},
@@ -300,10 +507,6 @@
       {"Shinadekuro de Dragão Negro": {}},
       {"Yudo de Cães de Caça Negro": {}}
     ],
-    "Coroa do Sol": [
-      {"Berengue de Coma Berenices": {}},
-      {"Jaô de Lince": {}}
-    ], 
     "Gigas": [
       {"Ágrios (Força Brutal)": {}},
       {"Anemos de Leucotes": {}},
@@ -328,484 +531,468 @@
       {"Zugilos de Anthrakma":{}}
     ],
     "Titãs": {
-      "Os 12 Titãs": [
-        {"Céos (Relâmpago Negro)": {}},
-        {"Créos (Galáxia)": {}},
-        {"Cronos (Tempo)": {}},
-        {"Febe (Lua)": {}},
-        {"Hyperion (Ébano)": {}},
-        {"Iápeto (Dimensões)": {}},
-        {"Mnemôsine (Memória)": {}},
-        {"Oceano (Dilúvio)": {}},
-        {"Réia (Mãe dos Deuses)": {}},
-        {"Téia (Luz e Fogo)": {}},
-        {"Têmis (Justiça)": {}},
-        {"Tétis (Mar)": {}}
-      ],
-      "Outros titãs": [
-        {"Atlas": {}},
-        {"Euríbia": {}},
-        {"Prometeu": {}}
-      ]
+        "Os 12 Titãs": [
+          {"Céos (Relâmpago Negro)": {}},
+          {"Créos (Galáxia)": {}},
+          {"Cronos (Tempo)": {}},
+          {"Febe (Lua)": {}},
+          {"Hyperion (Ébano)": {}},
+          {"Iápeto (Dimensões)": {}},
+          {"Mnemôsine (Memória)": {}},
+          {"Oceano (Dilúvio)": {}},
+          {"Réia (Mãe dos Deuses)": {}},
+          {"Téia (Luz e Fogo)": {}},
+          {"Têmis (Justiça)": {}},
+          {"Tétis (Mar)": {}}
+        ],
+        "Outros titãs": [
+          {"Atlas": {}},
+          {"Euríbia": {}},
+          {"Prometeu": {}}
+        ]
     },
-    "Fadas de Balor": [
-      {"Shelley de Banshee": {}}
-    ],
-    "Dríades": [
-      {"Ate de Ruína": {}},
-      {"Disnomia": {}},
-      {"Emony de Malícia": {}},
-      {"Mania de Loucura": {}},
-      {"Phonos de Assassinato": {}}
-    ],
-    "Taonias": [
-      {"Feiyan de Hakutaku": {}},
-      {"Hakuryu": {}},
-      {"Hui de Kyuubi": {}},
-      {"Liu Xing": {}},
-      {"Mudan de Pardal": {}},
-      {"Taonias de alto escalão": {}},
-      {"Taonias de baixo escalão": {}}
-    ], 
-    "Pítias": [
-      {"Arches": {}},
-      {"Ninfas (Pítias)": {}}
-    ],
-    "Berserkers": [
-      {"Ema de Jamadhar": {}},
-      {"Kokalo de Buhj": {}}
-    ],
-    "Jóias": [
-      {"Chaceldony de Ilusões": {}},
-      {"Cornelian de Sangue da Carne Cortada": {}},
-      {"Flint de Punhos Flamejantes": {}},
-      {"Garnet de Vouivre": {}},
-      {"Krest de Koh-Í-Noor": {}},
-      {"Tourmaline de Eletricidade": {}}
-    ],
-    "Jaguares": [
-      {"Jaguares": {}},
-      {"Nahualpilli de Youaltepuztli": {}}
-    ],
-    "Satélites": [
-      {"Calisto": {}},
-      {"Rasku Moon": {}},
-      {"Satélite #1": {}},
-      {"Satélite #2": {}},
-      {"Satélite #3": {}},
-      {"Satélite #4": {}},
-      {"Satélite #5": {}},
-      {"Satélite #6": {}},
-      {"Satélite #7": {}},
-      {"Satélite #8": {}}
-    ],
-    "Marcianos": [
-      {"Baco": {}},
-      {"Comandante Marciano": {}},
-      {"Diana": {}},
-      {"Escaravelho #1": {}},
-      {"Escaravelho #2": {}},
-      {"Medea": {}},
-      {"Ordykia de Mantis": {}},
-      {"Radzinsky de Formiga": {}},
-      {"Ragno de Aranha": {}},
-      {"Rômulo": {}},
-      {"Sonia de Vespa": {}},
-      {"Vulcano": {}}
-    ],
-    "Pallasitos": [
-      {"Aegir de Braço Fantasma (Manopla)": {}},
-      {"Aigaion de Espada do Trovão": {}},
-      {"Cilene de Matador de Almas (Foice da Morte)": {}},
-      {"Dione de Cobra de Plasma (Chicote)": {}},
-      {"Eden de Maça de Impulso (Clava)": {}},
-      {"Europa de Corte Retalhador (Chakram)": {}},
-      {"Gália de Espada da Guerra": {}},
-      {"Greip de Matador de Almas (Foice da Morte)": {}},
-      {"Halimede (Barra Tripla)": {}},
-      {"Hati (Adaga)": {}},
-      {"Hyperion de Espada da Destruição": {}},
-      {"Loge de Brionac (Lança)": {}},
-      {"Metone de Máxima Brilhante (Garras)": {}},
-      {"Miller de Luva Alquímica": {}},
-      {"Paradox de Jano Escarlate (Cetro)": {}},
-      {"Réia de Marionetes": {}},
-      {"Surtr de Pedra Mística": {}},
-      {"Tarvos de Esmagador de Estrelas (Mangual)": {}},
-      {"Tebe de Impacto Demoníaco (Martelo)": {}},
-      {"Titan de Espada da Criação": {}},
-      {"Tokisada de Relógio da Morte": {}},
-      {"Ymir de Máxima Brilhante (Garras)": {}}
-    ],
-    "Sem Face": [
-      {"Sem Face Ceifador de Almas": {}},
-      {"Sem Face Dragão": {}},
-      {"Sem Face Piromaníaco": {}},
-      {"Wadatsumi": {}}
-    ],
-    "Gladiadores": [
-      {"Alice de Vorpal": {}},
-      {"Lancelot de Arondight": {}},
-      {"Paracelsus de Azoth": {}},
-      {"Roland de Durandal": {}},
-      {"Sigurd de Gram": {}}
-    ], 
-    "Cavaleiros Fantasmas": {
-      "Fantasmas liderados por Jisty": [
-        {"Jisty": {}},
-        {"Golfinho": {}},
-        {"Medusa": {}},
-        {"Serpente Marinha": {}},
-        {"Pirata #1 (Jisty)": {}},
-        {"Pirata #2 (Jisty)": {}},
-        {"Pirata #3 (Jisty)": {}},
-        {"Piratas (Jisty)": {}}
+    {"Fadas de Balor": [{"Shelley de Banshee": {}}]},
+    {"Dríades": [
+        {"Ate de Ruína": {}},
+        {"Disnomia": {}},
+        {"Emony de Malícia": {}},
+        {"Mania de Loucura": {}},
+        {"Phonos de Assassinato": {}}
+      ],
+      "Taonias": [
+        {"Feiyan de Hakutaku": {}},
+        {"Hakuryu": {}},
+        {"Hui de Kyuubi": {}},
+        {"Liu Xing": {}},
+        {"Mudan de Pardal": {}},
+        {"Taonias de alto escalão": {}},
+        {"Taonias de baixo escalão": {}}
       ], 
-      "Fantasmas liderados por Éris": [
-        {"Jaga de Orion": {}},
-        {"Kraisto de Cruzeiro do Sul": {}},
-        {"Maiya de Sagita": {}},
-        {"Orfeu de Harpa": {}},
-        {"Yan de Escudo": {}},
-        {"Toki de Esperança": {}}
+      "Pítias": [
+        {"Arches": {}},
+        {"Ninfas (Pítias)": {}}
+      ],
+      "Berserkers": [
+        {"Ema de Jamadhar": {}},
+        {"Kokalo de Buhj": {}}
+      ],
+      "Jóias": [
+        {"Chaceldony de Ilusões": {}},
+        {"Cornelian de Sangue da Carne Cortada": {}},
+        {"Flint de Punhos Flamejantes": {}},
+        {"Garnet de Vouivre": {}},
+        {"Krest de Koh-Í-Noor": {}},
+        {"Tourmaline de Eletricidade": {}}
+      ],
+      "Jaguares": [
+        {"Jaguares": {}},
+        {"Nahualpilli de Youaltepuztli": {}}
+      ],
+      "Satélites": [
+        {"Calisto": {}},
+        {"Rasku Moon": {}},
+        {"Satélite #1": {}},
+        {"Satélite #2": {}},
+        {"Satélite #3": {}},
+        {"Satélite #4": {}},
+        {"Satélite #5": {}},
+        {"Satélite #6": {}},
+        {"Satélite #7": {}},
+        {"Satélite #8": {}}
+      ],
+      "Marcianos": [
+        {"Baco": {}},
+        {"Comandante Marciano": {}},
+        {"Diana": {}},
+        {"Escaravelho #1": {}},
+        {"Escaravelho #2": {}},
+        {"Medea": {}},
+        {"Ordykia de Mantis": {}},
+        {"Radzinsky de Formiga": {}},
+        {"Ragno de Aranha": {}},
+        {"Rômulo": {}},
+        {"Sonia de Vespa": {}},
+        {"Vulcano": {}}
+      ],
+      "Pallasitos": [
+        {"Aegir de Braço Fantasma (Manopla)": {}},
+        {"Aigaion de Espada do Trovão": {}},
+        {"Cilene de Matador de Almas (Foice da Morte)": {}},
+        {"Dione de Cobra de Plasma (Chicote)": {}},
+        {"Eden de Maça de Impulso (Clava)": {}},
+        {"Europa de Corte Retalhador (Chakram)": {}},
+        {"Gália de Espada da Guerra": {}},
+        {"Greip de Matador de Almas (Foice da Morte)": {}},
+        {"Halimede (Barra Tripla)": {}},
+        {"Hati (Adaga)": {}},
+        {"Hyperion de Espada da Destruição": {}},
+        {"Loge de Brionac (Lança)": {}},
+        {"Metone de Máxima Brilhante (Garras)": {}},
+        {"Miller de Luva Alquímica": {}},
+        {"Paradox de Jano Escarlate (Cetro)": {}},
+        {"Réia de Marionetes": {}},
+        {"Surtr de Pedra Mística": {}},
+        {"Tarvos de Esmagador de Estrelas (Mangual)": {}},
+        {"Tebe de Impacto Demoníaco (Martelo)": {}},
+        {"Titan de Espada da Criação": {}},
+        {"Tokisada de Relógio da Morte": {}},
+        {"Ymir de Máxima Brilhante (Garras)": {}}
+      ],
+      "Sem Face": [
+        {"Sem Face Ceifador de Almas": {}},
+        {"Sem Face Dragão": {}},
+        {"Sem Face Piromaníaco": {}},
+        {"Wadatsumi": {}}
+      ],
+      "Gladiadores": [
+        {"Alice de Vorpal": {}},
+        {"Lancelot de Arondight": {}},
+        {"Paracelsus de Azoth": {}},
+        {"Roland de Durandal": {}},
+        {"Sigurd de Gram": {}}
+      ], 
+      "Cavaleiros Fantasmas": { 
+        "Fantasmas liderados por Éris": [
+          {"Toki de Esperança": {}}
+        ]
+      }, 
+      "BlueWarriors": [
+        {"Alexei": {}},
+        {"Garcia": {}},
+        {"Natássia": {}},
+        {"Piotr": {}},
+        {"Soldados de Alexei": {}}
+      ],
+      "Guerreiros Deuses": {
+        "Liderados por Durval": [
+          {"Durval": {}},
+          {"Frey": {}},
+          {"Loki": {}},
+          {"Midgard": {}},
+          {"Ur": {}},
+          {"Rung": {}}
+        ],
+        "Liderados por Hilda": [
+          {"Hilda de Polaris": {}},
+          {"Alberich de Megrez (Delta)": {}},
+          {"Fenrir de Alioth (Epsílon)": {}},
+          {"Hagen de Merak (Beta)": {}},
+          {"Mime de Benetnasch (Eta)": {}},
+          {"Bado de Arkor (Zeta)": {}},
+          {"Shido de Mizar (Zeta)": {}},
+          {"Siegfried de Dubhe (Alfa)": {}},
+          {"Thor de Phecda (Gama)": {}}
+        ],
+        "Liderados por Andreas": [
+          {"Andreas": {}},
+          {"Sigmund de Granyl": {}},
+          {"Surt de Eikschnir": {}},
+          {"Utgardar de Garm": {}},
+          {"Balder de Hraesvelgr": {}},
+          {"Fafner de Nidhogg": {}},
+          {"Frodi de Gullinbursti": {}},
+          {"Hércules de Tanngrisnir": {}}
+        ]
+      }, 
+      "Marinas de Poseison": {
+        "Marinas": [
+          {"Thetis de Sereia": {}}
+        ],
+        "Generais Marinas": [
+          {"Bian de Cavalo Marinho": {}},
+          {"Io de Scylla": {}},
+          {"Isaak de Kraken": {}},
+          {"Kanon de Dragão Marinho": {}},
+          {"Kasa de Lymnades": {}},
+          {"Krishna de Chrysaor": {}},
+          {"Sorento de Sirene": {}},
+          {"Unity de Dragão Marinho": {}}
+        ]
+      },
+      "Espectros de Hades": [
+        {"Afrodite de Peixes (Renegado)": {}},
+        {"Aiacos de Garuda": {}},
+        {"Aiacos de Garuda (Lost Canvas)": {}},
+        {"Algethi de Hércules (Renegado)": {}},
+        {"Algol de Perseu (Renegado)": {}},
+        {"Atavaka": {}},
+        {"Babel de Centauro (Renegado)": {}},
+        {"Byaku de Necromante": {}},
+        {"Camus de Aquário (Renegado)": {}},
+        {"Capella de Auriga (Renegado)": {}},
+        {"Caronte de Aqueronte": {}},
+        {"Caronte de Aqueronte (Lost Canvas)": {}},
+        {"Cheshire de Cat Sith": {}},
+        {"Chris Walden de Baleia": {}},
+        {"Cube de Dullahan (Lost Canvas)": {}},
+        {"Dante de Cérbero (Renegado)": {}},
+        {"Desconhecido #1": {}},
+        {"Desconhecido #10": {}},
+        {"Desconhecido #11": {}},
+        {"Desconhecido #12": {}},
+        {"Desconhecido #13": {}},
+        {"Desconhecido #14": {}},
+        {"Desconhecido #15": {}},
+        {"Desconhecido #16": {}},
+        {"Desconhecido #17": {}},
+        {"Desconhecido #18": {}},
+        {"Desconhecido #19": {}},
+        {"Desconhecido #2": {}},
+        {"Desconhecido #20": {}},
+        {"Desconhecido #21": {}},
+        {"Desconhecido #22": {}},
+        {"Desconhecido #23": {}},
+        {"Desconhecido #24": {}},
+        {"Desconhecido #25": {}},
+        {"Desconhecido #26": {}},
+        {"Desconhecido #27": {}},
+        {"Desconhecido #27": {}},
+        {"Desconhecido #28": {}},
+        {"Desconhecido #29": {}},
+        {"Desconhecido #3": {}},
+        {"Desconhecido #30": {}},
+        {"Desconhecido #31": {}},
+        {"Desconhecido #32": {}},
+        {"Desconhecido #33": {}},
+        {"Desconhecido #34": {}},
+        {"Desconhecido #35": {}},
+        {"Desconhecido #36": {}},
+        {"Desconhecido #37": {}},
+        {"Desconhecido #38": {}},
+        {"Desconhecido #39": {}},
+        {"Desconhecido #4": {}},
+        {"Desconhecido #40": {}},
+        {"Desconhecido #41": {}},
+        {"Desconhecido #42": {}},
+        {"Desconhecido #43": {}},
+        {"Desconhecido #44": {}},
+        {"Desconhecido #5": {}},
+        {"Desconhecido #6": {}},
+        {"Desconhecido #7": {}},
+        {"Desconhecido #8": {}},
+        {"Desconhecido #9": {}},
+        {"Dio de Mosca (Renegado)": {}},
+        {"Earheart de Vampiro": {}},
+        {"Edward de Silfo": {}},
+        {"Espectro - Auriga (Lost Canvas)": {}},
+        {"Espectro - Carrasco": {}},
+        {"Espectro - Cérbero (Lost Canvas)": {}},
+        {"Espectro - Moloque": {}},
+        {"Espectro - Sagita (Lost Canvas)": {}},
+        {"Espectro - Sanguessuga": {}},
+        {"Espectro (Grupo do Aiacos)": {}},
+        {"Espectro #1 (Grupo do Deathtoll)": {}},
+        {"Espectro #1 (Grupo do Edward)": {}},
+        {"Espectro #1 (Grupo do Gregor)": {}},
+        {"Espectro #1 (Grupo do Minos)": {}},
+        {"Espectro #1 (Grupo do Suikyo)": {}},
+        {"Espectro #2 (Grupo do Deathtoll)": {}},
+        {"Espectro #2 (Grupo do Edward)": {}},
+        {"Espectro #2 (Grupo do Gregor)": {}},
+        {"Espectro #2 (Grupo do Suikyo)": {}},
+        {"Espectro #3 (Grupo do Deathtoll)": {}},
+        {"Espectro #3 (Grupo do Edward)": {}},
+        {"Espectro #3 (Grupo do Gregor)": {}},
+        {"Espectro #3 (Grupo do Suikyo)": {}},
+        {"Espectro #4 (Grupo do Deathtoll)": {}},
+        {"Espectro #4 (Grupo do Edward)": {}},
+        {"Espectro #4 (Grupo do Gregor)": {}},
+        {"Espectro #4 (Grupo do Minos)": {}},
+        {"Espectro #4 (Grupo do Suikyo)": {}},
+        {"Espectro #5 (Grupo do Deathtoll)": {}},
+        {"Espectro #5 (Grupo do Gregor)": {}},
+        {"Espectro #5 (Grupo do Minos)": {}},
+        {"Espectro #5 (Grupo do Suikyo)": {}},
+        {"Espectro #6 (Grupo do Deathtoll)": {}},
+        {"Espectro #6 (Grupo do Suikyo)": {}},
+        {"Espectro #7 (Grupo do Minos)": {}},
+        {"Espectro de Gárgula": {}},
+        {"Espectro de Verme (Next Dimension)": {}},
+        {"Esqueleto #1 (Next Dimension)": {}},
+        {"Esqueleto #2 (Next Dimension)": {}},
+        {"Esqueleto #3 (Next Dimension)": {}},
+        {"Esqueletos (Lost Canvas)": {}},
+        {"Estrela Celeste do Extraordinário (Grupo do Suikyo)": {}},
+        {"Estrela Terrestre da Alcance": {}},
+        {"Estrela Terrestre da Alegria": {}},
+        {"Estrela Terrestre da Assombração": {}},
+        {"Estrela Terrestre da Braveza": {}},
+        {"Estrela Terrestre da Dignidade (Grupo do Minos)": {}},
+        {"Estrela Terrestre da Escravidão": {}},
+        {"Estrela Terrestre da Escravidão (Grupo do Deathtoll)": {}},
+        {"Estrela Terrestre da Escravidão (Lost Canvas)": {}},
+        {"Estrela Terrestre da Inabilidade": {}},
+        {"Estrela Terrestre da Loucura": {}},
+        {"Estrela Terrestre da Loucura (Lost Canvas)": {}},
+        {"Estrela Terrestre da Luz": {}},
+        {"Estrela Terrestre da Maldade (Grupo do Minos)": {}},
+        {"Estrela Terrestre da Posse": {}},
+        {"Estrela Terrestre da Prisão": {}},
+        {"Estrela Terrestre da Proteção": {}},
+        {"Estrela Terrestre da Vastidão": {}},
+        {"Estrela Terrestre da Velocidade": {}},
+        {"Estrela Terrestre do Algarismo": {}},
+        {"Estrela Terrestre do Castigo": {}},
+        {"Estrela Terrestre do Equilíbrio (Grupo do Minos)": {}},
+        {"Estrela Terrestre do Influência": {}},
+        {"Estrela Terrestre do Mal": {}},
+        {"Estrela Terrestre do Progresso": {}},
+        {"Estrela Terrestre do Recuo": {}},
+        {"Estrela Terrestre do Refúgio (Grupo do Minos)": {}},
+        {"Estrela Terrestre do Refúgio (Grupo do Suikyo)": {}},
+        {"Estrela Terrestre do Segredo (Grupo do Suikyo)": {}},
+        {"Estrela Terrestre do Vazio (Grupo do Minos)": {}},
+        {"Faraó de Esfinge": {}},
+        {"Faraó de Esfinge (Lost Canvas)": {}},
+        {"Fiodor de Mandrágora": {}},
+        {"Flégias de Lycaon": {}},
+        {"Flégias de Lycaon (Lost Canvas)": {}},
+        {"Giganto de Ciclope": {}},
+        {"Giganto de Ciclope (Lost Canvas)": {}},
+        {"Gordon de Minotauro": {}},
+        {"Gordon de Minotauro (Lost Canvas)": {}},
+        {"Gregor de Genbu": {}},
+        {"Iwan de Troll": {}},
+        {"Iwan de Troll (Lost Canvas)": {}},
+        {"Kagaho de Benu": {}},
+        {"Kageboshi": {}},
+        {"Kiew (Cube) de Durahan": {}},
+        {"Laimi de Verme": {}},
+        {"Laimi de Verme (Lost Canvas)": {}},
+        {"Leybold de Upyr": {}},
+        {"Luco de Dríade": {}},
+        {"Lune de Balron": {}},
+        {"Lune de Balron (Lost Canvas)": {}},
+        {"Markino": {}},
+        {"Markino (Lost Canvas)": {}},
+        {"Máscara da Morte de Câncer (Renegado)": {}},
+        {"Meehan de Sapo": {}},
+        {"Miles de Elfo": {}},
+        {"Minos de Griffon": {}},
+        {"Minos de Griffon (Lost Canvas)": {}},
+        {"Misty de Lagardo (Renegado)": {}},
+        {"Mouses de Baleia (Renegado)": {}},
+        {"Myu de Pappilon (Borboleta)": {}},
+        {"Myu de Pappilon (Lost Canvas)": {}},
+        {"Niobe de Deep": {}},
+        {"Niobe de Deep (Lost Canvas)": {}},
+        {"Ox de Górgona": {}},
+        {"Partita de Coruja": {}},
+        {"Queen de Alraune (Lost Canvas)": {}},
+        {"Queen de Mandrágora (Alraune)": {}},
+        {"Radamanthys de Wyvern": {}},
+        {"Radamanthys de Wyvern (Lost Canvas)": {}},
+        {"Rock de Golem": {}},
+        {"Rock de Golem (Lost Canvas)": {}},
+        {"Saga de Gêmeos (Renegado)": {}},
+        {"Shion de Áries (Renegado)": {}},
+        {"Shura de Capricórnio (Renegado)": {}},
+        {"Stand de Besouro Mortal": {}},
+        {"Stand de Besouro Mortal (Lost Canvas)": {}},
+        {"Suikyo de Garuda": {}},
+        {"Sylphid de Basilisco": {}},
+        {"Sylphid de Basilisco (Lost Canvas)": {}},
+        {"Tokusa de Hanuman": {}},
+        {"Valentine de Harpia": {}},
+        {"Valentine de Harpia (Lost Canvas)": {}},
+        {"Vermeer de Griffon": {}},
+        {"Veronica de Nasu": {}},
+        {"Violate de Behemot": {}},
+        {"Wimber de Morcego": {}},
+        {"Yohma de Mefistófeles": {}},
+        {"Zelos de Sapo": {}},
+        {"Zelos de Sapo (Lost Canvas)": {}}
+      ],
+      "Anjos": { 
+        "Anjos da Morte": [
+          {"Ashtarote de Querubim": {}},
+          {"Belzebu de Serafim": {}},
+          {"Érigor de Virtude": {}},
+          {"Lúcifer": {}},
+          {"Moa de Trono": {}}
+        ],
+        "Celestiais": [
+          {"Odisseu": {}},
+          {"Teseu": {}},
+          {"Tohma de Ícaro": {}}
+        ]
+      },
+      "Deuses": [
+        {"Abel": {}},
+        {"Apolo": {}},
+        {"Artemis": {}},
+        {"Éris": {}},
+        {"Hades": {}},
+        {"Hypnos": {}},
+        {"Julian Solo (Poseidon)": {}},
+        {"Loki (Deus)": {}},
+        {"Odin": {}},
+        {"Saori Kido (Atena)": {}},
+        {"Thanatos": {}},
+        {"(Episódio G) Anúbis": {}},
+        {"(Episódio G) Apófis": {}},
+        {"(Episódio G) Gaia": {}},
+        {"(Episódio G) Pontos": {}},
+        {"(Episódio G) Rá": {}},
+        {"(Episódio G) Tártaro": {}},
+        {"(Episódio G) Urano": {}},
+        {"(Lost Canvas) Alone (Hades - Lost Canvas)": {}},
+        {"(Lost Canvas) Ares": {}},
+        {"(Lost Canvas) Carbella (Quetzalcoatl)": {}},
+        {"(Lost Canvas) Crúaich (Balor)": {}},
+        {"(Lost Canvas) Fantasos": {}},
+        {"(Lost Canvas) Hypnos (Lost Canvas)": {}},
+        {"(Lost Canvas) Icelos": {}},
+        {"(Lost Canvas) Kairos": {}},
+        {"(Lost Canvas) Morfeu": {}},
+        {"(Lost Canvas) Oneiros": {}},
+        {"(Lost Canvas) Phobetor": {}},
+        {"(Lost Canvas) Sasha (Atena)": {}},
+        {"(Lost Canvas) Serafina (Poseidon)": {}},
+        {"(Lost Canvas) Thanatos (Lost Canvas)": {}},
+        {"(Lost Canvas) Wesda (Tezcalipoca)": {}},
+        {"(Next Dimension) Alone (Hades)": {}},
+        {"(Next Dimension) Cronos": {}},
+        {"(Ômega) Apsu": {}},
+        {"(Ômega) Aria": {}},
+        {"(Ômega) Marte": {}},
+        {"(Ômega) Pallas": {}},
+        {"(Ômega) Saturno": {}},
+        {"(Saintia Sho) Ares (Saga)": {}}
       ]
     }, 
-    "Guerreiros Azuis": [
-      {"Alexei": {}},
-      {"Garcia": {}},
-      {"Natássia": {}},
-      {"Piotr": {}},
-      {"Soldados de Alexei": {}}
-    ],
-    "Guerreiros Deuses": {
-      "Liderados por Durval": [
-        {"Durval": {}},
-        {"Frey": {}},
-        {"Loki": {}},
-        {"Midgard": {}},
-        {"Ur": {}},
-        {"Rung": {}}
-      ],
-      "Liderados por Hilda": [
-        {"Hilda de Polaris": {}},
-        {"Alberich de Megrez (Delta)": {}},
-        {"Fenrir de Alioth (Epsílon)": {}},
-        {"Hagen de Merak (Beta)": {}},
-        {"Mime de Benetnasch (Eta)": {}},
-        {"Bado de Arkor (Zeta)": {}},
-        {"Shido de Mizar (Zeta)": {}},
-        {"Siegfried de Dubhe (Alfa)": {}},
-        {"Thor de Phecda (Gama)": {}}
-      ],
-      "Liderados por Andreas": [
-        {"Andreas": {}},
-        {"Sigmund de Granyl": {}},
-        {"Surt de Eikschnir": {}},
-        {"Utgardar de Garm": {}},
-        {"Balder de Hraesvelgr": {}},
-        {"Fafner de Nidhogg": {}},
-        {"Frodi de Gullinbursti": {}},
-        {"Hércules de Tanngrisnir": {}}
-      ]
-    }, 
-    "Marinas de Poseison": {
-      "Marinas": [
-        {"Thetis de Sereia": {}}
-      ],
-      "Generais Marinas": [
-        {"Bian de Cavalo Marinho": {}},
-        {"Io de Scylla": {}},
-        {"Isaak de Kraken": {}},
-        {"Kanon de Dragão Marinho": {}},
-        {"Kasa de Lymnades": {}},
-        {"Krishna de Chrysaor": {}},
-        {"Sorento de Sirene": {}},
-        {"Unity de Dragão Marinho": {}}
+    "Outros": {
+      "Animais": [
+        {"Adolf": {}},
+        {"Blondie": {}},
+        {"Cacatua da Paradox": {}},
+        {"Cãozinho do Alone (Lost Canvas)": {}},
+        {"Cérbero": {}},
+        {"Cérbero (Animal - Lost Canvas)": {}},
+        {"Coelho (Shina)": {}},
+        {"Corvos (Jamian)": {}},
+        {"Esquilo da Paradox": {}},
+        {"Fadas do Submundo": {}},
+        {"Goldie": {}},
+        {"Guing": {}},
+        {"Hayate": {}},
+        {"Kokuto": {}},
+        {"Lebre": {}},
+        {"Lebre (história budista)": {}},
+        {"Lobos do Fenrir": {}},
+        {"Morcegos do Wimber": {}},
+        {"Moscas da Verônica": {}},
+        {"Pardais da Mudan": {}},
+        {"Pássaro (Água da Vida)": {}},
+        {"Pássaros da Paradox": {}},
+        {"Pégaso": {}},
+        {"Raposa (história budista)": {}},
+        {"Tigre (Shaka)": {}},
+        {"Urso (Geki)": {}},
+        {"Urso (Hyoga)": {}},
+        {"Urso e Peixe (história budista)": {}}
       ]
     },
-    "Espectros de Hades": [
-      {"Afrodite de Peixes (Renegado)": {}},
-      {"Aiacos de Garuda": {}},
-      {"Aiacos de Garuda (Lost Canvas)": {}},
-      {"Algethi de Hércules (Renegado)": {}},
-      {"Algol de Perseu (Renegado)": {}},
-      {"Atavaka": {}},
-      {"Babel de Centauro (Renegado)": {}},
-      {"Byaku de Necromante": {}},
-      {"Camus de Aquário (Renegado)": {}},
-      {"Capella de Auriga (Renegado)": {}},
-      {"Caronte de Aqueronte": {}},
-      {"Caronte de Aqueronte (Lost Canvas)": {}},
-      {"Cheshire de Cat Sith": {}},
-      {"Chris Walden de Baleia": {}},
-      {"Cube de Dullahan (Lost Canvas)": {}},
-      {"Dante de Cérbero (Renegado)": {}},
-      {"Desconhecido #1": {}},
-      {"Desconhecido #10": {}},
-      {"Desconhecido #11": {}},
-      {"Desconhecido #12": {}},
-      {"Desconhecido #13": {}},
-      {"Desconhecido #14": {}},
-      {"Desconhecido #15": {}},
-      {"Desconhecido #16": {}},
-      {"Desconhecido #17": {}},
-      {"Desconhecido #18": {}},
-      {"Desconhecido #19": {}},
-      {"Desconhecido #2": {}},
-      {"Desconhecido #20": {}},
-      {"Desconhecido #21": {}},
-      {"Desconhecido #22": {}},
-      {"Desconhecido #23": {}},
-      {"Desconhecido #24": {}},
-      {"Desconhecido #25": {}},
-      {"Desconhecido #26": {}},
-      {"Desconhecido #27": {}},
-      {"Desconhecido #27": {}},
-      {"Desconhecido #28": {}},
-      {"Desconhecido #29": {}},
-      {"Desconhecido #3": {}},
-      {"Desconhecido #30": {}},
-      {"Desconhecido #31": {}},
-      {"Desconhecido #32": {}},
-      {"Desconhecido #33": {}},
-      {"Desconhecido #34": {}},
-      {"Desconhecido #35": {}},
-      {"Desconhecido #36": {}},
-      {"Desconhecido #37": {}},
-      {"Desconhecido #38": {}},
-      {"Desconhecido #39": {}},
-      {"Desconhecido #4": {}},
-      {"Desconhecido #40": {}},
-      {"Desconhecido #41": {}},
-      {"Desconhecido #42": {}},
-      {"Desconhecido #43": {}},
-      {"Desconhecido #44": {}},
-      {"Desconhecido #5": {}},
-      {"Desconhecido #6": {}},
-      {"Desconhecido #7": {}},
-      {"Desconhecido #8": {}},
-      {"Desconhecido #9": {}},
-      {"Dio de Mosca (Renegado)": {}},
-      {"Earheart de Vampiro": {}},
-      {"Edward de Silfo": {}},
-      {"Espectro - Auriga (Lost Canvas)": {}},
-      {"Espectro - Carrasco": {}},
-      {"Espectro - Cérbero (Lost Canvas)": {}},
-      {"Espectro - Moloque": {}},
-      {"Espectro - Sagita (Lost Canvas)": {}},
-      {"Espectro - Sanguessuga": {}},
-      {"Espectro (Grupo do Aiacos)": {}},
-      {"Espectro #1 (Grupo do Deathtoll)": {}},
-      {"Espectro #1 (Grupo do Edward)": {}},
-      {"Espectro #1 (Grupo do Gregor)": {}},
-      {"Espectro #1 (Grupo do Minos)": {}},
-      {"Espectro #1 (Grupo do Suikyo)": {}},
-      {"Espectro #2 (Grupo do Deathtoll)": {}},
-      {"Espectro #2 (Grupo do Edward)": {}},
-      {"Espectro #2 (Grupo do Gregor)": {}},
-      {"Espectro #2 (Grupo do Suikyo)": {}},
-      {"Espectro #3 (Grupo do Deathtoll)": {}},
-      {"Espectro #3 (Grupo do Edward)": {}},
-      {"Espectro #3 (Grupo do Gregor)": {}},
-      {"Espectro #3 (Grupo do Suikyo)": {}},
-      {"Espectro #4 (Grupo do Deathtoll)": {}},
-      {"Espectro #4 (Grupo do Edward)": {}},
-      {"Espectro #4 (Grupo do Gregor)": {}},
-      {"Espectro #4 (Grupo do Minos)": {}},
-      {"Espectro #4 (Grupo do Suikyo)": {}},
-      {"Espectro #5 (Grupo do Deathtoll)": {}},
-      {"Espectro #5 (Grupo do Gregor)": {}},
-      {"Espectro #5 (Grupo do Minos)": {}},
-      {"Espectro #5 (Grupo do Suikyo)": {}},
-      {"Espectro #6 (Grupo do Deathtoll)": {}},
-      {"Espectro #6 (Grupo do Suikyo)": {}},
-      {"Espectro #7 (Grupo do Minos)": {}},
-      {"Espectro de Gárgula": {}},
-      {"Espectro de Verme (Next Dimension)": {}},
-      {"Esqueleto #1 (Next Dimension)": {}},
-      {"Esqueleto #2 (Next Dimension)": {}},
-      {"Esqueleto #3 (Next Dimension)": {}},
-      {"Esqueletos (Lost Canvas)": {}},
-      {"Estrela Celeste do Extraordinário (Grupo do Suikyo)": {}},
-      {"Estrela Terrestre da Alcance": {}},
-      {"Estrela Terrestre da Alegria": {}},
-      {"Estrela Terrestre da Assombração": {}},
-      {"Estrela Terrestre da Braveza": {}},
-      {"Estrela Terrestre da Dignidade (Grupo do Minos)": {}},
-      {"Estrela Terrestre da Escravidão": {}},
-      {"Estrela Terrestre da Escravidão (Grupo do Deathtoll)": {}},
-      {"Estrela Terrestre da Escravidão (Lost Canvas)": {}},
-      {"Estrela Terrestre da Inabilidade": {}},
-      {"Estrela Terrestre da Loucura": {}},
-      {"Estrela Terrestre da Loucura (Lost Canvas)": {}},
-      {"Estrela Terrestre da Luz": {}},
-      {"Estrela Terrestre da Maldade (Grupo do Minos)": {}},
-      {"Estrela Terrestre da Posse": {}},
-      {"Estrela Terrestre da Prisão": {}},
-      {"Estrela Terrestre da Proteção": {}},
-      {"Estrela Terrestre da Vastidão": {}},
-      {"Estrela Terrestre da Velocidade": {}},
-      {"Estrela Terrestre do Algarismo": {}},
-      {"Estrela Terrestre do Castigo": {}},
-      {"Estrela Terrestre do Equilíbrio (Grupo do Minos)": {}},
-      {"Estrela Terrestre do Influência": {}},
-      {"Estrela Terrestre do Mal": {}},
-      {"Estrela Terrestre do Progresso": {}},
-      {"Estrela Terrestre do Recuo": {}},
-      {"Estrela Terrestre do Refúgio (Grupo do Minos)": {}},
-      {"Estrela Terrestre do Refúgio (Grupo do Suikyo)": {}},
-      {"Estrela Terrestre do Segredo (Grupo do Suikyo)": {}},
-      {"Estrela Terrestre do Vazio (Grupo do Minos)": {}},
-      {"Faraó de Esfinge": {}},
-      {"Faraó de Esfinge (Lost Canvas)": {}},
-      {"Fiodor de Mandrágora": {}},
-      {"Flégias de Lycaon": {}},
-      {"Flégias de Lycaon (Lost Canvas)": {}},
-      {"Giganto de Ciclope": {}},
-      {"Giganto de Ciclope (Lost Canvas)": {}},
-      {"Gordon de Minotauro": {}},
-      {"Gordon de Minotauro (Lost Canvas)": {}},
-      {"Gregor de Genbu": {}},
-      {"Iwan de Troll": {}},
-      {"Iwan de Troll (Lost Canvas)": {}},
-      {"Kagaho de Benu": {}},
-      {"Kageboshi": {}},
-      {"Kiew (Cube) de Durahan": {}},
-      {"Laimi de Verme": {}},
-      {"Laimi de Verme (Lost Canvas)": {}},
-      {"Leybold de Upyr": {}},
-      {"Luco de Dríade": {}},
-      {"Lune de Balron": {}},
-      {"Lune de Balron (Lost Canvas)": {}},
-      {"Markino": {}},
-      {"Markino (Lost Canvas)": {}},
-      {"Máscara da Morte de Câncer (Renegado)": {}},
-      {"Meehan de Sapo": {}},
-      {"Miles de Elfo": {}},
-      {"Minos de Griffon": {}},
-      {"Minos de Griffon (Lost Canvas)": {}},
-      {"Misty de Lagardo (Renegado)": {}},
-      {"Mouses de Baleia (Renegado)": {}},
-      {"Myu de Pappilon (Borboleta)": {}},
-      {"Myu de Pappilon (Lost Canvas)": {}},
-      {"Niobe de Deep": {}},
-      {"Niobe de Deep (Lost Canvas)": {}},
-      {"Ox de Górgona": {}},
-      {"Partita de Coruja": {}},
-      {"Queen de Alraune (Lost Canvas)": {}},
-      {"Queen de Mandrágora (Alraune)": {}},
-      {"Radamanthys de Wyvern": {}},
-      {"Radamanthys de Wyvern (Lost Canvas)": {}},
-      {"Rock de Golem": {}},
-      {"Rock de Golem (Lost Canvas)": {}},
-      {"Saga de Gêmeos (Renegado)": {}},
-      {"Shion de Áries (Renegado)": {}},
-      {"Shura de Capricórnio (Renegado)": {}},
-      {"Stand de Besouro Mortal": {}},
-      {"Stand de Besouro Mortal (Lost Canvas)": {}},
-      {"Suikyo de Garuda": {}},
-      {"Sylphid de Basilisco": {}},
-      {"Sylphid de Basilisco (Lost Canvas)": {}},
-      {"Tokusa de Hanuman": {}},
-      {"Valentine de Harpia": {}},
-      {"Valentine de Harpia (Lost Canvas)": {}},
-      {"Vermeer de Griffon": {}},
-      {"Veronica de Nasu": {}},
-      {"Violate de Behemot": {}},
-      {"Wimber de Morcego": {}},
-      {"Yohma de Mefistófeles": {}},
-      {"Zelos de Sapo": {}},
-      {"Zelos de Sapo (Lost Canvas)": {}}
-    ],
-    "Anjos": { 
-      "Anjos da Morte": [
-        {"Ashtarote de Querubim": {}},
-        {"Belzebu de Serafim": {}},
-        {"Érigor de Virtude": {}},
-        {"Lúcifer": {}},
-        {"Moa de Trono": {}}
-      ],
-      "Celestiais": [
-        {"Odisseu": {}},
-        {"Teseu": {}},
-        {"Tohma de Ícaro": {}}
-      ]
-    },
-    "Deuses": [
-      {"Abel": {}},
-      {"Apolo": {}},
-      {"Artemis": {}},
-      {"Éris": {}},
-      {"Hades": {}},
-      {"Hypnos": {}},
-      {"Julian Solo (Poseidon)": {}},
-      {"Loki (Deus)": {}},
-      {"Odin": {}},
-      {"Saori Kido (Atena)": {}},
-      {"Thanatos": {}},
-      {"(Episódio G) Anúbis": {}},
-      {"(Episódio G) Apófis": {}},
-      {"(Episódio G) Gaia": {}},
-      {"(Episódio G) Pontos": {}},
-      {"(Episódio G) Rá": {}},
-      {"(Episódio G) Tártaro": {}},
-      {"(Episódio G) Urano": {}},
-      {"(Lost Canvas) Alone (Hades - Lost Canvas)": {}},
-      {"(Lost Canvas) Ares": {}},
-      {"(Lost Canvas) Carbella (Quetzalcoatl)": {}},
-      {"(Lost Canvas) Crúaich (Balor)": {}},
-      {"(Lost Canvas) Fantasos": {}},
-      {"(Lost Canvas) Hypnos (Lost Canvas)": {}},
-      {"(Lost Canvas) Icelos": {}},
-      {"(Lost Canvas) Kairos": {}},
-      {"(Lost Canvas) Morfeu": {}},
-      {"(Lost Canvas) Oneiros": {}},
-      {"(Lost Canvas) Phobetor": {}},
-      {"(Lost Canvas) Sasha (Atena)": {}},
-      {"(Lost Canvas) Serafina (Poseidon)": {}},
-      {"(Lost Canvas) Thanatos (Lost Canvas)": {}},
-      {"(Lost Canvas) Wesda (Tezcalipoca)": {}},
-      {"(Next Dimension) Alone (Hades)": {}},
-      {"(Next Dimension) Cronos": {}},
-      {"(Ômega) Apsu": {}},
-      {"(Ômega) Aria": {}},
-      {"(Ômega) Marte": {}},
-      {"(Ômega) Pallas": {}},
-      {"(Ômega) Saturno": {}},
-      {"(Saintia Sho) Ares (Saga)": {}}
-    ]
-  }, 
-  "Outros": {
-    "Animais": [
-      {"Adolf": {}},
-      {"Blondie": {}},
-      {"Cacatua da Paradox": {}},
-      {"Cãozinho do Alone (Lost Canvas)": {}},
-      {"Cérbero": {}},
-      {"Cérbero (Animal - Lost Canvas)": {}},
-      {"Coelho (Shina)": {}},
-      {"Corvos (Jamian)": {}},
-      {"Esquilo da Paradox": {}},
-      {"Fadas do Submundo": {}},
-      {"Goldie": {}},
-      {"Guing": {}},
-      {"Hayate": {}},
-      {"Kokuto": {}},
-      {"Lebre": {}},
-      {"Lebre (história budista)": {}},
-      {"Lobos do Fenrir": {}},
-      {"Morcegos do Wimber": {}},
-      {"Moscas da Verônica": {}},
-      {"Pardais da Mudan": {}},
-      {"Pássaro (Água da Vida)": {}},
-      {"Pássaros da Paradox": {}},
-      {"Pégaso": {}},
-      {"Raposa (história budista)": {}},
-      {"Tigre (Shaka)": {}},
-      {"Urso (Geki)": {}},
-      {"Urso (Hyoga)": {}},
-      {"Urso e Peixe (história budista)": {}}
-    ],
     "Coadjuvantes ou secundários": [
       {"Adversário do Ohko #1": {}},
       {"Adversário do Ohko #2": {}},
