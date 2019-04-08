@@ -748,157 +748,134 @@
           {"Star": "Tenkoku(Wailing Star)", "Name": "Xie Bao", "Specters": [{"Valentine de Harpia": {}}]},
           {"Star": "Tenkou(Clever Star)", "Name": "Yan Qing", "Specters": [{"Tokusa de Hanuman": {}}]}
         ],
-        "Others": {
-          "CelestialStars": {
-            {"Star": "BestialStar", "Faraó de Esfinge": {}, "Faraó de Esfinge (Lost Canvas)": {}},
-            "TerrestrialStars": {},
-            "UnknownStars": {}
-          }
-        }
         "Estrela Celeste do Extraordinário (Grupo do Suikyo)": {}
-        {"Atavaka": {}},
         {"Byaku de Necromante": {}},
-        {"Cheshire de Cat Sith": {}},
         {"Chris Walden de Baleia": {}},
-        {"Cube de Dullahan (Lost Canvas)": {}},
-        {"Edward de Silfo": {}},
         {"Espectro - Carrasco": {}},
         {"Espectro - Moloque": {}},
         {"Espectro - Sanguessuga": {}},
         {"Espectro de Gárgula": {}},
-        {"Espectro de Verme (Next Dimension)": {}},
-        {"Giganto de Ciclope": {}},
-        {"Giganto de Ciclope (Lost Canvas)": {}},
-        {"Kageboshi": {}},
-        {"Kiew (Cube) de Durahan": {}},
-        {"Laimi de Verme": {}},
-        {"Laimi de Verme (Lost Canvas)": {}},
         {"Leybold de Upyr": {}},
         {"Markino": {}},
         {"Markino (Lost Canvas)": {}},
-        {"Meehan de Sapo": {}},
-        {"Miles de Elfo": {}},
-        {"Myu de Pappilon (Borboleta)": {}},
-        {"Myu de Pappilon (Lost Canvas)": {}},
-        {"Niobe de Deep": {}},
-        {"Niobe de Deep (Lost Canvas)": {}},
-        {"Ox de Górgona": {}},
         {"Partita de Coruja": {}},
-        {"Queen de Alraune (Lost Canvas)": {}},
-        {"Queen de Mandrágora (Alraune)": {}},
-        {"Rock de Golem": {}},
-        {"Rock de Golem (Lost Canvas)": {}},
-        {"Stand de Besouro Mortal": {}},
-        {"Stand de Besouro Mortal (Lost Canvas)": {}},
         {"Vermeer de Griffon": {}},
-        {"Wimber de Morcego": {}},
-        {"Zelos de Sapo": {}},
-        {"Zelos de Sapo (Lost Canvas)": {}}
-        "TerrestrialStars": [
-          {"Star": "Chikai(Chief Star of Earth)", "Name": "Zhu Wu", "Specters": []}
-          {"Star": "Chisatsu(Violent Star)", "Name": "Huang Xin", "Specters": []}
-          {"Star": "Chiyuu(The Brave Star)", "Name": "Sun Li", "Specters": []}
-          {"Star": "Chiketsu(Star of Noble Wisdom)", "Name": "Xuan Zan", "Specters": []}
-          {"Star": "Chiyuu(The Heroic Star)", "Name": "Hao Siwen", "Specters": []}
-          {"Star": "Chii(The Majestic Star)", "Name": "Han Tao", "Specters": []}
-          {"Star": "Chiei(Star of Courage)", "Name": "Peng Qi", "Specters": []}
-          {"Star": "Chiki(The Strange Star)", "Name": "Shan Tinggui", "Specters": []}
-          {"Star": "Chimou(The Ferocious Star)", "Name": "Wei Dingguo", "Specters": []}
-          {"Star": "Chibun(The Learned Star)", "Name": "Xiao Rang", "Specters": []}
-          {"Star": "Chisei (The Guileless Star)", "Name": "Pei Xuan", "Specters": []}
-          {"Star": "Chikatsu(The Eminent Star)", "Name": "Ou Peng", "Specters": []}
-          {"Star": "Chitou(The Folding Star)", "Name": "Deng Fei", "Specters": []}
-          {"Star": "Chikyou(The Strong Star)", "Name": "Yan Shun", "Specters": []}
-          {"Star": "Chian(The Strong Star)", "Name": "Yang Lin", "Specters": []}
-          {"Star": "Chiziku(The Axis Star)", "Name": "Ling Zhen", "Specters": []}
-          {"Star": "Chikai(The Star of Gathering)", "Name": "Jiang Jing", "Specters": []}
-          {"Star": "Chisa(The Aiding Star)", "Name": "Lü Fang", "Specters": []}
-          {"Star": "Chiyou(The Helpful Star)", "Name": "Guo Sheng", "Specters": []}
-          {"Star": "Chirei(The Clever Star)", "Name": "An Daoquan", "Specters": []}
-          {"Star": "Chiju(The Beast Star)", "Name": "Huangfu Duan", "Specters": []}
-          {"Star": "Chibi(The Least Star)", "Name": "Wang Ying", "Specters": []}
-          {"Star": "Chikyu(The Intelligent Star)", "Name": "Hu San Niang", "Specters": []}
-          {"Star": "Chibaku(The Barbarous Star)", "Name": "Bao Xu", "Specters": []}
-          {"Star": "Chizen(The Silent Star)", "Name": "Fan Rui", "Specters": []}
-          {"Star": "Chikou(The Wild Star)", "Name": "Kong Ming", "Specters": []}
-          {"Star": "Chikyou(The Star of Ambition)", "Name": "Kong Liang", "Specters": []}
-          {"Star": "Chihi(The Flying Star)", "Name": "Xiang Chong", "Specters": []}
-          {"Star": "Chisou(The Walking Star)", "Name": "Li Gun", "Specters": []}
-          {"Star": "(The Cunning Star)", "Name": "Jin Dajian", "Specters": []}
-          {"Star": "Chimei(The Clear Star)", "Name": "Ma Lin", "Specters": []}
-          {"Star": "Chisin(The Forward Star)", "Name": "Tong Wei", "Specters": []}
-          {"Star": "Chitai(The Retreating Star)", "Name": "Tong Meng", "Specters": []}
-          {"Star": "Chiman(The Full Star)", "Name": "Meng Kang", "Specters": []}
-          {"Star": "Chisui(The Fulfilled Star)", "Name": "Hou Jian", "Specters": []}
-          {"Star": "Chishuu(The Complete Star)", "Name": "Chen Da", "Specters": []}
-          {"Star": "Chiin(The Hidden Star)", "Name": "Yang Chun", "Specters": []}
-          {"Star": "Chii(The Peculiar Star)", "Name": "Zheng Tianshou", "Specters": []}
-          {"Star": "Chiri(The Star of Justice)", "Name": "Tao Zongwang", "Specters": []}
-          {"Star": "Chisyun(The Elegant Star)", "Name": "Song Qing", "Specters": []}
-          {"Star": "Chiraku(The Star of Music)", "Name": "Yue He", "Specters": []}
-          {"Star": "Chitatsu (The Quick Star)", "Name": "Gong Wang", "Specters": []}
-          {"Star": "Chisoku(The Star of Haste)", "Name": "Ding Desun", "Specters": []}
-          {"Star": "Chichin(The Supressing Star)", "Name": "Mu Chun", "Specters": []}
-          {"Star": "Chikei(The Halted Star)", "Name": "Cao Zheng", "Specters": []}
-          {"Star": "Chima(The Devil Star)", "Name": "Song Wan", "Specters": []}
-          {"Star": "Chiyou(The Magic Star)", "Name": "Du Qian", "Specters": []}
-          {"Star": "Chiyuu(The Obscure Star)", "Name": "Xue Yong", "Specters": []}
-          {"Star": "Chifuku(The Hiding Star)", "Name": "Shi En", "Specters": []}
-          {"Star": "Chihi(The Orphan Star)", "Name": "Li Zhong", "Specters": []}
-          {"Star": "Chikuu(The Empty Star)", "Name": "Zhou Tong", "Specters": []}
-          {"Star": "Chiko(The Lonely Star)", "Name": "Tang Long", "Specters": []}
-          {"Star": "Chizen(The Finished Star)", "Name": "Du Xing", "Specters": []}
-          {"Star": "Chitan(The Short Star)", "Name": "Zou Yuan", "Specters": []}
-          {"Star": "Chikaku (The Corner Star)", "Name": "Zou Run", "Specters": []}
-          {"Star": "Chishuu(The Prisoned Star)", "Name": "Zhu Gui", "Specters": []}
-          {"Star": "Chizou(The Hoarding Star)", "Name": "Zhu Fu", "Specters": []}
-          {"Star": "Chihei(The Smooth Star)", "Name": "Cai Fu", "Specters": []}
-          {"Star": "Chison(The Wounded Star)", "Name": "Cai Qing", "Specters": []}
-          {"Star": "Chido(The Serving Star)", "Name": "Li Li", "Specters": []}
-          {"Star": "Chisatsu(The Searching Star)", "Name": "Li Yun", "Specters": []}
-          {"Star": "Chiaku(The Fierce Star)", "Name": "Jiao Ting", "Specters": []}
-          {"Star": "Chishuu(The Ugly Star)", "Name": "Shi Yong", "Specters": []}
-          {"Star": "Chisu(The Mathematic Star)", "Name": "Sun Xin", "Specters": []}
-          {"Star": "Chiin(The Shadowy Star)", "Name": "Gu Dasao", "Specters": []}
-          {"Star": "Chikei(The Avenging Star)", "Name": "Zhang Qing", "Specters": []}
-          {"Star": "Chisou(The Strong Star)", "Name": "Sun Erniang", "Specters": []}
-          {"Star": "Chiretsu(The Inferior Star)", "Name": "Wang Dingliu", "Specters": []}
-          {"Star": "Chiken(The Mighty Star)", "Name": "Yu Baosi", "Specters": []}
-          {"Star": "Chimou(The Rat Star)", "Name": "Bai Sheng", "Specters": []}
-          {"Star": "Chizoku(The Thieving Star)", "Name": "Shi Qian", "Specters": []}
-          {"Star": "Chikou(The Dog Star)", "Name": "Duan Jingzhu", "Specters": []}nn
-          {"Estrela Terrestre da Alcance": {}},
+        "EarthlyStars": [
+          {"Star": "Chikai(Chief Star of Earth)", "Name": "Zhu Wu", "Specters": [{"Atavaka": {}}]},
+          {"Star": "Chisatsu(Violent Star)", "Name": "Huang Xin", "Specters": []},
+          {"Star": "Chiyuu(The Brave Star)", "Name": "Sun Li", "Specters": []},
+          {"Star": "Chiketsu(Star of Noble Wisdom)", "Name": "Xuan Zan", "Specters": []},
+          {"Star": "Chiyuu(The Heroic Star)", "Name": "Hao Siwen", "Specters": []},
+          {"Star": "Chii(The Majestic Star)", "Name": "Han Tao", "Specters": [{"Estrela Terrestre do Prestígio ou Influência": {}}]},
+          {"Star": "Chiei(Star of Courage)", "Name": "Peng Qi", "Specters": []},
+          {"Star": "Chiki(The Strange Star)", "Name": "Shan Tinggui", "Specters": [{"Zelos de Sapo": {}},
+            {"Zelos de Sapo (Lost Canvas)": {}},
+            {"Meehan de Sapo": {}}]},
+          {"Star": "Chimou(The Ferocious Star)", "Name": "Wei Dingguo", "Specters": [{"Espectro da Estrela Terrestre da Ferocidade ou Braveza": {}}]},
+          {"Star": "Chibun(The Learned Star)", "Name": "Xiao Rang", "Specters": []},
+          {"Star": "Chisei (The Guileless Star)", "Name": "Pei Xuan", "Specters": []},
+          {"Star": "Chikatsu(The Eminent Star)", "Name": "Ou Peng", "Specters": [{"Kafka de Arlequim Mortal": {}}]},
+          {"Star": "Chitou(The Folding Star)", "Name": "Deng Fei", "Specters": []},
+          {"Star": "Chikyou(The Strong Star)", "Name": "Yan Shun", "Specters": []},
+          {"Star": "Chian(The Dark Star)", "Name": "Yang Lin", "Specters": [{"Niobe de Deep": {}},
+            {"Niobe de Deep (Lost Canvas)": {}}]},
+          {"Star": "Chiziku(The Axis Star)", "Name": "Ling Zhen", "Specters": []},
+          {"Star": "Chikai(The Star of Gathering)", "Name": "Jiang Jing", "Specters": []},
+          {"Star": "Chisa(The Aiding Star)", "Name": "Lü Fang", "Specters": []},
+          {"Star": "Chiyou(The Helpful Star)", "Name": "Guo Sheng", "Specters": []},
+          {"Star": "Chirei(The Clever Star)", "Name": "An Daoquan", "Specters": []},
+          {"Star": "Chiju(The Beast Star)", "Name": "Huangfu Duan", "Specters": [{"Cheshire de Cat Sith": {}}]},
+          {"Star": "Chibi(The Least Star)", "Name": "Wang Ying", "Specters": []},
+          {"Star": "Chikyu(The Intelligent Star)", "Name": "Hu San Niang", "Specters": []},
+          {"Star": "Chibaku(The Barbarous Star)", "Name": "Bao Xu", "Specters": [{"Giganto de Ciclope": {}},
+            {"Giganto de Ciclope (Lost Canvas)": {}}]},
+          {"Star": "Chizen(The Silent Star)", "Name": "Fan Rui", "Specters": []},
+          {"Star": "Chikou(The Wild Star)", "Name": "Kong Ming", "Specters": []},
+          {"Star": "Chikyou(The Star of Ambition)", "Name": "Kong Liang", "Specters": ["Estrela Terrestre da Loucura": {},
+            "Estrela Terrestre da Loucura (Lost Canvas)": {}]},
+          {"Star": "Chihi(The Flying Star)", "Name": "Xiang Chong", "Specters": [{"Edward de Silfo": {}}]},
+          {"Star": "Chisou(The Walking Star)", "Name": "Li Gun", "Specters": [{"Ox de Górgona": {}}]},
+          {"Star": "(The Cunning Star)", "Name": "Jin Dajian", "Specters": []},
+          {"Star": "Chimei(The Clear Star)", "Name": "Ma Lin", "Specters": [{"Espectro da Estrela Terrestre da Clareza (ou Luz)": {}}]},
+          {"Star": "Chisin(The Forward Star)", "Name": "Tong Wei", "Specters": [{"Estrela Terrestre do Progresso": {}}]},
+          {"Star": "Chitai(The Retreating Star)", "Name": "Tong Meng", "Specters": [{"Estrela Terrestre da Retirada (ou Recuo)": {}}]},
+          {"Star": "Chiman(The Full Star)", "Name": "Meng Kang", "Specters": []},
+          {"Star": "Chisui(The Fulfilled Star)", "Name": "Hou Jian", "Specters": [{"Espectro da Estrela Terrestre da Sucesso (ou Alcance)": {}},]},
+          {"Star": "Chishuu(The Complete Star)", "Name": "Chen Da", "Specters": []},
+          {"Star": "Chiin(The Hidden Star)", "Name": "Yang Chun", "Specters": [{"Espectro da Estrela Terrestre do Segredo (ou Posse)": {}}]},
+          {"Star": "Chii(The Peculiar Star)", "Name": "Zheng Tianshou", "Specters": []},
+          {"Star": "Chiri(The Star of Justice)", "Name": "Tao Zongwang", "Specters": [{"Espectro da Estrela Terrestre da Razão": {}}]},
+          {"Star": "Chisyun(The Elegant Star)", "Name": "Song Qing", "Specters": []},
+          {"Star": "Chiraku(The Star of Music)", "Name": "Yue He", "Specters": [{"Espectro da Estrela Terrestre da Música (ou Alegria)": {}}]},
+          {"Star": "Chitatsu (The Quick Star)", "Name": "Gong Wang", "Specters": []},
+          {"Star": "Chisoku(The Star of Haste)", "Name": "Ding Desun", "Specters": [{"Estrela Terrestre da Velocidade": {}}]},
+          {"Star": "Chichin(The Supressing Star)", "Name": "Mu Chun", "Specters": [{"Kageboshi": {}}]},
+          {"Star": "Chikei(The Halted Star)", "Name": "Cao Zheng", "Specters": []},
+          {"Star": "Chima(The Devil Star)", "Name": "Song Wan", "Specters": [{"Espectro da Estrela Terrestre do Espírito (ou Assombração)": {}}]},
+          {"Star": "Chiyou(The Magic Star)", "Name": "Du Qian", "Specters": [{"Myu de Pappilon (Borboleta)": {}},
+            {"Myu de Pappilon (Lost Canvas)": {}}]},
+          {"Star": "Chiyuu(The Obscure Star)", "Name": "Xue Yong", "Specters": []},
+          {"Star": "Chifuku(The Hiding Star)", "Name": "Shi En", "Specters": [    
+            {"Espectro de Verme (Next Dimension)": {}},
+            {"Laimi de Verme": {}},
+            {"Laimi de Verme (Lost Canvas)": {}}
+          ]},
+          {"Star": "Chihi(The Orphan Star)", "Name": "Li Zhong", "Specters": []},
+          {"Star": "Chikuu(The Empty Star)", "Name": "Zhou Tong", "Specters": [{"Estrela Terrestre do Vazio (Grupo do Minos)": {}}]},
+          {"Star": "Chiko(The Lonely Star)", "Name": "Tang Long", "Specters": []},
+          {"Star": "Chizen(The Finished Star)", "Name": "Du Xing", "Specters": []},
+          {"Star": "Chitan(The Short Star)", "Name": "Zou Yuan", "Specters": []},
+          {"Star": "Chikaku (The Corner Star)", "Name": "Zou Run", "Specters": []},
+          {"Star": "Chishuu(The Prisoned Star)", "Name": "Zhu Gui", "Specters": [{"Gerald": {}}]},
+          {"Star": "Chizou(The Hoarding Star)", "Name": "Zhu Fu", "Specters": []},
+          {"Star": "Chihei(The Smooth Star)", "Name": "Cai Fu", "Specters": []},
+          {"Star": "Chison(The Wounded Star)", "Name": "Cai Qing", "Specters": []},
+          {"Star": "Chido(The Serving Star)", "Name": "Li Li", "Specters": [
+            {"Estrela Terrestre da Escravidão": {}},
+            {"Estrela Terrestre da Escravidão (Grupo do Deathtoll)": {}},
+            {"Estrela Terrestre da Escravidão (Lost Canvas)": {}}]},
+          {"Star": "Chisatsu(The Searching Star)", "Name": "Li Yun", "Specters": [{"Wimber de Morcego": {}}]},
+          {"Star": "Chiaku(The Fierce Star)", "Name": "Jiao Ting", "Specters": [{"Isolde": {}}]},
+          {"Star": "Chishuu(The Ugly Star)", "Name": "Shi Yong", "Specters": []},
+          {"Star": "Chisu(The Mathematic Star)", "Name": "Sun Xin", "Specters": [{"Espectro da Estrela Terrestre do Cálculo": {}}]},
+          {"Star": "Chiin(The Shadowy Star)", "Name": "Gu Dasao", "Specters": [{"Kiew (Cube) de Durahan": {}}]},
+          {"Star": "Chikei(The Avenging Star)", "Name": "Zhang Qing", "Specters": [{"Estrela Terrestre da Punição ou Castigo": {}}]},
+          {"Star": "Chisou(The Strong Star)", "Name": "Sun Erniang", "Specters": []},
+          {"Star": "Chiretsu(The Inferior Star)", "Name": "Wang Dingliu", "Specters": [{"Miles de Elfo": {}}]},
+          {"Star": "Chiken(The Mighty Star)", "Name": "Yu Baosi", "Specters": []},
+          {"Star": "Chimou(The Rat Star)", "Name": "Bai Sheng", "Specters": []},
+          {"Star": "Chizoku(The Thieving Star)", "Name": "Shi Qian", "Specters": []},
+          {"Star": "Chikou(The Dog Star)", "Name": "Duan Jingzhu", "Specters": []},
           "Estrela Terrestre da Alegria": {},
-          "Estrela Terrestre da Assombração": {},
-          "Estrela Terrestre da Braveza": {},
           "Estrela Terrestre da Dignidade (Grupo do Minos)": {},
-          "Estrela Terrestre da Escravidão": {},
-          "Estrela Terrestre da Escravidão (Grupo do Deathtoll)": {},
-          "Estrela Terrestre da Escravidão (Lost Canvas)": {},
           "Estrela Terrestre da Inabilidade": {},
-          "Estrela Terrestre da Loucura": {},
-          "Estrela Terrestre da Loucura (Lost Canvas)": {},
-          "Estrela Terrestre da Luz": {},
           "Estrela Terrestre da Maldade (Grupo do Minos)": {},
-          "Estrela Terrestre da Posse": {},
           "Estrela Terrestre da Prisão": {},
           "Estrela Terrestre da Proteção": {},
           "Estrela Terrestre da Vastidão": {},
-          "Estrela Terrestre da Velocidade": {},
           "Estrela Terrestre do Algarismo": {},
-          "Estrela Terrestre do Castigo": {},
           "Estrela Terrestre do Equilíbrio (Grupo do Minos)": {},
-          "Estrela Terrestre do Influência": {},
           "Estrela Terrestre do Mal": {},
-          "Estrela Terrestre do Progresso": {},
-          "Estrela Terrestre do Recuo": {},
           "Estrela Terrestre do Refúgio (Grupo do Minos)": {},
           "Estrela Terrestre do Refúgio (Grupo do Suikyo)": {},
           "Estrela Terrestre do Segredo (Grupo do Suikyo)": {},
-          "Estrela Terrestre do Vazio (Grupo do Minos)": {},
-          
         ]
       },
+      "Others": {
+        "CelestialStars": [
+          {"Star": "Chiju(The Beast Star)", "Name": "Huangfu Duan", "Specters": [{"Faraó de Esfinge": {}}]},
+          {"Star": "Chima(The Devil Star)", "Name": "Song Wan", "Specters": [{"Queen de Alraune (Lost Canvas)": {}}]},
+          {"Star": "Chishuu(The Ugly Star)", "Name": "Shi Yong", "Specters": [{"Stand de Besouro Mortal": {}}]},
+          {"Star": "Chiin(The Shadowy Star)", "Name": "Gu Dasao", "Specters": [{"Larry da Estrela Celeste da Sombra": {}}]},
+          {"Star": "Chikaku (The Corner Star)", "Name": "Zou Run", "Specters": [{"Rock de Golem": {}}]},
+        ],
+        "TerrestrialStars": [
+
+        ],
+        "UnknownStars": [
+          
+        ]
+      }
       "Revived": [
         {"Afrodite de Peixes (Renegado)": {}},
         {"Algethi de Hércules (Renegado)": {}},
