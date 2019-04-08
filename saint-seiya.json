@@ -749,7 +749,6 @@
           {"Star": "Tenkou(Clever Star)", "Name": "Yan Qing", "Specters": [{"Tokusa de Hanuman": {}}]}
         ],
         "Estrela Celeste do Extraordinário (Grupo do Suikyo)": {}
-        {"Byaku de Necromante": {}},
         {"Chris Walden de Baleia": {}},
         {"Espectro - Carrasco": {}},
         {"Espectro - Moloque": {}},
@@ -853,12 +852,10 @@
           "Estrela Terrestre da Prisão": {},
           "Estrela Terrestre da Proteção": {},
           "Estrela Terrestre da Vastidão": {},
-          "Estrela Terrestre do Algarismo": {},
           "Estrela Terrestre do Equilíbrio (Grupo do Minos)": {},
           "Estrela Terrestre do Mal": {},
           "Estrela Terrestre do Refúgio (Grupo do Minos)": {},
           "Estrela Terrestre do Refúgio (Grupo do Suikyo)": {},
-          "Estrela Terrestre do Segredo (Grupo do Suikyo)": {},
         ]
       },
       "Others": {
@@ -868,6 +865,9 @@
           {"Star": "Chishuu(The Ugly Star)", "Name": "Shi Yong", "Specters": [{"Stand de Besouro Mortal": {}}]},
           {"Star": "Chiin(The Shadowy Star)", "Name": "Gu Dasao", "Specters": [{"Larry da Estrela Celeste da Sombra": {}}]},
           {"Star": "Chikaku (The Corner Star)", "Name": "Zou Run", "Specters": [{"Rock de Golem": {}}]},
+          {"Star": "Chima(The Devil Star)", "Name": "Song Wan", "Specters": [
+            
+        {"Byaku de Necromante": {}},
         ],
         "TerrestrialStars": [
 
