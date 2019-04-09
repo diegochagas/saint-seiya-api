@@ -455,6 +455,7 @@
             {"Dorer de Cérbero": {}}
           ]
         },
+        "Noctua": {"Status": "Extinct", "Unknown Cloths": [{"Partita de Coruja": {}}]},
         "Lotus": {"Status": "Constelação oriental da Índia", "SilverSaints": [{"Ágora de Lótus": {}}]},
         "Tarantula": {"SilverSaints": [{"Aracne de Tarântula": {}}]},
         "Cavaleiro do Fogo": {},
@@ -720,13 +721,14 @@
           {"Star": "Tenmou(Star of Swift Courage)", "Name": "Qin Ming", "Specters": [{"Radamanthys de Wyvern": {}}]},
           {"Star": "Ten'i(Star of Majesty)", "Name": "Huyan Zhuo", "Specters": [{"Lune de Balron": {}}]},
           {"Star": "Ten'ei(Heroic Star)", "Name": "Hua Rong", "Specters": []},
-          {"Star": "Ten'ei(Lofty Star)", "Name": "Chai Jin", "Specters": [{"Minos de Grifo": {}}]},
+          {"Star": "Ten'ei(Lofty Star)", "Name": "Chai Jin", "Specters": [{"Minos de Grifo": {}}, 
+            {"Vermeer de Griffon": {}}]},
           {"Star": "Tenfu(Star of Wealth)", "Name": "Li Ying", "Specters": []},
           {"Star": "Tenman(Star of Abundance)", "Name": "Zhu Tong", "Specters": []},
           {"Star": "Tenko(Lone Star)", "Name": "Lu ZhishenLu Zhishen", "Specters": [{"Violate de Behemoth": {}}]},
-          {"Star": "Tenshou(Wounded Star)", "Name": "Wu Song", "Specters": [{"Fiodor de Mandrágora": {}},]},
+          {"Star": "Tenshou(Wounded Star)", "Name": "Wu Song", "Specters": [{"Fiodor de Mandrágora": {}}]},
           {"Star": "Tenritsu(Star of the Standing Spear)", "Name": "Dong Ping", "Specters": [{"Luko de Dríade": {}}]},
-          {"Star": "Tenshou(The Swift Star)", "Name": "Zhang Qing", "Specters": [{"Sylphid de Basilisco": {}}, {"Sylphid de Basilisco (Lost Canvas)": {}},]},
+          {"Star": "Tenshou(The Swift Star)", "Name": "Zhang Qing", "Specters": [{"Sylphid de Basilisco": {}}, {"Sylphid de Basilisco (Lost Canvas)": {}}]},
           {"Star": "Ten'an(Dark Star)", "Name": "Yang Zhi", "Specters": [{"Moe": {"Midia": ["Saint Seiya Online"]}}]},
           {"Star": "Ten'yuu(Guardian Star)", "Name": "Yang Zhi", "Specters": []},
           {"Star": "Tenkuu(Empty Star)", "Name": "Suo Chao", "Specters": []},
@@ -739,7 +741,7 @@
           {"Star": "Tenju(Star of Longevity)", "Name": "Li Jun", "Specters": [{"Earheart de Vampiro": {}}]},
           {"Star": "Tenken(Dagger Star)", "Name": "Ruan Xiaoer", "Specters": []},
           {"Star": "Tenhei(Leveled Star)", "Name": "Zhang Shun", "Specters": [{"Chris de Cetus": {}}]},
-          {"Star": "Tenzai(Star of Sin)", "Name": "Ruan Xiaowu", "Specters": [{"Flégias de Lycaon": {}}, {"Flégias de Lycaon (Lost Canvas)": {}},]},
+          {"Star": "Tenzai(Star of Sin)", "Name": "Ruan Xiaowu", "Specters": [{"Flégias de Lycaon": {}}, {"Flégias de Lycaon (Lost Canvas)": {}}]},
           {"Star": "Tenson(Broken Star)", "Name": "Zhang Heng", "Specters": []},
           {"Star": "Tenpai(The Vanquished Star)", "Name": "Ruan Xiaoqi", "Specters": [{"Iwan de Troll": {}}]},
           {"Star": "Tenrou(The Goal Star)", "Name": "Yang Xiong", "Specters": [{"Gordon de Minotauro": {}}]},
@@ -748,17 +750,6 @@
           {"Star": "Tenkoku(Wailing Star)", "Name": "Xie Bao", "Specters": [{"Valentine de Harpia": {}}]},
           {"Star": "Tenkou(Clever Star)", "Name": "Yan Qing", "Specters": [{"Tokusa de Hanuman": {}}]}
         ],
-        "Estrela Celeste do Extraordinário (Grupo do Suikyo)": {}
-        {"Chris Walden de Baleia": {}},
-        {"Espectro - Carrasco": {}},
-        {"Espectro - Moloque": {}},
-        {"Espectro - Sanguessuga": {}},
-        {"Espectro de Gárgula": {}},
-        {"Leybold de Upyr": {}},
-        {"Markino": {}},
-        {"Markino (Lost Canvas)": {}},
-        {"Partita de Coruja": {}},
-        {"Vermeer de Griffon": {}},
         "EarthlyStars": [
           {"Star": "Chikai(Chief Star of Earth)", "Name": "Zhu Wu", "Specters": [{"Atavaka": {}}]},
           {"Star": "Chisatsu(Violent Star)", "Name": "Huang Xin", "Specters": []},
@@ -782,7 +773,7 @@
           {"Star": "Chikai(The Star of Gathering)", "Name": "Jiang Jing", "Specters": []},
           {"Star": "Chisa(The Aiding Star)", "Name": "Lü Fang", "Specters": []},
           {"Star": "Chiyou(The Helpful Star)", "Name": "Guo Sheng", "Specters": []},
-          {"Star": "Chirei(The Clever Star)", "Name": "An Daoquan", "Specters": []},
+          {"Star": "Chirei(The Clever Star)", "Name": "An Daoquan", "Specters": [{"Espectro da Estrela Terrestre do Espírito (ou Assombração)": {}}]},
           {"Star": "Chiju(The Beast Star)", "Name": "Huangfu Duan", "Specters": [{"Cheshire de Cat Sith": {}}]},
           {"Star": "Chibi(The Least Star)", "Name": "Wang Ying", "Specters": []},
           {"Star": "Chikyu(The Intelligent Star)", "Name": "Hu San Niang", "Specters": []},
@@ -790,8 +781,8 @@
             {"Giganto de Ciclope (Lost Canvas)": {}}]},
           {"Star": "Chizen(The Silent Star)", "Name": "Fan Rui", "Specters": []},
           {"Star": "Chikou(The Wild Star)", "Name": "Kong Ming", "Specters": []},
-          {"Star": "Chikyou(The Star of Ambition)", "Name": "Kong Liang", "Specters": ["Estrela Terrestre da Loucura": {},
-            "Estrela Terrestre da Loucura (Lost Canvas)": {}]},
+          {"Star": "Chikyou(The Star of Ambition)", "Name": "Kong Liang", "Specters": [{"Estrela Terrestre da Loucura": {}},
+            {"Estrela Terrestre da Loucura (Lost Canvas)": {}}]},
           {"Star": "Chihi(The Flying Star)", "Name": "Xiang Chong", "Specters": [{"Edward de Silfo": {}}]},
           {"Star": "Chisou(The Walking Star)", "Name": "Li Gun", "Specters": [{"Ox de Górgona": {}}]},
           {"Star": "(The Cunning Star)", "Name": "Jin Dajian", "Specters": []},
@@ -799,7 +790,7 @@
           {"Star": "Chisin(The Forward Star)", "Name": "Tong Wei", "Specters": [{"Estrela Terrestre do Progresso": {}}]},
           {"Star": "Chitai(The Retreating Star)", "Name": "Tong Meng", "Specters": [{"Estrela Terrestre da Retirada (ou Recuo)": {}}]},
           {"Star": "Chiman(The Full Star)", "Name": "Meng Kang", "Specters": []},
-          {"Star": "Chisui(The Fulfilled Star)", "Name": "Hou Jian", "Specters": [{"Espectro da Estrela Terrestre da Sucesso (ou Alcance)": {}},]},
+          {"Star": "Chisui(The Fulfilled Star)", "Name": "Hou Jian", "Specters": [{"Espectro da Estrela Terrestre da Sucesso (ou Alcance)": {}}]},
           {"Star": "Chishuu(The Complete Star)", "Name": "Chen Da", "Specters": []},
           {"Star": "Chiin(The Hidden Star)", "Name": "Yang Chun", "Specters": [{"Espectro da Estrela Terrestre do Segredo (ou Posse)": {}}]},
           {"Star": "Chii(The Peculiar Star)", "Name": "Zheng Tianshou", "Specters": []},
@@ -810,7 +801,7 @@
           {"Star": "Chisoku(The Star of Haste)", "Name": "Ding Desun", "Specters": [{"Estrela Terrestre da Velocidade": {}}]},
           {"Star": "Chichin(The Supressing Star)", "Name": "Mu Chun", "Specters": [{"Kageboshi": {}}]},
           {"Star": "Chikei(The Halted Star)", "Name": "Cao Zheng", "Specters": []},
-          {"Star": "Chima(The Devil Star)", "Name": "Song Wan", "Specters": [{"Espectro da Estrela Terrestre do Espírito (ou Assombração)": {}}]},
+          {"Star": "Chima(The Devil Star)", "Name": "Song Wan", "Specters": []},
           {"Star": "Chiyou(The Magic Star)", "Name": "Du Qian", "Specters": [{"Myu de Pappilon (Borboleta)": {}},
             {"Myu de Pappilon (Lost Canvas)": {}}]},
           {"Star": "Chiyuu(The Obscure Star)", "Name": "Xue Yong", "Specters": []},
@@ -825,7 +816,8 @@
           {"Star": "Chizen(The Finished Star)", "Name": "Du Xing", "Specters": []},
           {"Star": "Chitan(The Short Star)", "Name": "Zou Yuan", "Specters": []},
           {"Star": "Chikaku (The Corner Star)", "Name": "Zou Run", "Specters": []},
-          {"Star": "Chishuu(The Prisoned Star)", "Name": "Zhu Gui", "Specters": [{"Gerald": {}}]},
+          {"Star": "Chishuu(The Prisoned Star)", "Name": "Zhu Gui", "Specters": [{"Gerald": {}},
+            {"Leybold de Upyr": {}}]},
           {"Star": "Chizou(The Hoarding Star)", "Name": "Zhu Fu", "Specters": []},
           {"Star": "Chihei(The Smooth Star)", "Name": "Cai Fu", "Specters": []},
           {"Star": "Chison(The Wounded Star)", "Name": "Cai Qing", "Specters": []},
@@ -844,18 +836,7 @@
           {"Star": "Chiken(The Mighty Star)", "Name": "Yu Baosi", "Specters": []},
           {"Star": "Chimou(The Rat Star)", "Name": "Bai Sheng", "Specters": []},
           {"Star": "Chizoku(The Thieving Star)", "Name": "Shi Qian", "Specters": []},
-          {"Star": "Chikou(The Dog Star)", "Name": "Duan Jingzhu", "Specters": []},
-          "Estrela Terrestre da Alegria": {},
-          "Estrela Terrestre da Dignidade (Grupo do Minos)": {},
-          "Estrela Terrestre da Inabilidade": {},
-          "Estrela Terrestre da Maldade (Grupo do Minos)": {},
-          "Estrela Terrestre da Prisão": {},
-          "Estrela Terrestre da Proteção": {},
-          "Estrela Terrestre da Vastidão": {},
-          "Estrela Terrestre do Equilíbrio (Grupo do Minos)": {},
-          "Estrela Terrestre do Mal": {},
-          "Estrela Terrestre do Refúgio (Grupo do Minos)": {},
-          "Estrela Terrestre do Refúgio (Grupo do Suikyo)": {},
+          {"Star": "Chikou(The Dog Star)", "Name": "Duan Jingzhu", "Specters": []}
         ]
       },
       "Others": {
@@ -865,37 +846,40 @@
           {"Star": "Chishuu(The Ugly Star)", "Name": "Shi Yong", "Specters": [{"Stand de Besouro Mortal": {}}]},
           {"Star": "Chiin(The Shadowy Star)", "Name": "Gu Dasao", "Specters": [{"Larry da Estrela Celeste da Sombra": {}}]},
           {"Star": "Chikaku (The Corner Star)", "Name": "Zou Run", "Specters": [{"Rock de Golem": {}}]},
-          {"Star": "Chima(The Devil Star)", "Name": "Song Wan", "Specters": [
-            
-        {"Byaku de Necromante": {}},
-        ],
-        "TerrestrialStars": [
-
+          {"Star": "Chirei(The Clever Star)", "Name": "An Daoquan", "Specters": [{"Byaku de Necromante": {}}]}
         ],
         "UnknownStars": [
-          
+          {"Star": "", "Name": "", "Specters": [{"Espectro de Gárgula": {}}]},
+          {"Star": "", "Name": "", "Specters": [{"Shura de Baphomet": {}}]},
+          {"Star": "", "Name": "", "Specters": [{"Executioner (Boia in Italian) Specter": {"FanMade": "Marco Albiero"}}]},
+          {"Star": "", "Name": "", "Specters": [{"Leech (Sanguisuga in Italian) Specter": {"FanMade": "Marco Albiero"}}]},
+          {"Star": "", "Name": "", "Specters": [{"Morax (Marax in Italian) Specter": {"FanMade": "Marco Albiero"}}]}
+        ],
+        "Other Servants": [
+          {"Markino de Esqueleto": {"Rank": ["Soldier"]}},
+          {"Pandora": {"Rank": ["General commander"]}}
+        ],
+        "Revived": [
+          {"Afrodite de Peixes (Renegado)": {}},
+          {"Algethi de Hércules (Renegado)": {}},
+          {"Algol de Perseu (Renegado)": {}},
+          {"Babel de Centauro (Renegado)": {}},
+          {"Camus de Aquário (Renegado)": {}},
+          {"Capella de Auriga (Renegado)": {}},
+          {"Dante de Cérbero (Renegado)": {}},
+          {"Dio de Mosca (Renegado)": {}},
+          {"Espectro - Sagita (Lost Canvas)": {}},
+          {"Máscara da Morte de Câncer (Renegado)": {}},
+          {"Misty de Lagardo (Renegado)": {}},
+          {"Mouses de Baleia (Renegado)": {}},
+          {"Saga de Gêmeos (Renegado)": {}},
+          {"Shion de Áries (Renegado)": {}},
+          {"Shura de Capricórnio (Renegado)": {}}
         ]
       }
-      "Revived": [
-        {"Afrodite de Peixes (Renegado)": {}},
-        {"Algethi de Hércules (Renegado)": {}},
-        {"Algol de Perseu (Renegado)": {}},
-        {"Babel de Centauro (Renegado)": {}},
-        {"Camus de Aquário (Renegado)": {}},
-        {"Capella de Auriga (Renegado)": {}},
-        {"Dante de Cérbero (Renegado)": {}},
-        {"Espectro - Auriga (Lost Canvas)": {}},
-        {"Espectro - Cérbero (Lost Canvas)": {}},
-        {"Dio de Mosca (Renegado)": {}},
-        {"Espectro - Sagita (Lost Canvas)": {}},
-        {"Máscara da Morte de Câncer (Renegado)": {}},
-        {"Misty de Lagardo (Renegado)": {}},
-        {"Mouses de Baleia (Renegado)": {}},
-        {"Saga de Gêmeos (Renegado)": {}},
-        {"Shion de Áries (Renegado)": {}},
-        {"Shura de Capricórnio (Renegado)": {}}
-      ]
-    }
+    },
+    "PhobetorWarriors": [
+      {"Felser do Terror Negro": {}}
     ],
     "Anjos": { 
       "Anjos da Morte": [
@@ -1086,7 +1070,6 @@
     {"Pais do Alone e Sasha": {}},
     {"Pakia": {}},
     {"Palmer": {}},
-    {"Pandora": {}},
     {"Paulo": {}},
     {"Pefko": {}},
     {"Pesce": {}},
@@ -1137,5 +1120,3 @@
     {"Soldados do Santuário": {}}
   ]
 }
-
-
