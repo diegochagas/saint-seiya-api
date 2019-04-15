@@ -691,9 +691,7 @@
       ]
     }, 
     "Marinas de Poseison": {
-      "Marinas": [
-        {"Thetis de Sereia": {}}
-      ],
+      "Marinas": [{"Thetis de Sereia": {}}],
       "Generais Marinas": {
         "Dragão Marinho": [{"Kanon de Dragão Marinho": {}}, {"Unity de Dragão Marinho": {}}],
         "Cavalo Marinho": [{"Bian de Cavalo Marinho": {}}],
@@ -710,12 +708,10 @@
           {"Star": "Tenkai(Star Chief Star of Heaven)", "Name": "Song Jiang", "Specters": [{"Yohma de Mephistopheles": {}}]},
           {"Star": "Tengou(Star of Conflagration)", "Name": "Lu Junyi", "Specters": []},
           {"Star": "Tenki(Star of Wisdom)", "Name": "Wu Yong", "Specters": []},
-          {"Star": "Tenkan(Star of Idleness)", "Name": "Gongsun Sheng", "Specters": [{"Caronte de Aqueronte": {}},
-            {"Caronte de Aqueronte (Lost Canvas)": {}}]},
+          {"Star": "Tenkan(Star of Idleness)", "Name": "Gongsun Sheng", "Specters": [{"Caronte de Aqueronte": {}}]},
           {"Star": "Ten'yuu(Star of Bravery)", "Name": "Guan Sheng", "Specters": []},
           {"Star": "Ten'yuu(Star of Heroic Ferocity)", "Name": "Lin Chong", "Specters": [
             {"Aiacos de Garuda": {}},
-            {"Aiacos de Garuda (Lost Canvas)": {}},
             {"Suikyo de Garuda": {}}]},
           {"Star": "Tenmou(Star of Swift Courage)", "Name": "Qin Ming", "Specters": [{"Radamanthys de Wyvern": {}}]},
           {"Star": "Ten'i(Star of Majesty)", "Name": "Huyan Zhuo", "Specters": [{"Lune de Balron": {}}]},
@@ -776,8 +772,7 @@
           {"Star": "Chiju(The Beast Star)", "Name": "Huangfu Duan", "Specters": [{"Cheshire de Cat Sith": {}}]},
           {"Star": "Chibi(The Least Star)", "Name": "Wang Ying", "Specters": []},
           {"Star": "Chikyu(The Intelligent Star)", "Name": "Hu San Niang", "Specters": []},
-          {"Star": "Chibaku(The Barbarous Star)", "Name": "Bao Xu", "Specters": [{"Giganto de Ciclope": {}},
-            {"Giganto de Ciclope (Lost Canvas)": {}}]},
+          {"Star": "Chibaku(The Barbarous Star)", "Name": "Bao Xu", "Specters": [{"Giganto de Ciclope": {}}]},
           {"Star": "Chizen(The Silent Star)", "Name": "Fan Rui", "Specters": []},
           {"Star": "Chikou(The Wild Star)", "Name": "Kong Ming", "Specters": []},
           {"Star": "Chikyou(The Star of Ambition)", "Name": "Kong Liang", "Specters": [{"Estrela Terrestre da Loucura": {}},
@@ -801,14 +796,9 @@
           {"Star": "Chichin(The Supressing Star)", "Name": "Mu Chun", "Specters": [{"Kageboshi": {}}]},
           {"Star": "Chikei(The Halted Star)", "Name": "Cao Zheng", "Specters": []},
           {"Star": "Chima(The Devil Star)", "Name": "Song Wan", "Specters": []},
-          {"Star": "Chiyou(The Magic Star)", "Name": "Du Qian", "Specters": [{"Myu de Pappilon (Borboleta)": {}},
-            {"Myu de Pappilon (Lost Canvas)": {}}]},
+          {"Star": "Chiyou(The Magic Star)", "Name": "Du Qian", "Specters": [{"Myu de Pappilon (Borboleta)": {}}]},
           {"Star": "Chiyuu(The Obscure Star)", "Name": "Xue Yong", "Specters": []},
-          {"Star": "Chifuku(The Hiding Star)", "Name": "Shi En", "Specters": [    
-            {"Espectro de Verme (Next Dimension)": {}},
-            {"Laimi de Verme": {}},
-            {"Laimi de Verme (Lost Canvas)": {}}
-          ]},
+          {"Star": "Chifuku(The Hiding Star)", "Name": "Shi En", "Specters": [{"Laimi de Verme": {}}]},
           {"Star": "Chihi(The Orphan Star)", "Name": "Li Zhong", "Specters": []},
           {"Star": "Chikuu(The Empty Star)", "Name": "Zhou Tong", "Specters": [{"Estrela Terrestre do Vazio (Grupo do Minos)": {}}]},
           {"Star": "Chiko(The Lonely Star)", "Name": "Tang Long", "Specters": []},
@@ -877,9 +867,7 @@
         ]
       }
     },
-    "PhobetorWarriors": [
-      {"Felser do Terror Negro": {}}
-    ],
+    "PhobetorWarriors": [{"Felser do Terror Negro": {}}],
     "Anjos": { 
       "Anjos da Morte": [
         {"Ashtarote de Querubim": {}},
@@ -1054,7 +1042,6 @@
     {"Mischa": {}},
     {"Mito": {}},
     {"Mitsumasa Kido": {}},
-    {"Motoqueiro": {}},
     {"Muirgheas Lugh": {}},
     {"Natássia (Episódio G)": {}},
     {"Natássia (mãe do Hyoga)": {}},
