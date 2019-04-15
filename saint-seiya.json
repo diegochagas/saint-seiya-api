@@ -659,7 +659,7 @@
       {"Piotr": {}},
       {"Soldados de Alexei": {}}
     ],
-    "Guerreiros Deuses": {
+    "GodWarriors": {
       "Liderados por Durval": [
         {"Durval": {}},
         {"Frey": {}},
@@ -694,16 +694,15 @@
       "Marinas": [
         {"Thetis de Sereia": {}}
       ],
-      "Generais Marinas": [
-        {"Bian de Cavalo Marinho": {}},
-        {"Io de Scylla": {}},
-        {"Isaak de Kraken": {}},
-        {"Kanon de Dragão Marinho": {}},
-        {"Kasa de Lymnades": {}},
-        {"Krishna de Chrysaor": {}},
-        {"Sorento de Sirene": {}},
-        {"Unity de Dragão Marinho": {}}
-      ]
+      "Generais Marinas": {
+        "Dragão Marinho": [{"Kanon de Dragão Marinho": {}}, {"Unity de Dragão Marinho": {}}],
+        "Cavalo Marinho": [{"Bian de Cavalo Marinho": {}}],
+        "Scylla": [{"Io de Scylla": {}}],
+        "Kraken": [{"Isaak de Kraken": {}}],
+        "Lymnades": [{"Kasa de Lymnades": {}}],
+        "Chrysaor": [{"Krishna de Chrysaor": {}}],
+        "Sirene": [{"Sorento de Sirene": {}}]
+      }
     },
     "Specters": {
       "EvilStars": {
