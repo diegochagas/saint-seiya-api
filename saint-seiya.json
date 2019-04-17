@@ -3,27 +3,21 @@
     "SaintsOfAthena": {
       "Constellations": {
         "Andromeda": {
-          "BronzeSaints": [{"Shun de Andrômeda": {}}, {"Shun de Andrômeda (Ômega)": {}}]
+          "BronzeSaints": [{"Shun": {"Versions":{"Ômega": "url"}}}],
+          "EnglishName": "Andromeda"
         },
         "Antlia": {},
         "Apus": {
-          "BronzeSaints": [{"Paradise de Apus": {}}]
+          "BronzeSaints": [{"Paradise": {}}]
         },
         "Aquarius": {
-          "GoldSaints": [
-            {"Camus de Aquário": {}},
-            {"Dégel de Aquário": {}},
-            {"Krest de Aquário": {}},
-            {"Mystoria de Aquário": {}},
-            {"Tokisada de Aquário": {}}
-          ]
-        },
+          "GoldSaints": [{"Camus": {}}, {"Dégel": {}}, {"Krest": {}}, {"Mystoria": {}}, {"Tokisada": {}}]},
         "Aquila": {
-          "SilverSaints": [{"Marin de Águia": {}}],
-          "BronzeSaints": [{"Yuna de Águia": {}}]
+          "SilverSaints": [{"Marin": {}}], 
+          "BronzeSaints": [{"Yuna": {}}]
         },
         "Ara": {
-          "SilverSaints": [{"Hakurei de Altar": {}}, {"Nikol de Altar": {}}]
+          "SilverSaints": [{"Hakurei": {}}, {"Nikol": {}}]
         },
         "Aries": {
           "GoldSaints": [
