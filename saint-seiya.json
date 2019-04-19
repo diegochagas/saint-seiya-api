@@ -552,7 +552,8 @@
       {"Disnomia": {}},
       {"Emony de Malícia": {}},
       {"Mania de Loucura": {}},
-      {"Phonos de Assassinato": {}}
+      {"Phonos de Assassinato": {}},
+      {"Banimento/Punição": {"Máscara da Morte": {}}}
     ],
     "Taonias": [
       {"Feiyan de Hakutaku": {}},
