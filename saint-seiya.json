@@ -593,8 +593,8 @@
       {"Tourmaline de Eletricidade": {}}
     ],
     "Jaguares": [
-      {"Jaguares": {}},
-      {"Nahualpilli de Youaltepuztli": {}}
+      {"Nahualpilli de Youaltepuztli": {}},
+      {"Jaguares": {}}
     ],
     "Satélites": [
       {"Calisto": {}},
@@ -609,43 +609,58 @@
       {"Satélite #8": {}}
     ],
     "Marcianos": [
-      {"Baco": {}},
-      {"Comandante Marciano": {}},
-      {"Diana": {}},
-      {"Escaravelho #1": {}},
-      {"Escaravelho #2": {}},
       {"Medea": {}},
       {"Ordykia de Mantis": {}},
       {"Radzinsky de Formiga": {}},
       {"Ragno de Aranha": {}},
-      {"Rômulo": {}},
       {"Sonia de Vespa": {}},
+      {"Comandante Marciano": {}},
+      {"Escaravelho #1": {}},
+      {"Escaravelho #2": {}},
+      {"Baco": {}},
+      {"Diana": {}},
+      {"Rômulo": {}},
       {"Vulcano": {}}
     ],
-    "Pallasitos": [
-      {"Aegir de Braço Fantasma (Manopla)": {}},
-      {"Aigaion de Espada do Trovão": {}},
-      {"Cilene de Matador de Almas (Foice da Morte)": {}},
-      {"Dione de Cobra de Plasma (Chicote)": {}},
-      {"Eden de Maça de Impulso (Clava)": {}},
-      {"Europa de Corte Retalhador (Chakram)": {}},
-      {"Gália de Espada da Guerra": {}},
-      {"Greip de Matador de Almas (Foice da Morte)": {}},
-      {"Halimede (Barra Tripla)": {}},
-      {"Hati (Adaga)": {}},
-      {"Hyperion de Espada da Destruição": {}},
-      {"Loge de Brionac (Lança)": {}},
-      {"Metone de Máxima Brilhante (Garras)": {}},
-      {"Miller de Luva Alquímica": {}},
-      {"Paradox de Jano Escarlate (Cetro)": {}},
-      {"Réia de Marionetes": {}},
-      {"Surtr de Pedra Mística": {}},
-      {"Tarvos de Esmagador de Estrelas (Mangual)": {}},
-      {"Tebe de Impacto Demoníaco (Martelo)": {}},
-      {"Titan de Espada da Criação": {}},
-      {"Tokisada de Relógio da Morte": {}},
-      {"Ymir de Máxima Brilhante (Garras)": {}}
-    ],
+    "Pallasitos": {
+      "FirstClass": [
+        {"Titan de Espada da Criação": {}},
+        {"Hyperion de Espada da Destruição": {}},
+        {"Gália de Espada da Guerra": {}},
+        {"Aigaion de Espada do Trovão": {}}        
+      ],
+      "SecondClass": [
+        {"Dione de Cobra de Plasma (Chicote)": {}},
+        {"Réia de Marionetes": {}},
+        {"Europa de Corte Retalhador (Chakram)": {}},
+        {"Aegir de Braço Fantasma (Manopla)": {}},
+        {"Paradox de Jano Escarlate (Cetro)": {}},
+        {"Surtr de Pedra Mística": {}},
+        {"Tokisada de Relógio da Morte": {}}
+      ],
+      "ThirdClass": [
+        {"Tarvos de Esmagador de Estrelas (Mangual)": {}},
+        {"Loge de Brionac (Lança)": {}},
+        {"Ymir de Máxima Brilhante (Garras)": {}},
+        {"Metone de Máxima Brilhante (Garras)": {}},
+        {"Halimede (Barra Tripla)": {}},
+        {"Hati (Adaga)": {}},
+        {"Tebe de Impacto Demoníaco (Martelo)": {}},
+        {"Cilene de Matador de Almas (Foice da Morte)": {}},
+        {"Greip de Matador de Almas (Foice da Morte)": {}},
+        {"Eden de Maça de Impulso (Clava)": {}}
+      ],
+      "UnknownClass": [
+        {"Miller de Luva Alquímica": {}}
+      ],
+      "FourthClass": [
+        {"Green": {"Master": "Titan de Espada da Criação"}},
+        {"Red": {"Master": "Hyperion de Espada da Destruição"}},
+        {"Yellow": {"Master": "Gália de Espada da Guerra"}},
+        {"Blue": {"Master": "Aigaion de Espada do Trovão"}},
+        {"Black": {"Master": "(Ômega) Saturno"}}
+      ]
+    },
     "Sem Face": [
       {"Sem Face Ceifador de Almas": {}},
       {"Sem Face Dragão": {}},
