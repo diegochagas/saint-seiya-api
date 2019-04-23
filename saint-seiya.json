@@ -503,7 +503,7 @@
       ]
     },
     "Gigas": [
-      {"Episode G":
+      {"TitanServants":
         [
           {"Lyax de Poinx": {}},
           {"Phlox de Cianos": {}},
@@ -513,27 +513,26 @@
           {"Zugilos de Anthrakma":{}},
           {"Margarites de Dragão de Pérola": {}},
           {"Electron de Fera Âmbar": {}},
-          {"Nephiritis de Couraça de Jade": {}},
-          {"Tífon (Episódio G)": {}}
+          {"Nephiritis de Couraça de Jade": {}}
         ]
       },
-      {"Gigantomaquia": 
+      {"TífonServants": 
         [
           {"Ágrios (Força Brutal)": {}},
           {"Toas (Relâmpago Célebre)": {}},
           {"Pallas (Parvo)": {}},
-          {"Encélado (Brado de Combate)": {}},
+          {"Encélado": [
+            {"Encélado (Brado de Combate)": {"Midia": "Gigantomaquia"}},
+            {"Encélado": {"Midia": "Lost Canvas"}}]},
           {"Ortos (Cão Bicéfalo do Mal)": {}},
           {"Quimera (Fera Pluriforme)": {}},
           {"Ladon (Dragão de Cem Cabeças)": {}},
           {"Equidina (Mulher Giga)": {}},
-          {"Tífon (Deus Giga)": {}}
-        ]
-      },
-      {"Lost Canvas": 
-        [
-          {"Tífon (Lost Canvas)": {}},
-          {"Encélado (Lost Canvas)": {}}
+          {"Tífon": [
+            {"Tífon": {"Midia": "Lost Canvas"}},
+            {"Tífon": {"Midia": "Episódio G"}},
+            {"Tífon": {"Midia": "Gigantomaquia"}}
+          ]}
         ]
       }
     ],
@@ -541,7 +540,10 @@
       "Os 12 Titãs": [
         {"Céos (Relâmpago Negro)": {}},
         {"Créos (Galáxia)": {}},
-        {"Cronos (Tempo)": {}},
+        {"Cronos": [
+          {"Cronos": {"Midia": "Next Dimension"}},
+          {"Cronos (Tempo)": {"Midia": "Episode G"}},
+          {"Saturno": {"Midia": "Ômega"}}]},
         {"Febe (Lua)": {}},
         {"Hyperion (Ébano)": {}},
         {"Iápeto (Dimensões)": {}},
@@ -904,48 +906,62 @@
         {"Tohma de Ícaro": {}}
       ]
     },
-    "Deuses": [
-      {"Abel": {}},
-      {"Apolo": {}},
-      {"Artemis": {}},
-      {"Éris": {}},
-      {"Hades": {}},
-      {"Hypnos": {}},
-      {"Julian Solo (Poseidon)": {}},
-      {"Loki (Deus)": {}},
-      {"Odin": {}},
-      {"Saori Kido (Atena)": {}},
-      {"Thanatos": {}},
-      {"(Episódio G) Anúbis": {}},
-      {"(Episódio G) Apófis": {}},
-      {"(Episódio G) Gaia": {}},
-      {"(Episódio G) Pontos": {}},
-      {"(Episódio G) Rá": {}},
-      {"(Episódio G) Tártaro": {}},
-      {"(Episódio G) Urano": {}},
-      {"(Lost Canvas) Alone (Hades - Lost Canvas)": {}},
-      {"(Lost Canvas) Ares": {}},
-      {"(Lost Canvas) Carbella (Quetzalcoatl)": {}},
-      {"(Lost Canvas) Crúaich (Balor)": {}},
-      {"(Lost Canvas) Fantasos": {}},
-      {"(Lost Canvas) Hypnos (Lost Canvas)": {}},
-      {"(Lost Canvas) Icelos": {}},
-      {"(Lost Canvas) Kairos": {}},
-      {"(Lost Canvas) Morfeu": {}},
-      {"(Lost Canvas) Oneiros": {}},
-      {"(Lost Canvas) Phobetor": {}},
-      {"(Lost Canvas) Sasha (Atena)": {}},
-      {"(Lost Canvas) Serafina (Poseidon)": {}},
-      {"(Lost Canvas) Thanatos (Lost Canvas)": {}},
-      {"(Lost Canvas) Wesda (Tezcalipoca)": {}},
-      {"(Next Dimension) Alone (Hades)": {}},
-      {"(Next Dimension) Cronos": {}},
-      {"(Ômega) Apsu": {}},
-      {"(Ômega) Aria": {}},
-      {"(Ômega) Marte": {}},
-      {"(Ômega) Pallas": {}},
-      {"(Ômega) Saturno": {}},
-      {"(Saintia Sho) Ares (Saga)": {}}
+    "Gods": [
+      {
+        "GreekAndRoman": [
+          {"Atena": [
+            {"Saori Kido": {}},
+            {"Sasha": {"Midia": "Lost Canvas"}},
+            {"Aria": {"Midia": "Ômega"}}]},
+          {"Poseidon": [{"Julian Solo": {}}, {"Serafina": {"Midia": "Lost Canvas"}}]},
+          {"Apolo": [
+              {"Apolo": {"Midia": "Heaven Chapter: Overture"}}, 
+              {"Abel": {"Midia": "Legend of Crimson Youth"}}]},
+          {"Artemis": {}},
+          {"Éris": {}},
+          {"Hades": [{"Shun": {}}, {"Alone": {"Midia": "Next Dimension"}}]},
+          {"Thanatos": {}},
+          {"Hypnos": {}},
+          {"Fantasos": {"Midia": "Lost Canvas"}},
+          {"Icelos": {"Midia": "Lost Canvas"}},
+          {"Kairos": {"Midia": "Lost Canvas"}},
+          {"Morfeu": {"Midia": "Lost Canvas"}},
+          {"Oneiros": {"Midia": "Lost Canvas"}},
+          {"Phobetor": {"Midia": "Lost Canvas"}},
+          {"Ares": [
+            {"Saga": {"Midia": "Saintia Sho"}},
+            {"Marte": {"Midia": "Ômega"}},
+            {"Ares": {"Midia": "Lost Canvas"}}]},
+          {"Pallas": {"Midia": "Ômega"}},
+          {"(Episódio G) Gaia": {}},
+          {"(Episódio G) Pontos": {}},
+          {"(Episódio G) Tártaro": {}},
+          {"(Episódio G) Urano": {}},
+          {"Cronos": "Make and reference here"},
+          {"Tífon": "Make and reference here"}
+        ]
+      },
+      {
+        "Nordic": [
+          {"Odin": [{"Seiya": {}}, {"Aiolia": {"Midia": "Soul of Gold"}}]},
+          {"Loki (Deus)": {}}
+        ]
+      },
+      {
+        "Egyptian": [
+          {"Anúbis": {"Midia": "Episode G"}},
+          {"Apófis": {"Midia": "Episode G"}},
+          {"Rá": {"Midia": "Episode G"}}
+        ]
+      },
+      {"Celtic": [{"Crúaich (Balor)": {"Midia": "Lost Canvas"}}]},
+      {"SumerianAndAcadium": [{"(Ômega) Apsu": {}}]},
+      {
+        "Aztec": [
+          {"Carbella (Quetzalcoatl)": {"Midia": "Lost Canvas"}},
+          {"Wesda (Tezcalipoca)": {"Midia": "Lost Canvas"}}
+        ]
+      }
     ]
   }, 
   "Outros": {
