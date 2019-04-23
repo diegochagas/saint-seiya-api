@@ -503,27 +503,39 @@
       ]
     },
     "Gigas": [
-      {"Ágrios (Força Brutal)": {}},
-      {"Anemos de Leucotes": {}},
-      {"Bronte de Melas": {}},
-      {"Electron de Fera Âmbar": {}},
-      {"Encélado (Brado de Combate)": {}},
-      {"Encélado (Lost Canvas)": {}},
-      {"Equidina (Mulher Giga)": {}},
-      {"Ladon (Dragão de Cem Cabeças)": {}},
-      {"Lyax de Poinx": {}},
-      {"Margarites de Dragão de Pérola": {}},
-      {"Nephiritis de Couraça de Jade": {}},
-      {"Ortos (Cão Bicéfalo do Mal)": {}},
-      {"Pallas (Parvo)": {}},
-      {"Phlox de Cianos": {}},
-      {"Quimera (Fera Pluriforme)": {}},
-      {"Spate de Paios": {}},
-      {"Tífon (Deus Giga)": {}},
-      {"Tífon (Episódio G)": {}},
-      {"Tífon (Lost Canvas)": {}},
-      {"Toas (Relâmpago Célebre)": {}},
-      {"Zugilos de Anthrakma":{}}
+      {"Episode G":
+        [
+          {"Lyax de Poinx": {}},
+          {"Phlox de Cianos": {}},
+          {"Anemos de Leucotes": {}},
+          {"Bronte de Melas": {}},
+          {"Spate de Paios": {}},
+          {"Zugilos de Anthrakma":{}},
+          {"Margarites de Dragão de Pérola": {}},
+          {"Electron de Fera Âmbar": {}},
+          {"Nephiritis de Couraça de Jade": {}},
+          {"Tífon (Episódio G)": {}}
+        ]
+      },
+      {"Gigantomaquia": 
+        [
+          {"Ágrios (Força Brutal)": {}},
+          {"Toas (Relâmpago Célebre)": {}},
+          {"Pallas (Parvo)": {}},
+          {"Encélado (Brado de Combate)": {}},
+          {"Ortos (Cão Bicéfalo do Mal)": {}},
+          {"Quimera (Fera Pluriforme)": {}},
+          {"Ladon (Dragão de Cem Cabeças)": {}},
+          {"Equidina (Mulher Giga)": {}},
+          {"Tífon (Deus Giga)": {}}
+        ]
+      },
+      {"Lost Canvas": 
+        [
+          {"Tífon (Lost Canvas)": {}},
+          {"Encélado (Lost Canvas)": {}}
+        ]
+      }
     ],
     "Titãs": {
       "Os 12 Titãs": [
