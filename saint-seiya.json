@@ -234,8 +234,6 @@
         "Libra": {
           "GoldSaints": [
             {"Dohko de Libra": {}},
-            {"Dohko de Libra (Lost Canvas)": {}},
-            {"Dohko de Libra (Next Dimension)": {}},
             {"Gembu de Libra": {}},
             {"Itia de Libra": {}},
             {"Shiryu de Libra": {}}
@@ -269,8 +267,7 @@
         "Microscopium": {},
         "Monoceros": {
           "BronzeSaints": [
-            {"Jabu de Unicórnio": {}},
-            {"Jabu de Unicórnio (Ômega)": {}},
+            {"Jabu de Unicórnio": {"Versions":{"Ômega": "url"}}},
             {"Yato de Unicórnio": {}}
           ]
         },
@@ -516,7 +513,7 @@
           {"Nephiritis de Couraça de Jade": {}}
         ]
       },
-      {"TífonServants": 
+      {"TifonServants": 
         [
           {"Ágrios (Força Brutal)": {}},
           {"Toas (Relâmpago Célebre)": {}},
@@ -528,7 +525,7 @@
           {"Quimera (Fera Pluriforme)": {}},
           {"Ladon (Dragão de Cem Cabeças)": {}},
           {"Equidina (Mulher Giga)": {}},
-          {"Tífon": [
+          {"Tifon": [
             {"Tífon": {"Midia": "Lost Canvas"}},
             {"Tífon": {"Midia": "Episódio G"}},
             {"Tífon": {"Midia": "Gigantomaquia"}}
@@ -1007,7 +1004,6 @@
     {"Ana": {}},
     {"Anna": {}},
     {"Anna (Lost Canvas)": {}},
-    {"Ares (Arles)": {}},
     {"Atla": {}},
     {"Avô da Helen": {}},
     {"Bombeiros": {}},
