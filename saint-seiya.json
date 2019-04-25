@@ -3,7 +3,7 @@
     "SaintsOfAthena": {
       "Constellations": {
         "Andromeda": {
-          "BronzeSaints": [{"Shun": {"Versions":{"Ômega": "url"}}}],
+          "BronzeSaints": [{"Shun": {"Appear": "Manga scene"}, "ClothScheme": {"Ômega Version": "url"}}],
           "EnglishName": "Andromeda"
         },
         "Antlia": {},
@@ -267,7 +267,7 @@
         "Microscopium": {},
         "Monoceros": {
           "BronzeSaints": [
-            {"Jabu de Unicórnio": {"Versions":{"Ômega": "url"}}},
+            {"Jabu de Unicórnio": {"ClothScheme": {"Ômega Version": "url"}}},
             {"Yato de Unicórnio": {}}
           ]
         },
@@ -907,7 +907,7 @@
       {
         "GreekAndRoman": [
           {"Atena": [
-            {"Saori Kido": {}},
+            {"Saori Kido": {"Midia": "Classic"}},
             {"Sasha": {"Midia": "Lost Canvas"}},
             {"Aria": {"Midia": "Ômega"}}]},
           {"Poseidon": [{"Julian Solo": {}}, {"Serafina": {"Midia": "Lost Canvas"}}]},
@@ -934,8 +934,8 @@
           {"(Episódio G) Pontos": {}},
           {"(Episódio G) Tártaro": {}},
           {"(Episódio G) Urano": {}},
-          {"Cronos": "Make and reference here"},
-          {"Tífon": "Make and reference here"}
+          {"Cronos": "Make and reference to Titans collection"},
+          {"Tífon": "Make and reference to Titans collection"}
         ]
       },
       {
@@ -952,7 +952,7 @@
         ]
       },
       {"Celtic": [{"Crúaich (Balor)": {"Midia": "Lost Canvas"}}]},
-      {"SumerianAndAcadium": [{"(Ômega) Apsu": {}}]},
+      {"SumerianAndAcadium": [{"Apsu": {"Midia": "Ômega"}}]},
       {
         "Aztec": [
           {"Carbella (Quetzalcoatl)": {"Midia": "Lost Canvas"}},
