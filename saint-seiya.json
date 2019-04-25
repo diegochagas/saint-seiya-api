@@ -712,15 +712,15 @@
       ]
     }, 
     "Marinas de Poseison": {
-      "Marinas": [{"Thetis de Sereia": {}}],
+      "Marinas": {"Sereia": [{"Thetis": {}}]},
       "Generais Marinas": {
-        "Dragão Marinho": [{"Kanon de Dragão Marinho": {}}, {"Unity de Dragão Marinho": {}}],
-        "Cavalo Marinho": [{"Bian de Cavalo Marinho": {}}],
-        "Scylla": [{"Io de Scylla": {}}],
-        "Kraken": [{"Isaak de Kraken": {}}],
-        "Lymnades": [{"Kasa de Lymnades": {}}],
-        "Chrysaor": [{"Krishna de Chrysaor": {}}],
-        "Sirene": [{"Sorento de Sirene": {}}]
+        "Dragão Marinho": [{"Kanon": {}}, {"Unity": {}}],
+        "Cavalo Marinho": [{"Bian": {}}],
+        "Scylla": [{"Io": {}}],
+        "Kraken": [{"Isaak": {}}],
+        "Lymnades": [{"Kasa": {}}],
+        "Chrysaor": [{"Krishna": {}}],
+        "Sirene": [{"Sorento": {}}]
       }
     },
     "Specters": {
