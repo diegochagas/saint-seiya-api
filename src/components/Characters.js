@@ -10,12 +10,14 @@ class Characters extends React.Component {
             <h2>Saints</h2>
             <table className="constellations">
               <thead>
-                <th>Constellation</th>
+                <th>Number</th>
+                <th>Constellations</th>
               </thead>
               <tbody>
-                {constellations.map(constellation => {
+                {constellations.map((constellation, index) => {
                   return(
                     <tr>
+                      <td>{index + 1}</td>
                       <td>{constellation.Name}</td>
                     </tr>
                   )
