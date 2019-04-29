@@ -1,5 +1,5 @@
 import React from 'react';
-import { constellations } from '../apis/constellations';
+import { clothsConstellations } from '../apis/cloths-constellations';
 
 
 class Characters extends React.Component {
@@ -8,17 +8,17 @@ class Characters extends React.Component {
       <div className="characters">
           <section className="saints">
             <h2>Saints</h2>
-            <table className="constellations">
+            <table className="cloths">
               <thead>
                 <th>Number</th>
-                <th>Constellations</th>
+                <th>cloths</th>
               </thead>
               <tbody>
-                {constellations.map((constellation, index) => {
+                {clothsConstellations.map((cloth, index) => {
                   return(
                     <tr>
                       <td>{index + 1}</td>
-                      <td>{constellation.Name}</td>
+                      <td>{cloth.Name}</td>
                     </tr>
                   )
                 })}

@@ -137,19 +137,13 @@ export const clothsVersionsConstellations = [
   {"id": "version-cygnus-black", "version": "Cygnus Black", "rank": "Black", "saintsId": ["Jid"], "appear": "URL image scene", "scheme": "URL image scheme"},
   {"id": "version-pegasus-black", "version": "Pegasus Black", "rank": "Black", "saintsId": ["Kenuma"], "appear": "URL image scene", "scheme": "URL image scheme"},
   {"id": "version-heracles-black", "version": "Heracles Black", "rank": "Black", "saintsId": ["Lemargos"], "appear": "URL image scene", "scheme": "URL image scheme"},
-  {"id": "version-", "version": "", "rank": "", "saintsId": [], "appear": "URL image scene", "scheme": "URL image scheme"},
-  {"id": "version-", "version": "", "rank": "", "saintsId": [], "appear": "URL image scene", "scheme": "URL image scheme"},
-  {"id": "version-", "version": "", "rank": "", "saintsId": [], "appear": "URL image scene", "scheme": "URL image scheme"},
-  {"id": "version-", "version": "", "rank": "", "saintsId": [], "appear": "URL image scene", "scheme": "URL image scheme"},
+  {"id": "version-phoenix-black", "version": "Phoenix Black", "rank": "Black", "saintsId": ["Ritahoa"], "appear": "URL image scene", "scheme": "URL image scheme"},
+  {"id": "version-corvus-black", "version": "Corvus Black", "rank": "Black", "saintsId": ["Rusé"], "appear": "URL image scene", "scheme": "URL image scheme"},
+  {"id": "version-draco-black", "version": "Draco Black", "rank": "Black", "saintsId": ["Shinadekuro"], "appear": "URL image scene", "scheme": "URL image scheme"},
+  {"id": "version-canes-venatici-black", "version": "Canes Venatici Black", "rank": "Black", "saintsId": ["Yudo"], "appear": "URL image scene", "scheme": "URL image scheme"},
   {"id": "version-", "version": "", "rank": "", "saintsId": [], "appear": "URL image scene", "scheme": "URL image scheme"},
   {"id": "version-", "version": "", "rank": "", "saintsId": [], "appear": "URL image scene", "scheme": "URL image scheme"}
-];     
-
-  {"Ritahoa de Fênix Negro": {}},
-  {"Rusé de Corvo Negro": {}},
-  {"Shinadekuro de Dragão Negro": {}},
-  {"Yudo de Cães de Caça Negro": {}}
-]
+];
 
 export const clothsVersionsNoConstellations = [
   {"id": "version-reindeer", "version": "Reindeer", "rank": "Bronze", "saintsId": ["Rudolph"], "appear": "URL image scene", "scheme": "URL image scheme"},
