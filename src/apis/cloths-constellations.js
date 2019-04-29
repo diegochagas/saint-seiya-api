@@ -1,4 +1,4 @@
-export const cloths = [
+export const clothsConstellations = [
   {"id": "cloth-Andromeda", "Name": "Andromeda", "EnglishName": "Andromeda", "versionsId": ["version-andromeda-1", "version-andromeda-omega"]},
   {"id": "cloth-Antlia", "Name": "Antlia", "EnglishName": "", "versionsId": []},
   {"id": "cloth-Apus", "Name": "Apus", "EnglishName": "", "versionsId": ["version-apus"]},
