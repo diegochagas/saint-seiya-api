@@ -44,21 +44,22 @@ export const cloths = [
   {"id": "cloth-Crux", "name": "Crux", "rank": "Silver", "saintsId": [], "version": "Saint Seiya Online", "appear": "URL image scene", "scheme": "URL image scheme"},
   {"id": "cloth-Cygnus", "name": "Cygnus", "rank": "Bronze", "saintsId": ["Hyoga"], "version": "", "appear": "URL image scene", "scheme": "URL image scheme"},
   {"id": "cloth-Cygnus", "name": "Cygnus", "rank": "", "saintsId": ["Isaak"], "version": "Episode G", "appear": "URL image scene", "scheme": "URL image scheme"},
-  {"id": "cloth-Delphinus", "name": "Delphinus", "rank": "Bronze", "saintsId": ["Guney"], "version": "Omega", "appear": "URL image scene", "scheme": "URL image scheme"},
-  {"id": "cloth-Delphinus", "name": "Delphinus", "rank": "Bronze", "saintsId": [], "version": "Lost Canvas", "appear": "URL image scene", "scheme": "URL image scheme"},
-  {"id": "cloth-Delphinus", "name": "Delphinus", "rank": "Bronze", "saintsId": ["Mii"], "version": "Saintia", "appear": "URL image scene", "scheme": "URL image scheme"},
-  {"id": "cloth-Delphinus", "name": "Delphinus", "rank": "Bronze", "saintsId": [], "version": "Cavaleiro Fantasma de Jisty", "appear": "URL image scene", "scheme": "URL image scheme"},
-  {"id": "cloth-Delphinus", "name": "", "rank": "", "saintsId": [], "version": "Online", "appear": "URL image scene", "scheme": "URL image scheme"},
-  {"id": "cloth-Dorado", "name": "Dorado", "rank": "Bronze", "saintsId": ["Spear"], "clothVersions": "", "appear": "URL image scene", "scheme": "URL image scheme"},
+  {"id": "cloth-delphinus", "name": "Delphinus", "versionsId": ["version-delphinus", "version-delphinus-omega", "version-delphinus-lost-canvas", "version-delphinus-saintia-sho", "version-delphinus-online"]},
+  {"id": "cloth-Dorado", "name": "Dorado", "versionsId": ["version-dorado"]},
   {"id": "cloth-draco", "name": "Draco", "versionsId": ["version-draco-1", "version-draco-omega"]},
-  {"id": "cloth-", "name": "", "rank": "", "saintsId": [], "version": "", "appear": "URL image scene", "scheme": "URL image scheme"},
-  {"id": "cloth-", "name": "", "rank": "", "saintsId": [], "version": "", "appear": "URL image scene", "scheme": "URL image scheme"},
-  {"id": "cloth-", "name": "", "rank": "", "saintsId": [], "version": "", "appear": "URL image scene", "scheme": "URL image scheme"}
+  {"id": "cloth-", "name": "", "versionsId": []}
 ];
 
 const clothVersions = [
+  {"id": "version-delphinus", "rank": "Bronze", "saintsId": [], "appear": "URL image scene", "scheme": "URL image scheme"},
+  {"id": "version-delphinus-omega", "rank": "Bronze", "saintsId": ["Guney"], "appear": "URL image scene", "scheme": "URL image scheme"},
+  {"id": "version-delphinus-lost-canvas", "rank": "Bronze", "saintsId": [], "appear": "URL image scene", "scheme": "URL image scheme"},
+  {"id": "version-delphinus-saintia-sho", "rank": "Bronze", "saintsId": ["Mii"], "appear": "URL image scene", "scheme": "URL image scheme"},
+  {"id": "version-delphinus-online", "rank": "Bronze", "saintsId": [], "appear": "URL image scene", "scheme": "URL image scheme"},
+  {"id": "version-dorado", "rank": "Bronze", "saintsId": ["Spear"], "URL image scene", "scheme": "URL image scheme"},
   {"id": "version-draco-1", "rank": "Bronze", "saintsId": ["Shiryu"], "appear": "URL image scene", "scheme": "URL image scheme"},
   {"id": "version-draco-omega", "rank": "Bronze", "saintsId": ["Ryuho"], "appear": "URL image scene", "scheme": "URL image scheme"},
+  {"id": "version-", "rank": "", "saintsId": [], "appear": "URL image scene", "scheme": "URL image scheme"}
 ];
        
         "Equuleus": {
