@@ -1,9 +1,11 @@
 import React from 'react';
 import { clothsConstellations } from '../apis/cloths-constellations';
-
+import { clothsConst } from '../apis';
+const cloths = clothsConst();
 
 class Characters extends React.Component {
   render(){
+    console.log(clothsConst());
     return(
       <div className="characters">
           <section className="saints">
