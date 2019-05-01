@@ -1,509 +1,197 @@
 export const characters = [
-  {"id": "character-shun", "name": "Shun", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
-  {"id": "", "name": "", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0}
+  {"id": "character-shun", "name": "Shun", "age": 13, "gender": "Male", "birthday": "September 9", "nationality": "Japanese", "training": "Andromeda Island", "masters": ["Daidalos", "Albior"], "attacks": ["Nebula Chain", "Rolling Defense", "Andromeda Nebula", "Circle Defense ", "Wild Trap", "Spiral Duct", "Spider Net", "Boomerang Shot", "Casting Net", "Great Capture", "Thunder Wave", "Nebula Stream", "Nebula Storm"], "height(cm)": 165, "weight(kg)": 51},
+  {"id": "character-paradise", "name": "Paradise", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Camus", "name": "Camus", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Dégel", "name": "Dégel", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Krest", "name": "Krest", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Mystoria", "name": "Mystoria", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Tokisada", "name": "Tokisada", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Marin", "name": "Marin", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Yuna", "name": "Yuna", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Hakurei", "name": "Hakurei", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Nikol", "name": "Nikol", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Avenir", "name": "Avenir", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Guateguard", "name": "Guateguard", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Kiki", "name": "Kiki", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": ["Mu"], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Mu", "name": "Mu", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": ["Shion"], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Shion", "name": "Shion", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Capella", "name": "Capella", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Almaaz", "name": "Almaaz", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Bayer", "name": "Bayer", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Michelangelo", "name": "Michelangelo", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Bartschius", "name": "Bartschius", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-contador-da-morte-de-cancer", "name": "Contador da Morte de Câncer", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Lancelot", "name": "Lancelot", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Manigold", "name": "Manigold", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-death-mask", "name": "Death Mask", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Sage", "name": "Sage", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Schiller", "name": "Schiller", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Asterion", "name": "Asterion", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Miguel", "name": "Miguel", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Sírius", "name": "Sírius", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-El-cid ", "name": "El Cid ", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Shura", "name": "Shura", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Ionia", "name": "Ionia", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Izo", "name": "Izo", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Atlas", "name": "Atlas", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Elda", "name": "Elda", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Babel", "name": "Babel", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Alfa", "name": "Alfa", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Mouses", "name": "Mouses", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Menkar", "name": "Menkar", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-June", "name": "June", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Hook", "name": "Hook", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Gray", "name": "Gray", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Berengue", "name": "Berengue", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Mei", "name": "Mei", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Dali", "name": "Dali", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Katya", "name": "Katya", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Jamian", "name": "Jamian", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Johan", "name": "Johan", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Suikyô", "name": "Suikyô", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Georg", "name": "Georg", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Kazuma", "name": "Kazuma", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-christ", "name": "Christ", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Hyoga", "name": "Hyoga", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Isaak", "name": "Isaak", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Guney", "name": "Guney", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Mii", "name": "Mii", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Spear", "name": "Spear", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Shiryu", "name": "Shiryu", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Ryuho", "name": "Ryuho", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Celeris", "name": "Celeris", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Kitalpha", "name": "Kitalpha", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Subaru", "name": "Subaru", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Kyoko", "name": "Kyoko", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Shoko", "name": "Shoko", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Abel", "name": "Abel", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Cain", "name": "Cain", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Aspros", "name": "Aspros", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Defteros", "name": "Defteros", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Kanon", "name": "Kanon", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Paradox", "name": "Paradox", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Saga", "name": "Saga", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Komachi", "name": "Komachi", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Yuzuriha", "name": "Yuzuriha", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Algethi", "name": "Algethi", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Curtis", "name": "Curtis", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Ichi", "name": "Ichi", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Misty", "name": "Misty", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Aiolia", "name": "Aiolia", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Ilias", "name": "Ilias", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Kaiser", "name": "Kaiser", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Micenas", "name": "Micenas", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Regulus", "name": "Regulus", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Ban", "name": "Ban", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Bleriot", "name": "Bleriot", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Souma", "name": "Souma", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Arne", "name": "Arne", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Dohko", "name": "Dohko", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Shiryu", "name": "Shiryu", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Gembu", "name": "Gembu", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Itia", "name": "Itia", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Haruto", "name": "Haruto", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Yoshitomi", "name": "Yoshitomi", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Junkers", "name": "Junkers", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Nachi", "name": "Nachi", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Jaô", "name": "Jaô", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Mirapolos", "name": "Mirapolos", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Retsu", "name": "Retsu", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Orfeu", "name": "Orfeu", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Jabu", "name": "Jabu", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Yato", "name": "Yato", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Dio", "name": "Dio", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Fly", "name": "Fly", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Luciano", "name": "Luciano", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Shina", "name": "Shina", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Odisseu", "name": "Odisseu", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Eden", "name": "Eden", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Rigel", "name": "Rigel", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Jaga", "name": "Jaga", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Mayura", "name": "Mayura", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Plavin", "name": "Plavin", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Shiva", "name": "Shiva", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Seiya", "name": "Seiya", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Tenma", "name": "Tenma", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Kouga", "name": "Kouga", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Algol", "name": "Algol", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Mirfak", "name": "Mirfak", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Ikki", "name": "Ikki", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Albafica", "name": "Albafica", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Afrodite", "name": "Afrodite", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Amor", "name": "Amor", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Cardinale", "name": "Cardinale", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Lugonis", "name": "Lugonis", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Lacaille", "name": "Lacaille", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Rusk", "name": "Rusk", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Berlozzo", "name": "Berlozzo", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Tremy", "name": "Tremy", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Maiya", "name": "Maiya", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Archon", "name": "Archon", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Siam", "name": "Siam", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Aiolos", "name": "Aiolos", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Gestalt", "name": "Gestalt", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Sísifo", "name": "Sísifo", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Milo", "name": "Milo", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Escarlate", "name": "Escarlate", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Kardia", "name": "Kardia", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Sonia", "name": "Sonia", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Zafiri", "name": "Zafiri", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Ennead", "name": "Ennead", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Juan", "name": "Juan", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Yan", "name": "Yan", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Yuuri", "name": "Yuuri", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Aldebaran", "name": "Aldebaran", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Francisca", "name": "Francisca", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Harbinger", "name": "Harbinger", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Hasgard", "name": "Hasgard", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Ox", "name": "Ox", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Teneo", "name": "Teneo", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Noesis", "name": "Noesis", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Geki", "name": "Geki", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Douglas", "name": "Douglas", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Xiaoling", "name": "Xiaoling", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Tsubaki", "name": "Tsubaki", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Shaka", "name": "Shaka", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Asmita", "name": "Asmita", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Fudou", "name": "Fudou", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Shijima", "name": "Shijima", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Argo", "name": "Argo", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Rudolph", "name": "Rudolph", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Dante", "name": "Dante", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Dorer", "name": "Dorer", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Partita", "name": "Partita", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Ágora", "name": "Ágora", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Aracne", "name": "Aracne", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Spartan", "name": "Spartan", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Reda", "name": "Reda", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Spika", "name": "Spika", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Dócrates", "name": "Dócrates", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Píton", "name": "Píton", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Gigars", "name": "Gigars", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Jisty", "name": "Jisty", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Daichi", "name": "Daichi", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Emma", "name": "Emma", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Erna", "name": "Erna", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Kerry", "name": "Kerry", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Shô", "name": "Shô", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Ushô", "name": "Ushô", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Allegre", "name": "Allegre", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Don Avido", "name": "Don Avido", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Guilty", "name": "Guilty", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Jango", "name": "Jango", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Jid", "name": "Jid", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Kenuma", "name": "Kenuma", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Lemargos", "name": "Lemargos", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Lumaca", "name": "Lumaca", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Ritahoa", "name": "Ritahoa", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Rusé", "name": "Rusé", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Shinadekuro", "name": "Shinadekuro", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-Yudo", "name": "Yudo", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-", "name": "", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0},
+  {"id": "character-", "name": "", "age": 0, "gender": "", "birthday": "", "nationality": "", "training": "", "masters": [], "attacks": [], "height": 0, "weight": 0}
 ];
 
-{
-  "Saints": {
-    "SaintsOfAthena": {
-      "Constellations": {
-        "Andromeda": {
-          "BronzeSaints": [{"Shun": {"Appear": "Manga scene"}, "ClothScheme": {"Ômega Version": "url"}}],
-          "EnglishName": "Andromeda"
-        },
-        "Antlia": {},
-        "Apus": {
-          "BronzeSaints": [{"Paradise": {}}]
-        },
-        "Aquarius": {
-          "GoldSaints": [{"Camus": {}}, {"Dégel": {}}, {"Krest": {}}, {"Mystoria": {}}, {"Tokisada": {}}]},
-        "Aquila": {
-          "SilverSaints": [{"Marin": {}}], 
-          "BronzeSaints": [{"Yuna": {}}]
-        },
-        "Ara": {
-          "SilverSaints": [{"Hakurei": {}}, {"Nikol": {}}]
-        },
-        "Aries": {
-          "GoldSaints": [
-            {"Áries (Lost Canvas, séc. 15)": {}}, 
-            {"Avenir de Áries": {}},
-            {"Guateguard de Áries": {}},
-            {"Kiki de Áries": {}},
-            {"Mu de Áries": {}},
-            {"Shion de Áries": {}},
-            {"Shion de Áries (Lost Canvas)": {}},
-            {"Shion de Áries (Next Dimension)": {}}
-          ]
-        },
-        "Auriga": {
-          "SilverSaints": [{"Almaaz de Auriga": {}}, {"Auriga (Lost Canvas)": {}}, {"Capella de Auriga": {}}]
-        },
-        "Böotes": {
-          "SilverSaints": [{"Boieiro (Lost Canvas)": {}}, {"Bayer de Boieiro": {}}]
-        },
-        "Caelum": {
-          "SilverSaints": [{"Michelangelo de Caelum": {}}]
-        },
-        "Camelopardalis": {
-          "SilverSaints": [{"Bartschius de Girafa": {}}, {"Girafa (Lost Canvas, Grupo do Sísifo)": {}}]
-        },
-        "Cancer": {
-          "GoldSaints": [
-            {"Contador da Morte de Câncer": {}},
-            {"Lancelot de Câncer": {}},
-            {"Manigold de Câncer": {}},
-            {"Máscara da Morte de Câncer": {}},
-            {"Sage de Câncer": {}},
-            {"Schiller de Câncer": {}}
-          ]
-        },
-        "Canes Venatici": {
-          "SilverSaints": [
-            {"Asterion de Cães de Caça": {}}, 
-            {"Miguel de Cães de Caça": {}}, 
-            {"Cão de Caça (Lost Canvas, séc. 15)": {}}
-          ]
-        },
-        "Canis Major": {
-          "SilverSaints": [
-            {"Cão Maior (Lost Canvas, séc. 15)": {}},
-            {"Cão Maior (Lost Canvas)": {}},
-            {"Sírius de Cão Maior": {}}
-          ]
-        },
-        "Canis Minor": {},
-        "Capricorn": {
-          "GoldSaints": [ 
-            {"El Cid de Capricórnio": {}},
-            {"Ionia de Capricórnio": {}},
-            {"Izo de Capricórnio": {}},
-            {"Shura de Capricórnio": {}}
-          ]
-        },
-        "Carina": {
-          "BronzeSaints": [{"Atlas de Carena": {"Rank": ["Corona Saints"]}}]
-        },
-        "Cassiopeia": {
-          "BronzeSaints": [{"Cassiopéia (Lost Canvas)": {}}, {"Elda de Cassiopéia": {"Rank": ["Saintia"]}}]
-        },
-        "Centaurus": {
-          "SilverSaints": [{"Alfa do Centauro (Lost Canvas, Grupo do Sísifo)": {}}, {"Babel de Centauro": {}}]
-        },
-        "Cepheus": {
-          "SilverSaints": [{"Albion (Daidaros) de Cefeu": {}}]
-        },
-        "Cetus": {
-          "SilverSaints": [
-            {"Baleia (Lost Canvas)": {}}, 
-            {"Menkar de Baleia": {}},
-            {"Mouses de Baleia": {}}
-          ]
-        },
-        "Chameleon": {
-          "BronzeSaints": [{"Camaleão (Lost Canvas, séc. 15)": {}}, {"June de Camaleão": {}}]
-        },
-        "Circinus": {
-          "BronzeSaints": [{"Hook de Compasso": {}}]
-        },
-        "Columba": {
-          "BronzeSaints": [{"Gray de Pombo": {}}],
-          "SilverSaints": [{"Armadura de Pomba Silver": {"Midia": ["Saint Seiya Online"]}}]
-        },
-        "Comas Berenices": {
-          "BronzeSaints": [
-            {"Berengue de Coma Berenices": {"Rank": ["Corona Saints"]}},
-            {"Mei de Coma Berenices": {"Rank": ["Unknown Cloths"]}}
-          ]
-        },
-        "Corona Australis": {
-          "BronzeSaints": [{"Armadura de Coroa Austral": {"Midia": "Saint Seiya Online"}}]
-        },
-        "Corona Borealis": {
-          "BronzeSaints": [
-            {"Dali de Coroa Boreal": {}},
-            {"Katya de Coroa Boreal": {"Rank": ["Saintia"]}},
-            {"Armadura de Coroa Boreal Bronze": {"Midia": ["Saint Seiya Online"]}}
-          ],
-          "SilverSaints": [{"Coroa Boreal (Lost Canvas, Grupo do Sísifo)": {}}]
-        },
-        "Corvus": {
-          "SilverSaints": [
-            {"Corvo (Lost Canvas)": {}},
-            {"Jamian de Corvo": {}},
-            {"Johan de Corvo": {}}
-          ]
-        },
-        "Crater": {
-          "SilverSaints": [{"Suikyô de Taça": {}}]
-        },
-        "Crux": {
-          "SilverSaints": [
-            {"Georg de Cruzeiro do Sul": {}},
-            {"Kazuma de Cruzeiro do Sul": {}},
-            {"Kraisto de Cruzeiro do Sul": {"Rank": ["Cavaleiro Fantasmas de Éris"]}}
-          ]
-        },
-        "Cygnus": {
-          "BronzeSaints": [{"Hyoga de Cisne": {}}, {"Isaak de Cisne": {}}]
-        },
-        "Delphinus": {
-          "BronzeSaints": [
-            {"Guney de Golfinho": {"Rank": ["Saintia"]}},
-            {"Golfinho (Lost Canvas, Grupo do Sísifo)": {}},
-            {"Mii de Golfinho": {}},
-            {"Golfinho": {"Rank": ["Cavaleiro Fantasma de Jisty"]}}
-          ]
-        },
-        "Dorado": {
-          "BronzeSaints": [{"Spear de Peixe-Espada": {}}]
-        },
-        "Draco": {
-          "BronzeSaints": [{"Ryuho de Dragão": {}}, {"Shiryu de Dragão": {}}]
-        },
-        "Equuleus": {
-          "BronzeSaints": [
-            {"Celeris de Cavalo Menor": {}},
-            {"Kitalpha de Cavalo Menor": {}},
-            {"Subaru de Cavalo Menor": {}},
-            {"Kyoko de Cavalo Menor": {"Rank": ["Saintia"]}},
-            {"Shoko de Cavalo Menor": {"Rank": ["Saintia"]}}
-          ]
-        },
-        "Eridanus": {
-          "BronzeSaints": [{"Erídano (Lost Canvas)": {}}]
-        },
-        "Fornax": {
-          "BronzeSaints": [{"Armadura de Fornalha Silver": {"Midia": "Saint Seiya Online"}}]
-        },
-        "Gemini": {
-          "GoldSaints": [
-            {"Abel de Gêmeos": {}},
-            {"Aspros de Gêmeos": {}},
-            {"Cain de Gêmeos": {}},
-            {"Defteros de Gêmeos": {}},
-            {"Kanon de Gêmeos": {}},
-            {"Paradox de Gêmeos": {}},
-            {"Saga de Gêmeos": {}}
-          ]
-        },
-        "Grus": {
-          "BronzeSaints": [{"Komachi de Grou": {}}],
-          "SilverSaints": [{"Yuzuriha de Grou": {}}]
-        },
-        "Heracles": {
-          "SilverSaints": [{"Algethi de Hércules": {}}, {"Hércules (Lost Canvas)": {}}]
-        },
-        "Horologium": {
-          "SilverSaints": [{"Tokisada de Relógio": {}}]
-        },
-        "Hydra": {
-          "BronzeSaints": [
-            {"Curtis de Hidra": {}},
-            {"Hidra (Lost Canvas, séc. 15)": {}},
-            {"Ichi de Hidra": {}}
-          ]
-        },
-        "Hydrus": {
-          "BronzeSaints": [{"Armadura de Hidra Macho": {"Midia": "Saint Seiya Online"}}],
-          "SilverSaints": [{"Ichi de Hidra (Ômega)": {}}]
-        },
-        "Indus": {
-          "BronzeSaints": [{"Índio (Lost Canvas)": {}}]
-        },
-        "Lacerta": {
-          "SilverSaints": [{"Lagarto (Lost Canvas)": {}}, {"Misty de Lagarto": {}}]
-        },
-        "Leo": {
-          "GoldSaints": [
-            {"Aiolia de Leão": {}},
-            {"Ilias de Leão": {}},
-            {"Kaiser de Leão": {}},
-            {"Micenas de Leão": {}},
-            {"Leão (Lost Canvas, séc. 13)": {}},
-            {"Leão (Lost Canvas, séc. 16)": {}},
-            {"Regulus de Leão": {}}
-          ]
-        },
-        "Leo Minor": {
-          "BronzeSaints": [
-            {"Ban de Leão Menor": {}},
-            {"Bleriot de Leão Menor": {}},
-            {"Souma de Leão Menor": {}}
-          ]
-        },
-        "Lepus": {
-          "BronzeSaints": [{"Arne de Lebre": {}}, {"Lebre (Lost Canvas, Grupo do Sísifo)": {}}],
-          "SilverSaints": [{"Armadura de Lebre": {"Midia": "Saint Seiya Online"}}]
-        },
-        "Libra": {
-          "GoldSaints": [
-            {"Dohko de Libra": {}},
-            {"Gembu de Libra": {}},
-            {"Itia de Libra": {}},
-            {"Shiryu de Libra": {}}
-          ]
-        },
-        "Lupus": {
-          "BronzeSaints": [
-            {"Haruto de Lobo": {}},
-            {"Yoshitomi de Lobo": {}},
-            {"Junkers de Lobo": {}},
-            {"Nachi de Lobo": {}}
-          ]
-        },
-        "Lynx": {
-          "BronzeSaints": [
-            {"Mirapolos de Lince": {}},
-            {"Retsu de Lince": {}},
-            {"Jaô de Lince": {"Rank": ["Corona Saints"]}}
-          ]
-        },
-        "Lyra": {
-          "SilverSaints": [
-            {"Lira (Lost Canvas, séc. 15)": {}},
-            {"Orfeu de Lira": {}},
-            {"Orfeu de Harpa": {"Rank": ["Cavaleiro Fantasmas de Éris"]}}
-          ]
-        },
-        "Mensa": {
-          "SilverSaints": [{"Armadura de Mensa": {"Midia": "Saint Seiya Online"}}]
-        },
-        "Microscopium": {},
-        "Monoceros": {
-          "BronzeSaints": [
-            {"Jabu de Unicórnio": {"ClothScheme": {"Ômega Version": "url"}}},
-            {"Yato de Unicórnio": {}}
-          ]
-        },
-        "Musca": {
-          "SilverSaints": [
-            {"Dio de Mosca": {}},
-            {"Fly de Mosca": {}},
-            {"Mosca (Lost Canvas)": {}}
-          ]
-        },
-        "Norma": {
-          "BronzeSaints": [{"Luciano de Esquadro": {}}]
-        },
-        "Octans": {},
-        "Ophiuchus": {
-          "SilverSaints": [
-            {"Shina de Cobra": {}},
-            {"Cobra (Lost Canvas, séc. 15)": {}},
-            {"Cobra (Lost Canvas)": {}},
-            {"Shina de Cobra (Ômega)": {}}
-          ],
-          "GoldSaints": [{"Odisseu de Serpentário": {}}]
-        },
-        "Orion": {
-          "BronzeSaints": [{"Eden de Orion": {}}],
-          "SilverSaints": [
-            {"Rigel de Orion": {"Rank": ["Cavaleiro Fantasmas de Éris"]}},
-            {"Jaga de Orion": {"Rank": ["Cavaleiro Fantasmas de Éris"]}}
-          ]
-        },
-        "Pavo": {
-          "BronzeSaints": [{"Mayura de Pavão": {}}],
-          "SilverSaints": [
-            {"Plavin de Pavão": {}},
-            {"Shiva de Pavão": {}},
-            {"Armadura de Pavão": {"Midia": "Saint Seiya Online"}}
-          ]
-        },
-        "Pegasus": {
-          "BronzeSaints": [
-            {"Seiya de Pégaso": {}},
-            {"Tenma de Pégaso (Lost Canvas)": {}},
-            {"Tenma de Pégaso (Next Dimension)": {}},
-            {"Kouga de Pégaso": {}}
-          ]
-        },
-        "Perseus": {
-          "SilverSaints": [
-            {"Algol de Perseu": {}},
-            {"Mirfak de Perseu": {}},
-            {"Perseu (Lost Canvas, Grupo do Sísifo)": {}},
-            {"Perseu (Lost Canvas, séc. 15)": {}}
-          ]
-        },
-        "Phoenix": {
-          "BronzeSaints": [{"Ikki de Fênix": {}}]
-        },
-        "Pictor": {},
-        "Pisces": {
-          "GoldSaints": [
-            {"Albafica de Peixes": {}},
-            {"Amor de Peixes": {}},
-            {"Cardinale de Peixes": {}},
-            {"Lugonis de Peixes": {}},
-            {"Afrodite de Peixes": {}},
-            {"Peixes (Lost Canvas, séc. 15)": {}}
-          ]
-        },
-        "Piscis Austrinus": {
-          "BronzeSaints": [{"Armadura de Peixe Austral": {"Midia": "Saint Seiya Online"}}]
-        },
-        "Puppis": {
-          "BronzeSaints": [{"Lacaille de Popa": {}}]
-        },
-        "Pyxis": {
-          "BronzeSaints": [{"Rusk de Bússola": {}}]
-        },
-        "Reticulum": {
-          "SilverSaints": [{"Berlozzo de Retículo": {}}]
-        },
-        "Sagitta": {
-          "SilverSaints": [
-            {"Archon de Sagita": {}},
-            {"Sagita (Lost Canvas)": {}},
-            {"Siam de Sagita": {}},
-            {"Tremy de Flecha (Sagita)": {}},
-            {"Maiya de Sagita": {"Rank": ["Cavaleiro Fantasmas de Éris"]}}
-          ]
-        },
-        "Sagittarius": {
-          "GoldSaints": [
-            {"Aiolos de Sagitário": {}},
-            {"Gestalt de Sagitário": {}},
-            {"Sagitário (Lost Canvas, séc. 16)": {}},
-            {"Seiya de Sagitário (Ômega)": {}},
-            {"Sísifo de Sagitário": {}}
-          ]
-        },
-        "Scorpio": {
-          "GoldSaints": [
-            {"Escarlate (Écarlate) de Escorpião": {}},
-            {"Kardia de Escorpião": {}},
-            {"Milo de Escorpião": {}},
-            {"Sonia de Escorpião": {}},
-            {"Zafiri de Escorpião": {}}
-          ]
-        },
-        "Sculptor": {},
-        "Scutum": {
-          "SilverSaints": [
-            {"Ennead de Escudo": {}},
-            {"Juan de Escudo": {}},
-            {"Yan de Escudo": {"Rank": ["Cavaleiro Fantasmas de Éris"]}}
-          ]
-        },
-        "Serpens": {
-          "BronzeSaints": [{"Armadura de Serpente": {"Midia": "Saint Seiya Online"}}]
-        },
-        "Sextans": {
-          "BronzeSaints": [{"Yuuri de Sextante": {}}]
-        },
-        "Taurus": {
-          "GoldSaints": [
-            {"Aldebaran de Touro": {}},
-            {"Francisca de Touro": {}},
-            {"Harbinger de Touro": {}},
-            {"Hasgard de Touro": {}},
-            {"Ox de Touro": {}},
-            {"Teneo de Touro": {}},
-            {"Touro (Lost Canvas, séc. 15)": {}},
-            {"Touro (Lost Canvas, séc.16)": {}}
-          ]
-        },
-        "Telescopium": {},
-        "Triangulum": {
-          "SilverSaints": [{"Noesis de Triângulo": {}}]
-        },
-        "Triangulum Australe": {},
-        "Tucana": {
-          "SilverSaints": [{"Tucano (Lost Canvas, Grupo do Sísifo)": {}}]
-        },
-        "Ursa Major": {
-          "BronzeSaints": [
-            {"Douglas de Urso": {}}, 
-            {"Urso (Lost Canvas, séc. 15)": {}},
-            {"Geki de Urso": {}}
-          ]
-        },
-        "Ursa Minor": {
-          "BronzeSaints": [{"Xiaoling de Ursa Menor": {}}]
-        },
-        "Velame": {
-          "SilverSaints": [{"Tsubaki de Vela": {}}]
-        },
-        "Virgo": {
-          "GoldSaints": [
-            {"Asmita de Virgem": {}},
-            {"Fudou de Virgem": {}},
-            {"Shaka de Virgem": {}},
-            {"Shijima de Virgem": {}}
-          ] 
-        },
-        "Volans": {
-          "BronzeSaints": [{"Argo de Peixe-Voador": {}}, {"Peixe-Voador (Lost Canvas)": {}}]
-        },
-        "Vulpecula": {}
-      },
-      "NoConstellations": {
-        "Reindeer ": {"Status": "Extinct", "BronzeSaints": [{"Rudolph de Rena": {}}]},
-        "Cerberus": {
-          "Status": "Extinct",
-          "SilverSaints": [
-            {"Cérbero (Lost Canvas, séc. 15)": {}},
-            {"Cérbero (Lost Canvas)": {}},
-            {"Dante de Cérbero": {}},
-            {"Dorer de Cérbero": {}}
-          ]
-        },
-        "Noctua": {"Status": "Extinct", "Unknown Cloths": [{"Partita de Coruja": {}}]},
-        "Lotus": {"Status": "Constelação oriental da Índia", "SilverSaints": [{"Ágora de Lótus": {}}]},
-        "Tarantula": {"SilverSaints": [{"Aracne de Tarântula": {}}]},
-        "Cavaleiro do Fogo": {},
-        "Spartan": {},
-        "Reda": {},
-        "Spika": {},
-        "Dócrates": {},
-        "Píton": {},
-        "Gigars": {},
-        "Mestre Cristal": {},
-        "Mestre dos Fantasmas": {
-          "SilverSaints": [
-            {"Jisty": {}},
-            {"Armadura de Mestre dos Fantasmas": {"Midia": "Saint Seiya Online"}}
-          ]
-        },
-        "Medusa": {"Rank": ["Cavaleiro Fantasma de Jisty"]},
-        "Serpente Marinha": {"Rank": ["Cavaleiro Fantasma de Jisty"]}
-      }, 
-      "Cavaleiros de Aço": [
-        {"Ban de Leão Menor (Ômega)": {}},
-        {"Daichi da Armadura da Terra": {}},
-        {"Daichi da Armadura da Terra (Ômega)": {}},
-        {"Emma": {}},
-        {"Erna": {}},
-        {"Geki de Urso (Ômega)": {}},
-        {"Jabu de Unicórnio (Ômega)": {}},
-        {"Kerry": {}},
-        {"Nachi de Lobo (Ômega)": {}},
-        {"Shô da Armadura do Céu": {}},
-        {"Shô da Armadura do Céu (Ômega)": {}},
-        {"Subaru de Cavalo Menor": {}},
-        {"Ushô da Armadura da Água (Ômega)": {}},
-        {"Ushô da Armadura do Mar": {}}
-      ],
-      "Cavaleiros Negros": [
-        {"Allegre de Baleia Negra": {}},
-        {"Andrômeda Negro": {}},
-        {"Cavaleiros Negros": {}},
-        {"Don Avido de Altar Negro": {}},
-        {"Guilty": {}},
-        {"Jango": {}},
-        {"Jid de Cisne Negro": {}},
-        {"Kenuma de Pégaso Negro": {}},
-        {"Lemargos de Hércules Negro": {}},
-        {"Lumaca": {}},
-        {"Ritahoa de Fênix Negro": {}},
-        {"Rusé de Corvo Negro": {}},
-        {"Shinadekuro de Dragão Negro": {}},
-        {"Yudo de Cães de Caça Negro": {}}
-      ]
-    },
     "Gigas": [
       {"TitanServants":
         [
