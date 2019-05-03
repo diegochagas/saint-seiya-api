@@ -1,11 +1,15 @@
 import React from 'react';
-import { clothsConstellations } from '../apis/cloths-constellations';
-import { clothsConst } from '../apis/SaintSeiyaAPI';
-//const cloths = clothsConst();
+import { clothsConstellations } from '../apis/SaintSeiyaAPI';
 
 class Characters extends React.Component {
+  cloths = [];
+
+  componentDidMount() {
+    this.cloths = clothsConstellations;
+  }
+
   render(){
-    clothsConst();
+    console.log(clothsConstellations);
     return(
       <div className="characters">
           <section className="saints">
@@ -18,7 +22,7 @@ class Characters extends React.Component {
                 </tr>
               </thead>
               <tbody>
-                {clothsConstellations.map((cloth, index) => {
+                {this.cloths.map((cloth, index) => {
                   return(
                     <tr key={cloth.id}>
                       <td>{index + 1}</td>

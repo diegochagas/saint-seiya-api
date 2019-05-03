@@ -1,42 +1,38 @@
 import axios from 'axios';
 
-export const clothsConst = () => {
-  axios.get('/data/cloths-constellations.csv')
-    .then(response => convertCSVToJSON(response.data))
+export const clothsConstellations = async () => {
+  const cloths = await axios.get('/data/cloths-constellations.csv')
+    .then(response => convertCSVToObject(response.data))
     .catch(err => console.error(`Error: ${err}`));
+  return cloths;
 }
   
-const convertCSVToJSON = csvContent => {
+const convertCSVToObject = csvContent => {
   const content = JSON.stringify(csvContent);
   const arrayOfRows = content.split('\\r\\n'); 
-  const columnsName = arrayOfRows[0].split(',').map(column => column.replace(`"`, ""));
-  const rows = arrayOfRows.slice(1);
-  const rowsSplitForValue = rows.map(row => row.split(','));
-  const cloths = buildJSONObject(columnsName, rowsSplitForValue);
-  /*let clients = [];
-  let clientList = {};
-  for(let i = 0; i < rows.length; i++){
-    clientList = {};
-    let items = rows[i].split(',');
-    for(let j = 0; j < items.length; j++){
-      clientList[`${columnsName[j]}`] = items[j];
-    }
-    clients.push(clientList);
-  }
-  console.log(clients);
-  return clients;
- */
-  console.log(cloths);
+  const cloths = buildClothArray(arrayOfRows);
+  return cloths;
 }
 
-const buildJSONObject = (columnsName, rows) => {
-  return rows.map(row => {
-    const cloth = row.map((value, index) => {
-      const information = `${columnsName[index]}" : "${value}`;
-      return information;
+const getColumnNames = arrayOfRows => {
+  arrayOfRows[0] = arrayOfRows[0].replace(`"`, '');
+  return arrayOfRows[0].split(',');
+}
+
+const buildClothArray = arrayOfRows => {
+  const rows = arrayOfRows.slice(1);
+  const clothsValues = rows.map(row => row.split(','));
+  const columnNames = getColumnNames(arrayOfRows);
+  const cloths = fillClothsData(columnNames, clothsValues);
+  return cloths;
+}
+
+const fillClothsData = (columnNames, clothsValues) => {
+  return clothsValues.map(clothValues => {
+    const cloth = {};
+    clothValues.forEach((value, index) => {
+      cloth[columnNames[index]] = value;
     });
-    const jsonObject = JSON.parse(`{${cloth}}`);
-    console.log(jsonObject);
-    return jsonObject;
+    return cloth;
   });
 }
