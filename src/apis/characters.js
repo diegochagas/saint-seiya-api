@@ -1,136 +1,27 @@
-export const characters = [
-];
-          {"Ares": [
-            {"Saga": {"Midia": "Saintia Sho"}},
-            {"Marte": {"Midia": "Ômega"}},
-            {"Ares": {"Midia": "Lost Canvas"}}]},
-          {"Pallas": {"Midia": "Ômega"}},
-          {"(Episódio G) Gaia": {}},
-          {"(Episódio G) Pontos": {}},
-          {"(Episódio G) Tártaro": {}},
-          {"(Episódio G) Urano": {}},
-          {"Cronos": "Make and reference to Titans collection"},
-          {"Tífon": "Make and reference to Titans collection"}
-        ]
-      },
-      {
-        "Nordic": [
-          {"Odin": [{"Seiya": {}}, {"Aiolia": {"Midia": "Soul of Gold"}}]},
-          {"Loki (Deus)": {}}
-        ]
-      },
-      {
-        "Egyptian": [
-          {"Anúbis": {"Midia": "Episode G"}},
-          {"Apófis": {"Midia": "Episode G"}},
-          {"Rá": {"Midia": "Episode G"}}
-        ]
-      },
-      {"Celtic": [{"Crúaich (Balor)": {"Midia": "Lost Canvas"}}]},
-      {"SumerianAndAcadium": [{"Apsu": {"Midia": "Ômega"}}]},
-      {
-        "Aztec": [
-          {"Carbella (Quetzalcoatl)": {"Midia": "Lost Canvas"}},
-          {"Wesda (Tezcalipoca)": {"Midia": "Lost Canvas"}}
-        ]
-      }
-    ]
-  }, 
-  "Outros": {
-    "Animais": [
-      {"Adolf": {}},
-      {"Blondie": {}},
-      {"Cacatua da Paradox": {}},
-      {"Cãozinho do Alone (Lost Canvas)": {}},
-      {"Cérbero": {}},
-      {"Cérbero (Animal - Lost Canvas)": {}},
-      {"Coelho (Shina)": {}},
-      {"Corvos (Jamian)": {}},
-      {"Esquilo da Paradox": {}},
-      {"Fadas do Submundo": {}},
-      {"Goldie": {}},
-      {"Guing": {}},
-      {"Hayate": {}},
-      {"Kokuto": {}},
-      {"Lebre": {}},
-      {"Lebre (história budista)": {}},
-      {"Lobos do Fenrir": {}},
-      {"Morcegos do Wimber": {}},
-      {"Moscas da Verônica": {}},
-      {"Pardais da Mudan": {}},
-      {"Pássaro (Água da Vida)": {}},
-      {"Pássaros da Paradox": {}},
-      {"Pégaso": {}},
-      {"Raposa (história budista)": {}},
-      {"Tigre (Shaka)": {}},
-      {"Urso (Geki)": {}},
-      {"Urso (Hyoga)": {}},
-      {"Urso e Peixe (história budista)": {}}
-    ]
-  },
-  "Coadjuvantes ou secundários": [
-    {"Adversário do Ohko #1": {}},
-    {"Adversário do Ohko #2": {}},
-    {"Atla": {}},
-    {"Caro": {}},
-    {"Centauros": {}},
-    {"Cor Tauri": {}},
-    {"Deles": {}},
-    {"Discípulos do Albion": {}},
-    {"Dr. Asamori Hakase": {}},
-    {"Eiri": {}},
-    {"Esqueletos de Jamiel": {}},
-    {"Gladiador (Lost Canvas)": {}},
-    {"Hao": {}},
-    {"Hécate": {}},
-    {"Hecatônquiros": {}},
-    {"Héctor": {}},
-    {"Jaki": {}},
-    {"Jericho (Ciclone Diabólico)": {}},
-    {"Jet": {}},
-    {"Ji-Woo": {}},
-    {"John Black": {}},
-    {"Kiki": {}},
-    {"Legionários de Rá": {}},
-    {"Lithos": {}},
-    {"Lyfia": {}},
-    {"Mãe da Conner": {}},
-    {"Mãe do Ahimsa": {}},
-    {"Mãe do Gioca": {}},
-    {"Maiya (Lost Canvas)": {}},
-    {"Makoto": {}},
-    {"Maria": {}},
-    {"Marido da Garnet": {}},
-    {"Médico da Fundação Graad #1": {}},
-    {"Médicos da Fundação Graad": {}},
-    {"Mestre Ares (Arles)": {}},
-    {"Mestre do Sage e Hakurei": {}},
-    {"Mi-Young": {}},
-    {"Miko Hasegawa": {}},
-    {"Mimiko": {}},
-    {"Mine": {}},
-    {"Minu": {}},
-    {"Mirai": {}},
-    {"Mischa": {}},
-    {"Mito": {}},
-    {"Mitsumasa Kido": {}},
-    {"Muirgheas Lugh": {}},
-    {"Natássia (Episódio G)": {}},
-    {"Natássia (mãe do Hyoga)": {}},
-    {"Náufrago (Sibéria)": {}},
-    {"Nguyen": {}},
-    {"Ninfas": {}},
-    {"Nishiyama": {}},
-    {"Padre (Lost Canvas)": {}},
-    {"Pai da Agathia": {}},
-    {"Pai da Fluorite": {}},
-    {"Pai do Lacaille": {}},
-    {"Pais do Alone e Sasha": {}},
-    {"Pakia": {}},
-    {"Palmer": {}},
-    {"Paulo": {}},
-    {"Pefko": {}},
-    {"Pesce": {}},
+,Blondie
+,Cérbero
+,Goldie
+,Lobos do Fenrir
+,Urso
+,Atla
+,Cor Tauri
+,Eiri
+,Esqueletos de Jamiel
+,Hécate
+,Hecatônquiros
+,Héctor
+,Jaki
+,Jericho (Ciclone Diabólico)
+,Legionários de Rá
+,Médicos da Fundação Graad
+,Mine
+,Mirai
+Mito
+,Mitsumasa Kido
+,Pakia
+,Palmer
+
+{"Pesce": {}},
     {"Phillip": {}},
     {"Pigro": {}},
     {"Raki": {}},
