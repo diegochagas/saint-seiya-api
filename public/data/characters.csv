@@ -2,7 +2,7 @@ id,name,age,gender,birthday,nationality,training,masters,attacks,height,weight
 1,Shun,13,Male,Sep-09,Japanese,Andromeda Island,idMastersTable,idAtacks,165,51
 2,Paradise,0,,,,,,0,0,0
 3,Camus,0,,,,,,0,0,0
-4,Dégel,0,,,,,,0,0,0
+4,Degel,0,,,,,,0,0,0
 5,Krest,0,,,,,,0,0,0
 6,Mystoria,0,,,,,,0,0,0
 7,Tokisada,0,,,,,,0,0,0
@@ -383,7 +383,7 @@ id,name,age,gender,birthday,nationality,training,masters,attacks,height,weight
 382,Moa,0,,,,,,0,0,0
 383,Odisseu,0,,,,,,0,0,0
 384,Teseu,0,,,,,,0,0,0
-385,Tohma (Ícaro),0,,,,,,0,0,0
+385,Toma (Icarus),0,,,,,,0,0,0
 386,Atena,0,,,,,,0,0,0
 387,Saori Kido,0,,,,,,0,0,0
 388,Sasha,0,,,,,,0,0,0
