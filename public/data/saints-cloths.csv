@@ -1,2 +1,2 @@
-id,idType,name,scheme,appear 
-1,AndromedaConstellation,Andromeda Version 1,url image,Classic
+id,name,constellationId,groupId,scheme,firstAppear 
+1,Andromeda Version 1,1,1,/images/,1
