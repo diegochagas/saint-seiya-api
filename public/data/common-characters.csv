@@ -289,12 +289,12 @@ id,name,age,gender,birthday,nationality,training,masters,attacks,height,weight
 288,Paracelsus,0,,,,,,0,0,0
 289,Roland,0,,,,,,0,0,0
 290,Sigurd,0,,,,,,0,0,0
-291,Alexei,0,,,,,,0,0,0
+291,Frey (Alexei),0,,,,,,0,0,0
 292,Garcia,0,,,,,,0,0,0
 293,Piotr,0,,,,,,0,0,0
 294,Soldados de Alexei,0,,,,,,0,0,0
-295,Durval,0,,,,,,0,0,0
-296,Frey,0,,,,,,0,0,0
+295,Freya (Natassia),0,,,,,,0,0,0
+296,Durval,0,,,,,,0,0,0
 297,Loki,0,,,,,,0,0,0
 298,Midgard,0,,,,,,0,0,0
 299,Ur,0,,,,,,0,0,0
@@ -326,14 +326,14 @@ id,name,age,gender,birthday,nationality,training,masters,attacks,height,weight
 325,Krishna,0,,,,,,0,0,0
 326,Sorento,0,,,,,,0,0,0
 327,Yoma,0,,,,,,0,0,0
-328,Caronte,0,,,,,,0,0,0
+328,Charon,0,,,,,,0,0,0
 329,Aiacos,0,,,,,,0,0,0
-330,Radamanthys,0,,,,,,0,0,0
+330,Rhadamanthys,0,,,,,,0,0,0
 331,Lune,0,,,,,,0,0,0
 332,Minos,0,,,,,,0,0,0
 333,Vermeer,0,,,,,,0,0,0
 334,Violate,0,,,,,,0,0,0
-335,Fiodor,0,,,,,,0,0,0
+335,Fyodor,0,,,,,,0,0,0
 336,Luko,0,,,,,,0,0,0
 337,Sylphid,0,,,,,,0,0,0
 338,Moe,0,,,,,,0,0,0
@@ -343,7 +343,7 @@ id,name,age,gender,birthday,nationality,training,masters,attacks,height,weight
 342,Gregor,0,,,,,,0,0,0
 343,Earheart,0,,,,,,0,0,0
 344,Chris,0,,,,,,0,0,0
-345,Flégias,0,,,,,,0,0,0
+345,Phlegyas,0,,,,,,0,0,0
 346,Iwan,0,,,,,,0,0,0
 347,Gordon,0,,,,,,0,0,0
 348,Kagaho,0,,,,,,0,0,0
@@ -352,12 +352,12 @@ id,name,age,gender,birthday,nationality,training,masters,attacks,height,weight
 351,Atavaka,0,,,,,,0,0,0
 352,Zelos,0,,,,,,0,0,0
 353,Meehan,0,,,,,,0,0,0
-354,Kafka,0,,,,,,0,0,0
+354,Miyan,0,,,,,,0,0,0
 355,Niobe,0,,,,,,0,0,0
 356,Cheshire,0,,,,,,0,0,0
-357,Giganto,0,,,,,,0,0,0
+357,Gigant,0,,,,,,0,0,0
 358,Edward,0,,,,,,0,0,0
-359,Ox,0,,,,,,0,0,0
+359,Ochs,0,,,,,,0,0,0
 360,Kageboshi,0,,,,,,0,0,0
 361,Myu,0,,,,,,0,0,0
 362,Laimi,0,,,,,,0,0,0
@@ -365,9 +365,9 @@ id,name,age,gender,birthday,nationality,training,masters,attacks,height,weight
 364,Leybold,0,,,,,,0,0,0
 365,Wimber,0,,,,,,0,0,0
 366,Isolde,0,,,,,,0,0,0
-367,Kiew (Cube),0,,,,,,0,0,0
-368,Miles,0,,,,,,0,0,0
-369,Faraó,0,,,,,,0,0,0
+367,Cube,0,,,,,,0,0,0
+368,Mills,0,,,,,,0,0,0
+369,Pharaoh,0,,,,,,0,0,0
 370,Queen,0,,,,,,0,0,0
 371,Stand,0,,,,,,0,0,0
 372,Larry,0,,,,,,0,0,0
