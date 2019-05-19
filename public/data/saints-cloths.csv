@@ -1,2 +1,2 @@
-id,name,constellationId,groupId,scheme,firstAppear 
-1,Andromeda Version 1,1,1,/images/,1
+id,constellation,version,rank,scheme,artist
+1,1,Version 1,1,/images/,1
