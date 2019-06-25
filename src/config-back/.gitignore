@@ -1,0 +1,17 @@
+typings/
+node_modules/
+dist/
+temp/
+coverage/
+*.log.*
+*.log
+TESTS-*.xml
+mfe-*/
+afe-*/
+.idea/
+dist.tgz
+.ng_pkg_build/
+documentation/
+npm-shrinkwrap.json
+package-lock.json
+

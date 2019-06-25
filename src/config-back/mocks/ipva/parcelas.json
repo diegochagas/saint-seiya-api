@@ -1,0 +1,42 @@
+{ "parcelas": [
+    {
+        "placa": "XYZ-0000",
+        "lista": [
+            {"numero": "001", "exercicio": 2018, "parcela": "Única com desconto 01/01/2019", "valor": 582.92},
+            {"numero": "002", "exercicio": 2018, "parcela": "Primeira Parcela", "valor": 200.33},
+            {"numero": "003", "exercicio": 2018, "parcela": "Segunda Parcela", "valor": 200.33},
+            {"numero": "004", "exercicio": 2018, "parcela": "Terceira Parcela", "valor": 200.33},
+            {"numero": "005", "exercicio": 2017, "parcela": "Única Parcela", "valor": 733.26}
+        ]
+    },
+    {
+        "placa": "ABC-0000",
+        "lista": [
+            {"numero": "001", "exercicio": 2018, "parcela": "Única com desconto 01/01/2019", "valor": 582.92},
+            {"numero": "002", "exercicio": 2018, "parcela": "Primeira Parcela", "valor": 200.33},
+            {"numero": "003", "exercicio": 2018, "parcela": "Segunda Parcela", "valor": 200.33},
+            {"numero": "004", "exercicio": 2018, "parcela": "Terceira Parcela", "valor": 200.33},
+            {"numero": "005", "exercicio": 2017, "parcela": "Única Parcela", "valor": 733.26}
+        ]
+    },
+    {
+        "placa": "ABC-1234",
+        "lista": [
+            {"numero": "001", "exercicio": 2018, "parcela": "Única com desconto 01/01/2019", "valor": 582.92},
+            {"numero": "002", "exercicio": 2018, "parcela": "Primeira Parcela", "valor": 200.33},
+            {"numero": "003", "exercicio": 2018, "parcela": "Segunda Parcela", "valor": 200.33},
+            {"numero": "004", "exercicio": 2018, "parcela": "Terceira Parcela", "valor": 200.33},
+            {"numero": "005", "exercicio": 2017, "parcela": "Única Parcela", "valor": 733.26}
+        ]
+    },
+    {
+        "placa": "SAN-0744",
+        "lista": [
+            {"numero": "001", "exercicio": 2018, "parcela": "Única", "valor": 582.92},
+            {"numero": "002", "exercicio": 2018, "parcela": "Primeira Parcela", "valor": 200.33},
+            {"numero": "003", "exercicio": 2018, "parcela": "Segunda Parcela", "valor": 200.33},
+            {"numero": "004", "exercicio": 2018, "parcela": "Terceira Parcela", "valor": 200.33},
+            {"numero": "005", "exercicio": 2017, "parcela": "Única Parcela", "valor": 733.26}
+        ]
+    }
+] }

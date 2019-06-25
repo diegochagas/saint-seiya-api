@@ -1,0 +1,324 @@
+{
+    "listaFavorecidos": [
+        {
+            "wha_PGLF_NomTit1": "Kline Bauer",
+            "wha_PGLF_CdBanCred": 4281,
+            "wha_PGLF_CdAgenCred": 1233,
+            "wha_PGLF_NrCtaCred": 63904752178,
+            "wha_PGLF_RegtAutoriz": false,
+            "id": 1
+        },
+        {
+            "wha_PGLF_NomTit1": "Kristy Nixon",
+            "wha_PGLF_CdBanCred": 8030,
+            "wha_PGLF_CdAgenCred": 3700,
+            "wha_PGLF_NrCtaCred": 41670398056,
+            "wha_PGLF_RegtAutoriz": false,
+            "id": 2
+        },
+        {
+            "wha_PGLF_NomTit1": "Harris Hurst",
+            "wha_PGLF_CdBanCred": 7254,
+            "wha_PGLF_CdAgenCred": 2957,
+            "wha_PGLF_NrCtaCred": 39683752967,
+            "wha_PGLF_RegtAutoriz": true,
+            "id": 3
+        },
+        {
+            "wha_PGLF_NomTit1": "Mia Mann",
+            "wha_PGLF_CdBanCred": 7600,
+            "wha_PGLF_CdAgenCred": 3299,
+            "wha_PGLF_NrCtaCred": 55688007757,
+            "wha_PGLF_RegtAutoriz": false,
+            "id": 4
+        },
+        {
+            "wha_PGLF_NomTit1": "Letha Norton",
+            "wha_PGLF_CdBanCred": 6791,
+            "wha_PGLF_CdAgenCred": 3985,
+            "wha_PGLF_NrCtaCred": 16532061723,
+            "wha_PGLF_RegtAutoriz": false,
+            "id": 5
+        },
+        {
+            "wha_PGLF_NomTit1": "Rowe Waters",
+            "wha_PGLF_CdBanCred": 3544,
+            "wha_PGLF_CdAgenCred": 7595,
+            "wha_PGLF_NrCtaCred": 25587279187,
+            "wha_PGLF_RegtAutoriz": false,
+            "id": 6
+        },
+        {
+            "wha_PGLF_NomTit1": "Deana Payne",
+            "wha_PGLF_CdBanCred": 5656,
+            "wha_PGLF_CdAgenCred": 6204,
+            "wha_PGLF_NrCtaCred": 33766176415,
+            "wha_PGLF_RegtAutoriz": true,
+            "id": 7
+        },
+        {
+            "wha_PGLF_NomTit1": "Candace Long",
+            "wha_PGLF_CdBanCred": 5066,
+            "wha_PGLF_CdAgenCred": 4628,
+            "wha_PGLF_NrCtaCred": 16765900807,
+            "wha_PGLF_RegtAutoriz": true,
+            "id": 8
+        },
+        {
+            "wha_PGLF_NomTit1": "William Myers",
+            "wha_PGLF_CdBanCred": 5158,
+            "wha_PGLF_CdAgenCred": 6593,
+            "wha_PGLF_NrCtaCred": 38017812739,
+            "wha_PGLF_RegtAutoriz": false,
+            "id": 9
+        },
+        {
+            "wha_PGLF_NomTit1": "Jordan Sherman",
+            "wha_PGLF_CdBanCred": 8369,
+            "wha_PGLF_CdAgenCred": 3153,
+            "wha_PGLF_NrCtaCred": 40329390110,
+            "wha_PGLF_RegtAutoriz": true,
+            "id": 10
+        },
+        {
+            "wha_PGLF_NomTit1": "Tracie Berg",
+            "wha_PGLF_CdBanCred": 5382,
+            "wha_PGLF_CdAgenCred": 3672,
+            "wha_PGLF_NrCtaCred": 88370704240,
+            "wha_PGLF_RegtAutoriz": true,
+            "id": 11
+        },
+        {
+            "wha_PGLF_NomTit1": "Lana Booth",
+            "wha_PGLF_CdBanCred": 3739,
+            "wha_PGLF_CdAgenCred": 3885,
+            "wha_PGLF_NrCtaCred": 41164771226,
+            "wha_PGLF_RegtAutoriz": true,
+            "id": 12
+        },
+        {
+            "wha_PGLF_NomTit1": "Corinne Fischer",
+            "wha_PGLF_CdBanCred": 6522,
+            "wha_PGLF_CdAgenCred": 2191,
+            "wha_PGLF_NrCtaCred": 53704873747,
+            "wha_PGLF_RegtAutoriz": false,
+            "id": 13
+        },
+        {
+            "wha_PGLF_NomTit1": "Betty Solis",
+            "wha_PGLF_CdBanCred": 4060,
+            "wha_PGLF_CdAgenCred": 6013,
+            "wha_PGLF_NrCtaCred": 28118286109,
+            "wha_PGLF_RegtAutoriz": false,
+            "id": 14
+        },
+        {
+            "wha_PGLF_NomTit1": "Coleman Skinner",
+            "wha_PGLF_CdBanCred": 2308,
+            "wha_PGLF_CdAgenCred": 2796,
+            "wha_PGLF_NrCtaCred": 42685434734,
+            "wha_PGLF_RegtAutoriz": false,
+            "id": 15
+        },
+        {
+            "wha_PGLF_NomTit1": "Villarreal Flynn",
+            "wha_PGLF_CdBanCred": 5766,
+            "wha_PGLF_CdAgenCred": 1237,
+            "wha_PGLF_NrCtaCred": 50551194483,
+            "wha_PGLF_RegtAutoriz": true,
+            "id": 16
+        },
+        {
+            "wha_PGLF_NomTit1": "Snow Cardenas",
+            "wha_PGLF_CdBanCred": 4966,
+            "wha_PGLF_CdAgenCred": 3561,
+            "wha_PGLF_NrCtaCred": 49035638094,
+            "wha_PGLF_RegtAutoriz": false,
+            "id": 17
+        },
+        {
+            "wha_PGLF_NomTit1": "Washington Trevino",
+            "wha_PGLF_CdBanCred": 2480,
+            "wha_PGLF_CdAgenCred": 4288,
+            "wha_PGLF_NrCtaCred": 38435861016,
+            "wha_PGLF_RegtAutoriz": false,
+            "id": 18
+        },
+        {
+            "wha_PGLF_NomTit1": "Bryan Marsh",
+            "wha_PGLF_CdBanCred": 3864,
+            "wha_PGLF_CdAgenCred": 1409,
+            "wha_PGLF_NrCtaCred": 74755964821,
+            "wha_PGLF_RegtAutoriz": true,
+            "id": 19
+        },
+        {
+            "wha_PGLF_NomTit1": "Hope Matthews",
+            "wha_PGLF_CdBanCred": 1442,
+            "wha_PGLF_CdAgenCred": 2774,
+            "wha_PGLF_NrCtaCred": 80333288770,
+            "wha_PGLF_RegtAutoriz": true,
+            "id": 20
+        },
+        {
+            "wha_PGLF_NomTit1": "Smith Jimenez",
+            "wha_PGLF_CdBanCred": 3543,
+            "wha_PGLF_CdAgenCred": 5556,
+            "wha_PGLF_NrCtaCred": 44787198975,
+            "wha_PGLF_RegtAutoriz": false,
+            "id": 21
+        },
+        {
+            "wha_PGLF_NomTit1": "Ramsey Monroe",
+            "wha_PGLF_CdBanCred": 7511,
+            "wha_PGLF_CdAgenCred": 2959,
+            "wha_PGLF_NrCtaCred": 79902053199,
+            "wha_PGLF_RegtAutoriz": false,
+            "id": 22
+        },
+        {
+            "wha_PGLF_NomTit1": "Benson Mccall",
+            "wha_PGLF_CdBanCred": 2691,
+            "wha_PGLF_CdAgenCred": 8340,
+            "wha_PGLF_NrCtaCred": 50979755247,
+            "wha_PGLF_RegtAutoriz": true,
+            "id": 23
+        },
+        {
+            "wha_PGLF_NomTit1": "Amie Stephenson",
+            "wha_PGLF_CdBanCred": 1481,
+            "wha_PGLF_CdAgenCred": 6994,
+            "wha_PGLF_NrCtaCred": 47515833278,
+            "wha_PGLF_RegtAutoriz": true,
+            "id": 24
+        },
+        {
+            "wha_PGLF_NomTit1": "Raquel Dejesus",
+            "wha_PGLF_CdBanCred": 3209,
+            "wha_PGLF_CdAgenCred": 3413,
+            "wha_PGLF_NrCtaCred": 47138332707,
+            "wha_PGLF_RegtAutoriz": false,
+            "id": 25
+        },
+        {
+            "wha_PGLF_NomTit1": "Beard Fitzpatrick",
+            "wha_PGLF_CdBanCred": 6822,
+            "wha_PGLF_CdAgenCred": 1216,
+            "wha_PGLF_NrCtaCred": 24633902165,
+            "wha_PGLF_RegtAutoriz": true,
+            "id": 26
+        },
+        {
+            "wha_PGLF_NomTit1": "Guerra May",
+            "wha_PGLF_CdBanCred": 2290,
+            "wha_PGLF_CdAgenCred": 4447,
+            "wha_PGLF_NrCtaCred": 47085229834,
+            "wha_PGLF_RegtAutoriz": true,
+            "id": 27
+        },
+        {
+            "wha_PGLF_NomTit1": "Wong Green",
+            "wha_PGLF_CdBanCred": 7460,
+            "wha_PGLF_CdAgenCred": 3098,
+            "wha_PGLF_NrCtaCred": 42098160252,
+            "wha_PGLF_RegtAutoriz": false,
+            "id": 28
+        },
+        {
+            "wha_PGLF_NomTit1": "Berg Pena",
+            "wha_PGLF_CdBanCred": 1139,
+            "wha_PGLF_CdAgenCred": 3689,
+            "wha_PGLF_NrCtaCred": 81967454527,
+            "wha_PGLF_RegtAutoriz": false,
+            "id": 29
+        },
+        {
+            "wha_PGLF_NomTit1": "Dolores Jones",
+            "wha_PGLF_CdBanCred": 8577,
+            "wha_PGLF_CdAgenCred": 3440,
+            "wha_PGLF_NrCtaCred": 20244415612,
+            "wha_PGLF_RegtAutoriz": false,
+            "id": 30
+        },
+        {
+            "wha_PGLF_NomTit1": "Maricela Newton",
+            "wha_PGLF_CdBanCred": 6196,
+            "wha_PGLF_CdAgenCred": 4993,
+            "wha_PGLF_NrCtaCred": 80198545259,
+            "wha_PGLF_RegtAutoriz": false,
+            "id": 31
+        },
+        {
+            "wha_PGLF_NomTit1": "Lela Lamb",
+            "wha_PGLF_CdBanCred": 8767,
+            "wha_PGLF_CdAgenCred": 6408,
+            "wha_PGLF_NrCtaCred": 89237377383,
+            "wha_PGLF_RegtAutoriz": true,
+            "id": 32
+        },
+        {
+            "wha_PGLF_NomTit1": "Carlene Velasquez",
+            "wha_PGLF_CdBanCred": 4444,
+            "wha_PGLF_CdAgenCred": 3037,
+            "wha_PGLF_NrCtaCred": 72266168858,
+            "wha_PGLF_RegtAutoriz": false,
+            "id": 33
+        },
+        {
+            "wha_PGLF_NomTit1": "Cabrera Weaver",
+            "wha_PGLF_CdBanCred": 7434,
+            "wha_PGLF_CdAgenCred": 4217,
+            "wha_PGLF_NrCtaCred": 53496894484,
+            "wha_PGLF_RegtAutoriz": false,
+            "id": 34
+        },
+        {
+            "wha_PGLF_NomTit1": "Angel Pope",
+            "wha_PGLF_CdBanCred": 1066,
+            "wha_PGLF_CdAgenCred": 1156,
+            "wha_PGLF_NrCtaCred": 59284413722,
+            "wha_PGLF_RegtAutoriz": true,
+            "id": 35
+        },
+        {
+            "wha_PGLF_NomTit1": "Norman Larsen",
+            "wha_PGLF_CdBanCred": 3866,
+            "wha_PGLF_CdAgenCred": 7018,
+            "wha_PGLF_NrCtaCred": 38848977139,
+            "wha_PGLF_RegtAutoriz": false,
+            "id": 36
+        },
+        {
+            "wha_PGLF_NomTit1": "Parsons Jordan",
+            "wha_PGLF_CdBanCred": 1119,
+            "wha_PGLF_CdAgenCred": 6858,
+            "wha_PGLF_NrCtaCred": 49897792602,
+            "wha_PGLF_RegtAutoriz": true,
+            "id": 37
+        },
+        {
+            "wha_PGLF_NomTit1": "Rosales Glenn",
+            "wha_PGLF_CdBanCred": 2592,
+            "wha_PGLF_CdAgenCred": 5636,
+            "wha_PGLF_NrCtaCred": 63812916144,
+            "wha_PGLF_RegtAutoriz": true,
+            "id": 38
+        },
+        {
+            "wha_PGLF_NomTit1": "Bruce Allison",
+            "wha_PGLF_CdBanCred": 8314,
+            "wha_PGLF_CdAgenCred": 7738,
+            "wha_PGLF_NrCtaCred": 42261900608,
+            "wha_PGLF_RegtAutoriz": true,
+            "id": 39
+        },
+        {
+            "wha_PGLF_NomTit1": "Marsh Lawson",
+            "wha_PGLF_CdBanCred": 2806,
+            "wha_PGLF_CdAgenCred": 5064,
+            "wha_PGLF_NrCtaCred": 81496148841,
+            "wha_PGLF_RegtAutoriz": false,
+            "id": 40
+        }
+    ]
+}

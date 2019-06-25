@@ -1,0 +1,14 @@
+{
+    "Parm-TpOperTrn": "Parm-TpOperTrn",
+    "Parm-TamBufMQ": "Parm-TamBufMQ",
+    "Parm-ComandoMQ": "Parm-ComandoMQ",
+    "Parm-CalculaMAC": "Parm-CalculaMAC",
+    "Parm-TpFila": "Parm-TpFila",
+    "Parm-CompactaBufMQ": "Parm-CompactaBufMQ",
+    "Parm-MsgErroMQ": "Parm-MsgErroMQ",
+    "ws-NIOPG": "ws-NIOPG",
+    "ws-CtaDebPG": "ws-CtaDebPG",
+    "ws-CodProdutoPG": "ws-CodProdutoPG",
+    "ws-SubProdutoPG": "ws-SubProdutoPG",
+    "ws-DtContabilPG": "ws-DtContabilPG"
+}

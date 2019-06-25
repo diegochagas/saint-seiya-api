@@ -1,0 +1,58 @@
+{ 
+    "licenciamentos": [
+        {
+            "proprietario": "SIM000614007704",
+            "renavam": "11100000000",
+            "dpvat": 187.60,
+            "CPF / CNPJ": "111.333.333-33",
+            "municipio": "1004",
+            "multas": 15.00,
+            "placa": "XYZ-0000",
+            "ipva": 220.00,
+            "taxa": 53.10,
+            "estado": "SP",
+            "email": "niteste@gmail.com"
+        }, 
+        {
+            "proprietario": "Caio Fabio",
+            "renavam": "11100000000",
+            "dpvat": 187.60,
+            "CPF / CNPJ": "222.333.333-33",
+            "municipio": "1004",
+            "multas": 15.00,
+            "placa": "ABC-0000",
+            "ipva": 220.00,
+            "taxa": 53.10,
+            "estado": "SP",
+            "email": "niteste@gmail.com"
+        }, 
+        {
+            "proprietario": "Erick Menezes",
+            "renavam": "11100000000",
+            "dpvat": 187.60,
+            "CPF / CNPJ": "333.333.333-33",
+            "municipio": "1004",
+            "multas": 15.00,
+            "placa": "ABC-1234",
+            "ipva": 220.00,
+            "taxa": 53.10,
+            "estado": "São Paulo",
+            "email": "niteste@gmail.com"
+        }, 
+        {
+            "proprietario": "João Alves",
+            "renavam": "11100000000",
+            "dpvat": 187.60,
+            "CPF / CNPJ": "444.333.333-33",
+            "municipio": "1004",
+            "multas": 15.00,
+            "placa": "SAN-0744",
+            "ipva": 220.00,
+            "taxa": 53.10,
+            "estado": "SP",
+            "email": "niteste@gmail.com"
+        }
+    ],
+    "valorDeCorreio": 11.0,
+    "valorTotal": 475.70
+ }
