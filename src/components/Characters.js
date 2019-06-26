@@ -8,17 +8,6 @@ class Characters extends React.Component {
     this.cloths = clothsConstellations;
   }
 
-  getCharacterData(){
-    const myNodeList = document.querySelectorAll(".portable-infobox .pi-data");
-    let data = "";
-    for(let i = 0; i < myNodeList.length; i++) {
-      let value = myNodeList[i];
-      data += `${value.querySelector(".pi-data-label").textContent}, ${value.querySelector(".pi-data-value").textContent}`;
-      data += myNodeList.length - 1 === i ? "" : ", ";
-    }
-    return data;
-  }
-
   render(){
     console.log(clothsConstellations);
     return(
@@ -47,6 +36,17 @@ class Characters extends React.Component {
       </div>
     );
   }
+}
+
+const getCharacterData = () => {
+  const myNodeList = document.querySelectorAll(".portable-infobox .pi-data");
+  let data = "";
+  for(let i = 0; i < myNodeList.length; i++) {
+    let value = myNodeList[i];
+    data += `${value.querySelector(".pi-data-label").textContent}, ${value.querySelector(".pi-data-value").textContent}`;
+    data += myNodeList.length - 1 === i ? "" : ", ";
+  }
+  return data;
 }
 
 export default Characters;
