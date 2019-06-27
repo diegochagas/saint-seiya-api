@@ -1,6 +1,6 @@
-id,name,age,gender,birthday,nationality,training,masters,attacks,height,weight
-1,Shun,13,Male,Sep-09,Japanese,Andromeda Island,idMastersTable,idAtacks,165,51
-2,Paradise,0,,,,,,0,0,0
+id,name,age,gender,birth,nationality,affiliation,class,rank,cloth,training,master,attacks,height,weight,family,apprentice
+1,Shun,13,Male,September 9,Japanese,Athena,Saints,Bronze Saints / Host of Hades,Andromeda Cloth | Andromeda New Cloth | Andromeda Plain Cloth | Andromeda Kamui Cloth,Andromeda Island,Cepheus Daidalos (master / manga-only) | Cepheus Albior (master / anime-only),Nebula Chain | Rolling Defense | Andromeda Nebula | Circle Defense | Wild Trap | Spiral Duct | Spider Net | Boomerang Shot | Casting Net | Great Capture | Thunder Wave | Nebula Stream | Nebula Storm,165cm,51kg,Phoenix Ikki,null
+2,Paradise,null,Male,null,null,Athena,Saints,Bronze Saints,Apus Cloth Stone,Palestra,Geki (Omega)(Master at Palestra) | Georges(Master at Palestra),Typhoon Bullet,null,null,null,null
 3,Camus,0,,,,,,0,0,0
 4,Degel,0,,,,,,0,0,0
 5,Krest,0,,,,,,0,0,0

@@ -36,3 +36,23 @@ const fillClothsData = (columnNames, clothsValues) => {
     return cloth;
   });
 }
+
+const getCharacterLabels = () => {
+  const myNodeList = document.querySelectorAll(".portable-infobox .pi-data .pi-data-label");
+  let headers = "";
+  for(let i = 0; i < myNodeList.length; i++) {
+      let element = myNodeList[i];
+      headers += `${element.innerText.replace(/(?:\r\n|\r|\n)/g, ' | ').replace(/,/g, " /")},`;
+  }
+  return headers; 
+}; console.clear(); getCharacterLabels();
+
+const getCharacterValues = () => {
+  let characterLabels =  ["age", "gender", "birth", "nationality", "affiliation", "class", "rank", "cloth", "training", "master", "attacks", "height", "weight", "family", "apprentice"];
+  const values = characterLabels.reduce((previousValue, label) => {
+      const element = document.querySelector(`[data-source="${label}"] .pi-data-value`);
+      let actualValue = element === null ? element : element.innerText.replace(/(?:\r\n|\r|\n)/g, ' | ').replace(/,/g, " /");
+      return `${previousValue},${actualValue}`;
+  }, "");
+  return values;
+}; console.clear(); getCharacterValues();
