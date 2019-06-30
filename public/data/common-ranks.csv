@@ -1,8 +1,8 @@
 id,rank
-1,Bronze
-2,Silver
-3,Gold
-4,God
+1,Bronze Cloth
+2,Silver Cloth
+3,Gold Cloth
+4,God Cloth
 5,Heavenly Star
 6,Earthly Star
 7,Glory
@@ -12,3 +12,6 @@ id,rank
 11,Chronotector
 12,Galaxy
 13,Adamas
+14,Soma
+15,Tattoo
+16,Nahual

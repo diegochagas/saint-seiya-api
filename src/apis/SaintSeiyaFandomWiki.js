@@ -93,7 +93,7 @@ const getCharacterValues = (labels, selectors) => {
     }, "");
     return values;
 }; console.clear();
-getCharacterValues(labels, selectors1);
-//getCharacterValues(labels, selectors2);
+//getCharacterValues(labels, selectors1);
+getCharacterValues(labels, selectors2);
 //getCharacterValues(labels, selectors3);
   
