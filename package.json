@@ -1,32 +1,30 @@
 {
-  "name": "saint-seiya-api",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "axios": "^0.18.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.0"
-  },
+  "name": "payfast",
+  "version": "1.0.0",
+  "description": "gateway de pagamentos utilizando recursos http.",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "keywords": [
+    "api",
+    "gateway",
+    "javascript"
+  ],
+  "author": "juliocvidal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "consign": "^0.1.2",
+    "cors": "2.8.5",
+    "express": "^4.14.0",
+    "express-validator": "^2.20.8",
+    "morgan": "^1.7.0",
+    "restify": "^4.1.1",
+    "winston": "^2.2.0"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "nodemon": "1.19.0"
   }
 }
