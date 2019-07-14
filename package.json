@@ -1,8 +1,17 @@
 {
-  "name": "payfast",
-  "version": "1.0.0",
-  "description": "gateway de pagamentos utilizando recursos http.",
-  "main": "index.js",
+  "name": "saint-seiya-api",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "consign": "^0.1.2",
+    "cors": "2.8.5",
+    "express": "^4.14.0",
+    "express-validator": "^6.1.1",
+    "morgan": "^1.7.0",
+    "restify": "^4.1.1",
+    "winston": "^2.2.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
@@ -12,18 +21,8 @@
     "gateway",
     "javascript"
   ],
-  "author": "juliocvidal",
+  "author": "diegochagas",
   "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.15.2",
-    "consign": "^0.1.2",
-    "cors": "2.8.5",
-    "express": "^4.14.0",
-    "express-validator": "^2.20.8",
-    "morgan": "^1.7.0",
-    "restify": "^4.1.1",
-    "winston": "^2.2.0"
-  },
   "devDependencies": {
     "nodemon": "1.19.0"
   }
