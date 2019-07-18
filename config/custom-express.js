@@ -1,14 +1,14 @@
-var express = require('express');
-var consign = require('consign');
-var bodyParser = require('body-parser');
-var expressValidator = require('express-validator');
-var morgan = require('morgan');
-var logger = require('../servicos/logger.js');
-var cors = require('cors');
+const express = require('express');
+const consign = require('consign');
+const bodyParser = require('body-parser');
+const expressValidator = require('express-validator');
+const morgan = require('morgan');
+const logger = require('../servicos/logger.js');
+const cors = require('cors');
 
 
 module.exports = function(){
-  var app = express();
+  const app = express();
 
   app.use(morgan("common", {
     stream: {
@@ -22,7 +22,7 @@ module.exports = function(){
   app.use(bodyParser.urlencoded({extended: true}));
   app.use(bodyParser.json());
 
-  app.use(expressValidator());
+  //app.use(expressValidator());
 
   consign()
    .include('controllers')
