@@ -8,6 +8,7 @@
     "cors": "2.8.5",
     "express": "^4.14.0",
     "express-validator": "^6.1.1",
+    "fs": "0.0.1-security",
     "morgan": "^1.7.0",
     "restify": "^4.1.1",
     "winston": "^2.2.0"
