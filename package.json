@@ -1,30 +1,22 @@
 {
   "name": "saint-seiya-api",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "body-parser": "^1.15.2",
-    "consign": "^0.1.2",
-    "cors": "2.8.5",
-    "express": "^4.14.0",
-    "express-validator": "^6.1.1",
-    "fs": "0.0.1-security",
-    "morgan": "^1.7.0",
-    "restify": "^4.1.1",
-    "winston": "^2.2.0"
-  },
+  "version": "1.0.0",
+  "description": "saint seiya api",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "api",
-    "gateway",
-    "javascript"
-  ],
-  "author": "diegochagas",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegochagas/saint-seiya-api.git"
+  },
+  "author": "Diego Chagas",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "1.19.0"
+  "bugs": {
+    "url": "https://github.com/diegochagas/saint-seiya-api/issues"
+  },
+  "homepage": "https://github.com/diegochagas/saint-seiya-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }

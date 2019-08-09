@@ -1,4 +1,0 @@
-{"level":"info","message":"::1 - - [14/Jul/2019:21:53:23 +0000] \"GET / HTTP/1.1\" 404 139\n","timestamp":"2019-07-14T21:53:23.057Z"}
-{"level":"info","message":"::1 - - [14/Jul/2019:21:53:41 +0000] \"GET /?numero=search+localhost HTTP/1.1\" 404 139\n","timestamp":"2019-07-14T21:53:41.555Z"}
-{"level":"info","message":"::1 - - [14/Jul/2019:21:54:17 +0000] \"POST /codigo-barras/le_codigo HTTP/1.1\" 200 49\n","timestamp":"2019-07-14T21:54:17.895Z"}
-{"level":"info","message":"::1 - - [14/Jul/2019:21:54:32 +0000] \"POST /codigo-barras/accounts HTTP/1.1\" 200 392\n","timestamp":"2019-07-14T21:54:32.620Z"}
