@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/diegochagas/saint-seiya-api#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "csv-parser": "^2.3.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security"
   }
 }

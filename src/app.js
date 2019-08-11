@@ -1,28 +1,15 @@
 const express = require('express');
 const app = express();
+const csv = require('csv-parser');
+const fs = require('fs');
 const port = 3002;
-const allSaints = [
-    {
-        id: 1,
-        name: 'QConSP',
-        data: ['24/04/2017', '25/04/2017', '26/04/2017'],
-        link: 'http://qconsp.com'
-    },
-    {
-        id: 2,
-        name: 'FrontInSampa',
-        data: ['01/07/2017'],
-        link: 'http://www.frontinsampa.com.br'
-    },
-    {
-        id: 3,
-        name: 'FrontInVale',
-        data: ['16/07/2017'],
-        link: 'https://www.eventick.com.br/frontinvale2017'
-    }
-];
+const allSaints = [];
 
-app.get('/allsaints', (req, res) => res.json(allSaints))/
+fs.createReadStream('public/data/athena-saints.csv')
+    .pipe(csv())
+    .on('data', (data) => allSaints.push(data));
+
+app.get('/allsaints', (req, res) => res.json(allSaints));
 
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
