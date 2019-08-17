@@ -15,13 +15,15 @@ const fileNames = [
     "cloths",
     "constellations",
     "debuts",
+    "destinyStars",
     "familyMembers",
     "gods",
     "kinshipTypes",
     "masters",
     "nationality",
+    "places",
     "ranks",
-    "saints",
+    "saints"
 ];
 const genders = ['Male', 'Female'];
 const bloodTypes = ['A', 'B', 'AB', 'O'];
@@ -35,68 +37,83 @@ fileNames.forEach(name => {
     });
 });
 
-const buildCloth = character => {
+const buildSaint = saintId => {
+    const saintObject = content.saints.find(saint => saint.id === saintId);
+    const saint = Object.assign({}, saintObject);
+
+    content.characters.forEach(character => {
+        if (character.id === saint.character) {
+            saint.character = character.name;
+        }
+    });
+
+    content.cloths.forEach(cloth => {
+        if (cloth.id === saint.cloth) {
+            saint.cloth = cloth.name;
+        }
+    });
+
+    content.classes.forEach(classInformations => {
+        if (classInformations.id === saint.class) {
+            saint.class = classInformations.name;
+        }
+    });
+
+    content.gods.forEach(god => {
+        if (god.id === saint.affiliation) {
+            saint.affiliation = god.name;
+        }
+    });
+
+    content.ranks.forEach(rank => {
+        if (rank.id === saint.rank) {
+            saint.rank = rank.name;
+        }
+    });
+
+    content.artists.find(artist => {
+        if (saint.artist === artist.id) {
+            saint.artist = artist.name;
+        }
+    });
+    
+    return saint;
+}
+
+const buildCloths = character => {
     const cloths = [];
     content.saints.forEach(saint => {
         if (saint.character === character.id) {
-            const clothInformations = { name: "", class: "", rank: "", affiliation: "", scheme: "", artist: "" };
+            const cloth = buildSaint(saint.id);
 
-            content.cloths.forEach(cloth => {
-                if (cloth.id === saint.cloth) {
-                    clothInformations.name = cloth.name;
-                }
-            });
+            delete cloth.id;
+            delete cloth.character;
 
-            content.classes.forEach(classInformations => {
-                if (classInformations.id === saint.class) {
-                    clothInformations.class = classInformations.name;
-                }
-            });
-
-            content.gods.forEach(god => {
-                if (god.id === saint.affiliation) {
-                    clothInformations.affiliation = god.name;
-                }
-            });
-
-            content.ranks.forEach(rank => {
-                if (rank.id === saint.rank) {
-                    clothInformations.rank = rank.name;
-                }
-            });
-
-            clothInformations.scheme = saint.scheme;
-
-            content.artists.find(artist => {
-                if (saint.artist === artist.id) {
-                    clothInformations.artist = artist.name;
-                }
-            });
-
-            cloths.push(clothInformations);
+            cloths.push(cloth);
         }
     });
     return cloths;
 }
 
-const buildCharacter = char => {
-    const character = Object.assign({}, char);
+const buildCharacter = characterObject => {
+    const character = Object.assign({}, characterObject);
 
     character.gender = genders[character.gender];
+
+    character.cloth = buildCloths(character);
     
     content.nationality.forEach(nationality => {
         if (nationality.num_code === character.nationality) {
             character.nationality = nationality.nationality;
         }
-    });
 
-    character.cloth = buildCloth(character);
-    
-    content.nationality.forEach(nationality => {
         if (nationality.num_code === character.training) {
-            character.training = nationality.en_short_name;
+            const place = content.places.find(place => place.id === character.place);
+            character.training = place ? `${place.name}, ${nationality.en_short_name}` : nationality.en_short_name;
         }
     });
+
+    delete character.place;
     
     character.master = [];
     character.apprentice = [];
@@ -149,7 +166,7 @@ const buildCharacter = char => {
 app.get('/characters', (req, res) => {
     response.success = true;
     response.message = 'Characters founded';
-    response.data = content.characters;
+    response.data = content.characters.map(character => buildCharacter(character));
     return res.status(200).json(response);
 });
 
@@ -168,19 +185,20 @@ app.get('/characters/:id', (req, res) => {
     }
 });
 
-app.get('/saints', (req, res) => {
+app.get('/all', (req, res) => {
+    const saints = content.saints.map(saint => buildSaint(saint.id));
     response.success = true;
-    response.message = 'Saints founded';
+    response.message = 'All founded';
     response.data = { saints };
     return res.status(200).json(response);
 });
 
-app.get('/saints/:id', (req, res) => {
+app.get('/all/:id', (req, res) => {
     const saint = content.saints.find(saint => saint.id === req.params.id);
     if (saint) {
         response.success = true;
         response.message = 'Saint founded';
-        response.data = { saint: buildCharacter(saint) };
+        response.data = { saint: buildSaint(saint.id) };
         return res.status(200).json(response);
     } else {
         response.success = false;

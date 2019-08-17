@@ -1,6 +1,6 @@
 id,name
 1,Acheron Surplice
-2,Alchemy Glove Chronotector
+2,Alchemy Glove Chronotector V1
 3,Alcor Robe (Zeta Star)
 4,Alioth Robe (Epsilon Star)
 5,Alraune Surplice
@@ -23,7 +23,7 @@ id,name
 22,Aquila Cloth V2 Omega
 23,Aquila Omega Cloth
 24,Ara Cloth
-25,Ares
+25,Ares God Leaf
 26,Aries Cloth
 27,Aries God Cloth
 28,Arondight Sacred Sword
@@ -67,7 +67,7 @@ id,name
 66,Cerberus Cloth
 67,Cetus Cloth
 68,Cetus Surplice
-69,Chakram (Slash Reaper Chronotector)
+69,Chakram (Slash Reaper Chronotector) V1
 70,Chameleon Cloth
 71,Cherub Glory
 72,Chrysaor Scale
@@ -108,7 +108,7 @@ id,name
 107,Diana Galaxy
 108,Dimension (Xiphos Soma)
 109,Divine Justice (Flamberge Soma)
-110,Dorado Cloth Stone
+110,Dorado Cloth
 111,Draco Cloth V1
 112,Draco Cloth V1 Anime
 113,Draco Cloth V1 Omega
@@ -130,9 +130,9 @@ id,name
 129,Electricity Orb
 130,Elektron (Amber Beast Adamas)
 131,Elf Surplice
-132,Equuleus Cloth
-133,Equuleus Cloth Saintia
-134,Equuleus New Cloth
+132,Equuleus Cloth Saintia
+133,Equuleus Cloth V1
+134,Equuleus Cloth V2
 135,Eridanus Cloth
 136,Eris Leaf
 137,Executioner Surplice
@@ -183,14 +183,13 @@ id,name
 182,Ker God Surplice
 183,Koh-i-Noor Orb
 184,Kraken Scale
-368,Kusanagi Sword
 185,Kyanos (Blue Flame Adamas)
 186,Lacerta Cloth
 187,Land Cloth
 188,Leech Surplice
 189,Leo Cloth
 190,Leo God Cloth
-191,Leo Minor Cloth V1 Omega
+191,Leo Minor Cloth
 192,Leo Minor Cloth V1 Omega
 193,Leo Minor Cloth V2 Omega
 194,Leo Minor Omega Cloth
@@ -250,7 +249,7 @@ id,name
 248,Oneiros God Surplice
 249,Ophiuchus Cloth
 250,Ophiuchus Gold Cloth
-251,Oriolus Silver Cloth
+251,Silver Oriolus Cloth
 252,Orion Cloth
 253,Orion Cloth V1 Omega
 254,Orion Cloth V2 Omega
@@ -259,16 +258,16 @@ id,name
 257,Papillon Surplice
 258,Pavo Cloth
 259,Pavo Cloth Saintia
-261,Pegasus Cloth V1
 260,Pegasus Cloth V1 Anime
-268,Pegasus Cloth V1 Omega
+261,Pegasus Cloth V1
 262,Pegasus Cloth V2
-269,Pegasus Cloth V2 Omega
 263,Pegasus Cloth V3
 264,Pegasus Cloth V4
 265,Pegasus Cloth V5
 266,Pegasus God Cloth
 267,Pegasus Miracles Cloth
+268,Pegasus Cloth V1 Omega
+269,Pegasus Cloth V2 Omega
 270,Pegasus Omega Cloth
 271,Pegasus Ultimate Omega Cloth
 272,Persephone God Surplice
@@ -302,8 +301,6 @@ id,name
 300,Rung Robe
 301,Sagitta Cloth
 302,Sagittarius Cloth
-369,Sagittarius Cloth V1 Omega
-370,Sagittarius Cloth V2 Omega
 303,Sagittarius God Cloth
 304,Saturn Chronotector
 305,Scorpio Cloth
@@ -369,3 +366,35 @@ id,name
 365,Worm Surplice
 366,Wyvern Surplice
 367,Youaltepuztli Nahuals
+368,Kusanagi Sword
+369,Sagittarius Cloth V1 Omega
+370,Sagittarius Cloth V2 Omega
+371,Abel Corona Cloth
+372,Alchemy Glove Chronotector V2
+373,Apollo Corona Cloth
+374,Ara Black Cloth
+375,Corvus Black Cloth
+376,Canes Venatici Black Cloth
+377,Chakram (Slash Reaper Chronotector) V2
+378,Cepheus Cloth Anime
+379,Cetus Black Cloth
+380,Draco Black Cloth
+381,Freya Robe
+382,Heracles Black Cloth
+383,Satellites V1
+384,Lupus Cloth
+385,Lynx Cloth
+386,Lynx Corona Cloth
+387,Lynx Cloth Omega
+388,Black Cloth
+389,Satellites V2
+390,Orion Omega Cloth
+391,Pegasus Black Cloth
+392,Phoenix Black Cloth
+393,Cygnus Black Cloth
+394,Green Pallasites Chronotector
+395,Red Pallasites Chronotector
+396,Yellow Pallasites Chronotector
+397,Blue Pallasites Chronotector
+398,Black Pallasites Chronotector
+399,Blue Warrior Robes
