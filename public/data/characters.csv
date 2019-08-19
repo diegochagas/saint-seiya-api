@@ -1,477 +1,477 @@
-id,name,age,gender,birth,nationality,training,place,attacks,height,weight,family,blood,debut
-1,Abel,,0,,300,300,,Another Dimension | Genrō Maō Ken | Galaxian Explosion,null,null,Gemini Cain(twin brother),null,null
-2,Abel,,0,,300,,,null,1.98 m,null,Zeus(father) | Athena(younger sister) | Metis(mother),null,Saint Seiya: Legend of Crimson Youth.
-3,Acting Principal,,0,,,300,20,null,null,null,null,null,null
-4,Aegaeon,,0,,,,,Jūbakuraizanba,null,null,null,null,null
-5,Aegir,,0,,,,,Psionic Hand | Phantom Claw | Psionic Phantom Claw | Chrono Destruction,null,null,null,null,null
-6,Aeson,,0,,392,,,null,null,null,null,null,null
-7,Aghora,17,0,Sep-06,356,356,,Renge Bakusai Ken,null,89 Kg,null,B,null
-8,Agrios,,0,,,,,Cragg Press,null,null,null,null,null
-9,Aiacos,22,0,Jul-06,524,,,Galactic Illusion | Garuda Flap | Surendra-jit (TLC-only) | Galactica Death Bring (TLC-only),186cm,85kg,null,B,null
-10,Aiolia,20,0,Aug-16,300,300,,Lightning Bolt | Lighting Plasma | Lighting Fang (G) | Lightning Spark | Photon Invoke (G) | Photon Drive (G) | Photon Burst (G),185 cm,85 kg,Sagittarius Aiolos (brother),O,null
-11,Aiolos,14,0,30-Nov,300,300,,Atomic Thunderbolt (anime-only) | Infinity Break (G) |  | Lightning Plasma (GA) | Flashover (GA) | Arc Plasma (GA) | Lightning Flame (GA) | Lightning Bolt (GA) | Lightning Implosion (GA) | Lightning Telios (GA),185 cm,85 kg,Leo Aiolia(Brother),O,null
-12,Albafica,23,0,,300,300,,Royal Demon Rose | Piranhan Rose | Bloody Rose | Crimson Thorn,null,null,null,null,null
-13,Alberich,15,0,,578,578,2,Amethyst Sealed | Honoo no Ken | Nature Unity,160cm,58kg,Alberich XIII(ancestor),null,null
-14,Alberich XIII,,0,,578,578,2,Nature Unity,null,null,Alberich (descendant),null,null
-15,Aldebaran,20,0,May-08,76,76,,Great Horn,210 cm,130 kg,null,B,null
-16,Alegre,,0,6-Mar,380,,,Holy Spout | Will Baritsu,189cm,95kg,null,O,null
-17,Algethi,17,0,,710,800,,Kornephoros,240 cm,180 kg,null,O,null
-18,Algol,17,0,Nov-11,682,40,,Medusa Shield | Ra's Al Ghûl Gorgonio,188cm,83kg,null,A,null
-19,Alice,,1,,826,,,Curse Sword Activate,null,null,null,null,null
-20,Alicia Mii Benethol,,1,,392,756,24,Angel Splash | Heaven's Maelstrom,null,null,null,null,null
-21,Almaaz,,0,,,,,null,null,null,null,null,null
-22,Alone,15,0,,380,,,Greatest Eclipse | Lost Canvas,167 cm,54 kg,Sasha (Sister) | Kronos (Hades' Father) | Rhea (Hades' Mother) | Zeus (Hades' Brother) | Poseidon (Hades' Brother) | Pandora (Sister) | Athena (Hades' Niece) | Eris (Hades' Niece),null,null
-23,Amor,,0,,380,,,Silent Water | Arrested Judgement | Rinne Kesshō | Bloody Waltz | Bloody Canon | Gravity Concerto | Bloody Bullet,null,null,Medea(sister) | Orion Eden(nephew),null,null
-24,Andreas Lise,,0,,578,,,null,null,null,null,null,null
-25,Anemos,,0,,,,,null,null,null,null,null,null
-26,Anubis,,0,,818,,,null,null,null,null,null,Episode G
-27,Aphrodite,22,0,Mar-11,752,304,,Royal Demon Rose | Piranhan Rose | Bloody Rose,1.83 m,72 Kg,null,O,null
-28,Apollo,,0,,,,,null,1.98 m,null,Zeus(father) | Poseidon(uncle) | Hades(uncle) | Ares(half-brother) | Athena(half-sister) | Eris(half-sister) | Artemis(half-sister),null,null
-29,Apophis,,1,,818,,,null,null,null,null,null,Episode G
-30,Apsu,,0,,,,,null,null,null,null,null,Saint Seiya Omega: Episode 48
-31,Arachne,16,0,Aug-11,,,,Tarantula Net,null,84 Kg,null,null,null
-32,Archon,,0,,,,,Phantom Arrow,null,null,null,null,null
-33,Ares,,0,,300,,,null,null,null,Zeus(father) | Hera(mother) | Poseidon(uncle) | Hades(uncle) | Eris(half-sister) | Athena(half-sister) | Apollo(half-brother) | Artemis(half-sister) | Abel(half-brother) | Phobos(son) | Deimos(son),null,null
-34,Argo,,0,,,300,20,null,null,null,null,null,null
-35,Aria,13,1,,,,,null,null,null,null,null,null
-36,Arkhes,,1,,,,,null,null,null,null,null,null
-37,Arne,,1,,,300,20,null,null,null,null,null,null
-38,Artemis,,1,,,,,null,159 cm,null,Zeus(father) | Poseidon(uncle) | Hades(uncle) | Apollo(twin brother) | Ares(half sister) | Athena(half sister) | Abel(half brother) | Aphrodite(half sister) | Eris(half sister) | Hermes(half brother) | Deimos(nephew) |,null,null
-39,Ashtaroth,,0,,,,,Killer Fanged Cobra,181cm,75kg,null,null,null
-40,Asmita,21,0,,356,356,16,Ōm | Kān | Riku Dō Rin Ne | Tenbu Hōrin | Tenkūhaja Chimimōryō | Tenma Kōfuku | Gōma In,null,null,null,null,null
-41,Aspros,25,0,,300,300,,Genrōmaōken | Galaxian Explosion | Another Dimension,null,null,Gemini Deuteros(twin brother),null,null
-42,Asterion,16,0,Feb-20,208,40,3,Million Ghosts Attack,1.83 m,75kg,null,B,null
-43,Útgarðar,,0,,578,,,Hallucination Rue,null,null,null,null,null
-44,Atavaka,,0,Oct-23,,,,Maten Muhōrin,195 cm,110 kg,null,O,TLC Gaiden 8: Chapter 54
-45,Ate,,1,,,,,Million Hatred,null,null,null,null,null
-46,Atla,12,0,Apr-04,156,156,12,null,147 cm,43 kg,null,AB,LC: Chapter 13 - OVA 4
-47,Atlas,,0,,,,,Burning Corona,186cm,83kg,null,null,null
-48,Atlas,,0,,300,,,null,null,null,Iapetos (father) | Themis (mother) | Prometheus (brother) | Epimetheus (brother) | The Hesperides (daughters) | The Pleiades (daughters) | Maia (daughter) | Hermes (grandson),null,null
-49,Avenir,,0,,,,,Stardust Revolution,null,null,null,null,null
-50,Babel,17,0,Feb-20,368,300,7,Fotia Roufihtra,185 cm,80 kg,null,A,null
-51,Bacchus,,0,,,,,null,null,null,Mars (brother) | Vulcanus (brother) | Diana (sister) | Romulus(nephew) | Hornet Sonia(niece) | Orion Eden(nephew),null,null
-52,Baian,18,0,May-07,124,,,God Breath | Rising Billows,181cm,78kg,null,A,null
-53,Balazo,,0,,,,,null,null,null,null,null,null
-54,Baldr,,0,,578,578,2,Yr | Ansuz,null,null,null,null,null
-55,Ban,15,0,Dec-30,392,834,15,Lionet Bomber,181 cm,83 kg,null,B,null
-56,Bartsch,,1,,,,,null,null,null,null,null,null
-57,Bayer,,0,,,,,null,null,null,null,null,null
-58,Beelzebub,,0,,,,,Garuda Hell Wings,187cm,84kg,null,null,null
-59,Beetle 1,,0,,,,,null,null,null,null,null,null
-60,Beetle 2,,0,,,,,null,null,null,null,null,null
-61,Berengue,,0,,,,,Golden Death Hair,181cm,78kg,null,null,null
-63,Bleriot,,0,,,,,null,null,null,null,null,null
-65,Ursula Walden,,1,17-Dec,826,,,,"1, 68 m",52 kg,Chris Walden (sister),O,
-66,Bronte,,0,,,,,null,null,null,null,null,null
-67,Bud,18,0,,578,578,2,Shadow Viking Tiger Claw,185cm,72kg,Mizar Syd(twin brother),null,null
-68,Byaku,,0,,,,,null,null,null,null,null,null
-69,Cain,,0,,300,300,,Galaxian Explosion,null,null,Gemini Abel(twin brother),null,null
-70,Callisto,,1,,,,,null,null,null,null,null,null
-71,Camus,20,0,Feb-07,250,643,28,Diamond Dust | Koltso | Freezing Coffin | Aurora Execution | Athena Exclamation,184 cm,76 kg,null,A,null
-72,Capella,17,0,Aug-21,300,300,,Saucer Kōgeki,183cm,80kg,null,null,null
-73,Carbella,,1,Feb-11,484,,,null,169 cm,57 kg,Tezcatlipoca(brother),B,The Lost Canvas Gaiden 2: Kardia
-74,Cardinale,,0,,380,,,Royal Demon Rose | Bloody Rose | Dagger Rose,null,null,null,null,null
-75,Carnelian,,0,,,,,null,null,null,null,null,null
-76,Cassios,15,0,14-Dec,300,300,,Onyx Meteor Fist | Onyx Bomber | Onyx Shield,201cm,128kg,Docrates(brother /  anime-only),O,Saint Seiya | Knights of Zodiac Netflix
-77,Celeris,,0,,380,380,21,Supernova Explosion Maximum,null,null,null,null,null
-78,Chalcedony,,0,,,,,null,null,null,null,null,null
-79,Charon,38,0,Oct-02,380,,,Rolling Oar | Eddying Current Crasher,183cm,65kg,null,O,null
-80,Cheshire,,0,Jun-07,826,,,Hide and Seek | Perky Party,157 cm,52 kg,null,B,TLC: Chapter 11 - Episode 3
-81,Chimera,,0,,,,,Anthrax,null,null,Typhon (Father) | Echidna (Mother) | Cerberus(Brother) | Ladon(Brother) | Hydra(Sister),null,null
-82,Chris Walden,14,1,19-Dec,826,,,null,"1,57 m",45 kg,Wyvern Rhadamanthys (Cousin),A,null
-83,Christ,,0,,,,,Southern Cross Thunder Bolt,193cm,90kg,null,null,null
-84,Chronos,,0,,,,,Teleos Oracle | Khaos Hyetos | Phainomenon Arkhein | Darkness Roar | Dunamis Megas Depranon | Pragma Spathe | Dunamis Pteryx | Chrono Conclusion Eternal,null,null,Uranus (father) | Gaia (mother) | Rhea (wife/sister) | Ebony Hyperion (brother) | Dimension Iapetos (brother) | Dark Lightning Koios (brother) | Galaxy Kreios (brother) | Current Okeanos (brother) | Themis(sister) | Mnemosyne (sister) | Phoebe (sister) | Theia (sister) | Tethys(sister) | Zeus (son) | Poseidon (spn) | Hades (son),null,null
-85,Coeus,Prehistoric,0,,,,,Ebony Illumination | Sparkle Rapier | Ebony Gale | Thunder Star Rotation | Ebony Rapier | Ebony Plasma | Dark Thunder Planet | Black Thunder Acceleration | Keraunos,null,null,Gaia (mother) | Uranus (father) | Phoebe (sister/wife) | The Titans (brothers) | The Titanesses (sisters) | Leto (daughter) | Artemis (granddaughter) | Apollo (grandson),null,null
-86,Cor Tauri,1000+,0,May-17,300,,,Ichor Nova,450 cm,1500 kg,Daedalus (creator) | Zeus (ichor donor) | Europa (adopted mother),Ichor,null
-87,Crius,,0,,,,,Aster Blade /  Orichalcum Blade /  Soshinken /  Aster Choreía /  Aster Kyklos /  Aster Shield,null,null,Uranus (father) | Gaia (mother) | Pontos (half-brother/uncle) | Eurybia (cousin/wife) | The Titans (brothers) | The Titanesses (sisters) | Pallas (son),null,null
-88,Cruaich,,0,,372,,,Nudy Darkness,null,null,Ethlinn (Daughter),null,null
-89,Crystal Saint,19,0,Feb-03,643,643,28,Diamond Dust | Tō Kekken,null,null,null,null,null
-90,Cube,24,0,Oct-09,192,,,Blood Spray | Death Messenger,188 cm,88 kg,null,O,null
-91,Curly,,0,,,,,null,null,null,null,null,Saint Seiya Online
-92,Curtis,,0,,,,,null,null,null,null,null,null
-93,Cyllene,,0,,,,,Storm Cutter | Devil Execution | Devil Twin Tempest,null,null,Deadly Scythe Greip(twin brother),null,null
-94,Daichi,,0,,392,,,Steel Hurricane,null,null,null,null,null
-95,Dali,,0,,,300,20,null,null,null,null,null,null
-96,Dante,17,0,Mar-29,380,380,29,Jigoku no Kōkyūsa,185cm,93kg,null,AB,null
-97,Deathmask,23,0,24-Jun,380,380,29,Seki Shiki Meikai Ha,184cm,82kg,null,A,null
-98,Deathtoll,,0,,,380,29,Seki Shiki Meikai Ha | Peach Attack | Cancer All Beauty Ken | Shabadabadaba's | Peach Bomber,null,null,null,null,null
-99,Defteros,27,0,,300,300,,Another Dimension | Mavros Eruption Clast/Mavros Eruption Crust | Galaxian Explosion,null,null,Gemini Aspros(twin brother),null,null
-100,Degel,22,0,,250,643,4,Diamond Dust | Koltso | Freezing Coffin | Grand Koltso | Diamond Dust Ray | Aurora Execution,null,null,null,null,null
-101,Deimos,,0,,,,,null,null,null,Zeus(grandfather) | Poseidon(uncle) | Hades(uncle) | Ares(father) | Aphrodite(mother) | Fobos(twin brother),null,null
-102,Diana,,1,,,,,Lightning Magic,null,null,Mars (brother) | Bacchus (brother) | Vulcanus (brother) | Romulus(nephew) | Hornet Sonia(niece) | Orion Eden(nephew),null,null
-103,Dio,16,0,Jul-10,484,484,,Dead End Fly,160 cm,56 kg,null,B,null
-104,Dione,,0,,,,,Snake Plasma | Snake Plasma Full Power,null,null,null,null,null
-105,Docrates,20,0,May-15,300,,,Heracles Mōshū Ken,435 cm,null,Cassios (Younger brother),A,null
-106,Dohko,261,0,20-Oct,156,156,9,Rozan Hyakuryū Ha | Rozan Ryū Hishō | Yūko Sen'nin Enbu | Rozan Shōryūha | Rozan Kōryūha | Misopesamenos,1.40 to 1.70 m,null,Shunrei(adopeted daughter) | Shōryū(adoptive grand-son /  manga-only) Dragon Ryūhō(grand-son  /  omega),A,null
-107,Don Avido,,0,22-Jul,380,156,12,Sekishiki Meikai Ha | Sekishiki Kisōen | Sekishiki Konsō Ha,190 cm,89 kg,null,O,null
-108,Dorer,,0,,642,,,Kerberos Claw | Kerberos Inferno | Kerberos Divide | Kerberos Hell Flare,null,null,null,null,null
-109,Douglas,,0,,,,,null,null,null,null,null,null
-110,Dragon,,0,,,,,null,null,null,null,null,null
-111,Drakon,,0,,,,,Dunamis Pneuma,null,null,null,null,null
-112,Drbal,34,0,,578,578,2,Odin Shield,195 cm,94 kg,null,null,null
-113,Dysnomia,,1,,,,,Reverse of universe,null,null,null,null,null
-114,Earheart,,0,,,,,Crimson Cross | Crimson Billow,null,null,null,null,null
-115,Echidna,,1,,,,,null,null,null,null,null,null
-116,Eden,15,0,,380,380,,Folgore Renaissance | Tonitrui Saltare | Tonitrui Fera Caelos | Hilia Mastia | Towa no Tornade | Orion's Devastation | Orion's Extermination | Impulse Mace,null,null,Mars(father) | Medea(mother) | Pisces Amor(uncle) | Hornet Sonia(middle-sister) | Aria(foster-sister),null,null
-117,Edward,,0,,,,,North Winds,null,null,null,null,TLC: Chapter 31 / Episode 8
-118,Eiri Aizawa,,1,,392,,,null,160 cm,45 Kg,null,null,Saint Seiya: The Movie
-119,El Cid,26,0,4-Jan,724,,,Jumping Stone | Excalibur,null,null,null,null,null
-120,Elda,,1,,,756,24,Greatest Eruption,null,null,null,null,null
-121,Eligor,,0,,,,,Seima Tôro-Ken,180cm,72kg,null,null,null
-122,Emma,,1,,,300,20,Steel Hurricane,null,null,null,null,null
-123,Emony,,1,,,,,Nightmare Scheme | Lunatic Bind | Innocent Glumness,null,null,null,null,null
-124,Enceladus,,0,,,,,Gigan Loud | Ichor Loud,null,null,null,null,null
-125,Ennead,,0,,,,,Perfect Square,null,null,null,null,null
-126,Erna,,0,,,,,null,null,null,null,null,null
-127,Escarlate,,0,,,,,Scarlet Needle /  Antares /  Restriction,null,null,null,null,null
-128,Europe,,0,,,,,Slash Reaper | Terrible Slash | Destructive Slash,null,null,null,null,null
-129,Eurybia,,1,,,,,null,null,null,Pontos (father) | Gaia (mother) | Galaxy Kreios (half-brother/husband) | Pallas (son),null,null
-130,Fafner,,0,,,,,Dragonewt Bullet,null,null,null,null,null
-131,Feiyan,,0,,156,,,null,null,null,Sparrow Mudan (Sister),null,null
-132,Felser,,0,Aug-14,724,,,Mystic Sword Zanouki,191 cm,102 kg,null,O,TLC Gaiden 5: Chapter 40
-133,Fenrir,13,0,,578,578,2,Wolf Cruelty Claw | Northern Gunrōken,177cm,60kg,null,null,null
-134,Flint,,0,,,,,Stone Spark,null,null,null,null,null
-135,Fly,,0,,36,,,Sand Virus | Fly Slider,null,null,null,null,null
-136,Folken,,0,,578,578,2,null,null,null,Mime (adoptive Son),null,null
-137,Fróði,,0,,578,578,2,Wildschwein | Wildschwein Strahl,null,null,null,null,null
-138,Francisca,,0,2-May,,,,null,null,null,null,O,null
-139,Alexei,16,0,Jun-27,643,643,4,Blue Impulse,1.84 m,80 kg,Natássia | Freya (Sister) | Polaris Hilda (younger sister),AB,null
-140,Natassia (Freya),14,1,28-Mar,643,643,4,null,162 cm,57 kg,Frey | Alexei (Brother),B,null
-141,Fudou,,0,,524,,,Noumaku Sanmanda Bazaradan Kan | Shogyō Danzai | Ōm | Shōji Sokunehan | Myōō Rairin | Kān | Bodai Shōgo,null,null,null,null,null
-142,Fukuryu,15,0,Aug-10,616,554,8,null,173cm,62kg,Black Dragon(twin brother),A,null
-143,Fyodor,,0,,,,,Strangle Shrill,null,null,null,null,null
-144,Gaia,Prehistoric,1,,,,,null,null,null,Uranus (son/husband) | The Titans (children) | The Cyclopses (children) | The Hekatonkhieres (children) | Pontos (son/lover) | Eurybia (daughter) | Zeus (grandson) | Athena (great-grandaughter),null,null
-145,Galarian Steiner,24,0,,300,300,,null,null,null,null,null,null
-146,Gallia,,1,,,,,Light Genesis | Hiten Daisenkō | Bushinkorinken,null,null,null,null,null
-147,Gangsa,,0,,,,,null,null,null,null,null,null
-148,Garcia,,0,,643,643,4,null,null,null,Unity (son) | Seraphina(daughter),null,null
-149,Garnet,200+,1,4-Jul,250,,,null,"1,74 m",62 kg,null,O,null
-150,Gateguard,,0,14-Apr,,,,Force Soar,186 cm,86 kg,null,A,null
-151,Geist,14,1,Apr-02,380,300,,Phantom Genwaku Ken | Thunder Claw,null,50 kg,Ophiuchus Shaina (sister),AB,null
-152,Geki,15,0,May-15,392,124,23,Hanging Bear,188 cm,102 kg,null,A,null
-153,Genbu,,0,,156,156,9,Rozan Shinbu Ken | Rozan Shō Ten Ha,null,null,null,null,null
-154,Georg,,0,,,,,Geistig Blitz,null,null,null,null,null
-155,Georges,,0,,,300,20,null,null,null,null,null,null
-156,Gerald,,0,,,,,null,null,null,null,null,Saint Seiya Online
-157,Gestalt,,0,,380,,,Arrow Sagittarius | Arrow of the Goddess,null,null,null,null,null
-158,Gigant,20,0,Feb-21,807,,,Giant Hold | Big Knuckle,197 cm,108 kg,null,O,null
-159,Gigas,,0,,,,,null,null,null,null,null,null
-160,Gioca,,1,,380,554,8,null,null,null,Guilty (descendant),null,null
-161,Gordon,20,0,Dec-19,616,,,Grand Axe Crusher,188 cm,95 kg,null,B,null
-162,Gray,,0,,,300,20,null,null,null,null,null,null
-163,Shadow Saint,,0,,392,,,,,,,,
-164,Gregor,,0,,,,,null,null,null,null,null,null
-165,Greip,,0,,,,,Devil Blizzard | Devil Twin Tempest,null,null,Deadly Scythe Cyllene(twin brother),null,null
-166,Guilty,,0,,,554,8,null,192cm,91kg,Gioca (ancestor),null,null
-167,Guney,,0,,,300,20,Delphinus Bomb,null,null,null,null,null
-168,Hades,,0,Dec-21,,,,Greatest Eclipse | Lost Canvas,184cm,73kg,Kronos (Hades' Father) | Rhea (Hades' Mother) | Zeus (Hades' Brother) | Poseidon (Hades' Brother) | Pandora (Sister) | Athena (Hades' Niece) | Eris (Hades' Niece),null,null
-169,Hagen,14,0,,578,578,2,Universe Freezing | Great Ardent Pressure,185cm,77kg,null,null,null
-170,Hakurei,270,0,,156,156,12,Seki Shiki Meikai Ha | Seki Shiki Tenryō Ha | Seki Shiki Kisōen | Seki Shiki Konsō Ha,null,null,Pope Sage,null,null
-171,Halimede,,0,,,,,Flail Shooter | Triple Disaster | Chrono Delayed | Brutal Phantom | Phantom Skull,null,null,null,null,null
-172,Harbinger,,0,,840,300,,Shadow Horn | Great Horn | Greatest Horn,null,null,null,null,null
-173,Haruto,13,0,,392,392,10,Kawarimi no Jutsu | Kinton no Jutsu | Katon No Jutsu | Doton no Jutsu | Seiryuu Teppou Mizu | Kaen no Mae Midareuchi | Juumonji Gansei Kuzushi | Suitton Zettai Reigo | Fujiryu Ninpo! Houkou Tenrou Kuzushi | Fujiryu Ninpo! Nozuchi Kuzuchi | Fujiryu Ninpo! Doton Housenka | Fujiryu Ninpo! Kinkou Gin | Fujiryu Ninpo Watagashi | Fujiryu Hidden Chijin Ittai | Fujiryu Ninpo Bunshin no Jutsu | Doton! Dorui Tenjo | Doton Souga Horouchi | Doton Sajin no Mae | Hakurōken Tenshin Musō | Rougaken Rakusetsu Zenbucchii | Hakurouken Touga Shinsou | Rolling Stones | Howl | Wolf's Claw | Wolf Gang Bike Blow | Wolf Fang Striker | Wolf's Rock Dead Howling,null,null,Yoshimi Morigakure Masataka (father) | Wolf Yoshitomi (brother),null,null
-174,Hasgard,28,0,,620,300,,Great Horn | Titan's Nova | Titan's Break,null,null,null,null,null
-175,Hati,,0,,,,,Chrono Delayed | Bloody Rain | Bloody Dagger | Bloody Squall | Bloody Hurricane,null,null,null,null,null
-176,Hecate,1000+,1,,,,,null,null,null,null,null,Next Dimension - Vol.2 / Cap. 15
-177,Hecatonchires,,0,,,,,Hecaton Menis | Hecaton Molybdaina,null,null,null,null,Episode G
-178,Hector,,0,,380,380,,null,null,null,null,null,Episode G
-179,Hema,,0,22-Mar,,,,Cremation Storm,"1, 78 m",77 kg,Bhuj Kokalo (brother),B,null
-180,Heracles,,0,,380,,,Ruota Falce | Ruota Tornado,null,null,null,null,null
-181,Hilda,19,1,Nov-18,578,,,Unknown,170 cm,47 kg,Freya (younger sister) | Frey (older brother),null,null
-182,Hook,,0,,,300,20,Ground Needle,null,null,null,null,null
-183,Hoplisma,,0,,,,,Dunamis Pelekus,null,null,null,null,null
-184,Hui,,0,24-Jan,156,156,27,Gucang Huoyan,null,null,null,null,null
-185,Hyoga,14,0,Jan-23,643,643,28,Diamond Dust | Kholodnyi Smerch (manga-only) | Aurora Thunder Attack | Aurora Execution | Freezing Coffin,173cm,60kg,Natassia (mother) | Natassia (foster daughter GA),O,null
-186,Hyperion,,0,,,,,Ebony Vortex | Gurthang Vortex | Helios Vortex | Helios Prominence | Prominence Blade | Ouroboros Prominence | Lemniscate Of Flames | Dark Sun,null,null,Uranus (father) | Gaia (mother) | Theia(wife/sister) | Dimension Iapetos(brother) | Dark Lightning Koios(brother) | Galaxy Kreios(brother) | Current Okeanos(brother) | Themis(sister) | Mnemosyne(sister) | Phoebe(sister) | Tethys(sister) | Kronos(brother) | Zeus(nephew) | Poseidon(nephew) | Hades(nephew) | Atlas (nephew) | <Prometheus (nephew),null,null
-187,Hyperion,,0,,,,,Chrono Destruction | Tenchihōmetsuzan | Shock of Destruction | Chrono Catastrophe,null,null,null,null,null
-188,Hypnos,,0,Jun-13,,,,Eternal Drowsiness | Encounter another Field(TLC only),192cm,88kg,Thanatos (twin brother) | Phobetor (son) | Oneiros | (son) | Icelus (son) | Phantasos (son) | Morpheus (son),null,null
-189,Hysmie,,1,,,,,null,null,null,null,null,null
-190,Iapetos,,0,,,,,Khora Temnein | Hekaton kheir Kalein | Hex Aster Xiphos | Khaos Kyklos | Khaos Blade | Khaos Prosbole | Hekaton Menis | Hekaton Molybdaina | Melas Planetes,null,null,Uranus (father) | Gaia (Mother) | Themis (sister/wife) | The Titans (brothers) | The Titanesses (sisters) | Atlas (son) | Prometheus (son) | Epimetheus (son),null,null
-191,Icelus,,0,,,,,null,null,null,Hypnos(Father) | Thanatos(Uncle) | Phobetor(Brother) | Oneiros(Brother) | Phantasos | Morpheus(Brother),null,null
-192,Ichi,14,0,Feb-10,392,246,14,Mellow Poison,170 cm,56 kg,null,B,null
-193,Ikki,15,0,Aug-15,392,554,8,Hōō Genma Ken (Phantom Demon) | Hō Yoku Tenshō (Fiery Phoenix),175cm,62kg,Andromeda Shun(brother),null,null
-194,Ilias,,0,,380,300,,Lightning Plasma,null,null,Sagittarius Sisyphus (brother) | Leo Regulus (son),null,null
-195,Io,17,0,Mar-02,152,,,Eagle Clutch | Wolf's Fang | Queen Bee's Stinger | Vampire Inhale | Serpent Strangler | Grizzly Slap | Big Tornado,180cm,71kg,null,AB,null
-196,Ionia,500,0,,300,,,Domination Language,null,null,null,null,null
-197,Isaak,14,0,Feb-17,246,643,28,Aurora Borealis,174cm,60kg,null,B,null
-198,Isolde,,0,,,,,Landslide | Wraith,null,null,null,null,"Chapter 102,  OVA 27 | Saint Seiya Online"
-199,Itia,250+,0,Oct-17,,,,Finally justice,195 cm,93 kg,null,O,(TLC - G 15th century)
-200,Ivan,21,0,30-Aug,643,,,Greatest the Perestroika,192 cm,109 Kg,null,B,null
-201,Izo,,0,,392,,,Excalibur,null,null,null,null,null
-202,Jabu,13,0,Nov-03,392,12,18,Unicorn Gallop,165 cm,65 Kg,null,B,null
-203,Jaga,,0,,,,,Megaton Meteor Crash,183cm,80kg,null,null,null
-204,Jaki,,0,,,,,null,null,null,null,null,null
-205,Jamian,17,0,Aug-27,826,826,26,Black Wing Shift,166cm,56kg,null,A,null
-206,Jan,,0,,,,,Bone Crush Screw,175cm,60kg,null,null,null
-207,Jango,18,0,8-Aug,882,554,8,Death Queen Inferno,188cm,101kg,null,B,null
-208,Jao,,0,,,,,Shining Hell Claw,178cm,73kg,null,null,null
-209,Jericho,,0,,300,300,,null,201 cm (approx.),null,null,null,null
-210,Jid,15,0,Dec-28,246,554,8,Black Blizzard,173 cm,61 kg,null,O,null
-211,Johan,,0,,276,,,Wind Jammer | Wind Trigger,null,null,null,null,null
-212,Juan,,0,,,,,Astral Gravitation,null,null,null,null,null
-213,Judo,,0,10-Jan,,554,8,Satori,187 cm,85 kg,null,AB,null
-214,Julian Solo,16,0,Mar-21,300,,,null,177 cm,59 kg,Kronos(Poseidons father) | Rhea(Poseidons mother) | Zeus(Poseidons brother) | Abel(Poseidons nephew) | Aphrodite(Poseidons niece) | Apollo(Poseidons nephew) | Ares(Poseidons nephew) | Artemis(Poseidons niece) | Athena(Poseidons niece) | Eris(Poseidons niece) | Hermes(Poseidons nephew),0,null
-215,June,14,1,Apr-17,231,706,1,null,160cm,45kg,null,null,null
-216,Junkers,,0,,,,,null,null,null,null,null,null
-217,Kagaho,18,0,Aug-12,392,,,Corona Blast | Crucify Ankh | Rising Darkness,179 cm,62 kg,Sui (brother),AB,null
-218,Kageboshi,,0,Sep-22,,,,Kage Gōpuku,178 cm,76 kg,null,B,TLC: Chapter 11
-219,Kairos,Prehistoric,0,,300,,,Marvelous Room | Bio Rewind | Marvelous Real,null,null,Khronos (elder brother) | Owl Partita (wife /  deceased) | Pegasus Tenma (son),null,null
-220,Kaiser,,0,,380,300,,null,null,null,null,null,null
-221,Kanon,28,0,30-May,300,300,,Genrō Maō Ken | Golden Triangle | Galaxian Explosion,188cm,87kg,Gemini Saga(twin brother),AB,null
-222,Natassia,,0,,643,,,,,,Hyoga (son),,
-223,Kardia,22,0,,300,,,Scarlet Needle | Scarlet Needle Katakeo | Scarlet Needle Katakeo Antares,null,null,null,null,null
-224,Kasa,21,0,19-Aug,620,,,Salamander Shock | Thunder Veil,168 cm,49 kg,null,O | B (anime),null
-225,Katya,,1,,,756,24,null,null,null,null,null,null
-226,Kazuma,,0,,392,484,,null,null,null,Lionet Sōma(son),null,null
-227,Kenuma,15,0,13-Jul,376,554,8,Black Ryu Sei Ken,170 cm,58 Kg,null,B,null
-228,Ker,,1,,,,,null,null,null,Hypnos(brother) | Thanatos(brother),null,null
-229,Kerry,,0,,,,,null,null,null,null,null,null
-230,Kiki,8,0,Apr-01,156,156,12,Crystal Wall | Stardust Revolution | Starlight Extinction | Athena Exclamation,130cm,34kg,null,B,null
-231,Kitalpha,,0,,,,,Supernova Explosion Maximum,null,null,null,null,null
-232,Kokalo,,0,15-Jun,,,,Predatory Lava,"1,96 m",105 kg,Jamadhar Hema (brother),A,null
-233,Komachi,,1,,392,300,20,null,null,null,null,null,null
-234,Kouga,13,0,,380,300,19,Pegasus Ryuusei Ken | Pegasus Senkou ken | Pegasus Sui Sei Ken | Pegasus Rolling Crash,null,null,Saori Kido (Omega)(foster mother),null,null
-235,Krest,500+,0,8-Feb,643,643,4,Diamond Dust | Diamond Dust Ray | Aurora Execution | Freezing Shield,167 cm,57 kg,null,AB,null
-236,Krishna,19,0,Aug-10,144,,,Flashing Lancer | Maha Roshini,187cm,80kg,null,B,null
-237,Kydoimos,,0,,,,,null,null,null,null,null,null
-238,Kyoko,,1,,392,756,24,Equuleus Ryūsei Ken,null,null,Equuleus Shō (sister),null,null
-239,Lacaille,,0,,724,300,,Hauling Argo,null,null,null,null,null
-240,Ladon,,0,,,,,Poliorkia,null,null,null,null,null
-241,Laimi,29,0,Feb-01,418,,,Worm's Bind | Rawl Blood,176 cm,51 kg,null,O,null
-242,Lamech,,0,,,,,null,null,null,null,null,null
-243,Lancelot,,0,,,,,"	Curse Sword Activate | Drawn Sword | Holy Sword Embodiment | Holy Sword Tower | Zangeki battō | Lady of the Lake | Abysmal Lake | Arondight Property Open | Kyou Doku Baiei | Dokuso Kakusan | Poison Sword Drawn Sword | Hobaku no Mizūmi | Amata no Tsurugi",null,null,null,null,null
-244,Pefko,,0,9-Mar,300,300,32,,"1, 46 m",42 kg,Dryad Luco (adoptive father),O,
-245,Larry,,0,,,,,null,null,null,null,null,Saint Seiya Online
-246,Lascoumoune,,1,,,,,Crimson Viper,null,null,null,null,null
-247,Leda,,0,,,706,1,null,null,null,null,null,null
-248,Old Master,1000+,0,,156,156,,,,,,,
-249,Lei-Hu,,0,,156,156,9,null,null,null,null,null,null
-250,Lemargos,,0,18-Jul,380,554,8,null,185 cm,88 kg,null,A,null
-251,Leybold,,0,Aug-11,,,,Murderous Brood,183 cm,70 kg,null,AB,LCG: Chapter 72
-252,Liu-Xing,,0,,156,,,null,null,null,null,null,null
-253,Loge,,0,,,,,Chrono Delayed | Needle Dance | Parasite Bee | Blast Bee Stinger,null,null,null,null,null
-254,Loki,24,0,,578,578,2,Shūgeki Gunrō Ken | Odin Tempest,191cm,88kg,null,null,null
-255,,,,,,,,,,,,,
-256,Luciano,,0,,,300,20,null,null,null,null,null,null
-257,Lucifer,,0,,,,,null,250cm,120kg,null,null,null
-258,Luco,,0,,,,,Curse of Lily,null,null,Pisces Lugonis (brother),null,null
-259,Ludwig,,0,,,,,Murus Ignis | Rubellu Sidus Gungnir | Rubellu Sidus Meteor | Rubellu Sidus Storm,null,null,null,null,null
-260,Lugonis,36,0,,,,,Royal Demon Rose,null,null,Dryad Luco(brother),null,null
-261,Lune,20,0,Dec-24,578,,,Reincarnation | Fire Whip,183cm,70kg,null,A,SS: Chapter 69 | Episode 117 (Chapter Sanctuary OVA 3)
-262,Mania,,1,,,,,Equuleus Meteor Fist | Mirror of Darkness | Crazy Destruction,null,null,null,null,null
-263,Manigold,25,0,14-Jul,380,300,,Sekishiki Meikai-ha | Sekishiki Kisōen | Sekishiki Konsō-ha | Akubensu,187cm,85kg,null,0,null
-264,Marcian Commander,,0,,,,,null,null,null,null,null,null
-265,Maria,,1,,,,,Vanishing Snow,null,null,Katja (syster),null,null
-266,Marin,16,1,Mar-18,392,300,,Kuu Ken | Ryusei Ken | Eagle Claw Flash,167 cm,51 kg,Icarus Toma(brother),A,null
-267,Mariners,,0,,300,,,null,null,null,null,null,null
-268,Markino,19,0,Apr-25,458,,,Big Fart | Little Belch,155 cm,51 kg,null,AB,null
-269,Maya,,0,,,,,Hunting Arrow Express,169cm,58kg,null,null,null
-270,Mayura,,1,,,,,Hisen Hajakuchōbuku | Bangōsenseki | Higi Kenyoku Tenbusho,null,null,null,null,null
-271,Medea,,1,,380,,,null,null,null,Mars(husband) | Pisces Amor(younger brother) | Hornet Sonia(step daughter) | Orion Eden(son) | Aria(foster daughter),null,null
-272,Mei,15,0,,392,380,29,null,null,null,Mitsumasa Kido (father),null,null
-273,Menkar,,0,,,,,null,null,null,null,null,null
-274,Methone,,0,,,,,Chrono Delayed | Madness Claw | Twin Madness Claw | Death Claw,null,null,Claw Ymir (twin sister),null,null
-275,Michelangelo,,0,,380,,,Colossus Live,null,null,null,null,null
-276,Miguel,,0,,484,,,Ground Fang | Ground Wave | Ground Fang Grand Finale | Hound Hollow,null,null,null,null,null
-277,Miller,,0,,,,,Element Rejection | Fire Wall | Ultimate Rejection,null,null,null,null,null
-278,Mills,22,0,Jun-26,372,,,Natural Terror | Earthquake Mixer,186 cm,78 kg,null,B,null
-279,Milo,20,0,Nov-08,300,300,11,Restriction | Scarlet Needle | Antares,185cm,84kg,null,B,null
-280,Mime,15,0,,578,578,2,Stringer Requiem,178cm,68kg,Folken(foster father),null,null
-281,Mine,,1,2-Feb,724,,,Yoken Zan-ou'ki,"1, 68 m",51 kg,null,A,TLC Gaiden 5: Chapter 39
-282,Minos,23,0,Mar-25,578,,,Cosmic Marionation | Gigantic Feathers (TLC-only),184cm,72kg,null,A,null
-283,Minos,,0,,300,,,null,null,null,null,null,null
-284,Mirai,,0,,,392,31,null,null,null,null,null,null
-285,Mirapolos,,0,,,300,20,Lynx Arrow,null,null,null,null,null
-286,Mirfak,,0,,4,,,Petra Vrochi | Ra's Al Ghûl Gorgonio | Shield of Medusa,null,null,null,null,null
-287,Misty,16,0,Oct-11,250,250,6,Mavrou Trippa,180cm,68kg,null,O,null
-288,Mito,,1,,,756,24,null,null,null,null,null,null
-289,Mitsumasa Kido,,0,,,,,null,null,null,Saori Kido (adopted daughter) | 100 orphans of Graad Foundation (sons only in the manga) | Coma Berenices Mei (son /  Gigantomachia only),null,null
-290,Miyan,,0,,,,,null,null,null,null,null,null
-291,Mnemosyne,Prehistoric,1,,,,,null,null,null,Uranus (father) | Gaia (mother) | Kronos (younger brother and king) | The Titans (brothers) | The Titanesses (sisters) |,null,null
-292,Moa,,0,,,,,Demon Fantasia,175cm,70kg,null,null,null
-293,Moe,,0,,,,,null,null,null,null,null,Saint Seiya Online
-294,Morpheus,,0,,,,,Morufiumu Kōma,null,null,Hypnos(Father) | Thanatos(Uncle) | Phobetor(Brother) | Oneiros(Brother) | Icelus(Brother) | Phantasos(Brother),null,null
-295,Mouses,17,0,Aug-02,554,554,8,Kaitoz Spouting Bomber,205 cm,130 kg,null,A,null
-296,Mu,20,0,Mar-27,156,156,12,Crystal Wall | Stardust Revolution | Starlight Extinction | Crystal Net | Athena Exclamation,182 cm,75 kg,null,A,null
-297,Mudan,,1,,156,,,Pohuai Xiaozhuan,null,null,Hakutaku Feiyan (Brother),null,null
-298,Mycenae,,0,,792,,,King's Roar | King's Emblem | Hōkō | Lighting Plasma | Beast Fall | Regulus Blast,null,null,null,null,null
-299,Mystoria,,0,,,,,Aurora Execution | Kholodnyi Smerch,null,null,null,null,null
-300,Myu,19,0,Jan-27,40,,,Ugly Eruption | Silky Thread | Fairy Thronging,178 cm,65 kg,null,B,null
-301,Nachi,14,0,Jul-20,392,430,5,Dead Howling,171,57,null,AB,null
-302,Nahualpilli,,0,,484,,,null,null,null,null,null,null
-303,Nicole,,0,,,,,null,null,null,null,null,null
-304,Niobe,25,0,Aug-03,68,,,Deep Fragrance | Dead Perfume,181 cm,80 kg,null,AB,null
-305,Noesis,,0,,,,,Tritos Spharagisma,null,null,null,null,null
-306,,,,,,,,,,,,,
-307,,,,,,,,,,,,,
-308,,,,,,,,,,,,,
-309,Oceanus,,0,,,,,Thalassa Deluge | Stream Edge | Current Impact | Auge Hydor,null,null,Uranus (father) | Gaia (mother) | Tethys (younger sister/wife) | The Titans (younger brothers) | The Titanesses (younger sisters) | The Oceanids (daughters),null,null
-310,Ochs,23,0,7-Nov,208,,,Eye of Charge | Rock the Bay,187 cm,81 Kg,null,A,null
-311,,,,,,,,,,,,,
-312,Odysseus,,0,,,,,Hypnosis | Law of Awakening | Apoptosis | Wound Resurgence,null,null,null,null,null
-313,Odysseus,,0,,,,,null,175cm,null,null,null,null
-314,Ohko,15,0,,,156,9,Fierce Tiger Gale Purple Thunder Punch,null,null,null,null,null
-315,Oneiros,,0,,,,,Guardian's Oracle,null,null,"Hypnos (""father or brother"") | Phantasos (brother) | Icelus (brother) | Morpheus (brother) | Phobetor (brother)",Ichor,null
-316,Ordykia,,0,,,,,Dark Mist,null,null,null,null,null
-317,Orphée,19,0,Nov-15,300,300,,Stinger Fine | Stringer Nocturne | Death Trip Serenade,173 cm,60 kg,null,A,null
-318,Orpheus,,0,,,,,String Requiem,172cm,58kg,null,null,null
-319,Orthros,,0,,,,,Sapphire Energy (Safiros Enedora),null,null,null,null,null
-320,Ox,,0,,,,,Great Horn,null,null,null,null,null
-321,Pakia,,0,,,300,,null,null,null,null,null,null
-322,Pallas,,0,,,,,Puppet Claw,null,null,null,null,null
-323,Pallas,,1,,,,,Eigouring,N/A,N/A,Athena(half-sister),Ikhor,null
-324,Palmer,,0,,,,,null,null,null,null,null,null
-325,Pandora,16,1,Sep-03,276,,,Noble Venom (The Lost Canvas),166cm,52kg,Hades (brother),A,null
-326,Paracelsus,,0,,,,,null,null,null,null,null,null
-327,Paradise,,0,,,300,20,Typhoon Bullet,null,null,null,null,null
-328,Paradox,,1,,826,300,,Rozan Shō Ryū Ha | Crossroad Mirage | Fortunate Wall | Final Destination | Scarlet Janus | World's End | Galaxian Ultimation | Another Dimension,null,null,Gemini Integra(twin sister),null,null
-329,Partita,,1,,616,,,null,null,null,null,null,null
-330,Persephone,,1,,,,,null,null,null,Zeus (father) | Demeter (mother),Ikhor,null
-331,Phaeton,,0,,,,,null,null,null,null,null,null
-332,Phantasos,,0,,,,,Grim Phantasia,null,null,"Hypnos (""father or brother"") | Oneiros (brother) | Icelus (brother) | Morpheus (brother) | Phobetor (brother)",Ichor,null
-333,Pharaoh,18,0,18-Nov,818,,,Balance of Curse | Kiss in the Darkness,178 cm,69 Kg,null,O,null
-334,Phlegyas,21,0,18-Sep,710,,,Howling Inferno,189 cm,81 kg,null,A,null
-335,Phobetor,,0,,,,,null,null,null,Hypnos(father) | Thanatos(uncle) | Oneiros(brother) | Icelus](brother) | Phantasos(brother) | Morpheus(brother),null,null
-336,Phobos,,0,,,,,null,null,null,Zeus(grandfather) | Poesidon(uncle) | Hades(uncle) | Ares(father) | Aphrodite(mother) | Deimos(twin brother),null,null
-337,Phoebe,Prehistoric,1,,,,,null,null,null,Gaia (mother) | Uranus (father) | Dark Lightning Koios (brother/husband) | The Titans (brothers) | The Titanesses (sisters) | Leto (daughter) | Artemis (granddaughter) | Apollo (grandson),null,null
-338,Phonos,,0,,,,,Paralyze Silk | Despaired Bite,null,null,null,null,null
-339,Piotr,,0,,643,,,null,null,null,Alexei (son) | Natassia (Daughter),null,null
-340,Pavlin,,1,,643,,,Īki Pieria | Peacock Blizzard,null,null,null,null,null
-341,Poena,,1,,,,,null,null,null,null,null,null
-342,Pontos,,0,,,,,Melas Kyma | Melas Helix | Dunamis Whirlwind | Arkhein Curse,null,null,Gaia (mother/lover) | Uranus (brother) | Eurybia (daughter) | Galaxy Kreios (half-brother/son-in-law) | The Titans (half-brothers) | The Titanesses (half-sisters) | Pallas (grandson),null,null
-343,Prometheus,,0,,,,,null,null,null,Iapetos (father) | Themis (mother) | Pontos (half-uncle) | Epimetheus (brother) | Atlas (brother),null,null
-344,Ptolemy,16,0,Jun-16,434,818,30,Phantom Arrow,180 cm,73 kg,null,B,null
-345,Pyrokus,,0,,,,,Blazing Claw Whip | Melted Rock-forming,null,null,null,null,null
-346,Pyromaniac,,0,,,,,null,null,null,null,null,null
-347,Queen,19,0,Apr-15,276,,,Blood Flower Scissors,171cm,56kg,null,B,null
-348,Ra,,0,,,,,null,null,null,null,null,Episode G
-349,Radzinsky,,0,,643,,,Hell's Proceed,null,null,null,null,null
-350,Ragno,,0,,,,,null,null,null,null,null,null
-351,Raki,8,1,,156,156,12,null,53cm,null,null,null,null
-352,,,,,,,,,,,,,
-353,Regulus,15,0,,380,300,,Lightning Plasma | Lightning Bolt | Athena Exclamation(solo) | Zodiac Clamation | Lightning Crown,null,null,Leo Ilias(Father) | Sagittarius Sisyphus(Uncle),null,null
-354,Retsu,,0,,392,300,,Ressō Shippū,null,null,null,null,null
-355,Rhadamanthys,23,0,Oct-30,826,,,Greatest Caution | Wyvern's Roar | Greeding Roar,189 cm,84 kg,null,O | Ichor (TLC),null
-356,Rhea,Prehistoric,1,,,,,Ge Python | Fire Lizard,null,null,Uranus (father) | Gaia (mother) | Kronos (younger brother/husband) | The Titans (brothers) | The Titanesses (sisters) | Zeus (youngest son) | Poseidon (middle son) | Hades (eldest son) | Prometheus (nephew) | Atlas (nephew) | Athena (granddaughter),null,null
-357,Rhea,,0,,,,,Perfect Pawn | Gaé Bolg | Gaé Bolg Kage no Yari,null,null,null,null,null
-358,Rhuax,,0,,,,,null,null,null,null,null,null
-359,Rigel | Algea,,0,,,,,Ignis Fatuus | Ignis Fatuus Saltare | Ignis Fatuus Granata,null,null,null,null,null
-360,Ritahoa,15,0,,,554,8,Dark Phoenix diabolical illusion,1.73 m,75 kg,null,null,null
-361,Rock,21,0,Jun-17,450,,,Rolling Stone Bomber,195cm,114kg,null,A,null
-362,Rodorio,,0,,,,,Pegasus Meteor Fist,null,null,null,null,null
-363,Roland,,0,,,,,Curse Sword Activate | Drawn Sword | Holy Sword Embodiment | Holy Sword Tower,null,null,null,null,null
-364,Romulus,,0,,,,,Cremito Rupis,null,null,Mars (father) | Vulcanus (uncle) | Diana (aunt) | Bacchus(uncle) | Hornet Sonia(middle-sister) | Orion Eden(Half-brother),null,null
-365,Rudolph,,0,,,300,20,null,null,null,null,null,null
-366,Rung,21,0,,578,578,2,null,225cm,230kg,null,null,null
-367,Ruse,,0,5-Nov,250,554,8,Black Feather Defense,182 cm,75 kg,null,B,null
-368,Rusk,,0,,,300,,Howling Argo,null,null,null,null,null
-369,Ryuho,12,0,,156,156,9,Suihakkei | Kyōka Suigetsu | Meikyō Shisui | Rozan Shō Ryū Ha | Rozan Hyaku Ryū Ha | Suiryū Enbu,null,null,Dragon Shiryu (Omega) (father) | Shunrei (Omega) (mother),null,null
-370,Saga,28,0,30-May,300,300,,Another Dimension | Genrō Maō Ken | Galaxian Explosion,188cm,87kg,Sea Dragon Kanon/Gemini Kanon (Twin Brother),AB,null
-371,Sage,,0,,156,156,12,null,null,null,Altar Hakurei(Twin Brother),null,null
-372,Salinsa,,1,,,300,,null,null,null,null,null,null
-373,Salo,,0,,,300,,null,null,null,null,null,"TLC: Chapter 36, Episode 9"
-374,Saori Kido,13,1,Sep-01,300,,,null,1.55 m,44 Kg,Mitsumasa Kido (adopted-grandfather) | Zeus (Athena's father) | Poseidon(Athena's uncle) | Hades(Athena's uncle) | Eris(Athena's half-sister) | Apollo(Athena's half-brother) | Artemis(Athena's half-sister) | Ares(Athena's half-brother) | Abel(Athena's half-brother) | Pallas (Omega)(Athena's half-sister),A,null
-375,Sasha,14,1,,380,,,null,null,null,Alone (TLC) (brother) | Zeus (Athena's father) | Poseidon(Athena's uncle) | Hades(Athena's uncle) | Eris(Athena's half-sister) | Apollo(Athena's half-brother) | Artemis(Athena's half-sister) | Ares(Athena's half-brother) | Abel(Athena's half-brother) | Pallas (Omega)(Athena's half-sister),null,null
-376,,,,,,,,,,,,,
-377,Schiller,,0,,144,300,,Meido Chōraku | Seki Shiki Meikai Ha | Meido Indō | Seki Shiki Meikai Rinbu | Tomb Squeeze,null,null,null,null,null
-378,Seika,16,1,,392,,,,,,Pegasus Seiya (Brother),,
-379,Seiya,13,0,Dec-01,392,300,,Pegasus Ryu Sei Ken (Pegasus Meteor Fist) | Pegasus Sui Sei Ken (Pegasus Comet Fist) | Pegasus Rolling Crush,165 cm,53 kg,Seika (sister) | Mitsumasa Kido (father),1,1
-380,Seraphina,,1,,643,,,null,null,null,Sea Dragon Unity (Brother) |  Garcia (Father) | Kronos(Poseidons father) | Rhea(Poseidons mother) | Zeus(Poseidons brother) | Abel(Poseidons nephew) | Aphrodite(Poseidons niece) | Apollo(Poseidons nephew) | Ares(Poseidons nephew) | Artemis(Poseidons niece) | Athena(Poseidons niece) | Eris(Poseidons niece) | Hermes(Poseidons nephew),null,null
-381,Shaka,20,0,19-Sep,356,356,,Tenpōrin'in | Ōm | Kān | Tenma Kōfuku | Rikudō Rinne | Tenkūhaja Chimimōryō | Tenbu Hōrin,183cm,73kg,null,AB,null
-382,Sham,,0,,,,,null,null,null,null,null,null
-383,Shelley,,1,,,,,Lamentation Rain,null,null,null,null,null
-384,Sher-Khan,,0,,,,,null,null,null,null,null,null
-385,Shijima,,0,,392,356,,Tenbu Hōrin | Ungyō | Zone of Silence | The Buddha's Four Doors | Tenma Kōfuku,null,null,null,null,null
-386,Shina,16,1,Mar-24,380,300,,Thunder Claw,166 cm,49 kg,Geist (sister),B,null
-387,Shinadekuro,15,0,Aug-10,616,554,8,Black Shō Ryū Ha (Saint Seiya Senki only),173cm,62kg,Black Dragon Fukuryu (twin brother /  manga-only),A,null
-388,Shinato,,1,,,392,31,null,null,null,null,null,null
-389,Shion,18,0,30-Mar,,,,null,185cm,77kg,null,null,null
-390,Shiryu,14,0,Oct-04,392,156,9,Rozan Shou Ryuu Ha | Rozan Ryuu Hi Shou | Rozan Kou Ryuu Ha | Excalibur | Rozan Hyaku Ryu Ha,177cm,57kg,null,A,null
-391,Shiva,16,0,Sep-09,356,356,,Senju Kami Onken,null,78 Kg,null,A,null
-392,Sho,,0,,392,,,Steel Hurricane,null,null,null,null,null
-393,Sho,,0,,,,,null,null,null,null,null,null
-394,Shoko,,1,,392,756,24,Equuleus Ryūsei Ken,null,null,Equuleus Kyōko(sister) | Father | Olivia (mother / deceased),null,null
-395,Shun,13,0,Sep-09,392,706,1,Nebula Chain | Rolling Defense | Andromeda Nebula | Circle Defense | Wild Trap | Spiral Duct | Spider Net | Boomerang Shot | Casting Net | Great Capture | Thunder Wave | Nebula Stream | Nebula Storm,165cm,51kg,Phoenix Ikki,null,null
-396,Shura,26,0,12-Jan,724,724,22,Jumping Stone | Excalibur | Excalibur (Violent Dance) | Ex. Caliburn (G) | Double Excalibur (G),186cm,83kg,null,B,null
-397,Siegfried,19,0,,578,578,2,Odin Sword | Dragon Breath Blizard,195cm,85kg,Grani Sigmund (older brother),null,null
-398,Sigmund,,0,,578,578,2,Paard Orkan | Paard Brew,null,null,Odin (ancestor) | Sigmund (ancestor) | Siegfried (ancestor) | Dubhe Alpha Siegfried (younger brother),null,null
-399,Sigurd,,0,,,,,Curse Sword Activate | Dragon Blade | Drawn Sword | Holy Sword Embodiment | Holy Sword Tower | Seiken Houkai | Yaiba no Gouu | Funnu no Ame | Zangeki | Danzetsu Fuuin,null,null,"Odin (Av�), Sigmund (Pai)",null,null
-400,Sillas,,0,,,,,null,null,null,null,null,null
-401,Sirius,17,0,Jan-06,276,300,,Great Mountain Smasher (OVA),185 cm,86 kg,null,0,null
-402,Sisyphus,29,0,,380,300,,Light Arrows | Cheiron's Light Impulse,null,null,Leo Ilias(Brother) | Leo Regulus(Nephew),null,null
-403,Sonia,,1,,380,380,,Hornet Stinger | Twilight Marionette | Turn Back The Darkness | Crimson Needle | Antares Maelstrom,null,null,Ludwig/Mars ( Father ) | Misha (Mother) | Medea ( Stepmother ) | Orion Eden ( Half Brother ),null,null
-404,Sorento,16,0,10-Sep,40,,,Dead End Symphony | Dead End Climax,178cm,75kg,null,A,null
-405,Soul Reaper,,0,,,,,Silver necklace,null,null,null,null,null
-406,Souma,14,0,,484,484,,Flame Desperado | Lionet Burning Fire | Lionet Bomber | Lionet Flare Storm Bomber | Lionet Explosion,null,null,Southern Cross Kazuma(father),null,null
-407,Spartan,,0,,,300,,null,null,null,null,null,null
-408,Spathe,,0,,,,,Eight Direction Claw,null,null,null,null,null
-409,Spear,,0,,,300,20,Swordfish Cutter,null,null,null,null,null
-410,Spika,,0,,,706,1,null,null,null,null,null,null
-411,Stand,22,0,Apr-18,36,,,Big Wall | Stand by Me,258cm,240kg,null,B,null
-412,Steven,,0,,,,,null,null,null,null,null,Saint Seiya Online
-413,Subaru,12,0,,392,,,Steel Hurricane | Steel Bolt Cannon | Pleiades Impact | Supernova Explosion | Pleiades Tempest,null,null,null,null,null
-414,Suikyo,,0,,392,300,,Hisō Byaku Renge | Hisō Byaku Senran,null,null,Suishō(brother),null,null
-415,Surt,,0,,,,,Cosmo Reflect | Cosmo Conduction,null,null,null,null,null
-416,Surt,,0,,578,,,Flame Deer Maelstrom | Hatred Blue Flame,null,null,Sinmore (younger sister),null,null
-417,Syd,18,0,,578,578,2,Viking Tiger Claw | Blue Impulse,185cm,72kg,Alcor Zeta Bud(twin brother),null,null
-418,Sylphid,19,0,20-Jul,56,,,Annihilation Flap,181cm,78kg,null,0,null
-419,Tail,,0,,,,,Dunamis Odous,null,null,null,null,null
-420,Tartarus,Prehistoric,0,,,,,null,null,null,Caos (father) | Uranus (brother) | Hekatonkhires (nephew) | The Cyclopses (nephew) | The Titans (nephews) | Gaia (sister) | Typhon (son) | Gigas (descendents) | Pontos (brother) | Eurybia (niece) | Erebus (brother) | Eros (brother),Ikhor,Hipermito (Mencionado) | EpG: Volume # 17 -  Chapter 72
-421,Tarvos,,0,,,,,Iron Meteor | Iron Meteor Striker | Hyperion Meteor | Iron Meteor Bazooka,null,null,null,null,null
-422,Tatsumi Tokumaru,32,0,,,,,Tatsumi-ryū Tokumaru Tsuki,185cm,97kg,null,null,null
-423,Teneo,,0,6-May,380,300,,Great Horn | Pleiades Nova,162cm-190cm,55kg-89kg,null,A,null
-424,Tenma,13,0,Dec-05,616,300,,Pegasus Ryu Sei Ken (Pegasus Meteor Fist) | Pegasus Sui Sei Ken (Pegasus Comet Fist) | Pegasus Sui Sei Ken:Kiseki,168cm,56kg,Mephistopheles Yōma (Father) | Owl Partita (Mother),B,null
-425,Terrorist of the Three Mile Island,,0,,300,300,,null,null,null,null,null,Episode G: Chapter 2
-426,Tethys,,1,,,,,null,null,null,Uranus (father) | Gaia (mother) | Current Okeanos (husband/brother) | The Titans (brothers) | The Titanesses (sisters) | The Oceanids (daughters),null,null
-427,Thanatos,,0,Jun-13,,,,Terrible Providence | Tartaros Phobia (SS Lost Canvas only),192cm,88kg,Hypnos(twin brother) | Phobetor(nephew) | Oneiros(nephew) | Icelus(nephew) | Phantasos(nephew) | Morpheus(nephew),null,null
-428,Thebe,,0,,,,,Demon's Hammer | Gigantic Meteor | Chrono Delayed | Gigantic Asteroid,null,null,null,null,null
-429,Theia,Prehistoric,1,,,,,null,null,null,Gaia (mother) | Uranus (father) | Hyperion (brother/husband) | The Titans (brothers) | The Titanesses (sisters) | Helios (son) | Selene (daughter) | Eos (daughter) | Zeus (nephew),null,null
-430,Themis,,1,,,,,Brabeus Blade /  Brabeus Talanton,null,null,Uranus (father) | Gaia (mother) | Iapetos (brother/husband) | The Titans (brothers) | The Titanesses (sisters) | Prometheus (son) | Atlas (son) | Epimetheus (son),null,null
-431,Theseus,,0,,,,,null,null,null,Odysseus (possibly),null,Heaven Chapter: Overture
-432,Thetis,15,1,Nov-21,208,,,Deathtrap Coral,165 cm,52 kg,null,O,null
-433,Thor,19,0,,578,578,2,Titanic Hercules,265cm,100kg,null,null,null
-434,Titan,,0,,,,,Gigant Impact | Satellite Crusher | Gigantic Planetoid,null,null,null,null,null
-435,Toas,,0,,,,,Stigma | Avenger Shot,null,null,null,null,null
-436,Toki,,0,,392,,,null,null,null,Mitsumasa Kido (father),null,null
-437,Tokisada,,0,,392,300,,Jikan Ken | Jikan Gyakkō | Chrono Execution | Chrono Divide | Chrono Immortal | Chrono Dominion,null,null,null,null,null
-438,Tokusa,16,0,,,156,12,Seki Shiki Nyoi Reirin,null,null,Crane Yuzuriha (sister),null,TLC: Chapter 57 | Episode 15
-439,Toma,17,0,Dec-01,392,,17,Highest Altitude,168cm,53kg,Eagle Marin(sister),B,null
-440,Tomoe,,1,,392,,,null,153 cm,42 kg,Yoshino Hino (twin syster),null,Saint Seiya: Episode G - Assassin - Chapter 33
-441,Tourmasline,,0,,,,,Dazzling Voltage,null,null,null,null,null
-442,Trivikramasena,,0,,,,,Activate Sword Curse | Bofu no Baku | Bofu no Yaiba | Enken Tenrin | Holy Sword Embodiment | Holy Sword Tower,210 cm,130 kg,Vidyadhara Clan,null,null
-443,Tsubaki,,0,,392,300,,Howling Argo/Hauling Argo,null,null,null,null,null
-444,Typhon,,0,,,,,null,null,null,Gaia (Mother) | Echidna (Wife/Niece) | Cerberus (Son) | Ladon (Son) | Hydra (Daughter) | Chimera (Daughter),null,null
-445,Ullr,15,0,,578,578,2,null,170cm,65kg,null,null,null
-446,Unity,,0,,643,643,4,Holy Pillar,null,null,Garcia(father) | Seraphina(sister),null,null
-447,Uranus,Prehistoric,0,,,,,null,null,null,Gaia (mother/wife) | Pontos (brother) | The Titans (children) | The Cyclopses (children) | The Hekatonkheires (children) | Eurybia (niece/daughter-in-law) | Zeus (grandson) | Athena (great-grandaughter),null,null
-448,Ushio,,0,,392,,,Steel Hurricane,null,null,null,null,null
-449,Valentine,20,0,14-Feb,196,,,Greed the Live | Sweet Chocolate,182 cm,71 kg,null,AB,null
-450,Valkyrie,,1,,578,578,2,null,null,null,null,null,null
-451,Vermeer,,0,,,,,Cosmic Marionation | Cosmic Marionation Change | Infernal thread,null,null,null,null,null
-452,Veronica,,0,,,,,Burial Fort,null,null,null,null,null
-453,Violate,,1,,,,,Kagenui | Brutal Real,null,null,null,null,null
-454,Viviane,,1,,,,,null,null,null,Dyonas,null,null
-455,Vulcanus,,0,,,,,Valse des Flammes,null,null,Mars (brother) | Bacchus (brother) | Diana (sister) | Romulus(nephew) | Hornet Sonia(niece) | Orion Eden(nephew),null,null
-456,Wadatsumi,,0,,,,,null,null,null,null,null,null
-457,Wesda,,0,Nov-22,484,,,null,208 cm,119 kg,null,O,The Lost Canvas Gaiden 2: Kardia
-458,Wimber,,0,,,,,Nightmare Sonar,null,null,null,null,null
-459,Xiaoling,,1,,156,756,24,Kyokuten Shichisei Ken,null,null,null,null,null
-460,Yato,15,0,,410,300,,Unicorn Gallop,null,null,Mi-jong(sister),null,null
-461,,,,,,,,,,,,,
-462,Ymir,,1,,,,,Twin Madness Claw,null,null,Claw Methone(twin brother),null,null
-463,Yoma,32,0,Dec-31,392,,,Marvelous Room | Rewind Bio | Marvelous Real,null,null,Owl Partita (wife) | Pegasus Tenma (son),null,null
-464,Yoshimi Morigakure Masataka,,0,,392,392,10,Bunshin no Jutsu | Genjutsu | Doton no Jutsu Genkugutsu | Futon Kamaitachi no Jutsu | Kuchiyose no Jutsu,null,null,Wolf Haruto (Son),null,null
-465,Yoshino Hino,,1,,392,,,null,null,null,Tomoe (twin syster) | Aldebaran (adoptive father) | Shina (adoptive mother),null,Saint Seiya: Episode G - Assassin - Chapter 1
-466,Yoshitomi,,0,,392,392,10,Juumonji Gansei Kuzushi | Houkou Tenrou Kuzushi,null,null,Zenzō(master) | Wolf Haruto(considered a brother),null,null
-467,Yufa,,1,,,,,Hungry Wolf Phantom Raid Punch | Famine Breath,null,null,null,null,null
-468,Yulij,,1,,,300,,null,null,null,null,null,null
-469,Yuna,13,1,,643,300,,Blast Scythe | Divine Tornado | Aquila Spinning Predation | Storm Tornado | Aquila Shining Buster,null,null,null,null,null
-470,Yuzuriha,17,1,,156,156,12,Kenbu Shōsen Kyaku,null,null,Hanuman Tokusa(brother),null,null
-471,Zaphiri,,0,Nov-09,,,,Scarlet Needle,188 cm,87 kg,null,A,null
-472,Zelos,34,0,Mar-13,116,,,Jumping Smash,149cm,55kg,null,A,null
-473,Zugylos,,0,,,,,Light Hammer Crush | Light Arm Crush,null,null,null,null,null
-474,Lithos Chrysalis,,1,,300,,,,,,Gigas (father),,
-475,Gigas,,0,,300,,,,,,Lithos (daughter),,
-476,Daidalos,19,0,Apr-30,32,706,1,null,187cm,89kg,null,A,
-477,Albior,19,0,Apr-30,32,706,1,null,187 cm,89 Kg,null,A,
-478,Kafka,,0,,,,,,,,,,"CL: Cap�tulo 73, OVA 7"
+id,name,age,gender,birth,nationality,training,place,height,weight,family,blood,debut
+1,Abel,,0,,300,300,,null,null,Gemini Cain(twin brother),null,null
+2,Abel,,0,,300,,,1.98 m,null,Zeus(father) | Athena(younger sister) | Metis(mother),null,Saint Seiya: Legend of Crimson Youth.
+3,Acting Principal,,0,,,300,20,null,null,null,null,null
+4,Aegaeon,,0,,,,,null,null,null,null,null
+5,Aegir,,0,,,,,null,null,null,null,null
+6,Aeson,,0,,392,,,null,null,null,null,null
+7,Aghora,17,0,Sep-06,356,356,,null,89 Kg,null,B,null
+8,Agrios,,0,,,,,null,null,null,null,null
+9,Aiacos,22,0,Jul-06,524,,,186cm,85kg,null,B,null
+10,Aiolia,20,0,Aug-16,300,300,,185 cm,85 kg,Sagittarius Aiolos (brother),O,null
+11,Aiolos,14,0,30-Nov,300,300,,185 cm,85 kg,Leo Aiolia(Brother),O,null
+12,Albafica,23,0,,300,300,,null,null,null,null,null
+13,Alberich,15,0,,578,578,2,160cm,58kg,Alberich XIII(ancestor),null,null
+14,Alberich XIII,,0,,578,578,2,null,null,Alberich (descendant),null,null
+15,Aldebaran,20,0,May-08,76,76,,210 cm,130 kg,null,B,null
+16,Alegre,,0,6-Mar,380,,,189cm,95kg,null,O,null
+17,Algethi,17,0,,710,800,,240 cm,180 kg,null,O,null
+18,Algol,17,0,Nov-11,682,40,,188cm,83kg,null,A,null
+19,Alice,,1,,826,,,null,null,null,null,null
+20,Alicia Mii Benethol,,1,,392,756,24,null,null,null,null,null
+21,Almaaz,,0,,,,,null,null,null,null,null
+22,Alone,15,0,,380,,,167 cm,54 kg,Sasha (Sister) | Kronos (Hades' Father) | Rhea (Hades' Mother) | Zeus (Hades' Brother) | Poseidon (Hades' Brother) | Pandora (Sister) | Athena (Hades' Niece) | Eris (Hades' Niece),null,null
+23,Amor,,0,,380,,,null,null,Medea(sister) | Orion Eden(nephew),null,null
+24,Andreas Lise,,0,,578,,,null,null,null,null,null
+25,Anemos,,0,,,,,null,null,null,null,null
+26,Anubis,,0,,818,,,null,null,null,null,Episode G
+27,Aphrodite,22,0,Mar-11,752,304,,1.83 m,72 Kg,null,O,null
+28,Apollo,,0,,,,,1.98 m,null,Zeus(father) | Poseidon(uncle) | Hades(uncle) | Ares(half-brother) | Athena(half-sister) | Eris(half-sister) | Artemis(half-sister),null,null
+29,Apophis,,1,,818,,,null,null,null,null,Episode G
+30,Apsu,,0,,,,,null,null,null,null,Saint Seiya Omega: Episode 48
+31,Arachne,16,0,Aug-11,,,,null,84 Kg,null,null,null
+32,Archon,,0,,,,,null,null,null,null,null
+33,Ares,,0,,300,,,null,null,Zeus(father) | Hera(mother) | Poseidon(uncle) | Hades(uncle) | Eris(half-sister) | Athena(half-sister) | Apollo(half-brother) | Artemis(half-sister) | Abel(half-brother) | Phobos(son) | Deimos(son),null,null
+34,Argo,,0,,,300,20,null,null,null,null,null
+35,Aria,13,1,,,,,null,null,null,null,null
+36,Arkhes,,1,,,,,null,null,null,null,null
+37,Arne,,1,,,300,20,null,null,null,null,null
+38,Artemis,,1,,,,,159 cm,null,Zeus(father) | Poseidon(uncle) | Hades(uncle) | Apollo(twin brother) | Ares(half sister) | Athena(half sister) | Abel(half brother) | Aphrodite(half sister) | Eris(half sister) | Hermes(half brother) | Deimos(nephew) |,null,null
+39,Ashtaroth,,0,,,,,181cm,75kg,null,null,null
+40,Asmita,21,0,,356,356,16,null,null,null,null,null
+41,Aspros,25,0,,300,300,,null,null,Gemini Deuteros(twin brother),null,null
+42,Asterion,16,0,Feb-20,208,40,3,1.83 m,75kg,null,B,null
+43,Útgarðar,,0,,578,,,null,null,null,null,null
+44,Atavaka,,0,Oct-23,,,,195 cm,110 kg,null,O,TLC Gaiden 8: Chapter 54
+45,Ate,,1,,,,,null,null,null,null,null
+46,Atla,12,0,Apr-04,156,156,12,147 cm,43 kg,null,AB,LC: Chapter 13 - OVA 4
+47,Atlas,,0,,,,,186cm,83kg,null,null,null
+48,Atlas,,0,,300,,,null,null,Iapetos (father) | Themis (mother) | Prometheus (brother) | Epimetheus (brother) | The Hesperides (daughters) | The Pleiades (daughters) | Maia (daughter) | Hermes (grandson),null,null
+49,Avenir,,0,,,,,null,null,null,null,null
+50,Babel,17,0,Feb-20,368,300,7,185 cm,80 kg,null,A,null
+51,Bacchus,,0,,,,,null,null,Mars (brother) | Vulcanus (brother) | Diana (sister) | Romulus(nephew) | Hornet Sonia(niece) | Orion Eden(nephew),null,null
+52,Baian,18,0,May-07,124,,,181cm,78kg,null,A,null
+53,Balazo,,0,,,,,null,null,null,null,null
+54,Baldr,,0,,578,578,2,null,null,null,null,null
+55,Ban,15,0,Dec-30,392,834,15,181 cm,83 kg,null,B,null
+56,Bartsch,,1,,,,,null,null,null,null,null
+57,Bayer,,0,,,,,null,null,null,null,null
+58,Beelzebub,,0,,,,,187cm,84kg,null,null,null
+59,Beetle 1,,0,,,,,null,null,null,null,null
+60,Beetle 2,,0,,,,,null,null,null,null,null
+61,Berengue,,0,,,,,181cm,78kg,null,null,null
+63,Bleriot,,0,,,,,null,null,null,null,null
+65,Ursula Walden,,1,17-Dec,826,,,"1, 68 m",52 kg,Chris Walden (sister),O,
+66,Bronte,,0,,,,,null,null,null,null,null
+67,Bud,18,0,,578,578,2,185cm,72kg,Mizar Syd(twin brother),null,null
+68,Byaku,,0,,,,,null,null,null,null,null
+69,Cain,,0,,300,300,,null,null,Gemini Abel(twin brother),null,null
+70,Callisto,,1,,,,,null,null,null,null,null
+71,Camus,20,0,Feb-07,250,643,28,184 cm,76 kg,null,A,null
+72,Capella,17,0,Aug-21,300,300,,183cm,80kg,null,null,null
+73,Carbella,,1,Feb-11,484,,,169 cm,57 kg,Tezcatlipoca(brother),B,The Lost Canvas Gaiden 2: Kardia
+74,Cardinale,,0,,380,,,null,null,null,null,null
+75,Carnelian,,0,,,,,null,null,null,null,null
+76,Cassios,15,0,14-Dec,300,300,,201cm,128kg,Docrates(brother /  anime-only),O,Saint Seiya | Knights of Zodiac Netflix
+77,Celeris,,0,,380,380,21,null,null,null,null,null
+78,Chalcedony,,0,,,,,null,null,null,null,null
+79,Charon,38,0,Oct-02,380,,,183cm,65kg,null,O,null
+80,Cheshire,,0,Jun-07,826,,,157 cm,52 kg,null,B,TLC: Chapter 11 - Episode 3
+81,Chimera,,0,,,,,null,null,Typhon (Father) | Echidna (Mother) | Cerberus(Brother) | Ladon(Brother) | Hydra(Sister),null,null
+82,Chris Walden,14,1,19-Dec,826,,,"1,57 m",45 kg,Wyvern Rhadamanthys (Cousin),A,null
+83,Christ,,0,,,,,193cm,90kg,null,null,null
+84,Chronos,,0,,,,,null,null,Uranus (father) | Gaia (mother) | Rhea (wife/sister) | Ebony Hyperion (brother) | Dimension Iapetos (brother) | Dark Lightning Koios (brother) | Galaxy Kreios (brother) | Current Okeanos (brother) | Themis(sister) | Mnemosyne (sister) | Phoebe (sister) | Theia (sister) | Tethys(sister) | Zeus (son) | Poseidon (spn) | Hades (son),null,null
+85,Coeus,Prehistoric,0,,,,,null,null,Gaia (mother) | Uranus (father) | Phoebe (sister/wife) | The Titans (brothers) | The Titanesses (sisters) | Leto (daughter) | Artemis (granddaughter) | Apollo (grandson),null,null
+86,Cor Tauri,1000+,0,May-17,300,,,450 cm,1500 kg,Daedalus (creator) | Zeus (ichor donor) | Europa (adopted mother),Ichor,null
+87,Crius,,0,,,,,null,null,Uranus (father) | Gaia (mother) | Pontos (half-brother/uncle) | Eurybia (cousin/wife) | The Titans (brothers) | The Titanesses (sisters) | Pallas (son),null,null
+88,Cruaich,,0,,372,,,null,null,Ethlinn (Daughter),null,null
+89,Crystal Saint,19,0,Feb-03,643,643,28,null,null,null,null,null
+90,Cube,24,0,Oct-09,192,,,188 cm,88 kg,null,O,null
+91,Curly,,0,,,,,null,null,null,null,Saint Seiya Online
+92,Curtis,,0,,,,,null,null,null,null,null
+93,Cyllene,,0,,,,,null,null,Deadly Scythe Greip(twin brother),null,null
+94,Daichi,,0,,392,,,null,null,null,null,null
+95,Dali,,0,,,300,20,null,null,null,null,null
+96,Dante,17,0,Mar-29,380,380,29,185cm,93kg,null,AB,null
+97,Deathmask,23,0,24-Jun,380,380,29,184cm,82kg,null,A,null
+98,Deathtoll,,0,,,380,29,null,null,null,null,null
+99,Defteros,27,0,,300,300,,null,null,Gemini Aspros(twin brother),null,null
+100,Degel,22,0,,250,643,4,null,null,null,null,null
+101,Deimos,,0,,,,,null,null,Zeus(grandfather) | Poseidon(uncle) | Hades(uncle) | Ares(father) | Aphrodite(mother) | Fobos(twin brother),null,null
+102,Diana,,1,,,,,null,null,Mars (brother) | Bacchus (brother) | Vulcanus (brother) | Romulus(nephew) | Hornet Sonia(niece) | Orion Eden(nephew),null,null
+103,Dio,16,0,Jul-10,484,484,,160 cm,56 kg,null,B,null
+104,Dione,,0,,,,,null,null,null,null,null
+105,Docrates,20,0,May-15,300,,,435 cm,null,Cassios (Younger brother),A,null
+106,Dohko,261,0,20-Oct,156,156,9,1.40 to 1.70 m,null,Shunrei(adopeted daughter) | Shōryū(adoptive grand-son /  manga-only) Dragon Ryūhō(grand-son  /  omega),A,null
+107,Don Avido,,0,22-Jul,380,156,12,190 cm,89 kg,null,O,null
+108,Dorer,,0,,642,,,null,null,null,null,null
+109,Douglas,,0,,,,,null,null,null,null,null
+110,Dragon,,0,,,,,null,null,null,null,null
+111,Drakon,,0,,,,,null,null,null,null,null
+112,Drbal,34,0,,578,578,2,195 cm,94 kg,null,null,null
+113,Dysnomia,,1,,,,,null,null,null,null,null
+114,Earheart,,0,,,,,null,null,null,null,null
+115,Echidna,,1,,,,,null,null,null,null,null
+116,Eden,15,0,,380,380,,null,null,Mars(father) | Medea(mother) | Pisces Amor(uncle) | Hornet Sonia(middle-sister) | Aria(foster-sister),null,null
+117,Edward,,0,,,,,null,null,null,null,TLC: Chapter 31 / Episode 8
+118,Eiri Aizawa,,1,,392,,,160 cm,45 Kg,null,null,Saint Seiya: The Movie
+119,El Cid,26,0,4-Jan,724,,,null,null,null,null,null
+120,Elda,,1,,,756,24,null,null,null,null,null
+121,Eligor,,0,,,,,180cm,72kg,null,null,null
+122,Emma,,1,,,300,20,null,null,null,null,null
+123,Emony,,1,,,,,null,null,null,null,null
+124,Enceladus,,0,,,,,null,null,null,null,null
+125,Ennead,,0,,,,,null,null,null,null,null
+126,Erna,,0,,,,,null,null,null,null,null
+127,Escarlate,,0,,,,,null,null,null,null,null
+128,Europe,,0,,,,,null,null,null,null,null
+129,Eurybia,,1,,,,,null,null,Pontos (father) | Gaia (mother) | Galaxy Kreios (half-brother/husband) | Pallas (son),null,null
+130,Fafner,,0,,,,,null,null,null,null,null
+131,Feiyan,,0,,156,,,null,null,Sparrow Mudan (Sister),null,null
+132,Felser,,0,Aug-14,724,,,191 cm,102 kg,null,O,TLC Gaiden 5: Chapter 40
+133,Fenrir,13,0,,578,578,2,177cm,60kg,null,null,null
+134,Flint,,0,,,,,null,null,null,null,null
+135,Fly,,0,,36,,,null,null,null,null,null
+136,Folken,,0,,578,578,2,null,null,Mime (adoptive Son),null,null
+137,Fróði,,0,,578,578,2,null,null,null,null,null
+138,Francisca,,0,2-May,,,,null,null,null,O,null
+139,Alexei,16,0,Jun-27,643,643,4,1.84 m,80 kg,Natássia | Freya (Sister) | Polaris Hilda (younger sister),AB,null
+140,Natassia (Freya),14,1,28-Mar,643,643,4,162 cm,57 kg,Frey | Alexei (Brother),B,null
+141,Fudou,,0,,524,,,null,null,null,null,null
+142,Fukuryu,15,0,Aug-10,616,554,8,173cm,62kg,Black Dragon(twin brother),A,null
+143,Fyodor,,0,,,,,null,null,null,null,null
+144,Gaia,Prehistoric,1,,,,,null,null,Uranus (son/husband) | The Titans (children) | The Cyclopses (children) | The Hekatonkhieres (children) | Pontos (son/lover) | Eurybia (daughter) | Zeus (grandson) | Athena (great-grandaughter),null,null
+145,Galarian Steiner,24,0,,300,300,,null,null,null,null,null
+146,Gallia,,1,,,,,null,null,null,null,null
+147,Gangsa,,0,,,,,null,null,null,null,null
+148,Garcia,,0,,643,643,4,null,null,Unity (son) | Seraphina(daughter),null,null
+149,Garnet,200+,1,4-Jul,250,,,"1,74 m",62 kg,null,O,null
+150,Gateguard,,0,14-Apr,,,,186 cm,86 kg,null,A,null
+151,Geist,14,1,Apr-02,380,300,,null,50 kg,Ophiuchus Shaina (sister),AB,null
+152,Geki,15,0,May-15,392,124,23,188 cm,102 kg,null,A,null
+153,Genbu,,0,,156,156,9,null,null,null,null,null
+154,Georg,,0,,,,,null,null,null,null,null
+155,Georges,,0,,,300,20,null,null,null,null,null
+156,Gerald,,0,,,,,null,null,null,null,Saint Seiya Online
+157,Gestalt,,0,,380,,,null,null,null,null,null
+158,Gigant,20,0,Feb-21,807,,,197 cm,108 kg,null,O,null
+159,Gigas,,0,,,,,null,null,null,null,null
+160,Gioca,,1,,380,554,8,null,null,Guilty (descendant),null,null
+161,Gordon,20,0,Dec-19,616,,,188 cm,95 kg,null,B,null
+162,Gray,,0,,,300,20,null,null,null,null,null
+163,Shadow Saint,,0,,392,,,,,,,
+164,Gregor,,0,,,,,null,null,null,null,null
+165,Greip,,0,,,,,null,null,Deadly Scythe Cyllene(twin brother),null,null
+166,Guilty,,0,,,554,8,192cm,91kg,Gioca (ancestor),null,null
+167,Guney,,0,,,300,20,null,null,null,null,null
+168,Hades,,0,Dec-21,,,,184cm,73kg,Kronos (Hades' Father) | Rhea (Hades' Mother) | Zeus (Hades' Brother) | Poseidon (Hades' Brother) | Pandora (Sister) | Athena (Hades' Niece) | Eris (Hades' Niece),null,null
+169,Hagen,14,0,,578,578,2,185cm,77kg,null,null,null
+170,Hakurei,270,0,,156,156,12,null,null,Pope Sage,null,null
+171,Halimede,,0,,,,,null,null,null,null,null
+172,Harbinger,,0,,840,300,,null,null,null,null,null
+173,Haruto,13,0,,392,392,10,null,null,Yoshimi Morigakure Masataka (father) | Wolf Yoshitomi (brother),null,null
+174,Hasgard,28,0,,620,300,,null,null,null,null,null
+175,Hati,,0,,,,,null,null,null,null,null
+176,Hecate,1000+,1,,,,,null,null,null,null,Next Dimension - Vol.2 / Cap. 15
+177,Hecatonchires,,0,,,,,null,null,null,null,Episode G
+178,Hector,,0,,380,380,,null,null,null,null,Episode G
+179,Hema,,0,22-Mar,,,,"1, 78 m",77 kg,Bhuj Kokalo (brother),B,null
+180,Heracles,,0,,380,,,null,null,null,null,null
+181,Hilda,19,1,Nov-18,578,,,170 cm,47 kg,Freya (younger sister) | Frey (older brother),null,null
+182,Hook,,0,,,300,20,null,null,null,null,null
+183,Hoplisma,,0,,,,,null,null,null,null,null
+184,Hui,,0,24-Jan,156,156,27,null,null,null,null,null
+185,Hyoga,14,0,Jan-23,643,643,28,173cm,60kg,Natassia (mother) | Natassia (foster daughter GA),O,null
+186,Hyperion,,0,,,,,null,null,Uranus (father) | Gaia (mother) | Theia(wife/sister) | Dimension Iapetos(brother) | Dark Lightning Koios(brother) | Galaxy Kreios(brother) | Current Okeanos(brother) | Themis(sister) | Mnemosyne(sister) | Phoebe(sister) | Tethys(sister) | Kronos(brother) | Zeus(nephew) | Poseidon(nephew) | Hades(nephew) | Atlas (nephew) | <Prometheus (nephew),null,null
+187,Hyperion,,0,,,,,null,null,null,null,null
+188,Hypnos,,0,Jun-13,,,,192cm,88kg,Thanatos (twin brother) | Phobetor (son) | Oneiros | (son) | Icelus (son) | Phantasos (son) | Morpheus (son),null,null
+189,Hysmie,,1,,,,,null,null,null,null,null
+190,Iapetos,,0,,,,,null,null,Uranus (father) | Gaia (Mother) | Themis (sister/wife) | The Titans (brothers) | The Titanesses (sisters) | Atlas (son) | Prometheus (son) | Epimetheus (son),null,null
+191,Icelus,,0,,,,,null,null,Hypnos(Father) | Thanatos(Uncle) | Phobetor(Brother) | Oneiros(Brother) | Phantasos | Morpheus(Brother),null,null
+192,Ichi,14,0,Feb-10,392,246,14,170 cm,56 kg,null,B,null
+193,Ikki,15,0,Aug-15,392,554,8,175cm,62kg,Andromeda Shun(brother),null,null
+194,Ilias,,0,,380,300,,null,null,Sagittarius Sisyphus (brother) | Leo Regulus (son),null,null
+195,Io,17,0,Mar-02,152,,,180cm,71kg,null,AB,null
+196,Ionia,500,0,,300,,,null,null,null,null,null
+197,Isaak,14,0,Feb-17,246,643,28,174cm,60kg,null,B,null
+198,Isolde,,0,,,,,null,null,null,null,"Chapter 102,  OVA 27 | Saint Seiya Online"
+199,Itia,250+,0,Oct-17,,,,195 cm,93 kg,null,O,(TLC - G 15th century)
+200,Ivan,21,0,30-Aug,643,,,192 cm,109 Kg,null,B,null
+201,Izo,,0,,392,,,null,null,null,null,null
+202,Jabu,13,0,Nov-03,392,12,18,165 cm,65 Kg,null,B,null
+203,Jaga,,0,,,,,183cm,80kg,null,null,null
+204,Jaki,,0,,,,,null,null,null,null,null
+205,Jamian,17,0,Aug-27,826,826,26,166cm,56kg,null,A,null
+206,Jan,,0,,,,,175cm,60kg,null,null,null
+207,Jango,18,0,8-Aug,882,554,8,188cm,101kg,null,B,null
+208,Jao,,0,,,,,178cm,73kg,null,null,null
+209,Jericho,,0,,300,300,,201 cm (approx.),null,null,null,null
+210,Jid,15,0,Dec-28,246,554,8,173 cm,61 kg,null,O,null
+211,Johan,,0,,276,,,null,null,null,null,null
+212,Juan,,0,,,,,null,null,null,null,null
+213,Judo,,0,10-Jan,,554,8,187 cm,85 kg,null,AB,null
+214,Julian Solo,16,0,Mar-21,300,,,177 cm,59 kg,Kronos(Poseidons father) | Rhea(Poseidons mother) | Zeus(Poseidons brother) | Abel(Poseidons nephew) | Aphrodite(Poseidons niece) | Apollo(Poseidons nephew) | Ares(Poseidons nephew) | Artemis(Poseidons niece) | Athena(Poseidons niece) | Eris(Poseidons niece) | Hermes(Poseidons nephew),0,null
+215,June,14,1,Apr-17,231,706,1,160cm,45kg,null,null,null
+216,Junkers,,0,,,,,null,null,null,null,null
+217,Kagaho,18,0,Aug-12,392,,,179 cm,62 kg,Sui (brother),AB,null
+218,Kageboshi,,0,Sep-22,,,,178 cm,76 kg,null,B,TLC: Chapter 11
+219,Kairos,Prehistoric,0,,300,,,null,null,Khronos (elder brother) | Owl Partita (wife /  deceased) | Pegasus Tenma (son),null,null
+220,Kaiser,,0,,380,300,,null,null,null,null,null
+221,Kanon,28,0,30-May,300,300,,188cm,87kg,Gemini Saga(twin brother),AB,null
+222,Natassia,,0,,643,,,,,Hyoga (son),,
+223,Kardia,22,0,,300,,,null,null,null,null,null
+224,Kasa,21,0,19-Aug,620,,,168 cm,49 kg,null,O | B (anime),null
+225,Katya,,1,,,756,24,null,null,null,null,null
+226,Kazuma,,0,,392,484,,null,null,Lionet Sōma(son),null,null
+227,Kenuma,15,0,13-Jul,376,554,8,170 cm,58 Kg,null,B,null
+228,Ker,,1,,,,,null,null,Hypnos(brother) | Thanatos(brother),null,null
+229,Kerry,,0,,,,,null,null,null,null,null
+230,Kiki,8,0,Apr-01,156,156,12,130cm,34kg,null,B,null
+231,Kitalpha,,0,,,,,null,null,null,null,null
+232,Kokalo,,0,15-Jun,,,,"1,96 m",105 kg,Jamadhar Hema (brother),A,null
+233,Komachi,,1,,392,300,20,null,null,null,null,null
+234,Kouga,13,0,,380,300,19,null,null,Saori Kido (Omega)(foster mother),null,null
+235,Krest,500+,0,8-Feb,643,643,4,167 cm,57 kg,null,AB,null
+236,Krishna,19,0,Aug-10,144,,,187cm,80kg,null,B,null
+237,Kydoimos,,0,,,,,null,null,null,null,null
+238,Kyoko,,1,,392,756,24,null,null,Equuleus Shō (sister),null,null
+239,Lacaille,,0,,724,300,,null,null,null,null,null
+240,Ladon,,0,,,,,null,null,null,null,null
+241,Laimi,29,0,Feb-01,418,,,176 cm,51 kg,null,O,null
+242,Lamech,,0,,,,,null,null,null,null,null
+243,Lancelot,,0,,,,,null,null,null,null,null
+244,Pefko,,0,9-Mar,300,300,32,"1, 46 m",42 kg,Dryad Luco (adoptive father),O,
+245,Larry,,0,,,,,null,null,null,null,Saint Seiya Online
+246,Lascoumoune,,1,,,,,null,null,null,null,null
+247,Leda,,0,,,706,1,null,null,null,null,null
+248,Old Master,1000+,0,,156,156,,,,,,
+249,Lei-Hu,,0,,156,156,9,null,null,null,null,null
+250,Lemargos,,0,18-Jul,380,554,8,185 cm,88 kg,null,A,null
+251,Leybold,,0,Aug-11,,,,183 cm,70 kg,null,AB,LCG: Chapter 72
+252,Liu-Xing,,0,,156,,,null,null,null,null,null
+253,Loge,,0,,,,,null,null,null,null,null
+254,Loki,24,0,,578,578,2,191cm,88kg,null,null,null
+255,,,,,,,,,,,,
+256,Luciano,,0,,,300,20,null,null,null,null,null
+257,Lucifer,,0,,,,,250cm,120kg,null,null,null
+258,Luco,,0,,,,,null,null,Pisces Lugonis (brother),null,null
+259,Ludwig,,0,,,,,null,null,null,null,null
+260,Lugonis,36,0,,,,,null,null,Dryad Luco(brother),null,null
+261,Lune,20,0,Dec-24,578,,,183cm,70kg,null,A,SS: Chapter 69 | Episode 117 (Chapter Sanctuary OVA 3)
+262,Mania,,1,,,,,null,null,null,null,null
+263,Manigold,25,0,14-Jul,380,300,,187cm,85kg,null,0,null
+264,Marcian Commander,,0,,,,,null,null,null,null,null
+265,Maria,,1,,,,,null,null,Katja (syster),null,null
+266,Marin,16,1,Mar-18,392,300,,167 cm,51 kg,Icarus Toma(brother),A,null
+267,Mariners,,0,,300,,,null,null,null,null,null
+268,Markino,19,0,Apr-25,458,,,155 cm,51 kg,null,AB,null
+269,Maya,,0,,,,,169cm,58kg,null,null,null
+270,Mayura,,1,,,,,null,null,null,null,null
+271,Medea,,1,,380,,,null,null,Mars(husband) | Pisces Amor(younger brother) | Hornet Sonia(step daughter) | Orion Eden(son) | Aria(foster daughter),null,null
+272,Mei,15,0,,392,380,29,null,null,Mitsumasa Kido (father),null,null
+273,Menkar,,0,,,,,null,null,null,null,null
+274,Methone,,0,,,,,null,null,Claw Ymir (twin sister),null,null
+275,Michelangelo,,0,,380,,,null,null,null,null,null
+276,Miguel,,0,,484,,,null,null,null,null,null
+277,Miller,,0,,,,,null,null,null,null,null
+278,Mills,22,0,Jun-26,372,,,186 cm,78 kg,null,B,null
+279,Milo,20,0,Nov-08,300,300,11,185cm,84kg,null,B,null
+280,Mime,15,0,,578,578,2,178cm,68kg,Folken(foster father),null,null
+281,Mine,,1,2-Feb,724,,,"1, 68 m",51 kg,null,A,TLC Gaiden 5: Chapter 39
+282,Minos,23,0,Mar-25,578,,,184cm,72kg,null,A,null
+283,Minos,,0,,300,,,null,null,null,null,null
+284,Mirai,,0,,,392,31,null,null,null,null,null
+285,Mirapolos,,0,,,300,20,null,null,null,null,null
+286,Mirfak,,0,,4,,,null,null,null,null,null
+287,Misty,16,0,Oct-11,250,250,6,180cm,68kg,null,O,null
+288,Mito,,1,,,756,24,null,null,null,null,null
+289,Mitsumasa Kido,,0,,,,,null,null,Saori Kido (adopted daughter) | 100 orphans of Graad Foundation (sons only in the manga) | Coma Berenices Mei (son /  Gigantomachia only),null,null
+290,Miyan,,0,,,,,null,null,null,null,null
+291,Mnemosyne,Prehistoric,1,,,,,null,null,Uranus (father) | Gaia (mother) | Kronos (younger brother and king) | The Titans (brothers) | The Titanesses (sisters) |,null,null
+292,Moa,,0,,,,,175cm,70kg,null,null,null
+293,Moe,,0,,,,,null,null,null,null,Saint Seiya Online
+294,Morpheus,,0,,,,,null,null,Hypnos(Father) | Thanatos(Uncle) | Phobetor(Brother) | Oneiros(Brother) | Icelus(Brother) | Phantasos(Brother),null,null
+295,Mouses,17,0,Aug-02,554,554,8,205 cm,130 kg,null,A,null
+296,Mu,20,0,Mar-27,156,156,12,182 cm,75 kg,null,A,null
+297,Mudan,,1,,156,,,null,null,Hakutaku Feiyan (Brother),null,null
+298,Mycenae,,0,,792,,,null,null,null,null,null
+299,Mystoria,,0,,,,,null,null,null,null,Next Dimension Chapter 71
+300,Myu,19,0,Jan-27,40,,,178 cm,65 kg,null,B,null
+301,Nachi,14,0,Jul-20,392,430,5,171,57,null,AB,null
+302,Nahualpilli,,0,,484,,,null,null,null,null,null
+303,Nicole,,0,,,,,null,null,null,null,null
+304,Niobe,25,0,Aug-03,68,,,181 cm,80 kg,null,AB,null
+305,Noesis,,0,,,,,null,null,null,null,null
+306,,,,,,,,,,,,
+307,,,,,,,,,,,,
+308,,,,,,,,,,,,
+309,Oceanus,,0,,,,,null,null,Uranus (father) | Gaia (mother) | Tethys (younger sister/wife) | The Titans (younger brothers) | The Titanesses (younger sisters) | The Oceanids (daughters),null,null
+310,Ochs,23,0,7-Nov,208,,,187 cm,81 Kg,null,A,null
+311,,,,,,,,,,,,
+312,Odysseus,,0,,,,,null,null,null,null,null
+313,Odysseus,,0,,,,,175cm,null,null,null,null
+314,Ohko,15,0,,,156,9,null,null,null,null,null
+315,Oneiros,,0,,,,,null,null,"Hypnos (""father or brother"") | Phantasos (brother) | Icelus (brother) | Morpheus (brother) | Phobetor (brother)",Ichor,null
+316,Ordykia,,0,,,,,null,null,null,null,null
+317,Orphée,19,0,Nov-15,300,300,,173 cm,60 kg,null,A,null
+318,Orpheus,,0,,,,,172cm,58kg,null,null,null
+319,Orthros,,0,,,,,null,null,null,null,null
+320,Ox,,0,,,,,null,null,null,null,null
+321,Pakia,,0,,,300,,null,null,null,null,null
+322,Pallas,,0,,,,,null,null,null,null,null
+323,Pallas,,1,,,,,N/A,N/A,Athena(half-sister),Ikhor,null
+324,Palmer,,0,,,,,null,null,null,null,null
+325,Pandora,16,1,Sep-03,276,,,166cm,52kg,Hades (brother),A,null
+326,Paracelsus,,0,,,,,null,null,null,null,null
+327,Paradise,,0,,,300,20,null,null,null,null,null
+328,Paradox,,1,,826,300,,null,null,Gemini Integra(twin sister),null,null
+329,Partita,,1,,616,,,null,null,null,null,null
+330,Persephone,,1,,,,,null,null,Zeus (father) | Demeter (mother),Ikhor,null
+331,Phaeton,,0,,,,,null,null,null,null,null
+332,Phantasos,,0,,,,,null,null,"Hypnos (""father or brother"") | Oneiros (brother) | Icelus (brother) | Morpheus (brother) | Phobetor (brother)",Ichor,null
+333,Pharaoh,18,0,18-Nov,818,,,178 cm,69 Kg,null,O,null
+334,Phlegyas,21,0,18-Sep,710,,,189 cm,81 kg,null,A,null
+335,Phobetor,,0,,,,,null,null,Hypnos(father) | Thanatos(uncle) | Oneiros(brother) | Icelus](brother) | Phantasos(brother) | Morpheus(brother),null,null
+336,Phobos,,0,,,,,null,null,Zeus(grandfather) | Poesidon(uncle) | Hades(uncle) | Ares(father) | Aphrodite(mother) | Deimos(twin brother),null,null
+337,Phoebe,Prehistoric,1,,,,,null,null,Gaia (mother) | Uranus (father) | Dark Lightning Koios (brother/husband) | The Titans (brothers) | The Titanesses (sisters) | Leto (daughter) | Artemis (granddaughter) | Apollo (grandson),null,null
+338,Phonos,,0,,,,,null,null,null,null,null
+339,Piotr,,0,,643,,,null,null,Alexei (son) | Natassia (Daughter),null,null
+340,Pavlin,,1,,643,,,null,null,null,null,null
+341,Poena,,1,,,,,null,null,null,null,null
+342,Pontos,,0,,,,,null,null,Gaia (mother/lover) | Uranus (brother) | Eurybia (daughter) | Galaxy Kreios (half-brother/son-in-law) | The Titans (half-brothers) | The Titanesses (half-sisters) | Pallas (grandson),null,null
+343,Prometheus,,0,,,,,null,null,Iapetos (father) | Themis (mother) | Pontos (half-uncle) | Epimetheus (brother) | Atlas (brother),null,null
+344,Ptolemy,16,0,Jun-16,434,818,30,180 cm,73 kg,null,B,null
+345,Pyrokus,,0,,,,,null,null,null,null,null
+346,Pyromaniac,,0,,,,,null,null,null,null,null
+347,Queen,19,0,Apr-15,276,,,171cm,56kg,null,B,null
+348,Ra,,0,,,,,null,null,null,null,Episode G
+349,Radzinsky,,0,,643,,,null,null,null,null,null
+350,Ragno,,0,,,,,null,null,null,null,null
+351,Raki,8,1,,156,156,12,53cm,null,null,null,null
+352,,,,,,,,,,,,
+353,Regulus,15,0,,380,300,,null,null,Leo Ilias(Father) | Sagittarius Sisyphus(Uncle),null,null
+354,Retsu,,0,,392,300,,null,null,null,null,null
+355,Rhadamanthys,23,0,Oct-30,826,,,189 cm,84 kg,null,O | Ichor (TLC),null
+356,Rhea,Prehistoric,1,,,,,null,null,Uranus (father) | Gaia (mother) | Kronos (younger brother/husband) | The Titans (brothers) | The Titanesses (sisters) | Zeus (youngest son) | Poseidon (middle son) | Hades (eldest son) | Prometheus (nephew) | Atlas (nephew) | Athena (granddaughter),null,null
+357,Rhea,,0,,,,,null,null,null,null,null
+358,Rhuax,,0,,,,,null,null,null,null,null
+359,Rigel | Algea,,0,,,,,null,null,null,null,null
+360,Ritahoa,15,0,,,554,8,1.73 m,75 kg,null,null,null
+361,Rock,21,0,Jun-17,450,,,195cm,114kg,null,A,null
+362,Rodorio,,0,,,,,null,null,null,null,null
+363,Roland,,0,,,,,null,null,null,null,null
+364,Romulus,,0,,,,,null,null,Mars (father) | Vulcanus (uncle) | Diana (aunt) | Bacchus(uncle) | Hornet Sonia(middle-sister) | Orion Eden(Half-brother),null,null
+365,Rudolph,,0,,,300,20,null,null,null,null,null
+366,Rung,21,0,,578,578,2,225cm,230kg,null,null,null
+367,Ruse,,0,5-Nov,250,554,8,182 cm,75 kg,null,B,null
+368,Rusk,,0,,,300,,null,null,null,null,null
+369,Ryuho,12,0,,156,156,9,null,null,Dragon Shiryu (Omega) (father) | Shunrei (Omega) (mother),null,null
+370,Saga,28,0,30-May,300,300,,188cm,87kg,Sea Dragon Kanon/Gemini Kanon (Twin Brother),AB,null
+371,Sage,,0,,156,156,12,null,null,Altar Hakurei(Twin Brother),null,null
+372,Salinsa,,1,,,300,,null,null,null,null,null
+373,Salo,,0,,,300,,null,null,null,null,"TLC: Chapter 36, Episode 9"
+374,Saori Kido,13,1,Sep-01,300,,,1.55 m,44 Kg,Mitsumasa Kido (adopted-grandfather) | Zeus (Athena's father) | Poseidon(Athena's uncle) | Hades(Athena's uncle) | Eris(Athena's half-sister) | Apollo(Athena's half-brother) | Artemis(Athena's half-sister) | Ares(Athena's half-brother) | Abel(Athena's half-brother) | Pallas (Omega)(Athena's half-sister),A,null
+375,Sasha,14,1,,380,,,null,null,Alone (TLC) (brother) | Zeus (Athena's father) | Poseidon(Athena's uncle) | Hades(Athena's uncle) | Eris(Athena's half-sister) | Apollo(Athena's half-brother) | Artemis(Athena's half-sister) | Ares(Athena's half-brother) | Abel(Athena's half-brother) | Pallas (Omega)(Athena's half-sister),null,null
+376,,,,,,,,,,,,
+377,Schiller,,0,,144,300,,null,null,null,null,null
+378,Seika,16,1,,392,,,,,Pegasus Seiya (Brother),,
+379,Seiya,13,0,Dec-01,392,300,,165 cm,53 kg,Seika (sister) | Mitsumasa Kido (father),1,1
+380,Seraphina,,1,,643,,,null,null,Sea Dragon Unity (Brother) |  Garcia (Father) | Kronos(Poseidons father) | Rhea(Poseidons mother) | Zeus(Poseidons brother) | Abel(Poseidons nephew) | Aphrodite(Poseidons niece) | Apollo(Poseidons nephew) | Ares(Poseidons nephew) | Artemis(Poseidons niece) | Athena(Poseidons niece) | Eris(Poseidons niece) | Hermes(Poseidons nephew),null,null
+381,Shaka,20,0,19-Sep,356,356,,183cm,73kg,null,AB,null
+382,Sham,,0,,,,,null,null,null,null,null
+383,Shelley,,1,,,,,null,null,null,null,null
+384,Sher-Khan,,0,,,,,null,null,null,null,null
+385,Shijima,,0,,392,356,,null,null,null,null,null
+386,Shina,16,1,Mar-24,380,300,,166 cm,49 kg,Geist (sister),B,null
+387,Shinadekuro,15,0,Aug-10,616,554,8,173cm,62kg,Black Dragon Fukuryu (twin brother /  manga-only),A,null
+388,Shinato,,1,,,392,31,null,null,null,null,null
+389,Shion,18,0,30-Mar,,,,185cm,77kg,null,null,null
+390,Shiryu,14,0,Oct-04,392,156,9,177cm,57kg,null,A,null
+391,Shiva,16,0,Sep-09,356,356,,null,78 Kg,null,A,null
+392,Sho,,0,,392,,,null,null,null,null,null
+393,Sho,,0,,,,,null,null,null,null,null
+394,Shoko,,1,,392,756,24,null,null,Equuleus Kyōko(sister) | Father | Olivia (mother / deceased),null,null
+395,Shun,13,0,Sep-09,392,706,1,165cm,51kg,Phoenix Ikki,null,null
+396,Shura,26,0,12-Jan,724,724,22,186cm,83kg,null,B,null
+397,Siegfried,19,0,,578,578,2,195cm,85kg,Grani Sigmund (older brother),null,null
+398,Sigmund,,0,,578,578,2,null,null,Odin (ancestor) | Sigmund (ancestor) | Siegfried (ancestor) | Dubhe Alpha Siegfried (younger brother),null,null
+399,Sigurd,,0,,,,,null,null,"Odin (Av�), Sigmund (Pai)",null,null
+400,Sillas,,0,,,,,null,null,null,null,null
+401,Sirius,17,0,Jan-06,276,300,,185 cm,86 kg,null,0,null
+402,Sisyphus,29,0,,380,300,,null,null,Leo Ilias(Brother) | Leo Regulus(Nephew),null,null
+403,Sonia,,1,,380,380,,null,null,Ludwig/Mars ( Father ) | Misha (Mother) | Medea ( Stepmother ) | Orion Eden ( Half Brother ),null,null
+404,Sorento,16,0,10-Sep,40,,,178cm,75kg,null,A,null
+405,Soul Reaper,,0,,,,,null,null,null,null,null
+406,Souma,14,0,,484,484,,null,null,Southern Cross Kazuma(father),null,null
+407,Spartan,,0,,,300,,null,null,null,null,null
+408,Spathe,,0,,,,,null,null,null,null,null
+409,Spear,,0,,,300,20,null,null,null,null,null
+410,Spika,,0,,,706,1,null,null,null,null,null
+411,Stand,22,0,Apr-18,36,,,258cm,240kg,null,B,null
+412,Steven,,0,,,,,null,null,null,null,Saint Seiya Online
+413,Subaru,12,0,,392,,,null,null,null,null,null
+414,Suikyo,,0,,392,300,,null,null,Suishō(brother),null,null
+415,Surt,,0,,,,,null,null,null,null,null
+416,Surt,,0,,578,,,null,null,Sinmore (younger sister),null,null
+417,Syd,18,0,,578,578,2,185cm,72kg,Alcor Zeta Bud(twin brother),null,null
+418,Sylphid,19,0,20-Jul,56,,,181cm,78kg,null,0,null
+419,Tail,,0,,,,,null,null,null,null,null
+420,Tartarus,Prehistoric,0,,,,,null,null,Caos (father) | Uranus (brother) | Hekatonkhires (nephew) | The Cyclopses (nephew) | The Titans (nephews) | Gaia (sister) | Typhon (son) | Gigas (descendents) | Pontos (brother) | Eurybia (niece) | Erebus (brother) | Eros (brother),Ikhor,Hipermito (Mencionado) | EpG: Volume # 17 -  Chapter 72
+421,Tarvos,,0,,,,,null,null,null,null,null
+422,Tatsumi Tokumaru,32,0,,,,,185cm,97kg,null,null,null
+423,Teneo,,0,6-May,380,300,,162cm-190cm,55kg-89kg,null,A,null
+424,Tenma,13,0,Dec-05,616,300,,168cm,56kg,Mephistopheles Yōma (Father) | Owl Partita (Mother),B,null
+425,Terrorist of the Three Mile Island,,0,,300,300,,null,null,null,null,Episode G: Chapter 2
+426,Tethys,,1,,,,,null,null,Uranus (father) | Gaia (mother) | Current Okeanos (husband/brother) | The Titans (brothers) | The Titanesses (sisters) | The Oceanids (daughters),null,null
+427,Thanatos,,0,Jun-13,,,,192cm,88kg,Hypnos(twin brother) | Phobetor(nephew) | Oneiros(nephew) | Icelus(nephew) | Phantasos(nephew) | Morpheus(nephew),null,null
+428,Thebe,,0,,,,,null,null,null,null,null
+429,Theia,Prehistoric,1,,,,,null,null,Gaia (mother) | Uranus (father) | Hyperion (brother/husband) | The Titans (brothers) | The Titanesses (sisters) | Helios (son) | Selene (daughter) | Eos (daughter) | Zeus (nephew),null,null
+430,Themis,,1,,,,,null,null,Uranus (father) | Gaia (mother) | Iapetos (brother/husband) | The Titans (brothers) | The Titanesses (sisters) | Prometheus (son) | Atlas (son) | Epimetheus (son),null,null
+431,Theseus,,0,,,,,null,null,Odysseus (possibly),null,Heaven Chapter: Overture
+432,Thetis,15,1,Nov-21,208,,,165 cm,52 kg,null,O,null
+433,Thor,19,0,,578,578,2,265cm,100kg,null,null,null
+434,Titan,,0,,,,,null,null,null,null,null
+435,Toas,,0,,,,,null,null,null,null,null
+436,Toki,,0,,392,,,null,null,Mitsumasa Kido (father),null,null
+437,Tokisada,,0,,392,300,,null,null,null,null,null
+438,Tokusa,16,0,,,156,12,null,null,Crane Yuzuriha (sister),null,TLC: Chapter 57 | Episode 15
+439,Toma,17,0,Dec-01,392,,17,168cm,53kg,Eagle Marin(sister),B,null
+440,Tomoe,,1,,392,,,153 cm,42 kg,Yoshino Hino (twin syster),null,Saint Seiya: Episode G - Assassin - Chapter 33
+441,Tourmasline,,0,,,,,null,null,null,null,null
+442,Trivikramasena,,0,,,,,210 cm,130 kg,Vidyadhara Clan,null,null
+443,Tsubaki,,0,,392,300,,null,null,null,null,null
+444,Typhon,,0,,,,,null,null,Gaia (Mother) | Echidna (Wife/Niece) | Cerberus (Son) | Ladon (Son) | Hydra (Daughter) | Chimera (Daughter),null,null
+445,Ullr,15,0,,578,578,2,170cm,65kg,null,null,null
+446,Unity,,0,,643,643,4,null,null,Garcia(father) | Seraphina(sister),null,null
+447,Uranus,Prehistoric,0,,,,,null,null,Gaia (mother/wife) | Pontos (brother) | The Titans (children) | The Cyclopses (children) | The Hekatonkheires (children) | Eurybia (niece/daughter-in-law) | Zeus (grandson) | Athena (great-grandaughter),null,null
+448,Ushio,,0,,392,,,null,null,null,null,null
+449,Valentine,20,0,14-Feb,196,,,182 cm,71 kg,null,AB,null
+450,Valkyrie,,1,,578,578,2,null,null,null,null,null
+451,Vermeer,,0,,,,,null,null,null,null,null
+452,Veronica,,0,,,,,null,null,null,null,null
+453,Violate,,1,,,,,null,null,null,null,null
+454,Viviane,,1,,,,,null,null,Dyonas,null,null
+455,Vulcanus,,0,,,,,null,null,Mars (brother) | Bacchus (brother) | Diana (sister) | Romulus(nephew) | Hornet Sonia(niece) | Orion Eden(nephew),null,null
+456,Wadatsumi,,0,,,,,null,null,null,null,null
+457,Wesda,,0,Nov-22,484,,,208 cm,119 kg,null,O,The Lost Canvas Gaiden 2: Kardia
+458,Wimber,,0,,,,,null,null,null,null,null
+459,Xiaoling,,1,,156,756,24,null,null,null,null,null
+460,Yato,15,0,,410,300,,null,null,Mi-jong(sister),null,null
+461,,,,,,,,,,,,
+462,Ymir,,1,,,,,null,null,Claw Methone(twin brother),null,null
+463,Yoma,32,0,Dec-31,392,,,null,null,Owl Partita (wife) | Pegasus Tenma (son),null,null
+464,Yoshimi Morigakure Masataka,,0,,392,392,10,null,null,Wolf Haruto (Son),null,null
+465,Yoshino Hino,,1,,392,,,null,null,Tomoe (twin syster) | Aldebaran (adoptive father) | Shina (adoptive mother),null,Saint Seiya: Episode G - Assassin - Chapter 1
+466,Yoshitomi,,0,,392,392,10,null,null,Zenzō(master) | Wolf Haruto(considered a brother),null,null
+467,Yufa,,1,,,,,null,null,null,null,null
+468,Yulij,,1,,,300,,null,null,null,null,null
+469,Yuna,13,1,,643,300,,null,null,null,null,null
+470,Yuzuriha,17,1,,156,156,12,null,null,Hanuman Tokusa(brother),null,null
+471,Zaphiri,,0,Nov-09,,,,188 cm,87 kg,null,A,null
+472,Zelos,34,0,Mar-13,116,,,149cm,55kg,null,A,null
+473,Zugylos,,0,,,,,null,null,null,null,null
+474,Lithos Chrysalis,,1,,300,,,,,Gigas (father),,
+475,Gigas,,0,,300,,,,,Lithos (daughter),,
+476,Daidalos,19,0,Apr-30,32,706,1,187cm,89kg,null,A,
+477,Albior,19,0,Apr-30,32,706,1,187 cm,89 Kg,null,A,
+478,Kafka,,0,,,,,,,,,"CL: Cap�tulo 73, OVA 7"

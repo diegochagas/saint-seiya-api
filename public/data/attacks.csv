@@ -1,661 +1,629 @@
-id,name
-1,Abysmal Lake
-2,Activate Sword Curse
-3,Air barrier
-4,Akubensu
-5,Amata no Tsurugi
-6,Amethyst Sealed
-7,Andromeda Nebula
-8,Angel Splash
-9,Annihilation Flap
-10,Another Dimension
-11,Ansuz
-12,Antares
-13,Antares Maelstrom
-14,Anthrax
-15,Apoptosis
-16,Aquila Shining Buster
-17,Aquila Spinning Predation
-18,Arc Plasma (GA)
-19,Arkhein Curse
-20,Arondight Property Open
-21,Arrested Judgement
-22,Arrogance Shield
-23,Arrow of the Goddess
-24,Arrow Sagittarius
-25,Aster Blade
-26,Aster Choreía
-27,Aster Kyklos
-28,Aster Shield
-29,Astral Gravitation
-30,Astromancy
-31,Athena Exclamation
-32,Atomic Thunderbolt
-33,Auge Hydor
-34,Aurora Borealis
-35,Aurora Execution
-36,Aurora Thunder Attack
-37,Avenger Shot
-38,Balance of Curse
-39,Bangōsenseki
-40,Banner of Power
-41,Beast Fall
-42,Big Fart
-43,Big Knuckle
-44,Big Tornado
-45,Big Wall
-46,Bio Rewind
-47,Black Blizzard
-48,Black Crow Wind
-49,Black Feather Defense
-50,Black Meteor Fist
-51,Black Rising Dragon Lord
-52,Black Thunder Acceleration
-53,Black Wing Shift
-54,Blast Bee Stinger
-55,Blast Scythe
-56,Blazing Claw Whip
-57,Blood Flower Scissors
-58,Blood Spray
-59,Bloody Bullet
-60,Bloody Canon
-61,Bloody Dagger
-62,Bloody Hurricane
-63,Bloody Rain
-64,Bloody Rose
-65,Bloody Squall
-66,Bloody Waltz
-67,Blue Impulse
-68,Bodai Shōgo
-69,Bofu no Baku
-70,Bofu no Yaiba
-71,Bone Crush Screw
-72,Boomerang Shot
-73,Brabeus Blade
-74,Brabeus Talanton
-75,Brutal Phantom
-76,Brutal Real
-77,Bunshin no Jutsu
-78,Burial Fort
-79,Burning Corona
-80,Bushinkorinken
-81,Cancer All Beauty Ken
-82,Casting Net
-83,Cheiron's Light Impulse
-84,Chrono Catastrophe
-85,Chrono Conclusion Eternal
-86,Chrono Delayed
-87,Chrono Destruction
-88,Chrono Divide
-89,Chrono Dominion
-90,Chrono Execution
-91,Chrono Immortal
-92,Circle Defense
-93,Colossus Live
-94,Corona Blast
-95,Cosmic Marionation
-96,Cosmic Marionation Change
-97,Cosmo Conduction
-98,Cosmo Reflect
-99,Cragg Press
-100,Crazy Destruction
-101,Cremation Storm
-102,Cremito Rupis
-103,Crimson Billow
-104,Crimson Cross
-105,Crimson Needle
-106,Crimson Thorn
-107,Crimson Viper
-108,Crossroad Mirage
-109,Crucify Ankh
-110,Crystal Net
-111,Crystal Wall
-112,Current Impact
-113,Curse of Lily
-114,Curse Sword Activate
-115,Dagger Rose
-116,Danzetsu Fuuin
-117,Dark Mist
-118,Dark Phoenix diabolical illusion
-119,Dark Sun
-120,Dark Thunder Planet
-121,Darkness Roar
-122,Dazzling Voltage
-123,Dead End Climax
-124,Dead End Fly
-125,Dead End Symphony
-126,Dead Howling
-127,Dead Perfume
-128,Deadly Flies
-129,Death Claw
-130,Death Messenger
-131,Death Queen Inferno
-132,Death Trip Serenade
-133,Death's Way
-134,Deathtrap Coral
-135,Deep Fragrance
-136,Deep Impact
-137,Delphinus Bomb
-138,Demon Fantasia
-139,Demon's Hammer
-140,Despaired Bite
-141,Destructive Slash
-142,Devil Blizzard
-143,Devil Execution
-144,Devil Twin Tempest
-145,Diamond Dust
-146,Diamond Dust Ray
-147,Divine Tornado
-148,Dokuso Kakusan
-149,Dokuso Kakusan
-150,Domination Language
-151,Doton no Jutsu
-152,Doton no Jutsu Genkugutsu
-153,Doton Sajin no Mae
-154,Doton Souga Horouchi
-155,Doton! Dorui Tenjo
-156,Double Excalibur (G)
-157,Dragon Blade
-158,Dragon Breath Blizard
-159,Dragonewt Bullet
-160,Drawn Sword
-161,Dunamis Megas Depranon
-162,Dunamis Odous
-163,Dunamis Pelekus
-164,Dunamis Pneuma
-165,Dunamis Pteryx
-166,Dunamis Whirlwind
-167,Eagle Claw Flash
-168,Eagle Clutch
-169,Eagle Storm
-170,Earthquake Mixer
-171,Ebony Gale
-172,Ebony Illumination
-173,Ebony Plasma
-174,Ebony Rapier
-175,Ebony Vortex
-176,Eddying Current Crasher
-177,Eight Direction Claw
-178,Eigouring
-179,Element Rejection
-180,Encounter another Field(TLC only)
-181,Enken Tenrin
-182,Equuleus Meteor Fist
-183,Eternal Drowsiness
-184,Ex. Caliburn (G)
-185,Excalibur
-186,Excalibur (Violent Dance)
-187,Eye of Charge
-188,Fairy Thronging
-189,Famine Breath
-190,Fearless War Car
-191,Fierce Tiger Gale Purple Thunder Punch
-192,Final Destination
-193,Finally justice
-194,Fire Lizard
-195,Fire Wall
-196,Fire Whip
-197,Flail Shooter
-198,Flame Deer Maelstrom
-199,Flame Desperado
-200,Flashing Lancer
-201,Flashover (GA)
-202,Fluent force
-203,Fly Slider
-204,Folgore Renaissance
-205,Force Soar
-206,Fortunate Wall
-207,Fotia Roufihtra
-208,Freezing Coffin
-209,Freezing Shield
-210,Fujiryu Hidden Chijin Ittai
-211,Fujiryu Ninpo Bunshin no Jutsu
-212,Fujiryu Ninpo Watagashi
-213,Fujiryu Ninpo! Doton Housenka
-214,Fujiryu Ninpo! Houkou Tenrou Kuzushi
-215,Fujiryu Ninpo! Kinkou Gin
-216,Fujiryu Ninpo! Nozuchi Kuzuchi
-217,Funnu no Ame
-218,Futon Kamaitachi no Jutsu
-219,Gaé Bolg
-220,Gaé Bolg Kage no Yari
-221,Galactic Illusion
-222,Galactica Death Bring (TLC-only)
-223,Galaxian Explosion
-224,Galaxian Ultimation
-225,Garuda Flap
-226,Garuda Hell Wings
-227,Ge Python
-228,Geistig Blitz
-229,Genjutsu
-230,Genrō Maō Ken
-231,Ghost Arrows
-232,Ghost Fists
-233,Giant Hold
-234,Gigan Loud
-235,Gigant Impact
-236,Gigantic Asteroid
-237,Gigantic Feathers
-238,Gigantic Meteor
-239,Gigantic Planetoid
-240,God Breath
-241,Golden Death Hair
-242,Golden Triangle
-243,Gōma In
-244,Grand Axe Crusher
-245,Grand Koltso
-246,Gravity Concerto
-247,Great Ardent Pressure
-248,Great Capture
-249,Great Horn
-250,Great Mountain Smasher (OVA)
-251,Greatest Caution
-252,Greatest Eclipse
-253,Greatest Eruption
-254,Greatest Horn
-255,Greatest the Perestroika
-256,Greed the Live
-257,Greeding Roar
-258,Grim Phantasia
-259,Grizzly Slap
-260,Ground Fang
-261,Ground Fang Grand Finale
-262,Ground Needle
-263,Ground Wave
-264,Guardian's Oracle
-265,Gucang Huoyan
-266,Gurthang Vortex
-267,Hakurōken Tenshin Musō
-268,Hakurouken Touga Shinsou
-269,Hallucination Rue
-270,Hanging Bear
-271,Hatred Blue Flame
-272,Hauling Argo
-273,Heaven's Maelstrom
-274,Hecaton Menis
-275,Hecaton Molybdaina
-276,Hekaton kheir Kalein
-277,Hekaton Menis
-278,Hekaton Molybdaina
-279,Helios Prominence
-280,Helios Vortex
-281,Hell's Proceed
-282,Heracles Mōshū Ken
-283,Hex Aster Xiphos
-284,Hide and Seek
-285,Highest Altitude
-286,Higi Kenyoku Tenbusho
-287,Hilia Mastia
-288,Hisen Hajakuchōbuku
-289,Hisō Byaku Renge
-290,Hisō Byaku Senran
-291,Hiten Daisenkō
-292,Hō Yoku Tenshō (Fiery Phoenix)
-293,Hobaku no Mizūmi
-294,Hōkō
-295,Holy Pillar
-296,Holy Spout
-297,Holy Sword Embodiment
-298,Holy Sword Tower
-299,Honoo no Ken
-300,Hōō Genma Ken (Phantom Demon)
-301,Hornet Stinger
-302,Houkou Tenrou Kuzushi
-303,Hound Hollow
-304,Howl
-305,Howling Argo
-306,Howling Inferno
-307,Hungry Wolf Phantom Raid Punch
-308,Hunting Arrow Express
-309,Hyperion Meteor
-310,Hypnosis
-311,Ichor Loud
-312,Ichor Nova
-313,Ignis Fatuus
-314,Ignis Fatuus Granata
-315,Ignis Fatuus Saltare
-316,Īki Pieria
-317,Impulse Mace
-318,Infernal Apple
-319,Infernal thread
-320,Infinity Break (G)
-321,Innocent Glumness
-322,Iron Meteor
-323,Iron Meteor Bazooka
-324,Iron Meteor Striker
-325,Jigoku no Kōkyūsa
-326,Jikan Gyakkō
-327,Jikan Ken
-328,Jūbakuraizanba
-329,Jumping Smash
-330,Jumping Stone
-331,Juumonji Gansei Kuzushi
-332,Kaen no Mae Midareuchi
-333,Kage Gōpuku
-334,Kagenui
-335,Kaitoz Spouting Bomber
-336,Kān
-337,Kān
-338,Kān
-339,Katon No Jutsu
-340,Kawarimi no Jutsu
-341,Kenbu Shōsen Kyaku
-342,Keraunos
-343,Kerberos Claw
-344,Kerberos Divide
-345,Kerberos Hell Flare
-346,Kerberos Inferno
-347,Khaos Blade
-348,Khaos Hyetos
-349,Khaos Kyklos
-350,Khaos Prosbole
-351,Kholodnyi Smerch
-352,Kholodnyi Smerch (manga-only)
-353,Khora Temnein
-354,Killer Fanged Cobra
-355,King's Emblem
-356,King's Roar
-357,Kinton no Jutsu
-358,Kiss in the Darkness
-359,Koltso
-360,Kornephoros
-361,Kuchiyose no Jutsu
-362,Kuu Ken
-363,Kyōka Suigetsu
-364,Kyokuten Shichisei Ken
-365,Kyou Doku Baiei
-366,Lady of the Lake
-367,Lamentation Rain
-368,Landslide
-369,Law of Awakening
-370,Lemniscate Of Flames
-371,Light Arm Crush
-372,Light Arrows
-373,Light Genesis
-374,Light Hammer Crush
-375,Lighting Fang
-376,Lighting Plasma
-377,Lightning Bolt
-378,Lightning Crown
-379,Lightning Flame
-380,Lightning Implosion
-381,Lightning Magic
-382,Lightning Plasma
-383,Lightning Spark
-384,Lightning Telios (GA)
-385,Lionet Bomber
-386,Lionet Burning Fire
-387,Lionet Explosion
-388,Lionet Flare Storm Bomber
-389,Little Belch
-390,Lost Canvas
-391,Lunatic Bind
-392,Lynx Arrow
-393,Madness Claw
-394,Maha Roshini
-395,Marvelous Real
-396,Marvelous Room
-397,Maten Muhōrin
-398,Mavros Eruption Clast
-399,Mavros Eruption Crust
-400,Mavrou Trippa
-401,Medusa Shield
-402,Medusa's gaze
-403,Megaton Meteor Crash
-404,Meido Chōraku
-405,Meido Indō
-406,Meikyō Shisui
-407,Melas Helix
-408,Melas Kyma
-409,Melas Planetes
-410,Mellow Poison
-411,Melted Rock-forming
-412,Million Ghosts Attack
-413,Million Hatred
-414,Mirror of Darkness
-415,Misopesamenos
-416,Morufiumu Kōma
-417,Murderous Brood
-418,Murus Ignis
-419,Myōō Rairin
-420,Mystic Sword Zanouki
-421,Natural Terror
-422,Nature Unity
-423,Nebula Barrier
-424,Nebula Chain
-425,Nebula Mystery
-426,Nebula Storm
-427,Nebula Stream
-428,Needle Dance
-429,Net Injury
-430,Nightfall
-431,Nightmare Scheme
-432,Nightmare Sonar
-433,Noble Venom (The Lost Canvas)
-434,North Winds
-435,Northern Gunrōken
-436,Noumaku Sanmanda Bazaradan Kan
-437,Nudy Darkness
-438,Odin Shield
-439,Odin Sword
-440,Odin Tempest
-441,Ōm
-442,Onyx Bomber
-443,Onyx Meteor Fist
-444,Onyx Shield
-445,Orichalcum Blade
-446,Orion's Devastation
-447,Orion's Extermination
-448,Ouroboros Prominence
-449,Paard Brew
-450,Paard Orkan
-451,Paralyze Silk
-452,Parasite Bee
-453,Peach Attack
-454,Peach Bomber
-455,Peacock Blizzard
-456,Pegasus Comet Fist
-457,Pegasus Meteor Fist
-458,Pegasus Rolling Crash
-459,Pegasus Flash Fist
-460,Perfect Pawn
-461,Perfect Square
-462,Perky Party
-463,Petra Vrochi
-464,Phainomenon Arkhein
-465,Phantom Arrow
-466,Phantom Claw
-467,Phantom Genwaku Ken
-468,Phantom Skull
-469,Photon Burst
-470,Photon Drive
-471,Photon Invoke
-472,Piranhan Rose
-473,Pleiades Impact
-474,Pleiades Nova
-475,Pleiades Tempest
-476,Pohuai Xiaozhuan
-477,Poison Sword Drawn Sword
-478,Poliorkia
-479,Pragma Spathe
-480,Predatory Lava
-481,Prominence Blade
-482,Psionic Hand
-483,Psionic Phantom Claw
-484,Puppet Claw
-485,Queen Bee's Stinger
-486,Ra's Al Ghûl Gorgonio
-487,Rawl Blood
-488,Regulus Blast
-489,Reincarnation
-490,Renge Bakusai Ken
-491,Ressō Shippū
-492,Restriction
-493,Reverse of universe
-494,Rewind Bio
-495,Riku Dō Rin Ne
-496,Rikudō Rinne
-497,Rinne Kesshō
-498,Rising Billows
-499,Rising Darkness
-500,Rock the Bay
-501,Rolling Defense
-502,Rolling Oar
-503,Rolling Stone Bomber
-504,Rolling Stones
-505,Rougaken Rakusetsu Zenbucchii
-506,Royal Demon Rose
-507,Rozan Dragon Soar
-508,Rozan Hyaku Ryu Ha
-509,Rozan Kou Ryuu Ha
-510,Rozan Rising Dragon Lord
-511,Rozan Shinbu Ken
-512,Rozan Shō Ten Ha
-513,Rubellu Sidus Gungnir
-514,Rubellu Sidus Meteor
-515,Rubellu Sidus Storm
-516,Ruota Falce
-517,Ruota Tornado
-518,Ryusei Ken
-519,Salamander Shock
-520,Sand Virus
-521,Sapphire Energy (Safiros Enedora)
-522,Satellite Crusher
-523,Satori
-524,Saucer Kōgeki
-525,Scarlet Janus
-526,Scarlet Needle
-527,Scarlet Needle Katakeo
-528,Scarlet Needle Katakeo Antares
-529,Scarlet Waters
-530,Sea Invocation
-531,Seiken Houkai
-532,Seima Tôro-Ken
-533,Seiryuu Teppou Mizu
-534,Seki Shiki Kisōen
-535,Seki Shiki Konsō Ha
-536,Seki Shiki Meikai Ha
-537,Seki Shiki Meikai Rinbu
-538,Seki Shiki Nyoi Reirin
-539,Seki Shiki Tenryō Ha
-540,Sekishiki Kisōen
-541,Sekishiki Konsō-ha
-542,Senju Kami Onken
-543,Serpent Strangler
-544,Shabadabadaba's
-545,Shadow Horn
-546,Shadow Viking Tiger Claw
-547,Shield of Medusa
-548,Shining Hell Claw
-549,Shock of Destruction
-550,Shogyō Danzai
-551,Shōji Sokunehan
-552,Shūgeki Gunrō Ken
-553,Silent Water
-554,Silky Thread
-555,Silver necklace
-556,Slash Reaper
-557,Snake Plasma
-558,Snake Plasma Full Power
-559,Solar Sword Shoot
-560,Soshinken
-561,Southern Cross Thunder Bolt
-562,Sparkle Rapier
-563,Spider Net
-564,Spiral Duct
-565,Spirit Absorption
-566,Stand by Me
-567,Stardust Revolution
-568,Starlight Extinction
-569,Steel Bolt Cannon
-570,Steel Hurricane
-571,Stigma
-572,Stinger Fine
-573,Stone Spark
-574,Storm Cutter
-575,Storm Tornado
-576,Strangle Shrill
-577,Stream Edge
-578,String Requiem
-579,Stringer Nocturne
-580,Stringer Requiem
-581,Suihakkei
-582,Suiryū Enbu
-583,Suitton Zettai Reigo
-584,Supernova Explosion
-585,Supernova Explosion Maximum
-586,Surendra-jit (TLC-only)
-587,Sweet Chocolate
-588,Swordfish Cutter
-589,Tarantula Net
-590,Tartaros Phobia (SS Lost Canvas only)
-591,Tatsumi-ryū Tokumaru Tsuki
-592,Teleos Oracle
-593,Tenbu Hōrin
-594,Tenchihōmetsuzan
-595,Tenkūhaja Chimimōryō
-596,Tenkūhaja Chimimōryō
-597,Tenma Kōfuku
-598,Tenpōrin'in
-599,Terrible Providence
-600,Terrible Slash
-601,Thalassa Deluge
-602,The Buddha's Four Doors
-603,Thousand Arms Strike
-604,Three-Phase Force
-605,Thunder Claw
-606,Thunder Star Rotation
-607,Thunder Veil
-608,Thunder Wave
-609,Titan's Break
-610,Titan's Fury
-611,Titan's Nova
-612,Titanic Hercules
-613,Tō Kekken
-614,Tomb Squeeze
-615,Tonitrui Fera Caelos
-616,Tonitrui Saltare
-617,Towa no Tornade
-618,Triple Disaster
-619,Tritos Spharagisma
-620,Turn Back The Darkness
-621,Turn Back This Darkness
-622,Twilight Marionette
-623,Twin Madness Claw
-624,Typhoon Bullet
-625,Ugly Eruption
-626,Ultimate Rejection
-627,Ungyō
-628,Unicorn Gallop
-629,Universe Freezing
-630,Valse des Flammes
-631,Vampire Inhale
-632,Vanishing Snow
-633,Vengeful spirit
-634,Viking Tiger Claw
-635,White Night
-636,Wild Trap
-637,Wildschwein
-638,Wildschwein Strahl
-639,Will Baritsu
-640,Wind Jammer
-641,Wind Trigger
-642,Wolf Cruelty Claw
-643,Wolf Fang Striker
-644,Wolf Gang Bike Blow
-645,Wolf's Claw
-646,Wolf's Fang
-647,Wolf's Rock Dead Howling
-648,World's End
-649,Worm's Bind
-650,Wound Resurgence
-651,Wraith
-652,Wyvern's Roar
-653,Yaiba no Gouu
-654,Yoken Zan-ou'ki
-655,Yr
-656,Yūko Sen'nin Enbu
-657,Zangeki
-658,Zangeki battō
-659,Zodiac Clamation
-660,Zone of Silence
+id,name,debut
+1,Īki Pieria,
+2,Abysmal Lake,
+3,Activate Sword Curse,
+4,Akubensu,
+5,Amata no Tsurugi,
+6,Amethyst Sealed,
+7,Andromeda Nebula,
+8,Angel Splash,
+9,Annihilation Flap,
+10,Another Dimension,
+11,Ansuz,
+12,Antares,
+13,Antares Maelstrom,
+14,Anthrax,
+15,Ōm,
+16,Apoptosis,
+17,Aquila Shining Buster,
+18,Aquila Spinning Predation,
+19,Arc Plasma,
+20,Arkhein Curse,
+21,Arondight Property Open,
+22,Arrested Judgement,
+23,Arrow of the Goddess,
+24,Arrow Sagittarius,
+25,Aster Blade,
+26,Aster Choreía,
+27,Aster Kyklos,
+28,Aster Shield,
+29,Astral Gravitation,
+30,Athena Exclamation,
+31,Atomic Thunderbolt,
+32,Auge Hydor,
+33,Aurora Borealis,
+34,Aurora Execution,
+35,Aurora Thunder Attack,
+36,Avenger Shot,
+37,Balance of Curse,
+38,Bangōsenseki,
+39,Beast Fall,
+40,Big Fart,
+41,Big Knuckle,
+42,Big Tornado,
+43,Big Wall,
+44,Bio Rewind,
+45,Black Blizzard,
+46,Black Feather Defense,
+47,Black Ryu Sei Ken,
+48,Black Shō Ryū Ha (Saint Seiya Senki only),
+49,Black Thunder Acceleration,
+50,Black Wing Shift,
+51,Blast Bee Stinger,
+52,Blast Scythe,
+53,Blazing Claw Whip,
+54,Blood Flower Scissors,
+55,Blood Spray,
+56,Bloody Bullet,
+57,Bloody Canon,
+58,Bloody Dagger,
+59,Bloody Hurricane,
+60,Bloody Rain,
+61,Bloody Rose,
+62,Bloody Squall,
+63,Bloody Waltz,
+64,Blue Impulse,
+65,Bodai Shōgo,
+66,Bofu no Baku,
+67,Bofu no Yaiba,
+68,Bone Crush Screw,
+69,Boomerang Shot,
+70,Brabeus Blade,
+71,Brabeus Talanton,
+72,Brutal Phantom,
+73,Brutal Real,
+74,Bunshin no Jutsu,
+75,Burial Fort,
+76,Burning Corona,
+77,Bushinkorinken,
+78,Cancer All Beauty Ken,
+79,Casting Net,
+80,Cheiron's Light Impulse,
+81,Chrono Catastrophe,
+82,Chrono Conclusion Eternal,
+83,Chrono Delayed,
+84,Chrono Destruction,
+85,Chrono Divide,
+86,Chrono Dominion,
+87,Chrono Execution,
+88,Chrono Immortal,
+89,Circle Defense,
+90,Colossus Live,
+91,Corona Blast,
+92,Cosmic Marionation,
+93,Cosmic Marionation Change,
+94,Cosmo Conduction,
+95,Cosmo Reflect,
+96,Cragg Press,
+97,Crazy Destruction,
+98,Cremation Storm,
+99,Cremito Rupis,
+100,Crimson Billow,
+101,Crimson Cross,
+102,Crimson Needle,
+103,Crimson Thorn,
+104,Crimson Viper,
+105,Crossroad Mirage,
+106,Crucify Ankh,
+107,Crystal Net,
+108,Crystal Wall,
+109,Current Impact,
+110,Curse of Lily,
+111,Curse Sword Activate,
+112,Dagger Rose,
+113,Danzetsu Fuuin,
+114,Dark Mist,
+115,Dark Phoenix diabolical illusion,
+116,Dark Sun,
+117,Dark Thunder Planet,
+118,Darkness Roar,
+119,Dazzling Voltage,
+120,Dead End Climax,
+121,Dead End Fly,
+122,Dead End Symphony,
+123,Dead Howling,
+124,Dead Perfume,
+125,Death Claw,
+126,Death Messenger,
+127,Death Queen Inferno,
+128,Death Trip Serenade,
+129,Deathtrap Coral,
+130,Deep Fragrance,
+131,Delphinus Bomb,
+132,Demon Fantasia,
+133,Demon's Hammer,
+134,Despaired Bite,
+135,Destructive Slash,
+136,Devil Blizzard,
+137,Devil Execution,
+138,Devil Twin Tempest,
+139,Diamond Dust,
+140,Diamond Dust Ray,
+141,Divine Tornado,
+142,Dokuso Kakusan,
+143,Domination Language,
+144,Doton no Jutsu,
+145,Doton no Jutsu Genkugutsu,
+146,Doton Sajin no Mae,
+147,Doton Souga Horouchi,
+148,Doton! Dorui Tenjo,
+149,Double Excalibur,
+150,Dragon Blade,
+151,Dragon Breath Blizard,
+152,Dragonewt Bullet,
+153,Drawn Sword,
+154,Dunamis Megas Depranon,
+155,Dunamis Odous,
+156,Dunamis Pelekus,
+157,Dunamis Pneuma,
+158,Dunamis Pteryx,
+159,Dunamis Whirlwind,
+160,Eagle Claw Flash,
+161,Eagle Clutch,
+162,Earthquake Mixer,
+163,Ebony Gale,
+164,Ebony Illumination,
+165,Ebony Plasma,
+166,Ebony Rapier,
+167,Ebony Vortex,
+168,Eddying Current Crasher,
+169,Eight Direction Claw,
+170,Eigouring,
+171,Element Rejection,
+172,Encounter another Field,
+173,Enken Tenrin,
+174,Equuleus Meteor Fist,
+175,Equuleus Ryūsei Ken,
+176,Eternal Drowsiness,
+177,Ex. Caliburn,
+178,Excalibur,
+179,Excalibur (Violent Dance),
+180,Eye of Charge,
+181,Fairy Thronging,
+182,Famine Breath,
+183,Fierce Tiger Gale Purple Thunder Punch,
+184,Final Destination,
+185,Finally justice,
+186,Fire Lizard,
+187,Fire Wall,
+188,Fire Whip,
+189,Flail Shooter,
+190,Flame Deer Maelstrom,
+191,Flame Desperado,
+192,Flashing Lancer,
+193,Flashover,
+194,Fly Slider,
+195,Folgore Renaissance,
+196,Force Soar,
+197,Fortunate Wall,
+198,Fotia Roufihtra,
+199,Freezing Coffin,
+200,Freezing Shield,
+201,Fujiryu Hidden Chijin Ittai,
+202,Fujiryu Ninpo Bunshin no Jutsu,
+203,Fujiryu Ninpo Watagashi,
+204,Fujiryu Ninpo! Doton Housenka,
+205,Fujiryu Ninpo! Houkou Tenrou Kuzushi,
+206,Fujiryu Ninpo! Kinkou Gin,
+207,Fujiryu Ninpo! Nozuchi Kuzuchi,
+208,Funnu no Ame,
+209,Futon Kamaitachi no Jutsu,
+210,Gōma In,
+211,Gaé Bolg,
+212,Gaé Bolg Kage no Yari,
+213,Galactic Illusion,
+214,Galactica Death Bring,
+215,Galaxian Explosion,
+216,Galaxian Ultimation,
+217,Garuda Flap,
+218,Garuda Hell Wings,
+219,Ge Python,
+220,Geistig Blitz,
+221,Genjutsu,
+222,Genrō Maō Ken,
+223,Giant Hold,
+224,Gigan Loud,
+225,Gigant Impact,
+226,Gigantic Asteroid,
+227,Gigantic Feathers,
+228,Gigantic Meteor,
+229,Gigantic Planetoid,
+230,God Breath,
+231,Golden Death Hair,
+232,Golden Triangle,
+233,Gorgonio,
+234,Grand Axe Crusher,
+235,Grand Koltso,
+236,Gravity Concerto,
+237,Great Ardent Pressure,
+238,Great Capture,
+239,Great Horn,
+240,Great Mountain Smasher,
+241,Greatest Caution,
+242,Greatest Eclipse,
+243,Greatest Eruption,
+244,Greatest Horn,
+245,Greatest the Perestroika,
+246,Greed the Live,
+247,Greeding Roar,
+248,Grim Phantasia,
+249,Grizzly Slap,
+250,Ground Fang,
+251,Ground Fang Grand Finale,
+252,Ground Needle,
+253,Ground Wave,
+254,Guardian's Oracle,
+255,Gucang Huoyan,
+256,Gurthang Vortex,
+257,Hō Yoku Tenshō (Fiery Phoenix),
+258,Hōō Genma Ken (Phantom Demon),
+259,Hōk�,
+260,Hakurōken Tenshin Mus�,
+261,Hakurouken Touga Shinsou,
+262,Hallucination Rue,
+263,Hanging Bear,
+264,Hatred Blue Flame,
+265,Hauling Argo,
+266,Heaven's Maelstrom,
+267,Hecaton Menis,
+268,Hekaton kheir Kalein,
+269,Hekaton Menis,
+270,Hekaton Molybdaina,
+271,Helios Prominence,
+272,Helios Vortex,
+273,Hell's Proceed,
+274,Heracles Mōshū Ken,
+275,Hex Aster Xiphos,
+276,Hide and Seek,
+277,Highest Altitude,
+278,Higi Kenyoku Tenbusho,
+279,Hilia Mastia,
+280,Hisō Byaku Renge,
+281,Hisō Byaku Senran,
+282,Hisen Hajakuchōbuku,
+283,Hiten Daisenk�,
+284,Hobaku no Mizūmi,
+285,Holy Pillar,
+286,Holy Spout,
+287,Holy Sword Embodiment,
+288,Holy Sword Tower,
+289,Honoo no Ken,
+290,Hornet Stinger,
+291,Houkou Tenrou Kuzushi,
+292,Hound Hollow,
+293,Howl,
+294,Howling Argo,
+295,Howling Inferno,
+296,Hungry Wolf Phantom Raid Punch,
+297,Hunting Arrow Express,
+298,Hyperion Meteor,
+299,Hypnosis,
+300,Ichor Loud,
+301,Ichor Nova,
+302,Ignis Fatuus,
+303,Ignis Fatuus Granata,
+304,Ignis Fatuus Saltare,
+305,Impulse Mace,
+306,Infernal thread,
+307,Infinity Break,
+308,Innocent Glumness,
+309,Iron Meteor,
+310,Iron Meteor Bazooka,
+311,Iron Meteor Striker,
+312,Jūbakuraizanba,
+313,Jigoku no Kōkyūsa,
+314,Jikan Gyakk�,
+315,Jikan Ken,
+316,Jumping Smash,
+317,Jumping Stone,
+318,Juumonji Gansei Kuzushi,
+319,Kān,
+320,Kaen no Mae Midareuchi,
+321,Kage Gōpuku,
+322,Kagenui,
+323,Kaitoz Spouting Bomber,
+324,Katon No Jutsu,
+325,Kawarimi no Jutsu,
+326,Kenbu Shōsen Kyaku,
+327,Keraunos,
+328,Kerberos Claw,
+329,Kerberos Divide,
+330,Kerberos Hell Flare,
+331,Kerberos Inferno,
+332,Khaos Blade,
+333,Khaos Hyetos,
+334,Khaos Kyklos,
+335,Khaos Prosbole,
+336,Kholodnyi Smerch,
+337,Khora Temnein,
+338,Killer Fanged Cobra,
+339,King's Emblem,
+340,King's Roar,
+341,Kinton no Jutsu,
+342,Kiss in the Darkness,
+343,Koltso,
+344,Kornephoros,
+345,Kuchiyose no Jutsu,
+346,Kuu Ken,
+347,Kyōka Suigetsu,
+348,Kyokuten Shichisei Ken,
+349,Kyou Doku Baiei,
+350,Lady of the Lake,
+351,Lamentation Rain,
+352,Landslide,
+353,Law of Awakening,
+354,Lemniscate Of Flames,
+355,Light Arm Crush,
+356,Light Arrows,
+357,Light Genesis,
+358,Light Hammer Crush,
+359,Lighting Fang,
+360,Lighting Plasma,
+361,Lightning Bolt,
+362,Lightning Crown,
+363,Lightning Flame,
+364,Lightning Implosion,
+365,Lightning Magic,
+366,Lightning Plasma,
+367,Lightning Spark,
+368,Lightning Telios,
+369,Lionet Bomber,
+370,Lionet Burning Fire,
+371,Lionet Explosion,
+372,Lionet Flare Storm Bomber,
+373,Little Belch,
+374,Lost Canvas,
+375,Lunatic Bind,
+376,Lynx Arrow,
+377,Madness Claw,
+378,Maha Roshini,
+379,Marvelous Real,
+380,Marvelous Room,
+381,Maten Muhōrin,
+382,Mavros Eruption Clast,
+383,Mavros Eruption Crust,
+384,Mavrou Trippa,
+385,Medusa Shield,
+386,Megaton Meteor Crash,
+387,Meido Chōraku,
+388,Meido Ind�,
+389,Meikyō Shisui,
+390,Melas Helix,
+391,Melas Kyma,
+392,Melas Planetes,
+393,Mellow Poison,
+394,Melted Rock-forming,
+395,Million Ghosts Attack,
+396,Million Hatred,
+397,Mirror of Darkness,
+398,Misopesamenos,
+399,Morufiumu Kōma,
+400,Murderous Brood,
+401,Murus Ignis,
+402,Myōō Rairin,
+403,Mystic Sword Zanouki,
+404,Natural Terror,
+405,Nature Unity,
+406,Nebula Chain,
+407,Nebula Storm,
+408,Nebula Stream,
+409,Needle Dance,
+410,Nightmare Scheme,
+411,Nightmare Sonar,
+412,Noble Venom,
+413,North Winds,
+414,Northern Gunrōken,
+415,Noumaku Sanmanda Bazaradan Kan,
+416,Nudy Darkness,
+417,Odin Shield,
+418,Odin Sword,
+419,Odin Tempest,
+420,Onyx Bomber,
+421,Onyx Meteor Fist,
+422,Onyx Shield,
+423,Orichalcum Blade,
+424,Orion's Devastation,
+425,Orion's Extermination,
+426,Ouroboros Prominence,
+427,Paard Brew,
+428,Paard Orkan,
+429,Paralyze Silk,
+430,Parasite Bee,
+431,Peach Attack,
+432,Peach Bomber,
+433,Peacock Blizzard,
+434,,
+435,Pegasus Rolling Crush,
+436,Pegasus Ryu Sei Ken (Pegasus Meteor Fist),
+437,Pegasus Senkou ken,
+438,Pegasus Sui Sei Ken (Pegasus Comet Fist),
+439,Pegasus Sui Sei Ken:Kiseki,
+440,Perfect Pawn,
+441,Perfect Square,
+442,Perky Party,
+443,Petra Vrochi,
+444,Phainomenon Arkhein,
+445,Phantom Arrow,
+446,Phantom Claw,
+447,Phantom Genwaku Ken,
+448,Phantom Skull,
+449,Photon Burst,
+450,Photon Drive,
+451,Photon Invoke,
+452,Piranhan Rose,
+453,Pleiades Impact,
+454,Pleiades Nova,
+455,Pleiades Tempest,
+456,Pohuai Xiaozhuan,
+457,Poison Sword Drawn Sword,
+458,Poliorkia,
+459,Pragma Spathe,
+460,Predatory Lava,
+461,Prominence Blade,
+462,Psionic Hand,
+463,Psionic Phantom Claw,
+464,Puppet Claw,
+465,Queen Bee's Stinger,
+466,Ra's Al Ghû,
+467,Rawl Blood,
+468,Regulus Blast,
+469,Reincarnation,
+470,Renge Bakusai Ken,
+471,Ressō Shippū,
+472,Restriction,
+473,Reverse of universe,
+474,Rewind Bio,
+475,Riku Dō Rin Ne,
+476,Rinne Kessh�,
+477,Rising Billows,
+478,Rising Darkness,
+479,Rock the Bay,
+480,Rolling Defense,
+481,Rolling Oar,
+482,Rolling Stone Bomber,
+483,Rolling Stones,
+484,Rougaken Rakusetsu Zenbucchii,
+485,Royal Demon Rose,
+486,Rozan Hyaku Ryū Ha,
+487,Rozan Kōryūha,
+488,Rozan Kou Ryuu Ha,
+489,Rozan Ryū Hish�,
+490,Rozan Ryuu Hi Shou,
+491,Rozan Shinbu Ken,
+492,Rozan Shou Ryu Ha,
+493,Rozan Shou� Ten Ha,
+494,Rubellu Sidus Gungnir,
+495,Rubellu Sidus Meteor,
+496,Rubellu Sidus Storm,
+497,Ruota Falce,
+498,Ruota Tornado,
+499,Ryu Sei Ken (Meteor Fist),
+500,Salamander Shock,
+501,Sand Virus,
+502,Sapphire Energy (Safiros Enedora),
+503,Satellite Crusher,
+504,Satori,
+505,Saucer Kōgeki,
+506,Scarlet Janus,
+507,Scarlet Needle,
+508,Scarlet Needle Katakeo,
+509,Scarlet Needle Katakeo Antares,
+510,Seiken Houkai,
+511,Seima Tôro-Ken,
+512,Seiryuu Teppou Mizu,
+513,Seki Shiki Kisōen,
+514,Seki Shiki Konsō Ha,
+515,Seki Shiki Meikai Ha,
+516,Seki Shiki Meikai Rinbu,
+517,Seki Shiki Nyoi Reirin,
+518,Seki Shiki Tenryō Ha,
+519,Senju Kami Onken,
+520,Serpent Strangler,
+521,Shūgeki Gunrō Ken,
+522,Shōji Sokunehan,
+523,Shabadabadaba's,
+524,Shadow Horn,
+525,Shadow Viking Tiger Claw,
+526,Shield of Medusa,
+527,Shining Hell Claw,
+528,Shock of Destruction,
+529,Shogyō Danzai,
+530,Silent Water,
+531,Silky Thread,
+532,Silver necklace,
+533,Slash Reaper,
+534,Snake Plasma,
+535,Snake Plasma Full Power,
+536,Soshinken,
+537,Southern Cross Thunder Bolt,
+538,Sparkle Rapier,
+539,Spider Net,
+540,Spiral Duct,
+541,Stand by Me,
+542,Stardust Revolution,
+543,Starlight Extinction,
+544,Steel Bolt Cannon,
+545,Steel Hurricane,
+546,Stigma,
+547,Stinger Fine,
+548,Stone Spark,
+549,Storm Cutter,
+550,Storm Tornado,
+551,Strangle Shrill,
+552,Stream Edge,
+553,String Requiem,
+554,Stringer Nocturne,
+555,Stringer Requiem,
+556,Suihakkei,
+557,Suiryū Enbu,
+558,Suitton Zettai Reigo,
+559,Supernova Explosion,
+560,Supernova Explosion Maximum,
+561,Surendra-jit,
+562,Sweet Chocolate,
+563,Swordfish Cutter,
+564,Tō Kekken,
+565,Tarantula Net,
+566,Tartaros Phobia,
+567,Tatsumi-ryū Tokumaru Tsuki,
+568,Teleos Oracle,
+569,Tenbu Hōrin,
+570,Tenchihōmetsuzan,
+571,Tenkūhaja Chimimōry�,
+572,Tenma Kōfuku,
+573,Tenpōrin'in,
+574,Terrible Providence,
+575,Terrible Slash,
+576,Thalassa Deluge,
+577,The Buddha's Four Doors,
+578,Thunder Claw,
+579,Thunder Star Rotation,
+580,Thunder Veil,
+581,Thunder Wave,
+582,Titanic Hercules,
+583,Titan's Break,
+584,Titan's Nova,
+585,Tomb Squeeze,
+586,Tonitrui Fera Caelos,
+587,Tonitrui Saltare,
+588,Towa no Tornade,
+589,Triple Disaster,
+590,Tritos Spharagisma,
+591,Turn Back The Darkness,
+592,Twilight Marionette,
+593,Twin Madness Claw,
+594,Typhoon Bullet,
+595,Ugly Eruption,
+596,Ultimate Rejection,
+597,Ungy�,
+598,Unicorn Gallop,
+599,Universe Freezing,
+600,Valse des Flammes,
+601,Vampire Inhale,
+602,Vanishing Snow,
+603,Viking Tiger Claw,
+604,Wild Trap,
+605,Wildschwein,
+606,Wildschwein Strahl,
+607,Will Baritsu,
+608,Wind Jammer,
+609,Wind Trigger,
+610,Wolf Cruelty Claw,
+611,Wolf Fang Striker,
+612,Wolf Gang Bike Blow,
+613,Wolf's Claw,
+614,Wolf's Fang,
+615,Wolf's Rock Dead Howling,
+616,World's End,
+617,Worm's Bind,
+618,Wound Resurgence,
+619,Wraith,
+620,Wyvern's Roar,
+621,Yūko Sen'nin Enbu,
+622,Yaiba no Gouu,
+623,Yoken Zan-ou'ki,
+624,Yr,
+625,Zangeki,
+626,Zangeki batt�,
+627,Zodiac Clamation,
+628,Zone of Silence,

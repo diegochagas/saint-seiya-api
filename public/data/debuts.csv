@@ -1,31 +1,30 @@
-id,debut
-1,Manga: Classic
-2,"Chapter 102,  OVA 27"
-3,EpG: Volume # 17 -  Chapter 72
-3,Episode G
-4,Episode G: Gaiden - Aiolos
-5,Heaven Chapter: Overture
-6,Hipermito
-7,Knights of Zodiac Netflix
-8,LC: Chapter 13 - OVA 4
-9,LCG: Chapter 72
-10,Next Dimension - Vol.2 / Cap. 15
-11,Saint Seiya
-12,Saint Seiya Omega: Episode 48
-13,Saint Seiya Online
-14,Saint Seiya: Episode G - Assassin - Chapter 1
-15,Saint Seiya: Episode G - Assassin - Chapter 33
-16,Saint Seiya: Legend of Crimson Youth.
-17,Saint Seiya: Soul of Gold
-18,Saint Seiya: The Movie
-19,SS: Chapter 69
-20,SS: Episode 117 (Chapter Sanctuary OVA 3)
-21,The Lost Canvas Gaiden 2: Kardia
-22,TLC Gaiden 5: Chapter 39
-23,TLC Gaiden 5: Chapter 40
-24,TLC Gaiden 8: Chapter 54
-25,TLC: Chapter 11
-26,TLC: Chapter 11 - Episode 3
-27,TLC: Chapter 31 / Episode 8
-28,"TLC: Chapter 36, Episode 9"
-29,TLC: Chapter 57 | Episode 15
+id,name,type,releaseYear,observation
+1,Classic,1,,
+2,Origin,1,,
+3,Next Dimension,1,,
+4,Saintia Sho,1,,
+5,The Lost Canvas,1,,
+6,The Lost Canvas Gaiden,1,,
+7,Episode G,1,,
+8,Episode G - Assassin,1,,
+9,Omega,1,,
+10,Classic,2,,
+11,Hades Chapter,2,,
+12,Soul of Gold,2,,
+13,Omega,2,,
+14,Saintia Sho,2,,
+15,Natassia No Pais do Gelo,2,,Brazilian fan made
+16,Cosmo Special,4,,
+17,Encyclopedia,3,,
+18,Do Cvidanija - Time of Promise,2,,Fan made
+19,Do Cvidanija - Time of Promise,6,,
+20,Evil Goddess Eris,7,1987,
+21,The Heated Battle of the Gods,7,1988,
+22,Legend of Crimson Youth,7,1988,
+23,Warriors of the Final Holy Battle,7,1989,
+24,Heaven Chapter: Overture,7,2004,
+25,Legend of Sanctuary,7,2014,
+26,Gigantomachy,3,,
+27,Golden Age,3,,
+28,Saint Seiya Online,5,,
+29,Saint Seiya: Knights of the Zodiac,8,2019,

@@ -20,6 +20,7 @@ const fileNames = [
     "gods",
     "kinshipTypes",
     "masters",
+    "midias",
     "nationality",
     "places",
     "ranks",
@@ -40,6 +41,8 @@ fileNames.forEach(name => {
 const buildSaint = saintId => {
     const saintObject = content.saints.find(saint => saint.id === saintId);
     const saint = Object.assign({}, saintObject);
+
+    const characterId = saint.character;
 
     content.characters.forEach(character => {
         if (character.id === saint.character) {
@@ -76,6 +79,14 @@ const buildSaint = saintId => {
             saint.artist = artist.name;
         }
     });
+
+    saint.attacks = [];
+    content.attackers.forEach(attacker => {
+        if (attacker.character === characterId) {
+            const attack = content.attacks.find(attack => attack.id === attacker.attack);
+            saint.attacks.push(attack.name);
+        }
+    });
     
     return saint;
 }
@@ -99,8 +110,6 @@ const buildCharacter = characterObject => {
     const character = Object.assign({}, characterObject);
 
     character.gender = genders[character.gender];
-
-    character.cloth = buildCloths(character);
     
     content.nationality.forEach(nationality => {
         if (nationality.num_code === character.nationality) {
@@ -159,6 +168,8 @@ const buildCharacter = characterObject => {
             character.debut = debut.debut;
         }
     });
+
+    character.cloth = buildCloths(character);
     
     return character;   
 }
