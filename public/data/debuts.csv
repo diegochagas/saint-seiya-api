@@ -1,30 +1,36 @@
-id,name,type,releaseYear,observation
-1,Classic,1,,
-2,Origin,1,,
-3,Next Dimension,1,,
-4,Saintia Sho,1,,
-5,The Lost Canvas,1,,
-6,The Lost Canvas Gaiden,1,,
-7,Episode G,1,,
-8,Episode G - Assassin,1,,
-9,Omega,1,,
-10,Classic,2,,
-11,Hades Chapter,2,,
-12,Soul of Gold,2,,
-13,Omega,2,,
-14,Saintia Sho,2,,
-15,Natassia No Pais do Gelo,2,,Brazilian fan made
-16,Cosmo Special,4,,
-17,Encyclopedia,3,,
-18,Do Cvidanija - Time of Promise,2,,Fan made
-19,Do Cvidanija - Time of Promise,6,,
-20,Evil Goddess Eris,7,1987,
-21,The Heated Battle of the Gods,7,1988,
-22,Legend of Crimson Youth,7,1988,
-23,Warriors of the Final Holy Battle,7,1989,
-24,Heaven Chapter: Overture,7,2004,
-25,Legend of Sanctuary,7,2014,
-26,Gigantomachy,3,,
-27,Golden Age,3,,
-28,Saint Seiya Online,5,,
-29,Saint Seiya: Knights of the Zodiac,8,2019,
+id,name,midia,release
+1,Classic,1,1986
+2,Episode 0,1,2017
+3,Origin,1,2018
+4,Next Dimension,1,2006
+5,Saintia Sho,1,2013
+6,The Lost Canvas,1,2006
+7,The Lost Canvas - Gaiden,1,2011
+8,Episode G,1,2002
+9,Episode G - Aiolos,1,2007
+10,Episode G - Assassin,1,2014
+11,Omega,1,2013
+12,Classic,2,1986
+13,Hades Chapter,2,2002
+14,Soul of Gold,2,2015
+15,The Lost Canvas,2,2009
+16,Omega,2,2012
+17,Saintia Sho,2,2018
+18,Cosmo Special,4,1988
+19,Encyclopedia,9,2001
+20,Do Cvidanija - Time of Promise,6,1997
+21,Evil Goddess Eris,7,1987
+22,The Heated Battle of the Gods,7,1988
+23,Legend of Crimson Youth,7,1988
+24,Warriors of the Final Holy Battle,7,1989
+25,Heaven Chapter: Overture,7,2004
+26,Legend of Sanctuary,7,2014
+27,Gigantomachy,3,2002
+28,Golden Age,3,2016
+29,Saint Seiya Online,11,2013
+30,Knights of the Zodiac,8,2019
+31,Memorial Story - Shaka,10,1988
+32,Nebula Chain - Ties between Brothers,10,1988
+33,Saga! Presage of Ambition,10,1988
+34,Athena's Great Love,10,1989
+35,Golden Legend,5,1987

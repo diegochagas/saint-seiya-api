@@ -1,0 +1,41 @@
+id,name
+1,husband
+2,wife
+3,son
+4,daughter
+5,father
+6,mother
+7,sister
+8,twin sister
+9,brother
+10,twin brother
+11,grandfather
+12,grandmother
+13,uncle
+14,aunt
+15,nephew
+16,niece
+17,ancestral
+18,stepmother
+19,stepfather
+20,brother-in-law
+21,sister-in-law
+22,foster daughter
+23,foster son
+24,ancestor
+25,descendant
+26,half-brother
+27,half-sister
+28,foster brother
+29,foster sister
+30,foster father
+31,foster mother
+32,foster grandfather
+33,foster grandmother
+34,cousin
+35,granddaughter
+36,grandson
+37,foster granddaughter
+38,foster grandson
+39,stepson
+40,stepdaughter

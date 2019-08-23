@@ -18,8 +18,9 @@ const fileNames = [
     "destinyStars",
     "familyMembers",
     "gods",
-    "kinshipTypes",
+    "kinships",
     "masters",
+    "midias",
     "midias",
     "nationality",
     "places",
@@ -27,7 +28,7 @@ const fileNames = [
     "saints"
 ];
 const genders = ['Male', 'Female'];
-const bloodTypes = ['A', 'B', 'AB', 'O'];
+const bloodTypes = ['A', 'B', 'AB', 'O', 'Ikhor'];
 
 fileNames.forEach(name => {
     content[name] = [];
@@ -152,20 +153,35 @@ const buildCharacter = characterObject => {
         }
     });
 
+    character.height = character.height ? `${character.height}cm` : "";
+    character.weight = character.weight ? `${character.weight}kg` : "";
+
     character.family = [];
     content.familyMembers.forEach(family => {
         if (family.character === character.id) {
-            const member = content.characters.find(member => member.id === family.member);
-            const type = content.kinshipTypes.find(kinship => kinship.id === family.kinship);
-            character.family.push(`${member.name} (${type.kinship})`);
+            const member = content.characters.find(character => character.id === family.member);
+            const kinship = content.kinships.find(kinship => kinship.id === family.memberKinship);
+            character.family.push(`${member.name} (${kinship.name})`);
+        }
+        
+        if (family.member === character.id) {
+            const member = content.characters.find(character => character.id === family.character);
+            const kinship = content.kinships.find(kinship => kinship.id === family.characterKinship);
+            character.family.push(`${member.name} (${kinship.name})`);
         }
     });
 
-    character.blood = bloodTypes[character.blood];
+    const bloodType = bloodTypes[character.blood]; 
+
+    character.blood = bloodType ? bloodType : "";
     
     content.debuts.forEach(debut =>  {
         if (debut.id === character.debut) {
-            character.debut = debut.debut;
+            content.midias.forEach(midia => {
+                if (midia.id === debut.midia) {
+                    character.debut = `${midia.name}: ${debut.name}`;
+                }
+            });
         }
     });
 
