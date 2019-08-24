@@ -4,8 +4,5 @@ The Saint Seiya API
 
 ## Used technologies
 
-- React
-- Redux
-- HTML
-- CSS
+- Node
 - JavaScript

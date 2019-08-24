@@ -32,7 +32,7 @@ const bloodTypes = ['A', 'B', 'AB', 'O', 'Ikhor'];
 
 fileNames.forEach(name => {
     content[name] = [];
-    fs.createReadStream(`public/data/${name}.csv`)
+    fs.createReadStream(`data/${name}.csv`)
     .pipe(csv())
     .on('data', csvContent => {
         content[name].push(csvContent);
