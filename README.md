@@ -1,6 +1,6 @@
 # Saint Seiya API
 
-The Saint Seiya API
+A RESTful API for Saint Seiya
 
 ## Used technologies
 

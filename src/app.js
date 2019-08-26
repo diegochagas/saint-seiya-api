@@ -7,6 +7,7 @@ const port = 3000;
 const response = { 'success': false, 'message': '', 'data': {} };
 const content = {};
 const fileNames = [
+    "affiliations",
     "artists",
     "attackers",
     "attacks",
@@ -17,7 +18,6 @@ const fileNames = [
     "debuts",
     "destinyStars",
     "familyMembers",
-    "gods",
     "kinships",
     "masters",
     "midias",
@@ -63,9 +63,9 @@ const buildSaint = saintId => {
         }
     });
 
-    content.gods.forEach(god => {
-        if (god.id === saint.affiliation) {
-            saint.affiliation = god.name;
+    content.affiliations.forEach(affiliation => {
+        if (affiliation.id === saint.affiliation) {
+            saint.affiliation = affiliation.name;
         }
     });
 
@@ -194,7 +194,7 @@ app.get('/characters', (req, res) => {
     response.success = true;
     response.message = 'Characters founded';
     response.data = content.characters.map(character => buildCharacter(character));
-    return res.status(200).json(response);
+    res.status(200).json(response);
 });
 
 app.get('/characters/:id', (req, res) => {
@@ -203,7 +203,7 @@ app.get('/characters/:id', (req, res) => {
         response.success = true;
         response.message = 'Character founded';
         response.data = { character: buildCharacter(character) };
-        return res.status(200).json(response);
+        res.status(200).json(response);
     } else {
         response.success = false;
         response.message = 'Saint not found';
@@ -217,19 +217,61 @@ app.get('/all', (req, res) => {
     response.success = true;
     response.message = 'All founded';
     response.data = { saints };
-    return res.status(200).json(response);
+    res.status(200).json(response);
 });
 
-app.get('/all/:id', (req, res) => {
-    const saint = content.saints.find(saint => saint.id === req.params.id);
-    if (saint) {
+app.get('/:path', (req, res) => {
+    const saints = [];
+    let className = '';
+
+    content.classes.forEach(cls => {
+        if (req.params.path === cls.name.toLowerCase().replace(' ', '-')) {
+            content.saints.forEach(saint => {
+                if (saint.class === cls.id) {
+                    className = cls.name;
+                    saints.push(buildSaint(saint.id));
+                }
+            });
+        }
+    });
+
+    if (saints.length) {
         response.success = true;
-        response.message = 'Saint founded';
-        response.data = { saint: buildSaint(saint.id) };
-        return res.status(200).json(response);
+        response.message = `${className} founded`;
+        response.data = { saints };
+        res.status(200).json(response);
     } else {
         response.success = false;
         response.message = 'Saint not found';
+        response.data = {};
+        res.status(404).send(response);
+    }
+});
+
+app.get('/:path/:id', (req, res) => {
+    let notfound = false;
+    
+    content.classes.forEach(cls => {
+        if (req.params.path === cls.name.toLowerCase().replace(' ', '-')) {
+            content.saints.forEach(saint => {
+                if (saint.class === cls.id && saint.id === req.params.id) {
+                    response.success = true;
+                    response.message = `${ cls.name } founded`;
+                    response.data = { saint: buildSaint(saint.id) };
+                    res.status(200).json(response);
+                    notfound = false;
+                } else {
+                    notfound = true;
+                }
+            });
+        } else {
+            notfound = true;
+        }
+    });
+
+    if (notfound) {
+        response.success = false;
+        response.message = `${req.params.path} not found`;
         response.data = {};
         res.status(404).send(response);
     }

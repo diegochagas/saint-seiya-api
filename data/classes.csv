@@ -1,6 +1,6 @@
 id,name
 1,Angel
-2,
+2,Golden Tribe
 3,Berserker
 4,Blue Warrior
 5,Civilian
@@ -19,7 +19,7 @@ id,name
 18,Ninja
 19,Okashira
 20,Pallasite
-21,
+21,Amaterasu Warrior
 22,Saint
 23,Satellite
 24,Saturnian
@@ -27,11 +27,7 @@ id,name
 26,Specter
 27,Taonia
 28,Titan
-29,
-30,Warrior
-31,
+29,Mythology Creature
+30,Lamech Warrior
+31,Legionaries of Ra
 32,Corona Saint
-33,Lamech Warrior
-34,Legionaries of Ra
-35,Mythology Creature
-36,Amaterasu Warrior
