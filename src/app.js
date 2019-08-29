@@ -190,6 +190,24 @@ const buildCharacter = characterObject => {
     return character;   
 }
 
+app.get('/', (req, res) => {
+    const homePage = `
+    <html>
+        <body>
+            <h1>Available URL's for requests</h1>
+            <ul>
+                <li>/characters</li>
+                <li>/constellations</li>
+                <li>/evil-stars</li>
+                <li>/all</li>
+                ${content.classes.reduce((total, cls) => total + `<li>/${cls.name.toLowerCase().replace(' ', '-')}</li>`, "")} 
+            </ul>
+        </body>
+    </html>
+    `;
+    res.status(200).send(homePage);
+});
+
 app.get('/characters', (req, res) => {
     response.success = true;
     response.message = 'Characters founded';
