@@ -192,9 +192,6 @@ const buildCharacter = characterObject => {
 }
 
 app.get('/', (req, res) => {
-    /* Load urls to the index.html
-    content.classes.reduce((total, cls) => total + `<li>/${cls.name.toLowerCase().replace(' ', '-')}</li>`, ""); */
-
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
