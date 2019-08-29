@@ -1,8 +1,9 @@
 const app = require('express')();
 const csv = require('csv-parser');
 const fs = require('fs');
+const path = require('path');
 
-const port = 3000;
+const PORT = 3000;
 
 const response = { 'success': false, 'message': '', 'data': {} };
 const content = {};
@@ -191,21 +192,10 @@ const buildCharacter = characterObject => {
 }
 
 app.get('/', (req, res) => {
-    const homePage = `
-    <html>
-        <body>
-            <h1>Available URL's for requests</h1>
-            <ul>
-                <li>/characters</li>
-                <li>/constellations</li>
-                <li>/evil-stars</li>
-                <li>/all</li>
-                ${content.classes.reduce((total, cls) => total + `<li>/${cls.name.toLowerCase().replace(' ', '-')}</li>`, "")} 
-            </ul>
-        </body>
-    </html>
-    `;
-    res.status(200).send(homePage);
+    /* Load urls to the index.html
+    content.classes.reduce((total, cls) => total + `<li>/${cls.name.toLowerCase().replace(' ', '-')}</li>`, ""); */
+
+    res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 app.get('/characters', (req, res) => {
@@ -324,7 +314,6 @@ app.get('/:path/:id', (req, res) => {
     }
 });
 
-app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
-    console.log('To shutdown the server: ctrl + c');
+app.listen(process.env.PORT || PORT, () => {
+    console.log(`Your node js server is running`);
 });
