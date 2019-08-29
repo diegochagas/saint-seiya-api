@@ -220,6 +220,35 @@ app.get('/all', (req, res) => {
     res.status(200).json(response);
 });
 
+app.get('/constellations', (req, res) => {
+    response.success = true;
+    response.message = 'Constellations founded';
+    response.data = { modernConstellations: content.constellations.slice(0, 88), otherConstellations: content.constellations.slice(88) };
+    res.status(200).json(response);
+});
+
+app.get('/evil-stars', (req, res) => {
+    const stars = content.destinyStars.map(starObject => {
+        const rankObject = content.ranks.find(rank => rank.id === starObject.rank);
+        
+        const rank = Object.assign({}, rankObject);
+        
+        const star = Object.assign({}, starObject);
+        
+        star.rank = rank.name;
+
+        return star;
+    });
+
+    response.success = true;
+
+    response.message = 'Evil stars founded';
+    
+    response.data = { evilStars: stars.slice(0, 108), otherCases: stars.slice(108) };
+    
+    res.status(200).json(response);
+});
+
 app.get('/:path', (req, res) => {
     const saints = [];
     let className = '';
