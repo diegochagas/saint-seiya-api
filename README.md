@@ -16,7 +16,7 @@ A RESTful API for Saint Seiya
 - [CavZodiaco (Portuguese)](https://www.cavzodiaco.com.br/)
 - [Official arts of the MMORPG Saint Seiya Online (Japanese)](http://seiya.17173.com/news/05072013/171743839_all.shtml)
 - [Marco Albiero fanarts](http://marcoalbiero.altervista.org/gallery/fan-arts/saint-seiya/)
-https://goldmilo.deviantart.com/gallery/
+- [Goldmilo deviantart fanarts](https://goldmilo.deviantart.com/gallery/)
 - [Javiii0 deviantart fanarts](https://javiiit0.deviantart.com/gallery/)
 - [Lady Heinstein deviantart fanarts](https://ladyheinstein.deviantart.com/gallery/)
 - [M6 L Yang deviantart fanarts](https://www.deviantart.com/133011795/gallery/?catpath=/)
