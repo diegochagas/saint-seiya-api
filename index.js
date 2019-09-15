@@ -1,12 +1,16 @@
-const app = require('express')();
+const express = require('express');
+const path = require('path');
 const csv = require('csv-parser');
 const fs = require('fs');
-const path = require('path');
 
-const PORT = 3000;
+const app = express();
+
+const PORT = process.env.PORT || 5000;
 
 const response = { 'success': false, 'message': '', 'data': {} };
+    
 const content = {};
+
 const fileNames = [
     "affiliations",
     "artists",
@@ -28,8 +32,6 @@ const fileNames = [
     "ranks",
     "saints"
 ];
-const genders = ['Male', 'Female'];
-const bloodTypes = ['A', 'B', 'AB', 'O', 'Ikhor'];
 
 fileNames.forEach(name => {
     content[name] = [];
@@ -39,6 +41,13 @@ fileNames.forEach(name => {
         content[name].push(csvContent);
     });
 });
+
+const initialURLs = { characters: 'characters', all: 'all', constellations: 'constellations', evilStars: 'evil-stars' };
+
+let urls = [];
+
+const genders = ['Male', 'Female'];
+const bloodTypes = ['A', 'B', 'AB', 'O', 'Ikhor'];
 
 const buildSaint = saintId => {
     const saintObject = content.saints.find(saint => saint.id === saintId);
@@ -191,18 +200,28 @@ const buildCharacter = characterObject => {
     return character;   
 }
 
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html'));
+app.use(express.static(path.join(__dirname, 'client/build')));
+
+app.get('/urls', (req, res) => {
+    urls = [];
+
+    for (let key in initialURLs) {
+        urls.push(initialURLs[key]);
+    }
+
+    content.classes.map(cls => urls.push(cls.name.toLowerCase().replace(' ', '-')));
+    
+    res.status(200).json(urls);
 });
 
-app.get('/characters', (req, res) => {
+app.get(`/${initialURLs.characters}`, (req, res) => {
     response.success = true;
     response.message = 'Characters founded';
     response.data = content.characters.map(character => buildCharacter(character));
     res.status(200).json(response);
 });
 
-app.get('/characters/:id', (req, res) => {
+app.get(`/${initialURLs.characters}/:id`, (req, res) => {
     const character = content.characters.find(character => character.id === req.params.id);
     if (character) {
         response.success = true;
@@ -217,7 +236,7 @@ app.get('/characters/:id', (req, res) => {
     }
 });
 
-app.get('/all', (req, res) => {
+app.get(`/${initialURLs.all}`, (req, res) => {
     const saints = content.saints.map(saint => buildSaint(saint.id));
     response.success = true;
     response.message = 'All founded';
@@ -225,14 +244,14 @@ app.get('/all', (req, res) => {
     res.status(200).json(response);
 });
 
-app.get('/constellations', (req, res) => {
+app.get(`/${initialURLs.constellations}`, (req, res) => {
     response.success = true;
     response.message = 'Constellations founded';
     response.data = { modernConstellations: content.constellations.slice(0, 88), otherConstellations: content.constellations.slice(88) };
     res.status(200).json(response);
 });
 
-app.get('/evil-stars', (req, res) => {
+app.get(`/${initialURLs.evilStars}`, (req, res) => {
     const stars = content.destinyStars.map(starObject => {
         const rankObject = content.ranks.find(rank => rank.id === starObject.rank);
         
@@ -311,6 +330,10 @@ app.get('/:path/:id', (req, res) => {
     }
 });
 
-app.listen(process.env.PORT || PORT, () => {
-    console.log(`Your node js server is running`);
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname + '/client/build/index.html'));
+});
+
+app.listen(PORT, () => {
+    console.log('App is listening on port ' + PORT);
 });

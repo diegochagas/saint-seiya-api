@@ -5,6 +5,8 @@ A RESTful API for Saint Seiya
 ## Used technologies
 
 - Node
+- Express
+- React
 - JavaScript
 
 ## Sources
