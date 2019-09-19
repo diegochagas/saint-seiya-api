@@ -42,7 +42,13 @@ fileNames.forEach(name => {
     });
 });
 
-const initialURLs = { characters: 'characters', all: 'all', constellations: 'constellations', evilStars: 'evil-stars' };
+const initialURLs = { 
+    characters: 'characters',
+    all: 'all',
+    constellations: 'constellations',
+    evilStars: 'evil-stars',
+    debuts: 'debuts'
+};
 
 let urls = [];
 
@@ -212,6 +218,47 @@ app.get('/urls', (req, res) => {
     content.classes.map(cls => urls.push(cls.name.toLowerCase().replace(' ', '-')));
     
     res.status(200).json(urls);
+});
+
+app.get(`/${initialURLs.debuts}`, (req, res) => {
+    const debuts = content.debuts.map(debutObject => {
+        const debut = Object.assign({}, debutObject);
+
+        const midia = content.midias.find(midia => midia.id === debut.midia);
+
+        debut.midia = midia.name;
+
+        return debut;
+    });
+
+    response.success = true;
+    response.message = 'Debuts founded';
+    response.data = debuts;
+    res.status(200).json(response);
+});
+
+app.get(`/${initialURLs.debuts}/:id`, (req, res) => {
+    const debutObject = content.debuts.find(debut => debut.id === req.params.id);
+
+    const debut = Object.assign({}, debutObject);
+
+    const midia = content.midias.find(midia => midia.id === debut.midia);
+
+    debut.midia = midia.name;
+
+    if (debut) {
+        const characters = content.characters.filter(character => character.debut === debut.id);
+
+        response.success = true;
+        response.message = 'Characters from debut founded';
+        response.data = { debut, characters: characters.map(character => buildCharacter(character)) };
+        res.status(200).json(response);
+    } else {
+        response.success = false;
+        response.message = 'Debut not found';
+        response.data = {};
+        res.status(404).send(response);
+    }
 });
 
 app.get(`/${initialURLs.characters}`, (req, res) => {

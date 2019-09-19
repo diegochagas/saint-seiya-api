@@ -8,6 +8,9 @@ function App() {
   return (
     <div className="App">
       <Header/>
+      <div className="stars small"></div>
+    	<div className="stars medium"></div>
+    	<div className="stars large"></div>
       <Switch>
         <Route exact path='/' component={Home} />
       </Switch>
