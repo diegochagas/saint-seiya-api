@@ -43,11 +43,11 @@ fileNames.forEach(name => {
 });
 
 const initialURLs = { 
-    characters: 'characters',
     all: 'all',
+    characters: 'characters',
     constellations: 'constellations',
+    debuts: 'debuts',
     evilStars: 'evil-stars',
-    debuts: 'debuts'
 };
 
 let urls = [];
@@ -252,6 +252,31 @@ app.get(`/${initialURLs.debuts}/:id`, (req, res) => {
         response.success = true;
         response.message = 'Characters from debut founded';
         response.data = { debut, characters: characters.map(character => buildCharacter(character)) };
+        res.status(200).json(response);
+    } else {
+        response.success = false;
+        response.message = 'Debut not found';
+        response.data = {};
+        res.status(404).send(response);
+    }
+});
+
+app.get(`/${initialURLs.constellations}`, (req, res) => {
+    response.success = true;
+    response.message = 'Constellations founded';
+    response.data = content.constellations;
+    res.status(200).json(response);
+});
+
+app.get(`/${initialURLs.constellations}/:id`, (req, res) => {
+    const constellation = content.constellations.find(constellation => constellation.id === req.params.id);
+
+    if (constellation) {
+        const saints = content.saints.filter(saint => saint.constellation === constellation.id);
+
+        response.success = true;
+        response.message = 'Characters from debut founded';
+        response.data = { constellation, saints: saints.map(saint => buildSaint(saint)) };
         res.status(200).json(response);
     } else {
         response.success = false;

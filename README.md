@@ -28,4 +28,5 @@ A RESTful API for Saint Seiya - https://saint-seiya-api.herokuapp.com/
 - [List of Saint Seiya Episode.G chapters](https://en.wikipedia.org/wiki/List_of_Saint_Seiya_Episode.G_chapters)
 - [Saint Seiya - Episode G: Manga Online (Portuguese)](https://unionmangas.top/manga/saint-seiya-episode-g)
 - [Geek U Youtube Channel (Spanish)](https://www.youtube.com/channel/UCwdCQ5sSryDS-WqydvInmeQ/featured)
+- [The 88 Constellations and Their Brightest Stars](https://sleepopolis.com/education/constellations-stars/)
 
