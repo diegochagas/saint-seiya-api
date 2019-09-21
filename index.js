@@ -104,6 +104,12 @@ const buildSaint = saintId => {
             saint.attacks.push(attack.name);
         }
     });
+
+    content.constellations.forEach(constellation => {
+        if (constellation.id === saint.constellation) {
+            saint.constellation = `${constellation.name} (${constellation.meaning})`;
+        }
+    });
     
     return saint;
 }
@@ -276,7 +282,7 @@ app.get(`/${initialURLs.constellations}/:id`, (req, res) => {
 
         response.success = true;
         response.message = 'Characters from debut founded';
-        response.data = { constellation, saints: saints.map(saint => buildSaint(saint)) };
+        response.data = { constellation, saints: saints.map(saint => buildSaint(saint.id)) };
         res.status(200).json(response);
     } else {
         response.success = false;
