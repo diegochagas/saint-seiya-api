@@ -20,10 +20,10 @@ id,name
 19,Gladiator
 20,High Priest
 21,Leader
-22,Legion of the Disaster
-23,Legion of the Fear
-24,Legion of the Fire
-25,Legion of the Flame
+22,Legionaries
+23,
+24,
+25,
 26,Priest
 27,Principal
 28,Host
@@ -36,21 +36,12 @@ id,name
 35,Vice Principal
 36,High Martian
 37,Blue Warrior
-38,Alpha Star
-39,Beta Star
-40,Gamma Star
-41,Delta Star
-42,Epsilon Star
-43,Zeta Star
-44,Eta Star
-45,Automaton
-46,Undead
-47,Heavenly King
-48,Pythia
-49,Ressurected Saint
-50,The Indestructible Sacred Sword
-51,The Sacred Sword of Anger
-52,The Sacred Sword of Betrayal
-53,Witch
-54,Seventh Fuji Ninja
-55,Martial arts expert
+38,Automaton
+39,Dragon
+40,Undead
+41,Pythia
+42,Witch
+43,Seventh Fuji Ninja
+44,Heavenly King
+45,Ressurected Saint
+46,Sacred Sword

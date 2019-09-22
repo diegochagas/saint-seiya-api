@@ -29,4 +29,7 @@ A RESTful API for Saint Seiya - https://saint-seiya-api.herokuapp.com/
 - [Saint Seiya - Episode G: Manga Online (Portuguese)](https://unionmangas.top/manga/saint-seiya-episode-g)
 - [Geek U Youtube Channel (Spanish)](https://www.youtube.com/channel/UCwdCQ5sSryDS-WqydvInmeQ/featured)
 - [The 88 Constellations and Their Brightest Stars](https://sleepopolis.com/education/constellations-stars/)
+- [Evil Stars List (Portuguese)](https://ssu.fandom.com/wiki/Lista_de_Estrelas_Malignas)
+- [108 Stars of Destiny](https://en.wikipedia.org/wiki/108_Stars_of_Destiny)
 
+# God be praised!

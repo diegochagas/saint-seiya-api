@@ -19,11 +19,10 @@ const fileNames = [
     "characters",
     "classes",
     "cloths",
-    "constellations",
     "debuts",
-    "destinyStars",
     "familyMembers",
     "kinships",
+    "lists",
     "masters",
     "midias",
     "midias",
@@ -45,9 +44,8 @@ fileNames.forEach(name => {
 const initialURLs = { 
     all: 'all',
     characters: 'characters',
-    constellations: 'constellations',
     debuts: 'debuts',
-    evilStars: 'evil-stars',
+    lists: 'lists',
 };
 
 let urls = [];
@@ -105,9 +103,9 @@ const buildSaint = saintId => {
         }
     });
 
-    content.constellations.forEach(constellation => {
-        if (constellation.id === saint.constellation) {
-            saint.constellation = `${constellation.name} (${constellation.meaning})`;
+    content.lists.forEach(list => {
+        if (list.id === saint.list) {
+            saint.list = list.name;
         }
     });
     
@@ -267,26 +265,64 @@ app.get(`/${initialURLs.debuts}/:id`, (req, res) => {
     }
 });
 
-app.get(`/${initialURLs.constellations}`, (req, res) => {
-    response.success = true;
-    response.message = 'Constellations founded';
-    response.data = content.constellations;
-    res.status(200).json(response);
-});
+app.get(`/${initialURLs.lists}/:type`, (req, res) => {
+    const { type } = req.params;
 
-app.get(`/${initialURLs.constellations}/:id`, (req, res) => {
-    const constellation = content.constellations.find(constellation => constellation.id === req.params.id);
+    const lists = content.lists.filter(list => {
+        if (list.id.includes(type)) {
+            const saints = content.saints.filter(saint => list.id === saint.list);
+            
+            list.saints = saints ? saints.map(saint => buildSaint(saint.id)) : [];
 
-    if (constellation) {
-        const saints = content.saints.filter(saint => saint.constellation === constellation.id);
-
+            return list;
+        }
+    });
+    
+    const typeName = type.charAt(0).toUpperCase() + type.replace('-', ' ').substring(1);
+    
+    if (lists.length) {
         response.success = true;
-        response.message = 'Characters from debut founded';
-        response.data = { constellation, saints: saints.map(saint => buildSaint(saint.id)) };
+        response.message = `${typeName} founded`;
+
+        let data = {};
+
+        if (type.includes('constellation')) {
+            data = { modernConstellations: lists.slice(0, 88), otherConstellations: lists.slice(88) };
+        } else if (type.includes('evil-star')) {
+            data = { destinyStars: lists.slice(0, 108), otherCases: lists.slice(108) };
+        } else {
+            data = { lists };
+        }
+
+        response.data = data;
         res.status(200).json(response);
     } else {
         response.success = false;
-        response.message = 'Debut not found';
+        response.message = `${typeName} not found`;
+        response.data = {};
+        res.status(404).send(response);
+    }
+});
+
+app.get(`/${initialURLs.lists}/:type/:id`, (req, res) => {
+    const { type } = req.params;
+    
+    const id = `${req.params.type}-${req.params.id}`;
+
+    const list = content.lists.find(list => list.id === id);
+    
+    const typeName = type.charAt(0).toUpperCase() + type.replace('-', ' ').substring(1);
+
+    if (list) {
+        const saints = content.saints.filter(saint => saint.list === list.id);
+
+        response.success = true;
+        response.message = `Characters from ${typeName} founded`;
+        response.data = { list, saints: saints.map(saint => buildSaint(saint.id)) };
+        res.status(200).json(response);
+    } else {
+        response.success = false;
+        response.message = `${typeName} not found`;
         response.data = {};
         res.status(404).send(response);
     }
@@ -322,41 +358,12 @@ app.get(`/${initialURLs.all}`, (req, res) => {
     res.status(200).json(response);
 });
 
-app.get(`/${initialURLs.constellations}`, (req, res) => {
-    response.success = true;
-    response.message = 'Constellations founded';
-    response.data = { modernConstellations: content.constellations.slice(0, 88), otherConstellations: content.constellations.slice(88) };
-    res.status(200).json(response);
-});
-
-app.get(`/${initialURLs.evilStars}`, (req, res) => {
-    const stars = content.destinyStars.map(starObject => {
-        const rankObject = content.ranks.find(rank => rank.id === starObject.rank);
-        
-        const rank = Object.assign({}, rankObject);
-        
-        const star = Object.assign({}, starObject);
-        
-        star.rank = rank.name;
-
-        return star;
-    });
-
-    response.success = true;
-
-    response.message = 'Evil stars founded';
-    
-    response.data = { evilStars: stars.slice(0, 108), otherCases: stars.slice(108) };
-    
-    res.status(200).json(response);
-});
-
-app.get('/:path', (req, res) => {
+app.get('/:class', (req, res) => {
     const saints = [];
     let className = '';
 
     content.classes.forEach(cls => {
-        if (req.params.path === cls.name.toLowerCase().replace(' ', '-')) {
+        if (req.params.class === cls.name.toLowerCase().replace(' ', '-')) {
             content.saints.forEach(saint => {
                 if (saint.class === cls.id) {
                     className = cls.name;
@@ -379,11 +386,11 @@ app.get('/:path', (req, res) => {
     }
 });
 
-app.get('/:path/:id', (req, res) => {
+app.get('/:class/:id', (req, res) => {
     let notfound = false;
     
     content.classes.forEach(cls => {
-        if (req.params.path === cls.name.toLowerCase().replace(' ', '-')) {
+        if (req.params.class === cls.name.toLowerCase().replace(' ', '-')) {
             content.saints.forEach(saint => {
                 if (saint.class === cls.id && saint.id === req.params.id) {
                     response.success = true;
@@ -402,7 +409,7 @@ app.get('/:path/:id', (req, res) => {
 
     if (notfound) {
         response.success = false;
-        response.message = `${req.params.path} not found`;
+        response.message = `${req.params.class} not found`;
         response.data = {};
         res.status(404).send(response);
     }
