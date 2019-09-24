@@ -77,17 +77,21 @@ const buildSaint = saintId => {
         }
     });
 
+    content.ranks.forEach(rank => {
+        if (rank.id === saint.rank) {
+            saint.rank = rank.name;
+        }
+    });
+
     content.affiliations.forEach(affiliation => {
         if (affiliation.id === saint.affiliation) {
             saint.affiliation = affiliation.name;
         }
     });
 
-    content.ranks.forEach(rank => {
-        if (rank.id === saint.rank) {
-            saint.rank = rank.name;
-        }
-    });
+    if (!saint.scheme) {
+        saint.scheme = "https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/others%2Fno-scheme.png?alt=media&token=fe50ebdc-d7d6-4238-81c4-c49a48c2c40a";
+    }
 
     content.artists.find(artist => {
         if (saint.artist === artist.id) {
