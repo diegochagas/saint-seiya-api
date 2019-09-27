@@ -6,12 +6,14 @@ const fs = require('fs');
 const cors = require('cors');
 
 const app = express();
+
+app.use(cors());
+
 app.use(bodyParser.json());
 
 var distDir = __dirname + "/dist/";
 app.use(express.static(distDir));
 
-app.use(cors());
 
 const PORT = process.env.PORT || 8080;
 

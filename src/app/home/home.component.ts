@@ -7,6 +7,7 @@ import { UrlsService } from '../shared/services';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+  title = "Saint Seiya API"
 
   urls = [];
 
