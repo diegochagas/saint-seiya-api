@@ -3,12 +3,15 @@ const bodyParser = require('body-parser');
 const path = require('path');
 const csv = require('csv-parser');
 const fs = require('fs');
+const cors = require('cors');
 
 const app = express();
 app.use(bodyParser.json());
 
 var distDir = __dirname + "/dist/";
 app.use(express.static(distDir));
+
+app.use(cors());
 
 const PORT = process.env.PORT || 8080;
 
