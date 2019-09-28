@@ -1,12 +1,20 @@
-<h1>
-  Welcome to {{ title }}!
-</h1>
-<img width="300" alt="Athena Logo" src="../../assets/icons/logo.png">
-<h2>Here are some links to help you start: </h2>
-<ul class="urls">
-  <li *ngFor="let url of urls">
-    <code>
-      <a target="_blank" rel="noopener" href="/{{ url }}">/{{ url }}</a>
-    </code>
-  </li>
-</ul>
+<div class="home">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <img width="300" alt="Athena Logo" src="../../assets/images/logo.png">
+  <h2>Here are all the links that you can send requests: </h2>
+  <ng-container *ngIf="urls.length; else Loading">
+    <ul class="urls">
+      <li *ngFor="let url of urls">
+        <code>
+          <a target="_blank" rel="noopener" href="/{{ url }}">/{{ url }}</a>
+        </code>
+      </li>
+    </ul>
+  </ng-container>
+  <ng-template #Loading>
+    <p>Loading urls...</p>
+    <progress></progress>
+  </ng-template>
+</div>

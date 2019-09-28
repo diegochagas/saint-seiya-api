@@ -1,8 +1,17 @@
-.urls {
-  list-style: none;
+@import '../../themes/white-label';
 
-  a {
-    color: white;
-    text-decoration: none;
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .urls {
+    list-style: none;
+    padding: 0;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
   }
 }
