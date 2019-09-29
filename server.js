@@ -2,8 +2,10 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
 const csv = require('csv-parser');
-const fs = require('fs');
+//const fs = require('fs');
+const fs = require('fs').promises;
 const cors = require('cors');
+const csvAsync = require('async-csv');
 
 const app = express();
 
@@ -14,17 +16,20 @@ app.use(bodyParser.json());
 var distDir = __dirname + "/dist/";
 app.use(express.static(distDir));
 
-
 const PORT = process.env.PORT || 8080;
 
 function handleError(res, reason, message, code) {
   console.log("ERROR: " + reason);
+
   res.status(code || 500).json({"error": message});
 }
 
 const response = { 'success': false, 'message': '', 'data': {} };
 
 const content = {};
+
+const genders = ['Male', 'Female'];
+const bloodTypes = ['A', 'B', 'AB', 'O', 'Ikhor'];
 
 const fileNames = [
     "affiliations",
@@ -47,26 +52,80 @@ const fileNames = [
     "saints"
 ];
 
-fileNames.forEach(name => {
-    content[name] = [];
-    fs.createReadStream(`data/${name}.csv`)
-    .pipe(csv())
-    .on('data', csvContent => {
-        content[name].push(csvContent);
+let urls = [];
+
+const executeRequests = () => {
+  urls.forEach(name => {
+
+    app.get(`/${name}`, (req, res) => {
+      response.success = true;
+
+      response.message = `${name} founded`;
+
+      if (name === 'characters') {
+        response.data = content.characters.map(character => buildCharacter(character));
+      } else if (name === 'debuts') {
+        response.data = getDebuts();
+      } else if (content.classes.find(cls => cls.name.toLowerCase().replace(' ', '-') === name)) {
+        response.data = getSaints(name);
+      } else {
+        response.data = content[name];
+      }
+
+      res.status(200).json(response);
     });
+  });
+}
+
+const getData = async fileName => {
+  const csvString = await fs.readFile(`data/${fileName}.csv`);
+
+  const rows = await csvAsync.parse(csvString);
+
+  const attributes = rows[0];
+
+  const items = rows.slice(1);
+
+  content[fileName] = items.map(item => {
+    let data = {};
+
+    item.forEach((value, index) => {
+      const key = attributes[index];
+
+      data[key] = value;
+    });
+
+    return data;
+  });
+
+  if (fileName === 'classes') {
+    content.classes.forEach(cls => urls.push(cls.name.toLowerCase().replace(' ', '-')));
+  }
+
+  urls.push(fileName);
+
+  urls = new Set(urls);
+
+  urls = Array.from(urls);
+
+  executeRequests();
+
+  /* rows.forEach(row => console.log(row));
+    csv. */
+  /* fs.createReadStream(`data/${fileName}.csv`)
+  .pipe(csv())
+  .on('data', csvContent => {
+    content[fileName].push(csvContent);
+  }); */
+}
+
+fileNames.forEach(name => {
+  getData(name);
 });
 
 const initialURLs = {
-    all: 'all',
-    characters: 'characters',
-    debuts: 'debuts',
-    lists: 'lists',
+  lists: 'lists',
 };
-
-let urls = [];
-
-const genders = ['Male', 'Female'];
-const bloodTypes = ['A', 'B', 'AB', 'O', 'Ikhor'];
 
 const buildSaint = saintId => {
     const saintObject = content.saints.find(saint => saint.id === saintId);
@@ -229,33 +288,37 @@ const buildCharacter = characterObject => {
     return character;
 }
 
-app.get('/urls', (req, res) => {
-    urls = [];
+const getDebuts = () => {
+  return content.debuts.map(debutObject => {
+    const debut = Object.assign({}, debutObject);
 
-    for (let key in initialURLs) {
-        urls.push(initialURLs[key]);
+    const midia = content.midias.find(midia => midia.id === debut.midia);
+
+    debut.midia = midia.name;
+
+    return debut;
+  });
+}
+
+const getSaints = saint => {
+  const saints = [];
+
+  content.classes.forEach(cls => {
+    if (saint === cls.name.toLowerCase().replace(' ', '-')) {
+      content.saints.forEach(saint => {
+          if (saint.class === cls.id) {
+              className = cls.name;
+              saints.push(buildSaint(saint.id));
+          }
+      });
     }
+  });
 
-    content.classes.map(cls => urls.push(cls.name.toLowerCase().replace(' ', '-')));
+  return saints;
+}
 
-    res.status(200).json(urls);
-});
-
-app.get(`/${initialURLs.debuts}`, (req, res) => {
-    const debuts = content.debuts.map(debutObject => {
-        const debut = Object.assign({}, debutObject);
-
-        const midia = content.midias.find(midia => midia.id === debut.midia);
-
-        debut.midia = midia.name;
-
-        return debut;
-    });
-
-    response.success = true;
-    response.message = 'Debuts founded';
-    response.data = debuts;
-    res.status(200).json(response);
+app.get('/urls', (req, res) => {
+  res.status(200).json(urls);
 });
 
 app.get(`/${initialURLs.debuts}/:id`, (req, res) => {
@@ -345,55 +408,12 @@ app.get(`/${initialURLs.lists}/:type/:id`, (req, res) => {
     }
 });
 
-app.get(`/${initialURLs.characters}`, (req, res) => {
-    response.success = true;
-    response.message = 'Characters founded';
-    response.data = content.characters.map(character => buildCharacter(character));
-    res.status(200).json(response);
-});
-
-app.get(`/${initialURLs.characters}/:id`, (req, res) => {
+app.get(`/characters/:id`, (req, res) => {
     const character = content.characters.find(character => character.id === req.params.id);
     if (character) {
         response.success = true;
         response.message = 'Character founded';
         response.data = { character: buildCharacter(character) };
-        res.status(200).json(response);
-    } else {
-        response.success = false;
-        response.message = 'Saint not found';
-        response.data = {};
-        res.status(404).send(response);
-    }
-});
-
-app.get(`/${initialURLs.all}`, (req, res) => {
-    const saints = content.saints.map(saint => buildSaint(saint.id));
-    response.success = true;
-    response.message = 'All founded';
-    response.data = { saints };
-    res.status(200).json(response);
-});
-
-app.get('/:class', (req, res) => {
-    const saints = [];
-    let className = '';
-
-    content.classes.forEach(cls => {
-        if (req.params.class === cls.name.toLowerCase().replace(' ', '-')) {
-            content.saints.forEach(saint => {
-                if (saint.class === cls.id) {
-                    className = cls.name;
-                    saints.push(buildSaint(saint.id));
-                }
-            });
-        }
-    });
-
-    if (saints.length) {
-        response.success = true;
-        response.message = `${className} founded`;
-        response.data = { saints };
         res.status(200).json(response);
     } else {
         response.success = false;
@@ -433,9 +453,9 @@ app.get('/:class/:id', (req, res) => {
 });
 
 app.get('*', (req, res) => {
-    res.sendFile(path.join(`$/dist/$/index.html`));
+  res.sendFile(path.join(`$/dist/$/index.html`));
 });
 
 app.listen(PORT, () => {
-    console.log('App is listening on port ' + PORT);
+  console.log('App is listening on port ' + PORT);
 });
