@@ -24,12 +24,13 @@
             "tsConfig": "tsconfig.app.json",
             "aot": false,
             "assets": [
-              "src/favicon.png",
+              "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
               "./node_modules/bootstrap/dist/css/bootstrap.css",
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "src/assets/icons.css",
               "src/styles.scss"
             ],
             "scripts": []
