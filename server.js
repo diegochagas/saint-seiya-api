@@ -1,11 +1,9 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
-const csv = require('csv-parser');
-//const fs = require('fs');
-const fs = require('fs').promises;
+const fs = require('fs');
 const cors = require('cors');
-const csvAsync = require('async-csv');
+const csv = require('csv-parser')
 
 const app = express();
 
@@ -13,18 +11,9 @@ app.use(cors());
 
 app.use(bodyParser.json());
 
-var distDir = __dirname + "/dist/";
-app.use(express.static(distDir));
+app.use(express.static(`${__dirname}/dist/`));
 
 const PORT = process.env.PORT || 8080;
-
-function handleError(res, reason, message, code) {
-  console.log("ERROR: " + reason);
-
-  res.status(code || 500).json({"error": message});
-}
-
-const response = { 'success': false, 'message': '', 'data': {} };
 
 const content = {};
 
@@ -32,100 +21,37 @@ const genders = ['Male', 'Female'];
 const bloodTypes = ['A', 'B', 'AB', 'O', 'Ikhor'];
 
 const fileNames = [
-    "affiliations",
-    "artists",
-    "attackers",
-    "attacks",
-    "characters",
-    "classes",
-    "cloths",
-    "debuts",
-    "familyMembers",
-    "kinships",
-    "lists",
-    "masters",
-    "midias",
-    "midias",
-    "nationality",
-    "places",
-    "ranks",
-    "saints"
+  "affiliations",
+  "artists",
+  "attackers",
+  "attacks",
+  "characters",
+  "classes",
+  "cloths",
+  "debuts",
+  "familyMembers",
+  "kinships",
+  "lists",
+  "masters",
+  "midias",
+  "midias",
+  "nationality",
+  "places",
+  "ranks",
+  "saints"
 ];
 
-let urls = [];
+const getData = fileName => {
+  content[fileName] = [];
 
-const executeRequests = () => {
-  urls.forEach(name => {
-
-    app.get(`/${name}`, (req, res) => {
-      response.success = true;
-
-      response.message = `${name} founded`;
-
-      if (name === 'characters') {
-        response.data = content.characters.map(character => buildCharacter(character));
-      } else if (name === 'debuts') {
-        response.data = getDebuts();
-      } else if (content.classes.find(cls => cls.name.toLowerCase().replace(' ', '-') === name)) {
-        response.data = getSaints(name);
-      } else {
-        response.data = content[name];
-      }
-
-      res.status(200).json(response);
+  fs.createReadStream(`data/${fileName}.csv`)
+    .pipe(csv())
+    .on('data', data => {
+      content[fileName].push(data);
     });
-  });
 }
 
-const getData = async fileName => {
-  const csvString = await fs.readFile(`data/${fileName}.csv`);
-
-  const rows = await csvAsync.parse(csvString);
-
-  const attributes = rows[0];
-
-  const items = rows.slice(1);
-
-  content[fileName] = items.map(item => {
-    let data = {};
-
-    item.forEach((value, index) => {
-      const key = attributes[index];
-
-      data[key] = value;
-    });
-
-    return data;
-  });
-
-  if (fileName === 'classes') {
-    content.classes.forEach(cls => urls.push(cls.name.toLowerCase().replace(' ', '-')));
-  }
-
-  urls.push(fileName);
-
-  urls = new Set(urls);
-
-  urls = Array.from(urls);
-
-  executeRequests();
-
-  /* rows.forEach(row => console.log(row));
-    csv. */
-  /* fs.createReadStream(`data/${fileName}.csv`)
-  .pipe(csv())
-  .on('data', csvContent => {
-    content[fileName].push(csvContent);
-  }); */
-}
-
-fileNames.forEach(name => {
-  getData(name);
-});
-
-const initialURLs = {
-  lists: 'lists',
-};
+fileNames.forEach(name => getData(name));
 
 const buildSaint = saintId => {
     const saintObject = content.saints.find(saint => saint.id === saintId);
@@ -288,8 +214,33 @@ const buildCharacter = characterObject => {
     return character;
 }
 
-const getDebuts = () => {
-  return content.debuts.map(debutObject => {
+const buildResponse = (success, message, data = {}) => ({ success, message, data });
+
+const initialURLs = {
+  characters: '/characters',
+  charactersId: '/characters/:id',
+  class: '/:class',
+  classId: '/:class/:id',
+  debuts: '/debuts',
+  debutsId: '/debuts/:id',
+  listsType: '/lists/:type',
+  listsTypeId: '/lists/:type/:id',
+};
+
+app.get('/urls', (req, res) => {
+  let urls = [];
+
+  urls.push(initialURLs.characters);
+
+  content.classes.forEach(cls => urls.push(`/${cls.name.toLowerCase().replace(' ', '-')}`));
+
+  urls = Array.from(new Set(urls)).sort();
+
+  res.status(200).json(urls);
+});
+
+app.get(initialURLs.debuts, (req, res) => {
+  const debuts = content.debuts.map(debutObject => {
     const debut = Object.assign({}, debutObject);
 
     const midia = content.midias.find(midia => midia.id === debut.midia);
@@ -298,164 +249,133 @@ const getDebuts = () => {
 
     return debut;
   });
-}
 
-const getSaints = saint => {
-  const saints = [];
-
-  content.classes.forEach(cls => {
-    if (saint === cls.name.toLowerCase().replace(' ', '-')) {
-      content.saints.forEach(saint => {
-          if (saint.class === cls.id) {
-              className = cls.name;
-              saints.push(buildSaint(saint.id));
-          }
-      });
-    }
-  });
-
-  return saints;
-}
-
-app.get('/urls', (req, res) => {
-  res.status(200).json(urls);
+  res.status(200).json(buildResponse(true, 'Debuts founded', debuts));
 });
 
-app.get(`/${initialURLs.debuts}/:id`, (req, res) => {
-    const debutObject = content.debuts.find(debut => debut.id === req.params.id);
+app.get(initialURLs.debutsId, (req, res) => {
+  const debutObject = content.debuts.find(debut => debut.id === req.params.id);
 
+  if (debutObject) {
     const debut = Object.assign({}, debutObject);
 
     const midia = content.midias.find(midia => midia.id === debut.midia);
 
     debut.midia = midia.name;
 
-    if (debut) {
-        const characters = content.characters.filter(character => character.debut === debut.id);
+    const characters = content.characters.filter(character => character.debut === debut.id);
 
-        response.success = true;
-        response.message = 'Characters from debut founded';
-        response.data = { debut, characters: characters.map(character => buildCharacter(character)) };
-        res.status(200).json(response);
-    } else {
-        response.success = false;
-        response.message = 'Debut not found';
-        response.data = {};
-        res.status(404).send(response);
-    }
+    const data = { debut, characters: characters.map(character => buildCharacter(character)) };
+
+    res.status(200).json(buildResponse(true, 'Debut founded', data));
+  } else {
+
+    res.status(404).json(buildResponse(false, 'Debut not found'));
+  }
 });
 
-app.get(`/${initialURLs.lists}/:type`, (req, res) => {
-    const { type } = req.params;
+app.get(initialURLs.listsType, (req, res) => {
+  const { type } = req.params;
 
-    const lists = content.lists.filter(list => {
-        if (list.id.includes(type)) {
-            const saints = content.saints.filter(saint => list.id === saint.list);
+  const lists = content.lists.filter(list => {
+    if (list.id.includes(type)) {
+      const saints = content.saints.filter(saint => list.id === saint.list);
 
-            list.saints = saints ? saints.map(saint => buildSaint(saint.id)) : [];
+      list.saints = saints ? saints.map(saint => buildSaint(saint.id)) : [];
 
-            return list;
-        }
+      return list;
+    }
+  });
+
+  const typeName = type.charAt(0).toUpperCase() + type.replace('-', ' ').substring(1);
+
+  if (lists.length) {
+    let data = {};
+
+    if (type.includes('constellation')) {
+      data = { modernConstellations: lists.slice(0, 88), otherConstellations: lists.slice(88) };
+    } else if (type.includes('evil-star')) {
+      data = { destinyStars: lists.slice(0, 108), otherCases: lists.slice(108) };
+    } else {
+      data = { lists };
+    }
+
+    res.status(200).json(buildResponse(true, `${typeName} founded`, data));
+  } else {
+    res.status(404).json(buildResponse(false, `${typeName} not found`));
+  }
+});
+
+app.get(initialURLs.listsTypeId, (req, res) => {
+  const { type } = req.params;
+
+  const id = `${req.params.type}-${req.params.id}`;
+
+  const list = content.lists.find(list => list.id === id);
+
+  const typeName = type.charAt(0).toUpperCase() + type.replace('-', ' ').substring(1);
+
+  if (list) {
+    const saints = content.saints.filter(saint => saint.list === list.id);
+
+    const data = { list, saints: saints.map(saint => buildSaint(saint.id)) };
+
+    res.status(200).json(buildResponse(true, `Characters from ${typeName} founded`, data));
+  } else {
+    res.status(404).json(buildResponse(false, `${typeName} not found`));
+  }
+});
+
+app.get(initialURLs.characters, (req, res) => {
+  const characters = content.characters.map(character => buildCharacter(character));
+
+  res.status(200).json(buildResponse(true, 'Characters founded', characters));
+});
+
+app.get(initialURLs.charactersId, (req, res) => {
+  const character = content.characters.find(character => character.id === req.params.id);
+
+  if (character) {
+    res.status(200).json(buildResponse(true, 'Character founded', { character: buildCharacter(character) }));
+  } else {
+    res.status(404).json(buildResponse(false, 'Character not found'));
+  }
+});
+
+app.get(initialURLs.class, (req, res) => {
+  let cls = content.classes.find(cls => req.params.class === cls.name.toLowerCase().replace(' ', '-'));
+
+  if (cls) {
+    const saints = [];
+
+    content.saints.forEach(saint => {
+      if (saint.class === cls.id) {
+        saints.push(buildSaint(saint.id));
+      }
     });
 
-    const typeName = type.charAt(0).toUpperCase() + type.replace('-', ' ').substring(1);
-
-    if (lists.length) {
-        response.success = true;
-        response.message = `${typeName} founded`;
-
-        let data = {};
-
-        if (type.includes('constellation')) {
-            data = { modernConstellations: lists.slice(0, 88), otherConstellations: lists.slice(88) };
-        } else if (type.includes('evil-star')) {
-            data = { destinyStars: lists.slice(0, 108), otherCases: lists.slice(108) };
-        } else {
-            data = { lists };
-        }
-
-        response.data = data;
-        res.status(200).json(response);
-    } else {
-        response.success = false;
-        response.message = `${typeName} not found`;
-        response.data = {};
-        res.status(404).send(response);
-    }
+    res.status(200).json(buildResponse(true, `${ cls.name } founded`, saints));
+  } else {
+    res.status(404).json(buildResponse(false, `${req.params.class} not found`));
+  }
 });
 
-app.get(`/${initialURLs.lists}/:type/:id`, (req, res) => {
-    const { type } = req.params;
+app.get(initialURLs.classId, (req, res) => {
+  const cls = content.classes.find(cls => req.params.class === cls.name.toLowerCase().replace(' ', '-'));
 
-    const id = `${req.params.type}-${req.params.id}`;
+  const saint = content.saints.find(saint => saint.class === cls.id && saint.id === req.params.id);
 
-    const list = content.lists.find(list => list.id === id);
-
-    const typeName = type.charAt(0).toUpperCase() + type.replace('-', ' ').substring(1);
-
-    if (list) {
-        const saints = content.saints.filter(saint => saint.list === list.id);
-
-        response.success = true;
-        response.message = `Characters from ${typeName} founded`;
-        response.data = { list, saints: saints.map(saint => buildSaint(saint.id)) };
-        res.status(200).json(response);
-    } else {
-        response.success = false;
-        response.message = `${typeName} not found`;
-        response.data = {};
-        res.status(404).send(response);
-    }
+  if (saint) {
+    res.status(200).json(buildResponse(true, `${cls.name} founded`, { saint: buildSaint(saint.id) }));
+  } else {
+    res.status(404).json(buildResponse(false, `${req.params.class} not found`));
+  }
 });
 
-app.get(`/characters/:id`, (req, res) => {
-    const character = content.characters.find(character => character.id === req.params.id);
-    if (character) {
-        response.success = true;
-        response.message = 'Character founded';
-        response.data = { character: buildCharacter(character) };
-        res.status(200).json(response);
-    } else {
-        response.success = false;
-        response.message = 'Saint not found';
-        response.data = {};
-        res.status(404).send(response);
-    }
-});
+app.get('*', (req, res) => res.sendFile(path.join(`$/dist/$/index.html`)));
 
-app.get('/:class/:id', (req, res) => {
-    let notfound = false;
+app.use((req, res, next) => buildResponse(res, 404, false, `${req.url} not found`));
 
-    content.classes.forEach(cls => {
-        if (req.params.class === cls.name.toLowerCase().replace(' ', '-')) {
-            content.saints.forEach(saint => {
-                if (saint.class === cls.id && saint.id === req.params.id) {
-                    response.success = true;
-                    response.message = `${ cls.name } founded`;
-                    response.data = { saint: buildSaint(saint.id) };
-                    res.status(200).json(response);
-                    notfound = false;
-                } else {
-                    notfound = true;
-                }
-            });
-        } else {
-            notfound = true;
-        }
-    });
+app.use((err, req, res, next) => buildResponse(res, 500, false, String(err)));
 
-    if (notfound) {
-        response.success = false;
-        response.message = `${req.params.class} not found`;
-        response.data = {};
-        res.status(404).send(response);
-    }
-});
-
-app.get('*', (req, res) => {
-  res.sendFile(path.join(`$/dist/$/index.html`));
-});
-
-app.listen(PORT, () => {
-  console.log('App is listening on port ' + PORT);
-});
+app.listen(PORT, () => console.log(`App is listening on port ${PORT}`));
