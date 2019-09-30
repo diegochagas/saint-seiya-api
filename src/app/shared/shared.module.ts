@@ -7,11 +7,11 @@ import { HeaderComponent } from './';
 
 @NgModule({
   declarations: [
-    HeaderComponent
+    HeaderComponent,
   ],
   imports: [
     CommonModule,
-    MatMenuModule
+    MatMenuModule,
   ],
   exports: [
     HeaderComponent

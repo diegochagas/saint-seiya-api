@@ -5,10 +5,50 @@
   z-index: 3;
 
   .navbar {
-    background-color: var(--colorBlue);
+    justify-content: flex-end;
+
+    .navbar-brand {
+      position: absolute;
+      top: -7px;
+      left: 15px;
+
+      @media screen and (min-width: 769px) {
+        top: -2px;
+      }
+
+      .icon-athena-staff {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 50px;
+      }
+    }
+
+    .mat-menu-item {
+      width: initial;
+    }
+
+    .navbar-collapse {
+      padding-left: 60px;
+    }
+
+    .navbar-brand {
+      &:hover, &:focus {
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+    }
   }
+}
 
-  .material-icons {
+.mat-menu-item-submenu-trigger {
+  &:after {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
 
+.nav-link {
+  color: rgba(255, 255, 255, 0.5);
+
+  &:hover, &:focus {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 0.75);
   }
 }
