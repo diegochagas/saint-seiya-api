@@ -8,6 +8,8 @@ import { Component, OnInit, Input } from '@angular/core';
 export class MenuItemsComponent implements OnInit {
   @Input() midiasMenu;
 
+  @Input() classesMenu;
+
   constructor() { }
 
   ngOnInit() {

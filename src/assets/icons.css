@@ -38,6 +38,42 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-athena-staff:before {
+.icon-athena-staff-1:before {
   content: "\61";
+}
+.icon-athena-staff:before {
+  content: "\62";
+}
+.icon-helmet-andromeda:before {
+  content: "\63";
+}
+.icon-helmet-cygnus:before {
+  content: "\64";
+}
+.icon-helmet-draco:before {
+  content: "\65";
+}
+.icon-helmet-pegasus:before {
+  content: "\66";
+}
+.icon-helmet-phoenix:before {
+  content: "\67";
+}
+.icon-pegasus:before {
+  content: "\68";
+}
+.icon-pegasus-2:before {
+  content: "\69";
+}
+.icon-athena-staff-2:before {
+  content: "\6a";
+}
+.icon-saint-seiya-logo:before {
+  content: "\6b";
+}
+.icon-zodiac-wheel:before {
+  content: "\6c";
+}
+.icon-zodiac-wheel-2:before {
+  content: "\6d";
 }

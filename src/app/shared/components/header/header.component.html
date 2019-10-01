@@ -1,4 +1,6 @@
 <div class="header">
+  <app-spinner [spinner]="'zodiac-wheel'" [color]="'dark-blue'"></app-spinner>
+
   <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
     <a class="navbar-brand" href="/">
       <i class="icon-athena-staff"></i>
@@ -9,16 +11,36 @@
     </button>
 
     <mat-menu #beforeMenu="matMenu" xPosition="before">
-      <app-menu-items [midiasMenu]="midiasMenu"></app-menu-items>
+      <app-menu-items [midiasMenu]="midiasMenu" [classesMenu]="classesMenu"></app-menu-items>
     </mat-menu>
 
     <div class="collapse navbar-collapse">
-      <app-menu-items [midiasMenu]="midiasMenu"></app-menu-items>
+      <app-menu-items [midiasMenu]="midiasMenu" [classesMenu]="classesMenu"></app-menu-items>
     </div>
 
     <mat-menu #midiasMenu="matMenu" xPosition="before">
       <ng-container *ngIf="midias.length > 0">
-        <a *ngFor="let midia of midias" class="dropdown-item nav-link" href="/{{ midia.toLowerCase() }}" mat-menu-item>{{ midia }}</a>
+        <a
+          *ngFor="let midia of midias"
+          class="dropdown-item nav-link"
+          href="/{{ midia.toLowerCase() }}"
+          mat-menu-item
+        >
+          {{ midia }}
+        </a>
+      </ng-container>
+    </mat-menu>
+
+    <mat-menu #classesMenu="matMenu" xPosition="before">
+      <ng-container *ngIf="classes.length > 0">
+        <a
+          *ngFor="let cls of classes"
+          class="dropdown-item nav-link"
+          href="/{{ cls.toLowerCase().replace(' ', '-') }}"
+          mat-menu-item
+        >
+          {{ cls }}
+        </a>
       </ng-container>
     </mat-menu>
   </nav>

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DebutsService } from '../../services';
+import { DebutsService, ClassesService } from '../../services';
 
 @Component({
   selector: 'app-header',
@@ -7,27 +7,32 @@ import { DebutsService } from '../../services';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  debuts = [];
 
   midias = [];
 
-  constructor( private debutsService: DebutsService ) { }
+  classes = [];
+
+  constructor( private debutsService: DebutsService, private classesService: ClassesService ) { }
 
   ngOnInit() {
     this.getDebuts();
+
+    this.getClasses();
   }
 
-  getDebuts() {
-    this.debutsService.getDebuts().subscribe((response: any) => {
-      this.debuts = response.data.map(debut => {
-        this.midias.push(debut.midia);
+  async getDebuts() {
+    const response: any = await this.debutsService.getDebuts().toPromise();
 
-        return debut;
-      });
+    response.data.map(debut => this.midias.push(debut.midia));
 
-      this.midias = Array.from(new Set(this.midias));
-    }, err => {
-      console.error(err.message);
+    this.midias = Array.from(new Set(this.midias)).sort();
+  }
+
+  getClasses() {
+    this.classesService.getClasses().subscribe((response: any) => {
+      response.data.map(cls => this.classes.push(cls.name));
+
+      this.classes.sort();
     });
   }
 }

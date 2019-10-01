@@ -1,21 +1,30 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { MatMenuModule } from '@angular/material';
+import { MatMenuModule, MatProgressSpinnerModule } from '@angular/material';
 
-import { HeaderComponent, MenuItemsComponent } from './';
+import {
+  HeaderComponent,
+  MenuItemsComponent,
+  SpinnerComponent,
+  ZodiacWheelComponent,
+} from './';
 
 @NgModule({
   declarations: [
     HeaderComponent,
     MenuItemsComponent,
+    SpinnerComponent,
+    ZodiacWheelComponent,
   ],
   imports: [
     CommonModule,
     MatMenuModule,
+    MatProgressSpinnerModule
   ],
   exports: [
-    HeaderComponent
+    HeaderComponent,
+    SpinnerComponent,
   ]
 })
 export class SharedModule { }

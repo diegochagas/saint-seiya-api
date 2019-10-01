@@ -219,6 +219,7 @@ const buildResponse = (success, message, data = {}) => ({ success, message, data
 const initialURLs = {
   characters: '/characters',
   charactersId: '/characters/:id',
+  classes: '/classes',
   class: '/:class',
   classId: '/:class/:id',
   debuts: '/debuts',
@@ -342,6 +343,8 @@ app.get(initialURLs.charactersId, (req, res) => {
   }
 });
 
+app.get(initialURLs.classes, (req, res) => res.status(200).json(buildResponse(true, 'Classes founded', content.classes)));
+
 app.get(initialURLs.class, (req, res) => {
   let cls = content.classes.find(cls => req.params.class === cls.name.toLowerCase().replace(' ', '-'));
 
@@ -374,8 +377,8 @@ app.get(initialURLs.classId, (req, res) => {
 
 app.get('*', (req, res) => res.sendFile(path.join(`$/dist/$/index.html`)));
 
-app.use((req, res, next) => buildResponse(res, 404, false, `${req.url} not found`));
+app.use((req, res, next) => res.status(404).json(buildResponse(false, `${req.url} not found`)));
 
-app.use((err, req, res, next) => buildResponse(res, 500, false, String(err)));
+app.use((err, req, res, next) => res.status(500).json(buildResponse(false, String(err))));
 
 app.listen(PORT, () => console.log(`App is listening on port ${PORT}`));
