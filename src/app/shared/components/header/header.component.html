@@ -3,29 +3,23 @@
     <a class="navbar-brand" href="/">
       <i class="icon-athena-staff"></i>
     </a>
+
     <button class="navbar-toggler" mat-button [matMenuTriggerFor]="beforeMenu">
       <i class="material-icons">menu</i>
     </button>
+
     <mat-menu #beforeMenu="matMenu" xPosition="before">
-      <a class="nav-link" href="/characters" mat-menu-item>Characters</a>
-
-      <a class="nav-link" href="/classes" mat-menu-item>Classes</a>
-
-      <button class="nav-link dropdown-toggle" mat-menu-item [matMenuTriggerFor]="belowMenu">Midias</button>
+      <app-menu-items [midiasMenu]="midiasMenu"></app-menu-items>
     </mat-menu>
 
     <div class="collapse navbar-collapse">
-      <a class="nav-link" href="/characters" mat-menu-item>Characters</a>
-
-      <a class="nav-link" href="/classes" mat-menu-item>Classes</a>
-
-      <button class="nav-link dropdown-toggle" mat-menu-item [matMenuTriggerFor]="belowMenu">Midias</button>
+      <app-menu-items [midiasMenu]="midiasMenu"></app-menu-items>
     </div>
 
-    <mat-menu #belowMenu="matMenu" xPosition="before">
-      <a class="dropdown-item nav-link" href="#" mat-menu-item>Action</a>
-
-      <a class="dropdown-item nav-link" href="#" mat-menu-item>Another action</a>
+    <mat-menu #midiasMenu="matMenu" xPosition="before">
+      <ng-container *ngIf="midias.length > 0">
+        <a *ngFor="let midia of midias" class="dropdown-item nav-link" href="/{{ midia.toLowerCase() }}" mat-menu-item>{{ midia }}</a>
+      </ng-container>
     </mat-menu>
   </nav>
 </div>

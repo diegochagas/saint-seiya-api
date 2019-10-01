@@ -22,10 +22,6 @@
       }
     }
 
-    .mat-menu-item {
-      width: initial;
-    }
-
     .navbar-collapse {
       padding-left: 60px;
     }
@@ -35,12 +31,6 @@
         background-color: rgba(0, 0, 0, 0.3);
       }
     }
-  }
-}
-
-.mat-menu-item-submenu-trigger {
-  &:after {
-    color: rgba(255, 255, 255, 0.5);
   }
 }
 

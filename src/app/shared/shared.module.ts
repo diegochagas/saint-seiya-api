@@ -3,11 +3,12 @@ import { CommonModule } from '@angular/common';
 
 import { MatMenuModule } from '@angular/material';
 
-import { HeaderComponent } from './';
+import { HeaderComponent, MenuItemsComponent } from './';
 
 @NgModule({
   declarations: [
     HeaderComponent,
+    MenuItemsComponent,
   ],
   imports: [
     CommonModule,
