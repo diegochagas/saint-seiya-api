@@ -1,9 +1,20 @@
 <div class="home">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <i class="icon-athena-staff"></i>
-  <h2>Here are all the links that you can send requests: </h2>
+  <div class="presentation">
+    <div class="description">
+      <h2>The characters!<br>The cloths!<br>The saints!</h2>
+
+      <h1>Saint Seiya API</h1>
+
+      <button class="btn btn-dark">Get started</button>
+    </div>
+
+    <div class="skew-box"></div>
+
+    <div class="image-container">
+      <img class="img-fluid" src="(../../assets/images/bronze-saints-background.jpeg" alt="">
+    </div>
+  </div>
+
   <ng-container *ngIf="urls.length; else Loading">
     <ul class="urls">
       <li *ngFor="let url of urls">
@@ -13,8 +24,10 @@
       </li>
     </ul>
   </ng-container>
+
   <ng-template #Loading>
     <p>Loading urls...</p>
+
     <progress></progress>
   </ng-template>
 </div>
