@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { MatMenuModule, MatProgressSpinnerModule } from '@angular/material';
 
 import {
+  FooterComponent,
   HeaderComponent,
   MenuItemsComponent,
   SpinnerComponent,
@@ -12,6 +13,7 @@ import {
 
 @NgModule({
   declarations: [
+    FooterComponent,
     HeaderComponent,
     MenuItemsComponent,
     SpinnerComponent,
@@ -23,6 +25,7 @@ import {
     MatProgressSpinnerModule
   ],
   exports: [
+    FooterComponent,
     HeaderComponent,
     SpinnerComponent,
   ]
