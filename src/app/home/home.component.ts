@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { UrlsService } from '../shared/services';
 
 @Component({
   selector: 'app-home',
@@ -9,7 +8,7 @@ import { UrlsService } from '../shared/services';
 export class HomeComponent implements OnInit {
   title = "Saint Seiya API"
 
-  constructor( private urlsService: UrlsService ) { }
+  constructor() { }
 
   ngOnInit() {
   }

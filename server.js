@@ -20,6 +20,8 @@ const content = {};
 const genders = ['Male', 'Female'];
 const bloodTypes = ['A', 'B', 'AB', 'O', 'Ikhor'];
 
+const noSchemeImage = "https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/others%2Fno-scheme.png?alt=media&token=fe50ebdc-d7d6-4238-81c4-c49a48c2c40a";
+
 const fileNames = [
   "affiliations",
   "artists",
@@ -31,13 +33,13 @@ const fileNames = [
   "debuts",
   "familyMembers",
   "kinships",
-  "lists",
   "masters",
   "midias",
   "midias",
   "nationality",
   "places",
   "ranks",
+  "representations",
   "saints"
 ];
 
@@ -89,9 +91,7 @@ const buildSaint = saintId => {
         }
     });
 
-    if (!saint.scheme) {
-        saint.scheme = "https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/others%2Fno-scheme.png?alt=media&token=fe50ebdc-d7d6-4238-81c4-c49a48c2c40a";
-    }
+    saint.scheme = saint.scheme || noSchemeImage;
 
     content.artists.find(artist => {
         if (saint.artist === artist.id) {
@@ -107,9 +107,9 @@ const buildSaint = saintId => {
         }
     });
 
-    content.lists.forEach(list => {
-        if (list.id === saint.list) {
-            saint.list = list.name;
+    content.representations.forEach(representation => {
+        if (representation.id === saint.representation) {
+            saint.representation = representation.name;
         }
     });
 
@@ -117,18 +117,17 @@ const buildSaint = saintId => {
 }
 
 const buildCloths = character => {
-    const cloths = [];
-    content.saints.forEach(saint => {
-        if (saint.character === character.id) {
-            const cloth = buildSaint(saint.id);
+  const cloths = [];
+  content.saints.forEach(saint => {
+    if (saint.character === character.id) {
+      const cloth = buildSaint(saint.id);
 
-            delete cloth.id;
-            delete cloth.character;
+      delete cloth.character;
 
-            cloths.push(cloth);
-        }
-    });
-    return cloths;
+      cloths.push(cloth);
+    }
+  });
+  return cloths;
 }
 
 const buildCharacter = characterObject => {
@@ -211,36 +210,14 @@ const buildCharacter = characterObject => {
 
     character.cloth = buildCloths(character);
 
+    character.image = character.cloth.length ? character.cloth[0].scheme : noSchemeImage;
+
     return character;
 }
 
 const buildResponse = (success, message, data = {}) => ({ success, message, data });
 
-const initialURLs = {
-  characters: '/characters',
-  charactersId: '/characters/:id',
-  classes: '/classes',
-  class: '/:class',
-  classId: '/:class/:id',
-  debuts: '/debuts',
-  debutsId: '/debuts/:id',
-  listsType: '/lists/:type',
-  listsTypeId: '/lists/:type/:id',
-};
-
-app.get('/urls', (req, res) => {
-  let urls = [];
-
-  urls.push(initialURLs.characters);
-
-  content.classes.forEach(cls => urls.push(`/${cls.name.toLowerCase().replace(' ', '-')}`));
-
-  urls = Array.from(new Set(urls)).sort();
-
-  res.status(200).json(urls);
-});
-
-app.get(initialURLs.debuts, (req, res) => {
+app.get('/debuts', (req, res) => {
   const debuts = content.debuts.map(debutObject => {
     const debut = Object.assign({}, debutObject);
 
@@ -254,7 +231,7 @@ app.get(initialURLs.debuts, (req, res) => {
   res.status(200).json(buildResponse(true, 'Debuts founded', debuts));
 });
 
-app.get(initialURLs.debutsId, (req, res) => {
+app.get('/debuts/:id', (req, res) => {
   const debutObject = content.debuts.find(debut => debut.id === req.params.id);
 
   if (debutObject) {
@@ -275,30 +252,30 @@ app.get(initialURLs.debutsId, (req, res) => {
   }
 });
 
-app.get(initialURLs.listsType, (req, res) => {
+app.get('/representations/:type', (req, res) => {
   const { type } = req.params;
 
-  const lists = content.lists.filter(list => {
-    if (list.id.includes(type)) {
-      const saints = content.saints.filter(saint => list.id === saint.list);
+  const representations = content.representations.filter(representation => {
+    if (representation.id.includes(type)) {
+      const saints = content.saints.filter(saint => representation.id === saint.representation);
 
-      list.saints = saints ? saints.map(saint => buildSaint(saint.id)) : [];
+      representation.saints = saints ? saints.map(saint => buildSaint(saint.id)) : [];
 
-      return list;
+      return representation;
     }
   });
 
   const typeName = type.charAt(0).toUpperCase() + type.replace('-', ' ').substring(1);
 
-  if (lists.length) {
+  if (representations.length) {
     let data = {};
 
     if (type.includes('constellation')) {
-      data = { modernConstellations: lists.slice(0, 88), otherConstellations: lists.slice(88) };
+      data = { modernConstellations: representations.slice(0, 88), otherConstellations: representations.slice(88) };
     } else if (type.includes('evil-star')) {
-      data = { destinyStars: lists.slice(0, 108), otherCases: lists.slice(108) };
+      data = { destinyStars: representations.slice(0, 108), otherCases: representations.slice(108) };
     } else {
-      data = { lists };
+      data = { representations };
     }
 
     res.status(200).json(buildResponse(true, `${typeName} founded`, data));
@@ -307,19 +284,19 @@ app.get(initialURLs.listsType, (req, res) => {
   }
 });
 
-app.get(initialURLs.listsTypeId, (req, res) => {
+app.get('/representations/:type/:id', (req, res) => {
   const { type } = req.params;
 
   const id = `${req.params.type}-${req.params.id}`;
 
-  const list = content.lists.find(list => list.id === id);
+  const representation = content.representations.find(representation => representation.id === id);
 
   const typeName = type.charAt(0).toUpperCase() + type.replace('-', ' ').substring(1);
 
-  if (list) {
-    const saints = content.saints.filter(saint => saint.list === list.id);
+  if (representation) {
+    const saints = content.saints.filter(saint => saint.representation === representation.id);
 
-    const data = { list, saints: saints.map(saint => buildSaint(saint.id)) };
+    const data = { representation, saints: saints.map(saint => buildSaint(saint.id)) };
 
     res.status(200).json(buildResponse(true, `Characters from ${typeName} founded`, data));
   } else {
@@ -327,13 +304,13 @@ app.get(initialURLs.listsTypeId, (req, res) => {
   }
 });
 
-app.get(initialURLs.characters, (req, res) => {
+app.get('/characters', (req, res) => {
   const characters = content.characters.map(character => buildCharacter(character));
 
   res.status(200).json(buildResponse(true, 'Characters founded', characters));
 });
 
-app.get(initialURLs.charactersId, (req, res) => {
+app.get('/characters/:id', (req, res) => {
   const character = content.characters.find(character => character.id === req.params.id);
 
   if (character) {
@@ -343,9 +320,9 @@ app.get(initialURLs.charactersId, (req, res) => {
   }
 });
 
-app.get(initialURLs.classes, (req, res) => res.status(200).json(buildResponse(true, 'Classes founded', content.classes)));
+app.get('/classes', (req, res) => res.status(200).json(buildResponse(true, 'Classes founded', content.classes)));
 
-app.get(initialURLs.class, (req, res) => {
+app.get('/:class', (req, res) => {
   let cls = content.classes.find(cls => req.params.class === cls.name.toLowerCase().replace(' ', '-'));
 
   if (cls) {
@@ -363,7 +340,7 @@ app.get(initialURLs.class, (req, res) => {
   }
 });
 
-app.get(initialURLs.classId, (req, res) => {
+app.get('/:class/:id', (req, res) => {
   const cls = content.classes.find(cls => req.params.class === cls.name.toLowerCase().replace(' ', '-'));
 
   const saint = content.saints.find(saint => saint.class === cls.id && saint.id === req.params.id);
