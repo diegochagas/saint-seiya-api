@@ -9,12 +9,9 @@ import { UrlsService } from '../shared/services';
 export class HomeComponent implements OnInit {
   title = "Saint Seiya API"
 
-  urls = [];
-
   constructor( private urlsService: UrlsService ) { }
 
   ngOnInit() {
-    this.urlsService.getUrls().subscribe((response: any) => this.urls = response);
   }
 
 }

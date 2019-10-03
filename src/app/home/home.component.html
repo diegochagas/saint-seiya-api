@@ -3,31 +3,39 @@
     <div class="description">
       <h2>The characters!<br>The cloths!<br>The saints!</h2>
 
-      <h1>Saint Seiya API</h1>
+      <h1>{{ title }}</h1>
 
       <button class="btn btn-dark">Get started</button>
     </div>
 
-    <div class="skew-box"></div>
-
     <div class="image-container">
-      <img class="img-fluid" src="(../../assets/images/bronze-saints-background.jpeg" alt="">
+      <img class="img-fluid" src="(../../assets/images/bronze-saints-background.png" alt="">
     </div>
   </div>
 
-  <ng-container *ngIf="urls.length; else Loading">
-    <ul class="urls">
-      <li *ngFor="let url of urls">
-        <code>
-          <a target="_blank" rel="noopener" href="{{ url }}">{{ url }}</a>
-        </code>
-      </li>
-    </ul>
-  </ng-container>
+  <div class="others">
+    <div class="card">
+      <div class="card-body">
+        <a class="card-title" href="">
+          <span class="icon-saint-seiya-logo"></span>
 
-  <ng-template #Loading>
-    <p>Loading urls...</p>
+          <span>API documentation</span>
+        </a>
 
-    <progress></progress>
-  </ng-template>
+        <p class="card-text">Read the documentation and rules of the road for the Marvel Comics API.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <a class="card-title" href="">
+          <span class="icon-zodiac-wheel-2"></span>
+
+          <span>Test calls</span>
+        </a>
+
+        <p class="card-text">Use the interactive test page to explore and test API calls.</p>
+      </div>
+    </div>
+  </div>
 </div>

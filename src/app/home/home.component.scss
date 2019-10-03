@@ -9,20 +9,17 @@
     position: relative;
 
     .description {
+      color: white;
       left: 30px;
       position: absolute;
+      text-shadow: 2px 2px #000;
       top: 30px;
       z-index: 5;
-    }
 
-    .skew-box {
-      position: absolute;
-      height: 100%;
-      width: 64%;
-      margin-left: -65px;
-      background-color: rgba(15, 15, 15, 0.8);
-      transform: skew(-11deg);
-      z-index: 0;
+      .btn {
+        text-transform: uppercase;
+        padding: 10px 30px;
+      }
     }
 
     .image-container {
@@ -33,6 +30,7 @@
   .urls {
     list-style: none;
     padding: 0;
+    margin-top: 30px;
 
     a {
       color: white;
