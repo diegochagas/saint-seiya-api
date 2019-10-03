@@ -27,14 +27,22 @@
     }
   }
 
-  .urls {
-    list-style: none;
-    padding: 0;
-    margin-top: 30px;
+  .others {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
-    a {
-      color: white;
+    .card-container {
+      color: initial;
       text-decoration: none;
+    }
+
+    .card {
+      margin: 30px 10px 0 10px;
+
+      &:hover, &:focus {
+        background-color: rgba(255, 255, 255, 0.8);
+      }
     }
   }
 }

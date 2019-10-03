@@ -20,3 +20,15 @@ code {
 .mat-menu-content {
   background-color: #343a40;
 }
+
+.card-title.card-icon {
+  [class*="icon"] {
+    position: absolute;
+    font-size: 50px;
+    top: 7px;
+  }
+
+  .card-title-text {
+    margin-left: 60px;
+  }
+}
