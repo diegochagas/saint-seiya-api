@@ -7,7 +7,6 @@ import { DebutsService, ClassesService } from '../../services';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-
   midias = [];
 
   classes = [];

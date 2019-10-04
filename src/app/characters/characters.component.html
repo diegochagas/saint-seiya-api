@@ -1,98 +1,12 @@
 <div class="characters">
   <ng-container *ngIf="characters.length > 0; else spinner">
-    <div class="card" *ngFor="let character of characters">
-      <div class="card-body">
-        <h5 class="card-title">{{ character.name }}</h5>
-
-        <img src="{{ character.image }}" alt="" class="card-img">
-
-        <div class="card-text">
-          <p>
-            <b>Age: </b>
-            <span>{{ character.age }}</span>
-          </p>
-
-          <p>
-            <b>Gender: </b>
-            <span>{{ character.gender }}</span>
-          </p>
-
-          <p>
-            <b>Birth:</b>
-            <span>{{ character.birth }}</span>
-          </p>
-
-          <p>
-            <b>Nationality: </b>
-            <span>{{ character.nationality }}</span>
-          </p>
-
-          <p>
-            <b>Training: </b>
-            <span>{{ character.training }}</span>
-          </p>
-
-          <p>
-            <b>Height: </b>
-            <span>{{ character.height }}</span>
-          </p>
-
-          <p>
-            <b>Weight: </b>
-            <span>{{ character.weight }}</span>
-          </p>
-
-          <p>
-            <b>Blood: </b>
-            <span>{{ character.blood }}</span>
-          </p>
-
-          <p>
-            <b>Debut: </b>
-            <span>{{ character.debut }}</span>
-          </p>
-
-          <p>
-            <b>Master(s): </b>
-            <span *ngFor="let master of character.master; let i = index">{{ master }}{{ i === character.master.length - 1 ? '' : ' / ' }}</span>
-          </p>
-
-          <p>
-            <b>Apprentice(s): </b>
-            <span *ngFor="let apprentice of character.apprentice; let i = index">{{ apprentice }}{{ i === character.apprentice.length - 1 ? '' : ' / ' }}</span>
-          </p>
-
-          <p>
-            <b>Attacks: </b>
-            <span *ngFor="let attack of character.attacks; let i = index">{{ attack }}{{ i === character.attacks.length - 1 ? '' : ' / ' }}</span>
-          </p>
-
-          <p>
-            <b>Family: </b>
-            <span *ngFor="let family of character.family; let i = index">{{ family }}{{ i === character.family.length - 1 ? '' : ' / ' }}</span>
-          </p>
-
-          <ng-container *ngIf="character.cloth.length > 0">
-            <hr>
-
-            <h6 class="card-subtitle mb-2 text-muted">Cloths:</h6>
-
-            <a class="cloth" href="/{{ cloth.class.toLowerCase().replace(' ', '-') }}/{{ cloth.id }}" *ngFor="let cloth of character.cloth">
-              <img src="{{ cloth.scheme }}" alt="Cloth scheme" class="card-img-icon">
-
-              <span class="cloth-name">{{ cloth.cloth ? cloth.cloth : 'Cloth not revealed' }}</span>
-            </a>
-          </ng-container>
-        </div>
-      </div>
-
+    <div class="character-item" *ngFor="let character of characters">
+      <app-character [character]="character"></app-character>
     </div>
   </ng-container>
 
   <ng-template #spinner>
-    <div class="loading">
-      <app-spinner [spinner]="'zodiac-wheel'" [color]="'blue'"></app-spinner>
-    </div>
+    <app-spinner [spinner]="'zodiac-wheel'" [color]="'blue'"></app-spinner>
   </ng-template>
 </div>
 

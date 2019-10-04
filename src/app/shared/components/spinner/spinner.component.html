@@ -1,7 +1,9 @@
-<ng-container *ngIf="spinner == 'zodiac-wheel'">
-  <app-zodiac-wheel [color]="color"></app-zodiac-wheel>>
-</ng-container>
+<div class="spinner">
+  <ng-container *ngIf="spinner == 'zodiac-wheel'">
+    <app-zodiac-wheel [color]="color"></app-zodiac-wheel>
+  </ng-container>
 
-<ng-container *ngIf="spinner == undefined">
-  <mat-spinner></mat-spinner>
-</ng-container>
+  <ng-container *ngIf="spinner == undefined">
+    <mat-spinner></mat-spinner>
+  </ng-container>
+</div>

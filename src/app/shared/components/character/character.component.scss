@@ -1,0 +1,60 @@
+.character {
+  height: 100%;
+
+  &.single {
+    .card {
+      width: initial;
+    }
+
+    .card-body {
+      display: flex;
+    }
+
+    .card-img {
+      height: 600px;
+      margin: 20px 50px 20px 30px;
+      max-height: initial;
+      width: auto;
+    }
+  }
+
+  .card {
+    width: 270px;
+    height: 100%;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover, &:focus {
+      font-weight: bold;
+    }
+  }
+
+  .card-img {
+    display: block;
+    margin: 10px auto;
+    max-height: 150px;
+    max-width: 100%;
+    width: initial;
+  }
+
+  .cloth {
+    display: flex;
+    margin: 5px 0;
+    align-items: center;
+  }
+
+  .card-img-icon {
+    height: 50px;
+    margin-right: 10px;
+    width: 50px;
+  }
+
+  .cloth-name {
+    display: block;
+    font-size: 14px;
+    width: 130px;
+  }
+}

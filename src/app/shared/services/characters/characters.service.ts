@@ -21,4 +21,8 @@ export class CharactersService {
     return this.http.get(`${this.api}/characters`, { headers: this.headers });
   }
 
+  getCharacter(id) {
+    return this.http.get(`${this.api}/character/${id}`, { headers: this.headers });
+  }
+
 }

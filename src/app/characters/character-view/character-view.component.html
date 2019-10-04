@@ -1,0 +1,9 @@
+<div class="character-view">
+  <ng-container *ngIf="character; else spinner">
+    <app-character [character]="character" [single]="true"></app-character>
+  </ng-container>
+
+  <ng-template #spinner>
+    <app-spinner [spinner]="'zodiac-wheel'" [color]="'blue'"></app-spinner>
+  </ng-template>
+</div>

@@ -231,7 +231,7 @@ app.get('/debuts', (req, res) => {
   res.status(200).json(buildResponse(true, 'Debuts founded', debuts));
 });
 
-app.get('/debuts/:id', (req, res) => {
+app.get('/debut/:id', (req, res) => {
   const debutObject = content.debuts.find(debut => debut.id === req.params.id);
 
   if (debutObject) {
@@ -284,7 +284,7 @@ app.get('/representations/:type', (req, res) => {
   }
 });
 
-app.get('/representations/:type/:id', (req, res) => {
+app.get('/representation/:type/:id', (req, res) => {
   const { type } = req.params;
 
   const id = `${req.params.type}-${req.params.id}`;
@@ -310,11 +310,11 @@ app.get('/characters', (req, res) => {
   res.status(200).json(buildResponse(true, 'Characters founded', characters));
 });
 
-app.get('/characters/:id', (req, res) => {
+app.get('/character/:id', (req, res) => {
   const character = content.characters.find(character => character.id === req.params.id);
 
   if (character) {
-    res.status(200).json(buildResponse(true, 'Character founded', { character: buildCharacter(character) }));
+    res.status(200).json(buildResponse(true, 'Character founded', buildCharacter(character)));
   } else {
     res.status(404).json(buildResponse(false, 'Character not found'));
   }
