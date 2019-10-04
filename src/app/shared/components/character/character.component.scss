@@ -8,13 +8,18 @@
 
     .card-body {
       display: flex;
+      flex-wrap: wrap;
     }
 
     .card-img {
-      height: 600px;
-      margin: 20px 50px 20px 30px;
-      max-height: initial;
+      height: initial;
+      max-height: 680px;
       width: auto;
+
+      @media screen and (min-width: 1260px) {
+        margin-right: 40px;
+        margin-left: 20px;
+      }
     }
   }
 
