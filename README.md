@@ -11,6 +11,7 @@ A RESTful API for Saint Seiya - https://saint-seiya-api.herokuapp.com/
 
 ## Sources
 
+- [Saint Seiya Official Web site (Japanese)](http://saintseiya-official.com/)
 - [Saint Seiya Wiki](https://saintseiya.fandom.com/wiki/Seiyapedia)
 - [Saint Seiya Wiki (Portuguese)](https://saintseiya.fandom.com/pt-br/wiki/Saint_Seiya_Wiki)
 - [Saint Seiya Wiki (Spanish)](https://saintseiya.fandom.com/es/wiki/Saint_Seiya_Wiki)

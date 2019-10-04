@@ -1,0 +1,52 @@
+.characters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  .loading {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: -25px 0;
+    width: 100%;
+  }
+
+  .card {
+    margin: 50px 15px 0 15px;
+    width: 270px;
+
+    .card-img {
+      display: block;
+      margin: 0 auto;
+      max-height: 150px;
+      max-width: 100%;
+      width: initial;
+    }
+  }
+
+  .cloth {
+    color: initial;
+    text-decoration: none;
+    display: flex;
+    margin: 5px 0;
+    align-items: center;
+
+    &:hover, &:focus {
+      font-weight: bold;
+    }
+  }
+
+  .card-img-icon {
+    height: 50px;
+    margin-right: 10px;
+    width: 50px;
+  }
+
+  .cloth-name {
+    display: block;
+    font-size: 14px;
+    width: 130px;
+  }
+}

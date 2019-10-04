@@ -1,6 +1,6 @@
-id,character,cloth,class,rank,affiliation,scheme,artist,list
+id,character,cloth,class,rank,affiliation,scheme,artist,representation
 1,1,148,22,7,14,,,constellation-38
-2,2,371,7,9,29,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/corona-saints%2Fabel.jpg?alt=media&token=c461b0b1-8e72-45d1-a63f-4a57bdb71e56,,
+2,2,371,7,9,10,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/corona-saints%2Fabel.jpg?alt=media&token=c461b0b1-8e72-45d1-a63f-4a57bdb71e56,,
 3,3,,22,,14,,,
 4,4,330,20,32,26,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/pallas-pallasites%2Fgraviton-aegaeon.jpg?alt=media&token=5f5c3f49-e0b3-47e7-abd3-0f9007bae575,,
 5,5,147,20,33,26,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/pallas-pallasites%2Fgauntlet-phantom-arm%20aegir-1.jpg?alt=media&token=b56f32c2-b3fa-4eb2-9bf7-5341152a4a5b,,
@@ -32,7 +32,7 @@ id,character,cloth,class,rank,affiliation,scheme,artist,list
 31,26,,19,9,8,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/ra-legionaries%2Fanubis.jpg?alt=media&token=14cc7b63-fcc2-43b2-af8c-b2e17f5b5f4f,,
 32,27,284,22,7,14,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/athena-saints%2Fpisces-aphrodite.jpg?alt=media&token=565747b1-af6b-464b-a955-c90e76ee3adb,1,constellation-66
 33,27,285,22,9,14,,,constellation-66
-34,28,373,7,9,29,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/corona-saints%2Fapollo.jpg?alt=media&token=72c39304-04e1-48f9-a51c-e7a953351376,,
+34,28,373,7,9,10,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/corona-saints%2Fapollo.jpg?alt=media&token=72c39304-04e1-48f9-a51c-e7a953351376,,
 35,29,,19,9,8,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/ra-legionaries%2Fapophis.jpg?alt=media&token=6ed62239-7a3f-4bbd-9387-92ad30846770,,
 36,30,,5,9,36,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/apsu%2Fapsu.jpg?alt=media&token=d93e6b87-a3c8-4e33-a8e3-14a1808a91f0,,
 37,31,335,22,6,14,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/athena-saints%2Ftarantula-arachne.png?alt=media&token=7c0882be-c896-408e-a10a-5466fc3e9f26,,constellation-93
