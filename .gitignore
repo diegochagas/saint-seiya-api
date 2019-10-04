@@ -10,6 +10,9 @@
 # dependencies
 /node_modules
 
+# adobe
+/Adobe After Effects Auto-Save
+
 # profiling files
 chrome-profiler-events*.json
 speed-measure-plugin*.json
