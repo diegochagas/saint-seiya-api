@@ -217,7 +217,7 @@ const buildCharacter = characterObject => {
 
 const buildResponse = (success, message, data = {}) => ({ success, message, data });
 
-app.get('/debuts', (req, res) => {
+app.get('/api/debuts', (req, res) => {
   const debuts = content.debuts.map(debutObject => {
     const debut = Object.assign({}, debutObject);
 
@@ -231,7 +231,7 @@ app.get('/debuts', (req, res) => {
   res.status(200).json(buildResponse(true, 'Debuts founded', debuts));
 });
 
-app.get('/debut/:id', (req, res) => {
+app.get('/api/debut/:id', (req, res) => {
   const debutObject = content.debuts.find(debut => debut.id === req.params.id);
 
   if (debutObject) {
@@ -252,7 +252,7 @@ app.get('/debut/:id', (req, res) => {
   }
 });
 
-app.get('/representations/:type', (req, res) => {
+app.get('/api/representations/:type', (req, res) => {
   const { type } = req.params;
 
   const representations = content.representations.filter(representation => {
@@ -284,7 +284,7 @@ app.get('/representations/:type', (req, res) => {
   }
 });
 
-app.get('/representation/:type/:id', (req, res) => {
+app.get('/api/representation/:type/:id', (req, res) => {
   const { type } = req.params;
 
   const id = `${req.params.type}-${req.params.id}`;
@@ -304,13 +304,13 @@ app.get('/representation/:type/:id', (req, res) => {
   }
 });
 
-app.get('/characters', (req, res) => {
+app.get('/api/characters', (req, res) => {
   const characters = content.characters.map(character => buildCharacter(character));
 
   res.status(200).json(buildResponse(true, 'Characters founded', characters));
 });
 
-app.get('/character/:id', (req, res) => {
+app.get('/api/character/:id', (req, res) => {
   const character = content.characters.find(character => character.id === req.params.id);
 
   if (character) {
@@ -320,9 +320,9 @@ app.get('/character/:id', (req, res) => {
   }
 });
 
-app.get('/classes', (req, res) => res.status(200).json(buildResponse(true, 'Classes founded', content.classes)));
+app.get('/api/classes', (req, res) => res.status(200).json(buildResponse(true, 'Classes founded', content.classes)));
 
-app.get('/:class', (req, res) => {
+app.get('/api/:class', (req, res) => {
   let cls = content.classes.find(cls => req.params.class === cls.name.toLowerCase().replace(' ', '-'));
 
   if (cls) {
@@ -340,7 +340,7 @@ app.get('/:class', (req, res) => {
   }
 });
 
-app.get('/:class/:id', (req, res) => {
+app.get('/api/:class/:id', (req, res) => {
   const cls = content.classes.find(cls => req.params.class === cls.name.toLowerCase().replace(' ', '-'));
 
   const saint = content.saints.find(saint => saint.class === cls.id && saint.id === req.params.id);
