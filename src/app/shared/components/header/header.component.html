@@ -11,11 +11,23 @@
     </button>
 
     <mat-menu #beforeMenu="matMenu" xPosition="before">
-      <app-menu-items [midiasMenu]="midiasMenu" [classesMenu]="classesMenu"></app-menu-items>
+      <div class="menu-items">
+        <a class="nav-link" href="/characters" mat-menu-item>Characters</a>
+
+        <button class="nav-link dropdown-toggle" mat-menu-item [matMenuTriggerFor]="classesMenu">Classes</button>
+
+        <button class="nav-link dropdown-toggle" mat-menu-item [matMenuTriggerFor]="midiasMenu">Midias</button>
+      </div>
     </mat-menu>
 
     <div class="collapse navbar-collapse">
-      <app-menu-items [midiasMenu]="midiasMenu" [classesMenu]="classesMenu"></app-menu-items>
+      <div class="menu-items">
+        <a class="nav-link" href="/characters" mat-menu-item>Characters</a>
+
+        <button class="nav-link dropdown-toggle" mat-menu-item [matMenuTriggerFor]="classesMenu">Classes</button>
+
+        <button class="nav-link dropdown-toggle" mat-menu-item [matMenuTriggerFor]="midiasMenu">Midias</button>
+      </div>
     </div>
 
     <mat-menu #midiasMenu="matMenu" xPosition="before">

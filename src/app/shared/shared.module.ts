@@ -7,7 +7,6 @@ import {
   CharacterComponent,
   FooterComponent,
   HeaderComponent,
-  MenuItemsComponent,
   SpinnerComponent,
   ZodiacWheelComponent,
 } from './';
@@ -17,7 +16,6 @@ import {
     CharacterComponent,
     FooterComponent,
     HeaderComponent,
-    MenuItemsComponent,
     SpinnerComponent,
     ZodiacWheelComponent,
   ],

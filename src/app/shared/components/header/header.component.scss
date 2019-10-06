@@ -15,6 +15,10 @@
       align-items: center;
       height: 53px;
 
+      &:hover, &:focus {
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+
       @media screen and (min-width: 769px) {
         top: 6px;
       }
@@ -36,9 +40,28 @@
       padding-left: 200px;
     }
 
-    .navbar-brand {
-      &:hover, &:focus {
-        background-color: rgba(0, 0, 0, 0.3);
+    .menu-items {
+      @media screen and (min-width: 769px) {
+        display: flex;
+      }
+
+      .mat-menu-item {
+        width: initial;
+      }
+
+      .nav-link {
+        color: rgba(255, 255, 255, 0.5);
+
+        &:hover, &:focus {
+          background-color: rgba(0, 0, 0, 0.3);
+          color: rgba(255, 255, 255, 0.75);
+        }
+      }
+    }
+
+    .mat-menu-item-submenu-trigger {
+      &:after {
+        color: rgba(255, 255, 255, 0.5);
       }
     }
   }
