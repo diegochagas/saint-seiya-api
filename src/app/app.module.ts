@@ -12,6 +12,11 @@ import {
   CharactersComponent,
   HomeComponent,
 } from './';
+import { GetStartedComponent } from './get-started/get-started.component';
+import { ClassesComponent } from './classes/classes.component';
+import { MidiasComponent } from './midias/midias.component';
+import { MidiaViewComponent } from './midias/midia-view/midia-view.component';
+import { MidiaListComponent } from './midias/midia-list/midia-list.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +24,11 @@ import {
     CharacterViewComponent,
     CharactersComponent,
     HomeComponent,
+    GetStartedComponent,
+    ClassesComponent,
+    MidiasComponent,
+    MidiaViewComponent,
+    MidiaListComponent,
   ],
   imports: [
     AppRoutingModule,
