@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
-import { CharactersService } from '../../shared';
+import { CharactersService, ClassesService } from '../../shared';
 
 @Component({
   selector: 'app-character-view',
@@ -11,13 +11,29 @@ import { CharactersService } from '../../shared';
 export class CharacterViewComponent implements OnInit {
   character;
 
+  detailsType;
+
+  id;
+
+  className;
+
   constructor(
     private activatedRoute: ActivatedRoute,
     private charactersService: CharactersService,
-  ) { }
+    private classService: ClassesService,
+  ) {
+    this.detailsType = this.activatedRoute.snapshot.params.details;
 
-  ngOnInit() {
-    this.charactersService.getCharacter(this.activatedRoute.snapshot.params.id).subscribe((response: any) => this.character = response.data);
+    this.id = this.activatedRoute.snapshot.params.id;
+
+    this.className = this.activatedRoute.snapshot.params.class;
   }
 
+  ngOnInit() {
+    if (this.detailsType === 'personal') {
+      this.charactersService.getCharacter(this.id).subscribe((response: any) => this.character = response.data);
+    } else if (this.detailsType === 'classes') {
+      this.classService.getSaint(this.className, this.id).subscribe((response: any) => this.character = response.data.saint);
+    }
+  }
 }

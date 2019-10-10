@@ -28,7 +28,7 @@ export class HeaderComponent implements OnInit {
   }
 
   getClasses() {
-    this.classesService.getClasses().subscribe((response: any) => {
+    this.classesService.getClassNames().subscribe((response: any) => {
       response.data.map(cls => this.classes.push(cls.name));
 
       this.classes.sort();

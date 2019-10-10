@@ -1,12 +1,26 @@
 <div class="characters">
-  <ng-container *ngIf="characters.length > 0; else spinner">
-    <div class="character-item" *ngFor="let character of characters">
-      <app-character [character]="character"></app-character>
-    </div>
-  </ng-container>
+  <ng-container [ngSwitch]="detailsType">
+    <ng-container *ngSwitchCase="'personal'">
+      <ng-container *ngIf="characters.length > 0; else spinner">
+        <div class="character-item" *ngFor="let character of characters">
+          <app-personal-details [character]="character"></app-personal-details>
+        </div>
+      </ng-container>
+    </ng-container>
 
-  <ng-template #spinner>
-    <app-spinner [spinner]="'zodiac-wheel'" [color]="'blue'"></app-spinner>
-  </ng-template>
+    <ng-container *ngSwitchCase="'classes'">
+      <div class="character-item" *ngFor="let character of characters">
+        <app-class-details [cls]="character"></app-class-details>
+      </div>
+    </ng-container>
+
+    <ng-container *ngSwitchDefault>
+      <app-spinner [spinner]="'zodiac-wheel'" [color]="'blue'"></app-spinner>
+    </ng-container>
+
+    <ng-template #spinner>
+      <app-spinner [spinner]="'zodiac-wheel'" [color]="'blue'"></app-spinner>
+    </ng-template>
+  </ng-container>
 </div>
 

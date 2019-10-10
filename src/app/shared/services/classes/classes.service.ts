@@ -17,7 +17,19 @@ export class ClassesService {
 
   constructor( private  http: HttpClient ) { }
 
-  getClasses() {
-    return this.http.get(`${this.api}/classes`, { headers: this.headers });
+  getClassNames() {
+    return this.http.get(`${this.api}/class-names`, { headers: this.headers });
+  }
+
+  getAllClasses() {
+    return this.http.get(`${this.api}/all-classes`, { headers: this.headers });
+  }
+
+  getClass(className: string) {
+    return this.http.get(`${this.api}/${className}`, { headers: this.headers });
+  }
+
+  getSaint(className: string, id: string) {
+    return this.http.get(`${this.api}/${className}/${id}`, { headers: this.headers });
   }
 }

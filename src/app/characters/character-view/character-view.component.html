@@ -1,9 +1,23 @@
 <div class="character-view">
-  <ng-container *ngIf="character; else spinner">
-    <app-character [character]="character" [single]="true"></app-character>
-  </ng-container>
+  <ng-container [ngSwitch]="detailsType">
+    <ng-container *ngSwitchCase="'personal'">
+      <ng-container *ngIf="character; else spinner">
+        <app-personal-details [character]="character" [single]="true"></app-personal-details>
+      </ng-container>
+    </ng-container>
 
-  <ng-template #spinner>
-    <app-spinner [spinner]="'zodiac-wheel'" [color]="'blue'"></app-spinner>
-  </ng-template>
+    <ng-container *ngSwitchCase="'classes'">
+      <ng-container *ngIf="character; else spinner">
+        <app-class-details [cls]="character" [single]="true"></app-class-details>
+      </ng-container>
+    </ng-container>
+
+    <ng-container *ngSwitchDefault>
+      <app-spinner [spinner]="'zodiac-wheel'" [color]="'blue'"></app-spinner>
+    </ng-container>
+
+    <ng-template #spinner>
+      <app-spinner [spinner]="'zodiac-wheel'" [color]="'blue'"></app-spinner>
+    </ng-template>
+  </ng-container>
 </div>

@@ -4,7 +4,6 @@ import { Routes, RouterModule } from '@angular/router';
 import {
   CharacterViewComponent,
   CharactersComponent,
-  ClassesComponent,
   GetStartedComponent,
   HomeComponent,
   MidiaListComponent,
@@ -18,20 +17,20 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'characters',
+    path: 'characters/:details',
     component: CharactersComponent
   },
   {
-    path: 'character/:id',
+    path: 'characters/:details/:class',
+    component: CharactersComponent
+  },
+  {
+    path: 'characters/:details/:class/:id',
     component: CharacterViewComponent
   },
   {
     path: 'get-started',
     component: GetStartedComponent
-  },
-  {
-    path: 'classes',
-    component: ClassesComponent
   },
   {
     path: 'midias',

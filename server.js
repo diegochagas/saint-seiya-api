@@ -320,7 +320,15 @@ app.get('/api/character/:id', (req, res) => {
   }
 });
 
-app.get('/api/classes', (req, res) => res.status(200).json(buildResponse(true, 'Classes founded', content.classes)));
+app.get('/api/class-names', (req, res) => res.status(200).json(buildResponse(true, 'Class names founded', content.classes)));
+
+app.get('/api/all-classes', (req, res) => {
+  const allClasses = [];
+
+  content.saints.forEach(saint => allClasses.push(buildSaint(saint.id)));
+
+  res.status(200).json(buildResponse(true, `All classes founded`, allClasses));
+})
 
 app.get('/api/:class', (req, res) => {
   let cls = content.classes.find(cls => req.params.class === cls.name.toLowerCase().replace(' ', '-'));

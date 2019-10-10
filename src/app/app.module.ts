@@ -10,25 +10,27 @@ import {
   AppComponent,
   CharacterViewComponent,
   CharactersComponent,
+  ClassDetailsComponent,
+  GetStartedComponent,
   HomeComponent,
+  MidiaListComponent,
+  MidiaViewComponent,
+  MidiasComponent,
+  PersonalDetailsComponent,
 } from './';
-import { GetStartedComponent } from './get-started/get-started.component';
-import { ClassesComponent } from './classes/classes.component';
-import { MidiasComponent } from './midias/midias.component';
-import { MidiaViewComponent } from './midias/midia-view/midia-view.component';
-import { MidiaListComponent } from './midias/midia-list/midia-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CharacterViewComponent,
     CharactersComponent,
-    HomeComponent,
+    ClassDetailsComponent,
     GetStartedComponent,
-    ClassesComponent,
-    MidiasComponent,
-    MidiaViewComponent,
+    HomeComponent,
     MidiaListComponent,
+    MidiaViewComponent,
+    MidiasComponent,
+    PersonalDetailsComponent,
   ],
   imports: [
     AppRoutingModule,

@@ -1,8 +1,8 @@
-<div [ngClass]="{'character': true, 'single': single }">
+<div [ngClass]="{ 'personal-details': true, 'single': single }">
   <div class="card text-white bg-dark">
     <div class="card-header">
       <h5>
-        <a href="/character/{{ character.id }}">{{ character.name }}</a>
+        <a href="/characters/personal/all/{{ character.id }}">{{ character.name }}</a>
       </h5>
     </div>
 
@@ -79,7 +79,7 @@
           <div class="card-footer">
             <h6 class="card-subtitle">Cloths:</h6>
 
-            <a class="cloth" href="/{{ cloth.class.toLowerCase().replace(' ', '-') }}/{{ cloth.id }}" *ngFor="let cloth of character.cloth">
+            <a class="cloth" href="/characters/classes/{{ cloth.class.toLowerCase().replace(' ', '-') }}/{{ cloth.id }}" *ngFor="let cloth of character.cloth">
               <img src="{{ cloth.scheme }}" alt="Cloth scheme" class="card-img-icon">
 
               <span class="cloth-name">{{ cloth.cloth ? cloth.cloth : 'Cloth not revealed' }}</span>

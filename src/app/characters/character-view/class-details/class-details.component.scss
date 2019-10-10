@@ -1,9 +1,10 @@
-.character {
+.class-details {
   height: 100%;
 
   &.single {
     .card {
       width: initial;
+      max-width: 1024px;
     }
 
     .card-body {
@@ -13,13 +14,17 @@
 
     .card-img {
       height: initial;
-      max-height: 680px;
-      width: auto;
+      max-height: 400px;
 
       @media screen and (min-width: 1260px) {
         margin-right: 40px;
         margin-left: 20px;
       }
+    }
+
+    .card-text {
+      max-width: 320px;
+      padding-top: 20px;
     }
   }
 
@@ -43,23 +48,5 @@
     max-height: 150px;
     max-width: 100%;
     width: initial;
-  }
-
-  .cloth {
-    display: flex;
-    margin: 5px 0;
-    align-items: center;
-  }
-
-  .card-img-icon {
-    height: 50px;
-    margin-right: 10px;
-    width: 50px;
-  }
-
-  .cloth-name {
-    display: block;
-    font-size: 14px;
-    width: 130px;
   }
 }

@@ -1,4 +1,3 @@
-export * from './character';
 export * from './data-collectors';
 export * from './footer';
 export * from './header';
