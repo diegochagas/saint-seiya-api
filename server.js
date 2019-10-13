@@ -215,7 +215,7 @@ const buildCharacter = characterObject => {
     return character;
 }
 
-const buildResponse = (success, message, data = {}) => ({ success, message, data });
+const buildResponse = (message, data = {}) => ({ message, data });
 
 app.get('/api/debuts', (req, res) => {
   const debuts = content.debuts.map(debutObject => {
@@ -228,7 +228,7 @@ app.get('/api/debuts', (req, res) => {
     return debut;
   });
 
-  res.status(200).json(buildResponse(true, 'Debuts founded', debuts));
+  res.status(200).json(buildResponse('Debuts founded', debuts));
 });
 
 app.get('/api/debut/:id', (req, res) => {
@@ -245,37 +245,37 @@ app.get('/api/debut/:id', (req, res) => {
 
     const data = { debut, characters: characters.map(character => buildCharacter(character)) };
 
-    res.status(200).json(buildResponse(true, 'Debut founded', data));
+    res.status(200).json(buildResponse('Debut founded', data));
   } else {
 
-    res.status(404).json(buildResponse(false, 'Debut not found'));
+    res.status(404).json(buildResponse('Debut not found'));
   }
 });
 
 app.get('/api/characters', (req, res) => {
   const characters = content.characters.map(character => buildCharacter(character));
 
-  res.status(200).json(buildResponse(true, 'Characters founded', characters));
+  res.status(200).json(buildResponse('Characters founded', characters));
 });
 
 app.get('/api/character/:id', (req, res) => {
   const character = content.characters.find(character => character.id === req.params.id);
 
   if (character) {
-    res.status(200).json(buildResponse(true, 'Character founded', buildCharacter(character)));
+    res.status(200).json(buildResponse('Character founded', buildCharacter(character)));
   } else {
-    res.status(404).json(buildResponse(false, 'Character not found'));
+    res.status(404).json(buildResponse('Character not found'));
   }
 });
 
-app.get('/api/class-names', (req, res) => res.status(200).json(buildResponse(true, 'Class names founded', content.classes)));
+app.get('/api/class-names', (req, res) => res.status(200).json(buildResponse('Class names founded', content.classes)));
 
 app.get('/api/all-classes', (req, res) => {
   const allClasses = [];
 
   content.saints.forEach(saint => allClasses.push(buildSaint(saint.id)));
 
-  res.status(200).json(buildResponse(true, `All classes founded`, allClasses));
+  res.status(200).json(buildResponse(`All classes founded`, allClasses));
 })
 
 app.get('/api/:class', (req, res) => {
@@ -314,9 +314,9 @@ app.get('/api/:class', (req, res) => {
       otherConstellations.push(constellation);
     });
 
-    res.status(200).json(buildResponse(true, 'Constellations founded', { modernConstellations, otherConstellations }));
+    res.status(200).json(buildResponse('Constellations founded', { modernConstellations, otherConstellations }));
   } else if (req.params.class === 'evil-stars') {
-    res.status(200).json(buildResponse(true, 'Evil stars founded', content.evilStars));
+    res.status(200).json(buildResponse('Evil stars founded', content.evilStars));
   } else if (cls) {
     const saints = [];
 
@@ -326,9 +326,9 @@ app.get('/api/:class', (req, res) => {
       }
     });
 
-    res.status(200).json(buildResponse(true, `${ cls.name } founded`, saints));
+    res.status(200).json(buildResponse(`${ cls.name } founded`, saints));
   } else {
-    res.status(404).json(buildResponse(false, `${req.params.class} not found`));
+    res.status(404).json(buildResponse(`${req.params.class} not found`));
   }
 });
 
@@ -350,18 +350,18 @@ app.get('/api/:class/:id', (req, res) => {
 
     constellation.saints = saints;
 
-    res.status(200).json(buildResponse(true, `${cls.name} founded`, { constellation }));
+    res.status(200).json(buildResponse(`${cls.name} founded`, { constellation }));
   } else if (saint) {
-    res.status(200).json(buildResponse(true, `${cls.name} founded`, { saint: buildSaint(saint.id) }));
+    res.status(200).json(buildResponse(`${cls.name} founded`, { saint: buildSaint(saint.id) }));
   } else {
-    res.status(404).json(buildResponse(false, `${req.params.class} not found`));
+    res.status(404).json(buildResponse(`${req.params.class} not found`));
   }
 });
 
 app.get('*', (req, res) => res.sendFile(path.join(`$/dist/$/index.html`)));
 
-app.use((req, res, next) => res.status(404).json(buildResponse(false, `${req.url} not found`)));
+app.use((req, res, next) => res.status(404).json(buildResponse(`${req.url} not found`)));
 
-app.use((err, req, res, next) => res.status(500).json(buildResponse(false, String(err))));
+app.use((err, req, res, next) => res.status(500).json(buildResponse(String(err))));
 
 app.listen(PORT, () => console.log(`App is listening on port ${PORT}`));

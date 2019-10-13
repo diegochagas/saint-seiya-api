@@ -16,7 +16,7 @@ export class ErrorHandlerService implements ErrorHandler {
 
         Backend returned status code: ${error.status}
 
-        Response body: ${error.message}
+        Response body: ${error.error.message}
       `);
     } else {
       alert(`An error occured: ${error.message}`);
