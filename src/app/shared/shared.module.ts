@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, ErrorHandler } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { MatMenuModule, MatProgressSpinnerModule, MatDialogModule } from '@angular/material';
@@ -9,6 +9,7 @@ import {
   SpinnerComponent,
   ZodiacWheelComponent,
 } from './';
+import { ErrorHandlerService } from './services';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,12 @@ import {
     FooterComponent,
     HeaderComponent,
     SpinnerComponent,
+  ],
+  providers: [
+    {
+      provide: ErrorHandler,
+      useClass: ErrorHandlerService
+    }
   ]
 })
 export class SharedModule { }
