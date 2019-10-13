@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { MatMenuModule, MatProgressSpinnerModule } from '@angular/material';
+import { MatMenuModule, MatProgressSpinnerModule, MatDialogModule } from '@angular/material';
 
 import {
   FooterComponent,
@@ -19,6 +19,7 @@ import {
   ],
   imports: [
     CommonModule,
+    MatDialogModule,
     MatMenuModule,
     MatProgressSpinnerModule
   ],

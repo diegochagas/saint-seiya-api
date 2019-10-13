@@ -22,14 +22,14 @@ export class HeaderComponent implements OnInit {
   async getDebuts() {
     const response: any = await this.debutsService.getDebuts().toPromise();
 
-    response.data.map(debut => this.midias.push(debut.midia));
+    response.data.forEach(debut => this.midias.push(debut.midia));
 
     this.midias = Array.from(new Set(this.midias)).sort();
   }
 
   getClasses() {
     this.classesService.getClassNames().subscribe((response: any) => {
-      response.data.map(cls => this.classes.push(cls.name));
+      response.data.forEach(cls => this.classes.push(cls.name));
 
       this.classes.sort();
     });

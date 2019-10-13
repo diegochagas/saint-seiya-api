@@ -12,8 +12,14 @@
       </ng-container>
     </ng-container>
 
+    <ng-container *ngSwitchCase="'constellation'">
+      <ng-container *ngIf="character; else spinner">
+        <app-constellation-details [constellation]="character" [single]="true"></app-constellation-details>
+      </ng-container>
+    </ng-container>
+
     <ng-container *ngSwitchDefault>
-      <app-spinner [spinner]="'zodiac-wheel'" [color]="'blue'"></app-spinner>
+      <app-spinner [spinner]="'zodiac-wheel'"></app-spinner>
     </ng-container>
 
     <ng-template #spinner>

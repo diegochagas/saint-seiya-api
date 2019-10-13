@@ -1,9 +1,18 @@
 .characters {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  h1, h2 {
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    text-transform: capitalize;
+  }
 
-  .character-item {
-    margin: 50px 15px 0 15px;
+  .characters-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .character-item {
+      margin: 50px 15px 0 15px;
+    }
   }
 }

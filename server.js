@@ -30,16 +30,16 @@ const fileNames = [
   "characters",
   "classes",
   "cloths",
+  "constellations",
   "debuts",
+  "evilStars",
   "familyMembers",
   "kinships",
   "masters",
   "midias",
-  "midias",
   "nationality",
   "places",
   "ranks",
-  "representations",
   "saints"
 ];
 
@@ -107,11 +107,11 @@ const buildSaint = saintId => {
         }
     });
 
-    content.representations.forEach(representation => {
+    /* content.representations.forEach(representation => {
         if (representation.id === saint.representation) {
             saint.representation = representation.name;
         }
-    });
+    }); */
 
     return saint;
 }
@@ -252,58 +252,6 @@ app.get('/api/debut/:id', (req, res) => {
   }
 });
 
-app.get('/api/representations/:type', (req, res) => {
-  const { type } = req.params;
-
-  const representations = content.representations.filter(representation => {
-    if (representation.id.includes(type)) {
-      const saints = content.saints.filter(saint => representation.id === saint.representation);
-
-      representation.saints = saints ? saints.map(saint => buildSaint(saint.id)) : [];
-
-      return representation;
-    }
-  });
-
-  const typeName = type.charAt(0).toUpperCase() + type.replace('-', ' ').substring(1);
-
-  if (representations.length) {
-    let data = {};
-
-    if (type.includes('constellation')) {
-      data = { modernConstellations: representations.slice(0, 88), otherConstellations: representations.slice(88) };
-    } else if (type.includes('evil-star')) {
-      data = { destinyStars: representations.slice(0, 108), otherCases: representations.slice(108) };
-    } else {
-      data = { representations };
-    }
-
-    res.status(200).json(buildResponse(true, `${typeName} founded`, data));
-  } else {
-    res.status(404).json(buildResponse(false, `${typeName} not found`));
-  }
-});
-
-app.get('/api/representation/:type/:id', (req, res) => {
-  const { type } = req.params;
-
-  const id = `${req.params.type}-${req.params.id}`;
-
-  const representation = content.representations.find(representation => representation.id === id);
-
-  const typeName = type.charAt(0).toUpperCase() + type.replace('-', ' ').substring(1);
-
-  if (representation) {
-    const saints = content.saints.filter(saint => saint.representation === representation.id);
-
-    const data = { representation, saints: saints.map(saint => buildSaint(saint.id)) };
-
-    res.status(200).json(buildResponse(true, `Characters from ${typeName} founded`, data));
-  } else {
-    res.status(404).json(buildResponse(false, `${typeName} not found`));
-  }
-});
-
 app.get('/api/characters', (req, res) => {
   const characters = content.characters.map(character => buildCharacter(character));
 
@@ -333,7 +281,43 @@ app.get('/api/all-classes', (req, res) => {
 app.get('/api/:class', (req, res) => {
   let cls = content.classes.find(cls => req.params.class === cls.name.toLowerCase().replace(' ', '-'));
 
-  if (cls) {
+  if (req.params.class === 'constellations') {
+    const modernConstellations = [];
+
+    content.constellations.slice(0, 88).forEach(constellation => {
+      const saints = [];
+
+      content.saints.forEach(saint => {
+        if (`constellation-${constellation.id}` === saint.subTitle) {
+          saints.push(buildSaint(saint.id));
+        }
+      });
+
+      constellation.saints = saints;
+
+      modernConstellations.push(constellation);
+    });
+
+    const otherConstellations = [];
+
+    content.constellations.slice(88).forEach(constellation => {
+      const saints = [];
+
+      content.saints.forEach(saint => {
+        if (`constellation-${constellation.id}` === saint.subTitle) {
+          saints.push(buildSaint(saint.id));
+        }
+      });
+
+      constellation.saints = saints;
+
+      otherConstellations.push(constellation);
+    });
+
+    res.status(200).json(buildResponse(true, 'Constellations founded', { modernConstellations, otherConstellations }));
+  } else if (req.params.class === 'evil-stars') {
+    res.status(200).json(buildResponse(true, 'Evil stars founded', content.evilStars));
+  } else if (cls) {
     const saints = [];
 
     content.saints.forEach(saint => {
@@ -353,7 +337,21 @@ app.get('/api/:class/:id', (req, res) => {
 
   const saint = content.saints.find(saint => saint.class === cls.id && saint.id === req.params.id);
 
-  if (saint) {
+  if (req.params.class === 'constellation') {
+    const constellation = content.constellations.find(constellation => constellation.id === req.params.id);
+
+    const saints = [];
+
+    content.saints.forEach(saint => {
+      if (`constellation-${constellation.id}` === saint.subTitle) {
+        saints.push(buildSaint(saint.id));
+      }
+    });
+
+    constellation.saints = saints;
+
+    res.status(200).json(buildResponse(true, `${cls.name} founded`, { constellation }));
+  } else if (saint) {
     res.status(200).json(buildResponse(true, `${cls.name} founded`, { saint: buildSaint(saint.id) }));
   } else {
     res.status(404).json(buildResponse(false, `${req.params.class} not found`));

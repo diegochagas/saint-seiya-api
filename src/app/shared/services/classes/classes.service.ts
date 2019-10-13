@@ -32,4 +32,12 @@ export class ClassesService {
   getSaint(className: string, id: string) {
     return this.http.get(`${this.api}/${className}/${id}`, { headers: this.headers });
   }
+
+  getConstellations() {
+    return this.http.get(`${this.api}/constellations`, { headers: this.headers });
+  }
+
+  getConstellation(id: string) {
+    return this.http.get(`${this.api}/constellation/${id}`, { headers: this.headers });
+  }
 }

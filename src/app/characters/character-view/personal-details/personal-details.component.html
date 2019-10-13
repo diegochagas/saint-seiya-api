@@ -2,91 +2,111 @@
   <div class="card text-white bg-dark">
     <div class="card-header">
       <h5>
-        <a href="/characters/personal/all/{{ character.id }}">{{ character.name }}</a>
+        <a href="/characters/personal/all/{{ character.id }}">{{ character.name || 'Not revealed' }}</a>
       </h5>
     </div>
 
     <div class="card-body">
-      <img src="{{ character.image }}" alt="" class="card-img">
+      <img src="{{ character.image }}" alt="Character image" class="card-img">
 
       <div class="card-text">
         <p>
           <b>Age: </b>
-          <span>{{ character.age }}</span>
+          <span>{{ character.age || 'Not revealed' }}</span>
         </p>
 
         <p>
           <b>Gender: </b>
-          <span>{{ character.gender }}</span>
+          <span>{{ character.gender || 'Not revealed' }}</span>
         </p>
 
         <p>
           <b>Birth:</b>
-          <span>{{ character.birth }}</span>
+          <span>{{ character.birth || 'Not revealed' }}</span>
         </p>
 
         <p>
           <b>Nationality: </b>
-          <span>{{ character.nationality }}</span>
+          <span>{{ character.nationality || 'Not revealed' }}</span>
         </p>
 
         <p>
           <b>Training: </b>
-          <span>{{ character.training }}</span>
+          <span>{{ character.training || 'Not revealed' }}</span>
         </p>
 
         <p>
           <b>Height: </b>
-          <span>{{ character.height }}</span>
+          <span>{{ character.height || 'Not revealed' }}</span>
         </p>
 
         <p>
           <b>Weight: </b>
-          <span>{{ character.weight }}</span>
+          <span>{{ character.weight || 'Not revealed' }}</span>
         </p>
 
         <p>
           <b>Blood: </b>
-          <span>{{ character.blood }}</span>
+          <span>{{ character.blood || 'Not revealed' }}</span>
         </p>
 
         <p>
           <b>Debut: </b>
-          <span>{{ character.debut }}</span>
+          <span>{{ character.debut || 'Not revealed' }}</span>
         </p>
 
         <p>
           <b>Master(s): </b>
-          <span *ngFor="let master of character.master; let i = index">{{ master }}{{ i === character.master.length - 1 ? '' : ' / ' }}</span>
+          <ng-container *ngIf="character.master.length === 0; else masters">
+            <span>Not revealed</span>
+          </ng-container>
+
+          <ng-template #masters>
+            <span *ngFor="let master of character.master; let i = index">{{ master }}{{ i === character.master.length - 1 ? '' : ' / ' }}</span>
+          </ng-template>
         </p>
 
         <p>
           <b>Apprentice(s): </b>
-          <span *ngFor="let apprentice of character.apprentice; let i = index">{{ apprentice }}{{ i === character.apprentice.length - 1 ? '' : ' / ' }}</span>
+          <ng-container *ngIf="character.apprentice.length === 0; else apprentices">
+            <span>Not revealed</span>
+          </ng-container>
+
+          <ng-template #apprentices>
+            <span *ngFor="let apprentice of character.apprentice; let i = index">{{ apprentice }}{{ i === character.apprentice.length - 1 ? '' : ' / ' }}</span>
+          </ng-template>
         </p>
 
         <p>
           <b>Attacks: </b>
-          <span *ngFor="let attack of character.attacks; let i = index">{{ attack }}{{ i === character.attacks.length - 1 ? '' : ' / ' }}</span>
+          <ng-container *ngIf="character.attacks.length === 0; else attacks">
+            <span>Not revealed</span>
+          </ng-container>
+
+          <ng-template #attacks>
+            <span *ngFor="let attack of character.attacks; let i = index">
+              {{ attack }}{{ i === character.attacks.length - 1 ? '' : ' / ' }}
+            </span>
+          </ng-template>
         </p>
 
         <p>
           <b>Family: </b>
           <span *ngFor="let family of character.family; let i = index">{{ family }}{{ i === character.family.length - 1 ? '' : ' / ' }}</span>
         </p>
-
-        <ng-container *ngIf="character.cloth.length > 0">
-          <div class="card-footer">
-            <h6 class="card-subtitle">Cloths:</h6>
-
-            <a class="cloth" href="/characters/classes/{{ cloth.class.toLowerCase().replace(' ', '-') }}/{{ cloth.id }}" *ngFor="let cloth of character.cloth">
-              <img src="{{ cloth.scheme }}" alt="Cloth scheme" class="card-img-icon">
-
-              <span class="cloth-name">{{ cloth.cloth ? cloth.cloth : 'Cloth not revealed' }}</span>
-            </a>
-          </div>
-        </ng-container>
       </div>
     </div>
+
+    <ng-container *ngIf="character.cloth.length > 0">
+      <div class="card-footer">
+        <h6 class="card-subtitle">Cloths:</h6>
+
+        <a class="cloth" href="/characters/classes/{{ cloth.class.toLowerCase().replace(' ', '-') }}/{{ cloth.id }}" *ngFor="let cloth of character.cloth">
+          <img src="{{ cloth.scheme }}" alt="Cloth scheme" class="card-img-icon">
+
+          <span class="cloth-name">{{ cloth.cloth || 'Not revealed' }}</span>
+        </a>
+      </div>
+    </ng-container>
   </div>
 </div>

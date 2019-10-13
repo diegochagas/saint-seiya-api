@@ -1,0 +1,32 @@
+<div [ngClass]="{ 'constellation-details': true, 'single': single }">
+  <div class="card text-white bg-dark">
+    <div class="card-header">
+      <h5>
+        <a href="/characters/constellation/all/{{ constellation.id }}">{{ constellation.name || 'Not revealed' }}</a>
+      </h5>
+    </div>
+
+    <div class="card-body">
+      <img *ngIf="constellation.illustration" src="{{ constellation.illustration }}" alt="Constellation illustration" class="card-img">
+
+      <div class="card-text">
+        <p>
+          <b>Meaning: </b>
+          <span>{{ constellation.meaning }}</span>
+        </p>
+      </div>
+    </div>
+
+    <ng-container *ngIf="constellation.saints.length > 0">
+      <div class="card-footer">
+        <h6 class="card-subtitle">Cloths:</h6>
+
+        <a class="cloth" href="/characters/classes/{{ saint.class.toLowerCase().replace(' ', '-') }}/{{ saint.id }}" *ngFor="let saint of constellation.saints">
+          <img src="{{ saint.scheme }}" alt="Cloth scheme" class="card-img-icon">
+
+          <span class="cloth-name">{{ saint.cloth }}</span>
+        </a>
+      </div>
+    </ng-container>
+  </div>
+</div>

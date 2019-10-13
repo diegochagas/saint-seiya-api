@@ -34,6 +34,8 @@ export class CharacterViewComponent implements OnInit {
       this.charactersService.getCharacter(this.id).subscribe((response: any) => this.character = response.data);
     } else if (this.detailsType === 'classes') {
       this.classService.getSaint(this.className, this.id).subscribe((response: any) => this.character = response.data.saint);
+    } else if (this.detailsType === 'constellation') {
+      this.classService.getConstellation(this.id).subscribe((response: any) => this.character = response.data);
     }
   }
 }

@@ -15,6 +15,10 @@ export class CharactersComponent implements OnInit {
 
   className;
 
+  pageTitle = '';
+
+  pageSubTitle = '';
+
   constructor(
     private activatedRoute: ActivatedRoute,
     private charactersService: CharactersService,
@@ -26,15 +30,32 @@ export class CharactersComponent implements OnInit {
   }
 
   ngOnInit() {
-    if (this.detailsType === 'personal') {
-      this.charactersService.getCharacters().subscribe((response: any) => this.characters = response.data);
-    } else if (this.detailsType === 'classes') {
-      if (this.className === 'all-classes') {
-        this.classesService.getAllClasses().subscribe((response: any) => this.characters = response.data);
-      } else {
-        this.classesService.getClass(this.className).subscribe((response: any) => this.characters = response.data);
-      }
-    }
+    this.getCharacters();
+  }
 
+  async getCharacters() {
+    if (this.detailsType === 'personal') {
+      this.pageTitle = 'Characters';
+
+      this.characters = this.sortCharacters(await this.charactersService.getCharacters().toPromise());
+    } else if (this.detailsType === 'classes') {
+      this.pageTitle = this.className.replace('-', ' ');
+
+      if (this.className === 'all-classes') {
+        this.characters = this.sortCharacters(await this.classesService.getAllClasses().toPromise());
+      } else {
+        this.characters = this.sortCharacters(await this.classesService.getClass(this.className).toPromise());
+      }
+    } else if (this.detailsType === 'constellations') {
+      this.pageTitle = '88 constellations';
+
+      this.pageSubTitle = 'Other constellations';
+
+      this.classesService.getConstellations().subscribe((response: any) => this.characters = response.data);
+    }
+  }
+
+  sortCharacters(response) {
+    return response.data.sort((a,b) => (a.character > b.character) ? 1 : ((b.character > a.character) ? -1 : 0));
   }
 }

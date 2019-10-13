@@ -2,7 +2,7 @@
     <div class="card text-white bg-dark">
       <div class="card-header">
         <h5>
-          <a href="/characters/classes/{{ cls.class.toLowerCase().replace(' ', '-') }}/{{ cls.id }}">{{ cls.character }}</a>
+          <a href="/characters/classes/{{ cls.class.toLowerCase().replace(' ', '-') }}/{{ cls.id }}">{{ cls.character || 'Not revealed' }}</a>
         </h5>
       </div>
 
@@ -12,37 +12,45 @@
         <div class="card-text">
           <p>
             <b>Cloth: </b>
-            <span>{{ cls.cloth }}</span>
+            <span>{{ cls.cloth || 'Not revealed' }}</span>
           </p>
 
           <p>
             <b>Class: </b>
-            <a href="/classes/{{ cls.class.toLowerCase().replace(' ', '-') }}">{{ cls.class }}</a>
+            <a href="/classes/{{ cls.class.toLowerCase().replace(' ', '-') }}">{{ cls.class || 'Not revealed' }}</a>
           </p>
 
           <p>
             <b>Rank: </b>
-            <span>{{ cls.rank }}</span>
+            <span>{{ cls.rank || 'Not revealed' }}</span>
           </p>
 
           <p>
             <b>Affiliation: </b>
-            <span>{{ cls.affiliation }}</span>
+            <span>{{ cls.affiliation || 'Not revealed' }}</span>
           </p>
 
           <p>
             <b>Artist: </b>
-            <span>{{ cls.artist }}</span>
+            <span>{{ cls.artist || 'Not revealed' }}</span>
           </p>
 
           <p>
             <b>Representation: </b>
-            <span>{{ cls.representation }}</span>
+            <span>{{ cls.representation || 'Not revealed' }}</span>
           </p>
 
           <p>
             <b>Attacks: </b>
-            <span *ngFor="let attack of cls.attacks; let i = index">{{ attack }}{{ i === cls.attacks.length - 1 ? '' : ' / ' }}</span>
+            <ng-container *ngIf="cls.attacks.length === 0; else attacks">
+              <span>Not revealed</span>
+            </ng-container>
+
+            <ng-template #attacks>
+              <span *ngFor="let attack of cls.attacks; let i = index">
+                {{ attack }}{{ i === cls.attacks.length - 1 ? '' : ' / ' }}
+              </span>
+            </ng-template>
           </p>
         </div>
       </div>
