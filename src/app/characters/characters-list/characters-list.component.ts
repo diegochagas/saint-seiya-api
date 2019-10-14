@@ -74,7 +74,7 @@ export class CharactersListComponent implements OnInit {
 
       this.pageSubTitle = 'Other evil stars';
 
-      this.path = 'evil-stars/all';
+      this.path = 'evil-star/all';
 
       const response: any = await this.classesService.getEvilStars().toPromise();
 

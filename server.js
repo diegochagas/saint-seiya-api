@@ -391,6 +391,20 @@ app.get('/api/:class/:id', (req, res) => {
     constellation.saints = saints;
 
     res.status(200).json(buildResponse(`Constellation founded`, constellation));
+  } else if (req.params.class === 'evil-star') {
+    const evilStar = content.evilStars.find(evilStar => evilStar.id === req.params.id);
+
+    const saints = [];
+
+    content.saints.forEach(saint => {
+      if (`evil-star-${evilStar.id}` === saint.symbol) {
+        saints.push(buildSaint(saint.id));
+      }
+    });
+
+    evilStar.saints = saints;
+
+    res.status(200).json(buildResponse(`Evil star founded`, evilStar));
   } else {
     const cls = content.classes.find(cls => req.params.class === cls.name.toLowerCase().replace(' ', '-'));
 

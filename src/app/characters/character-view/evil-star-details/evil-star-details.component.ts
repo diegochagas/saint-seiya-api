@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-evil-star-details',
@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./evil-star-details.component.scss']
 })
 export class EvilStarDetailsComponent implements OnInit {
+  @Input() evilStar;
+
+  @Input() single;
 
   constructor() { }
 

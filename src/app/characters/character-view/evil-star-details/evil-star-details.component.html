@@ -1,1 +1,31 @@
-<p>evil-star-details works!</p>
+<div class="evil-star-details">
+  <div class="card text-white bg-dark">
+    <div class="card-header">
+      <h5>{{ evilStar.name }}</h5>
+    </div>
+
+    <div class="card-body">
+      <img *ngIf="evilStar.image" src="{{ evilStar.image }}" alt="Evil star image" class="card-img">
+
+      <div class="card-text">
+        <p>
+          <b>Chinese name: </b>
+          <span>{{ evilStar.chineseName }}</span>
+        </p>
+
+        <p>
+          <b>Warrior: </b>
+          <span>{{ evilStar.warrior }}</span>
+        </p>
+
+        <h6 class="card-subtitle">Surplices:</h6>
+
+        <a class="cloth" href="/characters/classes/{{ saint.class.toLowerCase().replace(' ', '-') }}/{{ saint.id }}" *ngFor="let saint of evilStar.saints">
+          <img src="{{ saint.image }}" alt="Cloth image" class="card-img-icon">
+
+          <span class="cloth-name">{{ saint.cloth || 'Not revealed' }}</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
