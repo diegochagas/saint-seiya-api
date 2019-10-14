@@ -1,8 +1,8 @@
 id,name
 1,Acheron Surplice
 2,Alchemy Glove Chronotector V1
-3,Alcor Robe (Zeta Star)
-4,Alioth Robe (Epsilon Star)
+3,Alcor Robe
+4,Alioth Robe
 5,Alraune Surplice
 6,Altar Cloth
 7,Anarchy Leaf
@@ -43,7 +43,7 @@ id,name
 42,Beetle Galaxy 1
 43,Beetle Galaxy 2
 44,Behemoth Surplice
-45,Benetnasch Robe (Eta Star)
+45,Benetnasch Robe
 46,Bennu Surplice
 47,Bhuj
 48,Black Terror
@@ -120,7 +120,7 @@ id,name
 119,Draco Omega Cloth
 120,Drbal Robe
 121,Dryad Surplice
-122,Dubhe Robe (Alpha Star)
+122,Dubhe Robe
 123,Duel Leaf
 124,Dullahan Surplice
 125,Durandal Sacred Sword
@@ -216,16 +216,16 @@ id,name
 215,Mariner Scale
 216,Mars Galaxy
 217,Martian Commander Galaxy
-218,Megrez Robe (Delta Star)
+218,Megrez Robe
 219,Melas (Black Thunder Adamas)
 220,Memory (Axe Soma)
 221,Mensa Cloth
 222,Mephistopheles Surplice
-223,Merak Robe (Beta Star)
+223,Merak Robe
 224,Mermaid Scale
 225,Midgard Robe
 226,Minotaur Surplice
-227,Mizar Robe (Zeta Star)
+227,Mizar Robe
 228,Monoceros Cloth
 229,Moon (Falchion Soma)
 230,Morax Surplice
@@ -274,7 +274,7 @@ id,name
 273,Perseus Cloth
 274,Phaios (Grey Blade Adamas)
 275,Phantasos God Surplice
-276,Phecda Robe (Gamma Star)
+276,Phecda Robe
 277,Phobetor God Surplice
 278,Phoenix Cloth V1
 279,Phoenix Cloth V1 Anime

@@ -40,4 +40,12 @@ export class ClassesService {
   getConstellation(id: string) {
     return this.http.get(`${this.api}/constellation/${id}`, { headers: this.headers });
   }
+
+  getEvilStars() {
+    return this.http.get(`${this.api}/evil-stars`, { headers: this.headers });
+  }
+
+  getEvilStar(id: string) {
+    return this.http.get(`${this.api}/evil-star/${id}`, { headers: this.headers });
+  }
 }

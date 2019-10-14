@@ -69,6 +69,18 @@ export class CharactersListComponent implements OnInit {
       this.dataSource = response.data.modernConstellations;
 
       this.dataSourceOthers = response.data.otherConstellations.filter(constellation => constellation.saints.length);
+    } else if (this.detailsType === 'evil-stars') {
+      this.pageTitle = '108 evil stars';
+
+      this.pageSubTitle = 'Other evil stars';
+
+      this.path = 'evil-stars/all';
+
+      const response: any = await this.classesService.getEvilStars().toPromise();
+
+      this.dataSource = response.data.evilStars;
+
+      this.dataSourceOthers = response.data.otherEvilStars.filter(evilStar => evilStar.saints.length);
     }
   }
 

@@ -109,11 +109,21 @@ const buildSaint = saintId => {
     }
   });
 
-  /* content.representations.forEach(representation => {
-      if (representation.id === saint.representation) {
-          saint.representation = representation.name;
+  if (saint.symbol.includes('constellation')) {
+    content.constellations.forEach(constellation => {
+      if (`constellation-${constellation.id}` === saint.symbol) {
+        saint.symbol = `${constellation.name} Constellation`;
       }
-  }); */
+    });
+  }
+
+  if (saint.symbol.includes('evil-star')) {
+    content.evilStars.forEach(evilStar => {
+      if (`evil-star-${evilStar.id}` === saint.symbol) {
+        saint.symbol = evilStar.name;
+      }
+    });
+  }
 
   return saint;
 }
@@ -290,7 +300,7 @@ app.get('/api/:class', (req, res) => {
       const saints = [];
 
       content.saints.forEach(saint => {
-        if (`constellation-${constellation.id}` === saint.subTitle) {
+        if (`constellation-${constellation.id}` === saint.symbol) {
           saints.push(buildSaint(saint.id));
         }
       });
@@ -306,7 +316,7 @@ app.get('/api/:class', (req, res) => {
       const saints = [];
 
       content.saints.forEach(saint => {
-        if (`constellation-${constellation.id}` === saint.subTitle) {
+        if (`constellation-${constellation.id}` === saint.symbol) {
           saints.push(buildSaint(saint.id));
         }
       });
@@ -318,7 +328,39 @@ app.get('/api/:class', (req, res) => {
 
     res.status(200).json(buildResponse('Constellations founded', { modernConstellations, otherConstellations }));
   } else if (req.params.class === 'evil-stars') {
-    res.status(200).json(buildResponse('Evil stars founded', content.evilStars));
+    const evilStars = [];
+
+    content.evilStars.slice(0, 88).forEach(evilStar => {
+      const saints = [];
+
+      content.saints.forEach(saint => {
+        if (`evil-star-${evilStar.id}` === saint.symbol) {
+          saints.push(buildSaint(saint.id));
+        }
+      });
+
+      evilStar.saints = saints;
+
+      evilStars.push(evilStar);
+    });
+
+    const otherEvilStars = [];
+
+    content.evilStars.slice(88).forEach(evilStar => {
+      const saints = [];
+
+      content.saints.forEach(saint => {
+        if (`evil-star-${evilStar.id}` === saint.symbol) {
+          saints.push(buildSaint(saint.id));
+        }
+      });
+
+      evilStar.saints = saints;
+
+      otherEvilStars.push(evilStar);
+    });
+
+    res.status(200).json(buildResponse('Evil stars founded', { evilStars, otherEvilStars }));
   } else if (cls) {
     const saints = [];
 
@@ -341,7 +383,7 @@ app.get('/api/:class/:id', (req, res) => {
     const saints = [];
 
     content.saints.forEach(saint => {
-      if (`constellation-${constellation.id}` === saint.subTitle) {
+      if (`constellation-${constellation.id}` === saint.symbol) {
         saints.push(buildSaint(saint.id));
       }
     });

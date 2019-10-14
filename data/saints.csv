@@ -1,4 +1,4 @@
-id,name,cloth,class,rank,affiliation,image,artist,subTitle
+id,name,cloth,class,rank,affiliation,image,artist,symbol
 1,1,148,22,7,14,,,constellation-38
 2,2,371,7,9,10,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/corona-saints%2Fabel.jpg?alt=media&token=c461b0b1-8e72-45d1-a63f-4a57bdb71e56,,
 3,3,,22,,14,,,
@@ -14,8 +14,8 @@ id,name,cloth,class,rank,affiliation,image,artist,subTitle
 13,11,302,22,7,14,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/athena-saints%2Fsagittarius-aiolos.jpg?alt=media&token=968a4b33-f4f0-496a-883d-5ccba20f6d7d,,constellation-72
 14,11,303,22,9,14,,,constellation-72
 15,12,284,22,7,14,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/athena-saints%2Fpisces-aphrodite.jpg?alt=media&token=565747b1-af6b-464b-a955-c90e76ee3adb,1,constellation-66
-16,13,218,13,Delta Star,34,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/odin-god-warriors%2Fmegrez-alberich.jpg?alt=media&token=d949edf7-1634-4b79-b024-af03ced0d904,,
-17,14,218,13,Delta Star,34,,,
+16,13,218,13,,34,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/odin-god-warriors%2Fmegrez-alberich.jpg?alt=media&token=d949edf7-1634-4b79-b024-af03ced0d904,,Delta Star
+17,14,218,13,,34,,,Delta Star
 18,15,336,22,7,14,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/athena-saints%2Ftaurus-aldebaran.jpg?alt=media&token=0b196a01-14a4-420a-93d4-37b7c2473c69,1,constellation-78
 19,15,337,22,9,14,,,constellation-78
 20,16,379,22,4,14,,,constellation-21
@@ -69,7 +69,7 @@ id,name,cloth,class,rank,affiliation,image,artist,subTitle
 68,63,191,22,5,14,,,constellation-47
 69,,399,4,,34,,,
 70,66,219,11,,40,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/typhon-gigas%2Fmelas-bronte.jpg?alt=media&token=f9a47463-25b4-43b2-a374-130c095ab5b0,12,
-71,67,3,13,Zeta Star,34,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/odin-god-warriors%2Falcor-bud.jpg?alt=media&token=795f3a91-2d3b-44e5-bf0d-6ae3e0944629,,
+71,67,3,13,,34,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/odin-god-warriors%2Falcor-bud.jpg?alt=media&token=795f3a91-2d3b-44e5-bf0d-6ae3e0944629,,Zeta Star
 72,68,239,26,13,16,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/hades-specters%2Fnecromancer-byaku.png?alt=media&token=3bb93045-c479-4c7f-b3dc-095833be02e2,3,evil-star-114
 73,69,148,22,7,14,,,constellation-38
 74,70,,23,15,12,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/artemis-satellites%2Fcallisto.jpg?alt=media&token=8f499a3c-48f7-4d48-ad5c-c1bb848b1103,5,
@@ -143,7 +143,7 @@ id,name,cloth,class,rank,affiliation,image,artist,subTitle
 142,130,237,13,,34,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/odin-god-warriors%2Fnidhoggr-fafner.png?alt=media&token=21726ca9-0e45-4d83-8829-6467a5378856,5,
 143,131,161,27,21,37,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/hakuryu-taonias%2Fhakutaku-feiyan.jpg?alt=media&token=b4a69d74-2c49-4e2b-81af-8e995e4a2e96,3,
 144,132,48,26,,16,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/hades-specters%2Fblack-terror-felser.jpg?alt=media&token=91bc6640-017d-41ae-baa1-409a787fcef9,12,
-145,133,4,13,Epsilon Star,34,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/odin-god-warriors%2Falioth-fenrir.jpg?alt=media&token=9c9b220b-5032-4b91-92a2-f743ae52211a,,
+145,133,4,13,,34,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/odin-god-warriors%2Falioth-fenrir.jpg?alt=media&token=9c9b220b-5032-4b91-92a2-f743ae52211a,,Epsilon Star
 146,134,138,15,,38,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/garnet-jewels%2Fflaming-fist-flint.jpg?alt=media&token=2d38e0a6-aa0e-47bb-9b50-2ca51cec4668,,
 147,135,235,22,6,14,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/athena-saints%2Fmusca-fly.jpg?alt=media&token=01008b7c-9653-4345-b805-4d6565884f72,,constellation-56
 148,136,,13,,34,,,
@@ -179,7 +179,7 @@ id,name,cloth,class,rank,affiliation,image,artist,subTitle
 178,166,,22,,14,,,
 179,167,103,22,5,14,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/athena-saints%2Fdelphinus-guney.jpg?alt=media&token=653ce0f7-fcdc-4530-a372-b2009f5cbae0,5,constellation-32
 180,168,159,26,9,16,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/hades-specters%2Fhades.jpg?alt=media&token=dd7176b9-60a0-48f0-8fd4-32e1abb96ea8,1,
-181,169,223,13,Beta Star,34,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/odin-god-warriors%2Fmerak-hagen.jpg?alt=media&token=023aa80b-7843-44f5-bf25-8ed04f33286b,,
+181,169,223,13,,34,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/odin-god-warriors%2Fmerak-hagen.jpg?alt=media&token=023aa80b-7843-44f5-bf25-8ed04f33286b,,Beta Star
 182,170,24,22,6,14,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/athena-saints%2Fara-hakurei.jpg?alt=media&token=9e289525-6cc1-4f9a-9936-e2b2471c6703,3,constellation-6
 183,171,345,20,34,26,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/pallas-pallasites%2Ftriple-rod-halimede.jpg?alt=media&token=2f1bc805-1cc0-4d97-948a-ead1c105344a,,
 184,172,336,22,7,14,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/athena-saints%2Ftaurus-harbinger.jpg?alt=media&token=9f0412df-dbbf-4fa2-856f-48f94db3d0b4,5,constellation-78
@@ -309,7 +309,7 @@ id,name,cloth,class,rank,affiliation,image,artist,subTitle
 308,278,131,26,14,16,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/hades-specters%2Felf-mills.jpg?alt=media&token=c002f09f-fb40-4aa6-84b5-cd6f054e7ff9,7,evil-star-104
 309,279,305,22,7,14,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/athena-saints%2Fscorpio-milo.jpg?alt=media&token=fda28bd2-0ca0-46f9-ba86-2c09a7febd2a,1,constellation-73
 310,279,306,22,9,14,,,constellation-73
-311,280,45,13,Eta Star,34,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/odin-god-warriors%2Fbenetnasch-mime.jpg?alt=media&token=03c65224-9d62-4dfa-ae83-3112e8fc4e63,,
+311,280,45,13,,34,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/odin-god-warriors%2Fbenetnasch-mime.jpg?alt=media&token=03c65224-9d62-4dfa-ae83-3112e8fc4e63,,Eta Star
 312,281,,22,2,14,,,
 313,282,156,26,13,16,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/hades-specters%2Fgriffon-minos.jpg?alt=media&token=78ae77a3-c436-4e83-bff8-67be6c8440ca,1,evil-star-10
 314,283,,21,40,39,,,
@@ -450,7 +450,7 @@ id,name,cloth,class,rank,affiliation,image,artist,subTitle
 449,396,38,26,,16,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/hades-specters%2Fbaphomet-shura.png?alt=media&token=e40da7f3-8c2e-4ad0-a61c-5d1f593c145f,,
 450,396,59,22,9,14,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/athena-saints%2Fcapricornus-shura.jpg?alt=media&token=6c0ef93b-91a8-451a-be5e-3d288d423fc9,1,constellation-16
 451,396,60,22,9,14,,,constellation-16
-452,397,122,13,Alpha Star,34,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/odin-god-warriors%2Fdubhe-siegfried.jpg?alt=media&token=0b2b96b6-0ff7-448b-8cca-6e47458aba15,,
+452,397,122,13,,34,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/odin-god-warriors%2Fdubhe-siegfried.jpg?alt=media&token=0b2b96b6-0ff7-448b-8cca-6e47458aba15,,Alpha Star
 453,398,155,13,,34,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/odin-god-warriors%2Fgrani-sigmund.png?alt=media&token=26910fa9-19de-4146-a03f-a8b86ce40ecd,5,
 454,399,154,12,Sacred Sword of Anger,,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/gladiators%2Fgram-sigurd.jpg?alt=media&token=c1f476d8-2ef8-4b84-8364-86a6352f85a6,2,
 455,400,,25,,35,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/lamech%2Fsillas-1.jpg?alt=media&token=aaa17b7b-55e1-4c7c-a19d-6bdc9dad5e80,,
@@ -476,7 +476,7 @@ id,name,cloth,class,rank,affiliation,image,artist,subTitle
 475,414,146,26,13,16,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/hades-specters%2Fgaruda-aiacos.jpg?alt=media&token=bbdc55aa-0075-4dd2-935d-7adf03b25950,1,evil-star-6
 476,415,236,20,33,26,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/pallas-pallasites%2Fmystic-stone-surt.jpg?alt=media&token=45fb232c-baa8-4386-b73d-4ebd87b3a582,,
 477,416,128,13,,34,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/odin-god-warriors%2Feikthyrnir-surt.png?alt=media&token=c4461ff4-cd7e-4415-8b82-b213a6a2d69e,5,
-478,417,227,13,Zeta Star,34,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/odin-god-warriors%2Fmizar-syd.jpg?alt=media&token=8e569985-593f-44ed-84a7-a6f23d894b8e,,
+478,417,227,13,,34,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/odin-god-warriors%2Fmizar-syd.jpg?alt=media&token=8e569985-593f-44ed-84a7-a6f23d894b8e,,Zeta Star
 479,418,40,26,13,16,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/hades-specters%2Fbasilisk-sylphid.jpg?alt=media&token=e62a3145-3fb3-4a3f-8abc-cd0247091a80,1,evil-star-16
 480,419,130,11,,40,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/typhon-gigas%2Famber-beast-tail.jpg?alt=media&token=10ee4ae0-5e6f-49dd-9a33-583444582100,12,
 481,420,null,6,9,41,,,
@@ -492,7 +492,7 @@ id,name,cloth,class,rank,affiliation,image,artist,subTitle
 491,430,109,28,9,39,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/chronos-titans%2Fjustice-themis.jpg?alt=media&token=cc85b688-ad75-4568-bd3c-57daf528f0ce,5,
 492,431,340,1,,29,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/zeus-angels%2Ftheseus.jpg?alt=media&token=8abcea9c-db0d-4689-8c68-d92faefd1a1c,,
 493,432,224,16,,25,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/poseidon-mariners%2Fmermaid-thetis.jpg?alt=media&token=da1aeb3c-7fb7-4569-bb58-22bb76d46db7,1,
-494,433,276,13,Gamma Star,34,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/odin-god-warriors%2Fphecda-thor.jpg?alt=media&token=7c565aa3-114f-4ce1-bc57-3c8456003b1a,,
+494,433,276,13,,34,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/odin-god-warriors%2Fphecda-thor.jpg?alt=media&token=7c565aa3-114f-4ce1-bc57-3c8456003b1a,,Gamma Star
 495,434,328,20,32,26,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/pallas-pallasites%2Fgenesis-titan.jpg?alt=media&token=480ab554-15de-4d66-9bb8-4d3e0cdc6e30,,
 496,435,342,11,,40,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/typhon-gigas%2Fthunderclap-toas.jpg?alt=media&token=6d23826b-bfa3-43e0-88e2-eb01489126a1,5,
 497,436,166,8,45,15,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/eris-dryads%2Fhope-toki.png?alt=media&token=64f385ac-d2d5-45da-8e4d-616a733c0fa9,,
