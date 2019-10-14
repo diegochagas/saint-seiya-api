@@ -1,0 +1,82 @@
+import { Component, OnInit, ɵbypassSanitizationTrustScript } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+
+import { CharactersService, ClassesService } from '../../shared';
+
+@Component({
+  selector: 'app-characters-list',
+  templateUrl: './characters-list.component.html',
+  styleUrls: ['./characters-list.component.scss']
+})
+export class CharactersListComponent implements OnInit {
+
+  detailsType;
+
+  className;
+
+  pageTitle = '';
+
+  pageSubTitle = '';
+
+  displayedColumns: string[] = ['image', 'id', 'name'];
+
+  dataSource = [];
+
+  dataSourceOthers = [];
+
+  path = '';
+
+  constructor(
+    private activatedRoute: ActivatedRoute,
+    private charactersService: CharactersService,
+    private classesService: ClassesService,
+    private router: Router,
+  ) {
+    this.detailsType = this.activatedRoute.snapshot.params.details;
+
+    this.className = this.activatedRoute.snapshot.params.class;
+  }
+
+  ngOnInit() {
+    this.getCharacters();
+  }
+  async getCharacters() {
+    if (this.detailsType === 'personal') {
+      this.pageTitle = 'Characters';
+
+      this.path = 'personal/all';
+
+      this.dataSource = this.sortCharacters(await this.charactersService.getCharacters().toPromise());
+    } else if (this.detailsType === 'classes') {
+      this.pageTitle = this.className.replace('-', ' ');
+
+      this.path = 'classes/';
+
+      if (this.className === 'all-classes') {
+        this.dataSource = this.sortCharacters(await this.classesService.getAllClasses().toPromise());
+      } else {
+        this.dataSource = this.sortCharacters(await this.classesService.getClass(this.className).toPromise());
+      }
+    } else if (this.detailsType === 'constellations') {
+      this.pageTitle = '88 constellations';
+
+      this.pageSubTitle = 'Other constellations';
+
+      this.path = 'constellation/all';
+
+      const response: any = await this.classesService.getConstellations().toPromise();
+
+      this.dataSource = response.data.modernConstellations;
+
+      this.dataSourceOthers = response.data.otherConstellations.filter(constellation => constellation.saints.length);
+    }
+  }
+
+  sortCharacters(response) {
+    return response.data.sort((a,b) => (a.character > b.character) ? 1 : ((b.character > a.character) ? -1 : 0));
+  }
+
+  characterDetails(id) {
+    this.router.navigate([`/characters/${this.path}/${id}`]);
+  }
+}

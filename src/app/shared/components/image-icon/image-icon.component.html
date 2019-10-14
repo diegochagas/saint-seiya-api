@@ -1,0 +1,11 @@
+<div class="image-icon">
+  <ng-container *ngIf="image; else iconText">
+    <img src="{{ image }}" alt="{{ text }} image">
+  </ng-container>
+
+  <ng-template #iconText>
+    <div class="container-icon" [ngStyle]="{ 'background-color': backgroundColor }">
+      <span class="icon-letter">{{ letter }}</span>
+    </div>
+  </ng-template>
+</div>

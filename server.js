@@ -56,73 +56,75 @@ const getData = fileName => {
 fileNames.forEach(name => getData(name));
 
 const buildSaint = saintId => {
-    const saintObject = content.saints.find(saint => saint.id === saintId);
-    const saint = Object.assign({}, saintObject);
+  const saintObject = content.saints.find(saint => saint.id === saintId);
+  const saint = Object.assign({}, saintObject);
 
-    const characterId = saint.character;
+  const characterId = saint.name;
 
-    content.characters.forEach(character => {
-        if (character.id === saint.character) {
-            saint.character = character.name;
-        }
-    });
+  saint.characterId = characterId;
 
-    content.cloths.forEach(cloth => {
-        if (cloth.id === saint.cloth) {
-            saint.cloth = cloth.name;
-        }
-    });
+  content.characters.forEach(character => {
+    if (character.id === saint.name) {
+      saint.name = character.name;
+    }
+  });
 
-    content.classes.forEach(classInformations => {
-        if (classInformations.id === saint.class) {
-            saint.class = classInformations.name;
-        }
-    });
+  content.cloths.forEach(cloth => {
+    if (cloth.id === saint.cloth) {
+      saint.cloth = cloth.name;
+    }
+  });
 
-    content.ranks.forEach(rank => {
-        if (rank.id === saint.rank) {
-            saint.rank = rank.name;
-        }
-    });
+  content.classes.forEach(classInformations => {
+    if (classInformations.id === saint.class) {
+      saint.class = classInformations.name;
+    }
+  });
 
-    content.affiliations.forEach(affiliation => {
-        if (affiliation.id === saint.affiliation) {
-            saint.affiliation = affiliation.name;
-        }
-    });
+  content.ranks.forEach(rank => {
+    if (rank.id === saint.rank) {
+      saint.rank = rank.name;
+    }
+  });
 
-    saint.scheme = saint.scheme || noSchemeImage;
+  content.affiliations.forEach(affiliation => {
+    if (affiliation.id === saint.affiliation) {
+      saint.affiliation = affiliation.name;
+    }
+  });
 
-    content.artists.find(artist => {
-        if (saint.artist === artist.id) {
-            saint.artist = artist.name;
-        }
-    });
+  saint.image = saint.image || noSchemeImage;
 
-    saint.attacks = [];
-    content.attackers.forEach(attacker => {
-        if (attacker.character === characterId) {
-            const attack = content.attacks.find(attack => attack.id === attacker.attack);
-            saint.attacks.push(attack.name);
-        }
-    });
+  content.artists.find(artist => {
+    if (saint.artist === artist.id) {
+      saint.artist = artist.name;
+    }
+  });
 
-    /* content.representations.forEach(representation => {
-        if (representation.id === saint.representation) {
-            saint.representation = representation.name;
-        }
-    }); */
+  saint.attacks = [];
+  content.attackers.forEach(attacker => {
+    if (attacker.character === characterId) {
+      const attack = content.attacks.find(attack => attack.id === attacker.attack);
+      saint.attacks.push(attack.name);
+    }
+  });
 
-    return saint;
+  /* content.representations.forEach(representation => {
+      if (representation.id === saint.representation) {
+          saint.representation = representation.name;
+      }
+  }); */
+
+  return saint;
 }
 
 const buildCloths = character => {
   const cloths = [];
   content.saints.forEach(saint => {
-    if (saint.character === character.id) {
+    if (saint.name === character.id) {
       const cloth = buildSaint(saint.id);
 
-      delete cloth.character;
+      delete cloth.name;
 
       cloths.push(cloth);
     }
@@ -131,88 +133,88 @@ const buildCloths = character => {
 }
 
 const buildCharacter = characterObject => {
-    const character = Object.assign({}, characterObject);
+  const character = Object.assign({}, characterObject);
 
-    character.gender = genders[character.gender];
+  character.gender = genders[character.gender];
 
-    content.nationality.forEach(nationality => {
-        if (nationality.num_code === character.nationality) {
-            character.nationality = nationality.nationality;
-        }
+  content.nationality.forEach(nationality => {
+      if (nationality.num_code === character.nationality) {
+          character.nationality = nationality.nationality;
+      }
 
-        if (nationality.num_code === character.training) {
-            const place = content.places.find(place => place.id === character.place);
-            character.training = place ? `${place.name}, ${nationality.en_short_name}` : nationality.en_short_name;
-        }
-    });
+      if (nationality.num_code === character.training) {
+          const place = content.places.find(place => place.id === character.place);
+          character.training = place ? `${place.name}, ${nationality.en_short_name}` : nationality.en_short_name;
+      }
+  });
 
-    delete character.place;
+  delete character.place;
 
-    character.master = [];
-    character.apprentice = [];
-    content.masters.forEach(master => {
-        if (master.apprentice === character.id) {
-            content.characters.forEach(masterInformations => {
-                if (masterInformations.id === master.master) {
-                    character.master.push(masterInformations.name);
-                }
-            });
-        }
+  character.master = [];
+  character.apprentice = [];
+  content.masters.forEach(master => {
+      if (master.apprentice === character.id) {
+          content.characters.forEach(masterInformations => {
+              if (masterInformations.id === master.master) {
+                  character.master.push({ id: masterInformations.id, name: masterInformations.name });
+              }
+          });
+      }
 
-        if (master.master === character.id) {
-            content.characters.forEach(apprentice => {
-                if (apprentice.id === master.apprentice) {
-                    character.apprentice.push(apprentice.name);
-                }
-            });
-        }
-    });
+      if (master.master === character.id) {
+          content.characters.forEach(apprentice => {
+              if (apprentice.id === master.apprentice) {
+                  character.apprentice.push({ id: apprentice.id, name: apprentice.name });
+              }
+          });
+      }
+  });
 
-    character.attacks = [];
-    content.attackers.forEach(attacker => {
-        if (attacker.character === character.id) {
-            const attack = content.attacks.find(attack => attack.id === attacker.attack);
-            character.attacks.push(attack.name);
-        }
-    });
+  character.attacks = [];
+  content.attackers.forEach(attacker => {
+      if (attacker.character === character.id) {
+          const attack = content.attacks.find(attack => attack.id === attacker.attack);
+          character.attacks.push(attack.name);
+      }
+  });
 
-    character.height = character.height ? `${character.height}cm` : "";
-    character.weight = character.weight ? `${character.weight}kg` : "";
+  character.height = character.height ? `${character.height}cm` : "";
+  character.weight = character.weight ? `${character.weight}kg` : "";
 
-    character.family = [];
-    content.familyMembers.forEach(family => {
-        if (family.character === character.id) {
-            const member = content.characters.find(character => character.id === family.member);
-            const kinship = content.kinships.find(kinship => kinship.id === family.memberKinship);
-            character.family.push(`${member.name} (${kinship.name})`);
-        }
+  character.family = [];
+  content.familyMembers.forEach(family => {
+      if (family.character === character.id) {
+          const member = content.characters.find(character => character.id === family.member);
+          const kinship = content.kinships.find(kinship => kinship.id === family.memberKinship);
+          character.family.push({ id: member.id, member: `${member.name} (${kinship.name})`});
+      }
 
-        if (family.member === character.id) {
-            const member = content.characters.find(character => character.id === family.character);
-            const kinship = content.kinships.find(kinship => kinship.id === family.characterKinship);
-            character.family.push(`${member.name} (${kinship.name})`);
-        }
-    });
+      if (family.member === character.id) {
+          const member = content.characters.find(character => character.id === family.character);
+          const kinship = content.kinships.find(kinship => kinship.id === family.characterKinship);
+          character.family.push({ id: member.id, member: `${member.name} (${kinship.name})`});
+      }
+  });
 
-    const bloodType = bloodTypes[character.blood];
+  const bloodType = bloodTypes[character.blood];
 
-    character.blood = bloodType ? bloodType : "";
+  character.blood = bloodType ? bloodType : "";
 
-    content.debuts.forEach(debut =>  {
-        if (debut.id === character.debut) {
-            content.midias.forEach(midia => {
-                if (midia.id === debut.midia) {
-                    character.debut = `${midia.name}: ${debut.name}`;
-                }
-            });
-        }
-    });
+  content.debuts.forEach(debut =>  {
+      if (debut.id === character.debut) {
+          content.midias.forEach(midia => {
+              if (midia.id === debut.midia) {
+                  character.debut = `${midia.name}: ${debut.name}`;
+              }
+          });
+      }
+  });
 
-    character.cloth = buildCloths(character);
+  character.cloth = buildCloths(character);
 
-    character.image = character.cloth.length ? character.cloth[0].scheme : noSchemeImage;
+  character.image = character.cloth.length ? character.cloth[0].image : noSchemeImage;
 
-    return character;
+  return character;
 }
 
 const buildResponse = (message, data = {}) => ({ message, data });
@@ -333,10 +335,6 @@ app.get('/api/:class', (req, res) => {
 });
 
 app.get('/api/:class/:id', (req, res) => {
-  const cls = content.classes.find(cls => req.params.class === cls.name.toLowerCase().replace(' ', '-'));
-
-  const saint = content.saints.find(saint => saint.class === cls.id && saint.id === req.params.id);
-
   if (req.params.class === 'constellation') {
     const constellation = content.constellations.find(constellation => constellation.id === req.params.id);
 
@@ -350,11 +348,17 @@ app.get('/api/:class/:id', (req, res) => {
 
     constellation.saints = saints;
 
-    res.status(200).json(buildResponse(`${cls.name} founded`, { constellation }));
-  } else if (saint) {
-    res.status(200).json(buildResponse(`${cls.name} founded`, { saint: buildSaint(saint.id) }));
+    res.status(200).json(buildResponse(`Constellation founded`, constellation));
   } else {
-    res.status(404).json(buildResponse(`${req.params.class} not found`));
+    const cls = content.classes.find(cls => req.params.class === cls.name.toLowerCase().replace(' ', '-'));
+
+    const saint = content.saints.find(saint => saint.class === cls.id && saint.id === req.params.id);
+
+    if (saint) {
+      res.status(200).json(buildResponse(`${cls.name} founded`, { saint: buildSaint(saint.id) }));
+    } else {
+      res.status(404).json(buildResponse(`${req.params.class} not found`));
+    }
   }
 });
 

@@ -1,0 +1,18 @@
+.image-icon {
+  img,
+  .container-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .container-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .icon-letter {
+      color: white;
+      font-weight: bold;
+    }
+  }
+}

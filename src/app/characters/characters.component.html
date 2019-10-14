@@ -1,7 +1,6 @@
 <div class="characters">
-  <h1>{{ pageTitle }}</h1>
-
-  <ng-container [ngSwitch]="detailsType">
+  <router-outlet></router-outlet>
+  <!-- <ng-container [ngSwitch]="detailsType">
     <ng-container *ngSwitchCase="'personal'">
       <div class="characters-list" *ngIf="characters.length > 0; else spinner">
         <div class="character-item" *ngFor="let character of characters">
@@ -43,6 +42,6 @@
     <ng-template #spinner>
       <app-spinner [spinner]="'zodiac-wheel'" [color]="'blue'"></app-spinner>
     </ng-template>
-  </ng-container>
+  </ng-container> -->
 </div>
 

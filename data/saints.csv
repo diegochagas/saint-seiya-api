@@ -1,4 +1,4 @@
-id,character,cloth,class,rank,affiliation,scheme,artist,subTitle
+id,name,cloth,class,rank,affiliation,image,artist,subTitle
 1,1,148,22,7,14,,,constellation-38
 2,2,371,7,9,10,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/corona-saints%2Fabel.jpg?alt=media&token=c461b0b1-8e72-45d1-a63f-4a57bdb71e56,,
 3,3,,22,,14,,,

@@ -1,38 +1,6 @@
 .constellation-details {
   height: 100%;
 
-  &.single {
-    .card {
-      width: initial;
-      max-width: 1024px;
-    }
-
-    .card-body {
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    .card-img {
-      height: initial;
-      max-height: 400px;
-
-      @media screen and (min-width: 1260px) {
-        margin-right: 40px;
-        margin-left: 20px;
-      }
-    }
-
-    .card-text {
-      max-width: 320px;
-      padding-top: 20px;
-    }
-  }
-
-  .card {
-    width: 270px;
-    height: 100%;
-  }
-
   a {
     color: inherit;
     text-decoration: none;
@@ -42,29 +10,55 @@
     }
   }
 
-  .card-img {
-    display: block;
-    margin: 10px auto;
-    max-height: 150px;
-    max-width: 100%;
+  .card {
     width: initial;
-  }
+    max-width: 1024px;
+    height: 100%;
 
-  .cloth {
-    display: flex;
-    margin: 5px 0;
-    align-items: center;
-  }
+    .card-body {
+      display: flex;
+      flex-wrap: wrap;
+    }
 
-  .card-img-icon {
-    height: 30px;
-    margin-right: 10px;
-    width: 30px;
-  }
+    .card-title {
+      text-align: center;
+    }
 
-  .cloth-name {
-    display: block;
-    font-size: 14px;
-    width: 130px;
+    .card-img {
+      height: initial;
+      max-height: 400px;
+      display: block;
+      max-width: 100%;
+      width: initial;
+      margin-bottom: 20px;
+      flex: 2;
+
+      @media screen and (min-width: 1024px) {
+        margin-right: 20px;
+      }
+    }
+
+    .card-text {
+      max-width: 320px;
+      flex: 1;
+    }
+
+    .cloth {
+      display: flex;
+      margin: 5px 0;
+      align-items: center;
+    }
+
+    .card-img-icon {
+      height: 30px;
+      margin-right: 10px;
+      width: 30px;
+    }
+
+    .cloth-name {
+      display: block;
+      font-size: 14px;
+      width: 130px;
+    }
   }
 }

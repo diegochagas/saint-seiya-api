@@ -1,32 +1,41 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { MatMenuModule, MatProgressSpinnerModule, MatDialogModule } from '@angular/material';
+import {
+  MatMenuModule,
+  MatProgressSpinnerModule,
+  MatTableModule
+} from '@angular/material';
 
 import {
   FooterComponent,
   HeaderComponent,
+  ImageIconComponent,
   SpinnerComponent,
   ZodiacWheelComponent,
 } from './';
+
 import { ErrorHandlerService } from './services';
 
 @NgModule({
   declarations: [
     FooterComponent,
     HeaderComponent,
+    ImageIconComponent,
     SpinnerComponent,
     ZodiacWheelComponent,
   ],
   imports: [
     CommonModule,
-    MatDialogModule,
     MatMenuModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    MatTableModule
   ],
   exports: [
     FooterComponent,
     HeaderComponent,
+    ImageIconComponent,
+    MatTableModule,
     SpinnerComponent,
   ],
   providers: [
