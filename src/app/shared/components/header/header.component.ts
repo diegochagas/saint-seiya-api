@@ -7,9 +7,10 @@ import { DebutsService, ClassesService } from '../../services';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  midias = [];
 
   classes = [];
+
+  debuts = [];
 
   constructor( private debutsService: DebutsService, private classesService: ClassesService ) { }
 
@@ -22,9 +23,9 @@ export class HeaderComponent implements OnInit {
   async getDebuts() {
     const response: any = await this.debutsService.getDebuts().toPromise();
 
-    response.data.forEach(debut => this.midias.push(debut.midia));
+    response.data.forEach(debut => this.debuts.push(debut.midia));
 
-    this.midias = Array.from(new Set(this.midias)).sort();
+    this.debuts = Array.from(new Set(this.debuts)).sort();
   }
 
   getClasses() {

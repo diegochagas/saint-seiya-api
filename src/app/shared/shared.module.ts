@@ -11,6 +11,7 @@ import {
   FooterComponent,
   HeaderComponent,
   ImageIconComponent,
+  MenuItemsComponent,
   SpinnerComponent,
   ZodiacWheelComponent,
 } from './';
@@ -22,6 +23,7 @@ import { ErrorHandlerService } from './services';
     FooterComponent,
     HeaderComponent,
     ImageIconComponent,
+    MenuItemsComponent,
     SpinnerComponent,
     ZodiacWheelComponent,
   ],

@@ -11,63 +11,11 @@
     </button>
 
     <mat-menu #beforeMenu="matMenu" xPosition="before">
-      <div class="menu-items">
-        <a class="nav-link" href="/characters/personal" mat-menu-item>Characters</a>
-
-        <button class="nav-link dropdown-toggle" mat-menu-item [matMenuTriggerFor]="classesMenu">Classes</button>
-
-        <a class="nav-link" href="/characters/constellations" mat-menu-item>Constellations</a>
-
-        <a class="nav-link" href="/curiosities" mat-menu-item>Curiosities</a>
-
-        <a class="nav-link" href="/characters/evil-stars" mat-menu-item>Evil stars</a>
-
-        <button class="nav-link dropdown-toggle" mat-menu-item [matMenuTriggerFor]="midiasMenu">Midias</button>
-      </div>
+      <app-menu-items [classes]="classes" [debuts]="debuts"></app-menu-items>
     </mat-menu>
 
     <div class="collapse navbar-collapse">
-      <div class="menu-items">
-        <a class="nav-link" href="/characters/personal" mat-menu-item>Characters</a>
-
-        <button class="nav-link dropdown-toggle" mat-menu-item [matMenuTriggerFor]="classesMenu">Classes</button>
-
-        <a class="nav-link" href="/characters/constellations" mat-menu-item>Constellations</a>
-
-        <a class="nav-link" href="/curiosities" mat-menu-item>Curiosities</a>
-
-        <a class="nav-link" href="/characters/evil-stars" mat-menu-item>Evil stars</a>
-
-        <button class="nav-link dropdown-toggle" mat-menu-item [matMenuTriggerFor]="midiasMenu">Midias</button>
-      </div>
+      <app-menu-items [classes]="classes" [debuts]="debuts"></app-menu-items>
     </div>
-
-    <mat-menu #classesMenu="matMenu" xPosition="before">
-      <ng-container *ngIf="classes.length > 0">
-        <a class="dropdown-item nav-link" href="/characters/classes/all-classes" mat-menu-item>All</a>
-
-        <a
-          *ngFor="let cls of classes"
-          class="dropdown-item nav-link"
-          href="/characters/classes/{{ cls.toLowerCase().replace(' ', '-') }}"
-          mat-menu-item
-        >
-          {{ cls }}
-        </a>
-      </ng-container>
-    </mat-menu>
-
-    <mat-menu #midiasMenu="matMenu" xPosition="before">
-      <ng-container *ngIf="midias.length > 0">
-        <a
-          *ngFor="let midia of midias"
-          class="dropdown-item nav-link"
-          href="/{{ midia.toLowerCase() }}"
-          mat-menu-item
-        >
-          {{ midia }}
-        </a>
-      </ng-container>
-    </mat-menu>
   </nav>
 </div>
