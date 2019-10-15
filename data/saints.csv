@@ -288,7 +288,7 @@ id,name,cloth,class,rank,affiliation,image,artist,symbol
 287,258,121,26,13,16,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/hades-specters%2Fdryad-luco.jpg?alt=media&token=710a32d6-24cb-4a77-9ef3-f40568279f53,3,evil-star-15
 288,259,216,17,9,11,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/ares-martians%2Fmars-ludwig-1.jpg?alt=media&token=c6e29bd2-a70b-4b93-84a4-d2161d86d324,5,
 289,260,284,22,7,14,,,constellation-66
-290,261,36,26,13,16,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/hades-specters%2Fbalron-lune.jpg?alt=media&token=e0891378-bba3-4bae-9051-cdaa71929274,1,evil-star-8
+290,261,36,26,13,16,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/hades-specters%2Fbalron-lune.jpg?alt=media&token=e0891378-bba3-4bae-9051-cdaa71929274,1,evil-star-9
 291,262,209,8,,15,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/eris-dryads%2Fmadness-mania.png?alt=media&token=bee3ed48-f113-4767-b018-34d9b55c0474,,
 292,263,55,22,7,14,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/athena-saints%2Fcancer-deathmask.jpg?alt=media&token=3f6391c1-fb0f-452a-bf16-80fd79f3d895,1,constellation-12
 293,264,217,17,15,11,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/ares-martians%2Fmartian-commander.png?alt=media&token=8b6c8afa-ce39-437a-9f5d-f8d815b6800f,,
@@ -585,4 +585,4 @@ id,name,cloth,class,rank,affiliation,image,artist,symbol
 584,486,,2,,13,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/astreia-golden-tribe%2Fmachina.png?alt=media&token=a01db7ea-f6d6-4332-9085-6316d6dee507,5,
 585,487,1,26,13,16,,,evil-star-4
 586,488,400,12,,,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/gladiators%2Fexcalibur-arthur.jpg?alt=media&token=cb1679ae-f4d1-4140-9a84-ea1d1f64f8ea,,
-587,,,,,,,,
+587,,402,26,13,16,https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/hades-specters%2Fwyrm-surplice.jpg?alt=media&token=760176c2-a9e9-4d45-8cc6-7c8a4815476b,,evil-star-8

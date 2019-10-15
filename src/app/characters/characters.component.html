@@ -1,47 +1,4 @@
 <div class="characters">
   <router-outlet></router-outlet>
-  <!-- <ng-container [ngSwitch]="detailsType">
-    <ng-container *ngSwitchCase="'personal'">
-      <div class="characters-list" *ngIf="characters.length > 0; else spinner">
-        <div class="character-item" *ngFor="let character of characters">
-          <app-personal-details [character]="character"></app-personal-details>
-        </div>
-      </div>
-    </ng-container>
-
-    <ng-container *ngSwitchCase="'classes'">
-      <div class="characters-list" *ngIf="characters.length > 0; else spinner">
-        <div class="character-item" *ngFor="let cls of characters">
-          <app-class-details [cls]="cls"></app-class-details>
-        </div>
-      </div>
-    </ng-container>
-
-    <ng-container *ngSwitchCase="'constellations'">
-      <div class="characters-list" *ngIf="characters.modernConstellations; else spinner">
-        <div class="character-item" *ngFor="let constellation of characters.modernConstellations">
-          <app-constellation-details [constellation]="constellation"></app-constellation-details>
-        </div>
-      </div>
-
-      <h2>{{ pageSubTitle }}</h2>
-
-      <div class="characters-list" *ngIf="characters.otherConstellations; else spinner">
-        <ng-container *ngFor="let constellation of characters.otherConstellations">
-          <div class="character-item" *ngIf="constellation.saints.length > 0">
-            <app-constellation-details [constellation]="constellation"></app-constellation-details>
-          </div>
-        </ng-container>
-      </div>
-    </ng-container>
-
-    <ng-container *ngSwitchDefault>
-      <app-spinner [spinner]="'zodiac-wheel'" [color]="'blue'"></app-spinner>
-    </ng-container>
-
-    <ng-template #spinner>
-      <app-spinner [spinner]="'zodiac-wheel'" [color]="'blue'"></app-spinner>
-    </ng-template>
-  </ng-container> -->
 </div>
 

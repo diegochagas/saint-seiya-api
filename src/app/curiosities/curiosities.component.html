@@ -1,0 +1,21 @@
+<div class="curiosities">
+  <h1>Curiosities</h1>
+
+  <div class="cards">
+    <div class="card text-white bg-dark" *ngFor="let character of characters">
+      <div class="card-header">
+        <h2 class="card-title">
+          <a href="/characters/personal/all/{{ character.id }}">{{ character.name }}</a>
+        </h2>
+
+        <h6 class="card-subtitle mb-2 text-muted">{{ character.subTitle }}</h6>
+      </div>
+
+      <div class="card-body">
+        <img class="card-img" src="{{ character.image }}" alt="{{ character.name }} image">
+
+        <div class="card-text">{{ character.description }}</div>
+      </div>
+    </div>
+  </div>
+</div>

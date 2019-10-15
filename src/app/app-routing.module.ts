@@ -5,6 +5,7 @@ import {
   CharacterViewComponent,
   CharactersComponent,
   CharactersListComponent,
+  CuriositiesComponent,
   GetStartedComponent,
   HomeComponent,
   MidiaListComponent,
@@ -50,6 +51,10 @@ const routes: Routes = [
   {
     path: 'midia/:id',
     component: MidiaViewComponent
+  },
+  {
+    path: 'curiosities',
+    component: CuriositiesComponent
   }
 ];
 

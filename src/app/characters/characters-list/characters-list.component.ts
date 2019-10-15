@@ -60,7 +60,7 @@ export class CharactersListComponent implements OnInit {
     } else if (this.detailsType === 'constellations') {
       this.pageTitle = '88 constellations';
 
-      this.pageSubTitle = 'Other constellations';
+      this.pageSubTitle = 'Old constellations';
 
       this.path = 'constellation/all';
 
@@ -85,7 +85,7 @@ export class CharactersListComponent implements OnInit {
   }
 
   sortCharacters(response) {
-    return response.data.sort((a,b) => (a.character > b.character) ? 1 : ((b.character > a.character) ? -1 : 0));
+    return response.data.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
   }
 
   characterDetails(id) {

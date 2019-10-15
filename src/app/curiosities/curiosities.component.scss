@@ -1,0 +1,34 @@
+.curiosities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    color: white;
+    margin: 40px 0 10px 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+
+    &:hover, &:focus {
+      font-weight: bold;
+    }
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .card {
+      margin: 20px;
+      width: 280px;
+    }
+
+    .card-img {
+      margin-bottom: 10px;
+    }
+  }
+}

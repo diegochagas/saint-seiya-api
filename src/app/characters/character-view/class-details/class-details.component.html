@@ -6,7 +6,7 @@
       <div class="card-text">
         <p>
           <b>Name: </b>
-          <span *ngIf="cls.characterId === undefined">Not revealed</span>
+          <span *ngIf="cls.characterId === ''">Not revealed</span>
           <a *ngIf="cls.characterId" href="/characters/personal/all/{{ cls.characterId }}">{{ cls.name }}</a>
         </p>
 

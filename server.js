@@ -31,6 +31,7 @@ const fileNames = [
   "classes",
   "cloths",
   "constellations",
+  "curiosities",
   "debuts",
   "evilStars",
   "familyMembers",
@@ -279,6 +280,8 @@ app.get('/api/character/:id', (req, res) => {
     res.status(404).json(buildResponse('Character not found'));
   }
 });
+
+app.get('/api/curiosities', (req, res) => res.status(200).json(buildResponse('Curiosities founded', content.curiosities)));
 
 app.get('/api/class-names', (req, res) => res.status(200).json(buildResponse('Class names founded', content.classes)));
 
