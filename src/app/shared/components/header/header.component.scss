@@ -19,10 +19,6 @@
         background-color: rgba(0, 0, 0, 0.3);
       }
 
-      @media screen and (min-width: 769px) {
-        top: 6px;
-      }
-
       .icon-athena-staff {
         color: rgba(255, 255, 255, 0.5);
         font-size: 50px;
@@ -35,9 +31,46 @@
         color: rgba(255, 255, 255, 0.5);
       }
     }
+  }
+}
 
-    .navbar-collapse {
-      padding-left: 200px;
+.nav-link {
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.5);
+
+  .material-icons {
+    transition: transform 0.5s;
+  }
+
+  &[aria-expanded="true"] {
+    .material-icons {
+      transform: rotate(180deg);
+    }
+  }
+
+  &:hover, &:focus {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 0.75);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-brand {
+    top: 6px !important;
+  }
+
+  .navbar-collapse {
+    padding-left: 200px;
+
+    .material-icons {
+      transform: rotate(90deg);
+    }
+
+    [aria-expanded="true"] {
+      .material-icons {
+        transform: rotate(-90deg);
+      }
     }
   }
 }

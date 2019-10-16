@@ -4,26 +4,25 @@ import { CommonModule } from '@angular/common';
 import {
   MatMenuModule,
   MatProgressSpinnerModule,
-  MatTableModule
+  MatTableModule,
 } from '@angular/material';
 
 import {
+  ErrorHandlerService,
   FooterComponent,
   HeaderComponent,
   ImageIconComponent,
-  MenuItemsComponent,
+  MenuToggleDirective,
   SpinnerComponent,
   ZodiacWheelComponent,
 } from './';
-
-import { ErrorHandlerService } from './services';
 
 @NgModule({
   declarations: [
     FooterComponent,
     HeaderComponent,
     ImageIconComponent,
-    MenuItemsComponent,
+    MenuToggleDirective,
     SpinnerComponent,
     ZodiacWheelComponent,
   ],
@@ -31,7 +30,7 @@ import { ErrorHandlerService } from './services';
     CommonModule,
     MatMenuModule,
     MatProgressSpinnerModule,
-    MatTableModule
+    MatTableModule,
   ],
   exports: [
     FooterComponent,

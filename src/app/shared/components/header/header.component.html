@@ -6,16 +6,72 @@
       <span class="brand-name">Saint Seiya API</span>
     </a>
 
-    <button class="navbar-toggler" mat-button [matMenuTriggerFor]="beforeMenu">
+    <button class="navbar-toggler" appMenuToggle>
       <i class="material-icons">menu</i>
     </button>
 
-    <mat-menu #beforeMenu="matMenu" xPosition="before">
-      <app-menu-items [classes]="classes" [debuts]="debuts"></app-menu-items>
-    </mat-menu>
+    <div class="collapse navbar-collapse" #menuToggle>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/characters/personal" mat-menu-item>Characters</a>
+        </li>
 
-    <div class="collapse navbar-collapse">
-      <app-menu-items [classes]="classes" [debuts]="debuts"></app-menu-items>
+        <li class="nav-item">
+          <button class="nav-link" mat-menu-item [matMenuTriggerFor]="classesMenu">
+            <span>Classes</span>
+
+            <i class="material-icons">arrow_right</i>
+          </button>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/characters/constellations" mat-menu-item>Constellations</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/curiosities" mat-menu-item>Curiosities</a>
+        </li>
+
+        <li class="nav-item">
+          <button class="nav-link" mat-menu-item [matMenuTriggerFor]="debutsMenu">
+            <span>Debuts</span>
+
+            <i class="material-icons">arrow_right</i>
+          </button>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/characters/evil-stars" mat-menu-item>Evil stars</a>
+        </li>
+      </ul>
+
+      <mat-menu #classesMenu="matMenu" xPosition="before">
+        <ng-container *ngIf="classes.length > 0">
+          <a class="dropdown-item nav-link" href="/characters/classes/all-classes" mat-menu-item>All</a>
+
+          <a
+            *ngFor="let cls of classes"
+            class="dropdown-item nav-link"
+            href="/characters/classes/{{ cls.toLowerCase().replace(' ', '-') }}"
+            mat-menu-item
+          >
+            {{ cls }}
+          </a>
+        </ng-container>
+      </mat-menu>
+
+      <mat-menu #debutsMenu="matMenu" xPosition="before">
+        <ng-container *ngIf="debuts.length > 0">
+          <a
+            *ngFor="let debut of debuts"
+            class="dropdown-item nav-link"
+            href="/{{ debut.toLowerCase() }}"
+            mat-menu-item
+          >
+            {{ debut }}
+          </a>
+        </ng-container>
+      </mat-menu>
     </div>
   </nav>
 </div>
