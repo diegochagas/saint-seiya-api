@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MidiasComponent } from './midias.component';
+import { DebutListComponent } from './debut-list.component';
 
-describe('MidiasComponent', () => {
-  let component: MidiasComponent;
-  let fixture: ComponentFixture<MidiasComponent>;
+describe('DebutListComponent', () => {
+  let component: DebutListComponent;
+  let fixture: ComponentFixture<DebutListComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MidiasComponent ]
+      declarations: [ DebutListComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MidiasComponent);
+    fixture = TestBed.createComponent(DebutListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -51,7 +51,7 @@
 
           <a
             *ngFor="let cls of classes"
-            class="dropdown-item nav-link"
+            class="nav-link"
             href="/characters/classes/{{ cls.toLowerCase().replace(' ', '-') }}"
             mat-menu-item
           >
@@ -62,10 +62,12 @@
 
       <mat-menu #debutsMenu="matMenu" xPosition="before">
         <ng-container *ngIf="debuts.length > 0">
+          <a href="/debuts/all" class="nav-link" mat-menu-item>All</a>
+
           <a
             *ngFor="let debut of debuts"
-            class="dropdown-item nav-link"
-            href="/{{ debut.toLowerCase() }}"
+            class="nav-link"
+            href="/debuts/{{ debut.replace(' ', '-').toLowerCase() }}"
             mat-menu-item
           >
             {{ debut }}

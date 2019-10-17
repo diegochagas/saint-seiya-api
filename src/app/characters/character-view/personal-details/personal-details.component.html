@@ -51,7 +51,9 @@
 
         <p>
           <b>Debut: </b>
-          <span>{{ character.debut || 'Not revealed' }}</span>
+          <a href="/debuts/{{ character.midia.replace(' ', '-').toLowerCase() }}">{{ character.midia }}: {{ character.debut }}</a>
+
+          <span *ngIf="character.midia === undefined">Not revealed</span>
         </p>
 
         <p>

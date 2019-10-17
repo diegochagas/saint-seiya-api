@@ -1,0 +1,17 @@
+.debut-list {
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .card {
+      margin: 20px;
+      width: 280px;
+    }
+
+    .card-img {
+      margin-bottom: 15px;
+    }
+  }
+}

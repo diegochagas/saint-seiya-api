@@ -6,11 +6,11 @@ import {
   CharactersComponent,
   CharactersListComponent,
   CuriositiesComponent,
+  DebutListComponent,
+  DebutViewComponent,
+  DebutsComponent,
   GetStartedComponent,
   HomeComponent,
-  MidiaListComponent,
-  MidiaViewComponent,
-  MidiasComponent,
 } from './';
 
 const routes: Routes = [
@@ -41,16 +41,18 @@ const routes: Routes = [
     component: GetStartedComponent
   },
   {
-    path: 'midias',
-    component: MidiasComponent
-  },
-  {
-    path: 'midia-list',
-    component: MidiaListComponent
-  },
-  {
-    path: 'midia/:id',
-    component: MidiaViewComponent
+    path: 'debuts',
+    component: DebutsComponent,
+    children: [
+      {
+        path: ':list',
+        component: DebutListComponent
+      },
+      {
+        path: ':list/:id',
+        component: DebutViewComponent
+      },
+    ]
   },
   {
     path: 'curiosities',

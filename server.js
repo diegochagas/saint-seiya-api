@@ -212,13 +212,15 @@ const buildCharacter = characterObject => {
   character.blood = bloodType ? bloodType : "";
 
   content.debuts.forEach(debut =>  {
-      if (debut.id === character.debut) {
-          content.midias.forEach(midia => {
-              if (midia.id === debut.midia) {
-                  character.debut = `${midia.name}: ${debut.name}`;
-              }
-          });
-      }
+    if (debut.id === character.debut) {
+      content.midias.forEach(midia => {
+        if (midia.id === debut.midia) {
+          character.debut = debut.name;
+
+          character.midia = midia.name;
+        }
+      });
+    }
   });
 
   character.cloth = buildCloths(character);
