@@ -1,3 +1,4 @@
+export * from './about';
 export * from './characters';
 export * from './curiosities';
 export * from './debuts';

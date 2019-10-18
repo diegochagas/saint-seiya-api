@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import {
+  AboutComponent,
   CharacterViewComponent,
   CharactersComponent,
   CharactersListComponent,
@@ -62,6 +63,10 @@ const routes: Routes = [
   {
     path: 'test-calls',
     component: TestCallsComponent
+  },
+  {
+    path: 'about',
+    component: AboutComponent
   }
 ];
 

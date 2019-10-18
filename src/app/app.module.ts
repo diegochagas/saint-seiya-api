@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { SharedModule } from './shared/shared.module';
 
 import {
+  AboutComponent,
   AppComponent,
   CharacterViewComponent,
   CharactersComponent,
@@ -26,6 +27,7 @@ import {
 
 @NgModule({
   declarations: [
+    AboutComponent,
     AppComponent,
     CharacterViewComponent,
     CharactersComponent,

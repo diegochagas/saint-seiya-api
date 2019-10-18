@@ -1,0 +1,28 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+
+  h1 {
+    color: rgba(255, 255, 255, 0.5);;
+    text-align: center;
+    margin: 40px 0 15px 0;
+    text-transform: capitalize;
+    z-index: 10;
+  }
+
+  .card {
+    max-width: 1024px;
+    width: 100%;
+    margin: 10px;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover, &:focus {
+      font-weight: bold;
+    }
+  }
+}
