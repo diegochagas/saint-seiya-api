@@ -57,7 +57,7 @@ export class TestCallsComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.pageURL = `${window.location.origin}/api`;
+    this.pageURL = `https://saint-seiya-api.herokuapp.com/api`;
 
     this.getCharacterIds();
 
