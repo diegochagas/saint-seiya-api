@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { CharactersService } from '../shared';
+
+import { CharactersService } from '../../shared';
 
 @Component({
   selector: 'app-curiosities',

@@ -54,33 +54,33 @@ export class CharactersListComponent implements OnInit {
 
       if (this.className === 'all-classes') {
         this.dataSource = this.sortCharacters(await this.classesService.getAllClasses().toPromise());
+      } else if (this.className === 'constellations') {
+        this.pageTitle = '88 constellations';
+
+        this.pageSubTitle = 'Old constellations';
+
+        this.path = 'constellation/all';
+
+        const response: any = await this.classesService.getConstellations().toPromise();
+
+        this.dataSource = response.data.modernConstellations;
+
+        this.dataSourceOthers = response.data.otherConstellations.filter(constellation => constellation.saints.length);
+      } else if (this.className === 'evil-stars') {
+        this.pageTitle = '108 evil stars';
+
+        this.pageSubTitle = 'Other evil stars';
+
+        this.path = 'evil-star/all';
+
+        const response: any = await this.classesService.getEvilStars().toPromise();
+
+        this.dataSource = response.data.evilStars;
+
+        this.dataSourceOthers = response.data.otherEvilStars.filter(evilStar => evilStar.saints.length);
       } else {
         this.dataSource = this.sortCharacters(await this.classesService.getClass(this.className).toPromise());
       }
-    } else if (this.detailsType === 'constellations') {
-      this.pageTitle = '88 constellations';
-
-      this.pageSubTitle = 'Old constellations';
-
-      this.path = 'constellation/all';
-
-      const response: any = await this.classesService.getConstellations().toPromise();
-
-      this.dataSource = response.data.modernConstellations;
-
-      this.dataSourceOthers = response.data.otherConstellations.filter(constellation => constellation.saints.length);
-    } else if (this.detailsType === 'evil-stars') {
-      this.pageTitle = '108 evil stars';
-
-      this.pageSubTitle = 'Other evil stars';
-
-      this.path = 'evil-star/all';
-
-      const response: any = await this.classesService.getEvilStars().toPromise();
-
-      this.dataSource = response.data.evilStars;
-
-      this.dataSourceOthers = response.data.otherEvilStars.filter(evilStar => evilStar.saints.length);
     }
   }
 

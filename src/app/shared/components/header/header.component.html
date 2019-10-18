@@ -13,7 +13,11 @@
     <div class="collapse navbar-collapse" #menuToggle>
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="/characters/personal" mat-menu-item>Characters</a>
+          <button class="nav-link" mat-menu-item [matMenuTriggerFor]="charactersMenu">
+            <span>Characters</span>
+
+            <i class="material-icons">arrow_right</i>
+          </button>
         </li>
 
         <li class="nav-item">
@@ -25,14 +29,6 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/characters/constellations" mat-menu-item>Constellations</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="/curiosities" mat-menu-item>Curiosities</a>
-        </li>
-
-        <li class="nav-item">
           <button class="nav-link" mat-menu-item [matMenuTriggerFor]="debutsMenu">
             <span>Debuts</span>
 
@@ -41,9 +37,15 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/characters/evil-stars" mat-menu-item>Evil stars</a>
+          <a class="nav-link" href="/about" mat-menu-item>About</a>
         </li>
       </ul>
+
+      <mat-menu #charactersMenu="matMenu" xPosition="before">
+        <a class="nav-link" href="/characters/curiosities" mat-menu-item>Curiosities</a>
+
+        <a class="dropdown-item nav-link" href="/characters/personal" mat-menu-item>Personal</a>
+      </mat-menu>
 
       <mat-menu #classesMenu="matMenu" xPosition="before">
         <ng-container *ngIf="classes.length > 0">

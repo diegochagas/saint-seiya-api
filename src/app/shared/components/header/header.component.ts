@@ -31,11 +31,13 @@ export class HeaderComponent implements OnInit {
     this.debuts = Array.from(new Set(this.debuts)).sort();
   }
 
-  getClasses() {
-    this.classesService.getClassNames().subscribe((response: any) => {
-      response.data.forEach(cls => this.classes.push(cls.name));
+  async getClasses() {
+    this.classes.push('Constellations', 'Evil stars');
 
-      this.classes.sort();
-    });
+    const response: any = await this.classesService.getClassNames().toPromise();
+
+    response.data.forEach(cls => this.classes.push(cls.name));
+
+    this.classes.sort();
   }
 }

@@ -6,6 +6,7 @@ import {
   MatProgressSpinnerModule,
   MatSelectModule,
   MatTableModule,
+  MatTabsModule,
 } from '@angular/material';
 
 import {
@@ -33,6 +34,7 @@ import {
     MatProgressSpinnerModule,
     MatSelectModule,
     MatTableModule,
+    MatTabsModule,
   ],
   exports: [
     FooterComponent,
@@ -40,6 +42,7 @@ import {
     ImageIconComponent,
     MatSelectModule,
     MatTableModule,
+    MatTabsModule,
     SpinnerComponent,
   ],
   providers: [

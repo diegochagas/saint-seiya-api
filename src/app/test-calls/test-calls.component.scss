@@ -11,15 +11,27 @@
     z-index: 10;
   }
 
-  .card {
+  .introduction {
     max-width: 1024px;
     width: 100%;
+  }
+
+  mat-tab-group {
+    background-color: white;
+    max-width: 1024px;
+    width: 100%;
+  }
+
+  .card {
     margin: 10px;
 
-    code {
-      font-size: 14px;
-      max-height: 200px;
+    .card-footer {
       overflow-y: auto;
+      max-height: 200px;
+
+      code {
+        font-size: 14px;
+      }
     }
   }
 }

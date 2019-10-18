@@ -382,7 +382,7 @@ app.get('/api/:class', (req, res) => {
 });
 
 app.get('/api/:class/:id', (req, res) => {
-  if (req.params.class === 'constellation') {
+  if (req.params.class.includes('constellation')) {
     const constellation = content.constellations.find(constellation => constellation.id === req.params.id);
 
     const saints = [];
@@ -396,7 +396,7 @@ app.get('/api/:class/:id', (req, res) => {
     constellation.saints = saints;
 
     res.status(200).json(buildResponse(`Constellation founded`, constellation));
-  } else if (req.params.class === 'evil-star') {
+  } else if (req.params.class.includes('evil-star')) {
     const evilStar = content.evilStars.find(evilStar => evilStar.id === req.params.id);
 
     const saints = [];

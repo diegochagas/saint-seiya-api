@@ -25,6 +25,10 @@ const routes: Routes = [
     component: CharactersComponent,
     children: [
       {
+        path: 'curiosities',
+        component: CuriositiesComponent
+      },
+      {
         path: ':details',
         component: CharactersListComponent
       },
@@ -35,7 +39,7 @@ const routes: Routes = [
       {
         path: ':details/:class/:id',
         component: CharacterViewComponent
-      },
+      }
     ]
   },
   {
@@ -55,10 +59,6 @@ const routes: Routes = [
         component: DebutViewComponent
       },
     ]
-  },
-  {
-    path: 'curiosities',
-    component: CuriositiesComponent
   },
   {
     path: 'test-calls',
