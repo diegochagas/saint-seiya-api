@@ -20,4 +20,8 @@ export class DebutsService {
   getDebuts() {
     return this.http.get(`${this.api}/debuts`, { headers: this.headers });
   }
+
+  getDebut(id) {
+    return this.http.get(`${this.api}/debut/${id}`, { headers: this.headers });
+  }
 }

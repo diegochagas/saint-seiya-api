@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import {
   MatMenuModule,
   MatProgressSpinnerModule,
+  MatSelectModule,
   MatTableModule,
 } from '@angular/material';
 
@@ -30,12 +31,14 @@ import {
     CommonModule,
     MatMenuModule,
     MatProgressSpinnerModule,
+    MatSelectModule,
     MatTableModule,
   ],
   exports: [
     FooterComponent,
     HeaderComponent,
     ImageIconComponent,
+    MatSelectModule,
     MatTableModule,
     SpinnerComponent,
   ],

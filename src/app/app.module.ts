@@ -21,6 +21,7 @@ import {
   GetStartedComponent,
   HomeComponent,
   PersonalDetailsComponent,
+  TestCallsComponent,
 } from './';
 
 @NgModule({
@@ -39,6 +40,7 @@ import {
     GetStartedComponent,
     HomeComponent,
     PersonalDetailsComponent,
+    TestCallsComponent,
   ],
   imports: [
     AppRoutingModule,

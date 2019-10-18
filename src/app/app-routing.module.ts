@@ -11,6 +11,7 @@ import {
   DebutsComponent,
   GetStartedComponent,
   HomeComponent,
+  TestCallsComponent,
 } from './';
 
 const routes: Routes = [
@@ -57,6 +58,10 @@ const routes: Routes = [
   {
     path: 'curiosities',
     component: CuriositiesComponent
+  },
+  {
+    path: 'test-calls',
+    component: TestCallsComponent
   }
 ];
 

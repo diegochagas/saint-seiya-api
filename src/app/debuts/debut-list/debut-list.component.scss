@@ -1,4 +1,11 @@
 .debut-list {
+  h1 {
+    color: rgba(255, 255, 255, 0.5);;
+    text-align: center;
+    margin: 40px 0 15px 0;
+    text-transform: capitalize;
+    z-index: 10;
+  }
 
   .cards {
     display: flex;

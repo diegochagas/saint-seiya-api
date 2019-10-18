@@ -4,8 +4,11 @@
   align-items: center;
 
   h1 {
-    color: white;
-    margin: 40px 0 10px 0;
+    color: rgba(255, 255, 255, 0.5);;
+    text-align: center;
+    margin: 40px 0 15px 0;
+    text-transform: capitalize;
+    z-index: 10;
   }
 
   a {

@@ -9,7 +9,7 @@ import { DebutsService } from 'src/app/shared';
   styleUrls: ['./debut-list.component.scss']
 })
 export class DebutListComponent implements OnInit {
-  pageTitle = '';
+  pageTitle = 'Debuts';
 
   debuts = [];
 
