@@ -1,0 +1,58 @@
+.characters-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+
+  h1, h2 {
+    color: rgba(255, 255, 255, 0.5);;
+    text-align: center;
+    margin: 40px 0 30px 0;
+    text-transform: capitalize;
+    z-index: 10;
+  }
+
+  h2 {
+    margin: 20px 0 40px 0;
+  }
+
+  .table-container {
+    max-height: 60vh;
+    overflow: auto;
+    width: 80%;
+    max-width: 768px;
+    margin-bottom: 20px;
+
+    table {
+      width: 100%;
+    }
+
+    .mat-row {
+      &:hover, &:focus {
+        background-color: rgba(173, 216, 230, 0.5);
+        cursor: pointer;
+
+        td {
+          font-weight: bold;
+        }
+      }
+
+      &.disabled {
+        background-color: gray;
+        cursor: auto;
+        pointer-events: none;
+
+        td {
+          color: black;
+          font-weight: normal;
+        }
+      }
+    }
+
+    th, td {
+      text-transform: uppercase;
+      padding: 0 10px;
+      color: rgba(255, 255, 255, 0.5);
+    }
+  }
+}

@@ -1,0 +1,58 @@
+<div class="class-details">
+  <div class="card text-white bg-dark">
+    <div class="card-body">
+      <img src="{{ cls.image }}" alt="{{ cls.name }} scheme" class="card-img">
+
+      <div class="card-text">
+        <p>
+          <b>Name: </b>
+          <span *ngIf="cls.characterId === ''">Not revealed</span>
+          <a *ngIf="cls.characterId" [routerLink]="['/characters/personal/all/' + cls.characterId]">{{ cls.name }}</a>
+        </p>
+
+        <p>
+          <b>Cloth: </b>
+          <span>{{ cls.cloth || 'Not revealed' }}</span>
+        </p>
+
+        <p>
+          <b>Class: </b>
+          <a [routerLink]="['/characters/classes/' + cls.class.toLowerCase().replace(' ', '-')]">{{ cls.class || 'Not revealed' }}</a>
+        </p>
+
+        <p>
+          <b>Rank: </b>
+          <span>{{ cls.rank || 'Not revealed' }}</span>
+        </p>
+
+        <p>
+          <b>Affiliation: </b>
+          <span>{{ cls.affiliation || 'Not revealed' }}</span>
+        </p>
+
+        <p>
+          <b>Artist: </b>
+          <span>{{ cls.artist || 'Not revealed' }}</span>
+        </p>
+
+        <p>
+          <b>Symbol: </b>
+          <span>{{ cls.symbol || 'Not revealed' }}</span>
+        </p>
+
+        <p>
+          <b>Attacks: </b>
+          <ng-container *ngIf="cls.attacks.length === 0; else attacks">
+            <span>Not revealed</span>
+          </ng-container>
+
+          <ng-template #attacks>
+            <span *ngFor="let attack of cls.attacks; let i = index">
+              {{ attack }}{{ i === cls.attacks.length - 1 ? '' : ' / ' }}
+            </span>
+          </ng-template>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

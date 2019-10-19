@@ -1,0 +1,47 @@
+body {
+  position: relative;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+code {
+  display: block;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 18px;
+  width: 100%;
+  padding: 16px 24px;
+  background: rgba(44, 37, 44, 0.8);
+  border: 1px solid #7f797f;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.mat-menu-content {
+  background-color: #343a40;
+}
+
+.card-title.card-icon {
+  [class*="icon"] {
+    position: absolute;
+    font-size: 50px;
+    top: 7px;
+  }
+
+  .card-title-text {
+    margin-left: 60px;
+  }
+}
+
+.card-footer {
+  .spinner {
+    justify-content: left !important;
+    width: initial !important;
+    height: initial !important;
+
+    img {
+      width: 50px;
+      margin: 20px;
+    }
+  }
+}

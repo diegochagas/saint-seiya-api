@@ -1,0 +1,85 @@
+<div class="header">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <a class="navbar-brand" [routerLink]="['/']">
+      <i class="icon-athena-staff"></i>
+
+      <span class="brand-name">Saint Seiya API</span>
+    </a>
+
+    <button class="navbar-toggler" appMenuToggle>
+      <i class="material-icons">menu</i>
+    </button>
+
+    <div class="collapse navbar-collapse" #menuToggle>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <button class="nav-link" mat-menu-item [matMenuTriggerFor]="charactersMenu">
+            <span>Characters</span>
+
+            <i class="material-icons">arrow_right</i>
+          </button>
+        </li>
+
+        <li class="nav-item">
+          <button class="nav-link" mat-menu-item [matMenuTriggerFor]="classesMenu">
+            <span>Classes</span>
+
+            <i class="material-icons">arrow_right</i>
+          </button>
+        </li>
+
+        <li class="nav-item">
+          <button class="nav-link" mat-menu-item [matMenuTriggerFor]="debutsMenu">
+            <span>Debuts</span>
+
+            <i class="material-icons">arrow_right</i>
+          </button>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/test-calls']" mat-menu-item>Test calls</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/about']" mat-menu-item>About</a>
+        </li>
+      </ul>
+
+      <mat-menu #charactersMenu="matMenu" xPosition="before">
+        <a class="nav-link" [routerLink]="['/characters/curiosities']" mat-menu-item>Curiosities</a>
+
+        <a class="dropdown-item nav-link" [routerLink]="['/characters/personal']" mat-menu-item>Personal</a>
+      </mat-menu>
+
+      <mat-menu #classesMenu="matMenu" xPosition="before">
+        <ng-container *ngIf="classes.length > 0">
+          <a class="dropdown-item nav-link" [routerLink]="['/characters/classes/all-classes']" mat-menu-item>All</a>
+
+          <a
+            *ngFor="let cls of classes"
+            class="nav-link"
+            [routerLink]="['/characters/classes/' + cls.toLowerCase().replace(' ', '-')]"
+            mat-menu-item
+          >
+            {{ cls }}
+          </a>
+        </ng-container>
+      </mat-menu>
+
+      <mat-menu #debutsMenu="matMenu" xPosition="before">
+        <ng-container *ngIf="debuts.length > 0">
+          <a [routerLink]="['/debuts/all']" class="nav-link" mat-menu-item>All</a>
+
+          <a
+            *ngFor="let debut of debuts"
+            class="nav-link"
+            [routerLink]="['/debuts/' + debut.replace(' ', '-').toLowerCase()]"
+            mat-menu-item
+          >
+            {{ debut }}
+          </a>
+        </ng-container>
+      </mat-menu>
+    </div>
+  </nav>
+</div>
