@@ -123,7 +123,9 @@ const buildCloths = async character => {
 
   const cloths = [];
   
-  content.saints.forEach(async saint => {
+  for (let i = 0; i < content.saints.length; i++) {
+    const saint = content.saints[i];
+
     if (saint.name === character.id) {
       const cloth = await buildSaint(saint.id);
 
@@ -131,7 +133,7 @@ const buildCloths = async character => {
 
       cloths.push(cloth);
     }
-  });
+  }
   return cloths;
 }
 
@@ -143,14 +145,15 @@ const buildCharacter = async characterObject => {
   character.gender = genders[character.gender];
 
   content.nationality.forEach(nationality => {
-      if (nationality.num_code === character.nationality) {
-          character.nationality = nationality.nationality;
-      }
+    if (nationality.num_code === character.nationality) {
+      character.nationality = nationality.nationality;
+    }
 
-      if (nationality.num_code === character.training) {
-          const place = content.places.find(place => place.id === character.place);
-          character.training = place ? `${place.name}, ${nationality.en_short_name}` : nationality.en_short_name;
-      }
+    if (nationality.num_code === character.training) {
+      const place = content.places.find(place => place.id === character.place);
+      
+      character.training = place ? `${place.name}, ${nationality.en_short_name}` : nationality.en_short_name;
+    }
   });
 
   delete character.place;

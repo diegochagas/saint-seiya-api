@@ -15,10 +15,12 @@ module.exports = {
   async getCharacter(request, response) {
     const content = await Content.load();
 
-    const character = content.characters.find(character => character.id === request.params.id);
+    const characterFounded = content.characters.find(character => character.id === request.params.id);
   
-    if (character) {
-      response.json({ character: await Content.buildCharacter(character) });
+    if (characterFounded) {
+      const character = await Content.buildCharacter(characterFounded);
+
+      response.json(character);
     } else {
       response.status(404).json({ message: 'Character not found' });
     }

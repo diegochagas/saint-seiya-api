@@ -31,6 +31,8 @@ export class CharacterViewComponent implements OnInit {
 
         this.className = this.activatedRoute.snapshot.params.class;
 
+        this.character = undefined;
+
         this.getCharacter();
       }
     });
@@ -41,9 +43,7 @@ export class CharacterViewComponent implements OnInit {
 
   getCharacter() {
     if (this.detailsType === 'personal') {
-      console.log(this.id, this.detailsType, this.className);
-
-      this.charactersService.getCharacter(this.id).subscribe((response: any) => this.character = response.character);
+      this.charactersService.getCharacter(this.id).subscribe((response: any) => this.character = response);
     } else if (this.detailsType === 'classes') {
       this.classService.getSaint(this.className, this.id).subscribe((response: any) => this.character = response.saint);
     } else if (this.detailsType === 'constellation') {
