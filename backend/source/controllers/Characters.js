@@ -1,17 +1,9 @@
 const Content = require('../models/Content.js');
 
-module.exports = {
-  async getCharacters(request, response) {
-    const content = await Content.load();
-    
-    const characters = [];
+const db = require("../models/Firebase.js");
 
-    for (let i = 0; i < content.characters.length; i++) {
-      characters.push(await Content.buildCharacter(content.characters[i]));
-    }
-  
-    response.json({ characters });
-  },
+module.exports = {
+  async getCharacters(request, response) { response.json(db.collection('characters').get()) },
   async getCharacter(request, response) {
     const content = await Content.load();
 
@@ -25,9 +17,17 @@ module.exports = {
       response.status(404).json({ message: 'Character not found' });
     }
   },
-  async getCuriosities(request, response) {
-    const content = await Content.load();
+  getCuriosities(request, response) {
+    db.collection('curiosities').get()
+      .then(snapshot => {
+        const curiosities = [];
 
-    response.json(content.curiosities);
-  } 
+        snapshot.forEach(doc => curiosities.push(doc.data()));
+
+        response.json(curiosities);
+      })
+      .catch(err => {
+        console.log('Error getting documents', err);
+      });
+  }
 };
