@@ -6,7 +6,7 @@ A RESTful API for Saint Seiya - https://saint-seiya-api.herokuapp.com/
 
 - Node
 - Express
-- React
+- Angular
 - JavaScript
 
 ## Sources
