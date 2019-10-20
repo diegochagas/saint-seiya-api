@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "saint-seiya-api-accd5": {
+      "hosting": {
+        "saint-seiya-api": [
+          "saint-seiya-api-accd5"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "saint-seiya-api-accd5"
+  }
+}

@@ -22,7 +22,7 @@ export class CuriositiesComponent implements OnInit {
     curiosities.forEach(async character => {
       const response: any = await this.charactersService.getCharacter(character.id).toPromise();
 
-      const { name, image } = response.character;
+      const { name, image } = response;
 
       this.characters.push({ ...character, name, image });
 
