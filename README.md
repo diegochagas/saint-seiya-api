@@ -9,6 +9,44 @@ A RESTful API for Saint Seiya - https://saint-seiya-api.herokuapp.com/
 - Angular
 - JavaScript
 
+## Commands
+
+After do the git clone, you need to run the following commands:
+
+On frontend folder:
+
+```bash
+npm i
+```
+
+On backend folder:
+
+```bash
+npm i
+```
+
+Go to the following backend subfolder, to run local server to work with csv converter:
+
+```bash
+cd backend\source
+```
+
+and
+
+```bash
+nodemon .\server.js
+```
+
+To execute a deploy on Github Pages:
+
+```bash
+npm install -g angular-cli-ghpages
+```
+
+```bash
+ng build --prod --base-href https://[username].github.io/[repo]/ && ngh --dir=dist/[project-name]
+```
+
 ## Sources
 
 - [Saint Seiya Official Web site (Japanese)](http://saintseiya-official.com/)
