@@ -7,8 +7,6 @@ import {
   CharactersComponent,
   CharactersListComponent,
   CuriositiesComponent,
-  DebutListComponent,
-  DebutViewComponent,
   DebutsComponent,
   GetStartedComponent,
   HomeComponent,
@@ -48,17 +46,11 @@ const routes: Routes = [
   },
   {
     path: 'debuts',
-    component: DebutsComponent,
-    children: [
-      {
-        path: ':list',
-        component: DebutListComponent
-      },
-      {
-        path: ':list/:id',
-        component: DebutViewComponent
-      },
-    ]
+    component: DebutsComponent
+  },
+  {
+    path: 'debuts/:midia',
+    component: DebutsComponent
   },
   {
     path: 'test-calls',

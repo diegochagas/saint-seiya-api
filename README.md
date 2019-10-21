@@ -44,7 +44,7 @@ npm install -g angular-cli-ghpages
 ```
 
 ```bash
-ng build --prod --base-href https://[username].github.io/[repo]/ && ngh --dir=dist/[project-name]
+ng build --prod --base-href https://<profile_name>.github.io/<repo_name>/ --deploy-url=https://<profile_name>.github.io/<repo_name>/ && ngh --dir=dist/<repo_name>
 ```
 
 ## Sources

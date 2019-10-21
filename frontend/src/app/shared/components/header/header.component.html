@@ -68,7 +68,7 @@
 
       <mat-menu #debutsMenu="matMenu" xPosition="before">
         <ng-container *ngIf="debuts.length > 0">
-          <a [routerLink]="['/debuts/all']" class="nav-link" mat-menu-item>All</a>
+          <a [routerLink]="['/debuts']" class="nav-link" mat-menu-item>All</a>
 
           <a
             *ngFor="let debut of debuts"
