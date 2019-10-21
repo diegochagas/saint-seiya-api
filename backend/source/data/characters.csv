@@ -263,7 +263,7 @@ id,name,age,gender,birth,nationality,training,place,height,weight,blood,debut
 262,Mania,,1,,,,,,,,5
 263,Manigold,25,0,14-Jul,380,300,,187,85,3,6
 264,Marcian Commander,,0,,,,,,,,16
-265,Maria,,1,,,,,,,,5
+265,Maria (Lethe),,1,,,,,,,,5
 266,Marin,16,1,Mar-18,392,300,,167,51,0,1
 267,Arles,,0,,,,,,,,12
 268,Markino,19,0,Apr-25,458,,,155,51,2,1
@@ -465,7 +465,7 @@ id,name,age,gender,birth,nationality,training,place,height,weight,blood,debut
 464,Yoshimi Morigakure Masataka,,0,,392,392,10,,,,16
 465,Yoshino Hino,,1,,392,,,,,,10
 466,Yoshitomi,,0,,392,392,10,,,,16
-467,Yufa,,1,,,,,,,,5
+467,Yufa (Limos),,1,,,,,,,,5
 468,Yulij,,1,,,300,,,,,27
 469,Yuna,13,1,,643,300,,,,,16
 470,Yuzuriha,17,1,,156,156,12,,,,6
@@ -488,3 +488,4 @@ id,name,age,gender,birth,nationality,training,place,height,weight,blood,debut
 487,Nyan,,1,,,,,,,,4
 488,Arthur Pendragon,,0,,826,826,,,,,10
 489,Mordred,,0,,826,826,,,,,10
+490,Edward (Horcos),,0,,,,,,,,5
