@@ -106,7 +106,7 @@ export class TestCallsComponent implements OnInit {
 
     const response: any = await this.charactersService.getCharacters().toPromise();
 
-    this.charactersResponse = `{ "characters": ${JSON.stringify(response.characters.slice(0, 10))} }`;
+    this.charactersResponse = JSON.stringify(response.slice(0, 10));
 
     this.isLoadingCharacters = false;
   }
@@ -146,7 +146,7 @@ export class TestCallsComponent implements OnInit {
 
     const response: any = await this.classesService.getAllClasses().toPromise();
 
-    this.allClassesResponse = `{ "saints": ${JSON.stringify(response.saints.slice(0, 10))} }`;
+    this.allClassesResponse = JSON.stringify(response.slice(0, 10));
 
     this.isLoadingAllClasses = false;
   }
@@ -156,7 +156,7 @@ export class TestCallsComponent implements OnInit {
 
     const response: any = await this.classesService.getClass(this.className).toPromise();
 
-    this.classesResponse = `{ "saints": ${JSON.stringify(response.saints.slice(0, 10))} }`;
+    this.classesResponse = JSON.stringify(response.slice(0, 10));
 
     this.isLoadingClasses = false;
   }
@@ -177,7 +177,7 @@ export class TestCallsComponent implements OnInit {
         ...response.otherEvilStars.map(cls => cls.id)
       ];
     } else {
-      this.classIds = response.saints.map(cls => cls.id);
+      this.classIds = response.map(cls => cls.id);
     }
 
     this.classId = undefined;
@@ -198,7 +198,7 @@ export class TestCallsComponent implements OnInit {
 
     const response: any = await this.debutsService.getDebuts().toPromise();
 
-    this.debutsResponse = `{ "debuts": ${JSON.stringify(response.debuts.slice(0, 10))} }`;
+    this.debutsResponse = JSON.stringify(response.slice(0, 10));
 
     this.isLoadingDebuts = false;
   }
