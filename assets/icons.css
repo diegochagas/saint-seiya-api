@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "saint-seiya-api";
+  src:url("fonts/saint-seiya-api.eot");
+  src:url("fonts/saint-seiya-api.eot?#iefix") format("embedded-opentype"),
+    url("fonts/saint-seiya-api.woff") format("woff"),
+    url("fonts/saint-seiya-api.ttf") format("truetype"),
+    url("fonts/saint-seiya-api.svg#saint-seiya-api") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "saint-seiya-api" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "saint-seiya-api" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-athena-staff-1:before {
+  content: "\61";
+}
+.icon-athena-staff:before {
+  content: "\62";
+}
+.icon-helmet-andromeda:before {
+  content: "\63";
+}
+.icon-helmet-cygnus:before {
+  content: "\64";
+}
+.icon-helmet-draco:before {
+  content: "\65";
+}
+.icon-helmet-pegasus:before {
+  content: "\66";
+}
+.icon-helmet-phoenix:before {
+  content: "\67";
+}
+.icon-pegasus:before {
+  content: "\68";
+}
+.icon-pegasus-2:before {
+  content: "\69";
+}
+.icon-athena-staff-2:before {
+  content: "\6a";
+}
+.icon-saint-seiya-logo:before {
+  content: "\6b";
+}
+.icon-zodiac-wheel:before {
+  content: "\6c";
+}
+.icon-zodiac-wheel-2:before {
+  content: "\6d";
+}
+.icon-linkedin:before {
+  content: "\72";
+}
+.icon-instagram:before {
+  content: "\73";
+}
+.icon-facebook:before {
+  content: "\75";
+}
+.icon-skype:before {
+  content: "\6e";
+}
+.icon-github:before {
+  content: "\6f";
+}
+.icon-twitter:before {
+  content: "\70";
+}
+.icon-youtube:before {
+  content: "\71";
+}
