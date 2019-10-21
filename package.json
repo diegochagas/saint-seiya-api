@@ -1,0 +1,20 @@
+{
+  "name": "saint-seiya-api",
+  "version": "1.0.0",
+  "description": "Heroku init",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd backend && npm install && node source/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegochagas/saint-seiya-api.git"
+  },
+  "author": "Diego Chagas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegochagas/saint-seiya-api/issues"
+  },
+  "homepage": "https://github.com/diegochagas/saint-seiya-api#readme"
+}
