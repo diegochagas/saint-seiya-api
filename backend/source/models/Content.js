@@ -25,7 +25,7 @@ const fileNames = [
 const genders = ['Male', 'Female'];
 const bloodTypes = ['A', 'B', 'AB', 'O', 'Ikhor'];
 
-const noSchemeImage = "https://firebasestorage.googleapis.com/v0/b/saint-seiya-api-accd5.appspot.com/o/others%2Fno-scheme.png?alt=media&token=fe50ebdc-d7d6-4238-81c4-c49a48c2c40a";
+const noSchemeImage = "assets/cloth-schemes/others/no-scheme.png";
 
 const getCSVContent = async () => {
   const content = {};

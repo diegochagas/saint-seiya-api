@@ -16,5 +16,7 @@
   "bugs": {
     "url": "https://github.com/diegochagas/saint-seiya-api/issues"
   },
-  "homepage": "https://github.com/diegochagas/saint-seiya-api#readme"
+  "homepage": "https://github.com/diegochagas/saint-seiya-api#readme",
+  "dependencies": {},
+  "devDependencies": {}
 }
