@@ -34,7 +34,7 @@ cd backend\source
 and
 
 ```bash
-nodemon .\server.js
+node .\server.js
 ```
 
 To execute a deploy on Github Pages:
