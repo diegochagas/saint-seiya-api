@@ -4,7 +4,7 @@ require("firebase/firestore");
 
 const firebaseConfig = require('./firebaseConfig.js');
 
-const content = require('./loadContent.js');
+const content = require('./Content.js');
 
 // Initialize Cloud Firestore through Firebase
 firebase.initializeApp(firebaseConfig);

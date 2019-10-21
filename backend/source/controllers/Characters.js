@@ -1,33 +1,55 @@
 const Content = require('../models/Content.js');
 
-const db = require("../models/Firebase.js");
-
 module.exports = {
-  async getCharacters(request, response) { response.json(db.collection('characters').get()) },
+  async getCharacters(request, response) {
+    const collections = await Content.getColletions();
+
+    let characters = [];
+
+    for (let i = 0; i < collections.length; i++) {
+      if (collections[i].collectionPath === 'characters') {
+        characters = collections[i].collection;
+      }
+    }
+    
+    response.json(characters);
+  },
   async getCharacter(request, response) {
-    const content = await Content.load();
+    const collections = await Content.getColletions();
 
-    const characterFounded = content.characters.find(character => character.id === request.params.id);
+    let characters = [];
+
+    for (let i = 0; i < collections.length; i++) {
+      if (collections[i].collectionPath === 'characters') {
+        characters = collections[i].collection;
+      }
+    }
+
+    let character;
+
+    for (let i = 0; i < characters.length; i++) {
+      if (characters[i].id === request.params.id) {
+        character = characters[i];
+      }
+    }
   
-    if (characterFounded) {
-      const character = await Content.buildCharacter(characterFounded);
-
+    if (character) {
       response.json(character);
     } else {
       response.status(404).json({ message: 'Character not found' });
     }
   },
-  getCuriosities(request, response) {
-    db.collection('curiosities').get()
-      .then(snapshot => {
-        const curiosities = [];
+  async getCuriosities(request, response) {
+    const collections = await Content.getColletions();
 
-        snapshot.forEach(doc => curiosities.push(doc.data()));
+    let curiosities = [];
 
-        response.json(curiosities);
-      })
-      .catch(err => {
-        console.log('Error getting documents', err);
-      });
+    for(let i = 0; i < collections.length; i++) {
+      if (collections[i].collectionPath === 'curiosities') {
+        curiosities = collections[i].collection;
+      }
+    }
+    
+    response.json(curiosities);
   }
 };

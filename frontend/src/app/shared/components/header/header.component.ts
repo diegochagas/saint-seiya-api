@@ -26,7 +26,7 @@ export class HeaderComponent implements OnInit {
   async getDebuts() {
     const response: any = await this.debutsService.getDebuts().toPromise();
 
-    response.debuts.forEach(debut => this.debuts.push(debut.midia));
+    response.forEach(debut => this.debuts.push(debut.midia));
 
     this.debuts = Array.from(new Set(this.debuts)).sort();
   }

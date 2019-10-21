@@ -2,109 +2,163 @@ const Content = require('../models/Content.js');
 
 module.exports = {
   async getClassNames(request, response) {
-    const content = await Content.load();
+    const collections = await Content.getColletions();
 
-    response.json(content.classes);
+    let classNames = [];
+
+    for (let i = 0; i < collections.length; i++) {
+      if (collections[i].collectionPath === 'classNames') {
+        classNames = collections[i].collection;
+      }
+    }
+
+    response.json(classNames);
   },
   async getAllClasses(request, response) {
-    const content = await Content.load();
+    const collections = await Content.getColletions();
 
-    const saints = [];
-  
-    for (let i = 0; i < content.saints.length; i++) {
-      const saint = content.saints[i];
+    let saints = [];
 
-      saints.push(await Content.buildSaint(saint.id));
+    for (let i = 0; i < collections.length; i++) {
+      if (collections[i].collectionPath === 'saints') {
+        saints = collections[i].collection;
+      }
     }
   
-    response.json({ saints });
+    response.json(saints);
   },
   async getClassSaints(request, response) {
-    const content = await Content.load();
+    const collections = await Content.getColletions();
 
-    let cls = content.classes.find(cls => request.params.class === cls.name.toLowerCase().replace(' ', '-'));
+    let allSaints = [];
+
+    for (let i = 0; i < collections.length; i++) {
+      if (collections[i].collectionPath === 'saints') {
+        allSaints = collections[i].collection;
+      }
+    }
+
+    let saints = [];
+
+    for (let i = 0; i < allSaints.length; i++) {
+      if (request.params.class === allSaints[i].class.toLowerCase().replace(' ', '-')) {
+        saints.push(allSaints[i]);
+      }
+    }
   
     if (request.params.class === 'constellations') {
-      const modernConstellations = await Content.buildConstellations(content.constellations.slice(0, 88));
-  
-      const otherConstellations = await Content.buildConstellations(content.constellations.slice(88));
-  
-      response.json({ modernConstellations, otherConstellations });
-    } else if (request.params.class === 'evil-stars') {
-      const evilStars = await Content.buildEvilStars(content.evilStars.slice(0, 88));
-  
-      const otherEvilStars = await Content.buildEvilStars(content.evilStars.slice(108));
-  
-      response.json({ evilStars, otherEvilStars });
-    } else if (cls) {
-      const saints = [];
-  
-      for (let i = 0; i < content.saints.length; i++) {
-        const saint = content.saints[i];
+      let modernConstellations = [];
 
-        if (saint.class === cls.id) {
-          saints.push(await Content.buildSaint(saint.id));
+      let otherConstellations = [];
+
+      for (let i = 0; i < collections.length; i++) {
+        if (collections[i].collectionPath === 'constellations') {
+          modernConstellations = collections[i].collection.slice(0, 88);
+
+          otherConstellations = collections[i].collection.slice(88);
         }
       }
   
-      response.json({ saints });
+      response.json({ modernConstellations, otherConstellations });
+    } else if (request.params.class === 'evil-stars') {
+      let evilStars = [];
+      
+      let otherEvilStars = [];
+      
+      for (let i = 0; i < collections.length; i++) {
+        if (collections[i].collectionPath === 'evilStars') {
+          modernConstellations = collections[i].collection.slice(0, 108);
+
+          otherConstellations = collections[i].collection.slice(108);
+        }
+      }
+  
+      response.json({ evilStars, otherEvilStars });
+    } else if (saints) {
+      response.json(saints);
     } else {
       response.status(404).json({ message: `${request.params.class} not found` });
     }
   },
   async getSaint(request, response) {
-    const content = await Content.load();
+    const collections = await Content.getColletions();
+
+    let allSaints = [];
+
+    for (let i = 0; i < collections.length; i++) {
+      if (collections[i].collectionPath === 'saints') {
+        allSaints = collections[i].collection;
+      }
+    }
+
+    let saints = [];
+
+    for (let i = 0; i < allSaints.length; i++) {
+      if (request.params.class === allSaints[i].class.toLowerCase().replace(' ', '-')) {
+        saints.push(allSaints[i]);
+      }
+    }
 
     if (request.params.class.includes('constellation')) {
-      const constellation = content.constellations.find(constellation => constellation.id === request.params.id);
-  
-      const saints = [];
-  
-      for (let i = 0; i < content.saints.length; i++) {
-        const saint = content.saints[i];
+      let constellations = [];
 
-        if (`constellation-${constellation.id}` === saint.symbol) {
-          saints.push(await Content.buildSaint(saint.id));
+      for (let i = 0; i < collections.length; i++) {
+        if (collections[i].collectionPath === 'constellations') {
+          constellations = collections[i].collection;
         }
       }
-      constellation.saints = saints;
-  
-      response.json({ constellation });
+
+      let constellation;
+
+      for (let i = 0; i < constellations.length; i++) {
+        if (constellations[i].id === request.params.id) {
+          constellation = constellations[i];
+        }
+      }
+
+      if (constellation) {
+        response.json(constellation);
+      } else {
+        response.status(404).json({ message: `Constellation not found` });
+      }
     } else if (request.params.class.includes('evil-star')) {
-      const evilStar = content.evilStars.find(evilStar => evilStar.id === request.params.id);
-  
-      const saints = [];
-  
-      for (let i = 0; i < content.saints.length; i++) {
-        const saint = content.saints[i];
+      let evilStars = [];
 
-        if (`evil-star-${evilStar.id}` === saint.symbol) {
-          saints.push(await Content.buildSaint(saint.id));
+      for (let i = 0; i < collections.length; i++) {
+        if (collections[i].collectionPath === 'evilStars') {
+          evilStars = collections[i].collection;
+        }
+      }
+
+      let evilStar;
+
+      for (let i = 0; i < evilStars.length; i++) {
+        if (evilStars[i].id === request.params.id) {
+          evilStar = evilStars[i];
+        }
+      }
+
+      if (evilStar) {
+        response.json(evilStar);
+      } else {
+        response.status(404).json({ message: `Evil star not found` });
+      }
+    } else if (saints) {
+      let saint;
+
+      for (let i = 0; i < saints.length; i++) {
+        if (request.params.id === saints[i].id) {
+          saint = saints[i];
         }
       }
   
-      evilStar.saints = saints;
-  
-      response.json({ evilStar });
-    } else {
-      const cls = content.classes.find(cls => {
-        if (request.params.class === cls.name.toLowerCase().replace(' ', '-') ||
-            request.params.class === cls.singular.toLowerCase().replace(' ', '-')) {
-          return cls;
-        }
-      });
-  
-      if (cls) {
-        const saint = content.saints.find(saint => saint.class === cls.id && saint.id === request.params.id);
-    
-        if (saint) {
-          response.json({ saint: await Content.buildSaint(saint.id) });
-        } else {
-          response.status(404).json({ message: `${request.params.class} not found` });
-        }
+      if (saint) {
+        response.json(saint);
       } else {
         response.status(404).json({ message: `${request.params.class} not found` });
       }
+    } else {
+      response.status(404).json({ message: `${request.params.class} not found` });
     }
   }
 }

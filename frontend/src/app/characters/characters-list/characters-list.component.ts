@@ -54,7 +54,7 @@ export class CharactersListComponent implements OnInit {
 
       const response: any = await this.charactersService.getCharacters().toPromise();
 
-      this.dataSource = response.characters.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
+      this.dataSource = response.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
     } else if (this.detailsType === 'classes') {
       this.pageTitle = this.className.replace('-', ' ');
 
@@ -63,7 +63,7 @@ export class CharactersListComponent implements OnInit {
       if (this.className === 'all-classes') {
         const response: any = await this.classesService.getAllClasses().toPromise();
 
-        this.dataSource = response.saints.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
+        this.dataSource = response.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
       } else if (this.className === 'constellations') {
         this.pageTitle = '88 constellations';
 
@@ -73,9 +73,9 @@ export class CharactersListComponent implements OnInit {
 
         const response: any = await this.classesService.getConstellations().toPromise();
 
-        this.dataSource = response.data.modernConstellations;
+        this.dataSource = response.modernConstellations;
 
-        this.dataSourceOthers = response.data.otherConstellations.filter(constellation => constellation.saints.length);
+        this.dataSourceOthers = response.otherConstellations.filter(constellation => constellation.saints.length);
       } else if (this.className === 'evil-stars') {
         this.pageTitle = '108 evil stars';
 
@@ -85,13 +85,13 @@ export class CharactersListComponent implements OnInit {
 
         const response: any = await this.classesService.getEvilStars().toPromise();
 
-        this.dataSource = response.data.evilStars;
+        this.dataSource = response.evilStars;
 
-        this.dataSourceOthers = response.data.otherEvilStars.filter(evilStar => evilStar.saints.length);
+        this.dataSourceOthers = response.otherEvilStars.filter(evilStar => evilStar.saints.length);
       } else {
         const response: any = await this.classesService.getClass(this.className).toPromise();
 
-        this.dataSource = response.saints.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
+        this.dataSource = response.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
       }
     }
   }

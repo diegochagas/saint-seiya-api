@@ -35,7 +35,7 @@ export class DebutListComponent implements OnInit {
 
     const response: any = await this.debutsService.getDebuts().toPromise();
 
-    if (this.midia === 'all') this.debuts = response.debuts;
-    else this.debuts = response.debuts.filter(debut => debut.midia.replace(' ', '-').toLowerCase() === this.midia);
+    if (this.midia === 'all') this.debuts = response;
+    else this.debuts = response.filter(debut => debut.midia.replace(' ', '-').toLowerCase() === this.midia);
   }
 }

@@ -41,15 +41,15 @@ export class CharacterViewComponent implements OnInit {
   ngOnInit() {
   }
 
-  getCharacter() {
+  async getCharacter() {
     if (this.detailsType === 'personal') {
-      this.charactersService.getCharacter(this.id).subscribe((response: any) => this.character = response);
+      this.character = await this.charactersService.getCharacter(this.id).toPromise();
     } else if (this.detailsType === 'classes') {
-      this.classService.getSaint(this.className, this.id).subscribe((response: any) => this.character = response.saint);
+      this.character = await this.classService.getSaint(this.className, this.id).toPromise();
     } else if (this.detailsType === 'constellation') {
-      this.classService.getConstellation(this.id).subscribe((response: any) => this.character = response.constellation);
+      this.character = await this.classService.getConstellation(this.id).toPromise();
     } else if (this.detailsType === 'evil-star') {
-      this.classService.getEvilStar(this.id).subscribe((response: any) => this.character = response.evilStar);
+      this.character = await this.classService.getEvilStar(this.id).toPromise();
     }
   }
 }

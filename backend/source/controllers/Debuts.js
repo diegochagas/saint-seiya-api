@@ -2,33 +2,39 @@ const Content = require('../models/Content.js');
 
 module.exports = {
   async getDebuts(request, response) {
-    const content = await Content.load();
+    const collections = await Content.getColletions();
 
-    const debuts = content.debuts.map(debutObject => {
-      const debut = Object.assign({}, debutObject);
-  
-      const midia = content.midias.find(midia => midia.id === debut.midia);
-  
-      debut.midia = midia.name;
-  
-      return debut;
-    });
-  
-    response.json({ debuts });
+    let debuts = [];
+
+    for (let i = 0; i < collections.length; i++) {
+      if (collections[i].collectionPath === 'debuts') {
+        debuts = collections[i].collection;
+      }
+    }
+    
+    response.json(debuts);
   },
-  async getDebut(request, response) {  
-    const content = await Content.load();
+  async getDebut(request, response) {
+    const collections = await Content.getColletions();
 
-    const debutObject = content.debuts.find(debut => debut.id === request.params.id);
+    let debuts = [];
+
+    for (let i = 0; i < collections.length; i++) {
+      if (collections[i].collectionPath === 'debuts') {
+        debuts = collections[i].collection;
+      }
+    }
+
+    let debut;
+
+    for (let i = 0; i < debuts.length; i++) {
+      if (debuts[i].id === request.params.id) {
+        debut = debuts[i];
+      }
+    }
   
-    if (debutObject) {
-      const debut = Object.assign({}, debutObject);
-  
-      const midia = content.midias.find(midia => midia.id === debut.midia);
-  
-      debut.midia = midia.name;
-  
-      response.json({ debut });
+    if (debut) {
+      response.json(debut);
     } else {
       response.status(404).json({ message: 'Debut not found' });
     }
