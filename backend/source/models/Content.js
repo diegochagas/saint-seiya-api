@@ -1,26 +1,4 @@
-const csv = require('csvtojson');
-
-const fileNames = [
-  "affiliations",
-  "artists",
-  "attackers",
-  "attacks",
-  "characters",
-  "classes",
-  "cloths",
-  "constellations",
-  "curiosities",
-  "debuts",
-  "evilStars",
-  "familyMembers",
-  "kinships",
-  "masters",
-  "midias",
-  "nationality",
-  "places",
-  "ranks",
-  "saints"
-];
+const data = require('../data')
 
 const genders = ['Male', 'Female'];
 const bloodTypes = ['A', 'B', 'AB', 'O', 'Ikhor'];
@@ -29,14 +7,10 @@ const noSchemeImage = "assets/cloth-schemes/others/no-scheme.png";
 
 const getCSVContent = async () => {
   const content = {};
-  
-  for (let i = 0; i < fileNames.length; i++) {
-    const name = fileNames[i];
 
-    const data = await csv().fromFile(`data/${name}.csv`);
-  
-    content[name] = data;
-  }
+  Object.keys(data).forEach(name => {
+    content[name] = data[name];
+  })
 
   return content;
 }
@@ -130,7 +104,7 @@ const loadCharactersData = content => {
 
       if (nationality.num_code === character.training) {
         const place = content.places.find(place => place.id === character.place);
-        
+
         character.training = place ? `${place.name}, ${nationality.en_short_name}` : nationality.en_short_name;
       }
     });
@@ -140,29 +114,29 @@ const loadCharactersData = content => {
     character.master = [];
     character.apprentice = [];
     content.masters.forEach(master => {
-        if (master.apprentice === character.id) {
-            content.characters.forEach(masterInformations => {
-                if (masterInformations.id === master.master) {
-                    character.master.push({ id: masterInformations.id, name: masterInformations.name });
-                }
-            });
-        }
+      if (master.apprentice === character.id) {
+        content.characters.forEach(masterInformations => {
+          if (masterInformations.id === master.master) {
+            character.master.push({ id: masterInformations.id, name: masterInformations.name });
+          }
+        });
+      }
 
-        if (master.master === character.id) {
-            content.characters.forEach(apprentice => {
-                if (apprentice.id === master.apprentice) {
-                    character.apprentice.push({ id: apprentice.id, name: apprentice.name });
-                }
-            });
-        }
+      if (master.master === character.id) {
+        content.characters.forEach(apprentice => {
+          if (apprentice.id === master.apprentice) {
+            character.apprentice.push({ id: apprentice.id, name: apprentice.name });
+          }
+        });
+      }
     });
 
     character.attacks = [];
     content.attackers.forEach(attacker => {
-        if (attacker.character === character.id) {
-            const attack = content.attacks.find(attack => attack.id === attacker.attack);
-            character.attacks.push(attack.name);
-        }
+      if (attacker.character === character.id) {
+        const attack = content.attacks.find(attack => attack.id === attacker.attack);
+        character.attacks.push(attack.name);
+      }
     });
 
     character.height = character.height ? `${character.height}cm` : "";
@@ -170,24 +144,24 @@ const loadCharactersData = content => {
 
     character.family = [];
     content.familyMembers.forEach(family => {
-        if (family.character === character.id) {
-            const member = content.characters.find(character => character.id === family.member);
-            const kinship = content.kinships.find(kinship => kinship.id === family.memberKinship);
-            character.family.push({ id: member.id, member: `${member.name} (${kinship.name})`});
-        }
+      if (family.character === character.id) {
+        const member = content.characters.find(character => character.id === family.member);
+        const kinship = content.kinships.find(kinship => kinship.id === family.memberKinship);
+        character.family.push({ id: member.id, member: `${member.name} (${kinship.name})` });
+      }
 
-        if (family.member === character.id) {
-            const member = content.characters.find(character => character.id === family.character);
-            const kinship = content.kinships.find(kinship => kinship.id === family.characterKinship);
-            character.family.push({ id: member.id, member: `${member.name} (${kinship.name})`});
-        }
+      if (family.member === character.id) {
+        const member = content.characters.find(character => character.id === family.character);
+        const kinship = content.kinships.find(kinship => kinship.id === family.characterKinship);
+        character.family.push({ id: member.id, member: `${member.name} (${kinship.name})` });
+      }
     });
 
     const bloodType = bloodTypes[character.blood];
 
     character.blood = bloodType ? bloodType : "";
 
-    content.debuts.forEach(debut =>  {
+    content.debuts.forEach(debut => {
       if (debut.id === character.debut) {
         content.midias.forEach(midia => {
           if (midia.id === debut.midia) {
@@ -200,7 +174,7 @@ const loadCharactersData = content => {
     });
 
     const saints = content.saints.filter(saint => saint.name === character.id);
-    
+
     character.cloths = loadSaintsData(saints, content);
 
     character.image = character.cloths.length ? character.cloths[0].image : noSchemeImage;
@@ -253,7 +227,7 @@ const getColletions = async () => {
   collections.push({ collectionPath: 'characters', collection: loadCharactersData(content) });
 
   collections.push({ collectionPath: 'curiosities', collection: content.curiosities });
-  
+
   collections.push({ collectionPath: 'classNames', collection: content.classes });
 
   collections.push({ collectionPath: 'saints', collection: loadSaintsData(content.saints, content) });
