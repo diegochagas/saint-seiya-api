@@ -1,6 +1,6 @@
 <div class="image-icon">
   <ng-container *ngIf="image; else iconText">
-    <img src="{{ image }}" alt="{{ text }} image">
+    <img src="{{ image }}" alt="{{ text }} image" default="assets/spinners/zodiac-wheel/zodiac-wheel-spinner-white.gif">
   </ng-container>
 
   <ng-template #iconText>
