@@ -67,9 +67,9 @@ module.exports = {
       
       for (let i = 0; i < collections.length; i++) {
         if (collections[i].collectionPath === 'evilStars') {
-          modernConstellations = collections[i].collection.slice(0, 108);
+          evilStars = collections[i].collection.slice(0, 108);
 
-          otherConstellations = collections[i].collection.slice(108);
+          otherEvilStars = collections[i].collection.slice(108);
         }
       }
   

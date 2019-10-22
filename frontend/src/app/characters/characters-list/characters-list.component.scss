@@ -16,6 +16,31 @@
     margin: 20px 0 40px 0;
   }
 
+  .input-container {
+    width: 80%;
+    max-width: 768px;
+    padding: 10px;
+
+    .mat-form-field {
+      font-size: 14px;
+      width: 100%;
+    }
+
+    .placeholder {
+      color: rgba(173, 216, 230, 0.5);
+      text-transform: uppercase;
+    }
+
+    .mat-focused .placeholder {
+      color: lightblue;
+    }
+
+    input {
+      color: rgba(173, 216, 230, 0.5);
+      text-transform: uppercase;
+    }
+  }
+
   .table-container {
     max-height: 60vh;
     overflow: auto;

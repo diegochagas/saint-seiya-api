@@ -1,7 +1,15 @@
 <div class="characters-list">
   <h1>{{ pageTitle }}</h1>
 
-  <ng-container *ngIf="dataSource.length; else spinner">
+  <ng-container *ngIf="dataSource.data.length; else spinner">
+    <div class="input-container bg-dark">
+      <mat-form-field>
+        <input matInput (keyup)="applyFilter($event.target.value)">
+
+        <mat-placeholder class="placeholder">Filter</mat-placeholder>
+      </mat-form-field>
+    </div>
+
     <div class="table-container">
       <table mat-table [dataSource]="dataSource" class="mat-elevation-z8 bg-dark">
         <ng-container *ngFor="let column of displayedColumns" matColumnDef="{{ column }}">
@@ -25,8 +33,16 @@
     </div>
   </ng-container>
 
-  <ng-container *ngIf="dataSourceOthers.length">
+  <ng-container *ngIf="dataSourceOthers.data.length">
     <h2>{{ pageSubTitle }}</h2>
+
+    <div class="input-container bg-dark">
+      <mat-form-field>
+        <input matInput (keyup)="applyFilterOthers($event.target.value)">
+
+        <mat-placeholder class="placeholder">Filter</mat-placeholder>
+      </mat-form-field>
+    </div>
 
     <div class="table-container">
       <table mat-table [dataSource]="dataSourceOthers" class="mat-elevation-z8 bg-dark">

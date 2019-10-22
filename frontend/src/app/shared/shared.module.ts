@@ -2,6 +2,8 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import {
+  MatFormFieldModule,
+  MatInputModule,
   MatMenuModule,
   MatProgressSpinnerModule,
   MatSelectModule,
@@ -33,6 +35,8 @@ import { AppRoutingModule } from '../app-routing.module';
   imports: [
     AppRoutingModule,
     CommonModule,
+    MatFormFieldModule,
+    MatInputModule,
     MatMenuModule,
     MatProgressSpinnerModule,
     MatSelectModule,
@@ -44,6 +48,8 @@ import { AppRoutingModule } from '../app-routing.module';
     FooterComponent,
     HeaderComponent,
     ImageIconComponent,
+    MatFormFieldModule,
+    MatInputModule,
     MatSelectModule,
     MatTableModule,
     MatTabsModule,

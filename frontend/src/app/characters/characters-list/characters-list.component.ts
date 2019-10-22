@@ -1,5 +1,6 @@
-import { Component, OnInit, ɵbypassSanitizationTrustScript } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, NavigationEnd } from '@angular/router';
+import { MatTableDataSource } from '@angular/material';
 
 import { CharactersService, ClassesService } from '../../shared';
 
@@ -20,9 +21,9 @@ export class CharactersListComponent implements OnInit {
 
   displayedColumns: string[] = ['image', 'id', 'name'];
 
-  dataSource = [];
+  dataSource = new MatTableDataSource([]);
 
-  dataSourceOthers = [];
+  dataSourceOthers = new MatTableDataSource([]);
 
   path = '';
 
@@ -54,7 +55,10 @@ export class CharactersListComponent implements OnInit {
 
       const response: any = await this.charactersService.getCharacters().toPromise();
 
-      this.dataSource = response.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
+      const data = response.map(({ id, name, image, cloths }) => ({ id, name, image, cloths }));
+
+      this.dataSource.data = data.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
+
     } else if (this.detailsType === 'classes') {
       this.pageTitle = this.className.replace('-', ' ');
 
@@ -63,7 +67,7 @@ export class CharactersListComponent implements OnInit {
       if (this.className === 'all-classes') {
         const response: any = await this.classesService.getAllClasses().toPromise();
 
-        this.dataSource = response.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
+        this.dataSource.data = response.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
       } else if (this.className === 'constellations') {
         this.pageTitle = '88 constellations';
 
@@ -73,9 +77,9 @@ export class CharactersListComponent implements OnInit {
 
         const response: any = await this.classesService.getConstellations().toPromise();
 
-        this.dataSource = response.modernConstellations;
+        this.dataSource.data = response.modernConstellations;
 
-        this.dataSourceOthers = response.otherConstellations.filter(constellation => constellation.saints.length);
+        this.dataSourceOthers.data = response.otherConstellations.filter(constellation => constellation.saints.length);
       } else if (this.className === 'evil-stars') {
         this.pageTitle = '108 evil stars';
 
@@ -85,18 +89,26 @@ export class CharactersListComponent implements OnInit {
 
         const response: any = await this.classesService.getEvilStars().toPromise();
 
-        this.dataSource = response.evilStars;
+        this.dataSource.data = response.evilStars;
 
-        this.dataSourceOthers = response.otherEvilStars.filter(evilStar => evilStar.saints.length);
+        this.dataSourceOthers.data = response.otherEvilStars;
       } else {
         const response: any = await this.classesService.getClass(this.className).toPromise();
 
-        this.dataSource = response.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
+        this.dataSource.data = response.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
       }
     }
   }
 
   characterDetails(id) {
     this.router.navigate([`/characters/${this.path}/${id}`]);
+  }
+
+  applyFilter(filterValue: string) {
+    this.dataSource.filter = filterValue.trim().toLowerCase();
+  }
+
+  applyFilterOthers(filterValue: string) {
+    this.dataSourceOthers.filter = filterValue.trim().toLowerCase();
   }
 }
