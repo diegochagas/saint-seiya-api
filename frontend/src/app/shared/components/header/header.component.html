@@ -52,7 +52,7 @@
       </mat-menu>
 
       <mat-menu #classesMenu="matMenu" xPosition="before">
-        <ng-container *ngIf="classes.length > 0">
+        <ng-container *ngIf="classes.length > 0; else spinner">
           <a class="dropdown-item nav-link" [routerLink]="['/characters/classes/all-classes']" mat-menu-item>All</a>
 
           <a
@@ -67,7 +67,7 @@
       </mat-menu>
 
       <mat-menu #debutsMenu="matMenu" xPosition="before">
-        <ng-container *ngIf="debuts.length > 0">
+        <ng-container *ngIf="debuts.length > 0; else spinner">
           <a [routerLink]="['/debuts']" class="nav-link" mat-menu-item>All</a>
 
           <a
@@ -82,4 +82,10 @@
       </mat-menu>
     </div>
   </nav>
+
+  <ng-template #spinner>
+    <div class="loading-spinner">
+      <app-spinner [spinner]="'zodiac-wheel'" [color]="'white'"></app-spinner>
+    </div>
+  </ng-template>
 </div>

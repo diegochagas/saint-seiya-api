@@ -7,7 +7,7 @@ import { DebutsService, ClassesService } from '../../services';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  @ViewChild('menuToggle', { static: false }) menuToggle: ElementRef;
+  @ViewChild('menuToggle', { static: true }) menuToggle: ElementRef;
 
   @ViewChild('classesButton', { static: true }) classesButton: ElementRef;
 
@@ -15,20 +15,12 @@ export class HeaderComponent implements OnInit {
 
   debuts = [];
 
-  constructor( private debutsService: DebutsService, private classesService: ClassesService ) { }
+  constructor( private classesService: ClassesService, private debutsService: DebutsService ) { }
 
   ngOnInit() {
-    this.getDebuts();
-
     this.getClasses();
-  }
 
-  async getDebuts() {
-    const response: any = await this.debutsService.getDebuts().toPromise();
-
-    response.forEach(debut => this.debuts.push(debut.midia));
-
-    this.debuts = Array.from(new Set(this.debuts)).sort();
+    this.getDebuts();
   }
 
   async getClasses() {
@@ -37,5 +29,13 @@ export class HeaderComponent implements OnInit {
     response.forEach(cls => this.classes.push(cls.name));
 
     this.classes.sort();
+  }
+
+  async getDebuts() {
+    const response: any = await this.debutsService.getDebuts().toPromise();
+
+    response.forEach(debut => this.debuts.push(debut.midia));
+
+    this.debuts = Array.from(new Set(this.debuts)).sort();
   }
 }
