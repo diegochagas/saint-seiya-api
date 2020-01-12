@@ -19,7 +19,7 @@ export class CharactersListComponent implements OnInit {
 
   pageSubTitle = '';
 
-  displayedColumns: string[] = ['image', 'id', 'name'];
+  displayedColumns: string[] = ['image', 'id', 'cloth', 'name'];
 
   dataSource = new MatTableDataSource([]);
 

@@ -6,7 +6,7 @@
       <div class="card text-white bg-dark" *ngFor="let character of characters">
         <div class="card-header">
           <h2 class="card-title">
-            <a [routerLink]="['/characters/personal/all/' + character.id]">{{ character.name }}</a>
+            <a [routerLink]="['/characters/personal/all/' + character.id]">{{ character.name || 'Not revealed' }}</a>
           </h2>
 
           <h6 class="card-subtitle mb-2 text-muted">{{ character.subTitle }}</h6>
