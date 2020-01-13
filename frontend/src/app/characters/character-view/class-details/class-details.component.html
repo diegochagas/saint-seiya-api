@@ -8,7 +8,7 @@
           <b>Name: </b>
           <span *ngIf="cls.characterId === ''">Not revealed</span>
 
-          <a *ngIf="cls.characterId" [routerLink]="['/characters/personal/all/' + cls.characterId]">{{ cls.name }}</a>
+          <a *ngIf="cls.characterId" [routerLink]="['/characters/personal/all/' + cls.characterId]">{{ cls.name || 'Not revealed' }}</a>
         </p>
 
         <p>

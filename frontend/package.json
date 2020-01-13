@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve --open",
     "build": "ng build",
+    "deploy": "ng build --prod --base-href https://diegochagas.com/saint-seiya-api/ && ngh --dir=dist/saint-seiya-api",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
