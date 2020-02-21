@@ -33,7 +33,12 @@
 
         <p>
           <b>Artist: </b>
-          <span>{{ cls.artist || 'Not revealed' }}</span>
+
+          <a *ngIf="cls.artist" href="{{cls.artist.site}}" target="_blank" rel="noopener noreferrer">
+            {{ cls.artist.name }}
+          </a>
+
+          <span *ngIf="!cls.artist">{{ 'Not revealed' }}</span>
         </p>
 
         <p>

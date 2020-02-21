@@ -57,7 +57,7 @@ const loadSaintsData = (saints, content) => {
 
     content.artists.find(artist => {
       if (saint.artist === artist.id) {
-        saint.artist = artist.name;
+        saint.artist = artist;
       }
     });
 
