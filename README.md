@@ -25,16 +25,22 @@ On backend folder:
 npm i
 ```
 
-Go to the following backend subfolder, to run local server to work with csv converter:
+To convert CSVs to JSONs files:
 
 ```bash
-cd backend\source
+cd backend\source\data
 ```
 
 and
 
 ```bash
-node .\server.js
+node csvtojson.js
+```
+
+To run backend local server:
+
+```bash
+npm start
 ```
 
 To execute a deploy on Github Pages:

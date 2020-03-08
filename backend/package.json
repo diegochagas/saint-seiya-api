@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
     "express": "^4.17.1",
     "firebase": "^7.2.1"
   },
