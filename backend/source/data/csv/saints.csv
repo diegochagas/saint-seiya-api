@@ -421,7 +421,7 @@
 420,379,368,12,,30,assets/cloth-schemes/gladiators/kusanagi-seiya.jpg,2,
 421,380,288,16,9,25,assets/cloth-schemes/poseidon-mariners/poseidon-seraphina.jpg,3,
 422,381,356,22,7,14,assets/cloth-schemes/athena-saints/virgo-shaka.jpg,1,constellation-86
-423,381,357,22,9,14,,,constellation-86
+423,381,357,22,9,14,assets/cloth-schemes/athena-saints/virgo-shaka-god.jpg,5,constellation-86
 424,382,301,22,6,14,assets/cloth-schemes/athena-saints/sagitta-sham.jpg,,constellation-71
 425,383,37,10,,3,assets/cloth-schemes/balor-fairies/banshee-shelley.jpg,,
 426,384,,22,,14,,,
