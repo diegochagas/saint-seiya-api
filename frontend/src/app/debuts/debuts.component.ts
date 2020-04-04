@@ -33,9 +33,14 @@ export class DebutsComponent implements OnInit {
   async getDebuts() {
     const response: any = await this.debutsService.getDebuts().toPromise();
 
+    const orderedDebuts = response.sort((a, b) => a.release - b.release);
+
     this.midia = this.activatedRoute.snapshot.params.midia;
 
-    if (this.midia) this.debuts = response.filter(debut => debut.midia.replace(' ', '-').toLowerCase() === this.midia);
-    else this.debuts = response;
+    if (this.midia) {
+      this.debuts = orderedDebuts.filter(debut => {
+        return debut.midia.replace(' ', '-').toLowerCase() === this.midia;
+      });
+    } else this.debuts = orderedDebuts;
   }
 }
