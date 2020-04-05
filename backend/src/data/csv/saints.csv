@@ -449,7 +449,7 @@
 448,395,356,22,7,14,,1,constellation-86
 449,396,38,26,,16,assets/cloth-schemes/hades-specters/baphomet-shura.png,,
 450,396,59,22,9,14,assets/cloth-schemes/athena-saints/capricornus-shura.jpg,1,constellation-16
-451,396,60,22,9,14,,,constellation-16
+451,396,60,22,9,14,assets/cloth-schemes/athena-saints/capricornus-shura-god.jpg,5,constellation-16
 452,397,122,13,,34,assets/cloth-schemes/odin-god-warriors/dubhe-siegfried.jpg,,Alpha Star
 453,398,155,13,,34,assets/cloth-schemes/odin-god-warriors/grani-sigmund.png,5,
 454,399,154,12,Sacred Sword of Anger,,assets/cloth-schemes/gladiators/gram-sigurd.jpg,2,
