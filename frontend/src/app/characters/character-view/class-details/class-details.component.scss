@@ -41,6 +41,10 @@
     .card-text {
       max-width: 320px;
       flex: 1;
+
+      span {
+        text-transform: capitalize;
+      }
     }
   }
 }

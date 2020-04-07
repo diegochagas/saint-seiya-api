@@ -15,6 +15,10 @@
     max-width: 1024px;
     height: 100%;
 
+    .card-header {
+      text-transform: capitalize;
+    }
+
     .card-body {
       display: flex;
       flex-wrap: wrap;
