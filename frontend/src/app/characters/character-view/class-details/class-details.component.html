@@ -43,7 +43,11 @@
 
         <p>
           <b>Symbol: </b>
-          <span>{{ cls.symbol || 'Not revealed' }}</span>
+          <a *ngIf="cls.symbol" [routerLink]="['/characters/' + cls.symbolName + '/all/'+ cls.symbolNumber]">
+            {{ cls.symbol }}
+          </a>
+
+          <span *ngIf="cls.symbol === undefined">Not revealed</span>
         </p>
 
         <p>
@@ -57,6 +61,15 @@
               {{ attack }}{{ i === cls.attacks.length - 1 ? '' : ' / ' }}
             </span>
           </ng-template>
+        </p>
+
+        <p>
+          <b>Debut: </b>
+          <a *ngIf="cls.midia" [routerLink]="['/debuts/' + cls.midia.replace(' ', '-').toLowerCase()]">
+            {{ cls.midia }}: {{ cls.debut }}
+          </a>
+
+          <span *ngIf="cls.midia === undefined">Not revealed</span>
         </p>
       </div>
     </div>

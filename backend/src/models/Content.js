@@ -71,6 +71,8 @@ const loadSaintsData = (saints, content) => {
       }
     });
 
+    saint.symbolTag = saint.symbol;
+
     if (saint.symbol.includes('constellation')) {
       content.constellations.forEach(constellation => {
         if (`constellation-${constellation.id}` === saint.symbol) {
@@ -86,6 +88,18 @@ const loadSaintsData = (saints, content) => {
         }
       });
     }
+
+    content.debuts.forEach(debut => {
+      if (debut.id === saint.debut) {
+        content.midias.forEach(midia => {
+          if (midia.id === debut.midia) {
+            saint.debut = debut.name;
+
+            saint.midia = midia.name;
+          }
+        });
+      }
+    });
 
     return saint;
   });

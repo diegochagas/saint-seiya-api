@@ -51,5 +51,12 @@ export class CharacterViewComponent implements OnInit {
     } else if (this.detailsType === 'evil-star') {
       this.character = await this.classService.getEvilStar(this.id).toPromise();
     }
+
+    if (this.character.symbolTag) {
+      const symbols = this.character.symbolTag.split('-');
+
+      this.character.symbolName = symbols[0];
+      this.character.symbolNumber = symbols[1];
+    }
   }
 }

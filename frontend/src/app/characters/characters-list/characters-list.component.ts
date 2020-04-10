@@ -19,7 +19,7 @@ export class CharactersListComponent implements OnInit {
 
   pageSubTitle = '';
 
-  displayedColumns: string[] = ['image', 'id', 'cloth', 'name'];
+  displayedColumns: string[] = [];
 
   dataSource = new MatTableDataSource([]);
 
@@ -53,9 +53,15 @@ export class CharactersListComponent implements OnInit {
 
       this.path = 'personal/all';
 
+      this.displayedColumns = ['image', 'id', 'cloth', 'name'];
+
       const response: any = await this.charactersService.getCharacters().toPromise();
 
-      const data = response.map(({ id, name, image, cloths }) => ({ id, name, image, cloths }));
+      const data = response.map(({ id, name, image, cloths }) => {
+        const cloth = cloths.length ? cloths[0].cloth : '';
+
+        return { id, name, image, cloth };
+      });
 
       this.dataSource.data = data.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
 
@@ -65,6 +71,8 @@ export class CharactersListComponent implements OnInit {
       this.path = 'classes/';
 
       if (this.className === 'all-classes') {
+        this.displayedColumns = ['image', 'id', 'cloth', 'name'];
+
         const response: any = await this.classesService.getAllClasses().toPromise();
 
         this.dataSource.data = response.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
@@ -74,6 +82,8 @@ export class CharactersListComponent implements OnInit {
         this.pageSubTitle = 'Old constellations';
 
         this.path = 'constellation/all';
+
+        this.displayedColumns = ['image', 'id', 'name'];
 
         const response: any = await this.classesService.getConstellations().toPromise();
 
@@ -87,12 +97,16 @@ export class CharactersListComponent implements OnInit {
 
         this.path = 'evil-star/all';
 
+        this.displayedColumns = ['image', 'id', 'name'];
+
         const response: any = await this.classesService.getEvilStars().toPromise();
 
         this.dataSource.data = response.evilStars;
 
         this.dataSourceOthers.data = response.otherEvilStars;
       } else {
+        this.displayedColumns = ['image', 'id', 'cloth', 'name'];
+
         const response: any = await this.classesService.getClass(this.className).toPromise();
 
         this.dataSource.data = response.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));

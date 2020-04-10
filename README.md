@@ -61,7 +61,7 @@ ng build --prod --base-href https://diegochagas.com/saint-seiya-api/ && ngh --di
 - [Saint Seiya Wiki (Spanish)](https://saintseiya.fandom.com/es/wiki/Saint_Seiya_Wiki)
 - [Saint Seiya Universe (Portuguese)](https://ssu.fandom.com/wiki/Seiya_Universe_Wiki)
 - [CavZodiaco (Portuguese)](https://www.cavzodiaco.com.br/)
-- [Official arts of the MMORPG Saint Seiya Online (Japanese)](http://seiya.17173.com/news/05072013/171743839_all.shtml)
+- [Official arts of the MMORPG Saint Seiya Online (Chinese)](http://seiya.17173.com/news/05072013/171743839_all.shtml)
 - [Marco Albiero fanarts](http://marcoalbiero.altervista.org/gallery/fan-arts/saint-seiya/)
 - [Goldmilo deviantart fanarts](https://goldmilo.deviantart.com/gallery/)
 - [Javiii0 deviantart fanarts](https://javiiit0.deviantart.com/gallery/)

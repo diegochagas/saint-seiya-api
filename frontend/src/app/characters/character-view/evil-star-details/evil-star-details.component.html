@@ -18,6 +18,11 @@
           <span>{{ evilStar.warrior }}</span>
         </p>
 
+        <p>
+          <b>Symbol: </b>
+          <a [routerLink]="['/characters/classes/evil-stars']">Evil Stars</a>
+        </p>
+
         <h6 class="card-subtitle">Surplices:</h6>
 
         <a class="cloth" [routerLink]="['/characters/classes/' + saint.class.toLowerCase().replace(' ', '-') + '/' + saint.id]" *ngFor="let saint of evilStar.saints">
