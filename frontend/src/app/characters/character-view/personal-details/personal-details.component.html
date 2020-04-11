@@ -51,7 +51,7 @@
 
         <p>
           <b>Debut: </b>
-          <a [routerLink]="['/debuts/' + character.midia.replace(' ', '-').toLowerCase()]">{{ character.midia }}: {{ character.debut }}</a>
+          <a *ngIf="character.midia" [routerLink]="['/debuts/' + character.midia.replace(' ', '-').toLowerCase()]">{{ character.midia }}: {{ character.debut }}</a>
 
           <span *ngIf="character.midia === undefined">Not revealed</span>
         </p>

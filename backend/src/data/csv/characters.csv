@@ -205,7 +205,7 @@
 204,Jaki,,0,,,,,,,,12
 205,Jamian,17,0,Aug-27,826,826,26,166,56,0,1
 206,Jan,,0,,,,,175,60,,21
-207,Jango,18,0,8-Aug,882,554,8,188,101,1,1
+207,Jango (Vander Graad),18,0,8-Aug,882,554,8,188,101,1,1
 208,Jao,,0,,,,,178,73,,1
 209,Jericho,,0,,300,300,,201,,,7
 210,Jid,15,0,Dec-28,246,554,8,173,61,3,32
@@ -387,7 +387,7 @@
 386,Shaina,16,1,Mar-24,380,300,,166,49,1,1
 387,Shinadekuro,15,0,Aug-10,616,554,8,173,62,0,32
 388,Shinato,,1,,,392,31,,,,5
-389,Shion,18,0,30-Mar,,,,185,77,,1
+389,Shion,18,0,30-Mar,,,,185,77,0,1
 390,Shiryu,14,0,Oct-04,392,156,9,177,57,0,1
 391,Shiva,16,0,Sep-09,356,356,,,78,0,12
 392,Sho,,0,,392,,,,,,12
@@ -489,5 +489,78 @@
 488,Arthur Pendragon,,0,,826,826,,,,,10
 489,Mordred,,0,,826,826,,,,,10
 490,Edward (Horcos),,0,,,,,,,,5
-491,,,0,,,,,,,,15
-492,,,0,,,,,,,,29
+491,Mouse Specter,,0,,,,,,,,15
+492,Aquila Saint,,0,,,,,,,,29
+493,Ara Saint,,0,,,,,,,,29
+494,Ara Saint,,1,,,,,,,,29
+495,Atrium Saint,,0,,,,,,,,29
+496,Canis Minor Saint.jpg,,0,,,,,,,,29
+497,Cassiopeia Saint,,0,,,,,,,,29
+498,Cassiopeia Saint,,1,,,,,,,,6
+499,Cepheus Saint,,1,,,,,,,,29
+500,Cerberus Saint,,0,,,,,,,,29
+501,Cerberus Saint,,1,,,,,,,,29
+502,Cerberus Saint,,1,,,,,,,,29
+503,Bootes Saint,,0,,,,,,,,6
+504,Camelopardalis Saint,,0,,,,,,,,6
+505,Renner,,0,,,,,,,,7
+506,Chameleon Saint,,0,,,,,,,,29
+507,Columba Saint,,0,,,,,,,,29
+508,Coma Berenices Saint,,0,,,,,,,,29
+509,Corona Australis,,0,,,,,,,,29
+510,Corona Borealis Saint,,0,,,,,,,,29
+511,Corona Borealis Saint,,0,,,,,,,,6
+512,Corvus Saint,,0,,,,,,,,29
+513,Corvus Saint,,1,,,,,,,,29
+514,Crater Saint,,0,,,,,,,,29
+515,Crater Saint,,0,,,,,,,,29
+516,Crater Saint,,1,,,,,,,,29
+517,Crux Saint,,0,,,,,,,,29
+518,Crux Saint,,1,,,,,,,,29
+519,Black Andromeda Saint,14,0,4-Oct,792,8,8,170,58,1,1
+520,Delphinus Saint,,0,,,,,,,,29
+521,Delphinus Saint,,0,,,,,,,,6
+522,Docrates Soldier,,0,,,,,,,,12
+523,Delphinus Saint,17,0,14-Jun,,,,,79,1,12
+524,Dorado Saint,,0,,,,,,,,
+525,Dorado Saint,,0,,,,,,,,29
+526,Dorado Saint,,1,,,,,,,,29
+527,Eridanus Saint,,0,,,,,,,,6
+528,Eridanus Saint,,0,,,,,,,,29
+529,Fornax Saint,,0,,,,,,,,29
+530,Ghosts Master Saint,,0,,,,,,,,29
+531,Grus Saint,,0,,,,,,,,29
+532,Horologium Saint,,0,,,,,,,,29
+533,Horologium Saint,,1,,,,,,,,29
+534,Jamian Soldier,,0,,,,,,,,12
+535,Lacerta Saint,,0,,,,,,,,29
+536,Lacerta Saint,,1,,,,,,,,29
+537,Lepus Saint,,1,,,,,,,,6
+538,Lepus Saint,,0,,,,,,,,29
+539,Lyra Saint,,1,,,,,,,,29
+540,Mensa Saint,,0,,,,,,,,29
+541,Nu Saint,,0,,,,,,,,29
+542,Ophiuchus Saint,,0,,,,,,,,29
+543,Pavo Saint,,0,,,,,,,,
+544,Pavo Saint,,0,,,,,,,,29
+545,Piscis Austrinus Saint,,0,,,,,,,,29
+546,Puppis Saint,,0,,,,,,,,29
+547,Pyxis Saint,,0,,,,,,,,29
+548,Rangifer Saint,,0,,,,,,,,29
+549,Rangifer Saint,,1,,,,,,,,29
+550,Reticulum Saint,,0,,,,,,,,29
+551,Sanctuary Soldier,,0,,,,,,,,1
+552,Scutum Saint,,0,,,,,,,,29
+553,Sea Serpent Saint,17,0,2-Feb,,,,,,,12
+554,Jellyfish Saint,17,0,18-Dec,,,,,85,2,12
+555,Serpens Saint,,0,,,,,,,,29
+556,Sextante Saint,,0,,,,,,,,29
+557,Silver Oriolus Saint,,0,,,,,,,,29
+558,Tornado Saint,,0,,,,,,,,29
+559,Triangulum Saint,,0,,,,,,,,29
+560,Triangulum Saint,,1,,,,,,,,29
+561,Tucana Saint,,0,,,,,,,,6
+562,Tucana Saint,,0,,,,,,,,
+563,Volans Saint,,0,,,,,,,,6
+564,Volans Saint,,0,,,,,,,,29
+565,Mariner Soldier,,0,,,,,,,,1

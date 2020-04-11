@@ -47,7 +47,7 @@
             {{ cls.symbol }}
           </a>
 
-          <span *ngIf="cls.symbol === undefined">Not revealed</span>
+          <span *ngIf="!cls.symbol">Not revealed</span>
         </p>
 
         <p>

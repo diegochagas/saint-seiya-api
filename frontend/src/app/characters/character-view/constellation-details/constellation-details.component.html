@@ -7,7 +7,9 @@
     </div>
 
     <div class="card-body">
-      <img *ngIf="constellation.image" src="{{ constellation.image }}" alt="Constellation image" class="card-img">
+      <div>
+        <img *ngIf="constellation.image" src="{{ constellation.image }}" alt="Constellation image" class="card-img">
+      </div>
 
       <div class="card-text">
         <p>
