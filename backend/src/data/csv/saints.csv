@@ -229,7 +229,7 @@
 228,201,59,22,7,14,,,constellation-16,
 229,202,228,22,5,14,assets/cloth-schemes/athena-saints/monoceros-jabu.jpg,1,constellation-55,
 230,203,252,22,6,14,assets/cloth-schemes/athena-saints/orion-jager.jpg,5,constellation-60,
-231,204,,22,2,14,,,,
+231,204,,22,2,14,assets/cloth-schemes/athena-saints/jaki.png,,,
 232,205,82,22,6,14,assets/cloth-schemes/athena-saints/corvus-jamian.jpg,1,constellation-28,
 233,206,307,22,6,14,assets/cloth-schemes/athena-saints/scutum-jan.jpg,5,constellation-75,
 234,207,427,22,4,14,assets/cloth-schemes/athena-saints/jango-vander-graad.png,,,30
@@ -440,7 +440,7 @@
 439,391,258,22,6,14,assets/cloth-schemes/athena-saints/pavo-shiva.jpg,,constellation-61,
 440,392,318,22,3,14,assets/cloth-schemes/athena-saints/sky-sho.png,11,constellation-82,
 441,393,,22,1,14,,,,
-442,394,132,22,5,14,assets/cloth-schemes/athena-saints/equuleus-shoko.png,5,constellation-35,
+442,394,132,22,5,14,assets/cloth-schemes/athena-saints/equuleus-shoko.png,4,constellation-35,
 443,395,8,22,5,14,assets/cloth-schemes/athena-saints/andromeda-shun-1.jpg,1,constellation-1,
 444,489,401,12,Cursed Sword of the Holy King,,assets/cloth-schemes/gladiators/clarent-mordred.jpg,,,
 445,395,10,22,5,14,assets/cloth-schemes/athena-saints/andromeda-shun-2.jpg,1,constellation-1,
@@ -656,3 +656,7 @@
 655,369,435,16,9,25,assets/cloth-schemes/poseidon-mariners/triton-ryuho.jpg,,,37
 656,406,435,16,9,25,assets/cloth-schemes/poseidon-mariners/triton-souma.jpg,,,37
 657,469,435,16,9,25,assets/cloth-schemes/poseidon-mariners/triton-yuna.jpg,,,37
+658,522,,22,1,14,assets/cloth-schemes/athena-saints/docrates-saint-soldier.png,,,12
+659,566,,22,,14,assets/cloth-schemes/athena-saints/saint-a.jpg,,,12
+660,567,,22,,14,assets/cloth-schemes/athena-saints/saint-b.jpg,,,12
+661,568,,22,,14,assets/cloth-schemes/athena-saints/saint-c.jpg,,,12
