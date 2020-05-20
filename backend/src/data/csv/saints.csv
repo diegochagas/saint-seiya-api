@@ -1,5 +1,5 @@
 ﻿id,name,cloth,class,rank,affiliation,image,artist,symbol,debut
-1,1,148,22,7,14,,,constellation-38,
+1,1,148,22,7,14,,,constellation-38,23
 2,2,371,7,9,10,assets/cloth-schemes/apolo-corona-saints/abel.jpg,,,
 3,3,,22,,14,,,,
 4,4,330,20,32,26,assets/cloth-schemes/pallas-pallasites/graviton-aegaeon.jpg,,,
@@ -51,7 +51,7 @@
 50,44,,26,14,16,assets/cloth-schemes/hades-specters/atavaka.jpg,3,evil-star-37,
 51,45,299,8,,15,assets/cloth-schemes/eris-dryads/ruin-ate.png,10,,5
 52,46,,22,2,14,,,,
-53,47,61,22,5,14,assets/cloth-schemes/athena-saints/carina-atlas.jpg,5,constellation-17,
+53,47,61,22,5,14,assets/cloth-schemes/athena-saints/carina-atlas.jpg,5,constellation-17,23
 54,48,,28,9,39,,,,
 55,49,26,22,7,14,assets/cloth-schemes/athena-saints/aries-avenir.png,10,constellation-7,
 56,50,64,22,6,14,assets/cloth-schemes/athena-saints/centaurus-babel.jpg,1,constellation-19,
@@ -233,7 +233,7 @@
 232,205,82,22,6,14,assets/cloth-schemes/athena-saints/corvus-jamian.jpg,1,constellation-28,
 233,206,307,22,6,14,assets/cloth-schemes/athena-saints/scutum-jan.jpg,5,constellation-75,
 234,207,427,22,4,14,assets/cloth-schemes/athena-saints/jango-vander-graad.png,,,30
-235,208,386,22,5,14,assets/cloth-schemes/athena-saints/lynx-jao.jpg,5,constellation-51,
+235,208,386,22,5,14,assets/cloth-schemes/athena-saints/lynx-jao.jpg,5,constellation-51,23
 236,210,393,22,4,14,assets/cloth-schemes/athena-saints/cygnus-jid.jpg,,constellation-31,32
 237,211,82,22,6,14,assets/cloth-schemes/athena-saints/corvus-johann.jpg,,constellation-28,
 238,212,307,22,6,14,assets/cloth-schemes/athena-saints/scutum-juan.jpg,5,constellation-75,
@@ -374,7 +374,7 @@
 373,345,185,11,,40,assets/cloth-schemes/typhon-gigas/kyanos-pyrokus.jpg,12,,
 374,346,,9,,16,assets/cloth-schemes/hades-faceless/pyromaniac.jpg,2,,
 375,347,5,26,13,16,assets/cloth-schemes/hades-specters/alraune-queen.jpg,1,evil-star-110,
-376,348,,19,9,8,assets/cloth-schemes/ra-legionaries/legionaries.jpg,,,
+376,348,,19,9,8,assets/cloth-schemes/ra-legionaries/ra.jpg,,,
 377,349,13,17,,11,assets/cloth-schemes/ares-martians/ant-radzinsky.jpg,,,
 378,350,325,17,,11,assets/cloth-schemes/ares-martians/spider-ragno.jpg,,,
 379,351,,22,2,14,,,,
@@ -469,9 +469,9 @@
 468,410,,22,5,14,assets/cloth-schemes/athena-saints/spica.jpg,5,,
 469,411,97,26,13,16,assets/cloth-schemes/hades-specters/deadly-beetle-stand.jpg,1,evil-star-111,
 470,412,,26,13,16,assets/cloth-schemes/hades-specters/steven.jpg,,evil-star-22,
-471,413,39,22,3,14,assets/cloth-schemes/athena-saints/equuleus-subaru-steel.jpg,11,,
-472,413,134,22,5,14,assets/cloth-schemes/athena-saints/equuleus-subaru.jpg,5,constellation-35,
-473,413,304,20,9,39,assets/cloth-schemes/pallas-pallasites/saturn-subaru.jpg,,,
+471,413,39,22,3,14,assets/cloth-schemes/athena-saints/equuleus-subaru-steel.jpg,11,,16
+472,413,134,22,5,14,assets/cloth-schemes/athena-saints/equuleus-subaru.jpg,5,constellation-35,16
+473,413,304,20,9,39,assets/cloth-schemes/pallas-pallasites/saturn-subaru-v1.png,,,16
 474,414,84,22,6,14,assets/cloth-schemes/athena-saints/crater-suikyo.jpg,1,constellation-29,
 475,414,146,26,13,16,assets/cloth-schemes/hades-specters/garuda-aiacos.jpg,1,evil-star-6,
 476,415,236,20,33,26,assets/cloth-schemes/pallas-pallasites/mystic-stone-surt.jpg,,,
@@ -479,7 +479,7 @@
 478,417,227,13,,34,assets/cloth-schemes/odin-god-warriors/mizar-syd.jpg,,Zeta Star,12
 479,418,40,26,13,16,assets/cloth-schemes/hades-specters/basilisk-sylphid.jpg,1,evil-star-16,
 480,419,130,11,,40,assets/cloth-schemes/typhon-gigas/amber-beast-tail.jpg,12,,
-481,420,null,6,9,41,,,,
+481,420,,6,9,41,,,,
 482,421,231,20,34,26,assets/cloth-schemes/pallas-pallasites/morgenstern-star-crusher-tarvos-1.jpg,,,
 483,423,336,22,7,14,assets/cloth-schemes/athena-saints/taurus-teneo.jpg,5,constellation-78,
 484,424,261,22,5,14,assets/cloth-schemes/athena-saints/pegasus-tenma.jpg,1,constellation-62,
@@ -543,7 +543,7 @@
 542,,394,20,1,26,assets/cloth-schemes/pallas-pallasites/pallasites-soldiers-green.jpg,,,
 543,,397,20,1,26,assets/cloth-schemes/pallas-pallasites/pallasites-soldiers-blue.jpg,,,
 544,,398,20,1,26,assets/cloth-schemes/pallas-pallasites/pallasites-soldiers-black.png,,,
-545,,,19,1,8,assets/cloth-schemes/ra-legionaries/ra.jpg,,,
+545,,,19,1,8,assets/cloth-schemes/ra-legionaries/legionaries.jpg,,,
 546,,322,17,,11,assets/cloth-schemes/ares-martians/martian-soldiers.jpg,,,
 547,,395,20,1,26,assets/cloth-schemes/pallas-pallasites/pallasites-soldiers-red.jpg,,,
 548,,383,23,1,12,assets/cloth-schemes/artemis-satellites/satellites-1.jpg,5,,
@@ -662,3 +662,7 @@
 661,568,,22,,14,assets/cloth-schemes/athena-saints/saint-c.jpg,,,12
 662,569,,13,1,34,assets/cloth-schemes/odin-god-warriors/asgard-soldier.jpg,,,22
 663,306,436,1,9,29,assets/cloth-schemes/zeus-angels/zeus.jpg,1,,19
+664,61,78,7,,10,assets/cloth-schemes/athena-saints/coma-berenices-berengue.jpg,5,constellation-25,23
+665,47,61,7,,10,assets/cloth-schemes/athena-saints/carina-atlas.jpg,5,constellation-17,23
+666,208,386,7,,10,assets/cloth-schemes/athena-saints/lynx-jao.jpg,5,constellation-51,23
+667,413,438,20,9,39,assets/cloth-schemes/pallas-pallasites/saturn-subaru-v2.jpg,,,16
