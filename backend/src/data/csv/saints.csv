@@ -37,7 +37,7 @@
 36,30,,5,9,36,assets/cloth-schemes/apsu-warriors/apsu.jpg,,,
 37,31,335,22,6,14,assets/cloth-schemes/athena-saints/tarantula-arachne.png,,constellation-93,
 38,32,301,22,6,14,,,constellation-71,
-39,33,,3,9,11,assets/cloth-schemes/ares-berserkers/war-ares.jpg,,,
+39,33,,3,9,11,assets/cloth-schemes/ares-berserkers/war-ares.jpg,5,War,
 40,34,359,22,5,14,assets/cloth-schemes/athena-saints/volans-argo.png,5,constellation-87,16
 41,35,30,22,9,14,assets/cloth-schemes/athena-saints/athena-aria.jpg,17,,
 42,36,,21,41,10,,,,
@@ -106,7 +106,7 @@
 105,98,55,22,7,14,,,constellation-12,
 106,99,148,22,7,14,assets/cloth-schemes/athena-saints/gemini-saga.jpg,1,constellation-38,
 107,100,18,22,7,14,assets/cloth-schemes/athena-saints/aquarius-camus.jpg,1,constellation-4,
-108,101,406,3,Legion of Disaster,11,assets/cloth-schemes/ares-berserkers/terror-deimos.png,15,,
+108,,,,,,,,,
 109,102,107,17,44,11,assets/cloth-schemes/ares-martians/diana.png,5,,
 110,103,235,22,6,14,assets/cloth-schemes/athena-saints/musca-dio.jpg,1,constellation-56,
 111,104,364,20,33,26,assets/cloth-schemes/pallas-pallasites/whip-snake-plasma-dione.jpg,,,
@@ -265,7 +265,7 @@
 264,235,18,22,7,14,assets/cloth-schemes/athena-saints/aquarius-krest.jpg,5,constellation-4,
 265,235,183,15,,38,assets/cloth-schemes/garnet-jewels/koh-i-noor-krest.jpg,,,
 266,236,72,16,18,25,assets/cloth-schemes/poseidon-mariners/chrysaor-krishna.jpg,1,,
-267,237,,3,9,11,,,,
+267,,,,,,,,,
 268,238,132,22,5,14,assets/cloth-schemes/athena-saints/equuleus-kyoko.jpg,4,constellation-35,
 269,239,291,22,6,14,assets/cloth-schemes/athena-saints/puppis-lacaille.png,5,constellation-68,
 270,240,170,11,,40,assets/cloth-schemes/typhon-gigas/hundred-dragons-ladon.jpg,5,,
@@ -362,7 +362,7 @@
 361,333,324,26,13,16,assets/cloth-schemes/hades-specters/sphinx-pharaoh.jpg,1,evil-star-109,
 362,334,206,26,13,16,assets/cloth-schemes/hades-specters/lycaon-phlegyas.jpg,1,evil-star-29,
 363,335,277,26,9,16,assets/cloth-schemes/hades-specters/phobetor.png,5,,
-364,336,406,3,Legion of Fear,11,assets/cloth-schemes/ares-berserkers/fear-phobos.png,15,,
+364,,,,,,,,,
 365,337,229,28,9,39,assets/cloth-schemes/chronos-titans/moon-phoebe.jpg,5,,
 366,338,234,8,,15,assets/cloth-schemes/eris-dryads/murder-phonos.png,10,,5
 367,339,,4,,34,,,,
@@ -564,9 +564,9 @@
 563,,188,26,,16,assets/cloth-schemes/hades-specters/leech-surplice.png,5,,
 564,540,221,22,6,14,assets/cloth-schemes/athena-saints/mensa-cloth.png,,constellation-53,29
 565,,230,26,,16,assets/cloth-schemes/hades-specters/morax-surplice.png,5,,
-566,,,3,Legion of Fire,11,,,,
-567,,,3,Legion of Fear,11,,,,
-568,,,3,Legion of Disaster,11,,,,
+566,,,3,Legion of Fire,11,assets/cloth-schemes/ares-berserkers/fire-legion-damarchus-arkas.jpg,20,,
+567,,,3,Legion of Fear,11,assets/cloth-schemes/ares-berserkers/fear-legion-lamia-lotis.png,20,,
+568,,,3,Legion of Disaster,11,assets/cloth-schemes/ares-berserkers/disaster-legion-lamassu-lior.png,20,,
 569,541,244,22,6,14,assets/cloth-schemes/athena-saints/nu-cloth.png,,constellation-169,
 570,557,251,22,5,14,assets/cloth-schemes/athena-saints/silver-oriolus-cloth.jpg,,,29
 571,545,286,22,5,14,assets/cloth-schemes/athena-saints/piscis-austrinus-cloth.jpg,,constellation-67,29
