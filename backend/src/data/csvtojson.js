@@ -7,6 +7,7 @@ const files = [
   'attackers',
   'attacks',
   'characters',
+  'chronotectorWeapons',
   'classes',
   'cloths',
   'constellations',

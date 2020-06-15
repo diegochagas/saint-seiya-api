@@ -3,6 +3,7 @@ const artists = require('./json/artists.json')
 const attackers = require('./json/attackers.json')
 const attacks = require('./json/attacks.json')
 const characters = require('./json/characters.json')
+const chronotectorWeapons = require('./json/chronotectorWeapons.json')
 const classes = require('./json/classes.json')
 const cloths = require('./json/cloths.json')
 const constellations = require('./json/constellations.json')
@@ -24,6 +25,7 @@ module.exports = {
     attackers,
     attacks,
     characters,
+    chronotectorWeapons,
     classes,
     cloths,
     constellations,

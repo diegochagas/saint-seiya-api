@@ -89,6 +89,14 @@ const loadSaintsData = (saints, content) => {
       });
     }
 
+    if (saint.symbol.includes('chronotector')) {
+      content.chronotectorWeapons.forEach(chronotector => {
+        if (`chronotector-${chronotector.id}` === saint.symbol) {
+          saint.symbol = chronotector.name;
+        }
+      });
+    }
+
     content.debuts.forEach(debut => {
       if (debut.id === saint.debut) {
         content.midias.forEach(midia => {
