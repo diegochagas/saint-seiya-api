@@ -46,11 +46,7 @@ npm start
 To execute a deploy on Github Pages:
 
 ```bash
-npm install -g angular-cli-ghpages
-```
-
-```bash
-ng build --prod --base-href https://diegochagas.com/saint-seiya-api/ && ngh --dir=dist/saint-seiya-api
+npm run deploy
 ```
 
 ## Sources
