@@ -120,7 +120,7 @@
     </div>
 
     <ng-container *ngIf="character.cloths.length > 0">
-      <div class="card-footer">
+      <div class="card-footer" *ngIf="character.cloths[0].class !== 'Others'">
         <h6 class="card-subtitle">Cloths:</h6>
 
         <a
