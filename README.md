@@ -75,6 +75,8 @@ npm run deploy
 - [Blue Warriors Brazilian animation (Portuguese)](https://www.cavzodiaco.com.br/noticia/15/11/2009/natassia-do-pais-de-gelo-blue-warriors-assista-agora-mesmo-o-episodio-completo-do-projeto-de-animacao-caseira-brasileira)
 - [List of Saint Seiya Episode.G chapters](https://en.wikipedia.org/wiki/List_of_Saint_Seiya_Episode.G_chapters)
 - [Saint Seiya - Episode G: Manga Online (Portuguese)](https://unionmangas.top/manga/saint-seiya-episode-g)
+- [Saint Seiya - Episode G: Assassin Manga Online (Portuguese)](https://mangalivre.com/manga/saint-seiya-episode-g-assassin/2415)
+- [Saint Seiya - Episode G: Assassin Manga Online (Portuguese)](https://lermangasonline.top/manga/saint-seiya-episode-g-assassin/)
 - [Geek U Youtube Channel (Spanish)](https://www.youtube.com/channel/UCwdCQ5sSryDS-WqydvInmeQ/featured)
 - [The 88 Constellations and Their Brightest Stars](https://sleepopolis.com/education/constellations-stars/)
 - [Evil Stars List (Portuguese)](https://ssu.fandom.com/wiki/Lista_de_Estrelas_Malignas)
