@@ -10,6 +10,7 @@ import { CharactersService, ClassesService } from '../../shared';
   styleUrls: ['./characters-list.component.scss']
 })
 export class CharactersListComponent implements OnInit {
+  groups = [];
 
   detailsType;
 
@@ -65,6 +66,8 @@ export class CharactersListComponent implements OnInit {
 
       this.dataSource.data = data.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
 
+      this.dataSource.data = data.sort((a,b) => (a.cloth > b.cloth) ? 1 : ((b.cloth > a.cloth) ? -1 : 0));
+
     } else if (this.detailsType === 'classes') {
       this.pageTitle = this.className.replace('-', ' ');
 
@@ -75,7 +78,7 @@ export class CharactersListComponent implements OnInit {
 
         const response: any = await this.classesService.getAllClasses().toPromise();
 
-        this.dataSource.data = response.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
+        this.dataSource.data = response.sort((a,b) => (a.cloth > b.cloth) ? 1 : ((b.cloth > a.cloth) ? -1 : 0));
       } else if (this.className === 'constellations') {
         this.pageTitle = '88 constellations';
 
@@ -105,11 +108,29 @@ export class CharactersListComponent implements OnInit {
 
         this.dataSourceOthers.data = response.otherEvilStars;
       } else {
-        this.displayedColumns = ['image', 'id', 'cloth', 'name'];
+        // this.displayedColumns = ['image', 'id', 'cloth', 'name'];
 
         const response: any = await this.classesService.getClass(this.className).toPromise();
 
-        this.dataSource.data = response.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
+        // this.dataSource.data = response.sort((a,b) => (a.cloth > b.cloth) ? 1 : ((b.cloth > a.cloth) ? -1 : 0));
+
+        this.path = 'classes/';
+
+        this.groups.push({ title: "Gods", items: response.gods });
+
+        this.groups.push({ title: "88 Athena Saints", items: response.constellations });
+
+        this.groups.push({ title: "Saints with former constellations", items: response.formerConstellations });
+
+        this.groups.push({ title: "Saints with Hindu constellations", items: response.hinduConstellations });
+
+        this.groups.push({ title: "Saints with Chinese constellations", items: response.chineseConstellations });
+
+        this.groups.push({ title: "Saints without constellations", items: response.withoutConstellations });
+
+        this.groups.push({ title: "Soldiers Saints", items: response.soldiers });
+
+        this.groups.push({ title: "Apprentices Saints", items: response.apprentices });
       }
     }
   }

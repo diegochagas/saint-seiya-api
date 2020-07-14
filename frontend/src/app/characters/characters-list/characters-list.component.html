@@ -1,8 +1,32 @@
 <div class="characters-list">
   <h1>{{ pageTitle }}</h1>
 
-  <ng-container *ngIf="dataSource.data.length; else spinner">
-    <div class="input-container bg-dark">
+  <ng-container *ngIf="groups.length; else spinner">
+    <div *ngFor="let group of groups">
+      <h2>{{ group.title }}</h2>
+
+      <div class="saints-list" >
+        <fieldset class="saint-group" *ngFor="let item of group.items">
+          <legend>{{ item.name }}</legend>
+
+          <a class="saint" *ngFor="let saint of item.saints" href="{{ '/#/characters/' + path + saint.class.replace(' ', '-').toLowerCase() + '/' + saint.id }}">
+            <p class="">{{ saint.name || 'Not Revealed' }}</p>
+
+            <img class="image-scheme" src="{{ saint.image }}" alt="{{ saint.name }}">
+
+            <span>{{ saint.cloth || 'Not Revealed' }}</span>
+          </a>
+
+          <span class="saint" *ngIf="item.saints.length === 0 && item.image">
+            <p>{{ item.name }}</p>
+
+            <img class="constellation" src="{{ item.image }}" alt="{{ item.name }}">
+          </span>
+        </fieldset>
+      </div>
+    </div>
+
+    <!-- <div class="input-container bg-dark">
       <mat-form-field>
         <input matInput (keyup)="applyFilter($event.target.value)">
 
@@ -30,10 +54,10 @@
 
         <tr mat-row *matRowDef="let row; columns: displayedColumns;" [ngClass]="{ 'disabled': (row.meaning || row.warrior) && row.saints.length === 0 }"></tr>
       </table>
-    </div>
+    </div> -->
   </ng-container>
 
-  <ng-container *ngIf="dataSourceOthers.data.length">
+<!--   <ng-container *ngIf="dataSourceOthers.data.length">
     <h2>{{ pageSubTitle }}</h2>
 
     <div class="input-container bg-dark">
@@ -65,7 +89,7 @@
         <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
       </table>
     </div>
-  </ng-container>
+  </ng-container> -->
 
   <ng-template #spinner>
     <app-spinner [spinner]="'zodiac-wheel'" [color]="'blue'"></app-spinner>

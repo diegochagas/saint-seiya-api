@@ -1,0 +1,28 @@
+﻿id,name,groups
+1,Gods,pallas-gods
+,,
+1,Soldier Pallasites ,pallas-pallasite-soldiers
+,,
+1,Sword of Creation,pallas-weapon-firstclass
+2,Sword of Destruction,pallas-weapon-firstclass
+3,Sword of Thunder,pallas-weapon-firstclass
+4,Sword of War,pallas-weapon-firstclass
+,,
+1,Chakram,pallas-weapon-secondclass
+2,Daggers,pallas-weapon-secondclass
+3,Gauntlet,pallas-weapon-secondclass
+4,Staff,pallas-weapon-secondclass
+5,Whip,pallas-weapon-secondclass
+,,
+1,Unknown Weapon Second Class,pallas-unknown-secondclass
+,,
+1,Claw,pallas-weapon-thirdclass
+2,Club,pallas-weapon-thirdclass
+3,Deadly Scythe,pallas-weapon-thirdclass
+4,Hammer,pallas-weapon-thirdclass
+5,Morning Star,pallas-weapon-thirdclass
+6,Servant,pallas-weapon-thirdclass
+7,Spear,pallas-weapon-thirdclass
+8,Triple Rod,pallas-weapon-thirdclass
+,,
+1,Unknown Weapon Unknown Class,pallas-unknown-unknownclass

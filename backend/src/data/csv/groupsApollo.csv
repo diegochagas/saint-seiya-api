@@ -1,0 +1,6 @@
+﻿id,name,meaning,image,groups
+1,Gods,,,apollo-gods
+,,,,
+17,Carina,Keel of argo navis,assets/constellations/carina.png,apollo-constellations
+25,Coma berenices,Berenice’s hair,assets/constellations/coma-berenices.png,apollo-constellations
+51,Lynx,Lynx,assets/constellations/lynx.png,apollo-constellations

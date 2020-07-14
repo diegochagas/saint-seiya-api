@@ -1,7 +1,7 @@
 ﻿id,name,age,gender,birth,nationality,training,place,height,weight,blood,debut
 1,Abel,,0,,300,300,,,,,4
 2,Abel,,0,,300,,,198,,4,23
-3,Acting Principal,,0,,,300,20,,,,16
+3,Vice Principal,,0,,,,,,,,16
 4,Aegaeon,,0,,,,,,,,16
 5,Aegir,,0,,,,,,,,16
 6,Aeson,,0,,392,,,,,,5
@@ -30,7 +30,7 @@
 29,Apophis,,1,,818,,,,,4,9
 30,Apsu,,0,,,,,,,4,16
 31,Arachne,16,0,Aug-11,,,,,84,,12
-32,Alcon,,0,,,,,,,,6
+32,Alcon Huye,,0,,,,,,,,6
 33,Ares,,0,,300,,,,,4,7
 34,Argo,,0,,,300,20,,,,16
 35,Aria,13,1,,,,,,,,16
@@ -305,7 +305,7 @@
 304,Niobe,25,0,Aug-03,68,,,181,80,2,1
 305,Noesis,,0,,,,,,,,8
 306,Zeus,Prehistoric,0,,,,,,,4,10
-307,Athena,Prehistoric,1,,,,,,,4,1
+307,,,,,,,,,,,
 308,Eris,Prehistoric,1,,,,,,,4,21
 309,Oceanus,,0,,,,,,,4,8
 310,Ochs,23,0,7-Nov,208,,,187,81,0,1
@@ -418,7 +418,7 @@
 417,Syd,18,0,,578,578,2,185,72,,12
 418,Sylphid,19,0,20-Jul,56,,,181,78,3,1
 419,Tail,,0,,,,,,,,8
-420,Tartarus,Prehistoric,0,,,,,,,4,8
+420,,,,,,,,,,,
 421,Tarvos,,0,,,,,,,,16
 422,Tatsumi Tokumaru,32,0,,392,,,185,97,1,1
 423,Teneo,,0,6-May,380,300,,190,89,0,6
@@ -503,7 +503,7 @@
 502,Cerberus Saint,,1,,,,,,,,29
 503,Bootes Saint,,0,,,,,,,,6
 504,Camelopardalis Saint,,0,,,,,,,,6
-505,Renner,,0,,,,,,,,7
+505,Harmonia,,1,,,,,,,,5
 506,Chameleon Saint,,0,,,,,,,,29
 507,Columba Saint,,0,,,,,,,,29
 508,Coma Berenices Saint,,0,,,,,,,,29
@@ -539,7 +539,7 @@
 538,Lepus Saint,,0,,,,,,,,29
 539,Lyra Saint,,1,,,,,,,,29
 540,Mensa Saint,,0,,,,,,,,29
-541,Nu Saint,,0,,,,,,,,29
+541,Empress Saint,,0,,,,,,,,29
 542,Ophiuchus Saint,,0,,,,,,,,29
 543,,,,,,,,,,,
 544,Pavo Saint,,0,,,,,,,,29
@@ -600,5 +600,4 @@
 599,Terrestrial Forward Star Specter,,0,,,,,,,,
 600,Terrestrial Majestic Star Specter,,0,,,,,,,,
 601,Terrestrial Number Star Specter,,0,,,,,,,,
-602,Vice Principal,,0,,,,,,,,16
-603,Asamori Hakase,,0,,392,,,,,,12
+602,Asamori Hakase,,0,,392,,,,,,12

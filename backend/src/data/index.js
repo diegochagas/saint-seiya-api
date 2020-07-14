@@ -3,14 +3,32 @@ const artists = require('./json/artists.json')
 const attackers = require('./json/attackers.json')
 const attacks = require('./json/attacks.json')
 const characters = require('./json/characters.json')
-const chronotectorWeapons = require('./json/chronotectorWeapons.json')
 const classes = require('./json/classes.json')
 const cloths = require('./json/cloths.json')
-const constellations = require('./json/constellations.json')
 const curiosities = require('./json/curiosities.json')
 const debuts = require('./json/debuts.json')
-const evilStars = require('./json/evilStars.json')
 const familyMembers = require('./json/familyMembers.json')
+const groupsApollo = require('./json/groupsApollo.json')
+const groupsAres = require('./json/groupsAres.json')
+const groupsArtemis = require('./json/groupsArtemis.json')
+const groupsAstraea = require('./json/groupsAstraea.json')
+const groupsAthena = require('./json/groupsAthena.json')
+const groupsBalor = require('./json/groupsBalor.json')
+const groupsCronus = require('./json/groupsCronus.json')
+const groupsEris = require('./json/groupsEris.json')
+const groupsGarnet = require('./json/groupsGarnet.json')
+const groupsGladiators = require('./json/groupsGladiators.json')
+const groupsHades = require('./json/groupsHades.json')
+const groupsHakuryu = require('./json/groupsHakuryu.json')
+const groupsLamech = require('./json/groupsLamech.json')
+const groupsOdin = require('./json/groupsOdin.json')
+const groupsOthers = require('./json/groupsOthers.json')
+const groupsPallas = require('./json/groupsPallas.json')
+const groupsPoseidon = require('./json/groupsPoseidon.json')
+const groupsRa = require('./json/groupsRa.json')
+const groupsTezcatlipoca = require('./json/groupsTezcatlipoca.json')
+const groupsTyphon = require('./json/groupsTyphon.json')
+const groupsZeus = require('./json/groupsZeus.json')
 const kinships = require('./json/kinships.json')
 const masters = require('./json/masters.json')
 const midias = require('./json/midias.json')
@@ -25,14 +43,32 @@ module.exports = {
     attackers,
     attacks,
     characters,
-    chronotectorWeapons,
     classes,
     cloths,
-    constellations,
     curiosities,
     debuts,
-    evilStars,
     familyMembers,
+    groupsApollo,
+    groupsAres,
+    groupsArtemis,
+    groupsAstraea,
+    groupsAthena,
+    groupsBalor,
+    groupsCronus,
+    groupsEris,
+    groupsGarnet,
+    groupsTyphon,
+    groupsGladiators,
+    groupsHades,
+    groupsHakuryu,
+    groupsLamech,
+    groupsOdin,
+    groupsOthers,
+    groupsPallas,
+    groupsPoseidon,
+    groupsRa,
+    groupsTezcatlipoca,
+    groupsZeus,
     kinships,
     masters,
     midias,

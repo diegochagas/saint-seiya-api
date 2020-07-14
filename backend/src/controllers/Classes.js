@@ -1,5 +1,23 @@
 const Content = require('../models/Content.js');
 
+function groupSaints(collection, groupName) {
+  const groupedCollection = [];
+
+  const filteredCollection = collection.filter(saint => saint.group.includes(groupName));
+          
+  const groupCollection = filteredCollection.reduce((accumulator, currentValue) => {
+    accumulator[currentValue.groupName] = [...accumulator[currentValue.groupName] || [], currentValue];
+    
+    return accumulator;
+  }, {});
+
+  for (let key in groupCollection) {
+    groupedCollection.push({ name: key, saints: groupCollection[key]});
+  }
+
+  return groupedCollection.sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1);
+}
+
 module.exports = {
   async getClassNames(request, response) {
     const collections = await Content.getColletions();
@@ -46,20 +64,72 @@ module.exports = {
       }
     }
   
-    if (request.params.class === 'constellations') {
-      let modernConstellations = [];
-
-      let otherConstellations = [];
-
+    if (request.params.class === 'saints') {
+      let withoutConstellations = [];
+      let gods = [];
+      let apprentices = [];
+      let soldiers = [];
+      let constellations = [];
+      let formerConstellations = [];
+      let hinduConstellations = [];
+      let chineseConstellations = [];
+      
       for (let i = 0; i < collections.length; i++) {
-        if (collections[i].collectionPath === 'constellations') {
-          modernConstellations = collections[i].collection.slice(0, 88);
+        if (collections[i].collectionPath === 'saints') {
+          const { collection } = collections[i];
 
-          otherConstellations = collections[i].collection.slice(88);
+          withoutConstellations = [{
+            name: 'Saints without constellation',
+            saints: collection.filter(saint => saint.group === 'athena-without-constellations'),
+          }];
+
+          gods = [{
+            name: 'Gods',
+            saints: collection.filter(saint => saint.group === 'athena-gods'),
+          }];
+          
+          apprentices = [{
+            name: 'Apprentices Saints',
+            saints: collection.filter(saint => saint.group === 'athena-apprentices'),
+          }];
+
+          soldiers = [{
+            name: 'Soldiers Saints',
+            saints: collection.filter(saint => saint.group === 'athena-soldiers'),
+          }];
+
+          const collectionConstellations = collections.find(item => item.collectionPath === 'constellations');
+          
+          for (let j = 0; j < collectionConstellations.collection.length; j++) {
+            const collectionConstellation = collectionConstellations.collection[j];
+
+            const group = `${collectionConstellation.group}-${collectionConstellation.id}`;
+
+            const foundConstellation = collection.some(saint => saint.group === group);
+            
+            if (!foundConstellation) constellations.push({ ...collectionConstellation, saints: [] });
+          }
+
+          constellations = [
+            ...groupSaints(collection, 'athena-constellations'),
+            ...constellations,
+          ].sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1);
+          formerConstellations = groupSaints(collection, 'athena-former-constellations');
+          hinduConstellations = groupSaints(collection, 'athena-hindu-constellations');
+          chineseConstellations = groupSaints(collection, 'athena-chinese-constellations');
         }
       }
   
-      response.json({ modernConstellations, otherConstellations });
+      response.json({
+        withoutConstellations,
+        gods,
+        apprentices,
+        soldiers,
+        constellations,
+        formerConstellations,
+        hinduConstellations,
+        chineseConstellations,
+      });
     } else if (request.params.class === 'evil-stars') {
       let evilStars = [];
       

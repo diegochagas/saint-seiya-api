@@ -134,5 +134,8 @@
       }
     }
   },
-  "defaultProject": "saint-seiya-api"
+  "defaultProject": "saint-seiya-api",
+  "cli": {
+    "analytics": "918fc26f-d11a-470b-9c8b-b4755cc8fa22"
+  }
 }

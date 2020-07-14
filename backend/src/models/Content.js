@@ -71,16 +71,16 @@ const loadSaintsData = (saints, content) => {
       }
     });
 
-    saint.symbolTag = saint.symbol;
+    if (saint.group.includes('athena')) {
+      for (let i = 0; i < content.groupsAthena.length; i++) {
+        let group = content.groupsAthena[i];
 
-    if (saint.symbol.includes('constellation')) {
-      content.constellations.forEach(constellation => {
-        if (`constellation-${constellation.id}` === saint.symbol) {
-          saint.symbol = `${constellation.name} Constellation`;
-        }
-      });
+        if (saint.group === `${group.group}-${group.id}`) saint.groupName = group.name;
+        else if (saint.group === group.group) saint.groupName = group.name;
+      }   
     }
 
+    /*
     if (saint.symbol.includes('evil-star')) {
       content.evilStars.forEach(evilStar => {
         if (`evil-star-${evilStar.id}` === saint.symbol) {
@@ -95,7 +95,7 @@ const loadSaintsData = (saints, content) => {
           saint.symbol = chronotector.name;
         }
       });
-    }
+    } */
 
     content.debuts.forEach(debut => {
       if (debut.id === saint.debut) {
@@ -205,30 +205,6 @@ const loadCharactersData = content => {
   });
 }
 
-const loadConstellationsData = content => {
-  return content.constellations.map(constellationObject => {
-    const constellation = Object.assign({}, constellationObject);
-
-    const saints = content.saints.filter(saint => `constellation-${constellation.id}` === saint.symbol);
-
-    constellation.saints = loadSaintsData(saints, content);
-
-    return constellation;
-  });
-}
-
-const loadEvilStarsData = content => {
-  return content.evilStars.map(evilStarObject => {
-    const evilStar = Object.assign({}, evilStarObject);
-
-    const saints = content.saints.filter(saint => `evil-star-${evilStar.id}` === saint.symbol);
-
-    evilStar.saints = loadSaintsData(saints, content);
-
-    return evilStar;
-  });
-}
-
 const loadDebutsData = content => {
   return content.debuts.map(debutObject => {
     const debut = Object.assign({}, debutObject);
@@ -254,9 +230,12 @@ const getColletions = async () => {
 
   collections.push({ collectionPath: 'saints', collection: loadSaintsData(content.saints, content) });
 
-  collections.push({ collectionPath: 'constellations', collection: loadConstellationsData(content) });
+  collections.push({
+    collectionPath: 'constellations',
+    collection: content.groupsAthena.filter(group => group.group === 'athena-constellations'),
+  });
 
-  collections.push({ collectionPath: 'evilStars', collection: loadEvilStarsData(content) });
+  // collections.push({ collectionPath: 'evilStars', collection: loadEvilStarsData(content) });
 
   collections.push({ collectionPath: 'debuts', collection: loadDebutsData(content) });
 
