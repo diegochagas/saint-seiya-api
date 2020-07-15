@@ -43,11 +43,10 @@
 
         <p>
           <b>Symbol: </b>
-          <a *ngIf="cls.symbol" [routerLink]="['/characters/' + cls.symbolName + '/all/'+ cls.symbolNumber]">
-            {{ cls.symbol }}
-          </a>
 
-          <span *ngIf="!cls.symbol">Not revealed</span>
+          <span *ngIf="cls.group">{{ cls.groupName }}</span>
+
+          <span *ngIf="!cls.group">Not revealed</span>
         </p>
 
         <p>

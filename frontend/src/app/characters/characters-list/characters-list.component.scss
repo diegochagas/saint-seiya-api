@@ -4,69 +4,6 @@
   align-items: center;
   flex-direction: column;
 
-  .saints-list {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    max-width: 1280px;
-    padding: 20px;
-    justify-content: center;
-  }
-
-  .saint-group {
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    margin: 5px;
-    padding: 5px;
-
-    legend {
-      color: rgba(255, 255, 255, 0.5);
-      padding: 5px;
-      width: initial;
-      font-size: 18px;
-    }
-  }
-
-  a {
-    text-decoration: none;
-
-    &:hover {
-      background-color: #1123d5;
-    }
-  }
-
-  .saint {
-    display: inline-block;
-    background-color: #000963;
-    margin: 5px;
-    padding: 5px;
-    width: 160px;
-    height: 160px;
-    text-align: center;
-
-    p {
-      color: white;
-      margin: 0;
-      padding: 5px 0;
-      font-size: 14px;
-    }
-
-    .image-scheme {
-      max-width: 100%;
-      height: 70px;
-      margin: 5px 0;
-    }
-
-    .constellation {
-      height: 120px;
-    }
-
-    span {
-      display: block;
-      color: white;
-      font-size: 12px;
-    }
-  }
-
   h1, h2 {
     color: rgba(255, 255, 255, 0.5);
     text-align: center;

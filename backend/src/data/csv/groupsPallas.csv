@@ -1,7 +1,7 @@
-﻿id,name,groups
+﻿id,name,group
 1,Gods,pallas-gods
 ,,
-1,Soldier Pallasites ,pallas-pallasite-soldiers
+1,Pallasite Soldiers,pallas-pallasite-soldiers
 ,,
 1,Sword of Creation,pallas-weapon-firstclass
 2,Sword of Destruction,pallas-weapon-firstclass
@@ -14,7 +14,7 @@
 4,Staff,pallas-weapon-secondclass
 5,Whip,pallas-weapon-secondclass
 ,,
-1,Unknown Weapon Second Class,pallas-unknown-secondclass
+1,Unknown Weapon,pallas-unknown-secondclass
 ,,
 1,Claw,pallas-weapon-thirdclass
 2,Club,pallas-weapon-thirdclass

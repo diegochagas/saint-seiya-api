@@ -1,1 +1,1 @@
-[{"id":"1","name":"Gods","groups":"zeus-gods"},{"id":"2","name":"Angels","groups":"zeus-angels"},{"id":"3","name":"Fallen Angels","groups":"zeus-fallen-angels"}]
+[{"id":"1","name":"Gods","group":"zeus-gods"},{"id":"2","name":"Angels","group":"zeus-angels"},{"id":"3","name":"Fallen Angels","group":"zeus-fallen-angels"}]

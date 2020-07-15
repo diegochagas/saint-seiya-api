@@ -15,6 +15,15 @@ const getCSVContent = async () => {
   return content;
 }
 
+const getGroupName = (groups, saint) => {
+  for (let i = 0; i < groups.length; i++) {
+    const group = groups[i];
+
+    if (saint.group === `${group.group}-${group.id}`) return group.name;
+    else if (saint.group === group.group) return group.name;
+  }   
+}
+
 const loadSaintsData = (saints, content) => {
   return saints.map(saintObject => {
     const saint = Object.assign({}, saintObject);
@@ -71,31 +80,28 @@ const loadSaintsData = (saints, content) => {
       }
     });
 
-    if (saint.group.includes('athena')) {
-      for (let i = 0; i < content.groupsAthena.length; i++) {
-        let group = content.groupsAthena[i];
-
-        if (saint.group === `${group.group}-${group.id}`) saint.groupName = group.name;
-        else if (saint.group === group.group) saint.groupName = group.name;
-      }   
-    }
-
-    /*
-    if (saint.symbol.includes('evil-star')) {
-      content.evilStars.forEach(evilStar => {
-        if (`evil-star-${evilStar.id}` === saint.symbol) {
-          saint.symbol = evilStar.name;
-        }
-      });
-    }
-
-    if (saint.symbol.includes('chronotector')) {
-      content.chronotectorWeapons.forEach(chronotector => {
-        if (`chronotector-${chronotector.id}` === saint.symbol) {
-          saint.symbol = chronotector.name;
-        }
-      });
-    } */
+    if (saint.group.includes('apollo')) saint.groupName = getGroupName(content.groupsApollo, saint);
+    if (saint.group.includes('ares')) saint.groupName = getGroupName(content.groupsAres, saint);
+    if (saint.group.includes('artemis')) saint.groupName = getGroupName(content.groupsArtemis, saint);
+    if (saint.group.includes('astraea')) saint.groupName = getGroupName(content.groupsAstraea, saint);
+    if (saint.group.includes('athena')) saint.groupName = getGroupName(content.groupsAthena, saint);
+    if (saint.group.includes('balor')) saint.groupName = getGroupName(content.groupsBalor, saint);
+    if (saint.group.includes('cronus')) saint.groupName = getGroupName(content.groupsCronus, saint);
+    if (saint.group.includes('eris')) saint.groupName = getGroupName(content.groupsEris, saint);
+    if (saint.group.includes('garnet')) saint.groupName = getGroupName(content.groupsGarnet, saint);
+    if (saint.group.includes('gladiators')) saint.groupName = getGroupName(content.groupsGladiators, saint);
+    if (saint.group.includes('hades')) saint.groupName = getGroupName(content.groupsHades, saint);
+    if (saint.group.includes('hakuryu')) saint.groupName = getGroupName(content.groupsHakuryu, saint);
+    if (saint.group.includes('lamech')) saint.groupName = getGroupName(content.groupsLamech, saint);
+    if (saint.group.includes('odin')) saint.groupName = getGroupName(content.groupsOdin, saint);
+    if (saint.group.includes('others')) saint.groupName = getGroupName(content.groupsOthers, saint);
+    if (saint.group.includes('pallas')) saint.groupName = getGroupName(content.groupsPallas, saint);
+    if (saint.group.includes('poseidon')) saint.groupName = getGroupName(content.groupsPoseidon, saint);
+    if (saint.group.includes('ra-')) saint.groupName = getGroupName(content.groupsRa, saint);
+    if (saint.group.includes('apollo')) saint.groupName = getGroupName(content.groupsApollo, saint);
+    if (saint.group.includes('tezcatlipoca')) saint.groupName = getGroupName(content.groupsTezcatlipoca, saint);
+    if (saint.group.includes('typhon')) saint.groupName = getGroupName(content.groupsTyphon, saint);
+    if (saint.group.includes('zeus')) saint.groupName = getGroupName(content.groupsZeus, saint);
 
     content.debuts.forEach(debut => {
       if (debut.id === saint.debut) {
@@ -235,7 +241,10 @@ const getColletions = async () => {
     collection: content.groupsAthena.filter(group => group.group === 'athena-constellations'),
   });
 
-  // collections.push({ collectionPath: 'evilStars', collection: loadEvilStarsData(content) });
+  collections.push({
+    collectionPath: 'evil-stars',
+    collection: content.groupsHades.filter(group => group.group === 'hades-celestial-star' || group.group === 'hades-terrestrial-star'),
+  });
 
   collections.push({ collectionPath: 'debuts', collection: loadDebutsData(content) });
 

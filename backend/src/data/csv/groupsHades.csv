@@ -1,4 +1,4 @@
-﻿id,name,chineseName,warrior,groups
+﻿id,name,chineseName,warrior,group
 0,Unknown Evil Star,,,hades-unknown-evil-star
 ,,,,
 1,Faceless,,,hades-faceless
@@ -7,7 +7,7 @@
 ,,,,
 1,Gods Hades,,,hades-gods
 ,,,,
-1,Hades Soldiers,,,hades-soldiers
+1,Hades skeleton soldiers,,,hades-skeleton
 ,,,,
 1,Celestial Leader Star,Tiankui,Song Jiang,hades-celestial-star
 2,Celestial Strength Star,Tiangang,Lu Junyi,hades-celestial-star

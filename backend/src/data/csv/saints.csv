@@ -191,7 +191,7 @@
 190,176,,31,42,12,assets/cloth-schemes/others/hecate.jpg,5,others,4
 191,177,,21,,39,assets/cloth-schemes/others/hecatonchires.jpg,,others,
 192,178,,21,38,39,assets/cloth-schemes/others/hector.jpg,,others,
-193,179,180,3,Legion of Flame,11,assets/cloth-schemes/ares-berserkers/jamadhar-hema.jpg,,ares-flame-legion,
+193,179,180,3,23,11,assets/cloth-schemes/ares-berserkers/jamadhar-hema.jpg,,ares-flame-legion,
 194,180,334,13,,34,assets/cloth-schemes/odin-god-warriors/tanngrisnir-heracles.png,5,odin-chamber,14
 195,181,287,13,31,34,assets/cloth-schemes/odin-god-warriors/polaris-hilda.jpg,,odin-representative,12
 196,182,73,22,5,14,assets/cloth-schemes/athena-saints/circinus-hooke.png,6,athena-constellations-23,
@@ -256,7 +256,7 @@
 255,229,39,22,3,14,assets/cloth-schemes/athena-saints/kelly.png,11,athena-without-constellations,
 256,230,26,22,7,14,assets/cloth-schemes/athena-saints/aries-kiki.png,5,athena-constellations-7,
 257,231,133,22,5,14,assets/cloth-schemes/athena-saints/equuleus-kitalpha.png,5,athena-constellations-35,
-258,232,47,3,Legion of Flame,11,assets/cloth-schemes/ares-berserkers/bhuj-kokalo.jpg,,ares-flame-legion,
+258,232,47,3,23,11,assets/cloth-schemes/ares-berserkers/bhuj-kokalo.jpg,,ares-flame-legion,
 259,233,157,22,5,14,assets/cloth-schemes/athena-saints/grus-komachi.png,6,athena-constellations-39,
 260,234,268,22,5,14,assets/cloth-schemes/athena-saints/pegasus-kouga-1.png,5,athena-constellations-62,
 261,234,269,22,5,14,assets/cloth-schemes/athena-saints/pegasus-kouga-2.png,5,athena-constellations-62,
@@ -295,7 +295,7 @@
 294,265,245,8,,15,assets/cloth-schemes/eris-dryads/oblivion-maria.png,,eris-dryads,
 295,266,20,22,6,14,assets/cloth-schemes/athena-saints/aquila-marin.jpg,1,athena-constellations-5,
 296,565,215,16,1,25,assets/cloth-schemes/poseidon-mariners/mariner-soldiers.jpg,,poseidon-mariners,
-297,268,317,26,1,16,assets/cloth-schemes/hades-specters/skeleton-markino.jpg,1,hades-soldiers,
+297,268,317,26,1,16,assets/cloth-schemes/hades-specters/skeleton-markino.jpg,1,hades-skeleton,
 298,269,301,22,6,14,assets/cloth-schemes/athena-saints/sagitta-maya.jpg,5,athena-constellations-71,
 299,270,259,22,6,14,assets/cloth-schemes/athena-saints/pavo-mayura.jpg,4,athena-constellations-61,
 300,271,,17,20,11,assets/cloth-schemes/ares-martians/medea.png,,ares-mars-representative,

@@ -10,6 +10,7 @@ import {
   DebutsComponent,
   GetStartedComponent,
   HomeComponent,
+  SaintsListComponent,
   TestCallsComponent,
 } from './';
 
@@ -27,11 +28,11 @@ const routes: Routes = [
         component: CuriositiesComponent
       },
       {
-        path: ':details',
-        component: CharactersListComponent
+        path: ':details/:class',
+        component: SaintsListComponent
       },
       {
-        path: ':details/:class',
+        path: ':personal',
         component: CharactersListComponent
       },
       {
