@@ -12,18 +12,6 @@
       </ng-container>
     </ng-container>
 
-    <ng-container *ngSwitchCase="'constellation'">
-      <ng-container *ngIf="character; else spinner">
-        <app-constellation-details [constellation]="character" [single]="true"></app-constellation-details>
-      </ng-container>
-    </ng-container>
-
-    <ng-container *ngSwitchCase="'evil-star'">
-      <ng-container *ngIf="character; else spinner">
-        <app-evil-star-details [evilStar]="character" [single]="true"></app-evil-star-details>
-      </ng-container>
-    </ng-container>
-
     <ng-container *ngSwitchDefault>
       <app-spinner [spinner]="'zodiac-wheel'"></app-spinner>
     </ng-container>

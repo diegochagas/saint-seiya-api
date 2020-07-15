@@ -1,7 +1,7 @@
 <div class="saints-list">
   <h1>{{ pageTitle }}</h1>
 
-  <ng-container *ngIf="groups.length; else listSpinner">
+  <ng-container *ngIf="groups.length; else spinner">
     <div *ngFor="let group of groups">
       <h2>{{ group.title }}</h2>
 
