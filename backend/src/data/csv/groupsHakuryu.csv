@@ -1,6 +1,6 @@
-﻿id,name,group
-1,Taonias,hakuryu-taonias
-,,
-1,High Ranking Taonias,hakuryu-high-ranking
-,,
-1,Low Ranking Taonias ,hakuryu-low-ranking
+﻿id,group,class,classSingular,name
+1,hakuryu-taonias,Taonias,Taonia,Taonias
+,,,,
+1,hakuryu-high-ranking,Taonias,Taonia,High Ranking Taonias
+,,,,
+1,hakuryu-low-ranking,Taonias,Taonia,Low Ranking Taonias 

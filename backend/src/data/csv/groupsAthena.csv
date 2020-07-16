@@ -1,234 +1,234 @@
-﻿id,name,meaning,image,group
-1,Unknown Saints,,,athena-without-constellations
-,,,,
-1,Gods,,,athena-gods
-,,,,
-1,Apprentice,,,athena-apprentices
-,,,,
-1,Soldier,,,athena-soldiers
-,,,,
-1,Andromeda,Chained maiden,assets/constellations/andromeda.png,athena-constellations
-2,Antlia,Air pump,assets/constellations/antlia.png,athena-constellations
-3,Apus,Bird of paradise,assets/constellations/apus.png,athena-constellations
-4,Aquarius,Water bearer,assets/constellations/aquarius.png,athena-constellations
-5,Aquila,Eagle,assets/constellations/aquila.png,athena-constellations
-6,Ara,Altar,assets/constellations/ara.png,athena-constellations
-7,Aries,Ram,assets/constellations/aries.png,athena-constellations
-8,Auriga,Charioteer,assets/constellations/auriga.png,athena-constellations
-9,Bootes,Herdsman,assets/constellations/bootes.png,athena-constellations
-10,Caelum,Chisel,assets/constellations/caelum.png,athena-constellations
-11,Camelopardalis,Giraffe,assets/constellations/camelopardalis.png,athena-constellations
-12,Cancer,Crab,assets/constellations/cancer.png,athena-constellations
-13,Canes venatici,Hunting dogs,assets/constellations/canes-venatici.png,athena-constellations
-14,Canis major,Big dog,assets/constellations/canis-major.png,athena-constellations
-15,Canis minor,Small dog,assets/constellations/canis-minor.png,athena-constellations
-16,Capricornus,Sea goat,assets/constellations/capricornus.png,athena-constellations
-17,Carina,Keel of argo navis,assets/constellations/carina.png,athena-constellations
-18,Cassiopeia,Queen,assets/constellations/cassiopeia.png,athena-constellations
-19,Centaurus,Centaur,assets/constellations/centaurus.png,athena-constellations
-20,Cepheus,King,assets/constellations/cepheus.png,athena-constellations
-21,Cetus,Whale,assets/constellations/cetus.png,athena-constellations
-22,Chamaeleon,Chameleon,assets/constellations/chamaeleon.png,athena-constellations
-23,Circinus,Compass,assets/constellations/circinus.png,athena-constellations
-24,Columba,Dove,assets/constellations/columba.png,athena-constellations
-25,Coma berenices,Berenice’s hair,assets/constellations/coma-berenices.png,athena-constellations
-26,Corona australis,Southern crown,assets/constellations/corona-australis.png,athena-constellations
-27,Corona borealis,Northern crown,assets/constellations/corona-borealis.png,athena-constellations
-28,Corvus,Raven,assets/constellations/corvus.png,athena-constellations
-29,Crater,Cup,assets/constellations/crater.png,athena-constellations
-30,Crux,Southern cross,assets/constellations/crux.png,athena-constellations
-31,Cygnus,Swan,assets/constellations/cygnus.png,athena-constellations
-32,Delphinus,Dolphin,assets/constellations/delphinus.png,athena-constellations
-33,Dorado,Dolphinfish,assets/constellations/dorado.png,athena-constellations
-34,Draco,Dragon,assets/constellations/draco.png,athena-constellations
-35,Equuleus,Little horse,assets/constellations/equuleus.png,athena-constellations
-36,Eridanus,Celestial river,assets/constellations/eridanus.png,athena-constellations
-37,Fornax,Furnace,assets/constellations/fornax.png,athena-constellations
-38,Gemini,Twins,assets/constellations/gemini.png,athena-constellations
-39,Grus,Crane,assets/constellations/grus.png,athena-constellations
-40,Heracles,Strong man,assets/constellations/hercules.png,athena-constellations
-41,Horologium,Pendulum clock,assets/constellations/horologium.png,athena-constellations
-42,Hydra,Water serpent,assets/constellations/hydra.png,athena-constellations
-43,Hydrus,Water snake,assets/constellations/hydrus.png,athena-constellations
-44,Indus,Indian,assets/constellations/indus.png,athena-constellations
-45,Lacerta,Lizard,assets/constellations/lacerta.png,athena-constellations
-46,Leo,Lion,assets/constellations/leo.png,athena-constellations
-47,Leo minor,Little lion,assets/constellations/leo-minor.png,athena-constellations
-48,Lepus,Hare,assets/constellations/lepus.png,athena-constellations
-49,Libra,Scales,assets/constellations/libra.png,athena-constellations
-50,Lupus,Wolf,assets/constellations/lupus.png,athena-constellations
-51,Lynx,Lynx,assets/constellations/lynx.png,athena-constellations
-52,Lyra,Harp,assets/constellations/lyra.png,athena-constellations
-53,Mensa,Table mountain,assets/constellations/mensa.png,athena-constellations
-54,Microscopium,Microscope,assets/constellations/microscopium.png,athena-constellations
-55,Monoceros,Unicorn,assets/constellations/monoceros.png,athena-constellations
-56,Musca,Fly,assets/constellations/musca.png,athena-constellations
-57,Norma,Level,assets/constellations/norma.png,athena-constellations
-58,Octans,Octant,assets/constellations/octans.png,athena-constellations
-59,Ophiuchus,Serpent holder,assets/constellations/ophiuchus.png,athena-constellations
-60,Orion,Hunter,assets/constellations/orion.png,athena-constellations
-61,Pavo,Peacock,assets/constellations/pavo.png,athena-constellations
-62,Pegasus,Winged horse,assets/constellations/pegasus.png,athena-constellations
-63,Perseus,Greek hero,assets/constellations/perseus.png,athena-constellations
-64,Phoenix,Firebird,assets/constellations/phoenix.png,athena-constellations
-65,Pictor,Painter’s easel,assets/constellations/pictor.png,athena-constellations
-66,Pisces,Fishes,assets/constellations/pisces.png,athena-constellations
-67,Piscis austrinus,Southern fish,assets/constellations/piscis-austrinus.png,athena-constellations
-68,Puppis,Stern of argo navis,assets/constellations/puppis.png,athena-constellations
-69,Pyxis,Compass,assets/constellations/pyxis.png,athena-constellations
-70,Reticulum,Reticle,assets/constellations/reticulum.png,athena-constellations
-71,Sagitta,Arrow,assets/constellations/sagitta.png,athena-constellations
-72,Sagittarius,Archer,assets/constellations/sagittarius.png,athena-constellations
-73,Scorpius,Scorpion,assets/constellations/scorpius.png,athena-constellations
-74,Sculptor,Sculptor,assets/constellations/sculptor.png,athena-constellations
-75,Scutum,Shield,assets/constellations/scutum.png,athena-constellations
-76,Serpens,Serpent,assets/constellations/serpens.png,athena-constellations
-77,Sextans,Sextant,assets/constellations/sextans.png,athena-constellations
-78,Taurus,Bull,assets/constellations/taurus.png,athena-constellations
-79,Telescopium,Telescope,assets/constellations/telescopium.png,athena-constellations
-80,Triangulum,Triangle,assets/constellations/triangulum.png,athena-constellations
-81,Triangulum australe,Southern triangle,assets/constellations/triangulum-australe.png,athena-constellations
-82,Tucana,Toucan,assets/constellations/tucana.png,athena-constellations
-83,Ursa major,Big bear,assets/constellations/ursa-major.png,athena-constellations
-84,Ursa minor,Small bear,assets/constellations/ursa-minor.png,athena-constellations
-85,Vela,Sails of argo navis,assets/constellations/vela.png,athena-constellations
-86,Virgo,Young maiden,assets/constellations/virgo.png,athena-constellations
-87,Volans,Flying fish,assets/constellations/volans.png,athena-constellations
-88,Vulpecula,Little fox,assets/constellations/vulpecula.png,athena-constellations
-,,,,
-1,Anguilla,Eel,,athena-former-constellations
-2,Antinous,Antinous,,athena-former-constellations
-3,Apes,"Bees (renamed to Vespa, then Lilium, then to Musca Borealis)",,athena-former-constellations
-4,Apis,"Bee (obsolete name and renamed to Musca Australis, and then shortened to Musca)",,athena-former-constellations
-5,Aranea,Tarantula,,athena-former-constellations
-6,Argo Navis,"The Ship Argo (now divided into Carina, Puppis, and Vela)",,athena-former-constellations
-7,Asselli and Praesepe,Dionysus's Asses (Asellus Borealis and Asellus Australis) and Manger (Beehive Cluster),,athena-former-constellations
-8,Asterion and Chara,Northern and Southern Dogs in Canes Venatici,,athena-former-constellations
-9,Battery of Volta,Battery,,athena-former-constellations
-10,Bufo,Toad,,athena-former-constellations
-11,Cancer Minor,Lesser Crab,,athena-former-constellations
-12,Capra and Haedi,Goat Amalthea (stars surrounding Capella) and the Kids (Haedus I and Haedus II),,athena-former-constellations
-13,Cerberus,Cerberus (guardian dog of Hades),,athena-former-constellations
-14,Cor Caroli Regis Martyris,Charles's Heart,,athena-former-constellations
-15,Corona Firmiana,Corona Borealis renamed to honor Count Leopold Anton von Firmian,,athena-former-constellations
-16,Custos Messium,Keeper of harvests,,athena-former-constellations
-17,Deltoton,Delta (obsolete name for Triangulum Boreale),,athena-former-constellations
-18,Dentalium,Tooth Shell,,athena-former-constellations
-19,Felis,Cat,,athena-former-constellations
-20,Frederici Honores,Frederick's Honors,,athena-former-constellations
-21,Gallus,Rooster,,athena-former-constellations
-22,Gladii Electorales Saxonici,Crossed Swords of the Electorate of Saxony,,athena-former-constellations
-23,Globus Aerostaticus,Hot air balloon,,athena-former-constellations
-24,Gryphites,Gryphaea shellfish,,athena-former-constellations
-25,Hippocampus,Sea Horse,,athena-former-constellations
-26,Hirudo,Leech,,athena-former-constellations
-27,Jordanus,River Jordan,,athena-former-constellations
-28,Leo Palatinus,Lion to honor the Elector Palatine Charles Theodore and his wife Elisabeth Auguste,,athena-former-constellations
-29,Lochium Funis,Log line (renamed to Linea Nautica in 1888 by Eliza A. Bowen[16]),,athena-former-constellations
-30,Lilium,Fleur de Lys (renamed Musca Borealis),,athena-former-constellations
-31,Limax,Slug,,athena-former-constellations
-32,Linum Piscium,The line connecting the fish (renamed from Linum Austrinum and Linum Boreum by Bode in 1801; known as Lineola too),,athena-former-constellations
-33,Lumbricus,Earthworm,,athena-former-constellations
-34,Machina Electrica,Electricity generator,,athena-former-constellations
-35,Malus,Mast,,athena-former-constellations
-36,Manis,Pangolin,,athena-former-constellations
-37,Marmor Sculptile,Bust of Columbus,,athena-former-constellations
-38,Mons Maenalus,Mount Mainalo,,athena-former-constellations
-39,Musca Borealis,Northern Fly,,athena-former-constellations
-40,Noctua,Owl,,athena-former-constellations
-41,Nubecula Major and Nubecula Minor[citation needed],Magellanic Clouds,,athena-former-constellations
-42,Officina Typographica,Printshop,,athena-former-constellations
-43,Patella,Limpet,,athena-former-constellations
-44,Phoenicopterus,Flamingo (an obsolete name for Grus),,athena-former-constellations
-45,Pinna Marina,Mussel,,athena-former-constellations
-46,Piscis Notus,Southern Fish (obsolete name for Piscis Austrinus),,athena-former-constellations
-47,Polophylax,Guardian of the Pole,,athena-former-constellations
-48,Pomum Imperiale,Leopold's orb,,athena-former-constellations
-49,Phaethon,Phaethon,,athena-former-constellations
-50,Pluteum,Parapet (obsolete for Pictor),,athena-former-constellations
-51,Psalterium Georgii,George's Psaltery (renamed to Harp Georgii by Lalande),,athena-former-constellations
-52,Quadrans Muralis,Mural Quadrant,,athena-former-constellations
-53,Quadratum,Rhombus (obsolete name for Reticulum Rhomboidalis),,athena-former-constellations
-54,Ramus Pomifer,Apple-bearing Branch,,athena-former-constellations
-55,Robur Carolinum,Charles' Oak,,athena-former-constellations
-56,Rosa,Rose,,athena-former-constellations
-57,Sagitta Australis,Southern Arrow,,athena-former-constellations
-58,Scarabaeus,Rhinoceros Beetle,,athena-former-constellations
-59,Sceptrum Brandenburgicum,Scepter of Brandenburg,,athena-former-constellations
-60,Sceptrum et Manus Iustitiae,Scepter and Hand of Justice,,athena-former-constellations
-61,Sciurus Volans,Flying Squirrel (now part of Camelopardalis),,athena-former-constellations
-62,Sextants Uraniae,Urania's Sextant (obsolete name for Sextans),,athena-former-constellations
-63,"Siren, Ceneus and Lang","Siren, Lapith Caeneus and Toucan",,athena-former-constellations
-64,Solarium,Sundial,,athena-former-constellations
-65,Sudarium Veronicae,Sudarium of Veronica,,athena-former-constellations
-66,Rangifer or Tarandus,Reindeer,,athena-former-constellations
-67,Taurus Poniatovii,Poniatowski's Bull,,athena-former-constellations
-68,Tarabellum and Vexillum,Drill and flag-like Standard,,athena-former-constellations
-69,Telescopium Herschelii,Herschel's Telescope (renamed from Tubus Herschelii Major by Bode in 1801),,athena-former-constellations
-70,Tubus Herschelii Minor,Herschel's Reflector,,athena-former-constellations
-71,Testudo,Tortoise,,athena-former-constellations
-72,Tigris,Tigris River,,athena-former-constellations
-73,Triangulus Antarcticus,Obsolete name for Triangulum Australe,,athena-former-constellations
-74,Triangulum Majus,Large Triangle (obsolete name for Triangulum),,athena-former-constellations
-75,Triangulum Minus,Small Triangle,,athena-former-constellations
-76,Turdus Solitarius,"Solitary Thrush (renamed to Mocking Bird and then to Noctua). Named in honor of the Rodrigues solitaire, an extinct flightless bird related to the dodo.",,athena-former-constellations
-77,Uranoscopus,Star-Gazer fish,,athena-former-constellations
-78,Urna,Urn of Aquarius,,athena-former-constellations
-79,Vespa,Wasp (an obsolete name for Musca Borealis),,athena-former-constellations
-,,,,
-1,Ashwini,,,athena-hindu-constellations
-2,Bharani,,,athena-hindu-constellations
-3,Krittika,,,athena-hindu-constellations
-4,Rohini,,,athena-hindu-constellations
-5,Mrigashirsha,,,athena-hindu-constellations
-6,Ardra,,,athena-hindu-constellations
-7,Punarvasu,,,athena-hindu-constellations
-8,Pushya,,,athena-hindu-constellations
-9,Ashlesha,,,athena-hindu-constellations
-10,Magha,,,athena-hindu-constellations
-11,Purva or Purva Phalguni,,,athena-hindu-constellations
-12,Uttara or Uttara Phalguni,,,athena-hindu-constellations
-13,Hasta,,,athena-hindu-constellations
-14,Chitra,,,athena-hindu-constellations
-15,Svati,,,athena-hindu-constellations
-16,Visakha,,,athena-hindu-constellations
-17,Anuradha,,,athena-hindu-constellations
-18,Jyeshtha,,,athena-hindu-constellations
-19,Mula,,,athena-hindu-constellations
-20,Purva Ashadha,,,athena-hindu-constellations
-21,Uttara Asadha,,,athena-hindu-constellations
-22,Sravana,,,athena-hindu-constellations
-23,Sravistha or Dhanishta,,,athena-hindu-constellations
-24,Shatabhisha or Satataraka,Lotus,,athena-hindu-constellations
-25,Purva Bhadrapada,,,athena-hindu-constellations
-26,Uttara Bhadrapada,,,athena-hindu-constellations
-27,Revati,,,athena-hindu-constellations
-,,,,
-1,Jue/Jiao),Horn,,athena-chinese-constellations
-2,Kang,Neck,,athena-chinese-constellations
-3,Di,Root,,athena-chinese-constellations
-4,Fang,Room,,athena-chinese-constellations
-5,Xin,Heart,,athena-chinese-constellations
-6,Wei,Tail,,athena-chinese-constellations
-7,Ji,Winnowing Basket,,athena-chinese-constellations
-8,Dou,(Southern) Dipper,,athena-chinese-constellations
-9,Niu,Ox,,athena-chinese-constellations
-10,Nu,Girl,,athena-chinese-constellations
-11,Xu,Emptiness,,athena-chinese-constellations
-12,Wei,Rooftop,,athena-chinese-constellations
-13,Shi,Encampment,,athena-chinese-constellations
-14,Bi,Wall,,athena-chinese-constellations
-15,Kui,Legs,,athena-chinese-constellations
-16,Lou,Bond,,athena-chinese-constellations
-17,Wei,Stomach,,athena-chinese-constellations
-18,Mao,Hairy Head,,athena-chinese-constellations
-19,Bi,Net,,athena-chinese-constellations
-20,Zi,Turtle Beak,,athena-chinese-constellations
-21,Shen,Three Stars,,athena-chinese-constellations
-22,Jing,Well,,athena-chinese-constellations
-23,Gui,Ghost,,athena-chinese-constellations
-24,Liu,Willow,,athena-chinese-constellations
-25,Xing,Star,,athena-chinese-constellations
-26,Zhang,Extended Net,,athena-chinese-constellations
-27,Yi,Wings,,athena-chinese-constellations
-28,Zhen,Chariot,,athena-chinese-constellations
+﻿id,group,class,classSingular,name,meaning,image
+1,athena-unknown-saints,Saints,Saint,Saints Without Constellation,,
+,,,,,,
+1,athena-gods,Saints,Saint,Gods,,
+,,,,,,
+1,athena-apprentices,Saints,Saint,Apprentice,,
+,,,,,,
+1,athena-soldiers,Saints,Saint,Soldier,,
+,,,,,,
+1,athena-saints,Saints,Saint,Andromeda constellation,Chained maiden,assets/constellations/andromeda.png
+2,athena-saints,Saints,Saint,Antlia constellation,Air pump,assets/constellations/antlia.png
+3,athena-saints,Saints,Saint,Apus constellation,Bird of paradise,assets/constellations/apus.png
+4,athena-saints,Saints,Saint,Aquarius constellation,Water bearer,assets/constellations/aquarius.png
+5,athena-saints,Saints,Saint,Aquila constellation,Eagle,assets/constellations/aquila.png
+6,athena-saints,Saints,Saint,Ara constellation,Altar,assets/constellations/ara.png
+7,athena-saints,Saints,Saint,Aries constellation,Ram,assets/constellations/aries.png
+8,athena-saints,Saints,Saint,Auriga constellation,Charioteer,assets/constellations/auriga.png
+9,athena-saints,Saints,Saint,Bootes constellation,Herdsman,assets/constellations/bootes.png
+10,athena-saints,Saints,Saint,Caelum constellation,Chisel,assets/constellations/caelum.png
+11,athena-saints,Saints,Saint,Camelopardalis constellation,Giraffe,assets/constellations/camelopardalis.png
+12,athena-saints,Saints,Saint,Cancer constellation,Crab,assets/constellations/cancer.png
+13,athena-saints,Saints,Saint,Canes Venatici constellation,Hunting dogs,assets/constellations/canes-venatici.png
+14,athena-saints,Saints,Saint,Canis Major constellation,Big dog,assets/constellations/canis-major.png
+15,athena-saints,Saints,Saint,Canis Minor constellation,Small dog,assets/constellations/canis-minor.png
+16,athena-saints,Saints,Saint,Capricornus constellation,Sea goat,assets/constellations/capricornus.png
+17,athena-saints,Saints,Saint,Carina constellation,Keel of argo navis,assets/constellations/carina.png
+18,athena-saints,Saints,Saint,Cassiopeia constellation,Queen,assets/constellations/cassiopeia.png
+19,athena-saints,Saints,Saint,Centaurus constellation,Centaur,assets/constellations/centaurus.png
+20,athena-saints,Saints,Saint,Cepheus constellation,King,assets/constellations/cepheus.png
+21,athena-saints,Saints,Saint,Cetus constellation,Whale,assets/constellations/cetus.png
+22,athena-saints,Saints,Saint,Chamaeleon constellation,Chameleon,assets/constellations/chamaeleon.png
+23,athena-saints,Saints,Saint,Circinus constellation,Compass,assets/constellations/circinus.png
+24,athena-saints,Saints,Saint,Columba constellation,Dove,assets/constellations/columba.png
+25,athena-saints,Saints,Saint,Coma Berenices constellation,Berenice’s hair,assets/constellations/coma-berenices.png
+26,athena-saints,Saints,Saint,Corona Australis constellation,Southern crown,assets/constellations/corona-australis.png
+27,athena-saints,Saints,Saint,Corona Borealis constellation,Northern crown,assets/constellations/corona-borealis.png
+28,athena-saints,Saints,Saint,Corvus constellation,Raven,assets/constellations/corvus.png
+29,athena-saints,Saints,Saint,Crater constellation,Cup,assets/constellations/crater.png
+30,athena-saints,Saints,Saint,Crux constellation,Southern cross,assets/constellations/crux.png
+31,athena-saints,Saints,Saint,Cygnus constellation,Swan,assets/constellations/cygnus.png
+32,athena-saints,Saints,Saint,Delphinus constellation,Dolphin,assets/constellations/delphinus.png
+33,athena-saints,Saints,Saint,Dorado constellation,Dolphinfish,assets/constellations/dorado.png
+34,athena-saints,Saints,Saint,Draco constellation,Dragon,assets/constellations/draco.png
+35,athena-saints,Saints,Saint,Equuleus constellation,Little horse,assets/constellations/equuleus.png
+36,athena-saints,Saints,Saint,Eridanus constellation,Celestial river,assets/constellations/eridanus.png
+37,athena-saints,Saints,Saint,Fornax constellation,Furnace,assets/constellations/fornax.png
+38,athena-saints,Saints,Saint,Gemini constellation,Twins,assets/constellations/gemini.png
+39,athena-saints,Saints,Saint,Grus constellation,Crane,assets/constellations/grus.png
+40,athena-saints,Saints,Saint,Heracles constellation,Strong man,assets/constellations/hercules.png
+41,athena-saints,Saints,Saint,Horologium constellation,Pendulum clock,assets/constellations/horologium.png
+42,athena-saints,Saints,Saint,Hydra constellation,Water serpent,assets/constellations/hydra.png
+43,athena-saints,Saints,Saint,Hydrus constellation,Water snake,assets/constellations/hydrus.png
+44,athena-saints,Saints,Saint,Indus constellation,Indian,assets/constellations/indus.png
+45,athena-saints,Saints,Saint,Lacerta constellation,Lizard,assets/constellations/lacerta.png
+46,athena-saints,Saints,Saint,Leo constellation,Lion,assets/constellations/leo.png
+47,athena-saints,Saints,Saint,Leo Minor constellation,Little lion,assets/constellations/leo-minor.png
+48,athena-saints,Saints,Saint,Lepus constellation,Hare,assets/constellations/lepus.png
+49,athena-saints,Saints,Saint,Libra constellation,Scales,assets/constellations/libra.png
+50,athena-saints,Saints,Saint,Lupus constellation,Wolf,assets/constellations/lupus.png
+51,athena-saints,Saints,Saint,Lynx constellation,Lynx,assets/constellations/lynx.png
+52,athena-saints,Saints,Saint,Lyra constellation,Harp,assets/constellations/lyra.png
+53,athena-saints,Saints,Saint,Mensa constellation,Table mountain,assets/constellations/mensa.png
+54,athena-saints,Saints,Saint,Microscopium constellation,Microscope,assets/constellations/microscopium.png
+55,athena-saints,Saints,Saint,Monoceros constellation,Unicorn,assets/constellations/monoceros.png
+56,athena-saints,Saints,Saint,Musca constellation,Fly,assets/constellations/musca.png
+57,athena-saints,Saints,Saint,Norma constellation,Level,assets/constellations/norma.png
+58,athena-saints,Saints,Saint,Octans constellation,Octant,assets/constellations/octans.png
+59,athena-saints,Saints,Saint,Ophiuchus constellation,Serpent holder,assets/constellations/ophiuchus.png
+60,athena-saints,Saints,Saint,Orion constellation,Hunter,assets/constellations/orion.png
+61,athena-saints,Saints,Saint,Pavo constellation,Peacock,assets/constellations/pavo.png
+62,athena-saints,Saints,Saint,Pegasus constellation,Winged horse,assets/constellations/pegasus.png
+63,athena-saints,Saints,Saint,Perseus constellation,Greek hero,assets/constellations/perseus.png
+64,athena-saints,Saints,Saint,Phoenix constellation,Firebird,assets/constellations/phoenix.png
+65,athena-saints,Saints,Saint,Pictor constellation,Painter’s easel,assets/constellations/pictor.png
+66,athena-saints,Saints,Saint,Pisces constellation,Fishes,assets/constellations/pisces.png
+67,athena-saints,Saints,Saint,Piscis Austrinus constellation,Southern fish,assets/constellations/piscis-austrinus.png
+68,athena-saints,Saints,Saint,Puppis constellation,Stern of argo navis,assets/constellations/puppis.png
+69,athena-saints,Saints,Saint,Pyxis constellation,Compass,assets/constellations/pyxis.png
+70,athena-saints,Saints,Saint,Reticulum constellation,Reticle,assets/constellations/reticulum.png
+71,athena-saints,Saints,Saint,Sagitta constellation,Arrow,assets/constellations/sagitta.png
+72,athena-saints,Saints,Saint,Sagittarius constellation,Archer,assets/constellations/sagittarius.png
+73,athena-saints,Saints,Saint,Scorpius constellation,Scorpion,assets/constellations/scorpius.png
+74,athena-saints,Saints,Saint,Sculptor constellation,Sculptor,assets/constellations/sculptor.png
+75,athena-saints,Saints,Saint,Scutum constellation,Shield,assets/constellations/scutum.png
+76,athena-saints,Saints,Saint,Serpens constellation,Serpent,assets/constellations/serpens.png
+77,athena-saints,Saints,Saint,Sextans constellation,Sextant,assets/constellations/sextans.png
+78,athena-saints,Saints,Saint,Taurus constellation,Bull,assets/constellations/taurus.png
+79,athena-saints,Saints,Saint,Telescopium constellation,Telescope,assets/constellations/telescopium.png
+80,athena-saints,Saints,Saint,Triangulum constellation,Triangle,assets/constellations/triangulum.png
+81,athena-saints,Saints,Saint,Triangulum Australe constellation,Southern triangle,assets/constellations/triangulum-australe.png
+82,athena-saints,Saints,Saint,Tucana constellation,Toucan,assets/constellations/tucana.png
+83,athena-saints,Saints,Saint,Ursa major constellation,Big bear,assets/constellations/ursa-major.png
+84,athena-saints,Saints,Saint,Ursa minor constellation,Small bear,assets/constellations/ursa-minor.png
+85,athena-saints,Saints,Saint,Vela constellation,Sails of argo navis,assets/constellations/vela.png
+86,athena-saints,Saints,Saint,Virgo constellation,Young maiden,assets/constellations/virgo.png
+87,athena-saints,Saints,Saint,Volans constellation,Flying fish,assets/constellations/volans.png
+88,athena-saints,Saints,Saint,Vulpecula constellation,Little fox,assets/constellations/vulpecula.png
+,,,,,,
+1,athena-former-saints,Saints,Saint,Anguilla former constellation,Eel,
+2,athena-former-saints,Saints,Saint,Antinous former constellation,Antinous,
+3,athena-former-saints,Saints,Saint,Apes former constellation,"Bees (renamed to Vespa, then Lilium, then to Musca Borealis)",
+4,athena-former-saints,Saints,Saint,Apis former constellation,"Bee (obsolete name and renamed to Musca Australis, and then shortened to Musca)",
+5,athena-former-saints,Saints,Saint,Aranea former constellation,Tarantula,
+6,athena-former-saints,Saints,Saint,Argo Navis former constellation,"The Ship Argo (now divided into Carina, Puppis, and Vela)",
+7,athena-former-saints,Saints,Saint,Asselli and Praesepe former constellation,Dionysus's Asses (Asellus Borealis and Asellus Australis) and Manger (Beehive Cluster),
+8,athena-former-saints,Saints,Saint,Asterion and Chara former constellation,Northern and Southern Dogs in Canes Venatici,
+9,athena-former-saints,Saints,Saint,Battery of Volta former constellation,Battery,
+10,athena-former-saints,Saints,Saint,Bufo former constellation,Toad,
+11,athena-former-saints,Saints,Saint,Cancer Minor former constellation,Lesser Crab,
+12,athena-former-saints,Saints,Saint,Capra and Haedi former constellation,Goat Amalthea (stars surrounding Capella) and the Kids (Haedus I and Haedus II),
+13,athena-former-saints,Saints,Saint,Cerberus former constellation,Cerberus (guardian dog of Hades),
+14,athena-former-saints,Saints,Saint,Cor Caroli Regis Martyris former constellation,Charles's Heart,
+15,athena-former-saints,Saints,Saint,Corona Firmiana former constellation,Corona Borealis renamed to honor Count Leopold Anton von Firmian,
+16,athena-former-saints,Saints,Saint,Custos Messium former constellation,Keeper of harvests,
+17,athena-former-saints,Saints,Saint,Deltoton former constellation,Delta (obsolete name for Triangulum Boreale),
+18,athena-former-saints,Saints,Saint,Dentalium former constellation,Tooth Shell,
+19,athena-former-saints,Saints,Saint,Felis former constellation,Cat,
+20,athena-former-saints,Saints,Saint,Frederici Honores former constellation,Frederick's Honors,
+21,athena-former-saints,Saints,Saint,Gallus former constellation,Rooster,
+22,athena-former-saints,Saints,Saint,Gladii Electorales Saxonici former constellation,Crossed Swords of the Electorate of Saxony,
+23,athena-former-saints,Saints,Saint,Globus Aerostaticus former constellation,Hot air balloon,
+24,athena-former-saints,Saints,Saint,Gryphites former constellation,Gryphaea shellfish,
+25,athena-former-saints,Saints,Saint,Hippocampus former constellation,Sea Horse,
+26,athena-former-saints,Saints,Saint,Hirudo former constellation,Leech,
+27,athena-former-saints,Saints,Saint,Jordanus former constellation,River Jordan,
+28,athena-former-saints,Saints,Saint,Leo Palatinus former constellation,Lion to honor the Elector Palatine Charles Theodore and his wife Elisabeth Auguste,
+29,athena-former-saints,Saints,Saint,Lochium Funis former constellation,Log line (renamed to Linea Nautica in 1888 by Eliza A. Bowen[16]),
+30,athena-former-saints,Saints,Saint,Lilium former constellation,Fleur de Lys (renamed Musca Borealis),
+31,athena-former-saints,Saints,Saint,Limax former constellation,Slug,
+32,athena-former-saints,Saints,Saint,Linum Piscium former constellation,The line connecting the fish (renamed from Linum Austrinum and Linum Boreum by Bode in 1801; known as Lineola too),
+33,athena-former-saints,Saints,Saint,Lumbricus former constellation,Earthworm,
+34,athena-former-saints,Saints,Saint,Machina Electrica former constellation,Electricity generator,
+35,athena-former-saints,Saints,Saint,Malus former constellation,Mast,
+36,athena-former-saints,Saints,Saint,Manis former constellation,Pangolin,
+37,athena-former-saints,Saints,Saint,Marmor Sculptile former constellation,Bust of Columbus,
+38,athena-former-saints,Saints,Saint,Mons Maenalus former constellation,Mount Mainalo,
+39,athena-former-saints,Saints,Saint,Musca Borealis former constellation,Northern Fly,
+40,athena-former-saints,Saints,Saint,Noctua former constellation,Owl,
+41,athena-former-saints,Saints,Saint,Nubecula Major and Nubecula Minor[citation needed] former constellation,Magellanic Clouds,
+42,athena-former-saints,Saints,Saint,Officina Typographica former constellation,Printshop,
+43,athena-former-saints,Saints,Saint,Patella former constellation,Limpet,
+44,athena-former-saints,Saints,Saint,Phoenicopterus former constellation,Flamingo (an obsolete name for Grus),
+45,athena-former-saints,Saints,Saint,Pinna Marina former constellation,Mussel,
+46,athena-former-saints,Saints,Saint,Piscis Notus former constellation,Southern Fish (obsolete name for Piscis Austrinus),
+47,athena-former-saints,Saints,Saint,Polophylax former constellation,Guardian of the Pole,
+48,athena-former-saints,Saints,Saint,Pomum Imperiale former constellation,Leopold's orb,
+49,athena-former-saints,Saints,Saint,Phaethon former constellation,Phaethon,
+50,athena-former-saints,Saints,Saint,Pluteum former constellation,Parapet (obsolete for Pictor),
+51,athena-former-saints,Saints,Saint,Psalterium Georgii former constellation,George's Psaltery (renamed to Harp Georgii by Lalande),
+52,athena-former-saints,Saints,Saint,Quadrans Muralis former constellation,Mural Quadrant,
+53,athena-former-saints,Saints,Saint,Quadratum former constellation,Rhombus (obsolete name for Reticulum Rhomboidalis),
+54,athena-former-saints,Saints,Saint,Ramus Pomifer former constellation,Apple-bearing Branch,
+55,athena-former-saints,Saints,Saint,Robur Carolinum former constellation,Charles' Oak,
+56,athena-former-saints,Saints,Saint,Rosa former constellation,Rose,
+57,athena-former-saints,Saints,Saint,Sagitta Australis former constellation,Southern Arrow,
+58,athena-former-saints,Saints,Saint,Scarabaeus former constellation,Rhinoceros Beetle,
+59,athena-former-saints,Saints,Saint,Sceptrum Brandenburgicum former constellation,Scepter of Brandenburg,
+60,athena-former-saints,Saints,Saint,Sceptrum et Manus Iustitiae former constellation,Scepter and Hand of Justice,
+61,athena-former-saints,Saints,Saint,Sciurus Volans former constellation,Flying Squirrel (now part of Camelopardalis),
+62,athena-former-saints,Saints,Saint,Sextants Uraniae former constellation,Urania's Sextant (obsolete name for Sextans),
+63,athena-former-saints,Saints,Saint,"Siren, Ceneus and Lang former constellation","Siren, Lapith Caeneus and Toucan",
+64,athena-former-saints,Saints,Saint,Solarium former constellation,Sundial,
+65,athena-former-saints,Saints,Saint,Sudarium Veronicae former constellation,Sudarium of Veronica,
+66,athena-former-saints,Saints,Saint,Rangifer or Tarandus former constellation,Reindeer,
+67,athena-former-saints,Saints,Saint,Taurus Poniatovii former constellation,Poniatowski's Bull,
+68,athena-former-saints,Saints,Saint,Tarabellum and Vexillum former constellation,Drill and flag-like Standard,
+69,athena-former-saints,Saints,Saint,Telescopium Herschelii former constellation,Herschel's Telescope (renamed from Tubus Herschelii Major by Bode in 1801),
+70,athena-former-saints,Saints,Saint,Tubus Herschelii Minor former constellation,Herschel's Reflector,
+71,athena-former-saints,Saints,Saint,Testudo former constellation,Tortoise,
+72,athena-former-saints,Saints,Saint,Tigris former constellation,Tigris River,
+73,athena-former-saints,Saints,Saint,Triangulus Antarcticus former constellation,Obsolete name for Triangulum Australe,
+74,athena-former-saints,Saints,Saint,Triangulum Majus former constellation,Large Triangle (obsolete name for Triangulum),
+75,athena-former-saints,Saints,Saint,Triangulum Minus former constellation,Small Triangle,
+76,athena-former-saints,Saints,Saint,Turdus Solitarius former constellation,"Solitary Thrush (renamed to Mocking Bird and then to Noctua). Named in honor of the Rodrigues solitaire, an extinct flightless bird related to the dodo.",
+77,athena-former-saints,Saints,Saint,Uranoscopus former constellation,Star-Gazer fish,
+78,athena-former-saints,Saints,Saint,Urna former constellation,Urn of Aquarius,
+79,athena-former-saints,Saints,Saint,Vespa former constellation,Wasp (an obsolete name for Musca Borealis),
+,,,,,,
+1,athena-hindu-saints,Saints,Saint,Ashwini hindu constellation,,
+2,athena-hindu-saints,Saints,Saint,Bharani hindu constellation,,
+3,athena-hindu-saints,Saints,Saint,Krittika hindu constellation,,
+4,athena-hindu-saints,Saints,Saint,Rohini hindu constellation,,
+5,athena-hindu-saints,Saints,Saint,Mrigashirsha hindu constellation,,
+6,athena-hindu-saints,Saints,Saint,Ardra hindu constellation,,
+7,athena-hindu-saints,Saints,Saint,Punarvasu hindu constellation,,
+8,athena-hindu-saints,Saints,Saint,Pushya hindu constellation,,
+9,athena-hindu-saints,Saints,Saint,Ashlesha hindu constellation,,
+10,athena-hindu-saints,Saints,Saint,Magha hindu constellation,,
+11,athena-hindu-saints,Saints,Saint,Purva or Purva Phalguni hindu constellation,,
+12,athena-hindu-saints,Saints,Saint,Uttara or Uttara Phalguni hindu constellation,,
+13,athena-hindu-saints,Saints,Saint,Hasta hindu constellation,,
+14,athena-hindu-saints,Saints,Saint,Chitra hindu constellation,,
+15,athena-hindu-saints,Saints,Saint,Svati hindu constellation,,
+16,athena-hindu-saints,Saints,Saint,Visakha hindu constellation,,
+17,athena-hindu-saints,Saints,Saint,Anuradha hindu constellation,,
+18,athena-hindu-saints,Saints,Saint,Jyeshtha hindu constellation,,
+19,athena-hindu-saints,Saints,Saint,Mula hindu constellation,,
+20,athena-hindu-saints,Saints,Saint,Purva Ashadha hindu constellation,,
+21,athena-hindu-saints,Saints,Saint,Uttara Asadha hindu constellation,,
+22,athena-hindu-saints,Saints,Saint,Sravana hindu constellation,,
+23,athena-hindu-saints,Saints,Saint,Sravistha or Dhanishta hindu constellation,,
+24,athena-hindu-saints,Saints,Saint,Shatabhisha or Satataraka hindu constellation,Lotus,
+25,athena-hindu-saints,Saints,Saint,Purva Bhadrapada hindu constellation,,
+26,athena-hindu-saints,Saints,Saint,Uttara Bhadrapada hindu constellation,,
+27,athena-hindu-saints,Saints,Saint,Revati hindu constellation,,
+,,,,,,
+1,athena-chinese-saints,Saints,Saint,Jue/Jiao chinese constellation,Horn,
+2,athena-chinese-saints,Saints,Saint,Kang chinese constellation,Neck,
+3,athena-chinese-saints,Saints,Saint,Di chinese constellation,Root,
+4,athena-chinese-saints,Saints,Saint,Fang chinese constellation,Room,
+5,athena-chinese-saints,Saints,Saint,Xin chinese constellation,Heart,
+6,athena-chinese-saints,Saints,Saint,Wei chinese constellation,Tail,
+7,athena-chinese-saints,Saints,Saint,Ji chinese constellation,Winnowing Basket,
+8,athena-chinese-saints,Saints,Saint,Dou chinese constellation,(Southern) Dipper,
+9,athena-chinese-saints,Saints,Saint,Niu chinese constellation,Ox,
+10,athena-chinese-saints,Saints,Saint,Nu chinese constellation,Girl,
+11,athena-chinese-saints,Saints,Saint,Xu chinese constellation,Emptiness,
+12,athena-chinese-saints,Saints,Saint,Wei chinese constellation,Rooftop,
+13,athena-chinese-saints,Saints,Saint,Shi chinese constellation,Encampment,
+14,athena-chinese-saints,Saints,Saint,Bi chinese constellation,Wall,
+15,athena-chinese-saints,Saints,Saint,Kui chinese constellation,Legs,
+16,athena-chinese-saints,Saints,Saint,Lou chinese constellation,Bond,
+17,athena-chinese-saints,Saints,Saint,Wei chinese constellation,Stomach,
+18,athena-chinese-saints,Saints,Saint,Mao chinese constellation,Hairy Head,
+19,athena-chinese-saints,Saints,Saint,Bi chinese constellation,Net,
+20,athena-chinese-saints,Saints,Saint,Zi chinese constellation,Turtle Beak,
+21,athena-chinese-saints,Saints,Saint,Shen chinese constellation,Three Stars,
+22,athena-chinese-saints,Saints,Saint,Jing chinese constellation,Well,
+23,athena-chinese-saints,Saints,Saint,Gui chinese constellation,Ghost,
+24,athena-chinese-saints,Saints,Saint,Liu chinese constellation,Willow,
+25,athena-chinese-saints,Saints,Saint,Xing chinese constellation,Star,
+26,athena-chinese-saints,Saints,Saint,Zhang chinese constellation,Extended Net,
+27,athena-chinese-saints,Saints,Saint,Yi chinese constellation,Wings,
+28,athena-chinese-saints,Saints,Saint,Zhen chinese constellation,Chariot,

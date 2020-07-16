@@ -24,11 +24,29 @@ export class HeaderComponent implements OnInit {
   }
 
   async getClasses() {
-    const response: any = await this.classesService.getClassNames().toPromise();
-
-    response.forEach(cls => this.classes.push(cls.name));
-
-    this.classes.sort();
+    this.classes = [
+      { name: 'Angels', route: 'angels' },
+      { name: 'Berserkers / Martians', route: 'berserkers' },
+      { name: 'Corona Saints', route: 'corona-saints' },
+      { name: 'Dryads', route: 'dryads' },
+      { name: 'Fairies', route: 'fairies' },
+      { name: 'Gigas', route: 'gigas' },
+      { name: 'Gladiators', route: 'gladiators' },
+      { name: 'God Warriors / Blue Warriors', route: 'god-warriors' },
+      { name: 'Golden Tribe', route: 'golden-tribe' },
+      { name: 'Jaguars', route: 'jaguars' },
+      { name: 'Jewels', route: 'jewels' },
+      { name: 'Lamech Saints', route: 'lamech-saints' },
+      { name: 'Legionaries', route: 'legionaries' },
+      { name: 'Mariners', route: 'mariners' },
+      { name: 'Others', route: 'others' },
+      { name: 'Pallasites', route: 'pallasites' },
+      { name: 'Saints', route: 'saints' },
+      { name: 'Satellites', route: 'satellites' },
+      { name: 'Specters / Faceless', route: 'specters' },
+      { name: 'Titans', route: 'titans' },
+      { name: 'taonias', route: 'taonias' },
+    ];
   }
 
   async getDebuts() {

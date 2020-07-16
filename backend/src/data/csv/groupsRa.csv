@@ -1,4 +1,4 @@
-﻿id,name,group
-1,Gods,ra-egyptian-gods
-,,
-1,Ra Legionaries,ra-legionaries
+﻿id,group,classSingular,name,name
+1,ra-egyptian-gods,Legionaries,Legionary,Gods
+,,,,
+1,ra-legionaries,Legionaries,Legionary,Ra Legionaries

@@ -1,4 +1,4 @@
-﻿id,name,group
-1,Titans,cronus-titans
-,,
-1,Other Titans,cronus-other-titans
+﻿id,group,class,classSingular,name
+1,cronus-titans,Titans,Titan,Titans
+,,,,
+1,cronus-other-titans,Titans,Titan,Other Titans

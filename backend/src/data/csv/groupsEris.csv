@@ -1,6 +1,6 @@
-﻿id,name,group
-1,Gods,eris-gods
-,,
-1,Dryads,eris-dryads
-,,
-1,Phantoms,eris-phantoms
+﻿id,group,class,classSingular,name
+1,eris-gods,Dryads,Dryad,Gods
+,,,,
+1,eris-dryads,Dryads,Dryad,Dryads
+,,,,
+1,eris-phantoms,Dryads,Dryad,Phantoms

@@ -1,8 +1,8 @@
-﻿id,name,group
-1,Gods,poseidon-gods
-,,
-1,Mariners Generals,poseidon-mariners-generals
-,,
-1,Mariners,poseidon-mariners
-,,
-1,Mariner Soldiers,poseidon-mariner-soldiers
+﻿id,group,classSingular,name,name
+1,poseidon-gods,Mariners,Mariner,Gods
+,,,,
+1,poseidon-mariners-generals,Mariners,Mariner,Mariners Generals
+,,,,
+1,poseidon-mariners,Mariners,Mariner,Mariners
+,,,,
+1,poseidon-mariner-soldiers,Mariners,Mariner,Mariner Soldiers

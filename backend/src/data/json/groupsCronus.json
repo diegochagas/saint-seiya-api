@@ -1,1 +1,1 @@
-[{"id":"1","name":"Titans","group":"cronus-titans"},{"id":"","name":"","group":""},{"id":"1","name":"Other Titans","group":"cronus-other-titans"}]
+[{"id":"1","group":"cronus-titans","class":"Titans","classSingular":"Titan","name":"Titans"},{"id":"","group":"","class":"","classSingular":"","name":""},{"id":"1","group":"cronus-other-titans","class":"Titans","classSingular":"Titan","name":"Other Titans"}]

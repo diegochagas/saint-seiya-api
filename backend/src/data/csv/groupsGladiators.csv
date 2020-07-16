@@ -1,2 +1,2 @@
-﻿id,name,group
-1,Gladiators,gladiators
+﻿id,group,class,classSingular,name
+1,gladiators,Gladiators,Gladiator,Gladiators

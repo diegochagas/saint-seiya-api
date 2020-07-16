@@ -1,30 +1,30 @@
-﻿id,name,group
-1,Gods,odin-gods
-,,
-1,Asgard Representative,odin-representative
-,,
-1,Asgard Soldiers,odin-asgard-soldiers
-,,
-1,Durval God Warriors,odin-drbal-god-warriors
-,,
-1,Alpha,odin-ursa-major-star
-2,Beta,odin-ursa-major-star
-3,Delta,odin-ursa-major-star
-4,Epsilon,odin-ursa-major-star
-5,Eta,odin-ursa-major-star
-6,Gamma,odin-ursa-major-star
-7,Zeta,odin-ursa-major-star
-,,
-1,Chamber of Giant,odin-chamber
-2,chamber of Wisdom,odin-chamber
-3,Chamber of Light,odin-chamber
-4,Chamber of Dead,odin-chamber
-5,Chamber of Heroes,odin-chamber
-6,Chamber of Mist,odin-chamber
-7,Chamber of Ice,odin-chamber
-,,
-1,Blue Warriors,odin-blue-warriors
-,,
-1,Blue Warriors Representative,odin-blue-warrior-representative
-,,
-1,Blue Warrior Soldiers,odin-blue-warrior-soldiers
+﻿id,group,class,classSingular,name
+1,odin-gods,God Warriors,God Warrior,Gods
+,,,,
+1,odin-representative,God Warriors,God Warrior,Asgard Representative
+,,,,
+1,odin-asgard-soldiers,God Warriors,God Warrior,Asgard Soldiers
+,,,,
+1,odin-drbal-god-warriors,God Warriors,God Warrior,Durval God Warriors
+,,,,
+1,odin-ursa-major-star,God Warriors,God Warrior,Alpha
+2,odin-ursa-major-star,God Warriors,God Warrior,Beta
+3,odin-ursa-major-star,God Warriors,God Warrior,Delta
+4,odin-ursa-major-star,God Warriors,God Warrior,Epsilon
+5,odin-ursa-major-star,God Warriors,God Warrior,Eta
+6,odin-ursa-major-star,God Warriors,God Warrior,Gamma
+7,odin-ursa-major-star,God Warriors,God Warrior,Zeta
+,,,,
+1,odin-chamber,God Warriors,God Warrior,Chamber of Giant
+2,odin-chamber,God Warriors,God Warrior,chamber of Wisdom
+3,odin-chamber,God Warriors,God Warrior,Chamber of Light
+4,odin-chamber,God Warriors,God Warrior,Chamber of Dead
+5,odin-chamber,God Warriors,God Warrior,Chamber of Heroes
+6,odin-chamber,God Warriors,God Warrior,Chamber of Mist
+7,odin-chamber,God Warriors,God Warrior,Chamber of Ice
+,,,,
+1,odin-blue-warriors,Blue Warriors,Blue Warrior,Blue Warriors
+,,,,
+1,odin-blue-warrior-representative,Blue Warriors,Blue Warrior,Blue Warriors Representative
+,,,,
+1,odin-blue-warrior-soldiers,Blue Warriors,Blue Warrior,Blue Warrior Soldiers

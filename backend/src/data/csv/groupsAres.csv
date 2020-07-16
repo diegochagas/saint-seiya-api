@@ -1,13 +1,15 @@
-﻿id,name,group
-1,Gods,ares-gods
-,,
-2,Legion Of Disaster,ares-disaster-legion
-3,Legion Of Fear,ares-fear-legion
-4,Legion Of Fire,ares-fire-legion
-5,Legion Of Flame,ares-flame-legion
-,,
-6,Mars Representative,ares-mars-representative
-7,Four Heavenly Kings of Mars,ares-heavenly-kings
-8,High Martians,ares-high-martians
-9,Martians,ares-martians
-10,Martian Soldiers,ares-martian-soldiers
+﻿id,group,class,classSingular,name
+1,ares-gods,Berserkers,Berserker,Gods
+,,,,
+2,ares-disaster-legion,Berserkers,Berserker,Legion Of Disaster
+3,ares-fear-legion,Berserkers,Berserker,Legion Of Fear
+4,ares-fire-legion,Berserkers,Berserker,Legion Of Fire
+5,ares-flame-legion,Berserkers,Berserker,Legion Of Flame
+,,,,
+1,ares-gods-martians,Martians,Martian,Gods
+,,,,
+6,ares-representative-martians,Martians,Martian,Mars Representative
+7,ares-heavenly-kings-martians,Martians,Martian,Four Heavenly Kings of Mars
+8,ares-high-martians,Martians,Martian,High Martians
+9,ares-martians,Martians,Martian,Martians
+10,ares-soldier-martians,Martians,Martian,Martian Soldiers

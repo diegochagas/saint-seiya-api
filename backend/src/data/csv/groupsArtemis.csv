@@ -1,7 +1,7 @@
-﻿id,name,group
-1,Gods,artemis-gods
-,,
-2,Satellite Commander,artemis-satellite-commander
-3,Satellite Captain,artemis-satellite-captain
-,,
-4,Satellites,artemis-satellites
+﻿id,group,class,classSingular,name
+1,artemis-gods,Satellites,Satellite,Gods
+,,,,
+2,artemis-satellite-commander,Satellites,Satellite,Satellite Commander
+3,artemis-satellite-captain,Satellites,Satellite,Satellite Captain
+,,,,
+4,artemis-satellites,Satellites,Satellite,Satellites

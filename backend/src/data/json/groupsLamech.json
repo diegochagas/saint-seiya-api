@@ -1,1 +1,1 @@
-[{"id":"1","name":"Gods","group":"lamech-gods"},{"id":"2","name":"Lamech Saints","group":"lamech-saints"}]
+[{"id":"1","group":"lamech-gods","class":"Lamech Saints","classSingular":"Lamech Saint","name":"Gods"},{"id":"2","group":"lamech-saints","class":"Lamech Saints","classSingular":"Lamech Saint","name":"Lamech Saints"}]

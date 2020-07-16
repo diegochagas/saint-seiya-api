@@ -1,4 +1,4 @@
-﻿id,name,group
-1,Gods,balor-gods
-,,
-1,Fairies,balor-fairies
+﻿id,group,class,classSingular,name
+1,balor-gods,Fairies,Fairy,Gods
+,,,,
+1,balor-fairies,Fairies,Fairy,Fairies

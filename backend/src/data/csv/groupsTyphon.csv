@@ -1,4 +1,4 @@
-﻿id,name,group
-1,Gods Gigas,typhon-gods
-2,Typhon Brothers,typhon-brothers
-3,Typhon Sons,typhon-sons
+﻿id,group,classSingular,name,name
+1,typhon-gods,Gigas,Giga,Gods Gigas
+2,typhon-brothers,Gigas,Giga,Typhon Brothers
+3,typhon-sons,Gigas,Giga,Typhon Sons

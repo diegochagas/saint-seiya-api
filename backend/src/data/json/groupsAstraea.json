@@ -1,1 +1,1 @@
-[{"id":"1","name":"Gods","group":"astraea-gods"},{"id":"","name":"","group":""},{"id":"2","name":"Golden tribe","group":"astraea-golden-tribe"}]
+[{"id":"1","group":"astraea-gods","class":"Golden Tribe","classSingular":"Golden Tribe","name":"Gods"},{"id":"","group":"","class":"","classSingular":"","name":""},{"id":"2","group":"astraea-golden-tribe","class":"Golden Tribe","classSingular":"Golden Tribe","name":"Golden tribe"}]

@@ -1,2 +1,2 @@
-﻿id,name,group
-1,Jewels,garnet-jewels
+﻿id,group,class,classSingular,name
+1,garnet-jewels,Jewels,Jewel,Jewels

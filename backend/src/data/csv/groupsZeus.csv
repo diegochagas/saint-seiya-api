@@ -1,4 +1,4 @@
-﻿id,name,group
-1,Gods,zeus-gods
-2,Angels,zeus-angels
-3,Fallen Angels,zeus-fallen-angels
+﻿id,group,classSingular,name,name
+1,zeus-gods,Angels,Angel,Gods
+2,zeus-angels,Angels,Angel,Angels
+3,zeus-fallen-angels,Fallen Angels,Fallen Angel,Fallen Angels

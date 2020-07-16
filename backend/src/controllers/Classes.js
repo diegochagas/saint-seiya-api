@@ -1,9 +1,9 @@
 const Content = require('../models/Content.js');
 
-function groupSaints(collection, groupName) {
+function groupSaints(collection, group) {
   const groupedCollection = [];
 
-  const filteredCollection = collection.filter(saint => saint.group.includes(groupName));
+  const filteredCollection = collection.filter(saint => saint.group.includes(group));
           
   const groupCollection = filteredCollection.reduce((accumulator, currentValue) => {
     accumulator[currentValue.groupName] = [...accumulator[currentValue.groupName] || [], currentValue];
@@ -77,9 +77,14 @@ module.exports = {
     let saints = [];
 
     for (let i = 0; i < allSaints.length; i++) {
-      if (request.params.class === allSaints[i].class.toLowerCase().replace(' ', '-')) {
-        saints.push(allSaints[i]);
+      if (allSaints[i].class) {
+        if (request.params.class === allSaints[i].class.toLowerCase().replace(' ', '-')) {
+          saints.push(allSaints[i]);
+        }
+      } else {
+        console.error(`Class of the saint ${JSON.stringify(allSaints[i])} is ${allSaints[i].class}`);
       }
+
     }
   
     if (request.params.class === 'saints') {
@@ -98,7 +103,7 @@ module.exports = {
 
           withoutConstellations = [{
             name: 'Saints without constellation',
-            saints: collection.filter(saint => saint.group === 'athena-without-constellations'),
+            saints: collection.filter(saint => saint.group === 'athena-unknown-saints'),
           }];
 
           gods = [{
@@ -117,12 +122,12 @@ module.exports = {
           }];
 
           constellations = [
-            ...groupSaints(collection, 'athena-constellations'),
+            ...groupSaints(collection, 'athena-saints'),
             ...getRestOfTheCollection(collection, 'constellations', collections),
-          ].sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1);
-          formerConstellations = groupSaints(collection, 'athena-former-constellations');
-          hinduConstellations = groupSaints(collection, 'athena-hindu-constellations');
-          chineseConstellations = groupSaints(collection, 'athena-chinese-constellations');
+          ].sort((a, b) => a.groupName == b.groupName ? 0 : + (a.groupName > b.name) || -1);
+          formerConstellations = groupSaints(collection, 'athena-former-saints');
+          hinduConstellations = groupSaints(collection, 'athena-hindu-saints');
+          chineseConstellations = groupSaints(collection, 'athena-chinese-saints');
         }
       }
   
@@ -235,10 +240,9 @@ module.exports = {
         thirdClass,
         soldiers,
       });
-    }  else if (request.params.class === 'angels') {
+    } else if (request.params.class === 'angels') {
       let gods = [];
-      let angels = [];
-      let fallenAngels = [];
+      let saints = [];
       
       for (let i = 0; i < collections.length; i++) {
         if (collections[i].collectionPath === 'saints') {
@@ -249,30 +253,15 @@ module.exports = {
             saints: collection.filter(saint => saint.group === 'zeus-gods'),
           }];
 
-          angels = [{
-            name: 'Angels',
-            saints: collection.filter(saint => saint.group === 'zeus-angels'),
-          }];
-
-          fallenAngels = [{
-            name: 'Fallen Angels',
-            saints: collection.filter(saint => saint.group === 'zeus-fallen-angels'),
-          }];
+          saints = groupSaints(collection, '-angels');
         }
       }
   
-      response.json({ gods, angels, fallenAngels });
-    }  else if (request.params.class === 'berserkers') {
+      response.json({ gods, saints });
+    } else if (request.params.class === 'berserkers') {
       let gods = [];
-      let disasterLegion = [];
-      let fearLegion = [];
-      let fireLegion = [];
-      let flameLegion = [];
-      let marsRepresentative = [];
-      let heavenlyKings = [];
-      let highMartians = [];
+      let berserkers = [];
       let martians = [];
-      let soldiers = [];
       
       for (let i = 0; i < collections.length; i++) {
         if (collections[i].collectionPath === 'saints') {
@@ -280,69 +269,69 @@ module.exports = {
 
           gods = [{
             name: 'Gods',
-            saints: collection.filter(saint => saint.group === 'ares-gods'),
+            saints: collection.filter(saint => saint.group.includes('ares') && saint.group.includes('gods')),
           }];
 
-          disasterLegion = [{
-            name: 'Legion Of Disaster',
-            saints: collection.filter(saint => saint.group === 'ares-disaster-legion'),
-          }];
-
-          fearLegion = [{
-            name: 'Legion Of Fear',
-            saints: collection.filter(saint => saint.group === 'ares-fear-legion'),
-          }];
-
-          fireLegion = [{
-            name: 'Legion Of Fire',
-            saints: collection.filter(saint => saint.group === 'ares-fire-legion'),
-          }];
+          berserkers = groupSaints(collection, '-legion').filter(saints => saints.name.includes('Legion Of'));
           
-          flameLegion = [{
-            name: 'Legion Of Flame',
-            saints: collection.filter(saint => saint.group === 'ares-flame-legion'),
-          }];
-
-          marsRepresentative = [{
-            name: 'Mars Representative',
-            saints: collection.filter(saint => saint.group === 'ares-mars-representative'),
-          }];
-          
-          heavenlyKings = [{
-            name: 'Four Heavenly Kings of Mars',
-            saints: collection.filter(saint => saint.group === 'ares-heavenly-kings'),
-          }];
-          
-          highMartians = [{
-            name: 'High Martians',
-            saints: collection.filter(saint => saint.group === 'ares-high-martians'),
-          }];
-          
-          martians = [{
-            name: 'Martians',
-            saints: collection.filter(saint => saint.group === 'ares-martians'),
-          }];
-          
-          soldiers = [{
-            name: 'Martian Soldiers',
-            saints: collection.filter(saint => saint.group === 'ares-martian-soldiers'),
-          }];
+          martians = [
+            { name: 'Mars Representative', saints: collection.filter(saint => saint.group === 'ares-representative-martians') },
+            { name: 'Four Heavenly Kings of Mars', saints: collection.filter(saint => saint.group === 'ares-heavenly-kings-martians') },
+            { name: 'High Martians', saints: collection.filter(saint => saint.group === 'ares-high-martians') },
+            { name: 'Martians', saints: collection.filter(saint => saint.group === 'ares-martians') },
+            { name: 'Soldiers', saints: collection.filter(saint => saint.group === 'ares-soldier-martians') },
+          ];
         }
       }
   
       response.json({
         gods,
-        disasterLegion,
-        fearLegion,
-        fireLegion,
-        flameLegion,
-        marsRepresentative,
-        heavenlyKings,
-        highMartians,
+        berserkers,
         martians,
-        soldiers,
       });
-     } else {
+    } else if (request.params.class === 'corona-saints') {
+      let gods = [];
+      let saints = [];
+      
+      for (let i = 0; i < collections.length; i++) {
+        if (collections[i].collectionPath === 'saints') {
+          const { collection } = collections[i];
+
+          gods = [{
+            name: 'Gods',
+            saints: collection.filter(saint => saint.group === 'apollo-gods'),
+          }];
+
+          saints = [{
+            name: 'Corona Saints',
+            saints: collection.filter(saint => saint.group.includes('apollo-saints')),
+          }];
+        }
+      }
+  
+      response.json({ gods, saints });
+    } else if (request.params.class === 'dryads') {
+      let gods = [];
+      let saints = [];
+      
+      for (let i = 0; i < collections.length; i++) {
+        if (collections[i].collectionPath === 'saints') {
+          const { collection } = collections[i];
+
+          gods = [{
+            name: 'Gods',
+            saints: collection.filter(saint => saint.group === 'eris-gods'),
+          }];
+
+          saints = [
+            { name: 'Dryads', saints: collection.filter(saint => saint.group.includes('eris-dryads')) },
+            { name: 'Phantoms', saints: collection.filter(saint => saint.group.includes('eris-phantoms')) }
+          ];
+        }
+      }
+  
+      response.json({ gods, saints });
+    } else {
       response.status(404).json({ message: `${request.params.class} not found` });
     }
   },
@@ -360,56 +349,12 @@ module.exports = {
     let saints = [];
 
     for (let i = 0; i < allSaints.length; i++) {
-      if (request.params.class === allSaints[i].class.toLowerCase().replace(' ', '-')) {
+      if (allSaints[i].group.toLowerCase().includes(request.params.class)) {
         saints.push(allSaints[i]);
       }
     }
 
-    if (request.params.class.includes('constellation')) {
-      let constellations = [];
-
-      for (let i = 0; i < collections.length; i++) {
-        if (collections[i].collectionPath === 'constellations') {
-          constellations = collections[i].collection;
-        }
-      }
-
-      let constellation;
-
-      for (let i = 0; i < constellations.length; i++) {
-        if (constellations[i].id === request.params.id) {
-          constellation = constellations[i];
-        }
-      }
-
-      if (constellation) {
-        response.json(constellation);
-      } else {
-        response.status(404).json({ message: `Constellation not found` });
-      }
-    } else if (request.params.class.includes('evil-star')) {
-      let evilStars = [];
-
-      for (let i = 0; i < collections.length; i++) {
-        if (collections[i].collectionPath === 'evilStars') {
-          evilStars = collections[i].collection;
-        }
-      }
-
-      let evilStar;
-
-      for (let i = 0; i < evilStars.length; i++) {
-        if (evilStars[i].id === request.params.id) {
-          evilStar = evilStars[i];
-        }
-      }
-
-      if (evilStar) {
-        response.json(evilStar);
-      } else {
-        response.status(404).json({ message: `Evil star not found` });
-      }
-    } else if (saints) {
+    if (saints) {
       let saint;
 
       for (let i = 0; i < saints.length; i++) {

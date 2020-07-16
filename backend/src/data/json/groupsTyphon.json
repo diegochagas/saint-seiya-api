@@ -1,1 +1,1 @@
-[{"id":"1","name":"Gods Gigas","group":"typhon-gods"},{"id":"2","name":"Typhon Brothers","group":"typhon-brothers"},{"id":"3","name":"Typhon Sons","group":"typhon-sons"}]
+[{"id":"1","group":"typhon-gods","classSingular":"Gigas","name":"Gods Gigas"},{"id":"2","group":"typhon-brothers","classSingular":"Gigas","name":"Typhon Brothers"},{"id":"3","group":"typhon-sons","classSingular":"Gigas","name":"Typhon Sons"}]

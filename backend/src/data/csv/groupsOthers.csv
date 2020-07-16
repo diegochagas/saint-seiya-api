@@ -1,2 +1,2 @@
-﻿id,name,group
-1,Others,others
+﻿id,group,classSingular,name,name
+1,others,Others,Other,Others

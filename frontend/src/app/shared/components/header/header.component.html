@@ -48,10 +48,10 @@
           <a
             *ngFor="let cls of classes"
             class="nav-link"
-            [routerLink]="['/characters/classes/' + cls.toLowerCase().replace(' ', '-')]"
+            [routerLink]="'/characters/classes/' + cls.route"
             mat-menu-item
           >
-            {{ cls }}
+            {{ cls.name }}
           </a>
         </ng-container>
       </mat-menu>

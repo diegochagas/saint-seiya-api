@@ -15,13 +15,13 @@ const getCSVContent = async () => {
   return content;
 }
 
-const getGroupName = (groups, saint) => {
+const getGroup = (groups, saint) => {
   for (let i = 0; i < groups.length; i++) {
     const group = groups[i];
 
-    if (saint.group === `${group.group}-${group.id}`) return group.name;
-    else if (saint.group === group.group) return group.name;
-  }   
+    if (saint.group === `${group.group}-${group.id}`) return group;
+    else if (saint.group === group.group) return group;
+  }
 }
 
 const loadSaintsData = (saints, content) => {
@@ -44,11 +44,38 @@ const loadSaintsData = (saints, content) => {
       }
     });
 
-    content.classes.forEach(classInformations => {
-      if (classInformations.id === saint.class) {
-        saint.class = classInformations.name;
-      }
-    });
+    let group;
+
+    if (saint.group.includes('apollo')) group = getGroup(content.groupsApollo, saint);
+    if (saint.group.includes('ares')) group = getGroup(content.groupsAres, saint);
+    if (saint.group.includes('artemis')) group = getGroup(content.groupsArtemis, saint);
+    if (saint.group.includes('astraea')) group = getGroup(content.groupsAstraea, saint);
+    if (saint.group.includes('athena')) group = getGroup(content.groupsAthena, saint);
+    if (saint.group.includes('balor')) group = getGroup(content.groupsBalor, saint);
+    if (saint.group.includes('cronus')) group = getGroup(content.groupsCronus, saint);
+    if (saint.group.includes('eris')) group = getGroup(content.groupsEris, saint);
+    if (saint.group.includes('garnet')) group = getGroup(content.groupsGarnet, saint);
+    if (saint.group.includes('gladiators')) group = getGroup(content.groupsGladiators, saint);
+    if (saint.group.includes('hades')) group = getGroup(content.groupsHades, saint);
+    if (saint.group.includes('hakuryu')) group = getGroup(content.groupsHakuryu, saint);
+    if (saint.group.includes('lamech')) group = getGroup(content.groupsLamech, saint);
+    if (saint.group.includes('odin')) group = getGroup(content.groupsOdin, saint);
+    if (saint.group.includes('others')) group = getGroup(content.groupsOthers, saint);
+    if (saint.group.includes('pallas')) group = getGroup(content.groupsPallas, saint);
+    if (saint.group.includes('poseidon')) group = getGroup(content.groupsPoseidon, saint);
+    if (saint.group.includes('ra-')) group = getGroup(content.groupsRa, saint);
+    if (saint.group.includes('apollo')) group = getGroup(content.groupsApollo, saint);
+    if (saint.group.includes('tezcatlipoca')) group = getGroup(content.groupsTezcatlipoca, saint);
+    if (saint.group.includes('typhon')) group = getGroup(content.groupsTyphon, saint);
+    if (saint.group.includes('zeus')) group = getGroup(content.groupsZeus, saint);
+    
+    if (group) {
+      saint.class = group.classSingular;
+    
+      saint.groupName = group.name;
+    } else {
+      console.error(`Error: Saint ${saint.name} from group ${saint.group} not found, group is ${group}`);
+    }
 
     content.ranks.forEach(rank => {
       if (rank.id === saint.rank) {
@@ -78,30 +105,7 @@ const loadSaintsData = (saints, content) => {
 
         saint.attacks.push(attack.name);
       }
-    });
-
-    if (saint.group.includes('apollo')) saint.groupName = getGroupName(content.groupsApollo, saint);
-    if (saint.group.includes('ares')) saint.groupName = getGroupName(content.groupsAres, saint);
-    if (saint.group.includes('artemis')) saint.groupName = getGroupName(content.groupsArtemis, saint);
-    if (saint.group.includes('astraea')) saint.groupName = getGroupName(content.groupsAstraea, saint);
-    if (saint.group.includes('athena')) saint.groupName = getGroupName(content.groupsAthena, saint);
-    if (saint.group.includes('balor')) saint.groupName = getGroupName(content.groupsBalor, saint);
-    if (saint.group.includes('cronus')) saint.groupName = getGroupName(content.groupsCronus, saint);
-    if (saint.group.includes('eris')) saint.groupName = getGroupName(content.groupsEris, saint);
-    if (saint.group.includes('garnet')) saint.groupName = getGroupName(content.groupsGarnet, saint);
-    if (saint.group.includes('gladiators')) saint.groupName = getGroupName(content.groupsGladiators, saint);
-    if (saint.group.includes('hades')) saint.groupName = getGroupName(content.groupsHades, saint);
-    if (saint.group.includes('hakuryu')) saint.groupName = getGroupName(content.groupsHakuryu, saint);
-    if (saint.group.includes('lamech')) saint.groupName = getGroupName(content.groupsLamech, saint);
-    if (saint.group.includes('odin')) saint.groupName = getGroupName(content.groupsOdin, saint);
-    if (saint.group.includes('others')) saint.groupName = getGroupName(content.groupsOthers, saint);
-    if (saint.group.includes('pallas')) saint.groupName = getGroupName(content.groupsPallas, saint);
-    if (saint.group.includes('poseidon')) saint.groupName = getGroupName(content.groupsPoseidon, saint);
-    if (saint.group.includes('ra-')) saint.groupName = getGroupName(content.groupsRa, saint);
-    if (saint.group.includes('apollo')) saint.groupName = getGroupName(content.groupsApollo, saint);
-    if (saint.group.includes('tezcatlipoca')) saint.groupName = getGroupName(content.groupsTezcatlipoca, saint);
-    if (saint.group.includes('typhon')) saint.groupName = getGroupName(content.groupsTyphon, saint);
-    if (saint.group.includes('zeus')) saint.groupName = getGroupName(content.groupsZeus, saint);
+    });    
 
     content.debuts.forEach(debut => {
       if (debut.id === saint.debut) {
@@ -238,7 +242,7 @@ const getColletions = async () => {
 
   collections.push({
     collectionPath: 'constellations',
-    collection: content.groupsAthena.filter(group => group.group === 'athena-constellations'),
+    collection: content.groupsAthena.filter(group => group.group === 'athena-saints'),
   });
 
   collections.push({

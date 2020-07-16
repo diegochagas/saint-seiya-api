@@ -1,4 +1,4 @@
-﻿id,name,group
-1,Gods,tezcatlipoca-gods
-1,Jaguars,tezcatlipoca-jaguars
-1,Jaguar Soldiers,tezcatlipoca-jaguar-soldiers
+﻿id,group,classSingular,name,name
+1,tezcatlipoca-gods,Jaguars,Jaguar,Gods
+1,tezcatlipoca-jaguars,Jaguars,Jaguar,Jaguars
+1,tezcatlipoca-jaguar-soldiers,Jaguars,Jaguar,Jaguar Soldiers

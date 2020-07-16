@@ -1,4 +1,4 @@
-﻿id,name,group
-1,Gods,astraea-gods
-,,
-2,Golden tribe,astraea-golden-tribe
+﻿id,group,class,classSingular,name
+1,astraea-gods,Golden Tribe,Golden Tribe,Gods
+,,,,
+2,astraea-golden-tribe,Golden Tribe,Golden Tribe,Golden tribe
