@@ -44,8 +44,8 @@ export class HeaderComponent implements OnInit {
       { name: 'Saints', route: 'saints' },
       { name: 'Satellites', route: 'satellites' },
       { name: 'Specters / Faceless', route: 'specters' },
+      { name: 'Taonias', route: 'taonias' },
       { name: 'Titans', route: 'titans' },
-      { name: 'taonias', route: 'taonias' },
     ];
   }
 

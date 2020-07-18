@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router, NavigationEnd } from '@angular/router';
+import { Router, NavigationEnd } from '@angular/router';
 import { MatTableDataSource } from '@angular/material';
 
 import { CharactersService } from '../../shared';
@@ -10,8 +10,6 @@ import { CharactersService } from '../../shared';
   styleUrls: ['./characters-list.component.scss']
 })
 export class CharactersListComponent implements OnInit {
-  className;
-
   pageTitle = '';
 
   displayedColumns: string[] = [];
@@ -21,14 +19,11 @@ export class CharactersListComponent implements OnInit {
   path = '';
 
   constructor(
-    private activatedRoute: ActivatedRoute,
     private charactersService: CharactersService,
     private router: Router,
   ) {
     this.router.events.subscribe((event) => {
       if (event instanceof NavigationEnd) {
-        this.className = this.activatedRoute.snapshot.params.class;
-
         this.getCharacters();
       }
     });

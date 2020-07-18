@@ -39,16 +39,14 @@ export class SaintsListComponent implements OnInit {
   }
 
   async getCharacters() {
-    this.groups = [];
-
-    console.log(this.detailsType);
-
     if (this.detailsType === 'classes') {
       this.pageTitle = this.className.replace('-', ' ');
 
       this.path = 'classes/';
 
       if (this.className === 'saints') {
+        this.groups = [];
+
         const response: any = await this.classesService.getClass(this.className).toPromise();
 
         this.groups.push({ title: "Gods", items: response.gods });
@@ -60,6 +58,8 @@ export class SaintsListComponent implements OnInit {
         this.groups.push({ title: "Soldiers Saints", items: response.soldiers });
         this.groups.push({ title: "Apprentices Saints", items: response.apprentices });
       } else if (this.className === 'specters') {
+        this.groups = [];
+
         const response: any = await this.classesService.getClass(this.className).toPromise();
 
         this.groups.push({ title: "Gods", items: response.gods });
@@ -69,6 +69,8 @@ export class SaintsListComponent implements OnInit {
         this.groups.push({ title: "Hades skeleton soldiers", items: response.skeletons });
         this.groups.push({ title: "Pluto Faceless", items: response.faceless });
       } else if (this.className === 'pallasites') {
+        this.groups = [];
+
         const response: any = await this.classesService.getClass(this.className).toPromise();
 
         this.groups.push({ title: "Gods", items: response.gods });
@@ -78,19 +80,52 @@ export class SaintsListComponent implements OnInit {
         this.groups.push({ title: "Unknown class pallasites", items: response.unknownClass });
         this.groups.push({ title: "Pallasites soldiers", items: response.soldiers });
       } else if (this.className === 'berserkers') {
+        this.groups = [];
+
         const response: any = await this.classesService.getClass(this.className).toPromise();
 
         this.groups.push({ title: "Gods", items: response.gods });
         this.groups.push({ title: "Ares Berserkers", items: response.berserkers });
         this.groups.push({ title: "Martians", items: response.martians });
+      } else if (this.className === 'gigas') {
+        this.groups = [];
+
+        const response: any = await this.classesService.getClass(this.className).toPromise();
+
+        this.groups.push({ title: "Gigas", items: response.saints });
+      } else if (this.className === 'god-warriors') {
+        this.groups = [];
+
+        const response: any = await this.classesService.getClass(this.className).toPromise();
+
+        this.groups.push({ title: "Gods", items: response.gods });
+        this.groups.push({ title: "Representatives", items: response.representatives });
+        this.groups.push({ title: "God Warriors", items: response.godWarriors });
+        this.groups.push({ title: "Blue Warriors", items: response.blueWarriors });
+      } else if (this.className === 'satellites') {
+        this.groups = [];
+
+        const response: any = await this.classesService.getClass(this.className).toPromise();
+
+        this.groups.push({ title: "Gods", items: response.gods });
+        this.groups.push({ title: "Satellites", items: response.saints });
+      } else if (this.className === 'mariners') {
+        this.groups = [];
+
+        const response: any = await this.classesService.getClass(this.className).toPromise();
+
+        this.groups.push({ title: "Gods", items: response.gods });
+        this.groups.push({ title: "Mariners", items: response.saints });
       } else {
+        this.groups = [];
+
         const response: any = await this.classesService.getClass(this.className).toPromise();
 
         this.path = 'classes/';
 
-        this.groups.push({ title: response.gods[0].name, items: response.gods });
+        if (response.gods) this.groups.push({ title: response.gods[0].name, items: response.gods });
 
-        this.groups.push({ title: response.saints[0].name, items: response.saints });
+        if (response.saints) this.groups.push({ title: response.saints[0].name, items: response.saints });
       }
     }
   }
