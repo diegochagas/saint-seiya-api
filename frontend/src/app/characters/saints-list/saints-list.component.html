@@ -9,7 +9,7 @@
         <fieldset class="saint-group" *ngFor="let item of group.items">
           <legend>{{ item.name }}</legend>
 
-          <a class="saint" *ngFor="let saint of item.saints" href="{{ '/characters/' + path + saint.class.replace(' ', '-').toLowerCase() + '/' + saint.id }}">
+          <a class="saint" *ngFor="let saint of item.saints" href="{{ '#/characters/' + path + saint.class.replace(' ', '-').toLowerCase() + '/' + saint.id }}">
             <p class="">{{ saint.name || 'Not Revealed' }}</p>
 
             <img *ngIf="saint.image" class="image-scheme" src="{{ saint .image }}" alt="{{ saint.name }}">
