@@ -52,20 +52,29 @@
     background-color: #000963;
     margin: 5px;
     padding: 5px;
-    width: 160px;
-    height: 160px;
+    width: 200px;
+    height: 200px;
     text-align: center;
+
+    .saint-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+    }
 
     p {
       color: white;
       margin: 0;
-      padding: 5px 0;
+      padding: 0;
       font-size: 14px;
     }
 
     .image-scheme {
       max-width: 100%;
-      height: 70px;
+      height: 100px;
       margin: 5px 0;
     }
 

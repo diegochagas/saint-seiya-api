@@ -10,11 +10,13 @@
           <legend>{{ item.name }}</legend>
 
           <a class="saint" *ngFor="let saint of item.saints" href="{{ '#/characters/' + path + saint.class.replace(' ', '-').toLowerCase() + '/' + saint.id }}">
-            <p class="">{{ saint.name || 'Not Revealed' }}</p>
+            <div class="saint-container">
+              <p class="">{{ saint.name || 'Not Revealed' }}</p>
 
-            <img *ngIf="saint.image" class="image-scheme" src="{{ saint .image }}" alt="{{ saint.name }}">
+              <img *ngIf="saint.image" class="image-scheme" src="{{ saint .image }}" alt="{{ saint.name }}">
 
-            <span>{{ saint.cloth || 'Not Revealed' }}</span>
+              <span>{{ saint.cloth || 'Not Revealed' }}</span>
+            </div>
           </a>
 
           <span class="saint" *ngIf="item.saints.length === 0">

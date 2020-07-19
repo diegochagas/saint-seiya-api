@@ -1,4 +1,21 @@
-﻿id,group,classSingular,name,name
-1,typhon-gods,Gigas,Giga,Gods Gigas
-2,typhon-brothers,Gigas,Giga,Typhon Brothers
-3,typhon-sons,Gigas,Giga,Typhon Sons
+﻿id,group,class,classSingular,name
+1,typhon-gods,Gigas,Giga,Unknown
+2,typhon-gods,Gigas,Giga,Unknown
+3,typhon-gods,Gigas,Giga,Crimson Lava
+4,typhon-gods,Gigas,Giga,Blue Flame
+5,typhon-gods,Gigas,Giga,Black Thunder
+6,typhon-gods,Gigas,Giga,White Wind
+7,typhon-gods,Gigas,Giga,Grey Blade
+8,typhon-gods,Gigas,Giga,Ruby Iron
+9,typhon-gods,Gigas,Giga,Pearl Dragon
+10,typhon-gods,Gigas,Giga,Amber Beast
+11,typhon-gods,Gigas,Giga,Jade Armor
+,,,,
+1,typhon-brothers,Gigas,Giga,Lapis Lazuli
+2,typhon-brothers,Gigas,Giga,Malachite
+3,typhon-brothers,Gigas,Giga,Unknown
+4,typhon-brothers,Gigas,Giga,Topaz
+,,,,
+1,typhon-sons,Gigas,Giga,Star Sapphire
+2,typhon-sons,Gigas,Giga,Star Ruby
+3,typhon-sons,Gigas,Giga,Opal

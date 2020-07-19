@@ -269,11 +269,9 @@ module.exports = {
       });
     } else if (request.params.class === 'gigas') {
       response.json({
-        saints: [
-          { name: 'Gods', saints: collection.filter(saint => saint.group === 'typhon-gods') },
-          { name: 'Typhon Brothers', saints: collection.filter(saint => saint.group.includes('typhon-brothers')) },
-          { name: 'Typhon Sons', saints: collection.filter(saint => saint.group.includes('typhon-sons')) },
-        ],
+        gods: groupSaints(collection, 'typhon-gods'),
+        sons: groupSaints(collection, 'typhon-sons'),
+        brothers: groupSaints(collection, 'typhon-brothers'),
       });
     } else if (request.params.class === 'gladiators') {
       response.json({
@@ -382,8 +380,8 @@ module.exports = {
       });
     } else if (request.params.class === 'titans') {
       response.json({
-        saints: [
-          { name: 'Titans', saints: collection.filter(saint => saint.group === 'cronus-titans') },
+        titans: groupSaints(collection, 'cronus-titans'),
+        others: [
           { name: 'Other Titans', saints: collection.filter(saint => saint.group === 'cronus-other-titans') },
         ],
       });
