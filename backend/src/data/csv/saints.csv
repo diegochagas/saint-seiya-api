@@ -338,7 +338,7 @@
 337,309,88,cronus-titans-9,9,39,assets/cloth-schemes/cronus-titans/current-oceanus.png,5,
 338,310,153,hades-terrestrial-star-65,14,16,assets/cloth-schemes/hades-specters/gorgon-ochs.jpg,6,
 339,312,249,athena-saints-59,6,14,assets/cloth-schemes/athena-saints/ophiuchus-odysseus-silver.png,,
-340,312,250,athena-saints-59,7,14,assets/cloth-schemes/athena-saints/ophiuchus-odysseus.jpg,1,
+340,312,250,athena-saints-59,7,14,assets/cloth-schemes/athena-saints/ophiuchus-odysseus.jpg,1,4
 341,313,247,zeus-angels,,29,assets/cloth-schemes/zeus-angels/odysseus.jpg,,
 342,314,,athena-former-saints-72,2,14,assets/cloth-schemes/athena-saints/ohko.jpg,,
 343,315,248,hades-gods,9,16,assets/cloth-schemes/hades-specters/dream-oneiros.jpg,3,
@@ -355,7 +355,7 @@
 354,327,17,athena-saints-3,5,14,assets/cloth-schemes/athena-saints/apus-paradise.png,,
 355,328,148,athena-saints-38,7,14,assets/cloth-schemes/athena-saints/gemini-paradox.png,5,
 356,328,326,pallas-weapon-secondclass-4,33,26,assets/cloth-schemes/pallas-pallasites/staff-scarlet-janus-paradox.png,,
-357,329,242,athena-former-saints-40,,14,assets/cloth-schemes/athena-saints/noctua-partita.jpg,3,
+357,329,242,athena-former-saints-40,,14,assets/cloth-schemes/athena-saints/noctua-partita.jpg,3,6
 358,330,272,hades-gods,9,16,assets/cloth-schemes/hades-specters/persefone.png,13,
 359,331,,athena-unknown-saints,,14,assets/cloth-schemes/athena-saints/phaeton.png,,
 360,332,275,hades-gods,9,16,assets/cloth-schemes/hades-specters/portrayer-phantasos.jpg,3,
@@ -700,3 +700,4 @@
 699,308,136,eris-gods,,15,assets/cloth-schemes/eris-dryads/eris.jpg,,21
 700,139,140,odin-blue-warriors,,34,assets/cloth-schemes/odin-blue-warriors/frey-alexei.png,5,1
 701,24,199,odin-representative,9,34,assets/cloth-schemes/odin-god-warriors/andreas-lise.jpg,5,14
+702,307,250,athena-saints-59,7,14,assets/cloth-schemes/athena-saints/ophiuchus-asclepius.png,1,4
