@@ -70,5 +70,7 @@ export class HeaderComponent implements OnInit {
     response.forEach(artist => {
       if (artist.name !== "") this.artists.push(artist);
     });
+
+    this.artists.push({ name: "Unknown artists", id: "0" });
   }
 }

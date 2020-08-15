@@ -33,13 +33,21 @@ export class ArtistViewComponent implements OnInit {
   }
 
   async getSaints(id: string) {
-    const response: any = await this.artistsService.getArtist(id).toPromise();
-
     const responseSaints: any = await this.classesService.getAllClasses().toPromise();
 
-    this.artist = { ...response, groups: [] };
+    let saints: any = [];
 
-    const saints: any = responseSaints.filter(saint => id === saint.artist.id);
+    if (id !== "0") {
+      const response: any = await this.artistsService.getArtist(id).toPromise();
+
+      saints = responseSaints.filter(saint => id === saint.artist.id);
+
+      this.artist = { ...response, groups: [] };
+    } else {
+      saints = responseSaints.filter(saint => saint.artist === "");
+
+      this.artist.name = "Unknown artists";
+    }
 
     const grouped: any = this.groupBy(saints, "class");
 

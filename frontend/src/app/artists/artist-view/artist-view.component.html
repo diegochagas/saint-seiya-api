@@ -4,6 +4,12 @@
   <ng-container *ngIf="artist.groups.length; else spinner">
     <h2>{{ artist.name }}</h2>
 
+    <h3 *ngIf="artist.site">
+      <a href="{{artist.site}}" target="_blank" rel="noopener noreferrer">
+        Go to his personal page
+      </a>
+    </h3>
+
     <div class="saints" >
       <fieldset class="saint-group" *ngFor="let group of artist.groups">
         <legend>{{ group.name }}s</legend>
