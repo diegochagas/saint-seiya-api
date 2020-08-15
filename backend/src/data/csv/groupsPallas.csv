@@ -1,5 +1,5 @@
-﻿id,group,classSingular,name,name
-1,pallas-gods,Pallasites,Pallasite,Gods
+﻿id,group,class,classSingular,name
+1,pallas-gods,Gods,God,Gods
 ,,,,
 1,pallas-pallasite-soldiers,Pallasites,Pallasite,Pallasite Soldiers
 ,,,,

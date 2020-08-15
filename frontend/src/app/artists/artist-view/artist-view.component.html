@@ -1,0 +1,28 @@
+<div class="artist-view">
+  <h1>{{ pageTitle }}</h1>
+
+  <ng-container *ngIf="artist.groups.length; else spinner">
+    <h2>{{ artist.name }}</h2>
+
+    <div class="saints" >
+      <fieldset class="saint-group" *ngFor="let group of artist.groups">
+        <legend>{{ group.name }}s</legend>
+
+        <a class="saint" *ngFor="let saint of group.saints" href="{{ '#/characters/' + path + saint.class.replace(' ', '-').toLowerCase() + '/' + saint.id }}">
+          <div class="saint-container">
+            <p class="">{{ saint.name || 'Not Revealed' }}</p>
+
+            <img *ngIf="saint.image" class="image-scheme" src="{{ saint .image }}" alt="{{ saint.name }}">
+
+            <span>{{ saint.cloth || 'Not Revealed' }}</span>
+          </div>
+        </a>
+      </fieldset>
+    </div>
+  </ng-container>
+
+  <ng-template #spinner>
+    <app-spinner [spinner]="'zodiac-wheel'" [color]="'blue'"></app-spinner>
+  </ng-template>
+</div>
+

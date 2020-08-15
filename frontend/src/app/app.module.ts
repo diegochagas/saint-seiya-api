@@ -8,6 +8,8 @@ import { SharedModule } from './shared/shared.module';
 
 import {
   AboutComponent,
+  ArtistsComponent,
+  ArtistViewComponent,
   AppComponent,
   CharacterViewComponent,
   CharactersComponent,
@@ -26,6 +28,8 @@ import {
   declarations: [
     AboutComponent,
     AppComponent,
+    ArtistsComponent,
+    ArtistViewComponent,
     CharacterViewComponent,
     CharactersComponent,
     CharactersListComponent,
@@ -35,8 +39,8 @@ import {
     GetStartedComponent,
     HomeComponent,
     PersonalDetailsComponent,
-    TestCallsComponent,
     SaintsListComponent,
+    TestCallsComponent,
   ],
   imports: [
     BrowserAnimationsModule,

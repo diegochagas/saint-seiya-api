@@ -4,7 +4,7 @@
 3,,,hakuryu-high-ranking,9,37,assets/cloth-schemes/hakuryu-taonias/high-ranking-taonias.jpg,3,
 4,4,330,pallas-weapon-firstclass-3,32,26,assets/cloth-schemes/pallas-pallasites/graviton-aegaeon.png,,
 5,5,147,pallas-weapon-secondclass-3,33,26,assets/cloth-schemes/pallas-pallasites/gauntlet-phantom-arm-aegir.png,,16
-6,6,83,athena-saints-29,6,14,assets/cloth-schemes/athena-saints/crater-aeson.jpg,4,6
+6,6,83,athena-saints-29,6,14,assets/cloth-schemes/athena-saints/crater-aeson.jpg,,6
 7,7,201,athena-hindu-saints-24,6,14,assets/cloth-schemes/athena-saints/lotus-aghora.png,,12
 8,8,51,typhon-brothers-1,,40,assets/cloth-schemes/typhon-gigas/brute-force-agrios.jpg,5,
 9,9,146,hades-celestial-star-6,13,16,assets/cloth-schemes/hades-specters/garuda-aiacos.jpg,1,
@@ -21,7 +21,7 @@
 20,16,379,athena-saints-21,4,14,assets/cloth-schemes/athena-saints/cetus-allegre.jpg,,
 21,17,165,athena-saints-40,6,14,assets/cloth-schemes/athena-saints/heracles-algethi.jpg,1,
 22,18,273,athena-saints-63,6,14,assets/cloth-schemes/athena-saints/perseus-algol.jpg,1,
-23,19,360,gladiators,,,assets/cloth-schemes/gladiators/vorpal-alice.jpg,2,
+23,19,360,gladiators,,,assets/cloth-schemes/gladiators/vorpal-alice.jpg,14,
 24,20,105,athena-saints-32,5,14,assets/cloth-schemes/athena-saints/delphinus-mii.jpg,4,
 25,21,32,athena-saints-8,6,14,assets/cloth-schemes/athena-saints/auriga-almaaz.png,6,
 26,22,159,hades-gods,9,16,assets/cloth-schemes/hades-specters/hades-alone.png,,
@@ -76,7 +76,7 @@
 75,71,18,athena-saints-4,7,14,assets/cloth-schemes/athena-saints/aquarius-camus.jpg,1,
 76,71,19,athena-saints-4,9,14,assets/cloth-schemes/athena-saints/aquarius-camus-god.png,5,
 77,72,32,athena-saints-8,6,14,assets/cloth-schemes/athena-saints/auriga-capella.jpg,1,
-78,73,294,tezcatlipoca-gods,9,2,assets/cloth-schemes/tezcatlipoca-jaguars/quetzalcoatl-calvera.jpg,,
+78,73,294,tezcatlipoca-gods,9,2,assets/cloth-schemes/tezcatlipoca-jaguars/quetzalcoatl-calvera.jpg,3,
 79,74,284,athena-saints-66,7,14,assets/cloth-schemes/athena-saints/pisces-cardinale.jpg,5,
 80,75,321,garnet-jewels,,38,assets/cloth-schemes/garnet-jewels/sliced-blood-carnelian.jpg,,
 81,76,388,athena-unknown-saints,4,14,assets/cloth-schemes/athena-saints/cassios.jpg,5,30
@@ -102,7 +102,7 @@
 101,96,66,athena-former-saints-13,6,14,assets/cloth-schemes/athena-saints/cerberus-dante.jpg,,
 102,97,55,athena-saints-12,7,14,assets/cloth-schemes/athena-saints/cancer-deathmask.jpg,1,
 103,97,56,athena-saints-12,9,14,assets/cloth-schemes/athena-saints/cancer-deathmask-god.jpg,5,
-104,97,289,eris-dryads,,15,assets/cloth-schemes/eris-dryads/punishment-deathmask.png,,5
+104,97,289,eris-dryads,,15,assets/cloth-schemes/eris-dryads/punishment-deathmask.png,4,5
 105,98,55,athena-saints-12,7,14,assets/cloth-schemes/athena-saints/cancer-deathtoll.png,16,4
 106,99,148,athena-saints-38,7,14,assets/cloth-schemes/athena-saints/gemini-defteros.png,16,6
 107,100,18,athena-saints-4,7,14,assets/cloth-schemes/athena-saints/aquarius-camus.jpg,1,
@@ -117,9 +117,9 @@
 116,108,66,athena-former-saints-13,6,14,assets/cloth-schemes/athena-saints/cerberus-dorer.png,,
 117,109,351,athena-saints-83,5,14,assets/cloth-schemes/athena-saints/ursa-major-geki.jpg,,
 118,110,,hades-faceless,,16,assets/cloth-schemes/hades-faceless/dragon.png,2,
-119,111,213,typhon-gods-9,,40,assets/cloth-schemes/typhon-gigas/margarites-drakon.jpg,12,
+119,111,213,typhon-gods-9,,40,assets/cloth-schemes/typhon-gigas/margarites-drakon.jpg,2,
 120,112,120,odin-representative,31,34,assets/cloth-schemes/odin-god-warriors/drbal.png,5,22
-121,113,7,eris-dryads,,15,assets/cloth-schemes/eris-dryads/anarchy-dysnomia.jpg,,5
+121,113,7,eris-dryads,,15,assets/cloth-schemes/eris-dryads/anarchy-dysnomia.jpg,4,5
 122,114,354,hades-celestial-star-26,13,16,assets/cloth-schemes/hades-specters/vampire-erhart.jpg,6,
 123,115,127,typhon-gods-2,9,40,assets/cloth-schemes/typhon-gigas/echidna.jpg,5,
 124,116,76,pallas-weapon-thirdclass-2,34,26,assets/cloth-schemes/pallas-pallasites/club-impulse-mace-eden.png,,
@@ -128,7 +128,7 @@
 127,116,390,athena-saints-60,9,14,assets/cloth-schemes/athena-saints/orion-eden-omega.png,,
 128,117,332,hades-terrestrial-star-64,14,16,assets/cloth-schemes/hades-specters/sylph-edward.jpg,3,
 129,118,136,eris-gods,9,15,assets/cloth-schemes/eris-dryads/eris-eri-aizawa.jpg,,21
-130,119,59,athena-saints-16,7,14,assets/cloth-schemes/athena-saints/capricorn-el-cid.png,1,
+130,119,59,athena-saints-16,7,14,assets/cloth-schemes/athena-saints/capricorn-el-cid.png,,
 131,120,63,athena-saints-18,5,14,assets/cloth-schemes/athena-saints/cassiopeia-elda.png,4,
 132,121,358,zeus-fallen-angels,17,29,assets/cloth-schemes/zeus-angels/virtues-eligor.jpg,5,
 133,122,39,athena-unknown-saints,3,14,assets/cloth-schemes/athena-saints/emma.png,11,
@@ -149,7 +149,7 @@
 148,136,,odin-asgard-soldiers,,34,assets/cloth-schemes/odin-god-warriors/folken.png,,
 149,137,158,odin-chamber,,34,assets/cloth-schemes/odin-god-warriors/gullinbursti-frodi.png,5,14
 150,138,336,athena-saints-78,7,14,assets/cloth-schemes/athena-saints/taurus-francisca.png,,7
-151,139,140,odin-asgard-soldiers,,34,assets/cloth-schemes/odin-god-warriors/frey.png,5,1
+151,139,140,odin-asgard-soldiers,,34,assets/cloth-schemes/odin-god-warriors/frey.png,,1
 152,140,381,others,,34,assets/cloth-schemes/others/freya-natassia.png,,
 153,141,356,athena-saints-86,7,14,assets/cloth-schemes/athena-saints/virgo-fudou.png,5,
 154,142,380,athena-saints-34,4,14,assets/cloth-schemes/athena-saints/draco-shinadekuro.jpg,,32
@@ -191,7 +191,7 @@
 190,176,,others,42,12,assets/cloth-schemes/others/hecate.jpg,5,4
 191,177,,others,,39,assets/cloth-schemes/others/hecatonchires.jpg,,
 192,178,,others,38,39,assets/cloth-schemes/others/hector.jpg,,
-193,179,180,ares-flame-legion,23,11,assets/cloth-schemes/ares-berserkers/jamadhar-hema.png,22,7
+193,179,180,ares-flame-legion,23,11,assets/cloth-schemes/ares-berserkers/jamadhar-hema.png,9,7
 194,180,334,odin-chamber,,34,assets/cloth-schemes/odin-god-warriors/tanngrisnir-heracles.png,5,14
 195,181,287,odin-representative,31,34,assets/cloth-schemes/odin-god-warriors/polaris-hilda.jpg,,12
 196,182,73,athena-saints-23,5,14,assets/cloth-schemes/athena-saints/circinus-hooke.png,6,
@@ -207,7 +207,7 @@
 206,186,126,cronus-titans-3,9,40,assets/cloth-schemes/cronus-titans/ebony-hyperion.png,5,
 207,187,329,pallas-weapon-firstclass-2,32,26,assets/cloth-schemes/pallas-pallasites/destruction-hyperion.png,,
 208,188,174,hades-gods,9,16,assets/cloth-schemes/hades-specters/hypnos.jpg,1,
-209,189,123,eris-dryads,,15,assets/cloth-schemes/eris-dryads/duel-hysmie.jpg,,5
+209,189,123,eris-dryads,,15,assets/cloth-schemes/eris-dryads/duel-hysmie.jpg,4,5
 210,190,108,cronus-titans-5,9,40,assets/cloth-schemes/cronus-titans/dimension-iapetos.png,5,
 211,191,176,hades-gods,9,16,assets/cloth-schemes/hades-specters/illusion-icelus.jpg,3,
 212,192,172,athena-saints-42,5,14,assets/cloth-schemes/athena-saints/hydra-ichi.jpg,1,
@@ -275,7 +275,7 @@
 274,243,55,athena-saints-12,7,14,assets/cloth-schemes/athena-saints/cancer-lancelot.png,,
 275,243,56,athena-saints-12,9,14,assets/cloth-schemes/athena-saints/cancer-lancelot-god.jpg,,
 276,245,,hades-terrestrial-star-101,13,16,assets/cloth-schemes/hades-specters/larry.jpg,,
-277,246,,artemis-satellite-captain,12,12,assets/cloth-schemes/artemis-satellites/lascoumoune.png,5,
+277,246,,artemis-satellite-captain,12,12,assets/cloth-schemes/artemis-satellites/lascoumoune.png,19,
 278,247,,athena-unknown-saints,5,14,assets/cloth-schemes/athena-saints/leda.jpg,,
 279,249,,athena-former-saints-72,2,14,assets/cloth-schemes/athena-saints/lei-hu.png,,
 280,250,382,athena-saints-40,4,14,assets/cloth-schemes/athena-saints/heracles-lemargos.jpg,,
@@ -289,10 +289,10 @@
 288,259,216,ares-gods-martians,9,11,assets/cloth-schemes/ares-martians/mars-ludwig.png,5,
 289,260,284,athena-saints-66,7,14,assets/cloth-schemes/athena-saints/pisces-lugonis.jpg,5,
 290,261,36,hades-celestial-star-9,13,16,assets/cloth-schemes/hades-specters/balron-lune.jpg,1,
-291,262,209,eris-dryads,,15,assets/cloth-schemes/eris-dryads/madness-mania.png,,5
-292,263,55,athena-saints-12,7,14,assets/cloth-schemes/athena-saints/cancer-manigold.png,1,
-293,264,217,ares-martians,15,11,assets/cloth-schemes/ares-martians/martian-commander.png,,
-294,265,245,eris-dryads,,15,assets/cloth-schemes/eris-dryads/oblivion-maria.png,,5
+291,262,209,eris-dryads,,15,assets/cloth-schemes/eris-dryads/madness-mania.png,4,5
+292,263,55,athena-saints-12,7,14,assets/cloth-schemes/athena-saints/cancer-manigold.png,,
+293,264,217,ares-martians,15,11,assets/cloth-schemes/ares-martians/martian-commander.png,8,
+294,265,245,eris-dryads,,15,assets/cloth-schemes/eris-dryads/oblivion-maria.png,4,5
 295,266,20,athena-saints-5,6,14,assets/cloth-schemes/athena-saints/aquila-marin.jpg,1,
 296,565,215,poseidon-mariner-soldiers,1,25,assets/cloth-schemes/poseidon-mariners/mariner-soldiers.jpg,,
 297,268,317,hades-skeleton,1,16,assets/cloth-schemes/hades-specters/skeleton-markino.jpg,1,
@@ -332,9 +332,9 @@
 331,300,257,hades-terrestrial-star-83,14,16,assets/cloth-schemes/hades-specters/papillon-myu.jpg,1,
 332,301,384,athena-saints-50,5,14,assets/cloth-schemes/athena-saints/lupus-nachi.jpg,1,
 333,302,367,tezcatlipoca-jaguars,,2,assets/cloth-schemes/tezcatlipoca-jaguars/youaltepuztli-nahualpilli.jpg,3,
-334,303,6,athena-saints-6,6,14,assets/cloth-schemes/athena-saints/ara-nicole.jpg,21,27
+334,303,6,athena-saints-6,6,14,assets/cloth-schemes/athena-saints/ara-nicole.jpg,19,27
 335,304,102,hades-terrestrial-star-51,14,16,assets/cloth-schemes/hades-specters/papillon-myu.jpg,1,
-336,305,344,athena-saints-80,6,14,assets/cloth-schemes/athena-saints/triangulum-noesis.jpg,,
+336,305,344,athena-saints-80,6,14,assets/cloth-schemes/athena-saints/triangulum-noesis.jpg,14,
 337,309,88,cronus-titans-9,9,39,assets/cloth-schemes/cronus-titans/current-oceanus.png,5,
 338,310,153,hades-terrestrial-star-65,14,16,assets/cloth-schemes/hades-specters/gorgon-ochs.jpg,6,
 339,312,249,athena-saints-59,6,14,assets/cloth-schemes/athena-saints/ophiuchus-odysseus-silver.png,,
@@ -350,7 +350,7 @@
 349,321,,athena-apprentices,2,14,assets/cloth-schemes/athena-saints/apprentice-pakia.jpg,,
 350,322,327,typhon-brothers-3,,40,assets/cloth-schemes/typhon-gigas/stupidity-pallas.jpg,5,
 351,323,256,pallas-gods,9,26,assets/cloth-schemes/pallas-pallasites/pallas.png,,
-352,325,,hades-representative,31,16,assets/cloth-schemes/hades-specters/pandora-heinstein.png,3,
+352,325,,hades-representative,31,16,assets/cloth-schemes/hades-specters/pandora-heinstein.png,,1
 353,326,33,gladiators,,,assets/cloth-schemes/gladiators/azoth-paracelsus.jpg,2,
 354,327,17,athena-saints-3,5,14,assets/cloth-schemes/athena-saints/apus-paradise.png,,
 355,328,148,athena-saints-38,7,14,assets/cloth-schemes/athena-saints/gemini-paradox.png,5,
@@ -367,7 +367,7 @@
 366,338,234,eris-dryads,,15,assets/cloth-schemes/eris-dryads/murder-phonos.png,10,5
 367,339,,odin-blue-warrior-representative,,34,assets/cloth-schemes/odin-blue-warriors/piotr.jpg,,
 368,340,258,athena-saints-61,6,14,assets/cloth-schemes/athena-saints/pavo-pavlin.png,5,
-369,341,297,eris-dryads,,15,assets/cloth-schemes/eris-dryads/revenge-poena.jpg,,5
+369,341,297,eris-dryads,,15,assets/cloth-schemes/eris-dryads/revenge-poena.jpg,4,5
 370,342,29,others,9,41,assets/cloth-schemes/others/pontos.jpg,,
 371,343,,cronus-other-titans,9,39,assets/cloth-schemes/cronus-titans/prometheus.png,,
 372,344,301,athena-saints-71,6,14,assets/cloth-schemes/athena-saints/sagitta-ptolemy.jpg,1,
@@ -375,7 +375,7 @@
 374,346,,hades-faceless,,16,assets/cloth-schemes/hades-faceless/pyromaniac.jpg,2,
 375,347,5,hades-terrestrial-star-82,13,16,assets/cloth-schemes/hades-specters/alraune-queen.jpg,1,
 376,348,,ra-egyptian-gods,9,8,assets/cloth-schemes/ra-legionaries/ra.jpg,,
-377,349,13,ares-martians,,11,assets/cloth-schemes/ares-martians/ant-radzinsky.png,,
+377,349,13,ares-martians,,11,assets/cloth-schemes/ares-martians/ant-radzinsky.png,8,
 378,350,325,ares-martians,,11,assets/cloth-schemes/ares-martians/spider-ragno.png,,
 379,351,,athena-saints-7,2,14,assets/cloth-schemes/athena-saints/laki.jpg,,16
 380,353,189,athena-saints-46,7,14,assets/cloth-schemes/athena-saints/leo-regulus.png,16,6
@@ -384,7 +384,7 @@
 383,356,233,cronus-titans-2,9,39,assets/cloth-schemes/cronus-titans/mother-of-gods-rhea.png,5,
 384,357,142,pallas-unknown-secondclass,33,26,assets/cloth-schemes/pallas-pallasites/perfect-pawn-rhea.png,,
 385,358,283,typhon-gods-3,,40,assets/cloth-schemes/typhon-gigas/phoinikeos-rhuax.jpg,12,
-386,359,252,athena-saints-60,6,14,assets/cloth-schemes/athena-saints/orion-rigel.png,10,5
+386,359,252,athena-saints-60,6,14,assets/cloth-schemes/athena-saints/orion-rigel.png,5,5
 387,359,255,eris-dryads,45,15,assets/cloth-schemes/eris-dryads/pain-rigel.png,,5
 388,360,392,athena-saints-64,4,14,assets/cloth-schemes/athena-saints/phoenix-ritahoa.jpg,,32
 389,361,152,hades-terrestrial-star-91,13,16,assets/cloth-schemes/hades-specters/golem-rock.jpg,1,
@@ -398,7 +398,7 @@
 397,369,113,athena-saints-34,5,14,assets/cloth-schemes/athena-saints/draco-ryuho-1.png,5,
 398,369,115,athena-saints-34,5,14,assets/cloth-schemes/athena-saints/draco-ryuho-2.png,5,
 399,369,119,athena-saints-34,9,14,assets/cloth-schemes/athena-saints/draco-ryuho-omega.png,,
-400,370,25,eris-gods,9,11,assets/cloth-schemes/eris-dryads/ares-saga.jpg,,5
+400,370,25,eris-gods,9,11,assets/cloth-schemes/eris-dryads/ares-saga.jpg,5,5
 401,370,148,athena-saints-38,7,14,assets/cloth-schemes/athena-saints/gemini-saga.jpg,1,
 402,370,149,athena-saints-38,9,14,assets/cloth-schemes/athena-saints/gemini-saga-god.jpg,5,
 403,371,55,athena-saints-12,7,14,assets/cloth-schemes/athena-saints/cancer-sage.png,5,6
@@ -414,10 +414,10 @@
 413,379,265,athena-saints-62,5,14,assets/cloth-schemes/athena-saints/pegasus-seiya-5.jpg,1,
 414,379,266,athena-saints-62,9,14,assets/cloth-schemes/athena-saints/pegasus-seiya-god.jpg,1,
 415,379,267,athena-saints-62,,14,assets/cloth-schemes/athena-saints/pegasus-seiya-miracles.jpg,5,
-416,379,260,athena-saints-62,5,14,assets/cloth-schemes/athena-saints/pegasus-seiya-anime-1.png,1,
+416,379,260,athena-saints-62,5,14,assets/cloth-schemes/athena-saints/pegasus-seiya-anime-1.png,,
 417,379,369,athena-saints-72,7,14,assets/cloth-schemes/athena-saints/sagittarius-seiya-1.png,5,
 418,379,370,athena-saints-72,7,14,assets/cloth-schemes/athena-saints/sagittarius-seiya-2.png,5,
-419,379,246,odin-gods,9,34,assets/cloth-schemes/odin-god-warriors/odin-seiya.jpg,1,12
+419,379,246,odin-gods,9,34,assets/cloth-schemes/odin-god-warriors/odin-seiya.jpg,5,12
 420,379,368,gladiators,,30,assets/cloth-schemes/gladiators/kusanagi-seiya.jpg,2,
 421,380,288,poseidon-gods,9,25,assets/cloth-schemes/poseidon-mariners/poseidon-seraphina.jpg,16,6
 422,381,356,athena-saints-86,7,14,assets/cloth-schemes/athena-saints/virgo-shaka.jpg,1,
@@ -438,7 +438,7 @@
 437,390,118,athena-saints-34,9,14,assets/cloth-schemes/athena-saints/draco-shiryu-god.jpg,1,
 438,390,197,athena-saints-49,7,14,assets/cloth-schemes/athena-saints/libra-shiryu.png,5,
 439,391,258,athena-saints-61,6,14,assets/cloth-schemes/athena-saints/pavo-shiva.png,,
-440,392,318,athena-saints-82,3,14,assets/cloth-schemes/athena-saints/tucana-sho.png,11,
+440,392,318,athena-saints-82,3,14,assets/cloth-schemes/athena-saints/tucana-sho.png,,
 441,393,,athena-soldiers,1,14,assets/cloth-schemes/athena-saints/soldier-sho.jpg,,
 442,394,132,athena-saints-35,5,14,assets/cloth-schemes/athena-saints/equuleus-shoko.png,4,
 443,395,8,athena-saints-1,5,14,assets/cloth-schemes/athena-saints/andromeda-shun-1.jpg,1,1
@@ -446,7 +446,7 @@
 445,395,10,athena-saints-1,5,14,assets/cloth-schemes/athena-saints/andromeda-shun-2.jpg,1,1
 446,395,11,athena-saints-1,5,14,assets/cloth-schemes/athena-saints/andromeda-shun-3.jpg,1,1
 447,395,12,athena-saints-1,9,14,assets/cloth-schemes/athena-saints/andromeda-shun-god.jpg,1,1
-448,395,356,athena-saints-86,7,14,assets/cloth-schemes/athena-saints/virgo-shun.png,1,
+448,395,356,athena-saints-86,7,14,assets/cloth-schemes/athena-saints/virgo-shun.png,,
 449,396,38,hades-unknown-evil-star,,16,assets/cloth-schemes/hades-specters/baphomet-shura.png,,
 450,396,59,athena-saints-16,9,14,assets/cloth-schemes/athena-saints/capricornus-shura.jpg,1,
 451,396,60,athena-saints-16,9,14,assets/cloth-schemes/athena-saints/capricornus-shura-god.jpg,5,
@@ -456,7 +456,7 @@
 455,400,,lamech-saints,,35,assets/cloth-schemes/lamech-saints/sillas-1.jpg,,29
 456,401,58,athena-saints-14,6,14,assets/cloth-schemes/athena-saints/canis-major-sirius.jpg,1,
 457,402,302,athena-saints-72,7,14,assets/cloth-schemes/athena-saints/sagittarius-sisyphus.png,,6
-458,403,167,ares-high-martians,,11,assets/cloth-schemes/ares-martians/hornet-sonia.png,,
+458,403,167,ares-high-martians,,11,assets/cloth-schemes/ares-martians/hornet-sonia.png,8,
 459,403,305,athena-saints-73,7,14,assets/cloth-schemes/athena-saints/scorpio-sonia.png,5,
 460,404,316,poseidon-mariners-generals,18,25,assets/cloth-schemes/poseidon-mariners/siren-sorrento.jpg,1,
 461,405,,hades-faceless,,16,assets/cloth-schemes/hades-faceless/soul-reaper.jpg,2,
@@ -482,8 +482,8 @@
 481,248,,athena-unknown-saints,39,,assets/cloth-schemes/athena-saints/old-master.jpg,,
 482,421,231,pallas-weapon-thirdclass-5,34,26,assets/cloth-schemes/pallas-pallasites/morgenstern-star-crusher-tarvos-1.png,,16
 483,423,336,athena-saints-78,7,14,assets/cloth-schemes/athena-saints/taurus-teneo.png,5,
-484,424,261,athena-saints-62,5,14,assets/cloth-schemes/athena-saints/pegasus-tenma.jpg,1,
-485,424,266,athena-saints-62,9,14,assets/cloth-schemes/athena-saints/pegasus-seiya-god.jpg,1,
+484,424,261,athena-saints-62,5,14,assets/cloth-schemes/athena-saints/pegasus-tenma.jpg,3,6
+485,424,266,athena-saints-62,9,14,assets/cloth-schemes/athena-saints/pegasus-seiya-god.jpg,,
 486,425,,athena-soldiers,2,14,assets/cloth-schemes/athena-saints/soldier-terrorist.png,,
 487,426,319,cronus-titans-10,9,39,assets/cloth-schemes/cronus-titans/ocean-tethys.png,5,
 488,427,339,hades-gods,9,16,assets/cloth-schemes/hades-specters/thanatos.jpg,1,
@@ -495,7 +495,7 @@
 494,433,276,odin-ursa-major-star-6,,34,assets/cloth-schemes/odin-god-warriors/phecda-thor.jpg,,12
 495,434,328,pallas-weapon-firstclass-1,32,26,assets/cloth-schemes/pallas-pallasites/genesis-titan.png,,
 496,435,342,typhon-brothers-2,,40,assets/cloth-schemes/typhon-gigas/thunderclap-toas.jpg,5,
-497,436,166,eris-dryads,45,15,assets/cloth-schemes/eris-dryads/hope-toki.png,,5
+497,436,166,eris-dryads,45,15,assets/cloth-schemes/eris-dryads/hope-toki.png,4,5
 498,437,18,athena-saints-4,9,14,assets/cloth-schemes/athena-saints/aquarius-tokisada.png,5,
 499,437,101,pallas-unknown-secondclass,33,26,assets/cloth-schemes/pallas-pallasites/deathwatch-tokisada.png,,
 500,437,168,athena-saints-41,6,14,assets/cloth-schemes/athena-saints/horologium-tokisada.png,,
@@ -510,7 +510,7 @@
 509,445,349,odin-drbal-god-warriors,,34,assets/cloth-schemes/odin-god-warriors/ullr.png,5,22
 510,446,309,poseidon-mariners-generals,18,25,assets/cloth-schemes/poseidon-mariners/sea-dragon-unity.png,,
 511,447,,others,9,41,assets/cloth-schemes/others/uranus.png,,
-512,448,214,athena-saints-33,3,14,assets/cloth-schemes/athena-saints/dorado-ushio.png,11,
+512,448,214,athena-saints-33,3,14,assets/cloth-schemes/athena-saints/dorado-ushio.png,,
 513,449,164,hades-celestial-star-35,13,16,assets/cloth-schemes/hades-specters/harpy-valentine.jpg,1,
 514,450,353,odin-representative,31,34,assets/cloth-schemes/odin-god-warriors/valkyrie.jpg,,29
 515,451,156,hades-celestial-star-10,13,16,assets/cloth-schemes/hades-specters/griffon-minos.jpg,1,
@@ -518,7 +518,7 @@
 517,453,44,hades-celestial-star-13,13,16,assets/cloth-schemes/hades-specters/behemoth-violate.jpg,3,
 518,455,362,ares-heavenly-kings-martians,44,11,assets/cloth-schemes/ares-martians/vulcanus.png,5,
 519,456,,hades-faceless,,16,assets/cloth-schemes/hades-faceless/wadatsumi.jpg,2,
-520,457,338,tezcatlipoca-gods,9,2,assets/cloth-schemes/tezcatlipoca-jaguars/tezcatlipoca-wesda.png,3,
+520,457,338,tezcatlipoca-gods,9,2,assets/cloth-schemes/tezcatlipoca-jaguars/tezcatlipoca-wesda.jpg,3,7
 521,458,41,hades-terrestrial-star-97,14,16,assets/cloth-schemes/hades-specters/bat-wimber.jpg,3,
 522,459,352,athena-saints-84,5,14,assets/cloth-schemes/athena-saints/ursa-minor-xiaoling.png,4,
 523,460,228,athena-saints-55,5,14,assets/cloth-schemes/athena-saints/monoceros-yato.jpg,3,
@@ -527,7 +527,7 @@
 526,464,,others,43,,assets/cloth-schemes/others/yoshimi-morigakure-masataka.png,,16
 527,465,30,athena-gods,9,14,assets/cloth-schemes/athena-saints/athena-yoshino.png,2,
 528,466,203,athena-saints-50,5,14,assets/cloth-schemes/athena-saints/lupus-yoshitomi.png,,
-529,467,171,eris-dryads,,15,assets/cloth-schemes/eris-dryads/famine-yufa.jpg,,5
+529,467,171,eris-dryads,,15,assets/cloth-schemes/eris-dryads/famine-yufa.jpg,4,5
 530,468,314,athena-saints-77,5,14,assets/cloth-schemes/athena-saints/sextans-yulij.png,5,
 531,469,21,athena-saints-5,5,14,assets/cloth-schemes/athena-saints/aquila-yuna-1.png,5,
 532,469,22,athena-saints-5,5,14,assets/cloth-schemes/athena-saints/aquila-yuna-2.png,5,
@@ -549,7 +549,7 @@
 548,,383,artemis-satellites,1,12,assets/cloth-schemes/artemis-satellites/satellites-callisto-1.png,5,4
 549,,389,artemis-satellites,1,12,assets/cloth-schemes/artemis-satellites/satellites-lascoumoune-1.png,5,4
 550,,396,pallas-pallasite-soldiers,1,26,assets/cloth-schemes/pallas-pallasites/pallasites-soldiers-yellow.jpg,,
-551,,14,ares-martians,1,11,assets/cloth-schemes/ares-martians/ant-squad-soldier.png,,
+551,,14,ares-martians,1,11,assets/cloth-schemes/ares-martians/ant-squad-soldier.png,8,
 552,495,31,athena-unknown-saints,6,14,assets/cloth-schemes/athena-saints/atrium-cloth.png,,29
 553,497,62,athena-saints-18,6,14,assets/cloth-schemes/athena-saints/cassiopeia-cloth.png,,29
 554,509,79,athena-saints-26,5,14,assets/cloth-schemes/athena-saints/corona-australis.jpg,,29
@@ -564,9 +564,9 @@
 563,,188,hades-unknown-evil-star,,16,assets/cloth-schemes/hades-specters/leech-surplice.png,5,
 564,540,221,athena-saints-53,6,14,assets/cloth-schemes/athena-saints/mensa-cloth.png,,29
 565,,230,hades-unknown-evil-star,,16,assets/cloth-schemes/hades-specters/morax-surplice.png,5,
-566,,,ares-fire-legion,Legion of Fire,11,assets/cloth-schemes/ares-berserkers/fire-legion-damarchus-arkas.jpg,20,
-567,,,ares-fear-legion,Legion of Fear,11,assets/cloth-schemes/ares-berserkers/fear-legion-lamia-lotis.png,20,
-568,,,ares-disaster-legion,Legion of Disaster,11,assets/cloth-schemes/ares-berserkers/disaster-legion-lamassu-lior.png,20,
+566,,,ares-fire-legion,Legion of Fire,11,assets/cloth-schemes/ares-berserkers/fire-legion-damarchus-arkas.jpg,15,
+567,,,ares-fear-legion,Legion of Fear,11,assets/cloth-schemes/ares-berserkers/fear-legion-lamia-lotis.png,15,
+568,,,ares-disaster-legion,Legion of Disaster,11,assets/cloth-schemes/ares-berserkers/disaster-legion-lamassu-lior.png,15,
 569,541,244,athena-chinese-saints-10,6,14,assets/cloth-schemes/athena-saints/nu-cloth.png,,29
 570,557,251,athena-unknown-saints,5,14,assets/cloth-schemes/athena-saints/silver-oriolus-cloth.jpg,,29
 571,545,286,athena-saints-67,5,14,assets/cloth-schemes/athena-saints/piscis-austrinus-cloth.jpg,,29
@@ -574,7 +574,7 @@
 573,547,292,athena-saints-69,6,14,assets/cloth-schemes/athena-saints/pyxis-cloth.png,,29
 574,553,311,athena-unknown-saints,,14,assets/cloth-schemes/athena-saints/sea-serpent-saint.png,11,12
 575,555,313,athena-saints-76,5,14,assets/cloth-schemes/athena-saints/serpens-cloth.jpg,,29
-576,561,347,athena-saints-82,,14,assets/cloth-schemes/athena-saints/tucana-saint.png,3,6
+576,561,347,athena-saints-82,,14,assets/cloth-schemes/athena-saints/tucana-saint.png,,6
 577,378,,others,,,assets/cloth-schemes/others/seika.png,,1
 578,461,,others,,,assets/cloth-schemes/others/shunrei.png,,1
 579,311,148,athena-saints-38,7,14,assets/cloth-schemes/athena-saints/gemini-integra.png,5,
@@ -585,28 +585,28 @@
 584,487,1,hades-celestial-star-4,13,16,assets/cloth-schemes/hades-specters/acheron-nyan.png,6,4
 585,488,400,gladiators,,,assets/cloth-schemes/gladiators/excalibur-arthur.jpg,2,
 586,,402,hades-celestial-star-8,13,16,assets/cloth-schemes/hades-specters/wyrm-surplice.jpg,,
-587,490,403,eris-dryads,,15,assets/cloth-schemes/eris-dryads/vow-horcos.jpg,,5
+587,490,403,eris-dryads,,15,assets/cloth-schemes/eris-dryads/vow-horcos.jpg,4,5
 588,491,404,hades-unknown-evil-star,,16,assets/cloth-schemes/hades-specters/mouse-surplice.jpg,5,
-589,101,408,eris-phantoms,9,15,assets/cloth-schemes/eris-dryads/fear-deimos.png,15,5
-590,336,407,eris-phantoms,9,15,assets/cloth-schemes/eris-dryads/defeat-phobos.png,15,5
+589,101,408,eris-phantoms,9,15,assets/cloth-schemes/eris-dryads/fear-deimos.png,4,5
+590,336,407,eris-phantoms,9,15,assets/cloth-schemes/eris-dryads/defeat-phobos.png,4,5
 591,496,409,athena-saints-15,5,14,assets/cloth-schemes/athena-saints/canis-minor-saint.jpg,,29
-592,317,410,athena-saints-52,9,14,assets/cloth-schemes/athena-saints/lyra-orphee-god.jpg,16,29
+592,317,410,athena-saints-52,9,14,assets/cloth-schemes/athena-saints/lyra-orphee-god.png,16,29
 593,492,20,athena-saints-5,6,14,assets/cloth-schemes/athena-saints/aquila-saint.png,,29
 594,493,411,athena-saints-6,6,14,assets/cloth-schemes/athena-saints/ara-saint.png,,29
 595,494,411,athena-saints-6,6,14,assets/cloth-schemes/athena-saints/ara-saint-woman.jpg,,29
-596,498,412,athena-saints-18,5,14,assets/cloth-schemes/athena-saints/cassiopeia-saint.png,3,6
+596,498,412,athena-saints-18,5,14,assets/cloth-schemes/athena-saints/cassiopeia-saint.png,,6
 597,499,65,athena-saints-20,6,14,assets/cloth-schemes/athena-saints/cepheus-saint.jpg,,29
 598,500,413,athena-former-saints-13,6,14,assets/cloth-schemes/athena-saints/cerberus-saint.jpg,,29
 599,501,413,athena-former-saints-13,6,14,assets/cloth-schemes/athena-saints/cerberus-saint-woman.jpg,,29
 600,502,66,athena-former-saints-13,6,14,assets/cloth-schemes/athena-saints/cerberus-saint-woman-2.jpg,,29
-601,503,414,athena-saints-9,6,14,assets/cloth-schemes/athena-saints/bootes-saint.png,3,6
-602,504,415,athena-saints-11,6,14,assets/cloth-schemes/athena-saints/camelopardalis-saint.png,3,6
+601,503,414,athena-saints-9,6,14,assets/cloth-schemes/athena-saints/bootes-saint.png,,6
+602,504,415,athena-saints-11,6,14,assets/cloth-schemes/athena-saints/camelopardalis-saint.png,,6
 603,,,hakuryu-low-ranking,9,37,assets/cloth-schemes/hakuryu-taonias/low-ranking-taonias.jpg,3,
 604,506,70,athena-saints-22,5,14,assets/cloth-schemes/athena-saints/chameleon-saint.jpg,,29
 605,507,416,athena-saints-24,5,14,assets/cloth-schemes/athena-saints/columba-saint.jpg,,29
 606,508,417,athena-saints-25,5,14,assets/cloth-schemes/athena-saints/coma-berenices-saint.jpg,,29
 607,510,418,athena-saints-27,5,14,assets/cloth-schemes/athena-saints/corona-borealis-cloth.jpg,,29
-608,511,419,athena-saints-27,5,14,assets/cloth-schemes/athena-saints/corona-borealis-saint.png,3,6
+608,511,419,athena-saints-27,5,14,assets/cloth-schemes/athena-saints/corona-borealis-saint.png,,6
 609,512,420,athena-saints-28,6,14,assets/cloth-schemes/athena-saints/corvus-saint.jpg,,29
 610,513,420,athena-saints-28,6,14,assets/cloth-schemes/athena-saints/corvus-saint-woman.jpg,,29
 611,222,,others,,,assets/cloth-schemes/others/natassia.png,,1
@@ -614,10 +614,10 @@
 613,516,85,athena-saints-29,6,14,assets/cloth-schemes/athena-saints/crater-saint-woman.jpg,,29
 614,517,421,athena-saints-30,6,14,assets/cloth-schemes/athena-saints/crux-saint.jpg,,29
 615,518,421,athena-saints-30,6,14,assets/cloth-schemes/athena-saints/crux-saint-woman.jpg,,29
-616,519,422,athena-saints-1,4,14,assets/cloth-schemes/athena-saints/andromeda-black-saint.jpg,1,32
+616,519,422,athena-saints-1,4,14,assets/cloth-schemes/athena-saints/andromeda-black-saint.jpg,,32
 617,274,448,pallas-weapon-thirdclass-1,34,26,assets/cloth-schemes/pallas-pallasites/claw-max-brilliants-methone-fusion.png,,16
 618,520,423,athena-saints-32,5,14,assets/cloth-schemes/athena-saints/delphinus-saint.jpg,,29
-619,521,424,athena-saints-32,5,14,assets/cloth-schemes/athena-saints/delphinus-saint-tlc.png,3,6
+619,521,424,athena-saints-32,5,14,assets/cloth-schemes/athena-saints/delphinus-saint-tlc.png,,6
 620,522,,athena-unknown-saints,1,14,assets/cloth-schemes/athena-saints/docrates-saint-soldier.png,,12
 621,576,302,athena-saints-72,7,14,assets/cloth-schemes/athena-saints/sagittarius-aeras.png,,7
 622,525,426,athena-saints-33,5,14,assets/cloth-schemes/athena-saints/dorado-saint.jpg,,29
@@ -630,7 +630,7 @@
 629,534,,athena-saints-28,1,14,assets/cloth-schemes/athena-saints/jamian-soldier.png,,12
 630,535,429,athena-saints-45,6,14,assets/cloth-schemes/athena-saints/lacerta-saint.png,,29
 631,536,429,athena-saints-45,6,14,assets/cloth-schemes/athena-saints/lacerta-saint-woman.jpg,,29
-632,537,195,athena-saints-48,5,14,assets/cloth-schemes/athena-saints/lepus-saint.png,3,6
+632,537,195,athena-saints-48,5,14,assets/cloth-schemes/athena-saints/lepus-saint.png,,6
 633,538,430,athena-saints-48,5,14,assets/cloth-schemes/athena-saints/lepus-cloth.png,,29
 634,390,198,athena-saints-49,9,14,assets/cloth-schemes/athena-saints/libra-shiryu-god.jpg,5,16
 635,539,207,athena-saints-52,6,14,assets/cloth-schemes/athena-saints/lyra-saint.jpg,,29
@@ -640,7 +640,7 @@
 639,548,295,athena-former-saints-66,5,14,assets/cloth-schemes/athena-saints/rangifer-cloth.jpg,,29
 640,549,295,athena-former-saints-66,5,14,assets/cloth-schemes/athena-saints/rangifer-saint-woman.jpg,,29
 641,550,433,athena-saints-70,6,14,assets/cloth-schemes/athena-saints/reticulum-saint.png,,29
-642,505,451,eris-phantoms,9,15,assets/cloth-schemes/eris-dryads/harmony-harmonia.jpg,,5
+642,505,451,eris-phantoms,9,15,assets/cloth-schemes/eris-dryads/harmony-harmonia.jpg,4,5
 643,552,307,athena-saints-75,5,14,assets/cloth-schemes/athena-saints/scutum-saint.jpg,,29
 644,556,314,athena-saints-77,5,14,assets/cloth-schemes/athena-saints/sextante-saint.jpg,,29
 645,558,434,athena-unknown-saints,,14,assets/cloth-schemes/athena-saints/tornado-saint.png,,29
@@ -648,7 +648,7 @@
 647,560,344,athena-saints-80,6,14,assets/cloth-schemes/athena-saints/triangulum-saint-woman.jpg,,29
 648,421,450,pallas-weapon-thirdclass-5,34,26,assets/cloth-schemes/pallas-pallasites/morgenstern-star-crusher-tarvos-2.png,,16
 649,563,359,athena-saints-87,5,14,assets/cloth-schemes/athena-saints/volans-saint.png,,6
-650,564,359,athena-saints-87,5,14,assets/cloth-schemes/athena-saints/volans-cloth.jpg,5,29
+650,564,359,athena-saints-87,5,14,assets/cloth-schemes/athena-saints/volans-cloth.jpg,,29
 651,234,435,poseidon-gods,9,25,assets/cloth-schemes/poseidon-mariners/triton-kouga.png,,37
 652,116,435,poseidon-gods,9,25,assets/cloth-schemes/poseidon-mariners/triton-eden.png,,37
 653,173,435,poseidon-gods,9,25,assets/cloth-schemes/poseidon-mariners/triton-haruto.png,,37
@@ -665,7 +665,7 @@
 664,47,61,apollo-saints-17,,10,assets/cloth-schemes/athena-saints/carina-atlas.jpg,5,23
 665,208,386,apollo-saints-51,,10,assets/cloth-schemes/athena-saints/lynx-jao.jpg,5,23
 666,413,438,pallas-gods,9,39,assets/cloth-schemes/pallas-pallasites/saturn-subaru-v2.jpg,5,16
-667,315,439,hades-gods,9,16,assets/cloth-schemes/hades-specters/dream-oneiros-fusion.jpg,3,6
+667,315,439,hades-gods,9,16,assets/cloth-schemes/hades-specters/dream-oneiros-fusion.jpg,6,6
 668,585,,hades-terrestrial-star-102,14,16,assets/cloth-schemes/hades-specters/star-execute-centopiedi.png,5,1
 669,586,,hades-terrestrial-star-77,14,16,assets/cloth-schemes/hades-specters/star-of-music-surplice.jpg,6,1
 670,587,,hades-terrestrial-star-79,14,16,assets/cloth-schemes/hades-specters/star-speed-surplice.png,5,1
@@ -683,21 +683,21 @@
 682,599,,hades-terrestrial-star-68,14,16,assets/cloth-schemes/hades-specters/star-forward.jpg,6,1
 683,600,,hades-terrestrial-star-42,14,16,assets/cloth-schemes/hades-specters/star-majestic.jpg,6,1
 684,601,,hades-terrestrial-star-100,14,16,assets/cloth-schemes/hades-specters/star-number.jpg,6,1
-685,192,442,athena-saints-42,5,14,assets/cloth-schemes/athena-saints/hydra-ichi-omega.png,1,16
+685,192,442,athena-saints-42,5,14,assets/cloth-schemes/athena-saints/hydra-ichi-omega.png,,16
 686,94,187,athena-saints-88,3,14,assets/cloth-schemes/athena-saints/vulpecula-daichi-omega.png,,16
-687,55,443,athena-saints-47,3,14,assets/cloth-schemes/athena-saints/leo-minor-ban-steel.png,1,16
-688,301,444,athena-saints-50,3,14,assets/cloth-schemes/athena-saints/lupus-nachi-steel.png,1,16
+687,55,443,athena-saints-47,3,14,assets/cloth-schemes/athena-saints/leo-minor-ban-steel.png,,16
+688,301,444,athena-saints-50,3,14,assets/cloth-schemes/athena-saints/lupus-nachi-steel.png,,16
 689,448,214,athena-saints-33,3,14,assets/cloth-schemes/athena-saints/dorado-ushio-omega.png,,16
 690,202,445,athena-saints-55,3,14,assets/cloth-schemes/athena-saints/monoceros-jabu-steel.png,,16
-691,386,446,athena-saints-59,6,14,assets/cloth-schemes/athena-saints/ophiuchus-shaina-omega.png,1,16
+691,386,446,athena-saints-59,6,14,assets/cloth-schemes/athena-saints/ophiuchus-shaina-omega.png,,16
 692,392,318,athena-saints-82,3,14,assets/cloth-schemes/athena-saints/tucana-sho-omega.png,,16
 693,152,447,athena-saints-83,3,14,assets/cloth-schemes/athena-saints/ursa-major-geki-steel.png,,16
 694,3,,athena-unknown-saints,,14,assets/cloth-schemes/athena-saints/vice-principal.jpg,,16
 695,602,,others,,14,assets/cloth-schemes/others/asamori-hakase.png,,12
 696,352,,others,,,assets/cloth-schemes/others/misha.png,,16
 697,289,,others,,,assets/cloth-schemes/others/mitsumassa-kido.png,,1
-698,238,136,eris-gods,,15,assets/cloth-schemes/eris-dryads/eris-kyoko.jpg,,5
+698,238,136,eris-gods,,15,assets/cloth-schemes/eris-dryads/eris-kyoko.jpg,4,5
 699,308,136,eris-gods,,15,assets/cloth-schemes/eris-dryads/eris.jpg,,21
 700,139,140,odin-blue-warriors,,34,assets/cloth-schemes/odin-blue-warriors/frey-alexei.png,5,1
-701,24,199,odin-representative,9,34,assets/cloth-schemes/odin-god-warriors/andreas-lise.jpg,5,14
+701,24,199,odin-representative,9,34,assets/cloth-schemes/odin-god-warriors/andreas-lise.jpg,,14
 702,307,250,athena-saints-59,7,14,assets/cloth-schemes/athena-saints/ophiuchus-asclepius.png,1,4

@@ -1,3 +1,4 @@
+export * from './artists';
 export * from './characters';
 export * from './classes';
 export * from './debuts';

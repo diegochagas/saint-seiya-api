@@ -1,10 +1,15 @@
 const express = require('express');
 
+const ArtistsController = require('./controllers/Artists.js');
 const DebutsController = require('./controllers/Debuts.js');
 const CharactersController = require('./controllers/Characters.js');
 const ClassesController = require('./controllers/Classes.js');
 
 const routes = express.Router();
+
+routes.get('/api/artists', ArtistsController.getArtists);
+
+routes.get('/api/artist/:id', ArtistsController.getArtist);
 
 routes.get('/api/debuts', DebutsController.getDebuts);
 

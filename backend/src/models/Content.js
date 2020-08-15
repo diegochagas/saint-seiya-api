@@ -232,6 +232,8 @@ const getColletions = async () => {
 
   const content = await getCSVContent();
 
+  collections.push({ collectionPath: 'artists', collection: content.artists });
+
   collections.push({ collectionPath: 'characters', collection: loadCharactersData(content) });
 
   collections.push({ collectionPath: 'curiosities', collection: content.curiosities });

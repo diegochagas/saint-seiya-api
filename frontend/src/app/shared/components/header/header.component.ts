@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
-import { DebutsService, ClassesService } from '../../services';
+import { DebutsService, ClassesService, ArtistsService } from '../../services';
 
 @Component({
   selector: 'app-header',
@@ -15,12 +15,19 @@ export class HeaderComponent implements OnInit {
 
   debuts = [];
 
-  constructor( private classesService: ClassesService, private debutsService: DebutsService ) { }
+  artists = [];
+
+  constructor(
+    private artistsService: ArtistsService,
+    private debutsService: DebutsService,
+  ) { }
 
   ngOnInit() {
     this.getClasses();
 
     this.getDebuts();
+
+    this.getArtists();
   }
 
   async getClasses() {
@@ -55,5 +62,13 @@ export class HeaderComponent implements OnInit {
     response.forEach(debut => this.debuts.push(debut.midia));
 
     this.debuts = Array.from(new Set(this.debuts)).sort();
+  }
+
+  async getArtists() {
+    const response: any = await this.artistsService.getArtists().toPromise();
+
+    response.forEach(artist => {
+      if (artist.name !== "") this.artists.push(artist);
+    });
   }
 }

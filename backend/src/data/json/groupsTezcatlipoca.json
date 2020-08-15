@@ -1,1 +1,1 @@
-[{"id":"1","group":"tezcatlipoca-gods","classSingular":"Jaguars","name":"Gods"},{"id":"1","group":"tezcatlipoca-jaguars","classSingular":"Jaguars","name":"Jaguars"},{"id":"1","group":"tezcatlipoca-jaguar-soldiers","classSingular":"Jaguars","name":"Jaguar Soldiers"}]
+[{"id":"1","group":"tezcatlipoca-gods","class":"Gods","classSingular":"God","name":"Gods"},{"id":"1","group":"tezcatlipoca-jaguars","class":"Jaguars","classSingular":"Jaguar","name":"Jaguars"},{"id":"1","group":"tezcatlipoca-jaguar-soldiers","class":"Jaguars","classSingular":"Jaguar","name":"Jaguar Soldiers"}]

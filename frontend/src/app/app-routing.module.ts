@@ -3,6 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 
 import {
   AboutComponent,
+  ArtistsComponent,
+  ArtistViewComponent,
   CharacterViewComponent,
   CharactersComponent,
   CharactersListComponent,
@@ -52,6 +54,10 @@ const routes: Routes = [
   {
     path: 'debuts/:midia',
     component: DebutsComponent
+  },
+  {
+    path: 'artist/:id',
+    component: ArtistViewComponent,
   },
   {
     path: 'test-calls',
