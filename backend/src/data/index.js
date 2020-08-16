@@ -14,6 +14,7 @@ const groupsAstraea = require('./json/groupsAstraea.json')
 const groupsAthena = require('./json/groupsAthena.json')
 const groupsBalor = require('./json/groupsBalor.json')
 const groupsCronus = require('./json/groupsCronus.json')
+const groupsCyclops = require('./json/groupsCyclops.json')
 const groupsEris = require('./json/groupsEris.json')
 const groupsGarnet = require('./json/groupsGarnet.json')
 const groupsGladiators = require('./json/groupsGladiators.json')
@@ -53,6 +54,7 @@ module.exports = {
     groupsAthena,
     groupsBalor,
     groupsCronus,
+    groupsCyclops,
     groupsEris,
     groupsGarnet,
     groupsTyphon,

@@ -248,6 +248,12 @@ module.exports = {
           { name: 'Corona Saints', saints: collection.filter(saint => saint.group.includes('apollo-saints')) }
         ],
       });
+    } else if (request.params.class === 'cyclops') {
+      response.json({
+        saints: [
+          { name: 'Cyclops', saints: collection.filter(saint => saint.group === 'cyclops') },
+        ],
+      });
     } else if (request.params.class === 'dryads') {
       response.json({
         gods: [

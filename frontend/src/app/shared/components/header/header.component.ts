@@ -35,6 +35,7 @@ export class HeaderComponent implements OnInit {
       { name: 'Angels', route: 'angels' },
       { name: 'Berserkers / Martians', route: 'berserkers' },
       { name: 'Corona Saints', route: 'corona-saints' },
+      { name: 'Cyclops', route: 'cyclops' },
       { name: 'Dryads', route: 'dryads' },
       { name: 'Fairies', route: 'fairies' },
       { name: 'Gigas', route: 'gigas' },

@@ -18,6 +18,7 @@ const files = [
   'groupsAthena',
   'groupsBalor',
   'groupsCronus',
+  'groupsCyclops',
   'groupsEris',
   'groupsGarnet',
   'groupsGladiators',

@@ -66,7 +66,7 @@ export class SeparatedByComponent implements OnInit {
 
         saints = responseSaints.filter(saint => saint.artist === "");
       } else if (path === "debut") {
-        this.pageTitle = "Debut yet unidentified";
+        this.pageTitle = "Not revealed";
 
         saints = responseSaints.filter(saint => saint.debut === "");
       }
