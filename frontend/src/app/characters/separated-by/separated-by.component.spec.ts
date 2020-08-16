@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ArtistViewComponent } from './artist-view.component';
+import { SeparatedByComponent } from './separated-by.component';
 
-describe('ArtistViewComponent', () => {
-  let component: ArtistViewComponent;
-  let fixture: ComponentFixture<ArtistViewComponent>;
+describe('SeparatedByComponent', () => {
+  let component: SeparatedByComponent;
+  let fixture: ComponentFixture<SeparatedByComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ArtistViewComponent ]
+      declarations: [ SeparatedByComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ArtistViewComponent);
+    fixture = TestBed.createComponent(SeparatedByComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

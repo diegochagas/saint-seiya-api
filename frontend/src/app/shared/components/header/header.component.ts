@@ -59,9 +59,24 @@ export class HeaderComponent implements OnInit {
   async getDebuts() {
     const response: any = await this.debutsService.getDebuts().toPromise();
 
-    response.forEach(debut => this.debuts.push(debut.midia));
+    this.debuts = response.filter(debut => {
+      if (debut.id !== "2" &&
+          debut.id !== "11" &&
+          debut.id !== "13" &&
+          debut.id !== "15" &&
+          debut.id !== "17" &&
+          debut.id !== "20" &&
+          debut.id !== "26" &&
+          debut.id !== "31" &&
+          debut.id !== "33" &&
+          debut.id !== "34") {
+        debut.title = `${debut.midia}: ${debut.name}`
 
-    this.debuts = Array.from(new Set(this.debuts)).sort();
+        return debut;
+      }
+    });
+
+    this.debuts = this.debuts.sort((a, b) => a.title == b.title ? 0 : + (a.title > b.title) || -1);
   }
 
   async getArtists() {

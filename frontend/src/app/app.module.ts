@@ -8,8 +8,6 @@ import { SharedModule } from './shared/shared.module';
 
 import {
   AboutComponent,
-  ArtistsComponent,
-  ArtistViewComponent,
   AppComponent,
   CharacterViewComponent,
   CharactersComponent,
@@ -21,15 +19,15 @@ import {
   HomeComponent,
   PersonalDetailsComponent,
   SaintsListComponent,
+  SeparatedByComponent,
   TestCallsComponent,
 } from './';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
     AboutComponent,
     AppComponent,
-    ArtistsComponent,
-    ArtistViewComponent,
     CharacterViewComponent,
     CharactersComponent,
     CharactersListComponent,
@@ -40,6 +38,7 @@ import {
     HomeComponent,
     PersonalDetailsComponent,
     SaintsListComponent,
+    SeparatedByComponent,
     TestCallsComponent,
   ],
   imports: [
@@ -47,6 +46,7 @@ import {
     BrowserModule,
     HttpClientModule,
     SharedModule,
+    NgbModule,
   ],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]

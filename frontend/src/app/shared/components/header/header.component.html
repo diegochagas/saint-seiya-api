@@ -21,19 +21,7 @@
         </li>
 
         <li class="nav-item">
-          <button class="nav-link" mat-menu-item [matMenuTriggerFor]="debutsMenu">
-            <span>Debuts</span>
-
-            <i class="material-icons">arrow_right</i>
-          </button>
-        </li>
-
-        <li class="nav-item">
-          <button class="nav-link" mat-menu-item [matMenuTriggerFor]="artistsMenu">
-            <span>Artists</span>
-
-            <i class="material-icons">arrow_right</i>
-          </button>
+          <a [routerLink]="['/debuts']" class="nav-link" mat-menu-item>Debuts</a>
         </li>
 
         <li class="nav-item">
@@ -53,6 +41,14 @@
         <ng-container *ngIf="classes.length > 0; else spinner">
           <a class="dropdown-item nav-link" [routerLink]="['/characters/personal']" mat-menu-item>All</a>
 
+          <button class="nav-link" mat-menu-item [matMenuTriggerFor]="artistsMenu">
+            By artists
+          </button>
+
+          <button class="nav-link" mat-menu-item [matMenuTriggerFor]="debutsMenu">
+            By debuts
+          </button>
+
           <a
             *ngFor="let cls of classes"
             class="nav-link"
@@ -66,15 +62,13 @@
 
       <mat-menu #debutsMenu="matMenu" xPosition="before">
         <ng-container *ngIf="debuts.length > 0; else spinner">
-          <a [routerLink]="['/debuts']" class="nav-link" mat-menu-item>All</a>
-
           <a
             *ngFor="let debut of debuts"
             class="nav-link"
-            [routerLink]="['/debuts/' + debut.replace(' ', '-').toLowerCase()]"
+            [routerLink]="['/characters/debut/' + debut.id]"
             mat-menu-item
           >
-            {{ debut }}
+            {{ debut.title }}
           </a>
         </ng-container>
       </mat-menu>
@@ -84,7 +78,7 @@
           <a
             *ngFor="let artist of artists"
             class="nav-link"
-            [routerLink]="['/artist/' + artist.id]"
+            [routerLink]="['/characters/artist/' + artist.id]"
             mat-menu-item
           >
             {{ artist.name }}

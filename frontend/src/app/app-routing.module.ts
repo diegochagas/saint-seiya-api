@@ -3,8 +3,6 @@ import { Routes, RouterModule } from '@angular/router';
 
 import {
   AboutComponent,
-  ArtistsComponent,
-  ArtistViewComponent,
   CharacterViewComponent,
   CharactersComponent,
   CharactersListComponent,
@@ -13,6 +11,7 @@ import {
   GetStartedComponent,
   HomeComponent,
   SaintsListComponent,
+  SeparatedByComponent,
   TestCallsComponent,
 } from './';
 
@@ -30,6 +29,14 @@ const routes: Routes = [
         component: CuriositiesComponent
       },
       {
+        path: 'artist/:id',
+        component: SeparatedByComponent,
+      },
+      {
+        path: 'debut/:id',
+        component: SeparatedByComponent,
+      },
+      {
         path: ':details/:class',
         component: SaintsListComponent
       },
@@ -40,7 +47,7 @@ const routes: Routes = [
       {
         path: ':details/:class/:id',
         component: CharacterViewComponent
-      }
+      },
     ]
   },
   {
@@ -54,10 +61,6 @@ const routes: Routes = [
   {
     path: 'debuts/:midia',
     component: DebutsComponent
-  },
-  {
-    path: 'artist/:id',
-    component: ArtistViewComponent,
   },
   {
     path: 'test-calls',

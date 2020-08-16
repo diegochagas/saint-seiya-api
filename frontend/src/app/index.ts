@@ -1,5 +1,4 @@
 export * from './about';
-export * from './artists';
 export * from './characters';
 export * from './debuts';
 export * from './get-started';

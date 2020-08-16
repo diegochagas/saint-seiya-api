@@ -16,8 +16,8 @@ export class DebutsComponent implements OnInit {
   midia = '';
 
   constructor(
-    private debutsService: DebutsService,
     private activatedRoute: ActivatedRoute,
+    private debutsService: DebutsService,
     private router: Router,
   ) {
     this.router.events.subscribe((event) => {

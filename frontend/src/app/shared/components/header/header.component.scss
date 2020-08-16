@@ -39,6 +39,10 @@
   align-items: center;
   color: rgba(255, 255, 255, 0.5);
 
+  &:after {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
   .material-icons {
     transition: transform 0.5s;
   }
