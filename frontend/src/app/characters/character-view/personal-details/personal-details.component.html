@@ -65,13 +65,6 @@
         </p>
 
         <p>
-          <b>Debut: </b>
-          <a *ngIf="character.midia" [routerLink]="['/debuts/' + character.midia.replace(' ', '-').toLowerCase()]">{{ character.midia }}: {{ character.debut }}</a>
-
-          <span *ngIf="character.midia === undefined">Not revealed</span>
-        </p>
-
-        <p>
           <b>Master(s): </b>
           <ng-container *ngIf="character.master.length === 0; else masters">
             <span>Not revealed</span>
