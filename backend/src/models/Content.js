@@ -124,9 +124,31 @@ const loadSaintsData = (saints, content) => {
   });
 }
 
+const getCharacterBirthDate = character => {
+  if (character.age && character.birthDay && character.birthMonth && character.actualDate) {
+    const age = parseInt(character.age);
+    const day = parseInt(character.birthDay);
+    const month = parseInt(character.birthMonth);
+    const date = new Date(character.actualDate);
+    let year = date.getFullYear() - age;
+  
+    if ((date.getMonth() + 1) < month || ((date.getMonth() + 1) == month && date.getDate() < day)) {
+        year--;
+    }
+
+    return `${day}/${month}/${year}`;
+  } else if (character.birthDay && character.birthMonth) {
+    return `${character.birthDay}/${character.birthMonth}`;
+  } else {
+    return "";
+  }
+}
+
 const loadCharactersData = content => {
   return content.characters.map(characterObject => {
     const character = Object.assign({}, characterObject);
+
+    character.birth = getCharacterBirthDate(character);
 
     character.gender = genders[character.gender];
 
