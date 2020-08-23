@@ -299,7 +299,7 @@
 298,269,301,athena-saints-71,6,14,assets/cloth-schemes/athena-saints/sagitta-maya.png,5,21
 299,270,259,athena-saints-61,6,14,assets/cloth-schemes/athena-saints/pavo-mayura.jpg,4,5
 300,271,,ares-representative-martians,20,11,assets/cloth-schemes/ares-martians/medea.png,,16
-301,272,78,athena-saints-25,5,14,assets/cloth-schemes/athena-saints/coma-berenice-mei.png,5,27
+301,272,78,athena-saints-25,5,14,assets/cloth-schemes/athena-saints/coma-berenice-mei.png,19,27
 302,273,67,athena-saints-21,6,14,assets/cloth-schemes/athena-saints/cetus-menkar.png,,16
 303,274,74,pallas-weapon-thirdclass-1,34,26,assets/cloth-schemes/pallas-pallasites/claw-max-brilliants-methone-1.png,,16
 304,275,52,athena-saints-10,6,14,assets/cloth-schemes/athena-saints/caelum-michelangelo.png,,16
@@ -482,8 +482,8 @@
 481,248,,athena-unknown-saints,39,,assets/cloth-schemes/athena-saints/old-master.jpg,3,7
 482,421,231,pallas-weapon-thirdclass-5,34,26,assets/cloth-schemes/pallas-pallasites/morgenstern-star-crusher-tarvos-1.png,,16
 483,423,336,athena-saints-78,7,14,assets/cloth-schemes/athena-saints/taurus-teneo.png,5,6
-484,424,261,athena-saints-62,5,14,assets/cloth-schemes/athena-saints/pegasus-tenma.jpg,3,6
-485,424,266,athena-saints-62,9,14,assets/cloth-schemes/athena-saints/pegasus-seiya-god.jpg,,6
+484,424,265,athena-saints-62,5,14,assets/cloth-schemes/athena-saints/pegasus-tenma-5.jpg,3,6
+485,424,266,athena-saints-62,9,14,assets/cloth-schemes/athena-saints/pegasus-tenma-god.png,,6
 486,425,,athena-soldiers,2,14,assets/cloth-schemes/athena-saints/soldier-terrorist.png,2,8
 487,426,319,cronus-titans-10,9,39,assets/cloth-schemes/cronus-titans/ocean-tethys.png,5,8
 488,427,339,hades-gods,9,16,assets/cloth-schemes/hades-specters/thanatos.jpg,1,1
@@ -708,3 +708,4 @@
 707,574,64,athena-saints-19,6,14,assets/cloth-schemes/athena-saints/centaurus-yugo.png,3,6
 708,575,64,athena-saints-19,6,14,assets/cloth-schemes/athena-saints/centaurus-photia.jpg,3,6
 709,583,,others,,,assets/cloth-schemes/others/failinis.png,,7
+710,424,261,athena-saints-62,5,14,assets/cloth-schemes/athena-saints/pegasus-tenma-1.jpg,5,6
