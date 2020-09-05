@@ -276,7 +276,7 @@
 275,243,56,athena-saints-12,9,14,assets/cloth-schemes/athena-saints/cancer-lancelot-god.jpg,2,10
 276,245,,hades-terrestrial-star-101,13,16,assets/cloth-schemes/hades-specters/larry.jpg,,29
 277,246,,artemis-satellite-captain,12,12,assets/cloth-schemes/artemis-satellites/lascoumoune.png,12,4
-278,247,,athena-unknown-saints,5,14,assets/cloth-schemes/athena-saints/leda.jpg,,12
+278,247,,athena-unknown-saints,5,14,assets/cloth-schemes/athena-saints/leda.png,6,12
 279,249,,athena-former-saints-72,2,14,assets/cloth-schemes/athena-saints/lei-hu.png,,29
 280,250,382,athena-saints-40,4,14,assets/cloth-schemes/athena-saints/heracles-lemargos.jpg,3,7
 281,251,350,hades-terrestrial-star-92,14,16,assets/cloth-schemes/hades-specters/upyr-leybold.jpg,6,7
@@ -284,7 +284,7 @@
 283,253,50,pallas-weapon-thirdclass-7,34,26,assets/cloth-schemes/pallas-pallasites/spear-brionac-loge.png,8,16
 284,254,200,odin-drbal-god-warriors,,34,assets/cloth-schemes/odin-god-warriors/loki.png,5,22
 285,256,243,athena-saints-57,5,14,assets/cloth-schemes/athena-saints/norma-luciano.png,6,16
-286,257,202,zeus-fallen-angels,17,29,assets/cloth-schemes/zeus-angels/lucifer.png,,24
+286,257,202,zeus-fallen-angels,17,29,assets/cloth-schemes/zeus-angels/lucifer.png,18,24
 287,258,121,hades-celestial-star-15,13,16,assets/cloth-schemes/hades-specters/dryad-luco.jpg,3,7
 288,259,216,ares-gods-martians,9,11,assets/cloth-schemes/ares-martians/mars-ludwig.png,5,16
 289,260,284,athena-saints-66,7,14,assets/cloth-schemes/athena-saints/pisces-lugonis.jpg,5,6
@@ -578,7 +578,7 @@
 577,378,,others,,,assets/cloth-schemes/others/seika.png,19,1
 578,461,,others,,,assets/cloth-schemes/others/shunrei.png,19,1
 579,311,148,athena-saints-38,7,14,assets/cloth-schemes/athena-saints/gemini-integra.png,5,16
-580,267,24,athena-saints-6,6,14,assets/cloth-schemes/athena-saints/ara-arles.png,,12
+580,267,24,athena-saints-6,6,14,assets/cloth-schemes/athena-saints/ara-arles.png,6,12
 581,484,,astraea-gods,9,13,assets/cloth-schemes/astraea-golden-tribe/astraea.jpg,5,28
 582,485,,astraea-golden-tribe,,13,assets/cloth-schemes/astraea-golden-tribe/ex.png,5,28
 583,486,,astraea-golden-tribe,,13,assets/cloth-schemes/astraea-golden-tribe/machina.png,5,28
@@ -685,13 +685,13 @@
 684,601,,hades-terrestrial-star-100,14,16,assets/cloth-schemes/hades-specters/star-number.jpg,6,1
 685,192,442,athena-saints-42,5,14,assets/cloth-schemes/athena-saints/hydra-ichi-omega.png,,16
 686,94,187,athena-saints-88,3,14,assets/cloth-schemes/athena-saints/vulpecula-daichi-omega.png,,16
-687,55,443,athena-saints-47,3,14,assets/cloth-schemes/athena-saints/leo-minor-ban-steel.png,,16
-688,301,444,athena-saints-50,3,14,assets/cloth-schemes/athena-saints/lupus-nachi-steel.png,,16
+687,55,443,athena-saints-47,3,14,assets/cloth-schemes/athena-saints/leo-minor-ban-steel.png,8,16
+688,301,444,athena-saints-50,3,14,assets/cloth-schemes/athena-saints/lupus-nachi-steel.png,8,16
 689,448,214,athena-saints-33,3,14,assets/cloth-schemes/athena-saints/dorado-ushio-omega.png,,16
-690,202,445,athena-saints-55,3,14,assets/cloth-schemes/athena-saints/monoceros-jabu-steel.png,,16
+690,202,445,athena-saints-55,3,14,assets/cloth-schemes/athena-saints/monoceros-jabu-steel.png,8,16
 691,386,446,athena-saints-59,6,14,assets/cloth-schemes/athena-saints/ophiuchus-shaina-omega.png,5,16
 692,392,318,athena-saints-82,3,14,assets/cloth-schemes/athena-saints/tucana-sho-omega.png,,16
-693,152,447,athena-saints-83,3,14,assets/cloth-schemes/athena-saints/ursa-major-geki-steel.png,,16
+693,152,447,athena-saints-83,3,14,assets/cloth-schemes/athena-saints/ursa-major-geki-steel.png,8,16
 694,3,,athena-unknown-saints,,14,assets/cloth-schemes/athena-saints/vice-principal.jpg,,16
 695,602,,others,,14,assets/cloth-schemes/others/asamori-hakase.png,19,12
 696,352,,others,,,assets/cloth-schemes/others/misha.png,,16
