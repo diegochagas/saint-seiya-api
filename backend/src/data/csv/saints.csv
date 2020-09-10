@@ -289,7 +289,7 @@
 288,259,216,ares-gods-martians,9,11,assets/cloth-schemes/ares-martians/mars-ludwig.png,5,16
 289,260,284,athena-saints-66,7,14,assets/cloth-schemes/athena-saints/pisces-lugonis.jpg,5,6
 290,261,36,hades-celestial-star-9,13,16,assets/cloth-schemes/hades-specters/balron-lune.jpg,1,1
-291,262,209,eris-dryads,,15,assets/cloth-schemes/eris-dryads/madness-mania.jpg,4,5
+291,262,209,eris-dryads,,15,assets/cloth-schemes/eris-dryads/madness-mania.jpg,5,5
 292,263,55,athena-saints-12,7,14,assets/cloth-schemes/athena-saints/cancer-manigold.png,21,6
 293,264,217,ares-martians,15,11,assets/cloth-schemes/ares-martians/martian-commander.png,8,16
 294,265,245,eris-dryads,,15,assets/cloth-schemes/eris-dryads/oblivion-maria.png,4,5
@@ -714,3 +714,6 @@
 713,577,,others,24,14,assets/cloth-schemes/others/goldy.jpg,16,4
 714,578,,others,24,14,assets/cloth-schemes/others/blondy.png,1,4
 715,579,,others,,,assets/cloth-schemes/others/shoryu.png,1,4
+716,422,,others,,14,assets/cloth-schemes/others/tatsumi-tokumaru.png,,1
+717,580,,others,,14,assets/cloth-schemes/others/father-tokumaru.png,4,5
+718,581,,athena-unknown-saints,5,14,assets/cloth-schemes/athena-saints/olivia-tokumaru.png,4,5
