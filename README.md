@@ -81,5 +81,6 @@ npm run deploy
 - [The 88 Constellations and Their Brightest Stars](https://sleepopolis.com/education/constellations-stars/)
 - [Evil Stars List (Portuguese)](https://ssu.fandom.com/wiki/Lista_de_Estrelas_Malignas)
 - [108 Stars of Destiny](https://en.wikipedia.org/wiki/108_Stars_of_Destiny)
+- [Saint Seiya - Saintia Shou: Manga Online(Portuguese)](https://unionmangas.top/manga/saint-seiya-saintia-shou)
 
 # God be praised!

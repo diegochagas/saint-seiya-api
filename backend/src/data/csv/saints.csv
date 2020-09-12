@@ -389,7 +389,7 @@
 388,360,392,athena-saints-64,4,14,assets/cloth-schemes/athena-saints/phoenix-ritahoa.jpg,,32
 389,361,152,hades-terrestrial-star-91,13,16,assets/cloth-schemes/hades-specters/golem-rock.jpg,1,1
 390,362,261,athena-saints-62,5,14,assets/cloth-schemes/athena-saints/pegasus-rodorio.jpg,,29
-391,363,125,gladiators,Indestructible Sacred Sword,,assets/cloth-schemes/gladiators/durandal-roland.png,2,10
+391,363,125,gladiators,Indestructible Sacred Sword,,assets/cloth-schemes/gladiators/durandal-roland.jpg,7,10
 392,364,298,ares-heavenly-kings-martians,44,11,assets/cloth-schemes/ares-martians/romulus.png,5,16
 393,365,295,athena-former-saints-66,5,14,assets/cloth-schemes/athena-saints/rangifer-rudolph.png,6,16
 394,366,300,odin-drbal-god-warriors,,34,assets/cloth-schemes/odin-god-warriors/rung.png,5,22
@@ -717,3 +717,5 @@
 716,422,,others,,14,assets/cloth-schemes/others/tatsumi-tokumaru.png,,1
 717,580,,others,,14,assets/cloth-schemes/others/father-tokumaru.png,4,5
 718,581,,athena-unknown-saints,5,14,assets/cloth-schemes/athena-saints/olivia-tokumaru.png,4,5
+719,474,,others,,14,assets/cloth-schemes/others/lithos-chrysalis.png,2,8
+720,376,,artemis-satellites,1,12,assets/cloth-schemes/artemis-satellites/lythos.png,4,5
