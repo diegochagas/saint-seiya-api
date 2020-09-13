@@ -1,6 +1,6 @@
 # Saint Seiya API
 
-A RESTful API for Saint Seiya - https://saint-seiya-api.herokuapp.com/
+A RESTful API for Saint Seiya - http://diegochagas.com/saint-seiya-api/
 
 ## Used technologies
 
