@@ -371,7 +371,7 @@ module.exports = {
           { name: 'Gods', saints: collection.filter(saint => saint.group === 'artemis-gods') },
         ],
         saints: [
-          { name: 'Satellite Commander', saints: collection.filter(saint => saint.group === 'artemis-satellite-commander') },
+          { name: 'Satellite Representative', saints: collection.filter(saint => saint.group === 'artemis-satellite-representative') },
           { name: 'Satellite Captain', saints: collection.filter(saint => saint.group === 'artemis-satellite-captain') },
           { name: 'Satellites', saints: collection.filter(saint => saint.group === 'artemis-satellites') },
         ],
