@@ -517,7 +517,7 @@
 516,452,238,hades-celestial-star-24,13,16,assets/cloth-schemes/hades-specters/nasu-veronica.jpg,3,6
 517,453,44,hades-celestial-star-13,13,16,assets/cloth-schemes/hades-specters/behemoth-violate.jpg,3,6
 518,455,362,ares-heavenly-kings-martians,44,11,assets/cloth-schemes/ares-martians/vulcanus.png,5,16
-519,456,,hades-faceless,,16,assets/cloth-schemes/hades-faceless/wadatsumi.jpg,2,10
+519,456,,hades-faceless,,16,assets/cloth-schemes/hades-faceless/wadatsumi.png,2,10
 520,457,338,tezcatlipoca-gods,9,2,assets/cloth-schemes/tezcatlipoca-jaguars/tezcatlipoca-wesda.jpg,3,7
 521,458,41,hades-terrestrial-star-97,14,16,assets/cloth-schemes/hades-specters/bat-wimber.jpg,3,6
 522,459,352,athena-saints-84,5,14,assets/cloth-schemes/athena-saints/ursa-minor-xiaoling.png,4,5
@@ -720,3 +720,5 @@
 719,474,,others,,14,assets/cloth-schemes/others/lithos-chrysalis.png,2,8
 720,376,,artemis-satellites,1,12,assets/cloth-schemes/artemis-satellites/lythos.png,4,5
 721,584,,athena-unknown-saints,,14,assets/cloth-schemes/athena-saints/klaus.png,4,5
+722,454,,others,,,assets/cloth-schemes/others/viviane.jpg,2,10
+723,255,,others,,,assets/cloth-schemes/others/natassia-daughter.png,2,10
