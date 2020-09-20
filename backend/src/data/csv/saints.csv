@@ -1,7 +1,7 @@
 ﻿id,name,cloth,group,rank,affiliation,image,artist,debut
 1,1,148,athena-saints-38,7,14,assets/cloth-schemes/athena-saints/gemini-abel.png,16,4
 2,2,371,apollo-gods,9,10,assets/cloth-schemes/apolo-corona-saints/abel.jpg,17,23
-3,,,hakuryu-high-ranking,9,37,assets/cloth-schemes/hakuryu-taonias/high-ranking-taonias.jpg,3,7
+3,,,hakuryu-high-ranking,21,37,assets/cloth-schemes/hakuryu-taonias/high-ranking-taonias.jpg,3,7
 4,4,330,pallas-weapon-firstclass-3,32,26,assets/cloth-schemes/pallas-pallasites/graviton-aegaeon.png,5,16
 5,5,147,pallas-weapon-secondclass-3,33,26,assets/cloth-schemes/pallas-pallasites/gauntlet-phantom-arm-aegir.png,8,16
 6,6,83,athena-saints-29,6,14,assets/cloth-schemes/athena-saints/crater-aeson.png,5,5
@@ -196,7 +196,7 @@
 195,181,287,odin-representative,31,34,assets/cloth-schemes/odin-god-warriors/polaris-hilda.jpg,,12
 196,182,73,athena-saints-23,5,14,assets/cloth-schemes/athena-saints/circinus-hooke.png,6,16
 197,183,240,typhon-gods-11,,40,assets/cloth-schemes/typhon-gigas/nefritis-hoplisma.jpg,2,8
-198,184,241,hakuryu-taonias,,37,assets/cloth-schemes/hakuryu-taonias/nine-tailed-fox-hui.jpg,3,7
+198,184,241,hakuryu-taonias,21,37,assets/cloth-schemes/hakuryu-taonias/nine-tailed-fox-hui.jpg,3,7
 199,185,18,athena-saints-4,7,14,assets/cloth-schemes/athena-saints/aquarius-hyoga.png,,10
 200,185,90,athena-saints-31,5,14,assets/cloth-schemes/athena-saints/cygnus-hyoga-1.jpg,1,1
 201,185,91,athena-saints-31,5,14,assets/cloth-schemes/athena-saints/cygnus-hyoga-anime-1.png,,12
@@ -326,7 +326,7 @@
 325,295,67,athena-saints-21,6,14,assets/cloth-schemes/athena-saints/cetus-moses.jpg,1,1
 326,296,26,athena-saints-7,7,14,assets/cloth-schemes/athena-saints/aries-mu.jpg,1,1
 327,296,27,athena-saints-7,9,14,assets/cloth-schemes/athena-saints/aries-mu-god.png,5,14
-328,297,323,hakuryu-taonias,,37,assets/cloth-schemes/hakuryu-taonias/sparrow-mudan.jpg,3,7
+328,297,323,hakuryu-taonias,21,37,assets/cloth-schemes/hakuryu-taonias/sparrow-mudan.jpg,3,7
 329,298,189,athena-saints-46,7,14,assets/cloth-schemes/athena-saints/leo-mycenae.png,5,16
 330,299,18,athena-saints-4,7,14,assets/cloth-schemes/athena-saints/aquarius-mystoria.png,16,4
 331,300,257,hades-terrestrial-star-83,14,16,assets/cloth-schemes/hades-specters/papillon-myu.jpg,1,1
@@ -351,7 +351,7 @@
 350,322,327,typhon-brothers-3,,40,assets/cloth-schemes/typhon-gigas/stupidity-pallas.jpg,5,27
 351,323,256,pallas-gods,9,26,assets/cloth-schemes/pallas-pallasites/pallas.png,5,16
 352,325,,hades-representative,31,16,assets/cloth-schemes/hades-specters/pandora-heinstein.png,,1
-353,326,33,gladiators,,,assets/cloth-schemes/gladiators/azoth-paracelsus.jpg,2,10
+353,326,33,gladiators,,,assets/cloth-schemes/gladiators/azoth-paracelsus.png,2,10
 354,327,17,athena-saints-3,5,14,assets/cloth-schemes/athena-saints/apus-paradise.png,,29
 355,328,148,athena-saints-38,7,14,assets/cloth-schemes/athena-saints/gemini-paradox.png,5,16
 356,328,326,pallas-weapon-secondclass-4,33,26,assets/cloth-schemes/pallas-pallasites/staff-scarlet-janus-paradox.png,8,16
@@ -601,7 +601,7 @@
 600,502,66,athena-former-saints-13,6,14,assets/cloth-schemes/athena-saints/cerberus-saint-woman-2.jpg,,29
 601,503,414,athena-saints-9,6,14,assets/cloth-schemes/athena-saints/bootes-saint.png,20,6
 602,504,415,athena-saints-11,6,14,assets/cloth-schemes/athena-saints/camelopardalis-saint.png,20,6
-603,,,hakuryu-low-ranking,9,37,assets/cloth-schemes/hakuryu-taonias/low-ranking-taonias.jpg,3,7
+603,,,hakuryu-low-ranking,25,37,assets/cloth-schemes/hakuryu-taonias/low-ranking-taonias.jpg,3,7
 604,506,70,athena-saints-22,5,14,assets/cloth-schemes/athena-saints/chameleon-saint.jpg,,29
 605,507,416,athena-saints-24,5,14,assets/cloth-schemes/athena-saints/columba-saint.jpg,,29
 606,508,417,athena-saints-25,5,14,assets/cloth-schemes/athena-saints/coma-berenices-saint.jpg,,29
@@ -722,3 +722,7 @@
 721,584,,athena-unknown-saints,,14,assets/cloth-schemes/athena-saints/klaus.png,4,5
 722,454,,others,,,assets/cloth-schemes/others/viviane.jpg,2,10
 723,255,,others,,,assets/cloth-schemes/others/natassia-daughter.png,2,10
+724,603,,hades-faceless,,16,assets/cloth-schemes/hades-faceless/fear-demon.png,2,10
+725,604,,hades-faceless,,16,assets/cloth-schemes/hades-faceless/fire-demon.png,2,10
+726,,,gladiators-low,25,,assets/cloth-schemes/gladiators/no-name-gladiator.png,2,10
+727,,,gladiators-low,25,,assets/cloth-schemes/gladiators/unknown-gladiator.png,2,10

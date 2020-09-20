@@ -283,6 +283,7 @@ module.exports = {
       response.json({
         saints: [
           { name: 'Gladiators', saints: collection.filter(saint => saint.group === 'gladiators') },
+          { name: 'Low Ranking Gladiators', saints: collection.filter(saint => saint.group === 'gladiators-low') },
         ],
       });
     } else if (request.params.class === 'god-warriors') {
