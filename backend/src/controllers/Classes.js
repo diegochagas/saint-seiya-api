@@ -77,42 +77,38 @@ module.exports = {
     }
   
     if (request.params.class === 'saints') {
-      let withoutConstellations = [];
-      let gods = [];
-      let apprentices = [];
-      let soldiers = [];
-      let constellations = [];
-      let formerConstellations = [];
-      let hinduConstellations = [];
-      let chineseConstellations = [];
-
-      withoutConstellations = [{
+      let withoutConstellations = [{
         name: 'Saints without constellation',
         saints: collection.filter(saint => saint.group === 'athena-unknown-saints'),
       }];
 
-      gods = [{
+      let gods = [{
         name: 'Gods',
         saints: collection.filter(saint => saint.group === 'athena-gods'),
       }];
           
-      apprentices = [{
+      let apprentices = [{
         name: 'Apprentices Saints',
         saints: collection.filter(saint => saint.group === 'athena-apprentices'),
       }];
 
-      soldiers = [{
+      let soldiers = [{
         name: 'Soldiers Saints',
         saints: collection.filter(saint => saint.group === 'athena-soldiers'),
       }];
 
-      constellations = [
+      let constellations = [
         ...groupSaints(collection, 'athena-saints'),
         ...getRestOfTheCollection(collection, 'constellations', collections),
       ].sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1);
-      formerConstellations = groupSaints(collection, 'athena-former-saints');
-      hinduConstellations = groupSaints(collection, 'athena-hindu-saints');
-      chineseConstellations = groupSaints(collection, 'athena-chinese-saints');
+
+      let formerConstellations = groupSaints(collection, 'athena-former-saints');
+
+      let hinduConstellations = groupSaints(collection, 'athena-hindu-saints');
+
+      let chineseConstellations = groupSaints(collection, 'athena-chinese-saints');
+
+      let gladiators = groupSaints(collection, 'athena-gladiators');
 
       response.json({
         withoutConstellations,
@@ -123,6 +119,7 @@ module.exports = {
         formerConstellations,
         hinduConstellations,
         chineseConstellations,
+        gladiators,
       });
     } else if (request.params.class === 'specters') {
       let unknownEvilStar = [];

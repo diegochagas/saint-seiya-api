@@ -57,6 +57,7 @@ export class SaintsListComponent implements OnInit {
         this.groups.push({ title: "Saints without constellations", items: response.withoutConstellations });
         this.groups.push({ title: "Soldiers Saints", items: response.soldiers });
         this.groups.push({ title: "Apprentices Saints", items: response.apprentices });
+        this.groups.push({ title: "Gladiators", items: response.gladiators });
       } else if (this.className === 'specters') {
         this.groups = [];
 

@@ -21,7 +21,6 @@ const files = [
   'groupsCyclops',
   'groupsEris',
   'groupsGarnet',
-  'groupsGladiators',
   'groupsHades',
   'groupsHakuryu',
   'groupsLamech',

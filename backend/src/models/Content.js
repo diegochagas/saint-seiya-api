@@ -56,7 +56,6 @@ const loadSaintsData = (saints, content) => {
     if (saint.group.includes('cyclops')) group = getGroup(content.groupsCyclops, saint);
     if (saint.group.includes('eris')) group = getGroup(content.groupsEris, saint);
     if (saint.group.includes('garnet')) group = getGroup(content.groupsGarnet, saint);
-    if (saint.group.includes('gladiators')) group = getGroup(content.groupsGladiators, saint);
     if (saint.group.includes('hades')) group = getGroup(content.groupsHades, saint);
     if (saint.group.includes('hakuryu')) group = getGroup(content.groupsHakuryu, saint);
     if (saint.group.includes('lamech')) group = getGroup(content.groupsLamech, saint);
