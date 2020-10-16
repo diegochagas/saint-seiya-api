@@ -19,10 +19,21 @@ On frontend folder:
 npm i
 ```
 
+And after install all the packages:
+
+```bash
+npm start
+```
+
 On backend folder:
 
 ```bash
 npm i
+```
+
+To run backend local server:
+```bash
+npm start
 ```
 
 To convert CSVs to JSONs files:
@@ -35,13 +46,6 @@ and
 
 ```bash
 node csvtojson.js
-```
-
-To run backend local server:
-
-Go to backend folder and run:
-```bash
-npm start
 ```
 
 To execute a deploy on Github Pages:
