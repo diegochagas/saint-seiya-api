@@ -17,10 +17,6 @@ export class ClassesService {
 
   constructor( private  http: HttpClient ) { }
 
-  getClassNames() {
-    return this.http.get(`${this.api}/class-names`, { headers: this.headers });
-  }
-
   getAllClasses() {
     return this.http.get(`${this.api}/all-classes`, { headers: this.headers });
   }
@@ -47,5 +43,31 @@ export class ClassesService {
 
   getEvilStar(id: string) {
     return this.http.get(`${this.api}/evil-star/${id}`, { headers: this.headers });
+  }
+
+  getClassNames() {
+    return [
+      { name: 'Angels', route: 'angels' },
+      { name: 'Berserkers / Martians', route: 'berserkers' },
+      { name: 'Corona Saints', route: 'corona-saints' },
+      { name: 'Cyclops', route: 'cyclops' },
+      { name: 'Dryads', route: 'dryads' },
+      { name: 'Fairies', route: 'fairies' },
+      { name: 'Gigas', route: 'gigas' },
+      { name: 'God Warriors / Blue Warriors', route: 'god-warriors' },
+      { name: 'Golden Tribe', route: 'golden-tribe' },
+      { name: 'Jaguars', route: 'jaguars' },
+      { name: 'Jewels', route: 'jewels' },
+      { name: 'Lamech Saints', route: 'lamech-saints' },
+      { name: 'Legionaries', route: 'legionaries' },
+      { name: 'Mariners', route: 'mariners' },
+      { name: 'Others', route: 'others' },
+      { name: 'Pallasites', route: 'pallasites' },
+      { name: 'Saints / Gladiators', route: 'saints' },
+      { name: 'Satellites', route: 'satellites' },
+      { name: 'Specters / Faceless', route: 'specters' },
+      { name: 'Taonias', route: 'taonias' },
+      { name: 'Titans', route: 'titans' },
+    ];
   }
 }

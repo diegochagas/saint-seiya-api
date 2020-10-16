@@ -21,8 +21,6 @@ routes.get('/api/character/:id', CharactersController.getCharacter);
 
 routes.get('/api/curiosities', CharactersController.getCuriosities);
 
-routes.get('/api/class-names', ClassesController.getClassNames);
-
 routes.get('/api/all-classes', ClassesController.getAllClasses);
 
 routes.get('/api/:class', ClassesController.getClassSaints);

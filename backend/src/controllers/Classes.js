@@ -37,19 +37,6 @@ function getRestOfTheCollection(collection, collectionName, collections) {
 }
 
 module.exports = {
-  async getClassNames(request, response) {
-    const collections = await Content.getColletions();
-
-    let classNames = [];
-
-    for (let i = 0; i < collections.length; i++) {
-      if (collections[i].collectionPath === 'classNames') {
-        classNames = collections[i].collection;
-      }
-    }
-
-    response.json(classNames);
-  },
   async getAllClasses(request, response) {
     const collections = await Content.getColletions();
 

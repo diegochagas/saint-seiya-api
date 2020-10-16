@@ -30,10 +30,6 @@ export class TestCallsComponent implements OnInit {
 
   isLoadingCuriosities = false;
 
-  classNamesResponse;
-
-  isLoadingClassNames = false;
-
   allClassesResponse;
 
   isLoadingAllClasses = false;
@@ -91,14 +87,7 @@ export class TestCallsComponent implements OnInit {
   }
 
   async loadClassesNames () {
-    const response: any = await this.classesService.getClassNames().toPromise();
-
-    response.forEach(cls => {
-      this.classNames.push({
-        name: cls.name.replace(' ', '-').toLowerCase(),
-        singular: cls.singular.replace(' ', '-').toLowerCase()
-      });
-    });
+    this.classNames = await this.classesService.getClassNames();
   }
 
   async getCharacters() {
@@ -131,16 +120,6 @@ export class TestCallsComponent implements OnInit {
     this.isLoadingCuriosities = false;
   }
 
-  async getClassNames() {
-    this.isLoadingClassNames = true;
-
-    const response: any = await this.classesService.getClassNames().toPromise();
-
-    this.classNamesResponse = JSON.stringify(response);
-
-    this.isLoadingClassNames = false;
-  }
-
   async getClasses() {
     this.isLoadingAllClasses = true;
 
@@ -156,7 +135,19 @@ export class TestCallsComponent implements OnInit {
 
     const response: any = await this.classesService.getClass(this.className).toPromise();
 
-    this.classesResponse = JSON.stringify(response.slice(0, 10));
+    let allSaintsResponse: any = {};
+
+    for (const property in response) {
+      response[property].forEach(warrriorType => {
+        const saints = warrriorType.saints.length > 5 ? warrriorType.saints.slice(0, 5) : warrriorType.saints;
+
+        allSaintsResponse[property] = { name: warrriorType.name, saints };
+      });
+    }
+
+    console.log(allSaintsResponse);
+
+    this.classesResponse = JSON.stringify(allSaintsResponse);
 
     this.isLoadingClasses = false;
   }
@@ -177,7 +168,15 @@ export class TestCallsComponent implements OnInit {
         ...response.otherEvilStars.map(cls => cls.id)
       ];
     } else {
-      this.classIds = response.map(cls => cls.id);
+      const allSaintsResponse = [];
+
+      for (const property in response) {
+        response[property].forEach(warrriorType => {
+          allSaintsResponse.push(...warrriorType.saints);
+        });
+      }
+
+      this.classIds = allSaintsResponse.map(cls => cls.id);
     }
 
     this.classId = undefined;

@@ -105,34 +105,6 @@
     <mat-tab label="Classes">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Get all class names</h5>
-
-          <p class="card-text">
-            <b>Endpoint </b>
-
-            <span>{{ pageURL }}/class-names</span>
-          </p>
-
-          <p class="card-text">
-            <b>HTTP Method </b>
-
-            <span>GET</span>
-          </p>
-
-          <button class="btn btn-dark" (click)="getClassNames()">Try it</button>
-        </div>
-
-        <div class="card-footer" *ngIf="classNamesResponse">
-          <code>{{ classNamesResponse }}</code>
-        </div>
-
-        <div class="card-footer loading-spinner" *ngIf="isLoadingClassNames">
-          <app-spinner [spinner]="'zodiac-wheel'" [color]="'black'"></app-spinner>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-body">
           <h5 class="card-title">Get all classes of characters</h5>
 
           <p class="card-text">
@@ -159,9 +131,9 @@
         </div>
       </div>
 
-      <div class="card" *ngIf="classNames.length">
+      <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Get several class types</h5>
+          <h5 class="card-title">Get several warriors class types</h5>
 
           <p class="card-text">
             <b>Endpoint </b>
@@ -170,7 +142,7 @@
 
             <mat-form-field>
               <mat-select (selectionChange)="className = $event.value">
-                <mat-option *ngFor="let className of classNames" [value]="className.name">{{ className.name }}</mat-option>
+                <mat-option *ngFor="let className of classNames" [value]="className.route">{{ className.route }}</mat-option>
               </mat-select>
             </mat-form-field>
           </p>
@@ -195,7 +167,7 @@
 
       <div class="card" *ngIf="classNames.length">
         <div class="card-body">
-          <h5 class="card-title">Get an class type</h5>
+          <h5 class="card-title">Get an warrior class type</h5>
 
           <p class="card-text">
             <b>Endpoint </b>
@@ -204,7 +176,7 @@
 
             <mat-form-field>
               <mat-select (selectionChange)="selectClassName($event.value)">
-                <mat-option *ngFor="let className of classNames" [value]="className.name">{{ className.singular }}</mat-option>
+                <mat-option *ngFor="let className of classNames" [value]="className.route">{{ className.route }}</mat-option>
               </mat-select>
             </mat-form-field>
 
