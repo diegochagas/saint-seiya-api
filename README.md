@@ -39,6 +39,7 @@ node csvtojson.js
 
 To run backend local server:
 
+Go to backend folder and run:
 ```bash
 npm start
 ```
