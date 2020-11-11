@@ -145,8 +145,6 @@ export class TestCallsComponent implements OnInit {
       });
     }
 
-    console.log(allSaintsResponse);
-
     this.classesResponse = JSON.stringify(allSaintsResponse);
 
     this.isLoadingClasses = false;

@@ -678,7 +678,7 @@
 677,594,,hades-terrestrial-star-71,14,16,assets/cloth-schemes/hades-specters/star-succeed.jpg,6,1
 678,595,,hades-terrestrial-star-75,14,16,assets/cloth-schemes/hades-specters/star-manage.jpg,6,1
 679,596,,hades-terrestrial-star-87,14,16,assets/cloth-schemes/hades-specters/fabio.jpg,6,29
-680,597,,hades-terrestrial-star-94,14,16,assets/cloth-schemes/hades-specters/star-level.jpg,5,1
+680,597,,hades-terrestrial-star-94,14,16,assets/cloth-schemes/hades-specters/star-level.jpg,6,1
 681,598,,hades-terrestrial-star-45,14,16,assets/cloth-schemes/hades-specters/star-fierce.jpg,6,1
 682,599,,hades-terrestrial-star-68,14,16,assets/cloth-schemes/hades-specters/star-forward.jpg,6,1
 683,600,,hades-terrestrial-star-42,14,16,assets/cloth-schemes/hades-specters/star-majestic.jpg,6,1
@@ -730,3 +730,8 @@
 729,,,hades-faceless,,16,assets/cloth-schemes/hades-faceless/unnamed-faceless.png,2,10
 730,,,athena-gladiators-low,25,14,assets/cloth-schemes/athena-gladiators/unknown-gladiator-3.png,2,10
 731,606,,others,40,39,assets/cloth-schemes/others/euryale-gorgon.png,2,8
+732,607,,hades-celestial-star-33,13,16,assets/cloth-schemes/hades-specters/stone.jpg,,29
+733,608,,hades-celestial-star-11,13,16,assets/cloth-schemes/hades-specters/star-wealth.jpg,,29
+734,609,,hades-terrestrial-star-84,14,16,assets/cloth-schemes/hades-specters/star-tranquil.jpg,6,1
+735,610,,hades-terrestrial-star-88,14,16,assets/cloth-schemes/hades-specters/star-solitary.jpg,,29
+736,611,,hades-terrestrial-star-50,14,16,assets/cloth-schemes/hades-specters/star-strong.jpg,,29
