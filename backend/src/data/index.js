@@ -10,6 +10,7 @@ const familyMembers = require('./json/familyMembers.json')
 const groupsApollo = require('./json/groupsApollo.json')
 const groupsAres = require('./json/groupsAres.json')
 const groupsArtemis = require('./json/groupsArtemis.json')
+const groupsArthur = require('./json/groupsArthur.json')
 const groupsAstraea = require('./json/groupsAstraea.json')
 const groupsAthena = require('./json/groupsAthena.json')
 const groupsBalor = require('./json/groupsBalor.json')
@@ -49,6 +50,7 @@ module.exports = {
     groupsApollo,
     groupsAres,
     groupsArtemis,
+    groupsArthur,
     groupsAstraea,
     groupsAthena,
     groupsBalor,

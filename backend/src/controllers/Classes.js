@@ -95,8 +95,6 @@ module.exports = {
 
       let chineseConstellations = groupSaints(collection, 'athena-chinese-saints');
 
-      let gladiators = groupSaints(collection, 'athena-gladiators');
-
       response.json({
         withoutConstellations,
         gods,
@@ -106,7 +104,6 @@ module.exports = {
         formerConstellations,
         hinduConstellations,
         chineseConstellations,
-        gladiators,
       });
     } else if (request.params.class === 'specters') {
       let unknownEvilStar = [];
@@ -265,10 +262,11 @@ module.exports = {
       });
     } else if (request.params.class === 'gladiators') {
       response.json({
-        saints: [
-          { name: 'Gladiators', saints: collection.filter(saint => saint.group === 'gladiators') },
-          { name: 'Low Ranking Gladiators', saints: collection.filter(saint => saint.group === 'gladiators-low') },
+        king: groupSaints(collection, 'gladiators-king'),
+        gladiators: [
+          { name: 'Gladiators', saints: collection.filter(saint => saint.group === 'arthur-gladiators') },
         ],
+        lowGladiators: groupSaints(collection, 'gladiators-low'),
       });
     } else if (request.params.class === 'god-warriors') {
       response.json({

@@ -57,7 +57,6 @@ export class SaintsListComponent implements OnInit {
         this.groups.push({ title: "Saints without constellations", items: response.withoutConstellations });
         this.groups.push({ title: "Soldiers Saints", items: response.soldiers });
         this.groups.push({ title: "Apprentices Saints", items: response.apprentices });
-        this.groups.push({ title: "Gladiators", items: response.gladiators });
       } else if (this.className === 'specters') {
         this.groups = [];
 
@@ -96,6 +95,14 @@ export class SaintsListComponent implements OnInit {
         this.groups.push({ title: "Gods", items: response.gods });
         this.groups.push({ title: "Typhon Sons", items: response.sons });
         this.groups.push({ title: "Typhon Brothers", items: response.brothers });
+      } else if (this.className === 'gladiators') {
+        this.groups = [];
+
+        const response: any = await this.classesService.getClass(this.className).toPromise();
+
+        this.groups.push({ title: "King", items: response.king });
+        this.groups.push({ title: "Gladiators", items: response.gladiators });
+        this.groups.push({ title: "Low Ranking Gladiators", items: response.lowGladiators });
       } else if (this.className === 'god-warriors') {
         this.groups = [];
 

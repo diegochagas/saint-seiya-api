@@ -14,6 +14,7 @@ const files = [
   'groupsApollo',
   'groupsAres',
   'groupsArtemis',
+  'groupsArthur',
   'groupsAstraea',
   'groupsAthena',
   'groupsBalor',
