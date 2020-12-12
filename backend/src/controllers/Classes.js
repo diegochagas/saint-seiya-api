@@ -22,16 +22,20 @@ function getRestOfTheCollection(collection, collectionName, collections) {
   const newCollection = [];
   
   const collectionsObjects = collections.find(item => item.collectionPath === collectionName);
-          
-  for (let j = 0; j < collectionsObjects.collection.length; j++) {
-    const collectionsObject = collectionsObjects.collection[j];
 
-    const group = `${collectionsObject.group}-${collectionsObject.id}`;
-
-    const foundSaint = collection.some(saint => saint.group === group);
-    
-    if (!foundSaint) newCollection.push({ ...collectionsObject, saints: [] });
-  }
+  if (collectionsObjects) {
+    for (let j = 0; j < collectionsObjects.collection.length; j++) {
+      const collectionsObject = collectionsObjects.collection[j];
+  
+      const group = `${collectionsObject.group}-${collectionsObject.id}`;
+  
+      const foundSaint = collection.some(saint => saint.group === group);
+      
+      if (!foundSaint) newCollection.push({ ...collectionsObject, saints: [] });
+    }
+  } else {
+    console.error(`collectionName ${collectionName} not found in collections`);
+  }      
 
   return newCollection;
 }
@@ -209,7 +213,10 @@ module.exports = {
         saints: collection.filter(saint => saint.group.includes('ares') && saint.group.includes('gods')),
       }];
 
-      berserkers = groupSaints(collection, '-legion').filter(saints => saints.name.includes('Legion Of'));
+      berserkers = [
+        ...groupSaints(collection, 'ares-legions'),
+        ...getRestOfTheCollection(collection, 'ares-legions', collections)
+      ].sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1);
           
       martians = [
         { name: 'Mars Representative', saints: collection.filter(saint => saint.group === 'ares-representative-martians') },

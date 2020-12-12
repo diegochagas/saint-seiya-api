@@ -75,7 +75,7 @@ const loadSaintsData = (saints, content) => {
     
       saint.groupName = group.name;
     } else {
-      console.error(`Error: Saint ${saint.name} from group ${saint.group} not found, group is ${group}`);
+      console.error(`Error: Saint ${saint.name || 'undefined'} from group ${saint.group || 'undefined'} not found, group is ${group}`);
     }
 
     content.ranks.forEach(rank => {
@@ -273,6 +273,11 @@ const getColletions = async () => {
   collections.push({
     collectionPath: 'evil-stars',
     collection: content.groupsHades.filter(group => group.group === 'hades-celestial-star' || group.group === 'hades-terrestrial-star'),
+  });
+  
+  collections.push({
+    collectionPath: 'ares-legions',
+    collection: content.groupsAres.filter(group => group.group.includes('ares-legions')),
   });
 
   collections.push({ collectionPath: 'debuts', collection: loadDebutsData(content) });
