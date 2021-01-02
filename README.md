@@ -87,5 +87,8 @@ npm run deploy
 - [Evil Stars List (Portuguese)](https://ssu.fandom.com/wiki/Lista_de_Estrelas_Malignas)
 - [108 Stars of Destiny](https://en.wikipedia.org/wiki/108_Stars_of_Destiny)
 - [Saint Seiya - Saintia Shou: Manga Online(Portuguese)](https://unionmangas.top/manga/saint-seiya-saintia-shou)
+- [[Saint Seiya] Hiseiki no Saint/Cavaleiros Irregulares](https://dreamhuntersz.wordpress.com/2018/01/26/saint-seiya-hiseiki-no-saint-cavaleiros-irregulares/)
+- [[Saint Seiya] Ghost Saint/Cavaleiros Fantasmas](https://dreamhuntersz.wordpress.com/2018/01/27/saint-seiya-ghost-saint-cavaleiros-fantasmas/)
+- [[Saint Seiya] Sonota no Saint/Outros Cavaleiros](https://dreamhuntersz.wordpress.com/2020/01/13/saint-seiya-sonota-no-saint-outros-cavaleiros/)
 
 # God be praised!

@@ -38,6 +38,14 @@ export class SaintsListComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  orderSaints(items): void {
+    return items.map(item => {
+      item.saints = item.saints.sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1);
+
+      return item
+    });
+  }
+
   async getCharacters() {
     if (this.detailsType === 'classes') {
       this.pageTitle = this.className.replace('-', ' ');
@@ -60,9 +68,9 @@ export class SaintsListComponent implements OnInit {
         this.groups.push({ title: "Saints with former constellations", items: response.formerConstellations });
         this.groups.push({ title: "Saints with Hindu constellations", items: response.hinduConstellations });
         this.groups.push({ title: "Saints with Chinese constellations", items: response.chineseConstellations });
-        this.groups.push({ title: "Saints without constellations", items: response.withoutConstellations });
-        this.groups.push({ title: "Soldiers Saints", items: response.soldiers });
-        this.groups.push({ title: "Apprentices Saints", items: response.apprentices });
+        this.groups.push({ title: "Saints without constellations", items: this.orderSaints(response.withoutConstellations) });
+        this.groups.push({ title: "Soldiers Saints", items: this.orderSaints(response.soldiers) });
+        this.groups.push({ title: "Apprentices Saints", items: this.orderSaints(response.apprentices) });
       } else if (this.className === 'specters') {
         this.groups = [];
 
