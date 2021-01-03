@@ -643,7 +643,7 @@
 642,505,451,eris-phantoms,9,15,assets/cloth-schemes/eris-dryads/harmony-harmonia.jpg,4,5
 643,552,307,athena-saints-75,5,14,assets/cloth-schemes/athena-saints/scutum-saint.jpg,,29
 644,556,314,athena-saints-77,5,14,assets/cloth-schemes/athena-saints/sextante-saint.jpg,,29
-645,558,434,athena-unknown-saints,,14,assets/cloth-schemes/athena-saints/tornado-elam.jpg,,29
+645,558,434,athena-unknown-saints,6,14,assets/cloth-schemes/athena-saints/tornado-elam.jpg,,29
 646,559,344,athena-saints-80,6,14,assets/cloth-schemes/athena-saints/triangulum-saint.jpg,,29
 647,560,344,athena-saints-80,6,14,assets/cloth-schemes/athena-saints/triangulum-saint-woman.jpg,,29
 648,421,450,pallas-weapon-thirdclass-5,34,26,assets/cloth-schemes/pallas-pallasites/morgenstern-star-crusher-tarvos-2.png,8,16
@@ -735,3 +735,8 @@
 734,612,84,athena-unknown-saints,,14,assets/cloth-schemes/athena-saints/flame-heat-saint.png,5,12
 735,613,,athena-unknown-saints,,14,assets/cloth-schemes/athena-saints/andromeda-island-male-saint.jpg,23,12
 736,614,,athena-unknown-saints,,14,assets/cloth-schemes/athena-saints/andromeda-island-female-saint.jpg,5,12
+737,615,381,athena-unknown-saints,6,14,assets/cloth-schemes/athena-saints/aurora-cloth.jpg,,29
+738,616,452,athena-unknown-saints,6,14,assets/cloth-schemes/athena-saints/desert-cloth.jpg,,29
+739,617,453,athena-unknown-saints,6,14,assets/cloth-schemes/athena-saints/thunderstorm-cloth.jpg,,29
+740,618,454,athena-unknown-saints,6,14,assets/cloth-schemes/athena-saints/tsunami-cloth.jpg,,29
+741,558,455,athena-unknown-saints,9,14,assets/cloth-schemes/athena-saints/tornado-elam-god.jpg,,29
