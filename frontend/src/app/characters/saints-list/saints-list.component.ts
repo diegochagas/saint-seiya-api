@@ -130,8 +130,8 @@ export class SaintsListComponent implements OnInit {
 
         this.groups.push({ title: "Gods", items: response.gods });
         this.groups.push({ title: "Representatives", items: response.representatives });
-        this.groups.push({ title: "God Warriors", items: response.godWarriors });
         this.groups.push({ title: "Blue Warriors", items: response.blueWarriors });
+        this.groups.push({ title: "God Warriors", items: response.godWarriors });
       } else if (this.className === 'satellites') {
         this.groups = [];
 

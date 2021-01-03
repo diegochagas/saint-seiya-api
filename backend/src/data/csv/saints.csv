@@ -67,7 +67,7 @@
 66,60,43,ares-martians,,11,assets/cloth-schemes/ares-martians/beetle-brothers-2.png,,16
 67,61,78,athena-saints-25,5,14,assets/cloth-schemes/athena-saints/coma-berenices-berengue.jpg,5,23
 68,63,191,athena-saints-47,5,14,assets/cloth-schemes/athena-saints/leo-minor-bleriot.png,21,6
-69,,399,odin-blue-warrior-soldiers,,34,assets/cloth-schemes/odin-blue-warriors/blue-warriors-soldiers.png,1,1
+69,,399,odin-blue-warrior-soldiers,,34,assets/cloth-schemes/odin-blue-warriors/blue-warriors-soldiers.jpg,1,1
 70,66,219,typhon-gods-5,,40,assets/cloth-schemes/typhon-gigas/melas-bronte.jpg,2,8
 71,67,3,odin-ursa-major-star-7,,34,assets/cloth-schemes/odin-god-warriors/alcor-bud.jpg,,12
 72,68,239,hades-terrestrial-star-56,13,16,assets/cloth-schemes/hades-specters/necromancer-byaku.png,3,6
@@ -512,7 +512,7 @@
 511,447,,others,9,41,assets/cloth-schemes/others/uranus.png,2,8
 512,448,214,athena-saints-33,3,14,assets/cloth-schemes/athena-saints/dorado-ushio.png,,1
 513,449,164,hades-celestial-star-35,13,16,assets/cloth-schemes/hades-specters/harpy-valentine.jpg,1,1
-514,450,353,odin-representative,31,34,assets/cloth-schemes/odin-god-warriors/valkyrie.jpg,,29
+514,450,353,odin-blue-warrior-representative,31,34,assets/cloth-schemes/odin-blue-warriors/valkyrie.jpg,,29
 515,451,156,hades-celestial-star-10,13,16,assets/cloth-schemes/hades-specters/griffon-minos.jpg,1,4
 516,452,238,hades-celestial-star-24,13,16,assets/cloth-schemes/hades-specters/nasu-veronica.jpg,3,6
 517,453,44,hades-celestial-star-13,13,16,assets/cloth-schemes/hades-specters/behemoth-violate.jpg,3,6
@@ -740,3 +740,6 @@
 739,617,453,athena-unknown-saints,6,14,assets/cloth-schemes/athena-saints/thunderstorm-cloth.jpg,,29
 740,618,454,athena-unknown-saints,6,14,assets/cloth-schemes/athena-saints/tsunami-cloth.jpg,,29
 741,558,455,athena-unknown-saints,9,14,assets/cloth-schemes/athena-saints/tornado-elam-god.jpg,,29
+742,619,456,odin-gods,9,34,assets/cloth-schemes/odin-god-warriors/loki-saint-seiya-online.jpg,,29
+743,,,odin-blue-warrior-soldiers,,34,assets/cloth-schemes/odin-blue-warriors/blue-graad-soldier.jpg,1,1
+744,620,457,poseidon-mariners,,25,assets/cloth-schemes/poseidon-mariners/swordfish-asceta.jpg,,29
