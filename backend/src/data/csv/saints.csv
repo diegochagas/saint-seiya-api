@@ -78,10 +78,10 @@
 77,72,32,athena-saints-8,6,14,assets/cloth-schemes/athena-saints/auriga-capella.jpg,1,1
 78,73,294,tezcatlipoca-gods,9,2,assets/cloth-schemes/tezcatlipoca-jaguars/quetzalcoatl-calvera.jpg,3,7
 79,74,284,athena-saints-66,7,14,assets/cloth-schemes/athena-saints/pisces-cardinale.jpg,5,4
-80,75,321,garnet-jewels,,38,assets/cloth-schemes/garnet-jewels/sliced-blood-carnelian.jpg,3,7
+80,75,321,garnet-jewels,,38,assets/cloth-schemes/garnet-jewels/sliced-blood-carnelian.jpg,15,7
 81,76,,athena-soldiers,1,14,assets/cloth-schemes/athena-saints/soldier-cassios.png,1,1
 82,77,133,athena-saints-35,5,14,assets/cloth-schemes/athena-saints/equuleus-celeris.png,5,16
-83,78,178,garnet-jewels,,38,assets/cloth-schemes/garnet-jewels/illusions-chalcedony.png,3,7
+83,78,178,garnet-jewels,,38,assets/cloth-schemes/garnet-jewels/illusions-chalcedony.jpg,15,7
 84,79,1,hades-celestial-star-4,13,16,assets/cloth-schemes/hades-specters/acheron-charon.jpg,1,1
 85,80,53,hades-terrestrial-star-57,14,16,assets/cloth-schemes/hades-specters/cat-sith-cheshire.jpg,3,6
 86,81,333,typhon-sons-2,,40,assets/cloth-schemes/typhon-gigas/synthetic-beast-chimera.jpg,5,27
@@ -144,7 +144,7 @@
 143,131,161,hakuryu-taonias,21,37,assets/cloth-schemes/hakuryu-taonias/hakutaku-feiyan.jpg,3,7
 144,132,48,hades-unknown-evil-star,,16,assets/cloth-schemes/hades-specters/black-terror-felser.jpg,3,7
 145,133,4,odin-ursa-major-star-4,,34,assets/cloth-schemes/odin-god-warriors/alioth-fenrir.jpg,,12
-146,134,138,garnet-jewels,,38,assets/cloth-schemes/garnet-jewels/flaming-fist-flint.jpg,3,7
+146,134,138,garnet-jewels,,38,assets/cloth-schemes/garnet-jewels/flaming-fist-flint.jpg,15,7
 147,135,235,athena-saints-56,6,14,assets/cloth-schemes/athena-saints/musca-fly.png,8,16
 148,136,,odin-asgard-soldiers,,34,assets/cloth-schemes/odin-god-warriors/folken.png,19,12
 149,137,158,odin-chamber,,34,assets/cloth-schemes/odin-god-warriors/gullinbursti-frodi.png,5,14
@@ -503,7 +503,7 @@
 502,439,175,zeus-angels,,29,assets/cloth-schemes/zeus-angels/icarus-toma.png,17,25
 503,439,320,zeus-angels,,29,assets/cloth-schemes/zeus-angels/sleep-angel-toma.jpg,1,4
 504,440,30,athena-gods,9,14,assets/cloth-schemes/athena-saints/athena-tomoe.png,2,10
-505,441,129,garnet-jewels,,38,assets/cloth-schemes/garnet-jewels/electricity-tourmasline.jpg,3,7
+505,441,129,garnet-jewels,,38,assets/cloth-schemes/garnet-jewels/electricity-tourmasline.jpg,15,7
 506,442,16,arthur-gladiators,,14,assets/cloth-schemes/arthur-gladiators/aparajita-trivikramasena.jpg,7,10
 507,443,355,athena-saints-85,6,14,assets/cloth-schemes/athena-saints/vela-tsubaki.png,5,6
 508,444,348,typhon-gods-1,9,40,assets/cloth-schemes/typhon-gigas/typhon.jpg,5,27
