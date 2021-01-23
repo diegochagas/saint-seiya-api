@@ -263,7 +263,7 @@
 262,234,270,athena-saints-62,9,14,assets/cloth-schemes/athena-saints/pegasus-kouga-omega-1.png,5,16
 263,234,271,athena-saints-62,9,14,assets/cloth-schemes/athena-saints/pegasus-kouga-super-omega.png,5,16
 264,235,18,athena-saints-4,7,14,assets/cloth-schemes/athena-saints/aquarius-krest.jpg,5,7
-265,235,183,garnet-jewels,,38,assets/cloth-schemes/garnet-jewels/koh-i-noor-krest.jpg,3,7
+265,235,183,garnet-jewels,,38,assets/cloth-schemes/garnet-jewels/koh-i-noor-krest.jpg,15,7
 266,236,72,poseidon-mariners-generals,18,25,assets/cloth-schemes/poseidon-mariners/chrysaor-krishna.jpg,1,1
 267,185,441,athena-saints-31,5,14,assets/cloth-schemes/athena-saints/cygnus-hyoga-omega.png,5,16
 268,238,132,athena-saints-35,5,14,assets/cloth-schemes/athena-saints/equuleus-kyoko.jpg,4,5
@@ -274,7 +274,7 @@
 273,243,28,arthur-gladiators,,14,assets/cloth-schemes/arthur-gladiators/arondight-lancelot.jpg,7,10
 274,424,261,athena-saints-62,5,14,assets/cloth-schemes/athena-saints/pegasus-tenma-1.jpg,5,6
 275,243,56,athena-saints-12,9,14,assets/cloth-schemes/athena-saints/cancer-lancelot-god.jpg,2,10
-276,245,,hades-terrestrial-star-101,13,16,assets/cloth-schemes/hades-specters/larry.jpg,,29
+276,245,,hades-terrestrial-star-101,13,16,assets/cloth-schemes/hades-specters/larry.jpg,15,29
 277,246,,artemis-satellite-captain,12,12,assets/cloth-schemes/artemis-satellites/lascoumoune.png,12,4
 278,247,,athena-unknown-saints,5,14,assets/cloth-schemes/athena-saints/leda.png,6,12
 279,249,,athena-former-saints-72,2,14,assets/cloth-schemes/athena-saints/lei-hu.png,,29
@@ -321,7 +321,7 @@
 320,290,141,hades-terrestrial-star-44,14,16,assets/cloth-schemes/hades-specters/frog-zelos.jpg,1,4
 321,291,220,cronus-titans-12,9,39,assets/cloth-schemes/cronus-titans/memory-mnemosyne.png,5,8
 322,292,341,zeus-fallen-angels,17,29,assets/cloth-schemes/zeus-angels/thrones-moa.jpg,5,24
-323,293,,hades-celestial-star-17,13,16,assets/cloth-schemes/hades-specters/moe.jpg,6,29
+323,293,,hades-celestial-star-17,13,16,assets/cloth-schemes/hades-specters/moe.jpg,15,29
 324,294,232,hades-gods,9,16,assets/cloth-schemes/hades-specters/modeler-morpheus.jpg,3,6
 325,295,67,athena-saints-21,6,14,assets/cloth-schemes/athena-saints/cetus-moses.jpg,1,1
 326,296,26,athena-saints-7,7,14,assets/cloth-schemes/athena-saints/aries-mu.jpg,1,1
