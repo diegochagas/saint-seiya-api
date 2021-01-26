@@ -63,6 +63,7 @@ npm run deploy
 - [Saint Seiya Universe (Portuguese)](https://ssu.fandom.com/wiki/Seiya_Universe_Wiki)
 - [CavZodiaco (Portuguese)](https://www.cavzodiaco.com.br/)
 - [Official arts of the MMORPG Saint Seiya Online (Chinese)](http://seiya.17173.com/news/05072013/171743839_all.shtml)
+- [News: "Saint Seiya online" terminal tour annual edition "Return of the Dead" opens today (about Tornado Saint Elam)](http://news.178.com/201705/289767539107.html)
 - [Marco Albiero fanarts](https://marcoalbiero.it/)
 - [Marco Albiero old fanarts](http://www.burningblood.it/marcoalbiero/animemanga/)
 - [Goldmilo deviantart fanarts](https://goldmilo.deviantart.com/gallery/)
