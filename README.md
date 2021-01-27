@@ -91,5 +91,8 @@ npm run deploy
 - [[Saint Seiya] Hiseiki no Saint/Cavaleiros Irregulares](https://dreamhuntersz.wordpress.com/2018/01/26/saint-seiya-hiseiki-no-saint-cavaleiros-irregulares/)
 - [[Saint Seiya] Ghost Saint/Cavaleiros Fantasmas](https://dreamhuntersz.wordpress.com/2018/01/27/saint-seiya-ghost-saint-cavaleiros-fantasmas/)
 - [[Saint Seiya] Sonota no Saint/Outros Cavaleiros](https://dreamhuntersz.wordpress.com/2020/01/13/saint-seiya-sonota-no-saint-outros-cavaleiros/)
+- [Saint Seiya Awakening Wiki](https://saintseiya.gaming.ph/wiki/Main_Page)
+- [SS Kotz Database](https://www.ssawakeningdb.com/saints/)
+- [Saint Seiya Awakening Kotz Wiki](https://saint-seiya-awakening-kotz.fandom.com/es/wiki/Categor%C3%ADa:Total_de_personajes)
 
 # God be praised!
