@@ -91,7 +91,7 @@
 90,85,96,cronus-titans-7,9,39,assets/cloth-schemes/cronus-titans/dark-lightning-coeus.png,5,8
 91,86,,others,38,29,assets/cloth-schemes/others/cor-tauri.jpg,3,7
 92,87,143,cronus-titans-11,9,39,assets/cloth-schemes/cronus-titans/galaxy-crius.png,5,8
-93,88,35,balor-gods,9,3,assets/cloth-schemes/balor-fairies/balor-cruaich.jpg,9,7
+93,88,35,balor-gods,9,3,assets/cloth-schemes/balor-fairies/balor-cruaich.jpg,,7
 94,89,87,athena-unknown-saints,,14,assets/cloth-schemes/athena-saints/crystal-saint.png,6,12
 95,90,124,hades-terrestrial-star-101,14,16,assets/cloth-schemes/hades-specters/dullahan-cube.jpg,,1
 96,91,,hades-celestial-star-21,13,16,assets/cloth-schemes/hades-specters/curly.jpg,15,29
@@ -256,7 +256,7 @@
 255,229,39,athena-unknown-saints,3,14,assets/cloth-schemes/athena-saints/kelly.png,11,16
 256,230,26,athena-saints-7,7,14,assets/cloth-schemes/athena-saints/aries-kiki.png,5,16
 257,231,133,athena-saints-35,5,14,assets/cloth-schemes/athena-saints/equuleus-kitalpha.png,5,16
-258,232,47,ares-legions-4,23,11,assets/cloth-schemes/ares-berserkers/bhuj-kokalo.jpg,3,7
+258,232,47,ares-legions-4,23,11,assets/cloth-schemes/ares-berserkers/bhuj-kokalo.jpg,15,7
 259,233,157,athena-saints-39,5,14,assets/cloth-schemes/athena-saints/grus-komachi.png,6,16
 260,234,268,athena-saints-62,5,14,assets/cloth-schemes/athena-saints/pegasus-kouga-1.png,5,16
 261,234,269,athena-saints-62,5,14,assets/cloth-schemes/athena-saints/pegasus-kouga-2.png,5,16
@@ -733,7 +733,7 @@
 732,607,,hades-celestial-star-33,13,16,assets/cloth-schemes/hades-specters/stone.jpg,,29
 733,608,,hades-celestial-star-11,13,16,assets/cloth-schemes/hades-specters/star-wealth.jpg,,29
 734,612,84,athena-unknown-saints,,14,assets/cloth-schemes/athena-saints/flame-heat-saint.png,5,12
-735,613,,athena-unknown-saints,,14,assets/cloth-schemes/athena-saints/andromeda-island-male-saint.jpg,23,12
+735,613,,athena-unknown-saints,,14,assets/cloth-schemes/athena-saints/andromeda-island-male-saint.jpg,9,12
 736,614,,athena-unknown-saints,,14,assets/cloth-schemes/athena-saints/andromeda-island-female-saint.jpg,5,12
 737,615,381,athena-unknown-saints,6,14,assets/cloth-schemes/athena-saints/aurora-cloth.jpg,,29
 738,616,452,athena-unknown-saints,6,14,assets/cloth-schemes/athena-saints/desert-cloth.jpg,,29
