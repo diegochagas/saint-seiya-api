@@ -75,7 +75,9 @@ const loadSaintsData = (saints, content) => {
     
       saint.groupName = group.name;
     } else {
-      console.error(`Error: Saint ${saint.name || 'undefined'} from group ${saint.group || 'undefined'} not found, group is ${group}`);
+      console.error(`Error:
+        Saint id ${saint.id} with name ${saint.name || 'undefined'} from group ${saint.group || 'undefined'} not found, group is ${group}
+      `);
     }
 
     content.ranks.forEach(rank => {

@@ -85,7 +85,7 @@ export class SaintsListComponent implements OnInit {
         this.groups.push({ title: "Gods", items: response.gods });
         this.groups.push({ title: "Hades Representative", items: response.representative });
         this.groups.push({ title: `108 Hades Specters (${unknownSpectersCounter} appeared)`, items: response.evilStars });
-        this.groups.push({ title: "Unknown Evil Star", items: response.unknownEvilStar });
+        this.groups.push({ title: "Other Specters", items: response.otherSpecters });
         this.groups.push({ title: "Hades skeleton soldiers", items: response.skeletons });
         this.groups.push({ title: "Pluto Faceless", items: response.faceless });
       } else if (this.className === 'pallasites') {

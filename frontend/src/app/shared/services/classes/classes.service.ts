@@ -59,7 +59,7 @@ export class ClassesService {
       { name: 'Golden Tribe', route: 'golden-tribe' },
       { name: 'Jaguars', route: 'jaguars' },
       { name: 'Jewels', route: 'jewels' },
-      { name: 'Lamech Saints', route: 'lamech-saints' },
+      { name: 'Lamech Servants', route: 'lamech-servants' },
       { name: 'Legionaries', route: 'legionaries' },
       { name: 'Mariners', route: 'mariners' },
       { name: 'Others', route: 'others' },

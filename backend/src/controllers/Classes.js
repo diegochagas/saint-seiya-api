@@ -110,17 +110,14 @@ module.exports = {
         chineseConstellations,
       });
     } else if (request.params.class === 'specters') {
-      let unknownEvilStar = [];
       let faceless = [];
       let representative = [];
       let gods = [];
       let skeletons = [];
       let evilStars = [];
+      let otherSpecters = [];
 
-      unknownEvilStar = [{
-        name: 'Specters with unknown evil star',
-        saints: collection.filter(saint => saint.group === 'hades-unknown-evil-star'),
-      }];
+      otherSpecters = groupSaints(collection, 'hades-other-specters');
 
       faceless = [{
         name: 'Pluto Faceless',
@@ -148,7 +145,7 @@ module.exports = {
       ].sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1);
   
       response.json({ 
-        unknownEvilStar,
+        otherSpecters,
         faceless,
         representative,
         gods,
@@ -320,13 +317,13 @@ module.exports = {
           { name: 'Jewels', saints: collection.filter(saint => saint.group === 'garnet-jewels').sort((a, b) => a.cloth == b.cloth ? 0 : + (a.cloth < b.cloth) || -1) },
         ],
       });
-    } else if (request.params.class === 'lamech-saints') {
+    } else if (request.params.class === 'lamech-servants') {
       response.json({
         gods: [
           { name: 'Gods', saints: collection.filter(saint => saint.group === 'lamech-gods') },
         ],
         saints: [
-          { name: 'Lamech Saints', saints: collection.filter(saint => saint.group === 'lamech-saints') },
+          { name: 'Lamech Servants', saints: collection.filter(saint => saint.group === 'lamech-servants') },
         ],
       });
     } else if (request.params.class === 'legionaries') {

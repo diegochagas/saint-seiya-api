@@ -1,6 +1,4 @@
 ﻿id,group,class,classSingular,name,chineseName,warrior
-0,hades-unknown-evil-star,Specters,Specter,Unknown Evil Star,,
-,,,,,,
 1,hades-faceless,Faceless,Faceless,Assassins,,
 ,,,,,,
 1,hades-representative,Representatives,Representative,Hades Representative,,
@@ -118,3 +116,6 @@
 106,hades-terrestrial-star,Specters,Specter,Terrestrial Rat Star,Dihao,Bai Sheng
 107,hades-terrestrial-star,Specters,Specter,Terrestrial Thief Star,Dizei,Shi Qian
 108,hades-terrestrial-star,Specters,Specter,Terrestrial Hound Star,Digou,Duan Jingzhu
+,,,,,,
+1,hades-other-specters,Specters,Specter,Other Specters,,
+2,hades-other-specters,Specters,Specter,Matter Evil Star,,
