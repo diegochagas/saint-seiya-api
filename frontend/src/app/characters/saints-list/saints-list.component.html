@@ -19,11 +19,11 @@
             </div>
           </a>
 
-          <span class="saint" *ngIf="item.saints.length === 0">
-            <p>{{ item.name }}</p>
-
-            <img class="image-scheme" src="assets/cloth-schemes/others/no-scheme.png" alt="Unknown saint">
-          </span>
+          <div class="saint" *ngIf="item.saints.length === 0">
+            <div class="saint-container">
+              <img class="image-scheme" src="assets/cloth-schemes/others/no-scheme.png" alt="Unknown saint">
+            </div>
+          </div>
         </fieldset>
       </div>
     </div>
