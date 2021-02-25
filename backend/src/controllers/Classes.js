@@ -135,7 +135,7 @@ module.exports = {
       }];
 
       skeletons = [{
-        name: 'Hades skeleton soldiers',
+        name: 'Skeleton soldiers',
         saints: collection.filter(saint => saint.group === 'hades-skeleton'),
       }];
 

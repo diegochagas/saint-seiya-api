@@ -562,8 +562,8 @@
 561,554,181,athena-unknown-saints,,14,assets/cloth-schemes/athena-saints/jellyfish-saint.png,11,12
 562,540,221,athena-saints-53,6,14,assets/cloth-schemes/athena-saints/mensa-cloth.png,,29
 563,609,,hades-terrestrial-star-84,14,16,assets/cloth-schemes/hades-specters/star-tranquil.jpg,6,1
-564,610,,hades-terrestrial-star-88,14,16,assets/cloth-schemes/hades-specters/star-solitary.jpg,,29
-565,611,,hades-terrestrial-star-50,14,16,assets/cloth-schemes/hades-specters/star-strong.jpg,,29
+564,,,hades-terrestrial-star-88,14,16,assets/cloth-schemes/hades-specters/star-solitary.jpg,,29
+565,,,hades-terrestrial-star-50,14,16,assets/cloth-schemes/hades-specters/star-strong.jpg,,29
 566,541,244,athena-chinese-saints-10,6,14,assets/cloth-schemes/athena-saints/nu-cloth.png,,29
 567,557,251,athena-unknown-saints,5,14,assets/cloth-schemes/athena-saints/silver-oriolus-cloth.jpg,,29
 568,545,286,athena-saints-67,5,14,assets/cloth-schemes/athena-saints/piscis-austrinus-cloth.jpg,,29
@@ -727,7 +727,7 @@
 726,,,arthur-gladiators-low,25,14,assets/cloth-schemes/arthur-gladiators/unknown-gladiator-3.png,2,10
 727,606,,others,40,39,assets/cloth-schemes/others/euryale-gorgon.png,2,8
 728,607,,hades-celestial-star-33,13,16,assets/cloth-schemes/hades-specters/stone.jpg,,29
-729,608,,hades-other-specters-2,,16,assets/cloth-schemes/hades-specters/star-matter.jpg,,29
+729,,,hades-other-specters-2,,16,assets/cloth-schemes/hades-specters/star-matter.jpg,,29
 730,612,84,athena-unknown-saints,,14,assets/cloth-schemes/athena-saints/flame-heat-saint.png,5,12
 731,613,,athena-unknown-saints,,14,assets/cloth-schemes/athena-saints/andromeda-island-male-saint.jpg,9,12
 732,614,,athena-unknown-saints,,14,assets/cloth-schemes/athena-saints/andromeda-island-female-saint.jpg,5,12
