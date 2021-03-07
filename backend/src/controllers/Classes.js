@@ -260,9 +260,10 @@ module.exports = {
       });
     } else if (request.params.class === 'gigas') {
       response.json({
-        gods: groupSaints(collection, 'typhon-gods'),
+        gods: [{ name: 'Gods', saints: collection.filter(saint => saint.group === 'typhon-gods') }],
         sons: groupSaints(collection, 'typhon-sons'),
         brothers: groupSaints(collection, 'typhon-brothers'),
+        gigas: groupSaints(collection, 'typhon-gigas'),
       });
     } else if (request.params.class === 'gladiators') {
       response.json({

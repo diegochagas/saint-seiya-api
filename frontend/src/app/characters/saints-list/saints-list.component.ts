@@ -115,6 +115,7 @@ export class SaintsListComponent implements OnInit {
         this.groups.push({ title: "Gods", items: response.gods });
         this.groups.push({ title: "Typhon Sons", items: response.sons });
         this.groups.push({ title: "Typhon Brothers", items: response.brothers });
+        this.groups.push({ title: "Gigas", items: response.gigas });
       } else if (this.className === 'gladiators') {
         this.groups = [];
 

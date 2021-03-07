@@ -1,15 +1,15 @@
 ﻿id,group,class,classSingular,name
 1,typhon-gods,Gigas,Giga,Unknown
-2,typhon-gods,Gigas,Giga,Unknown
-3,typhon-gods,Gigas,Giga,Crimson Lava
-4,typhon-gods,Gigas,Giga,Blue Flame
-5,typhon-gods,Gigas,Giga,Black Thunder
-6,typhon-gods,Gigas,Giga,White Wind
-7,typhon-gods,Gigas,Giga,Grey Blade
-8,typhon-gods,Gigas,Giga,Ruby Iron
-9,typhon-gods,Gigas,Giga,Pearl Dragon
-10,typhon-gods,Gigas,Giga,Amber Beast
-11,typhon-gods,Gigas,Giga,Jade Armor
+,,,,
+1,typhon-gigas,Gigas,Giga,Crimson Lava
+2,typhon-gigas,Gigas,Giga,Blue Flame
+3,typhon-gigas,Gigas,Giga,Black Thunder
+4,typhon-gigas,Gigas,Giga,White Wind
+5,typhon-gigas,Gigas,Giga,Grey Blade
+6,typhon-gigas,Gigas,Giga,Ruby Iron
+7,typhon-gigas,Gigas,Giga,Pearl Dragon
+8,typhon-gigas,Gigas,Giga,Amber Beast
+9,typhon-gigas,Gigas,Giga,Jade Armor
 ,,,,
 1,typhon-brothers,Gigas,Giga,Lapis Lazuli
 2,typhon-brothers,Gigas,Giga,Malachite
