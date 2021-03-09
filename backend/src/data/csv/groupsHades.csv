@@ -1,123 +1,130 @@
-﻿id,group,class,classSingular,name,chineseName,warrior
-1,hades-faceless,Faceless,Faceless,Assassins,,
-,,,,,,
-1,hades-representative,Representatives,Representative,Hades Representative,,
-,,,,,,
-1,hades-gods,Gods,God,Gods,,
-,,,,,,
-1,hades-skeleton,Soldiers,Soldier,Skeleton soldiers,,
-,,,,,,
-1,hades-celestial-star,Specters,Specter,Celestial Leader Star,Tiankui,Song Jiang
-2,hades-celestial-star,Specters,Specter,Celestial Strength Star,Tiangang,Lu Junyi
-3,hades-celestial-star,Specters,Specter,Celestial Knowledge Star,Tianji,Wu Yong
-4,hades-celestial-star,Specters,Specter,Celestial Leisure Star,Tianxian,Gongsun Sheng
-5,hades-celestial-star,Specters,Specter,Celestial Brave Star,Tianyong,Guan Sheng
-6,hades-celestial-star,Specters,Specter,Celestial Majestic Star,Tianxiong,Lin Chong
-7,hades-celestial-star,Specters,Specter,Celestial Fierce Star,Tianmeng,Qin Ming
-8,hades-celestial-star,Specters,Specter,Celestial Prestige Star,Tianwei,Huyan Zhuo
-9,hades-celestial-star,Specters,Specter,Celestial Hero Star,Tianying,Hua Rong
-10,hades-celestial-star,Specters,Specter,Celestial Noble Star,Tiangui,Chai Jin
-11,hades-celestial-star,Specters,Specter,Celestial Wealth Star,Tianfu,Li Ying
-12,hades-celestial-star,Specters,Specter,Celestial Fulfillment Star,Tianman,Zhu Tong
-13,hades-celestial-star,Specters,Specter,Celestial Solitary Star,Tiangu,Lu Zhishen
-14,hades-celestial-star,Specters,Specter,Celestial Harm Star,Tianshang,Wu Song
-15,hades-celestial-star,Specters,Specter,Celestial Steadfast Star,Tianli,Dong Ping
-16,hades-celestial-star,Specters,Specter,Celestial Agile Star,Tianjie,Zhang Qing
-17,hades-celestial-star,Specters,Specter,Celestial Dark Star,Tian'an,Yang Zhi
-18,hades-celestial-star,Specters,Specter,Celestial Guardian Star,Tianyou,Xu Ning
-19,hades-celestial-star,Specters,Specter,Celestial Flight Star,Tiankong,Suo Chao
-20,hades-celestial-star,Specters,Specter,Celestial Speed Star,Tiansu,Dai Zong
-21,hades-celestial-star,Specters,Specter,Celestial Deviance Star,Tianyi,Liu Tang
-22,hades-celestial-star,Specters,Specter,Celestial Killer Star,Tiansha,Li Kui
-23,hades-celestial-star,Specters,Specter,Celestial Minute Star,Tianwei,Shi Jin
-24,hades-celestial-star,Specters,Specter,Celestial Investigative Star,Tianjiu,Mu Hong
-25,hades-celestial-star,Specters,Specter,Celestial Defence Star,Tiantui,Lei Heng
-26,hades-celestial-star,Specters,Specter,Celestial Longevity Star,Tianshou,Li Jun
-27,hades-celestial-star,Specters,Specter,Celestial Sword Star,Tianjian,Ruan Xiaoer
-28,hades-celestial-star,Specters,Specter,Celestial Balance Star,Tianping,Zhang Heng
-29,hades-celestial-star,Specters,Specter,Celestial Guilt Star,Tianzui,Ruan Xiaowu
-30,hades-celestial-star,Specters,Specter,Celestial Damage Star,Tiansun,Zhang Shun
-31,hades-celestial-star,Specters,Specter,Celestial Defeat Star,Tianbai,Ruan Xiaoqi
-32,hades-celestial-star,Specters,Specter,Celestial Secure Star,Tianlao,Yang Xiong
-33,hades-celestial-star,Specters,Specter,Celestial Wisdom Star,Tianhui,Shi Xiu
-34,hades-celestial-star,Specters,Specter,Celestial Savage Star,Tianbao,Xie Zhen
-35,hades-celestial-star,Specters,Specter,Celestial Crying Star,Tianku,Xie Bao
-36,hades-celestial-star,Specters,Specter,Celestial Skilful Star,Tianqiao,Yan Qing
-,,,,,,
-37,hades-terrestrial-star,Specters,Specter,Terrestrial Leader Star,Dikui,Zhu Wu
-38,hades-terrestrial-star,Specters,Specter,Terrestrial Malignant Star,Disha,Huang Xin
-39,hades-terrestrial-star,Specters,Specter,Terrestrial Brave Star,Diyong,Sun Li
-40,hades-terrestrial-star,Specters,Specter,Terrestrial Prominence Star,Dijie,Xuan Zan
-41,hades-terrestrial-star,Specters,Specter,Terrestrial Magnificent Star,Dixiong,Hao Siwen
-42,hades-terrestrial-star,Specters,Specter,Terrestrial Majestic Star,Diwei,Han Tao
-43,hades-terrestrial-star,Specters,Specter,Terrestrial Hero Star,Diying,Peng Qi
-44,hades-terrestrial-star,Specters,Specter,Terrestrial Unique Star,Diqi,Shan Tinggui
-45,hades-terrestrial-star,Specters,Specter,Terrestrial Fierce Star,Dimeng,Wei Dingguo
-46,hades-terrestrial-star,Specters,Specter,Terrestrial Literature Star,Diwen,Xiao Rang
-47,hades-terrestrial-star,Specters,Specter,Terrestrial Upright Star,Dizheng,Pei Xuan
-48,hades-terrestrial-star,Specters,Specter,Terrestrial Wide Star,Dikuo,Ou Peng
-49,hades-terrestrial-star,Specters,Specter,Terrestrial Whole Star,Dihe,Deng Fei
-50,hades-terrestrial-star,Specters,Specter,Terrestrial Strong Star,Diqiang,Yan Shun
-51,hades-terrestrial-star,Specters,Specter,Terrestrial Dark Star,Di'an,Yang Lin
-52,hades-terrestrial-star,Specters,Specter,Terrestrial Assist Star,Difu,Ling Zhen
-53,hades-terrestrial-star,Specters,Specter,Terrestrial Meet Star,Dihui,Jiang Jing
-54,hades-terrestrial-star,Specters,Specter,Terrestrial Aid Star,Dizuo,Lu Fang
-55,hades-terrestrial-star,Specters,Specter,Terrestrial Help Star,Diyong,Guo Sheng
-56,hades-terrestrial-star,Specters,Specter,Terrestrial Efficacious Star,Diling,An Daoquan
-57,hades-terrestrial-star,Specters,Specter,Terrestrial Beast Star,Dishou,Huangfu Duan
-58,hades-terrestrial-star,Specters,Specter,Terrestrial Minute Star,Diwei,Wang Ying
-59,hades-terrestrial-star,Specters,Specter,Terrestrial Intelligent Star,Dihui,Hu Sanniang
-60,hades-terrestrial-star,Specters,Specter,Terrestrial Savage Star,Dibao,Bao Xu
-61,hades-terrestrial-star,Specters,Specter,Terrestrial Correct Star,Diran,Fan Rui
-62,hades-terrestrial-star,Specters,Specter,Terrestrial Wild Star,Dichang,Kong Ming
-63,hades-terrestrial-star,Specters,Specter,Terrestrial Crazy Star,Dikuang,Kong Liang
-64,hades-terrestrial-star,Specters,Specter,Terrestrial Flying Star,Difei,Xiang Chong
-65,hades-terrestrial-star,Specters,Specter,Terrestrial Walking Star,Dizou,Li Gun
-66,hades-terrestrial-star,Specters,Specter,Terrestrial Skilful Star,Diqiao,Jin Dajian
-67,hades-terrestrial-star,Specters,Specter,Terrestrial Bright Star,Diming,Ma Lin
-68,hades-terrestrial-star,Specters,Specter,Terrestrial Forward Star,Dijin,Tong Wei
-69,hades-terrestrial-star,Specters,Specter,Terrestrial Retreating Star,Ditui,Tong Meng
-70,hades-terrestrial-star,Specters,Specter,Terrestrial Full Star,Diman,Meng Kang
-71,hades-terrestrial-star,Specters,Specter,Terrestrial Succeed Star,Disui,Hou Jian
-72,hades-terrestrial-star,Specters,Specter,Terrestrial Complete Star,Dizhou,Chen Da
-73,hades-terrestrial-star,Specters,Specter,Terrestrial Latent Star,Diyin,Yang Chun
-74,hades-terrestrial-star,Specters,Specter,Terrestrial Different Star,Diyi,Zheng Tianshou
-75,hades-terrestrial-star,Specters,Specter,Terrestrial Manage Star,Dili,Tao Zongwang
-76,hades-terrestrial-star,Specters,Specter,Terrestrial Handsome Star,Dijun,Song Qing
-77,hades-terrestrial-star,Specters,Specter,Terrestrial Music Star,Diyue,Yue He
-78,hades-terrestrial-star,Specters,Specter,Terrestrial Victorious Star,Dijie,Gong Wang
-79,hades-terrestrial-star,Specters,Specter,Terrestrial Speed Star,Disu,Ding Desun
-80,hades-terrestrial-star,Specters,Specter,Terrestrial Guardian Star,Dizhen,Mu Chun
-81,hades-terrestrial-star,Specters,Specter,Terrestrial Ji Star,Diji,Cao Zheng
-82,hades-terrestrial-star,Specters,Specter,Terrestrial Devil Star,Dimo,Song Wan
-83,hades-terrestrial-star,Specters,Specter,Terrestrial Demon Star,Diyao,Du Qian
-84,hades-terrestrial-star,Specters,Specter,Terrestrial Tranquil Star,Diyou,Xue Yong
-85,hades-terrestrial-star,Specters,Specter,Terrestrial Concealment Star,Difu,Shi En
-86,hades-terrestrial-star,Specters,Specter,Terrestrial Remote Star,Dipi,Li Zhong
-87,hades-terrestrial-star,Specters,Specter,Terrestrial Empty Star,Dikong,Zhou Tong
-88,hades-terrestrial-star,Specters,Specter,Terrestrial Solitary Star,Digu,Tang Long
-89,hades-terrestrial-star,Specters,Specter,Terrestrial Complete Star,Diquan,Du Xing
-90,hades-terrestrial-star,Specters,Specter,Terrestrial Short Star,Diduan,Zou Yuan
-91,hades-terrestrial-star,Specters,Specter,Terrestrial Horn Star,Dijiao,Zou Run
-92,hades-terrestrial-star,Specters,Specter,Terrestrial Prisoner Star,Diqiu,Zhu Gui
-93,hades-terrestrial-star,Specters,Specter,Terrestrial Hidden Star,Dicang,Zhu Fu
-94,hades-terrestrial-star,Specters,Specter,Terrestrial Level Star,Diping,Cai Fu
-95,hades-terrestrial-star,Specters,Specter,Terrestrial Harm Star,Disun,Cai Qing
-96,hades-terrestrial-star,Specters,Specter,Terrestrial Slave Star,Dinu,Li Li
-97,hades-terrestrial-star,Specters,Specter,Terrestrial Detective Star,Dicha,Li Yun
-98,hades-terrestrial-star,Specters,Specter,Terrestrial Evil Star,Di'e,Jiao Ting
-99,hades-terrestrial-star,Specters,Specter,Terrestrial Ugly Star,Dichou,Shi Yong
-100,hades-terrestrial-star,Specters,Specter,Terrestrial Number Star,Dishu,Sun Xin
-101,hades-terrestrial-star,Specters,Specter,Terrestrial Shadowy Star,Diyin,Gu Dasao
-102,hades-terrestrial-star,Specters,Specter,Terrestrial Execute Star,Dixing,Zhang Qing
-103,hades-terrestrial-star,Specters,Specter,Terrestrial Strong Star,Dizhuang,Sun Erniang
-104,hades-terrestrial-star,Specters,Specter,Terrestrial Inferior Star,Dilie,Wang Dingliu
-105,hades-terrestrial-star,Specters,Specter,Terrestrial Healthy Star,Dijian,Yu Baosi
-106,hades-terrestrial-star,Specters,Specter,Terrestrial Rat Star,Dihao,Bai Sheng
-107,hades-terrestrial-star,Specters,Specter,Terrestrial Thief Star,Dizei,Shi Qian
-108,hades-terrestrial-star,Specters,Specter,Terrestrial Hound Star,Digou,Duan Jingzhu
-,,,,,,
-1,hades-other-specters,Specters,Specter,Other Specters,,
-2,hades-other-specters,Specters,Specter,Evil Star of Matter,,
-3,hades-other-specters,Specters,Specter,Evil Star of Silence,,
-4,hades-other-specters,Specters,Specter,Evil Star of Strength,,
+﻿id,group,class,classSingular,name,chineseName,chinesePronunciation,warrior
+1,hades-faceless,Faceless,Faceless,Assassins,,,
+,,,,,,,
+1,hades-representative,Representatives,Representative,Hades Representative,,,
+,,,,,,,
+1,hades-gods,Gods,God,Gods,,,
+,,,,,,,
+1,hades-skeleton,Soldiers,Soldier,Skeleton soldiers,,,
+,,,,,,,
+1,hades-celestial-star,Specters,Specter,Celestial Leader Star,天魁星,Tiankui,Song Jiang
+2,hades-celestial-star,Specters,Specter,Celestial Strength Star,天罡星,Tiangang,Lu Junyi
+3,hades-celestial-star,Specters,Specter,Celestial Knowledge Star,天機星,Tianji,Wu Yong
+4,hades-celestial-star,Specters,Specter,Celestial Leisure Star,天閒星,Tianxian,Gongsun Sheng
+5,hades-celestial-star,Specters,Specter,Celestial Brave Star,天勇星,Tianyong,Guan Sheng
+6,hades-celestial-star,Specters,Specter,Celestial Majestic Star,天雄星,Tianxiong,Lin Chong
+7,hades-celestial-star,Specters,Specter,Celestial Fierce Star,天猛星,Tianmeng,Qin Ming
+8,hades-celestial-star,Specters,Specter,Celestial Prestige Star,天威星,Tianwei,Huyan Zhuo
+9,hades-celestial-star,Specters,Specter,Celestial Hero Star,天英星,Tianying,Hua Rong
+10,hades-celestial-star,Specters,Specter,Celestial Noble Star,天貴星,Tiangui,Chai Jin
+11,hades-celestial-star,Specters,Specter,Celestial Wealth Star,天富星,Tianfu,Li Ying
+12,hades-celestial-star,Specters,Specter,Celestial Fulfillment Star,天滿星,Tianman,Zhu Tong
+13,hades-celestial-star,Specters,Specter,Celestial Solitary Star,天孤星,Tiangu,Lu Zhishen
+14,hades-celestial-star,Specters,Specter,Celestial Harm Star,天傷星,Tianshang,Wu Song
+15,hades-celestial-star,Specters,Specter,Celestial Steadfast Star,天立星,Tianli,Dong Ping
+16,hades-celestial-star,Specters,Specter,Celestial Agile Star,天捷星,Tianjie,Zhang Qing
+17,hades-celestial-star,Specters,Specter,Celestial Dark Star,天暗星,Tian'an,Yang Zhi
+18,hades-celestial-star,Specters,Specter,Celestial Guardian Star,天祐星,Tianyou,Xu Ning
+19,hades-celestial-star,Specters,Specter,Celestial Flight Star,天空星,Tiankong,Suo Chao
+20,hades-celestial-star,Specters,Specter,Celestial Speed Star,天速星,Tiansu,Dai Zong
+21,hades-celestial-star,Specters,Specter,Celestial Deviance Star,天異星,Tianyi,Liu Tang
+22,hades-celestial-star,Specters,Specter,Celestial Killer Star,天殺星,Tiansha,Li Kui
+23,hades-celestial-star,Specters,Specter,Celestial Minute Star,天微星,Tianwei,Shi Jin
+24,hades-celestial-star,Specters,Specter,Celestial Investigative Star,天究星,Tianjiu,Mu Hong
+25,hades-celestial-star,Specters,Specter,Celestial Defence Star,天退星,Tiantui,Lei Heng
+26,hades-celestial-star,Specters,Specter,Celestial Longevity Star,天壽星,Tianshou,Li Jun
+27,hades-celestial-star,Specters,Specter,Celestial Sword Star,天劍星,Tianjian,Ruan Xiaoer
+28,hades-celestial-star,Specters,Specter,Celestial Balance Star,天平星,Tianping,Zhang Heng
+29,hades-celestial-star,Specters,Specter,Celestial Guilt Star,天罪星,Tianzui,Ruan Xiaowu
+30,hades-celestial-star,Specters,Specter,Celestial Damage Star,天損星,Tiansun,Zhang Shun
+31,hades-celestial-star,Specters,Specter,Celestial Defeat Star,天敗星,Tianbai,Ruan Xiaoqi
+32,hades-celestial-star,Specters,Specter,Celestial Secure Star,天牢星,Tianlao,Yang Xiong
+33,hades-celestial-star,Specters,Specter,Celestial Wisdom Star,天慧星,Tianhui,Shi Xiu
+34,hades-celestial-star,Specters,Specter,Celestial Savage Star,天暴星,Tianbao,Xie Zhen
+35,hades-celestial-star,Specters,Specter,Celestial Crying Star,天哭星,Tianku,Xie Bao
+36,hades-celestial-star,Specters,Specter,Celestial Skilful Star,天巧星,Tianqiao,Yan Qing
+,,,,,,,
+37,hades-terrestrial-star,Specters,Specter,Terrestrial Leader Star,地魁星,Dikui,Zhu Wu
+38,hades-terrestrial-star,Specters,Specter,Terrestrial Malignant Star,地煞星,Disha,Huang Xin
+39,hades-terrestrial-star,Specters,Specter,Terrestrial Brave Star,地勇星,Diyong,Sun Li
+40,hades-terrestrial-star,Specters,Specter,Terrestrial Prominence Star,地傑星,Dijie,Xuan Zan
+41,hades-terrestrial-star,Specters,Specter,Terrestrial Magnificent Star,地雄星,Dixiong,Hao Siwen
+42,hades-terrestrial-star,Specters,Specter,Terrestrial Majestic Star,地威星,Diwei,Han Tao
+43,hades-terrestrial-star,Specters,Specter,Terrestrial Hero Star,地英星,Diying,Peng Qi
+44,hades-terrestrial-star,Specters,Specter,Terrestrial Unique Star,地奇星,Diqi,Shan Tinggui
+45,hades-terrestrial-star,Specters,Specter,Terrestrial Fierce Star,地猛星,Dimeng,Wei Dingguo
+46,hades-terrestrial-star,Specters,Specter,Terrestrial Literature Star,地文星,Diwen,Xiao Rang
+47,hades-terrestrial-star,Specters,Specter,Terrestrial Upright Star,地正星,Dizheng,Pei Xuan
+48,hades-terrestrial-star,Specters,Specter,Terrestrial Wide Star,地闊星,Dikuo,Ou Peng
+49,hades-terrestrial-star,Specters,Specter,Terrestrial Whole Star,地闔星,Dihe,Deng Fei
+50,hades-terrestrial-star,Specters,Specter,Terrestrial Strong Star,地強星,Diqiang,Yan Shun
+51,hades-terrestrial-star,Specters,Specter,Terrestrial Dark Star,地暗星,Di'an,Yang Lin
+52,hades-terrestrial-star,Specters,Specter,Terrestrial Assist Star,地輔星,Difu,Ling Zhen
+53,hades-terrestrial-star,Specters,Specter,Terrestrial Meet Star,地會星,Dihui,Jiang Jing
+54,hades-terrestrial-star,Specters,Specter,Terrestrial Aid Star,地佐星,Dizuo,Lu Fang
+55,hades-terrestrial-star,Specters,Specter,Terrestrial Help Star,地佑星,Diyong,Guo Sheng
+56,hades-terrestrial-star,Specters,Specter,Terrestrial Spirit Star,地靈星,Diling,An Daoquan
+57,hades-terrestrial-star,Specters,Specter,Terrestrial Beast Star,地獸星,Dishou,Huangfu Duan
+58,hades-terrestrial-star,Specters,Specter,Terrestrial Minute Star,地微星,Diwei,Wang Ying
+59,hades-terrestrial-star,Specters,Specter,Terrestrial Intelligent Star,地慧星,Dihui,Hu Sanniang
+60,hades-terrestrial-star,Specters,Specter,Terrestrial Savage Star,地暴星,Dibao,Bao Xu
+61,hades-terrestrial-star,Specters,Specter,Terrestrial Correct Star,地然星,Diran,Fan Rui
+62,hades-terrestrial-star,Specters,Specter,Terrestrial Wild Star,地猖星,Dichang,Kong Ming
+63,hades-terrestrial-star,Specters,Specter,Terrestrial Crazy Star,地狂星,Dikuang,Kong Liang
+64,hades-terrestrial-star,Specters,Specter,Terrestrial Flying Star,地飛星,Difei,Xiang Chong
+65,hades-terrestrial-star,Specters,Specter,Terrestrial Walking Star,地走星,Dizou,Li Gun
+66,hades-terrestrial-star,Specters,Specter,Terrestrial Skilful Star,地巧星,Diqiao,Jin Dajian
+67,hades-terrestrial-star,Specters,Specter,Terrestrial Bright Star,地明星,Diming,Ma Lin
+68,hades-terrestrial-star,Specters,Specter,Terrestrial Forward Star,地進星,Dijin,Tong Wei
+69,hades-terrestrial-star,Specters,Specter,Terrestrial Retreating Star,地退星,Ditui,Tong Meng
+70,hades-terrestrial-star,Specters,Specter,Terrestrial Full Star,地滿星,Diman,Meng Kang
+71,hades-terrestrial-star,Specters,Specter,Terrestrial Succeed Star,地遂星,Disui,Hou Jian
+72,hades-terrestrial-star,Specters,Specter,Terrestrial Complete Star,地周星,Dizhou,Chen Da
+73,hades-terrestrial-star,Specters,Specter,Terrestrial Latent Star,地隱星,Diyin,Yang Chun
+74,hades-terrestrial-star,Specters,Specter,Terrestrial Different Star,地異星,Diyi,Zheng Tianshou
+75,hades-terrestrial-star,Specters,Specter,Terrestrial Manage Star,地理星,Dili,Tao Zongwang
+76,hades-terrestrial-star,Specters,Specter,Terrestrial Handsome Star,地俊星,Dijun,Song Qing
+77,hades-terrestrial-star,Specters,Specter,Terrestrial Music Star,地樂星,Diyue,Yue He
+78,hades-terrestrial-star,Specters,Specter,Terrestrial Victorious Star,地捷星,Dijie,Gong Wang
+79,hades-terrestrial-star,Specters,Specter,Terrestrial Speed Star,地速星,Disu,Ding Desun
+80,hades-terrestrial-star,Specters,Specter,Terrestrial Guardian Star,地鎮星,Dizhen,Mu Chun
+81,hades-terrestrial-star,Specters,Specter,Terrestrial Ji Star,地嵇星,Diji,Cao Zheng
+82,hades-terrestrial-star,Specters,Specter,Terrestrial Sorcery Star,地魔星,Dimo,Song Wan
+83,hades-terrestrial-star,Specters,Specter,Terrestrial Demon Star,地妖星,Diyao,Du Qian
+84,hades-terrestrial-star,Specters,Specter,Terrestrial Tranquil Star,地幽星,Diyou,Xue Yong
+85,hades-terrestrial-star,Specters,Specter,Terrestrial Concealment Star,地伏星,Difu,Shi En
+86,hades-terrestrial-star,Specters,Specter,Terrestrial Remote Star,地僻星,Dipi,Li Zhong
+87,hades-terrestrial-star,Specters,Specter,Terrestrial Empty Star,地空星,Dikong,Zhou Tong
+88,hades-terrestrial-star,Specters,Specter,Terrestrial Solitary Star,地孤星,Digu,Tang Long
+89,hades-terrestrial-star,Specters,Specter,Terrestrial Complete Star,地全星,Diquan,Du Xing
+90,hades-terrestrial-star,Specters,Specter,Terrestrial Short Star,地短星,Diduan,Zou Yuan
+91,hades-terrestrial-star,Specters,Specter,Terrestrial Horn Star,地角星,Dijiao,Zou Run
+92,hades-terrestrial-star,Specters,Specter,Terrestrial Prisoner Star,地囚星,Diqiu,Zhu Gui
+93,hades-terrestrial-star,Specters,Specter,Terrestrial Hidden Star,地藏星,Dicang,Zhu Fu
+94,hades-terrestrial-star,Specters,Specter,Terrestrial Level Star,地平星,Diping,Cai Fu
+95,hades-terrestrial-star,Specters,Specter,Terrestrial Harm Star,地損星,Disun,Cai Qing
+96,hades-terrestrial-star,Specters,Specter,Terrestrial Slave Star,地奴星,Dinu,Li Li
+97,hades-terrestrial-star,Specters,Specter,Terrestrial Detective Star,地察星,Dicha,Li Yun
+98,hades-terrestrial-star,Specters,Specter,Terrestrial Evil Star,地惡星,Di'e,Jiao Ting
+99,hades-terrestrial-star,Specters,Specter,Terrestrial Ugly Star,地丑星,Dichou,Shi Yong
+100,hades-terrestrial-star,Specters,Specter,Terrestrial Number Star,地數星,Dishu,Sun Xin
+101,hades-terrestrial-star,Specters,Specter,Terrestrial Shadowy Star,地陰星,Diyin,Gu Dasao
+102,hades-terrestrial-star,Specters,Specter,Terrestrial Execute Star,地刑星,Dixing,Zhang Qing
+103,hades-terrestrial-star,Specters,Specter,Terrestrial Strong Star,地壯星,Dizhuang,Sun Erniang
+104,hades-terrestrial-star,Specters,Specter,Terrestrial Inferior Star,地劣星,Dilie,Wang Dingliu
+105,hades-terrestrial-star,Specters,Specter,Terrestrial Healthy Star,地健星,Dijian,Yu Baosi
+106,hades-terrestrial-star,Specters,Specter,Terrestrial Rat Star,地耗星,Dihao,Bai Sheng
+107,hades-terrestrial-star,Specters,Specter,Terrestrial Thief Star,地賊星,Dizei,Shi Qian
+108,hades-terrestrial-star,Specters,Specter,Terrestrial Hound Star,地狗星,Digou,Duan Jingzhu
+,,,,,,,
+1,hades-other-specters,Specters,Specter,Other Specters,,,
+2,hades-other-specters,Specters,Specter,Evil Star of Matter,,,
+3,hades-other-specters,Specters,Specter,Evil Star of Silence,,,
+4,hades-other-specters,Specters,Specter,Evil Star of Strength,,,
+5,hades-other-specters,Specters,Specter,Celestial Bright Star,,,
+6,hades-other-specters,Specters,Specter,Celestial Spirit Star,地靈星,Diling,An Daoquan
+7,hades-other-specters,Specters,Specter,Celestial Beast Star,地獸星,Dishou,Huangfu Duan
+8,hades-other-specters,Specters,Specter,Celestial Sorcery Star,地魔星,Dimo,Song Wan
+9,hades-other-specters,Specters,Specter,Celestial Horn Star,地角星,Dijiao,Zou Run
+10,hades-other-specters,Specters,Specter,Celestial Ugly Star,地丑星,Dichou,Shi Yong
+11,hades-other-specters,Specters,Specter,Celestial Shadowy Star,地陰星,Diyin,Gu Dasao

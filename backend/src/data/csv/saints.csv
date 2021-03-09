@@ -70,7 +70,7 @@
 69,,399,odin-blue-warrior-soldiers,,34,assets/cloth-schemes/odin-blue-warriors/blue-warriors-soldiers.jpg,1,1
 70,66,219,typhon-gigas-3,,40,assets/cloth-schemes/typhon-gigas/melas-bronte.jpg,18,8
 71,67,3,odin-ursa-major-star-7,,34,assets/cloth-schemes/odin-god-warriors/alcor-bud.jpg,,12
-72,68,239,hades-terrestrial-star-56,13,16,assets/cloth-schemes/hades-specters/necromancer-byaku.png,3,6
+72,68,239,hades-other-specters-6,13,16,assets/cloth-schemes/hades-specters/necromancer-byaku.png,3,6
 73,69,148,athena-saints-38,7,14,assets/cloth-schemes/athena-saints/gemini-cain.png,16,4
 74,70,,artemis-satellite-representative,31,12,assets/cloth-schemes/artemis-satellites/callisto.jpg,5,4
 75,71,18,athena-saints-4,7,14,assets/cloth-schemes/athena-saints/aquarius-camus.jpg,1,1
@@ -273,7 +273,7 @@
 272,243,28,arthur-gladiators,,14,assets/cloth-schemes/arthur-gladiators/arondight-lancelot.jpg,7,10
 273,424,261,athena-saints-62,5,14,assets/cloth-schemes/athena-saints/pegasus-tenma-1.jpg,,6
 274,243,56,athena-saints-12,9,14,assets/cloth-schemes/athena-saints/cancer-lancelot-god.jpg,2,10
-275,245,,hades-terrestrial-star-101,13,16,assets/cloth-schemes/hades-specters/larry.jpg,15,29
+275,245,,hades-other-specters-11,13,16,assets/cloth-schemes/hades-specters/larry.jpg,15,29
 276,246,,artemis-satellite-captain,12,12,assets/cloth-schemes/artemis-satellites/lascoumoune.png,12,4
 277,247,,athena-unknown-saints,5,14,assets/cloth-schemes/athena-saints/leda.png,6,12
 278,249,,athena-former-saints-72,2,14,assets/cloth-schemes/athena-saints/lei-hu.png,,29
@@ -358,7 +358,7 @@
 357,330,272,hades-gods,9,16,assets/cloth-schemes/hades-specters/persephone.png,10,29
 358,331,,athena-unknown-saints,,14,assets/cloth-schemes/athena-saints/phaeton.png,,12
 359,332,275,hades-gods,9,16,assets/cloth-schemes/hades-specters/portrayer-phantasos.jpg,3,6
-360,333,324,hades-terrestrial-star-57,13,16,assets/cloth-schemes/hades-specters/sphinx-pharaoh.jpg,1,1
+360,333,324,hades-other-specters-7,13,16,assets/cloth-schemes/hades-specters/sphinx-pharaoh.jpg,1,1
 361,334,206,hades-celestial-star-29,13,16,assets/cloth-schemes/hades-specters/lycaon-phlegyas.jpg,1,1
 362,335,277,hades-gods,9,16,assets/cloth-schemes/hades-specters/phobetor.png,5,7
 363,582,30,athena-gods,9,14,assets/cloth-schemes/athena-saints/athena-xvi.png,10,7
@@ -372,7 +372,7 @@
 371,344,301,athena-saints-71,6,14,assets/cloth-schemes/athena-saints/sagitta-ptolemy.jpg,1,1
 372,345,185,typhon-gigas-2,,40,assets/cloth-schemes/typhon-gigas/kyanos-pyrokus.jpg,18,8
 373,346,,hades-faceless,,16,assets/cloth-schemes/hades-faceless/pyromaniac.jpg,2,10
-374,347,5,hades-terrestrial-star-82,13,16,assets/cloth-schemes/hades-specters/alraune-queen.jpg,1,1
+374,347,5,hades-other-specters-8,13,16,assets/cloth-schemes/hades-specters/alraune-queen.jpg,1,1
 375,348,,ra-egyptian-gods,9,8,assets/cloth-schemes/ra-legionaries/ra.jpg,2,8
 376,349,13,ares-martians,,11,assets/cloth-schemes/ares-martians/ant-radzinsky.png,8,16
 377,350,325,ares-martians,,11,assets/cloth-schemes/ares-martians/spider-ragno.png,,16
@@ -386,7 +386,7 @@
 385,359,252,athena-saints-60,6,14,assets/cloth-schemes/athena-saints/orion-rigel.png,5,5
 386,359,255,eris-dryads,45,15,assets/cloth-schemes/eris-dryads/pain-rigel.png,10,5
 387,360,392,athena-saints-64,4,14,assets/cloth-schemes/athena-saints/phoenix-ritahoa.jpg,,32
-388,361,152,hades-terrestrial-star-91,13,16,assets/cloth-schemes/hades-specters/golem-rock.jpg,1,1
+388,361,152,hades-other-specters-9,13,16,assets/cloth-schemes/hades-specters/golem-rock.jpg,1,1
 389,362,261,athena-saints-62,5,14,assets/cloth-schemes/athena-saints/pegasus-rodorio.jpg,,29
 390,363,125,arthur-gladiators,,14,assets/cloth-schemes/arthur-gladiators/durandal-roland.jpg,7,10
 391,364,298,ares-heavenly-kings-martians,44,11,assets/cloth-schemes/ares-martians/romulus.png,5,16
@@ -466,7 +466,7 @@
 465,408,274,typhon-gigas-5,,40,assets/cloth-schemes/typhon-gigas/phaios-spathe.jpg,18,8
 466,409,110,athena-saints-33,5,14,assets/cloth-schemes/athena-saints/dorado-spear.png,6,16
 467,410,,athena-unknown-saints,5,14,assets/cloth-schemes/athena-saints/spica.jpg,5,12
-468,411,97,hades-terrestrial-star-99,13,16,assets/cloth-schemes/hades-specters/deadly-beetle-stand.jpg,1,1
+468,411,97,hades-other-specters-10,13,16,assets/cloth-schemes/hades-specters/deadly-beetle-stand.jpg,1,1
 469,412,,hades-celestial-star-22,13,16,assets/cloth-schemes/hades-specters/steven.jpg,6,29
 470,413,39,athena-saints-35,3,14,assets/cloth-schemes/athena-saints/equuleus-subaru-steel.png,11,16
 471,413,134,athena-saints-35,5,14,assets/cloth-schemes/athena-saints/equuleus-subaru.png,5,16
@@ -723,7 +723,7 @@
 722,,,hades-faceless,,16,assets/cloth-schemes/hades-faceless/unnamed-faceless.png,2,10
 723,,,arthur-gladiators-low,25,14,assets/cloth-schemes/arthur-gladiators/unknown-gladiator-3.png,2,10
 724,606,,others,40,39,assets/cloth-schemes/others/euryale-gorgon.png,2,8
-725,607,,hades-celestial-star-33,13,16,assets/cloth-schemes/hades-specters/stone.jpg,,29
+725,607,,hades-other-specters-5,13,16,assets/cloth-schemes/hades-specters/stone.jpg,6,29
 726,,,hades-other-specters-2,,16,assets/cloth-schemes/hades-specters/star-matter.jpg,6,29
 727,612,84,athena-unknown-saints,,14,assets/cloth-schemes/athena-saints/flame-heat-saint.png,5,12
 728,613,,athena-unknown-saints,,14,assets/cloth-schemes/athena-saints/andromeda-island-male-saint.jpg,9,12
