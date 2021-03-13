@@ -538,7 +538,7 @@
 537,475,,others,38,39,assets/cloth-schemes/others/gigas.png,2,8
 538,476,65,athena-saints-20,6,14,assets/cloth-schemes/athena-saints/cepheus-daidalos.jpg,1,1
 539,477,378,athena-saints-20,6,14,assets/cloth-schemes/athena-saints/cepheus-albior.jpg,5,12
-540,479,98,hades-terrestrial-star-48,14,16,assets/cloth-schemes/hades-specters/deadly-harlequin-kafka.jpg,6,29
+540,479,98,hades-terrestrial-star-48,14,16,assets/cloth-schemes/hades-specters/deadly-harlequin-kafka.jpg,6,1
 541,,394,pallas-pallasite-soldiers,1,26,assets/cloth-schemes/pallas-pallasites/pallasites-soldiers-green.jpg,,16
 542,,397,pallas-pallasite-soldiers,1,26,assets/cloth-schemes/pallas-pallasites/pallasites-soldiers-blue.jpg,,16
 543,,398,pallas-pallasite-soldiers,1,26,assets/cloth-schemes/pallas-pallasites/pallasites-soldiers-black.png,,16
@@ -580,7 +580,7 @@
 579,486,,astraea-golden-tribe,,13,assets/cloth-schemes/astraea-golden-tribe/machina.png,5,28
 580,487,1,hades-celestial-star-4,13,16,assets/cloth-schemes/hades-specters/acheron-nyan.png,6,4
 581,488,400,arthur-gladiators-king,,14,assets/cloth-schemes/arthur-gladiators/excalibur-arthur-pendragon.png,2,10
-582,,402,hades-celestial-star-8,13,16,assets/cloth-schemes/hades-specters/wyrm-surplice.jpg,,29
+582,,402,hades-other-specters,13,16,assets/cloth-schemes/hades-specters/wyrm-v1.jpg,6,29
 583,490,403,eris-dryads,,15,assets/cloth-schemes/eris-dryads/oath-edward.jpg,4,5
 584,101,408,eris-phantoms,9,15,assets/cloth-schemes/eris-dryads/fear-deimos.png,4,5
 585,336,407,eris-phantoms,9,15,assets/cloth-schemes/eris-dryads/defeat-phobos.png,4,5
@@ -742,3 +742,5 @@
 741,481,,others,,,assets/cloth-schemes/others/mi-jeong.jpg,,15
 742,482,,others,,,assets/cloth-schemes/others/cerberus.jpg,,1
 743,217,188,hades-celestial-star-34,13,16,assets/cloth-schemes/hades-specters/bennu-kagaho-v2.jpg,3,6
+744,,404,hades-other-specters,13,16,assets/cloth-schemes/hades-specters/wyrm-surplice.jpg,6,29
+745,,230,hades-other-specters,13,16,assets/cloth-schemes/hades-specters/wyrm-surplice.jpg,6,29

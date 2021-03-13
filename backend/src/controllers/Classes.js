@@ -131,7 +131,7 @@ module.exports = {
 
       gods = [{
         name: 'Gods',
-        saints: collection.filter(saint => saint.group === 'hades-gods'),
+        saints: collection.filter(saint => saint.group === 'hades-gods').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1),
       }];
 
       skeletons = [{
