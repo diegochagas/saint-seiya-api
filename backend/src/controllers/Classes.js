@@ -77,11 +77,6 @@ module.exports = {
         name: 'Gods',
         saints: collection.filter(saint => saint.group === 'athena-gods'),
       }];
-          
-      let apprentices = [{
-        name: 'Apprentices Saints',
-        saints: collection.filter(saint => saint.group === 'athena-apprentices'),
-      }];
 
       let soldiers = [{
         name: 'Soldiers Saints',
@@ -102,7 +97,6 @@ module.exports = {
       response.json({
         withoutConstellations,
         gods,
-        apprentices,
         soldiers,
         constellations,
         formerConstellations,

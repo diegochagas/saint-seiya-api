@@ -70,7 +70,6 @@ export class SaintsListComponent implements OnInit {
         this.groups.push({ title: "Saints with Chinese constellations", items: response.chineseConstellations });
         this.groups.push({ title: "Saints without constellations", items: this.orderSaints(response.withoutConstellations) });
         this.groups.push({ title: "Soldiers Saints", items: this.orderSaints(response.soldiers) });
-        this.groups.push({ title: "Apprentices Saints", items: this.orderSaints(response.apprentices) });
       } else if (this.className === 'specters') {
         this.groups = [];
 
