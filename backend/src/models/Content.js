@@ -72,6 +72,8 @@ const loadSaintsData = (saints, content) => {
     
     if (group) {
       saint.class = group.classSingular;
+
+      saint.classPlural = group.class;
     
       saint.groupName = group.name;
     } else {

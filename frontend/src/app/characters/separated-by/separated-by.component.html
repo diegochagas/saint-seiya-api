@@ -10,7 +10,7 @@
 
     <div class="saints" >
       <fieldset class="saint-group" *ngFor="let group of pageContent.groups">
-        <legend>{{ group.name }}s</legend>
+        <legend>{{ group.namePlural }}</legend>
 
         <a class="saint" *ngFor="let saint of group.saints" href="{{ '#/characters/' + path + saint.class.replace(' ', '-').toLowerCase() + '/' + saint.id }}">
           <div class="saint-container">

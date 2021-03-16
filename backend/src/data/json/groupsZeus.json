@@ -1,1 +1,1 @@
-[{"id":"1","group":"zeus-gods","class":"Gods","classSingular":"God","name":"Gods"},{"id":"2","group":"zeus-angels","class":"Angels","classSingular":"Angel","name":"Angels"},{"id":"3","group":"zeus-fallen-angels","class":"Fallen Angels","classSingular":"Fallen Angel","name":"Fallen Angels"}]
+[{"id":"1","group":"zeus-gods","class":"Angels","classSingular":"Angel","name":"Gods"},{"id":"2","group":"zeus-angels","class":"Angels","classSingular":"Angel","name":"Angels"},{"id":"3","group":"zeus-fallen-angels","class":"Angels","classSingular":"Angel","name":"Fallen Angels"}]

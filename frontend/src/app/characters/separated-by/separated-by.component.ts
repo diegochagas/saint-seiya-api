@@ -77,7 +77,7 @@ export class SeparatedByComponent implements OnInit {
     for (let group in grouped) {
       const sorted = grouped[group].sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1);
 
-      this.pageContent.groups.push({ name: group, saints: sorted })
+      this.pageContent.groups.push({ name: group, saints: sorted, namePlural: sorted[0].classPlural })
     }
 
     this.pageContent.groups = this.pageContent.groups.sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1);
