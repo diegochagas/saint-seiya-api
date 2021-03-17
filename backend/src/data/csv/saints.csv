@@ -698,7 +698,7 @@
 650,406,435,poseidon-gods,9,25,assets/cloth-schemes/poseidon-mariners/triton-souma.png,5,37
 651,469,435,poseidon-gods,9,25,assets/cloth-schemes/poseidon-mariners/triton-yuna.png,5,37
 492,432,224,poseidon-mariners,,25,assets/cloth-schemes/poseidon-mariners/mermaid-thetis.jpg,1,1
-737,620,457,poseidon-mariners,,25,assets/cloth-schemes/poseidon-mariners/swordfish-asceta.jpg,,29
+737,620,,poseidon-mariners,,25,assets/cloth-schemes/poseidon-mariners/asceta.jpg,6,29
 58,52,310,poseidon-mariners-generals,18,25,assets/cloth-schemes/poseidon-mariners/sea-horse-baian.jpg,1,1
 220,195,308,poseidon-mariners-generals,18,25,assets/cloth-schemes/poseidon-mariners/scylla-io.jpg,1,1
 223,197,184,poseidon-mariners-generals,18,25,assets/cloth-schemes/poseidon-mariners/kraken-isaak.jpg,1,1
