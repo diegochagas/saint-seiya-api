@@ -1,4 +1,3 @@
-const affiliations = require('./json/affiliations.json')
 const artists = require('./json/artists.json')
 const attackers = require('./json/attackers.json')
 const attacks = require('./json/attacks.json')
@@ -38,7 +37,6 @@ const ranks = require('./json/ranks.json')
 const saints = require('./json/saints.json')
 
 module.exports = {
-    affiliations,
     artists,
     attackers,
     attacks,

@@ -28,7 +28,12 @@
 
         <p>
           <b>Affiliation: </b>
-          <span>{{ cls.affiliation || 'Not revealed' }}</span>
+
+          <a *ngIf="cls.affiliation.id" [routerLink]="['/characters/personal/all/' + cls.affiliation.id]">
+            {{ cls.affiliation.name }}
+          </a>
+
+          <span *ngIf="!cls.affiliation.name">{{ cls.affiliation.name || 'Not revealed' }}</span>
         </p>
 
         <p>

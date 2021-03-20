@@ -88,9 +88,9 @@ const loadSaintsData = (saints, content) => {
       }
     });
 
-    content.affiliations.forEach(affiliation => {
-      if (affiliation.id === saint.affiliation) {
-        saint.affiliation = affiliation.name;
+    content.characters.forEach(character => {
+      if (character.id === saint.affiliation) {
+        saint.affiliation = character;
       }
     });
 

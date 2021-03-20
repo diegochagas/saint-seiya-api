@@ -2,7 +2,6 @@ const csv = require('csvtojson');
 const FileSystem = require("fs");
 
 const files = [
-  'affiliations',
   'artists',
   'attackers',
   'attacks',
