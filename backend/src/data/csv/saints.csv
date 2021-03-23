@@ -726,8 +726,8 @@
 725,612,84,athena-unknown-saints,,582,assets/cloth-schemes/athena-saints/flame-heat-saint.png,5,12
 726,613,,athena-unknown-saints,,582,assets/cloth-schemes/athena-saints/andromeda-island-male-saint.jpg,9,12
 727,614,,athena-unknown-saints,,582,assets/cloth-schemes/athena-saints/andromeda-island-female-saint.jpg,5,12
-728,615,381,athena-unknown-saints,6,582,assets/cloth-schemes/athena-saints/aurora-cloth.jpg,,29
-729,616,452,athena-unknown-saints,6,582,assets/cloth-schemes/athena-saints/desert-cloth.jpg,,29
+728,,381,athena-unknown-saints,6,582,assets/cloth-schemes/athena-saints/aurora-saint.jpg,6,29
+729,,452,athena-unknown-saints,6,582,assets/cloth-schemes/athena-saints/desert-cloth.jpg,,29
 730,,453,athena-unknown-saints,6,582,assets/cloth-schemes/athena-saints/thunderstorm-cloth.jpg,,29
 731,,454,athena-unknown-saints,6,582,assets/cloth-schemes/athena-saints/tsunami-cloth.jpg,,29
 732,558,455,athena-unknown-saints,9,582,assets/cloth-schemes/athena-saints/tornado-elam-god.jpg,,29
@@ -744,3 +744,14 @@
 743,,230,hades-other-specters,,168,assets/cloth-schemes/hades-specters/wyrm-god.jpg,6,29
 744,498,460,cyclops,,,assets/cloth-schemes/cyclops/steropes-blue-god.jpg,,36
 745,497,457,cyclops,,,assets/cloth-schemes/cyclops/brontes-dark-god.jpg,,36
+746,499,63,athena-saints-18,5,582,assets/cloth-schemes/athena-saints/cassiopeia-rebecca.jpg,,5
+747,500,,athena-unknown-saints,4,582,assets/cloth-schemes/athena-saints/the-trio-of-darkness-1.jpg,20,12
+748,501,,athena-unknown-saints,4,582,assets/cloth-schemes/athena-saints/the-trio-of-darkness-2.jpg,20,12
+749,502,,athena-unknown-saints,4,582,assets/cloth-schemes/athena-saints/the-trio-of-darkness-3.jpg,20,12
+750,506,463,eris-dryads,,308,assets/cloth-schemes/eris-dryads/lies-pseudos.jpg,,5
+751,508,464,eris-dryads,,308,assets/cloth-schemes/eris-dryads/massacre-androctasias.jpg,,5
+752,507,462,eris-dryads,,308,assets/cloth-schemes/eris-dryads/deception-patty.jpg,,5
+753,509,465,eris-dryads,,308,assets/cloth-schemes/eris-dryads/plunder-layla.jpg,,5
+754,508,,athena-saints-18,4,582,assets/cloth-schemes/eris-dryads/massacre-androctasias.jpg,,12
+755,507,,athena-saints-32,4,582,assets/cloth-schemes/eris-dryads/deception-patty.jpg,,12
+756,509,,athena-saints-84,4,582,assets/cloth-schemes/eris-dryads/plunder-layla.jpg,,12
