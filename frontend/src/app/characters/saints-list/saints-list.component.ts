@@ -82,11 +82,11 @@ export class SaintsListComponent implements OnInit {
         });
 
         this.groups.push({ title: "Gods", items: response.gods });
-        this.groups.push({ title: "Hades Representative", items: response.representative });
+        this.groups.push({ title: "Representative", items: response.representative });
         this.groups.push({ title: `108 Hades Specters (${unknownSpectersCounter} appeared)`, items: response.evilStars });
-        this.groups.push({ title: "Skeleton soldiers", items: response.skeletons });
+        this.groups.push({ title: "Soldiers", items: response.skeletons });
         this.groups.push({ title: "Other Specters", items: response.otherSpecters });
-        this.groups.push({ title: "Pluto Faceless", items: response.faceless });
+        this.groups.push({ title: "Faceless", items: response.faceless });
       } else if (this.className === 'pallasites') {
         this.groups = [];
 

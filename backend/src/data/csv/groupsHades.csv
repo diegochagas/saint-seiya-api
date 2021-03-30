@@ -1,11 +1,11 @@
 ﻿id,group,class,classSingular,name,chineseName,chinesePronunciation,warrior
-1,hades-faceless,Faceless,Faceless,Assassins,,,
+1,hades-faceless,Specters,Specter,Faceless,,,
 ,,,,,,,
-1,hades-representative,Representatives,Representative,Hades Representative,,,
+1,hades-representative,Specters,Specter,Hades Representative,,,
 ,,,,,,,
-1,hades-gods,Gods,God,Gods,,,
+1,hades-gods,Specters,Specter,Gods,,,
 ,,,,,,,
-1,hades-skeleton,Soldiers,Soldier,Skeleton soldiers,,,
+1,hades-skeleton,Specters,Specter,Skeleton soldiers,,,
 ,,,,,,,
 1,hades-celestial-star,Specters,Specter,Celestial Leader Star,天魁星,Tiankui,Song Jiang
 2,hades-celestial-star,Specters,Specter,Celestial Strength Star,天罡星,Tiangang,Lu Junyi
@@ -119,7 +119,7 @@
 ,,,,,,,
 1,hades-other-specters,Specters,Specter,Unknown Evil Stars,,,
 2,hades-other-specters,Specters,Specter,Evil Star of Matter,,,
-3,hades-other-specters,Specters,Specter,Evil Star of Silence,,,
+3,hades-other-specters,Specters,Specter,Celestial Shadowy Star,地陰星,Diyin,Gu Dasao
 4,hades-other-specters,Specters,Specter,Evil Star of Strength,,,
 5,hades-other-specters,Specters,Specter,Celestial Bright Star,,,
 6,hades-other-specters,Specters,Specter,Celestial Spirit Star,地靈星,Diling,An Daoquan
@@ -127,4 +127,3 @@
 8,hades-other-specters,Specters,Specter,Celestial Sorcery Star,地魔星,Dimo,Song Wan
 9,hades-other-specters,Specters,Specter,Celestial Horn Star,地角星,Dijiao,Zou Run
 10,hades-other-specters,Specters,Specter,Celestial Ugly Star,地丑星,Dichou,Shi Yong
-11,hades-other-specters,Specters,Specter,Celestial Shadowy Star,地陰星,Diyin,Gu Dasao

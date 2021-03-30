@@ -60,8 +60,8 @@
 59,Capricorn Cloth,
 60,Capricorn God Cloth,
 61,Carina Cloth,
-62,Cassiopeia Cloth,
-63,Cassiopeia Cloth Saintia,
+62,Cassiopeia Silver Cloth,
+63,Cassiopeia Cloth,
 64,Centaurus Cloth,
 65,Cepheus Cloth,
 66,Cerberus Cloth,
@@ -101,9 +101,9 @@
 100,Soul Killer Chronotector,
 101,Deathwatch Chronotector,
 102,Deep Surplice,
-103,Delphinus Cloth,
-104,Delphinus Cloth Ghost,
-105,Delphinus Cloth Saintia,
+103,Delphinus Cloth VOmega,
+104,Dolphin Cloth,
+105,Delphinus Cloth,
 106,Demon Twin Dog Adamas,
 107,Diana Galaxy,
 108,Dimension Soma,
@@ -410,7 +410,7 @@
 409,Canis Minor Cloth,29
 410,Lyra God Cloth,29
 411,Ara Cloth Online,29
-412,Cassiopeia Lost Canvas,6
+412,Cassiopeia Bronze Cloth,6
 413,Cerberus Cloth Online,29
 414,Bootes Cloth Lost Canvas,6
 415,Camelopardalis Cloth Lost Canvas,6
@@ -460,7 +460,11 @@
 459,Ares God Cloth V2,29
 460,Blue God,36
 461,Red God,36
-462,Deception,5
-463,Lies,5
-464,Massacre,5
-465,Plunder,5
+462,Deception Leaf,5
+463,Lies Leaf,5
+464,Massacre Leaf,5
+465,Plunder Leaf,5
+466,Delphinus Black Cloth,5
+467,Cassiopeia Black Cloth,5
+468,Ursa Minor Black Cloth,5
+469,Tornado Cloth V2,29
