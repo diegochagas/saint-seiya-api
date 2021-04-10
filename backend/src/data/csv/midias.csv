@@ -1,10 +1,9 @@
-﻿"id","name"
-"1","Manga"
-"2","Anime"
-"3","Book"
-"4","Magazine"
-"5","Game"
-"6","Audio"
-"7","Movie"
-"8","Streaming"
-"10","Outside story"
+﻿id,name
+1,Manga
+2,Anime
+3,Book
+4,Outside story
+5,Game
+6,Audio
+7,Movie
+8,Streaming
