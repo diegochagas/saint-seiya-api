@@ -548,9 +548,9 @@
 547,,389,artemis-satellites,1,38,assets/cloth-schemes/artemis-satellites/satellites-lascoumoune-1.png,5,4
 548,,396,pallas-pallasite-soldiers,1,323,assets/cloth-schemes/pallas-pallasites/pallasites-soldiers-yellow.jpg,,16
 549,,14,ares-soldier-martians,1,33,assets/cloth-schemes/ares-martians/ant-squad-soldier.png,8,16
-550,,31,athena-unknown-saints,6,582,assets/cloth-schemes/athena-saints/atrium-saint.jpg,6,29
-551,,62,athena-saints-18,6,582,assets/cloth-schemes/athena-saints/cassiopeia-cloth.png,,29
-552,,79,athena-saints-26,5,582,assets/cloth-schemes/athena-saints/corona-australis.jpg,,29
+550,510,31,athena-unknown-saints,6,582,assets/cloth-schemes/athena-saints/atrium-matthew.jpg,6,29
+551,511,62,athena-saints-18,6,582,assets/cloth-schemes/athena-saints/cassiopeia-shion.jpg,6,29
+552,,79,athena-saints-26,5,582,assets/cloth-schemes/athena-saints/corona-australis-saint.jpg,6,29
 553,,85,athena-saints-29,6,582,assets/cloth-schemes/athena-saints/crater-saint.png,,29
 554,523,104,athena-saints-32,5,582,assets/cloth-schemes/athena-saints/delphinus-saint.png,11,12
 555,,135,athena-saints-36,5,582,assets/cloth-schemes/athena-saints/eridanus-saint.jpg,5,6
@@ -756,3 +756,4 @@
 755,509,468,athena-saints-84,4,582,assets/cloth-schemes/eris-dryads/plunder-layla.jpg,,12
 756,558,469,athena-unknown-saints,6,582,assets/cloth-schemes/athena-saints/tornado-ellan-2.jpg,6,29
 757,151,470,athena-unknown-saints,6,582,assets/cloth-schemes/athena-saints/ghosts-master-geist-v2.jpg,6,12
+758,120,62,athena-saints-18,6,582,assets/cloth-schemes/athena-saints/cassiopeia-silver-elda.jpg,6,5
