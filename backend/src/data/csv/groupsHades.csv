@@ -1,11 +1,11 @@
 ﻿id,group,class,classSingular,name,chineseName,chinesePronunciation,warrior
-1,hades-faceless,Specters,Specter,Faceless,,,
+1,hades-faceless,Faceless,Faceless,,,,
 ,,,,,,,
-1,hades-representative,Specters,Specter,Hades Representative,,,
+1,hades-representative,Specters,Specter,,,,
 ,,,,,,,
-1,hades-gods,Specters,Specter,Gods,,,
+1,hades-gods,Specters,Specter,,,,
 ,,,,,,,
-1,hades-skeleton,Specters,Specter,Skeleton soldiers,,,
+1,hades-skeleton,Specters,Specter,,,,
 ,,,,,,,
 1,hades-celestial-star,Specters,Specter,Celestial Leader Star,天魁星,Tiankui,Song Jiang
 2,hades-celestial-star,Specters,Specter,Celestial Strength Star,天罡星,Tiangang,Lu Junyi

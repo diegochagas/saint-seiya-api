@@ -104,7 +104,8 @@ export class SaintsListComponent implements OnInit {
         const response: any = await this.classesService.getClass(this.className).toPromise();
 
         this.groups.push({ title: "Gods", items: response.gods });
-        this.groups.push({ title: "Ares Berserkers", items: response.berserkers });
+        this.groups.push({ title: "Berserkers", items: response.berserkers });
+        this.groups.push({ title: "Phantoms", items: response.phantoms });
         this.groups.push({ title: "Martians", items: response.martians });
       } else if (this.className === 'gigas') {
         this.groups = [];

@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { CharacterViewComponent } from './character-view.component';
 
@@ -6,7 +6,7 @@ describe('CharacterViewComponent', () => {
   let component: CharacterViewComponent;
   let fixture: ComponentFixture<CharacterViewComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ CharacterViewComponent ]
     })

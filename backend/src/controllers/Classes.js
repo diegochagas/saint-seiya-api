@@ -198,10 +198,17 @@ module.exports = {
       let gods = [];
       let berserkers = [];
       let martians = [];
+      let phantoms = [];
 
       gods = [{
         name: 'Gods',
         saints: collection.filter(saint => saint.group.includes('ares') && saint.group.includes('gods')),
+      }];
+
+      
+      phantoms = [{
+        name: 'Phantoms', 
+        saints: collection.filter(saint => saint.group === 'ares-phantoms')
       }];
 
       berserkers = [
@@ -217,7 +224,7 @@ module.exports = {
         { name: 'Soldiers', saints: collection.filter(saint => saint.group === 'ares-soldier-martians') },
       ];
   
-      response.json({ gods, berserkers, martians });
+      response.json({ gods, berserkers, phantoms, martians });
     } else if (request.params.class === 'corona-saints') {
       response.json({
         gods: [
@@ -240,7 +247,7 @@ module.exports = {
         ],
         saints: [
           { name: 'Dryads', saints: collection.filter(saint => saint.group === 'eris-dryads') },
-          { name: 'Phantoms', saints: collection.filter(saint => saint.group === 'eris-phantoms') }
+          { name: 'Soldiers', saints: collection.filter(saint => saint.group === 'eris-soldiers') }
         ],
       });
     } else if (request.params.class === 'fairies') {
