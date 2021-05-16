@@ -37,13 +37,28 @@
         </p>
 
         <p>
-          <b>Artist: </b>
+          <b>Artists: </b>
 
-          <a *ngIf="cls.artist.site" href="{{cls.artist.site}}" target="_blank" rel="noopener noreferrer">
-            {{ cls.artist.name }}
-          </a>
+          <ng-container *ngIf="cls.artists.length === 0; else artists">
+            <span>Not revealed</span>
+          </ng-container>
 
-          <span *ngIf="!cls.artist.site">{{ cls.artist.name || 'Not revealed' }}</span>
+          <ng-template #artists>
+            <span>
+              <a *ngIf="cls.artists[0].type === 'saint'" [routerLink]="['/characters/artist/' + cls.artists[0].details.id]">
+                (Saint) {{ cls.artists[0].details.name }}
+              </a>
+              <a *ngIf="cls.artists[1] && cls.artists[1].type === 'saint'" [routerLink]="['/characters/artist/' + cls.artists[1].details.id]">
+                (Saint) {{ cls.artists[1].details.name }}
+              </a><span *ngIf="cls.artists.length > 1"> / </span>
+              <a *ngIf="cls.artists[0].type === 'cloth'" [routerLink]="['/characters/artist/' + cls.artists[0].details.id]">
+                (Cloth) {{ cls.artists[0].details.name }}
+              </a>
+              <a *ngIf="cls.artists[1] && cls.artists[1].type === 'cloth'" [routerLink]="['/characters/artist/' + cls.artists[1].details.id]">
+                (Cloth) {{ cls.artists[1].details.name }}
+              </a>
+            </span>
+          </ng-template>
         </p>
 
         <p>

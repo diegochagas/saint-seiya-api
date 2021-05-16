@@ -11,7 +11,7 @@ import { ArtistsService, ClassesService, DebutsService } from 'src/app/shared';
 export class SeparatedByComponent implements OnInit {
   pageTitle = "";
 
-  pageContent: any = { groups: [] };
+  pageContent: any = { groups: [], loading: true };
 
   path = 'classes/';
 
@@ -50,7 +50,7 @@ export class SeparatedByComponent implements OnInit {
 
         this.pageTitle = `Artist: ${response.name}`;
 
-        saints = responseSaints.filter(saint => id === saint.artist.id);
+        saints = responseSaints.filter(saint => id === saint.artistSaint || id === saint.artistCloth);
       } else if (path === "debut") {
         response = await this.debutsService.getDebut(id).toPromise();
 
@@ -64,7 +64,7 @@ export class SeparatedByComponent implements OnInit {
       if (path === "artist") {
         this.pageTitle = "Unknown artists";
 
-        saints = responseSaints.filter(saint => saint.artist === "");
+        saints = responseSaints.filter(saint => saint.artistSaint === "" || saint.artistCloth === "");
       } else if (path === "debut") {
         this.pageTitle = "Not revealed";
 
@@ -81,6 +81,10 @@ export class SeparatedByComponent implements OnInit {
     }
 
     this.pageContent.groups = this.pageContent.groups.sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1);
+
+    this.pageContent.loading = false;
+
+    console.log(this.pageContent.loading)
   }
 
   groupBy(items, key): any {

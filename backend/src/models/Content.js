@@ -96,9 +96,15 @@ const loadSaintsData = (saints, content) => {
 
     saint.image = saint.image || noSchemeImage;
 
+    saint.artists = [];
+
     content.artists.find(artist => {
-      if (saint.artist === artist.id) {
-        saint.artist = artist;
+      if (saint.artistSaint === artist.id) {
+        saint.artists.push({ details: artist, type: 'saint' });
+      }
+      
+      if (saint.artistCloth === artist.id) {
+        saint.artists.push({ details: artist, type: 'cloth' });
       }
     });
 

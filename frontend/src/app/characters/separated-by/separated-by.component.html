@@ -1,10 +1,10 @@
 <div class="saints-view">
   <h1>{{ pageTitle }}</h1>
 
-  <ng-container *ngIf="pageContent.groups.length; else spinner">
+  <ng-container *ngIf="!pageContent.loading && pageContent.groups.length">
     <h3 *ngIf="pageContent.site">
       <a href="{{pageContent.site}}" target="_blank" rel="noopener noreferrer">
-        Go to his personal page
+        Go to personal page
       </a>
     </h3>
 
@@ -25,8 +25,26 @@
     </div>
   </ng-container>
 
-  <ng-template #spinner>
+  <ng-container *ngIf="!pageContent.loading && pageContent.groups.length === 0">
+    <h3 *ngIf="pageContent.site">
+      <a href="{{ pageContent.site }}" target="_blank" rel="noopener noreferrer">
+        Go to personal page
+      </a>
+    </h3>
+
+    <div class="saints" >
+      <fieldset class="saint-group">
+        <span class="saint">
+          <div class="saint-container">
+            <p>No scheme drawn</p>
+          </div>
+        </span>
+      </fieldset>
+    </div>
+  </ng-container>
+
+  <ng-container *ngIf="pageContent.loading">
     <app-spinner [spinner]="'zodiac-wheel'" [color]="'blue'"></app-spinner>
-  </ng-template>
+  </ng-container>
 </div>
 
