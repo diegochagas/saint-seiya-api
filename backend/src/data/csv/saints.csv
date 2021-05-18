@@ -266,7 +266,7 @@
 265,236,72,poseidon-mariners-generals,18,494,assets/cloth-schemes/poseidon-mariners/chrysaor-krishna.jpg,1,1,1
 266,185,441,athena-saints-31,5,582,assets/cloth-schemes/athena-saints/cygnus-hyoga-omega.png,5,5,16
 267,238,132,athena-saints-35,5,582,assets/cloth-schemes/athena-saints/equuleus-kyoko.jpg,4,4,5
-268,239,291,athena-saints-68,6,582,assets/cloth-schemes/athena-saints/puppis-lacaille.png,5,5,6
+268,239,291,athena-saints-68,6,582,assets/cloth-schemes/athena-saints/puppis-lacaille.jpg,5,6,6
 269,240,170,typhon-sons-3,,444,assets/cloth-schemes/typhon-gigas/hundred-dragons-ladon.jpg,5,5,27
 270,241,365,hades-terrestrial-star-85,14,168,assets/cloth-schemes/hades-specters/worm-laimi.jpg,1,1,1
 271,242,,lamech-gods,9,242,assets/cloth-schemes/lamech-servants/nothing-lamech.jpg,,,29
@@ -392,7 +392,7 @@
 391,365,295,athena-former-saints-66,5,582,assets/cloth-schemes/athena-saints/rangifer-rudolph.png,6,6,16
 392,366,300,odin-drbal-god-warriors,,495,assets/cloth-schemes/odin-god-warriors/rung.png,5,5,22
 393,367,375,athena-saints-28,4,582,assets/cloth-schemes/athena-saints/corvus-ruse.jpg,,,7
-394,368,293,athena-saints-69,5,582,assets/cloth-schemes/athena-saints/pyxi-rusk.png,5,5,6
+394,368,293,athena-saints-69,5,582,assets/cloth-schemes/athena-saints/pyxis-rusk.jpg,5,6,6
 395,369,113,athena-saints-34,5,582,assets/cloth-schemes/athena-saints/draco-ryuho-1.png,5,,16
 396,369,115,athena-saints-34,5,582,assets/cloth-schemes/athena-saints/draco-ryuho-2.png,5,,16
 397,369,119,athena-saints-34,9,582,assets/cloth-schemes/athena-saints/draco-ryuho-omega.png,,5,16
@@ -565,8 +565,8 @@
 564,,244,athena-chinese-saints-10,6,582,assets/cloth-schemes/athena-saints/nu-saint.jpg,6,6,29
 565,,251,athena-unknown-saints,5,582,assets/cloth-schemes/athena-saints/silver-oriolus-saint.jpg,6,6,29
 566,,286,athena-saints-67,5,582,assets/cloth-schemes/athena-saints/piscis-austrinus-saint.jpg,6,6,29
-567,,290,athena-saints-68,5,582,assets/cloth-schemes/athena-saints/puppis-cloth.jpg,,,29
-568,,292,athena-saints-69,6,582,assets/cloth-schemes/athena-saints/pyxis-cloth.png,,,29
+567,239,290,athena-saints-68,5,582,assets/cloth-schemes/athena-saints/puppis-lacaille-online.jpg,6,6,29
+568,368,292,athena-saints-69,6,582,assets/cloth-schemes/athena-saints/pyxis-rusk-online.jpg,6,6,29
 569,553,311,athena-unknown-saints,,582,assets/cloth-schemes/athena-saints/sea-serpent-saint.jpg,24,17,12
 570,,313,athena-saints-76,5,582,assets/cloth-schemes/athena-saints/serpens-cloth.jpg,,,29
 571,,347,athena-saints-82,,582,assets/cloth-schemes/athena-saints/tucana-male-saint.png,20,,6
