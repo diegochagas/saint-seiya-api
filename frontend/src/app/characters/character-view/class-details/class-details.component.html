@@ -18,7 +18,12 @@
 
         <p>
           <b>Class: </b>
-          <span>{{ cls.class || 'Not revealed' }}</span>
+
+          <a *ngIf="cls.class.class" [routerLink]="['/characters/classes/' + cls.class.class.replace(' ', '-').toLowerCase()]">
+            {{ cls.class.classSingular }}
+          </a>
+
+          <span *ngIf="!cls.class.class">Not revealed</span>
         </p>
 
         <p>
@@ -64,9 +69,9 @@
         <p>
           <b>Symbol: </b>
 
-          <span *ngIf="cls.groupName">{{ cls.groupName }}</span>
+          <span *ngIf="cls.class.name">{{ cls.class.name }}</span>
 
-          <span *ngIf="!cls.groupName">Not revealed</span>
+          <span *ngIf="!cls.class.name">Not revealed</span>
         </p>
 
         <p>

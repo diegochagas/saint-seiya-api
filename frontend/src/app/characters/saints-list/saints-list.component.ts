@@ -98,10 +98,10 @@ export class SaintsListComponent implements OnInit {
         this.groups.push({ title: "Third class pallasites", items: response.thirdClass });
         this.groups.push({ title: "Unknown class pallasites", items: response.unknownClass });
         this.groups.push({ title: "Pallasites soldiers", items: response.soldiers });
-      } else if (this.className === 'berserkers') {
+      } else if (this.className === 'berserkers' || this.className === 'martians') {
         this.groups = [];
 
-        const response: any = await this.classesService.getClass(this.className).toPromise();
+        const response: any = await this.classesService.getClass('berserkers').toPromise();
 
         this.groups.push({ title: "Gods", items: response.gods });
         this.groups.push({ title: "Berserkers", items: response.berserkers });
@@ -124,7 +124,7 @@ export class SaintsListComponent implements OnInit {
         this.groups.push({ title: "King", items: response.king });
         this.groups.push({ title: "Gladiators", items: response.gladiators });
         this.groups.push({ title: "Low Ranking Gladiators", items: response.lowGladiators });
-      } else if (this.className === 'god-warriors') {
+      } else if (this.className === 'god-warriors' || this.className === 'blue-warriors') {
         this.groups = [];
 
         const response: any = await this.classesService.getClass(this.className).toPromise();

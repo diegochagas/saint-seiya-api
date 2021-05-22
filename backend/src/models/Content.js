@@ -71,11 +71,12 @@ const loadSaintsData = (saints, content) => {
     if (saint.group.includes('zeus')) group = getGroup(content.groupsZeus, saint);
     
     if (group) {
-      saint.class = group.classSingular;
+      saint.class = group;
+      // saint.class = group.classSingular;
 
-      saint.classPlural = group.class;
+      // saint.classPlural = group.class;
     
-      saint.groupName = group.name;
+      // saint.groupName = group.name;
     } else {
       console.error(`Error:
         Saint id ${saint.id} with name ${saint.name || 'undefined'} from group ${saint.group || 'undefined'} not found, group is ${group}

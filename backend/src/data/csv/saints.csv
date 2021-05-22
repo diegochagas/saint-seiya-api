@@ -230,12 +230,12 @@
 229,203,252,athena-saints-60,6,582,assets/cloth-schemes/athena-saints/orion-jager.png,5,5,21
 230,204,,athena-soldiers,1,582,assets/cloth-schemes/athena-saints/soldier-jaki.jpg,,,12
 231,205,82,athena-saints-28,6,582,assets/cloth-schemes/athena-saints/corvus-jamian.jpg,1,1,1
-232,206,307,athena-saints-75,6,582,assets/cloth-schemes/athena-saints/scutum-jan.png,5,5,21
+232,206,307,athena-saints-75,6,582,assets/cloth-schemes/athena-saints/scutum-jan.jpg,5,5,21
 233,207,,athena-unknown-saints,4,582,assets/cloth-schemes/athena-saints/jango.jpg,17,,1
 234,208,386,athena-saints-51,5,582,assets/cloth-schemes/athena-saints/lynx-jao.jpg,5,5,23
 235,210,393,athena-saints-31,4,582,assets/cloth-schemes/athena-saints/cygnus-jid.jpg,,,32
 236,211,82,athena-saints-28,6,582,assets/cloth-schemes/athena-saints/corvus-johann.png,,8,16
-237,212,307,athena-saints-75,6,582,assets/cloth-schemes/athena-saints/scutum-juan.png,5,5,5
+237,212,307,athena-saints-75,6,582,assets/cloth-schemes/athena-saints/scutum-juan.jpg,5,5,5
 238,213,376,athena-saints-13,4,582,assets/cloth-schemes/athena-saints/canes-venatici-judo.png,,,7
 239,214,288,poseidon-gods,9,494,assets/cloth-schemes/poseidon-mariners/poseidon-julian.jpg,1,1,1
 240,215,70,athena-saints-22,5,582,assets/cloth-schemes/athena-saints/chamaeleon-june.jpg,1,1,1
@@ -568,7 +568,7 @@
 567,239,290,athena-saints-68,5,582,assets/cloth-schemes/athena-saints/puppis-lacaille-online.jpg,6,6,29
 568,368,292,athena-saints-69,6,582,assets/cloth-schemes/athena-saints/pyxis-rusk-online.jpg,6,6,29
 569,553,311,athena-unknown-saints,,582,assets/cloth-schemes/athena-saints/sea-serpent-saint.jpg,24,17,12
-570,,313,athena-saints-76,5,582,assets/cloth-schemes/athena-saints/serpens-cloth.jpg,,,29
+570,,313,athena-saints-76,5,582,assets/cloth-schemes/athena-saints/serpens-saint.jpg,6,6,29
 571,,347,athena-saints-82,,582,assets/cloth-schemes/athena-saints/tucana-male-saint.png,20,,6
 572,378,,others,,,assets/cloth-schemes/others/seika.jpg,17,,1
 573,461,,others,,,assets/cloth-schemes/others/shunrei.jpg,17,,1
@@ -634,7 +634,7 @@
 633,549,295,athena-former-saints-66,5,582,assets/cloth-schemes/athena-saints/rangifer-saint-woman.jpg,,,29
 634,,433,athena-saints-70,6,582,assets/cloth-schemes/athena-saints/reticulum-saint.png,,,29
 635,505,451,ares-phantoms,9,308,assets/cloth-schemes/eris-dryads/harmony-harmonia.jpg,,,5
-636,,307,athena-saints-75,5,582,assets/cloth-schemes/athena-saints/scutum-saint.jpg,,,29
+636,,307,athena-saints-75,5,582,assets/cloth-schemes/athena-saints/scutum-juan-online.jpg,6,6,29
 637,,314,athena-saints-77,5,582,assets/cloth-schemes/athena-saints/sextante-saint.jpg,6,6,29
 638,558,434,athena-unknown-saints,6,582,assets/cloth-schemes/athena-saints/tornado-ellan-1.jpg,6,6,29
 639,,344,athena-saints-80,6,582,assets/cloth-schemes/athena-saints/triangulum-saint.jpg,,,29
@@ -715,7 +715,7 @@
 714,603,,hades-faceless,,168,assets/cloth-schemes/hades-faceless/fear-demon.png,,,10
 715,604,,hades-faceless,,168,assets/cloth-schemes/hades-faceless/fire-demon.png,,,10
 716,,,arthur-gladiators-low,25,582,assets/cloth-schemes/arthur-gladiators/unknown-gladiator.jpg,7,7,10
-717,,,arthur-gladiators-low,25,582,assets/cloth-schemes/arthur-gladiators/unknown-gladiator-2.png,,,10
+717,,,arthur-gladiators-low,25,582,assets/cloth-schemes/arthur-gladiators/unknown-gladiator-2.jpg,7,7,10
 718,605,,hades-faceless,,168,assets/cloth-schemes/hades-faceless/thunder-clouds.png,,,10
 719,,,hades-faceless,,168,assets/cloth-schemes/hades-faceless/unnamed-faceless.png,,,10
 720,,,arthur-gladiators-low,25,582,assets/cloth-schemes/arthur-gladiators/unknown-gladiator-3.png,,,10

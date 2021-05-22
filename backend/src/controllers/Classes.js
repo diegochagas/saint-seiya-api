@@ -6,7 +6,7 @@ function groupSaints(collection, group) {
   const filteredCollection = collection.filter(saint => saint.group.includes(group));
           
   const groupCollection = filteredCollection.reduce((accumulator, currentValue) => {
-    accumulator[currentValue.groupName] = [...accumulator[currentValue.groupName] || [], currentValue];
+    accumulator[currentValue.class.name] = [...accumulator[currentValue.class.name] || [], currentValue];
     
     return accumulator;
   }, {});
@@ -194,7 +194,7 @@ module.exports = {
         ],
         saints: groupSaints(collection, '-angels'),
       });
-    } else if (request.params.class === 'berserkers') {
+    } else if (request.params.class === 'berserkers' || request.params.class === 'martians') {
       let gods = [];
       let berserkers = [];
       let martians = [];
@@ -274,7 +274,7 @@ module.exports = {
         ],
         lowGladiators: groupSaints(collection, 'gladiators-low'),
       });
-    } else if (request.params.class === 'god-warriors') {
+    } else if (request.params.class === 'god-warriors' || request.params.class === 'blue-warriors') {
       response.json({
         gods: [
           { name: 'Gods', saints: collection.filter(saint => saint.group === 'odin-gods').sort((a, b) => a.cloth == b.cloth ? 0 : + (a.cloth > b.cloth) || -1) },
