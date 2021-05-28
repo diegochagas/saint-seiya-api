@@ -9,10 +9,10 @@
             <img [src]="cloth.image" class="card-img" alt="{{ cloth.cloth }}">
           </div>
 
-          <a class="background-cover" [routerLink]="['/characters/classes/' + cloth.class.toLowerCase().replace(' ', '-') + '/' + cloth.id]"></a>
+          <a class="background-cover" [routerLink]="['/characters/classes/' + cloth.class.class.toLowerCase().replace(' ', '-') + '/' + cloth.id]"></a>
 
           <div class="carousel-caption">
-            <h3>{{ cloth.class }}</h3>
+            <h3>{{ cloth.class.class }}</h3>
             <p>{{ cloth.cloth }}</p>
           </div>
         </ng-template>
@@ -128,13 +128,13 @@
     </div>
 
     <ng-container *ngIf="character.cloths.length > 0">
-      <div class="card-footer" *ngIf="character.cloths[0].class !== 'Others'">
+      <div class="card-footer" *ngIf="character.cloths[0].class.class !== 'Others'">
         <h6 class="card-subtitle">Cloths:</h6>
 
         <a
           class="cloth"
           *ngFor="let cloth of character.cloths"
-          [routerLink]="['/characters/classes/' + cloth.class.toLowerCase().replace(' ', '-') + '/' + cloth.id]"
+          [routerLink]="['/characters/classes/' + cloth.class.class.toLowerCase().replace(' ', '-') + '/' + cloth.id]"
         >
           <img src="{{ cloth.image }}" alt="Cloth scheme" class="card-img-icon">
 

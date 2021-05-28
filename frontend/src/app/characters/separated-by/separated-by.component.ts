@@ -72,27 +72,24 @@ export class SeparatedByComponent implements OnInit {
       }
     }
 
-    const grouped: any = this.groupBy(saints, "class");
+    const grouped: any = this.groupBy(saints, "class", "classSingular");
 
     for (let group in grouped) {
       const sorted = grouped[group].sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1);
 
-      this.pageContent.groups.push({ name: group, saints: sorted, namePlural: sorted[0].classPlural })
+      this.pageContent.groups.push({ name: group, saints: sorted, namePlural: sorted[0].class.class })
     }
 
     this.pageContent.groups = this.pageContent.groups.sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1);
 
     this.pageContent.loading = false;
-
-    console.log(this.pageContent.loading)
   }
 
-  groupBy(items, key): any {
-    return items.reduce(
-      (result, item) => ({
+  groupBy(items, key, secondKey): any {
+    return items.reduce((result, item) => ({
         ...result,
-        [item[key]]: [
-          ...(result[item[key]] || []),
+        [item[key][secondKey]]: [
+          ...(result[item[key][secondKey]] || []),
           item,
         ],
       }),
