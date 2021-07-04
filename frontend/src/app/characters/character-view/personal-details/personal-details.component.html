@@ -71,12 +71,15 @@
           </ng-container>
 
           <ng-template #masters>
-            <span *ngFor="let master of character.master; let i = index">
-              <a [routerLink]="['/characters/personal/all/' + master.id]">
-                {{ master.name }}
-              </a>
-              {{ i === character.master.length - 1 ? '' : ' / ' }}
-            </span>
+            <ng-container *ngFor="let master of character.master; let i = index">
+              <br *ngIf="i < character.master.length" />
+
+              <span>
+                <a [routerLink]="['/characters/personal/all/' + master.id]">
+                  {{ master.name }}
+                </a>
+              </span>
+            </ng-container>
           </ng-template>
         </p>
 
@@ -87,12 +90,15 @@
           </ng-container>
 
           <ng-template #apprentices>
-            <span *ngFor="let apprentice of character.apprentice; let i = index" >
-              <a [routerLink]="['/characters/personal/all/' + apprentice.id]">
-                {{ apprentice.name }}
-              </a>
-              {{ i === character.apprentice.length - 1 ? '' : ' / ' }}
-            </span>
+            <ng-container *ngFor="let apprentice of character.apprentice; let i = index" >
+              <br *ngIf="i < character.apprentice.length" />
+
+              <span>
+                <a [routerLink]="['/characters/personal/all/' + apprentice.id]">
+                  {{ apprentice.name }}
+                </a>
+              </span>
+            </ng-container>
           </ng-template>
         </p>
 
@@ -103,9 +109,13 @@
           </ng-container>
 
           <ng-template #attacks>
-            <span *ngFor="let attack of character.attacks; let i = index">
-              {{ attack }}{{ i === character.attacks.length - 1 ? '' : ' / ' }}
-            </span>
+            <ng-container *ngFor="let attack of character.attacks; let i = index">
+              <br *ngIf="i < character.attacks.length" />
+
+              <span>
+                {{ attack }}
+              </span>
+            </ng-container>
           </ng-template>
         </p>
 
@@ -116,12 +126,13 @@
           </ng-container>
 
           <ng-template #family>
-            <span *ngFor="let family of character.family; let i = index">
+            <ng-container *ngFor="let family of character.family; let i = index">
+              <br *ngIf="i < character.family.length" />
+
               <a [routerLink]="['/characters/personal/all/' + family.id]">
                 {{ family.member }}
               </a>
-              {{ i === character.family.length - 1 ? '' : ' / ' }}
-            </span>
+            </ng-container>
           </ng-template>
         </p>
       </div>

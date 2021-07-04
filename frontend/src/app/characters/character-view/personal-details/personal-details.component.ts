@@ -13,8 +13,5 @@ export class PersonalDetailsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-
-    console.log(this.character)
   }
-
 }

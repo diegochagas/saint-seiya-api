@@ -49,16 +49,22 @@
           </ng-container>
 
           <ng-template #artists>
+            <br *ngIf="cls.artists.length > 1" />
+
             <span>
               <a *ngIf="cls.artists[0].type === 'saint'" [routerLink]="['/characters/artist/' + cls.artists[0].details.id]">
                 (Saint) {{ cls.artists[0].details.name }}
               </a>
               <a *ngIf="cls.artists[1] && cls.artists[1].type === 'saint'" [routerLink]="['/characters/artist/' + cls.artists[1].details.id]">
                 (Saint) {{ cls.artists[1].details.name }}
-              </a><span *ngIf="cls.artists.length > 1"> / </span>
+              </a>
+
+              <br *ngIf="cls.artists.length > 1" />
+
               <a *ngIf="cls.artists[0].type === 'cloth'" [routerLink]="['/characters/artist/' + cls.artists[0].details.id]">
                 (Cloth) {{ cls.artists[0].details.name }}
               </a>
+
               <a *ngIf="cls.artists[1] && cls.artists[1].type === 'cloth'" [routerLink]="['/characters/artist/' + cls.artists[1].details.id]">
                 (Cloth) {{ cls.artists[1].details.name }}
               </a>
@@ -81,9 +87,13 @@
           </ng-container>
 
           <ng-template #attacks>
-            <span *ngFor="let attack of cls.attacks; let i = index">
-              {{ attack }}{{ i === cls.attacks.length - 1 ? '' : ' / ' }}
-            </span>
+            <ng-container *ngFor="let attack of cls.attacks; let i = index">
+              <br *ngIf="i < cls.attacks.length" />
+
+              <span>
+                {{ attack }}
+              </span>
+            </ng-container>
           </ng-template>
         </p>
 

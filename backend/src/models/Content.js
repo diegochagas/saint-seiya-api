@@ -5,7 +5,7 @@ const bloodTypes = ['A', 'B', 'AB', 'O', 'Ikhor'];
 
 const noSchemeImage = "assets/cloth-schemes/others/no-scheme.png";
 
-const getCSVContent = async () => {
+const getContent = async () => {
   const content = {};
 
   Object.keys(data).forEach(name => {
@@ -155,8 +155,36 @@ const getCharacterBirthDate = character => {
   }
 }
 
+const getCharacterKinship = (familyMembers, characters, kinships) => {
+  return characters.map(character => { 
+    const families = [];
+
+    familyMembers.forEach(family => {
+      if (family.character === character.id) {
+        const member = characters.find(character => character.id === family.member);
+        const kinship = kinships.find(kinship => kinship.id === family.kinship);
+      
+        if(member && kinship) {
+          let additionalKinship = ''
+
+          if(family.twin) additionalKinship = 'twin ' + additionalKinship;
+          if(family.half) additionalKinship = 'half ' + additionalKinship;
+          if(family.adopt) additionalKinship = 'adopt ' + additionalKinship;
+          if(family.step) additionalKinship = 'step ' + additionalKinship;
+
+          families.push({ id: member.id, member: `${member.name} (${additionalKinship}${kinship.name})` });
+        }
+      }
+    })
+
+    character.family = families.sort((a, b) => a.member == b.member ? 0 : + (a.member > b.member) || -1);
+
+    return character;
+  });
+}
+
 const loadCharactersData = content => {
-  return content.characters.map(characterObject => {
+  const characters = content.characters.map(characterObject => {
     const character = Object.assign({}, characterObject);
 
     character.birth = getCharacterBirthDate(character);
@@ -208,21 +236,6 @@ const loadCharactersData = content => {
     character.height = character.height ? `${character.height}cm` : "";
     character.weight = character.weight ? `${character.weight}kg` : "";
 
-    character.family = [];
-    content.familyMembers.forEach(family => {
-      if (family.character === character.id) {
-        const member = content.characters.find(character => character.id === family.member);
-        const kinship = content.kinships.find(kinship => kinship.id === family.memberKinship);
-        character.family.push({ id: member.id, member: `${member.name} (${kinship.name})` });
-      }
-
-      if (family.member === character.id) {
-        const member = content.characters.find(character => character.id === family.character);
-        const kinship = content.kinships.find(kinship => kinship.id === family.characterKinship);
-        character.family.push({ id: member.id, member: `${member.name} (${kinship.name})` });
-      }
-    });
-
     const bloodType = bloodTypes[character.blood];
 
     character.blood = bloodType ? bloodType : "";
@@ -245,8 +258,12 @@ const loadCharactersData = content => {
 
     character.image = character.cloths.length ? character.cloths[0].image : noSchemeImage;
 
+    character.family = [];
+
     return character;
   });
+
+  return getCharacterKinship(content.familyMembers, characters, content.kinships);
 }
 
 const loadDebutsData = content => {
@@ -264,7 +281,7 @@ const loadDebutsData = content => {
 const getColletions = async () => {
   const collections = [];
 
-  const content = await getCSVContent();
+  const content = await getContent();
 
   collections.push({ collectionPath: 'artists', collection: content.artists });
 
