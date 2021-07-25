@@ -10,7 +10,7 @@ const files = [
   'curiosities',
   'debuts',
   'familyMembers',
-  'groupsApollo',
+  'groupsAbel',
   'groupsAres',
   'groupsArtemis',
   'groupsArthur',

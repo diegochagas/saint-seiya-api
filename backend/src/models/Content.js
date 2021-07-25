@@ -16,12 +16,16 @@ const getContent = async () => {
 }
 
 const getGroup = (groups, saint) => {
-  for (let i = 0; i < groups.length; i++) {
-    const group = groups[i];
-
-    if (saint.group === `${group.group}-${group.id}`) return group;
-    else if (saint.group === group.group) return group;
-  }
+  try {
+    for (let i = 0; i < groups.length; i++) {
+      const group = groups[i];
+  
+      if (saint.group === `${group.group}-${group.id}`) return group;
+      else if (saint.group === group.group) return group;
+    }
+  } catch (e) {
+    console.error(e);
+  } 
 }
 
 const loadSaintsData = (saints, content) => {
@@ -46,8 +50,8 @@ const loadSaintsData = (saints, content) => {
 
     let group;
 
-    if (saint.group.includes('apollo')) group = getGroup(content.groupsApollo, saint);
-    if (saint.group.includes('ares')) group = getGroup(content.groupsAres, saint);
+    if (saint.group.includes('abel')) group = getGroup(content.groupsAbel, saint);
+    if (saint.group.includes('ares') || saint.group.includes('mars')) group = getGroup(content.groupsAres, saint);
     if (saint.group.includes('artemis')) group = getGroup(content.groupsArtemis, saint);
     if (saint.group.includes('arthur')) group = getGroup(content.groupsArthur, saint);
     if (saint.group.includes('astraea')) group = getGroup(content.groupsAstraea, saint);
@@ -60,23 +64,17 @@ const loadSaintsData = (saints, content) => {
     if (saint.group.includes('hades')) group = getGroup(content.groupsHades, saint);
     if (saint.group.includes('hakuryu')) group = getGroup(content.groupsHakuryu, saint);
     if (saint.group.includes('lamech')) group = getGroup(content.groupsLamech, saint);
-    if (saint.group.includes('odin')) group = getGroup(content.groupsOdin, saint);
-    if (saint.group.includes('others')) group = getGroup(content.groupsOthers, saint);
+    if (saint.group.includes('odin') || saint.group.includes('blue-warrior')) group = getGroup(content.groupsOdin, saint);
+    if (saint.group.includes('other-characters')) group = getGroup(content.groupsOthers, saint);
     if (saint.group.includes('pallas')) group = getGroup(content.groupsPallas, saint);
     if (saint.group.includes('poseidon')) group = getGroup(content.groupsPoseidon, saint);
     if (saint.group.includes('ra-')) group = getGroup(content.groupsRa, saint);
-    if (saint.group.includes('apollo')) group = getGroup(content.groupsApollo, saint);
     if (saint.group.includes('tezcatlipoca')) group = getGroup(content.groupsTezcatlipoca, saint);
     if (saint.group.includes('typhon')) group = getGroup(content.groupsTyphon, saint);
     if (saint.group.includes('zeus')) group = getGroup(content.groupsZeus, saint);
     
     if (group) {
       saint.class = group;
-      // saint.class = group.classSingular;
-
-      // saint.classPlural = group.class;
-    
-      // saint.groupName = group.name;
     } else {
       console.error(`Error:
         Saint id ${saint.id} with name ${saint.name || 'undefined'} from group ${saint.group || 'undefined'} not found, group is ${group}

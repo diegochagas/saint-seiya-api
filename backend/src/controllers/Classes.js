@@ -6,13 +6,18 @@ function groupSaints(collection, group) {
   const filteredCollection = collection.filter(saint => saint.group.includes(group));
           
   const groupCollection = filteredCollection.reduce((accumulator, currentValue) => {
-    accumulator[currentValue.class.name] = [...accumulator[currentValue.class.name] || [], currentValue];
-    
+    if (currentValue && currentValue) {
+      accumulator[currentValue.class.name] = [...accumulator[currentValue.class.name] || [], currentValue];
+    } else {
+      console.error(currentValue)
+    }
+      
+        
     return accumulator;
   }, {});
 
   for (let key in groupCollection) {
-    groupedCollection.push({ name: key, saints: groupCollection[key]});
+    groupedCollection.push({ name: key, saints: groupCollection[key].sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)});
   }
 
   return groupedCollection.sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1);
@@ -37,7 +42,19 @@ function getRestOfTheCollection(collection, collectionName, collections) {
     console.error(`collectionName ${collectionName} not found in collections`);
   }      
 
-  return newCollection;
+  return newCollection.sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1);
+}
+
+function orderGroups(groups, order) {
+  const orderedGroups = [];
+  
+  for (let i = 0; i < order.length; i++) {
+    const group = groups.filter(item => item.name.toLowerCase().includes(order[i]));
+
+    if (group) orderedGroups.push(...group);
+  }
+  
+  return orderedGroups
 }
 
 module.exports = {
@@ -68,318 +85,339 @@ module.exports = {
     }
   
     if (request.params.class === 'saints') {
-      let withoutConstellations = [{
-        name: 'Saints without constellation',
-        saints: collection.filter(saint => saint.group === 'athena-unknown-saints'),
-      }];
+      let unknownSaintsCounter = 0;
 
-      let gods = [{
-        name: 'Gods',
-        saints: collection.filter(saint => saint.group === 'athena-gods'),
-      }];
+      const saints = [...groupSaints(collection, 'athena-saints')]
 
-      let soldiers = [{
-        name: 'Soldiers Saints',
-        saints: collection.filter(saint => saint.group === 'athena-soldiers'),
-      }];
-
-      let constellations = [
-        ...groupSaints(collection, 'athena-saints'),
-        ...getRestOfTheCollection(collection, 'constellations', collections),
-      ].sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1);
-
-      let formerConstellations = groupSaints(collection, 'athena-former-saints');
-
-      let hinduConstellations = groupSaints(collection, 'athena-hindu-saints');
-
-      let chineseConstellations = groupSaints(collection, 'athena-chinese-saints');
-
-      response.json({
-        withoutConstellations,
-        gods,
-        soldiers,
-        constellations,
-        formerConstellations,
-        hinduConstellations,
-        chineseConstellations,
+      saints.forEach(constellation => {
+        if(constellation.saints.length > 0) unknownSaintsCounter++;
       });
+
+      response.json([
+        {
+          title: 'Gods',
+          items: [...groupSaints(collection, 'athena-gods')],
+        },
+        {
+          title: `88 Athena Saints (${unknownSaintsCounter} appeared)`,
+          items: [
+            ...saints,
+            ...getRestOfTheCollection(collection, 'constellations', collections),
+          ].sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)
+        },
+        {
+          title: 'Saints with former constellations',
+          items: [...groupSaints(collection, 'athena-former-saints')]
+        },
+        {
+          title: 'Saints with Hindu constellations',
+          items: [...groupSaints(collection, 'athena-hindu-saints')]
+        },
+        {
+          title: 'Saints with Chinese constellations',
+          items: [...groupSaints(collection, 'athena-chinese-saints')]
+        },
+        {
+          title: 'Saints without constellation',
+          items: [...groupSaints(collection, 'athena-unknown-saints')]
+        },
+        {
+          title: 'Soldiers Saints',
+          items: [...groupSaints(collection, 'athena-soldiers')]
+        },
+      ]);
     } else if (request.params.class === 'specters') {
-      let faceless = [];
-      let representative = [];
-      let gods = [];
-      let skeletons = [];
-      let evilStars = [];
-      let otherSpecters = [];
+      let unknownSpectersCounter = 0;
 
-      otherSpecters = groupSaints(collection, 'hades-other-specters');
+      const specters = [...groupSaints(collection, 'ial-star')]
 
-      faceless = [{
-        name: 'Pluto Faceless',
-        saints: collection.filter(saint => saint.group === 'hades-faceless'),
-      }];
-
-      representative = [{
-        name: 'Hades Representative',
-        saints: collection.filter(saint => saint.group === 'hades-representative'),
-      }];
-
-      gods = [{
-        name: 'Gods',
-        saints: collection.filter(saint => saint.group === 'hades-gods').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1),
-      }];
-
-      skeletons = [{
-        name: 'Skeleton soldiers',
-        saints: collection.filter(saint => saint.group === 'hades-skeleton'),
-      }];
-
-      evilStars = [
-        ...groupSaints(collection, 'ial-star'),
-        ...getRestOfTheCollection(collection, 'evil-stars', collections),
-      ].sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1);
-  
-      response.json({ 
-        otherSpecters,
-        faceless,
-        representative,
-        gods,
-        skeletons,
-        evilStars,
+      specters.forEach(evilStar => {
+        if(evilStar.saints.length > 0) unknownSpectersCounter++;
       });
+
+      response.json([
+        {
+          title: 'Gods',
+          items: [...groupSaints(collection, 'hades-gods')],
+        },
+        {
+          title: 'Hades Representative',
+          items: [...groupSaints(collection, 'hades-representative')]
+        },
+        {
+          title: `108 Hades Specters (${unknownSpectersCounter} appeared)`,
+          items: [
+            ...specters,
+            ...getRestOfTheCollection(collection, 'evil-stars', collections),
+          ].sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)
+        },
+        {
+          title: 'Other Specters',
+          items: [...groupSaints(collection, 'hades-other-specters').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)]
+        },
+        {
+          title: 'Skeleton soldiers',
+          items: [...groupSaints(collection, 'hades-skeleton')]
+        },
+        {
+          title: 'Pluto Faceless',
+          items: [...groupSaints(collection, 'hades-faceless')]
+        },
+      ]);
     } else if (request.params.class === 'pallasites') {
-      let gods = [];
-      let soldiers = [];
-      let unknownClass = [];
-      let firstClass = [];
-      let secondClass = [];
-      let thirdClass = [];
-      
-      gods = [{
-        name: 'Gods',
-        saints: collection.filter(saint => saint.group === 'pallas-gods'),
-      }];
-
-      firstClass = groupSaints(collection, 'pallas-weapon-firstclass');
-
-      secondClass = [
-        ...groupSaints(collection, 'pallas-weapon-secondclass'), {
-          name: 'Unknown Weapon',
-          saints: collection.filter(saint => saint.group === 'pallas-unknown-secondclass'),
-      }];
-
-      thirdClass = groupSaints(collection, 'pallas-weapon-thirdclass');
-
-      unknownClass = [{
-        name: 'Unknown Class',
-        saints: collection.filter(saint => saint.group === 'pallas-unknown-unknownclass'),
-      }];
-
-      soldiers = [{
-        name: 'Pallasite Soldiers',
-        saints: collection.filter(saint => saint.group === 'pallas-pallasite-soldiers'),
-      }];
-  
-      response.json({
-        gods,
-        unknownClass,
-        firstClass,
-        secondClass,
-        thirdClass,
-        soldiers,
-      });
-    } else if (request.params.class === 'angels') {
-      response.json({
-        gods: [
-          { name: 'Gods', saints: collection.filter(saint => saint.group === 'zeus-gods').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1) }
-        ],
-        saints: groupSaints(collection, '-angels'),
-      });
+      response.json([
+        {
+          title: 'Gods',
+          items: [...groupSaints(collection, 'pallas-gods').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)],
+        },
+        {
+          title: 'First class pallasites',
+          items: [...groupSaints(collection, 'pallas-weapon-firstclass').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)],
+        },
+        {
+          title: 'Second class pallasites',
+          items: [
+            ...groupSaints(collection, 'pallas-weapon-secondclass').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1),
+            ...groupSaints(collection, 'pallas-unknown-secondclass')
+          ],
+        },
+        {
+          title: 'Third class pallasites',
+          items: [...groupSaints(collection, 'pallas-weapon-thirdclass').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)],
+        },
+        {
+          title: 'Unknown Class',
+          items: [...groupSaints(collection, 'pallas-unknown-unknownclass')],
+        },
+        {
+          title: 'Soldiers',
+          items: [...groupSaints(collection, 'pallas-pallasite-soldiers')],
+        },
+      ]);
+    } else if (request.params.class === 'olympus') {
+      response.json([
+        {
+          title: "Olympus",
+          items: [
+            ...orderGroups(groupSaints(collection, 'zeus'), ['gods', 'angels', 'fallen-angels']),
+          ]
+        }
+      ]);
     } else if (request.params.class === 'berserkers' || request.params.class === 'martians') {
-      let gods = [];
-      let berserkers = [];
-      let martians = [];
-      let phantoms = [];
-
-      gods = [{
-        name: 'Gods',
-        saints: collection.filter(saint => saint.group.includes('ares') && saint.group.includes('gods')),
-      }];
-
-      
-      phantoms = [{
-        name: 'Phantoms', 
-        saints: collection.filter(saint => saint.group === 'ares-phantoms')
-      }];
-
-      berserkers = [
-        ...groupSaints(collection, 'ares-legions'),
-        ...getRestOfTheCollection(collection, 'ares-legions', collections)
-      ].sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1);
-          
-      martians = [
-        { name: 'Mars Representative', saints: collection.filter(saint => saint.group === 'ares-representative-martians') },
-        { name: 'Four Heavenly Kings of Mars', saints: collection.filter(saint => saint.group === 'ares-heavenly-kings-martians') },
-        { name: 'High Martians', saints: collection.filter(saint => saint.group === 'ares-high-martians') },
-        { name: 'Martians', saints: collection.filter(saint => saint.group === 'ares-martians') },
-        { name: 'Soldiers', saints: collection.filter(saint => saint.group === 'ares-soldier-martians') },
-      ];
-  
-      response.json({ gods, berserkers, phantoms, martians });
+      response.json([
+        {
+          title: "Berserkers",
+          items: [
+            ...orderGroups(groupSaints(collection, 'ares'), ['gods', 'phantoms', 'legion']),
+            ...getRestOfTheCollection(collection, 'ares-legions', collections),
+          ],
+        },
+        {
+          title: "Martians", 
+          items: [
+            ...orderGroups(groupSaints(collection, 'mars'), ['gods', 'representative', 'heavenly', 'martians', 'soldier'])
+          ]
+        }
+      ]);
     } else if (request.params.class === 'corona-saints') {
-      response.json({
-        gods: [
-          { name: 'Gods', saints: collection.filter(saint => saint.group === 'apollo-gods') }
-        ],
-        saints: [
-          { name: 'Corona Saints', saints: collection.filter(saint => saint.group.includes('apollo-saints')) }
-        ],
-      });
+      response.json([
+        {
+          title: 'Corona Saints',
+          items: [
+            ...orderGroups(groupSaints(collection, 'abel'), ['gods', 'constellation']),
+          ],
+        },
+      ]);
     } else if (request.params.class === 'cyclops') {
-      response.json({
-        saints: [
-          { name: 'Cyclops', saints: collection.filter(saint => saint.group === 'cyclops') },
-        ],
-      });
+      response.json([
+        {
+          title: 'Cyclops',
+          items: [ ...groupSaints(collection, 'cyclops')],
+        },
+      ]);
     } else if (request.params.class === 'dryads') {
-      response.json({
-        gods: [
-          { name: 'Gods', saints: collection.filter(saint => saint.group === 'eris-gods') }
-        ],
-        saints: [
-          { name: 'Dryads', saints: collection.filter(saint => saint.group === 'eris-dryads') },
-          { name: 'Soldiers', saints: collection.filter(saint => saint.group === 'eris-soldiers') }
-        ],
-      });
+      response.json([
+        {
+          title: 'Corona Saints',
+          items: [
+            ...orderGroups(groupSaints(collection, 'eris'), ['gods', 'dryads', 'soldiers']),
+          ],
+        },
+      ]);
     } else if (request.params.class === 'fairies') {
-      response.json({
-        gods: [
-          { name: 'Gods', saints: collection.filter(saint => saint.group === 'balor-gods') }
-        ],
-        saints: [
-          { name: 'Fairies', saints: collection.filter(saint => saint.group.includes('balor-fairies')) }
-        ],
-      });
+      response.json([
+        {
+          title: 'Fairies',
+          items: [
+            ...orderGroups(groupSaints(collection, 'balor'), ['gods', 'fairies']),
+          ],
+        },
+      ]);
     } else if (request.params.class === 'gigas') {
-      response.json({
-        gods: [{ name: 'Gods', saints: collection.filter(saint => saint.group === 'typhon-gods') }],
-        sons: groupSaints(collection, 'typhon-sons'),
-        brothers: groupSaints(collection, 'typhon-brothers'),
-        gigas: groupSaints(collection, 'typhon-gigas'),
-      });
+      response.json([
+        {
+          title: 'Gods',
+          items: [
+            ...groupSaints(collection, 'typhon-gods'),
+          ],
+        },
+        {
+          title: 'Typhon brothers',
+          items: [
+            ...groupSaints(collection, 'typhon-brothers'),
+          ],
+        },
+        {
+          title: 'Typhon sons',
+          items: [
+            ...groupSaints(collection, 'typhon-sons'),
+          ],
+        },
+        {
+          title: 'Cronus gigas',
+          items: [
+            ...groupSaints(collection, 'typhon-gigas'),
+          ],
+        },
+      ]);
     } else if (request.params.class === 'gladiators') {
-      response.json({
-        king: groupSaints(collection, 'gladiators-king'),
-        gladiators: [
-          { name: 'Gladiators', saints: collection.filter(saint => saint.group === 'arthur-gladiators') },
-        ],
-        lowGladiators: groupSaints(collection, 'gladiators-low'),
-      });
+      response.json([
+        {
+          title: 'Gladiators',
+          items: [
+            ...orderGroups(groupSaints(collection, 'arthur'), ['king', 'gladiators', 'low']),
+          ],
+        },
+      ]);
     } else if (request.params.class === 'god-warriors' || request.params.class === 'blue-warriors') {
-      response.json({
-        gods: [
-          { name: 'Gods', saints: collection.filter(saint => saint.group === 'odin-gods').sort((a, b) => a.cloth == b.cloth ? 0 : + (a.cloth > b.cloth) || -1) },
-        ],
-        representatives: [
-          { name: 'Odin Representative', saints: collection.filter(saint => saint.group === 'odin-representative') },
-          { name: 'Blue Warriors Representative', saints: collection.filter(saint => saint.group === 'odin-blue-warrior-representative') },
-        ],
-        godWarriors: [
-          { name: 'Drbal God Warriors', saints: collection.filter(saint => saint.group === 'odin-drbal-god-warriors') },
-          { name: 'Hilda God Warriors', saints: collection.filter(saint => saint.group.includes('ursa-major-star')) },
-          { name: 'Andreas God Warriors', saints: collection.filter(saint => saint.group.includes('odin-chamber')) },
-          { name: 'Asgard Soldiers', saints: collection.filter(saint => saint.group === 'odin-asgard-soldiers') },
-        ],
-        blueWarriors: [
-          { name: 'Blue Warriors', saints: collection.filter(saint => saint.group === 'odin-blue-warriors') },
-          { name: 'Blue Warrior Soldiers', saints: collection.filter(saint => saint.group.includes('odin-blue-warrior-soldiers')) },
-        ],
-      });
+      response.json([
+        {
+          title: 'Blue warriors',
+          items: [
+            ...orderGroups(groupSaints(collection, 'blue-warrior'), ['representative', 'warriors', 'low', 'soldiers']),
+          ],
+        },
+        {
+          title: 'Gods',
+          items: [
+            ...groupSaints(collection, 'odin-gods'),
+          ],
+        },
+        {
+          title: 'Drbal god warriors',
+          items: [
+            ...orderGroups(groupSaints(collection, 'odin-god-warriors'), ['representative', 'warriors']),
+          ],
+        },
+        {
+          title: 'Hilda god warriors',
+          items: [
+            ...orderGroups(groupSaints(collection, 'odin-ursa-major'), ['representative', 'star']),
+          ],
+        },
+        {
+          title: 'Andreas god warriors',
+          items: [
+            ...orderGroups(groupSaints(collection, 'odin-chamber'), ['representative', 'chamber']),
+          ],
+        },
+      ]);
     } else if (request.params.class === 'golden-tribe') {
-      response.json({
-        gods: [
-          { name: 'Gods', saints: collection.filter(saint => saint.group === 'astraea-gods') },
-        ],
-        saints: [
-          { name: 'Golden Tribe', saints: collection.filter(saint => saint.group === 'astraea-golden-tribe') },
-        ],
-      });
+      response.json([
+        {
+          title: 'Golden Tribe',
+          items: [
+            ...orderGroups(groupSaints(collection, 'astraea'), ['gods', 'golden']),
+          ],
+        },
+      ]);
     } else if (request.params.class === 'jaguars') {
-      response.json({
-        gods: [
-          { name: 'Gods', saints: collection.filter(saint => saint.group === 'tezcatlipoca-gods') },
-        ],
-        saints: [
-          { name: 'Jaguars', saints: collection.filter(saint => saint.group === 'tezcatlipoca-jaguars') },
-          { name: 'Jaguar Soldiers', saints: collection.filter(saint => saint.group === 'tezcatlipoca-jaguar-soldiers') },
-        ],
-      });
+      response.json([
+        {
+          title: 'Jaguars',
+          items: [
+            ...orderGroups(groupSaints(collection, 'tezcatlipoca'), ['gods', 'jaguars', 'soldiers'	]),
+          ],
+        },
+      ]);
     } else if (request.params.class === 'jewels') {
-      response.json({
-        saints: [
-          { name: 'Jewels', saints: collection.filter(saint => saint.group === 'garnet-jewels').sort((a, b) => a.cloth == b.cloth ? 0 : + (a.cloth < b.cloth) || -1) },
-        ],
-      });
+      response.json([
+        {
+          title: 'Jewels',
+          items: [
+            ...orderGroups(groupSaints(collection, 'garnet'), ['leader', 'jewels'	]),
+          ],
+        },
+      ]);
     } else if (request.params.class === 'lamech-servants') {
-      response.json({
-        gods: [
-          { name: 'Gods', saints: collection.filter(saint => saint.group === 'lamech-gods') },
-        ],
-        saints: [
-          { name: 'Lamech Servants', saints: collection.filter(saint => saint.group === 'lamech-servants') },
-        ],
-      });
+      response.json([
+        {
+          title: 'Lamech Servants',
+          items: [
+            ...orderGroups(groupSaints(collection, 'lamech'), ['gods', 'servants']),
+          ],
+        },
+      ]);
     } else if (request.params.class === 'legionaries') {
-      response.json({
-        gods: [
-          { name: 'Gods', saints: collection.filter(saint => saint.group === 'ra-egyptian-gods').sort((a, b) => a.name == b.name ? 0 : + (a.name < b.name) || -1) },
-        ],
-        saints: [
-          { name: 'Ra Legionaries', saints: collection.filter(saint => saint.group === 'ra-legionaries') },
-        ],
-      });
+      response.json([
+        {
+          title: 'Legionaries',
+          items: [
+            ...orderGroups(groupSaints(collection, 'ra-'), ['gods', 'legionaries']),
+          ],
+        },
+      ]);
     } else if (request.params.class === 'mariners') {
-      response.json({
-        gods: [
-          { name: 'Gods', saints: collection.filter(saint => saint.group === 'poseidon-gods') },
-        ],
-        saints: [
-          { name: 'Mariners Generals', saints: collection.filter(saint => saint.group === 'poseidon-mariners-generals') },
-          { name: 'Mariners', saints: collection.filter(saint => saint.group === 'poseidon-mariners') },
-          { name: 'Mariner Soldiers', saints: collection.filter(saint => saint.group === 'poseidon-mariner-soldiers') },
-        ],
-      });
+      response.json([
+        {
+          title: 'Mariners',
+          items: [
+            ...orderGroups(groupSaints(collection, 'poseidon'), ['gods', 'generals', 'mariners', 'soldiers']),
+          ],
+        },
+      ]);
     } else if (request.params.class === 'others') {
-      response.json({
-        saints: [
-          { name: 'Others', saints: collection.filter(saint => saint.group === 'others') },
-        ],
-      });
+      response.json([
+        {
+          title: 'Others',
+          items: [
+            ...groupSaints(collection, 'other-characters'),
+          ],
+        },
+      ]);
     } else if (request.params.class === 'satellites') {
-      response.json({
-        gods: [
-          { name: 'Gods', saints: collection.filter(saint => saint.group === 'artemis-gods') },
-        ],
-        saints: [
-          { name: 'Satellite Representative', saints: collection.filter(saint => saint.group === 'artemis-satellite-representative') },
-          { name: 'Satellite Captain', saints: collection.filter(saint => saint.group === 'artemis-satellite-captain') },
-          { name: 'Satellites', saints: collection.filter(saint => saint.group === 'artemis-satellites') },
-        ],
-      });
+      response.json([
+        {
+          title: 'Satellites',
+          items: [
+            ...orderGroups(groupSaints(collection, 'artemis'), ['gods', 'representative', 'captain', 'satellites']),
+          ],
+        },
+      ]);
     } else if (request.params.class === 'taonias') {
-      response.json({
-        saints: [
-          { name: 'Taonias', saints: collection.filter(saint => saint.group === 'hakuryu-taonias') },
-          { name: 'High Ranking Taonias', saints: collection.filter(saint => saint.group === 'hakuryu-high-ranking') },
-          { name: 'Low Ranking Taonias', saints: collection.filter(saint => saint.group === 'hakuryu-low-ranking') },
-        ],
-      });
+      response.json([
+        {
+          title: 'Taonias',
+          items: [
+            ...orderGroups(groupSaints(collection, 'hakuryu'), ['gods', 'taonias', 'high', 'low']),
+          ],
+        },
+      ]);
     } else if (request.params.class === 'titans') {
-      response.json({
-        titans: groupSaints(collection, 'cronus-titans'),
-        others: [
-          { name: 'Other Titans', saints: collection.filter(saint => saint.group === 'cronus-other-titans') },
-        ],
-      });
+      response.json([
+        {
+          title: '12 Titans',
+          items: [
+            ...groupSaints(collection, 'cronus-titans'),
+          ],
+        },
+        {
+          title: 'Others',
+          items: [
+            ...groupSaints(collection, 'cronus-other'),
+          ],
+        },
+      ]);
     } else {
       response.status(404).json({ message: `${request.params.class} not found` });
     }

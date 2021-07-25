@@ -47,7 +47,6 @@ export class ClassesService {
 
   getClassNames() {
     return [
-      { name: 'Angels', route: 'angels' },
       { name: 'Berserkers / Martians', route: 'berserkers' },
       { name: 'Blue Warriors / God Warriors', route: 'god-warriors' },
       { name: 'Corona Saints', route: 'corona-saints' },
@@ -62,6 +61,7 @@ export class ClassesService {
       { name: 'Lamech Servants', route: 'lamech-servants' },
       { name: 'Legionaries', route: 'legionaries' },
       { name: 'Mariners', route: 'mariners' },
+      { name: 'Olympus', route: 'olympus' },
       { name: 'Others', route: 'others' },
       { name: 'Pallasites', route: 'pallasites' },
       { name: 'Saints', route: 'saints' },

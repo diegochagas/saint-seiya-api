@@ -1,7 +1,5 @@
 <div class="saints-list">
-  <h1>{{ pageTitle }}</h1>
-
-  <ng-container *ngIf="groups.length; else spinner">
+  <ng-container *ngIf="groups && groups.length; else spinner">
     <div *ngFor="let group of groups">
       <h2>{{ group.title }}</h2>
 
@@ -19,7 +17,7 @@
             </div>
           </a>
 
-          <div class="saint" *ngIf="item.saints.length === 0">
+          <div class="saint" *ngIf="item && item.saints && item.saints.length === 0">
             <div class="saint-container">
               <img class="image-scheme" src="assets/cloth-schemes/others/no-scheme.png" alt="Unknown saint">
             </div>

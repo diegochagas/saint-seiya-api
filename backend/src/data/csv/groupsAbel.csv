@@ -1,0 +1,91 @@
+﻿id,group,class,classSingular,name,meaning,image
+1,abel-gods,Corona Saints,Corona Saint,Gods,,
+,,,,,,
+1,abel-saints,Corona Saints,Corona Saint,Andromeda constellation,Chained maiden,assets/constellations/andromeda.png
+2,abel-saints,Corona Saints,Corona Saint,Antlia constellation,Air pump,assets/constellations/antlia.png
+3,abel-saints,Corona Saints,Corona Saint,Apus constellation,Bird of paradise,assets/constellations/apus.png
+4,abel-saints,Corona Saints,Corona Saint,Aquarius constellation,Water bearer,assets/constellations/aquarius.png
+5,abel-saints,Corona Saints,Corona Saint,Aquila constellation,Eagle,assets/constellations/aquila.png
+6,abel-saints,Corona Saints,Corona Saint,Ara constellation,Altar,assets/constellations/ara.png
+7,abel-saints,Corona Saints,Corona Saint,Aries constellation,Ram,assets/constellations/aries.png
+8,abel-saints,Corona Saints,Corona Saint,Auriga constellation,Charioteer,assets/constellations/auriga.png
+9,abel-saints,Corona Saints,Corona Saint,Bootes constellation,Herdsman,assets/constellations/bootes.png
+10,abel-saints,Corona Saints,Corona Saint,Caelum constellation,Chisel,assets/constellations/caelum.png
+11,abel-saints,Corona Saints,Corona Saint,Camelopardalis constellation,Giraffe,assets/constellations/camelopardalis.png
+12,abel-saints,Corona Saints,Corona Saint,Cancer constellation,Crab,assets/constellations/cancer.png
+13,abel-saints,Corona Saints,Corona Saint,Canes Venatici constellation,Hunting dogs,assets/constellations/canes-venatici.png
+14,abel-saints,Corona Saints,Corona Saint,Canis Major constellation,Big dog,assets/constellations/canis-major.png
+15,abel-saints,Corona Saints,Corona Saint,Canis Minor constellation,Small dog,assets/constellations/canis-minor.png
+16,abel-saints,Corona Saints,Corona Saint,Capricornus constellation,Sea goat,assets/constellations/capricornus.png
+17,abel-saints,Corona Saints,Corona Saint,Carina constellation,Keel of argo navis,assets/constellations/carina.png
+18,abel-saints,Corona Saints,Corona Saint,Cassiopeia constellation,Queen,assets/constellations/cassiopeia.png
+19,abel-saints,Corona Saints,Corona Saint,Centaurus constellation,Centaur,assets/constellations/centaurus.png
+20,abel-saints,Corona Saints,Corona Saint,Cepheus constellation,King,assets/constellations/cepheus.png
+21,abel-saints,Corona Saints,Corona Saint,Cetus constellation,Whale,assets/constellations/cetus.png
+22,abel-saints,Corona Saints,Corona Saint,Chamaeleon constellation,Chameleon,assets/constellations/chamaeleon.png
+23,abel-saints,Corona Saints,Corona Saint,Circinus constellation,Compass,assets/constellations/circinus.png
+24,abel-saints,Corona Saints,Corona Saint,Columba constellation,Dove,assets/constellations/columba.png
+25,abel-saints,Corona Saints,Corona Saint,Coma Berenices constellation,Berenice’s hair,assets/constellations/coma-berenices.png
+26,abel-saints,Corona Saints,Corona Saint,Corona Australis constellation,Southern crown,assets/constellations/corona-australis.png
+27,abel-saints,Corona Saints,Corona Saint,Corona Borealis constellation,Northern crown,assets/constellations/corona-borealis.png
+28,abel-saints,Corona Saints,Corona Saint,Corvus constellation,Raven,assets/constellations/corvus.png
+29,abel-saints,Corona Saints,Corona Saint,Crater constellation,Cup,assets/constellations/crater.png
+30,abel-saints,Corona Saints,Corona Saint,Crux constellation,Southern cross,assets/constellations/crux.png
+31,abel-saints,Corona Saints,Corona Saint,Cygnus constellation,Swan,assets/constellations/cygnus.png
+32,abel-saints,Corona Saints,Corona Saint,Delphinus constellation,Dolphin,assets/constellations/delphinus.png
+33,abel-saints,Corona Saints,Corona Saint,Dorado constellation,Dolphinfish,assets/constellations/dorado.png
+34,abel-saints,Corona Saints,Corona Saint,Draco constellation,Dragon,assets/constellations/draco.png
+35,abel-saints,Corona Saints,Corona Saint,Equuleus constellation,Little horse,assets/constellations/equuleus.png
+36,abel-saints,Corona Saints,Corona Saint,Eridanus constellation,Celestial river,assets/constellations/eridanus.png
+37,abel-saints,Corona Saints,Corona Saint,Fornax constellation,Furnace,assets/constellations/fornax.png
+38,abel-saints,Corona Saints,Corona Saint,Gemini constellation,Twins,assets/constellations/gemini.png
+39,abel-saints,Corona Saints,Corona Saint,Grus constellation,Crane,assets/constellations/grus.png
+40,abel-saints,Corona Saints,Corona Saint,Heracles constellation,Strong man,assets/constellations/hercules.png
+41,abel-saints,Corona Saints,Corona Saint,Horologium constellation,Pendulum clock,assets/constellations/horologium.png
+42,abel-saints,Corona Saints,Corona Saint,Hydra constellation,Water serpent,assets/constellations/hydra.png
+43,abel-saints,Corona Saints,Corona Saint,Hydrus constellation,Water snake,assets/constellations/hydrus.png
+44,abel-saints,Corona Saints,Corona Saint,Indus constellation,Indian,assets/constellations/indus.png
+45,abel-saints,Corona Saints,Corona Saint,Lacerta constellation,Lizard,assets/constellations/lacerta.png
+46,abel-saints,Corona Saints,Corona Saint,Leo constellation,Lion,assets/constellations/leo.png
+47,abel-saints,Corona Saints,Corona Saint,Leo Minor constellation,Little lion,assets/constellations/leo-minor.png
+48,abel-saints,Corona Saints,Corona Saint,Lepus constellation,Hare,assets/constellations/lepus.png
+49,abel-saints,Corona Saints,Corona Saint,Libra constellation,Scales,assets/constellations/libra.png
+50,abel-saints,Corona Saints,Corona Saint,Lupus constellation,Wolf,assets/constellations/lupus.png
+51,abel-saints,Corona Saints,Corona Saint,Lynx constellation,Lynx,assets/constellations/lynx.png
+52,abel-saints,Corona Saints,Corona Saint,Lyra constellation,Harp,assets/constellations/lyra.png
+53,abel-saints,Corona Saints,Corona Saint,Mensa constellation,Table mountain,assets/constellations/mensa.png
+54,abel-saints,Corona Saints,Corona Saint,Microscopium constellation,Microscope,assets/constellations/microscopium.png
+55,abel-saints,Corona Saints,Corona Saint,Monoceros constellation,Unicorn,assets/constellations/monoceros.png
+56,abel-saints,Corona Saints,Corona Saint,Musca constellation,Fly,assets/constellations/musca.png
+57,abel-saints,Corona Saints,Corona Saint,Norma constellation,Level,assets/constellations/norma.png
+58,abel-saints,Corona Saints,Corona Saint,Octans constellation,Octant,assets/constellations/octans.png
+59,abel-saints,Corona Saints,Corona Saint,Ophiuchus constellation,Serpent holder,assets/constellations/ophiuchus.png
+60,abel-saints,Corona Saints,Corona Saint,Orion constellation,Hunter,assets/constellations/orion.png
+61,abel-saints,Corona Saints,Corona Saint,Pavo constellation,Peacock,assets/constellations/pavo.png
+62,abel-saints,Corona Saints,Corona Saint,Pegasus constellation,Winged horse,assets/constellations/pegasus.png
+63,abel-saints,Corona Saints,Corona Saint,Perseus constellation,Greek hero,assets/constellations/perseus.png
+64,abel-saints,Corona Saints,Corona Saint,Phoenix constellation,Firebird,assets/constellations/phoenix.png
+65,abel-saints,Corona Saints,Corona Saint,Pictor constellation,Painter’s easel,assets/constellations/pictor.png
+66,abel-saints,Corona Saints,Corona Saint,Pisces constellation,Fishes,assets/constellations/pisces.png
+67,abel-saints,Corona Saints,Corona Saint,Piscis Austrinus constellation,Southern fish,assets/constellations/piscis-austrinus.png
+68,abel-saints,Corona Saints,Corona Saint,Puppis constellation,Stern of argo navis,assets/constellations/puppis.png
+69,abel-saints,Corona Saints,Corona Saint,Pyxis constellation,Compass,assets/constellations/pyxis.png
+70,abel-saints,Corona Saints,Corona Saint,Reticulum constellation,Reticle,assets/constellations/reticulum.png
+71,abel-saints,Corona Saints,Corona Saint,Sagitta constellation,Arrow,assets/constellations/sagitta.png
+72,abel-saints,Corona Saints,Corona Saint,Sagittarius constellation,Archer,assets/constellations/sagittarius.png
+73,abel-saints,Corona Saints,Corona Saint,Scorpius constellation,Scorpion,assets/constellations/scorpius.png
+74,abel-saints,Corona Saints,Corona Saint,Sculptor constellation,Sculptor,assets/constellations/sculptor.png
+75,abel-saints,Corona Saints,Corona Saint,Scutum constellation,Shield,assets/constellations/scutum.png
+76,abel-saints,Corona Saints,Corona Saint,Serpens constellation,Serpent,assets/constellations/serpens.png
+77,abel-saints,Corona Saints,Corona Saint,Sextans constellation,Sextant,assets/constellations/sextans.png
+78,abel-saints,Corona Saints,Corona Saint,Taurus constellation,Bull,assets/constellations/taurus.png
+79,abel-saints,Corona Saints,Corona Saint,Telescopium constellation,Telescope,assets/constellations/telescopium.png
+80,abel-saints,Corona Saints,Corona Saint,Triangulum constellation,Triangle,assets/constellations/triangulum.png
+81,abel-saints,Corona Saints,Corona Saint,Triangulum Australe constellation,Southern triangle,assets/constellations/triangulum-australe.png
+82,abel-saints,Corona Saints,Corona Saint,Tucana constellation,Toucan,assets/constellations/tucana.png
+83,abel-saints,Corona Saints,Corona Saint,Ursa major constellation,Big bear,assets/constellations/ursa-major.png
+84,abel-saints,Corona Saints,Corona Saint,Ursa minor constellation,Small bear,assets/constellations/ursa-minor.png
+85,abel-saints,Corona Saints,Corona Saint,Vela constellation,Sails of argo navis,assets/constellations/vela.png
+86,abel-saints,Corona Saints,Corona Saint,Virgo constellation,Young maiden,assets/constellations/virgo.png
+87,abel-saints,Corona Saints,Corona Saint,Volans constellation,Flying fish,assets/constellations/volans.png
+88,abel-saints,Corona Saints,Corona Saint,Vulpecula constellation,Little fox,assets/constellations/vulpecula.png

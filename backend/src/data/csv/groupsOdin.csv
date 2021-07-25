@@ -1,30 +1,33 @@
 ﻿id,group,class,classSingular,name
 1,odin-gods,God Warriors,God Warrior,Gods
 ,,,,
-1,odin-representative,God Warriors,God Warrior,Odin Representative
+1,odin-asgard-soldiers,God Warriors,God Warrior,Soldiers
 ,,,,
-1,odin-asgard-soldiers,God Warriors,God Warrior,Asgard Soldiers
+1,odin-god-warriors,God Warriors,God Warrior,God Warriors
+1,odin-god-warriors-representative,God Warriors,God Warrior,Representative
 ,,,,
-1,odin-drbal-god-warriors,God Warriors,God Warrior,Durval God Warriors
+1,odin-ursa-major-star,God Warriors,God Warrior,Alpha Star
+2,odin-ursa-major-star,God Warriors,God Warrior,Beta Star
+3,odin-ursa-major-star,God Warriors,God Warrior,Delta Star
+4,odin-ursa-major-star,God Warriors,God Warrior,Epsilon Star
+5,odin-ursa-major-star,God Warriors,God Warrior,Eta Star
+6,odin-ursa-major-star,God Warriors,God Warrior,Gamma Star
+7,odin-ursa-major-star,God Warriors,God Warrior,Zeta Star
+1,odin-ursa-major-representative,God Warriors,God Warrior,Representative
 ,,,,
-1,odin-ursa-major-star,God Warriors,God Warrior,Alpha
-2,odin-ursa-major-star,God Warriors,God Warrior,Beta
-3,odin-ursa-major-star,God Warriors,God Warrior,Delta
-4,odin-ursa-major-star,God Warriors,God Warrior,Epsilon
-5,odin-ursa-major-star,God Warriors,God Warrior,Eta
-6,odin-ursa-major-star,God Warriors,God Warrior,Gamma
-7,odin-ursa-major-star,God Warriors,God Warrior,Zeta
+1,odin-chamber,God Warriors,God Warrior,Jotunheim (Chamber of Giant)
+2,odin-chamber,God Warriors,God Warrior,Svartalfheim (Chamber of Wisdom)
+3,odin-chamber,God Warriors,God Warrior,Alfheim (Chamber of Light)
+4,odin-chamber,God Warriors,God Warrior,Helheim (Chamber of Dead)
+5,odin-chamber,God Warriors,God Warrior,Vanaheim (Chamber of Heroes)
+6,odin-chamber,God Warriors,God Warrior,Niflheim (Chamber of Mist)
+7,odin-chamber,God Warriors,God Warrior,Jaheim (Chamber of Ice)
+1,odin-chamber-representative,God Warriors,God Warrior,Representative
 ,,,,
-1,odin-chamber,God Warriors,God Warrior,Chamber of Giant
-2,odin-chamber,God Warriors,God Warrior,chamber of Wisdom
-3,odin-chamber,God Warriors,God Warrior,Chamber of Light
-4,odin-chamber,God Warriors,God Warrior,Chamber of Dead
-5,odin-chamber,God Warriors,God Warrior,Chamber of Heroes
-6,odin-chamber,God Warriors,God Warrior,Chamber of Mist
-7,odin-chamber,God Warriors,God Warrior,Chamber of Ice
+1,blue-warriors,Blue Warriors,Blue Warrior,Blue Warriors
 ,,,,
-1,odin-blue-warriors,Blue Warriors,Blue Warrior,
+1,blue-warrior-representative,Blue Warriors,Blue Warrior,Representative
 ,,,,
-1,odin-blue-warrior-representative,Blue Warriors,Blue Warrior,Representative
+1,blue-warrior-low-ranking,Blue Warriors,Blue Warrior,Low Rank
 ,,,,
-1,odin-blue-warrior-soldiers,Blue Warriors,Blue Warrior,Soldiers
+1,blue-warrior-soldiers,Blue Warriors,Blue Warrior,Soldiers
