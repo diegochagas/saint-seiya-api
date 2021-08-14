@@ -412,6 +412,12 @@ module.exports = {
           ],
         },
         {
+          title: 'Titan Soldiers',
+          items: [
+            ...groupSaints(collection, 'cronus-titan-soldiers'),
+          ],
+        },
+        {
           title: 'Others',
           items: [
             ...groupSaints(collection, 'cronus-other'),
