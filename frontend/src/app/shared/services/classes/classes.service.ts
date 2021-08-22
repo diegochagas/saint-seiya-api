@@ -45,6 +45,10 @@ export class ClassesService {
     return this.http.get(`${this.api}/evil-star/${id}`, { headers: this.headers });
   }
 
+  getClassesByDebut(id: string) {
+    return this.http.get(`${this.api}/classes/debut/${id}`, { headers: this.headers });
+  }
+
   getClassNames() {
     return [
       { name: 'Berserkers / Martians', route: 'berserkers' },

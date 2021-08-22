@@ -428,6 +428,42 @@ module.exports = {
       response.status(404).json({ message: `${request.params.class} not found` });
     }
   },
+  async getClassesByDebut(request, response) {
+    const collections = await Content.getColletions();
+
+    let saints = [];
+
+    for (let i = 0; i < collections.length; i++) {
+      if (collections[i].collectionPath === 'saints') {
+        saints = collections[i].collection;
+      }
+    }
+
+    let debuts = [];
+
+    for (let i = 0; i < collections.length; i++) {
+      if (collections[i].collectionPath === 'debuts') {
+        debuts = collections[i].collection;
+      }
+    }
+
+    let debut;
+
+    for (let i = 0; i < debuts.length; i++) {
+      if (debuts[i].id === request.params.id) {
+        debut = debuts[i];
+      }
+    }
+
+    if (debut) {
+      const saintsByDebut = saints.filter(saint => debut.name === saint.debut && debut.midia === saint.midia);
+    
+      response.json(saintsByDebut);
+    } else {
+      response.status(404).json({ message: 'Debut not found' });
+    }
+
+  },
   async getSaint(request, response) {
     const collections = await Content.getColletions();
 

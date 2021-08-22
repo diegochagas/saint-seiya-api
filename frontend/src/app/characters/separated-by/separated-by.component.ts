@@ -52,11 +52,11 @@ export class SeparatedByComponent implements OnInit {
 
         saints = responseSaints.filter(saint => id === saint.artistSaint || id === saint.artistCloth);
       } else if (path === "debut") {
-        response = await this.debutsService.getDebut(id).toPromise();
+        response = await this.classesService.getClassesByDebut(id).toPromise();
 
         this.pageTitle = `Debut: ${response.midia}: ${response.name}`;
 
-        saints = responseSaints.filter(saint => response.name === saint.debut && response.midia === saint.midia);
+        saints = response;
       }
 
       this.pageContent = { ...response, groups: [] };

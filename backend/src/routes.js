@@ -27,4 +27,6 @@ routes.get('/api/:class', ClassesController.getClassSaints);
 
 routes.get('/api/:class/:id', ClassesController.getSaint);
 
+routes.get('/api/classes/debut/:id', ClassesController.getClassesByDebut);
+
 module.exports = routes;
