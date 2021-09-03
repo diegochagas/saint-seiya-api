@@ -96,7 +96,7 @@ export class SeparatedByComponent implements OnInit {
         if (saints[i].artists) {
           for(let j = 0; j < saints[i].artists.length; j++) {
             if(saints[i].artists[j].details.id == id) {
-              artist = saints[i].artists[i].details;
+              artist = saints[i].artists[j].details;
             }
 
             if (Object.values(artist).length > 0) {
