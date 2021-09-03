@@ -2,25 +2,30 @@ const Content = require('../models/Content.js');
 
 function groupSaints(collection, group) {
   const groupedCollection = [];
-
-  const filteredCollection = collection.filter(saint => saint.group.includes(group));
+  
+  try {          
+    const filteredCollection = collection.filter(saint => saint.group.includes(group));
+    
+    const groupCollection = filteredCollection.reduce((accumulator, currentValue) => {
+      if (currentValue && currentValue.class) {
+        accumulator[currentValue.class.name] = [...accumulator[currentValue.class.name] || [], currentValue];
+      } else {
+        console.log('===================');
+        console.error(currentValue)
+        console.log('===================');
+      }    
           
-  const groupCollection = filteredCollection.reduce((accumulator, currentValue) => {
-    if (currentValue && currentValue) {
-      accumulator[currentValue.class.name] = [...accumulator[currentValue.class.name] || [], currentValue];
-    } else {
-      console.error(currentValue)
+      return accumulator;
+    }, {});
+
+    for (let key in groupCollection) {
+      groupedCollection.push({ name: key, saints: groupCollection[key].sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)});
     }
-      
-        
-    return accumulator;
-  }, {});
-
-  for (let key in groupCollection) {
-    groupedCollection.push({ name: key, saints: groupCollection[key].sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)});
+  
+    return groupedCollection.sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1);
+  } catch (err) {
+    console.error(err);
   }
-
-  return groupedCollection.sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1);
 }
 
 function getRestOfTheCollection(collection, collectionName, collections) {
@@ -321,6 +326,12 @@ module.exports = {
             ...orderGroups(groupSaints(collection, 'odin-chamber'), ['representative', 'chamber']),
           ],
         },
+        {
+          title: 'Asgard soldiers',
+          items: [
+            ...groupSaints(collection, 'odin-asgard-soldiers'),
+          ],
+        },
       ]);
     } else if (request.params.class === 'golden-tribe') {
       response.json([
@@ -403,6 +414,15 @@ module.exports = {
           ],
         },
       ]);
+    } else if (request.params.class === 'anunnakis') {
+      response.json([
+        {
+          title: 'Anunnakis',
+          items: [
+            ...orderGroups(groupSaints(collection, 'apsu'), ['anunnakis', 'weapons']),
+          ],
+        },
+      ]);
     } else if (request.params.class === 'titans') {
       response.json([
         {
@@ -425,7 +445,50 @@ module.exports = {
         },
       ]);
     } else {
-      response.status(404).json({ message: `${request.params.class} not found` });
+      response.status(404).json({ message: `${request.params.class} not found in Classes Controler` });
+    }
+  },
+  async getClassesByArtist(request, response) {
+    const collections = await Content.getColletions();
+
+    let saints = [];
+
+    for (let i = 0; i < collections.length; i++) {
+      if (collections[i].collectionPath === 'saints') {
+        saints = collections[i].collection;
+      }
+    }
+
+    let artists = [];
+
+    for (let i = 0; i < collections.length; i++) {
+      if (collections[i].collectionPath === 'artists') {
+        artists = collections[i].collection;
+      }
+    }
+
+    let saintsByArtist = []
+
+    if(request.params.id === '0') {
+      saintsByArtist = saints.filter(saint => saint.artistSaint === "" || saint.artistCloth === "");
+
+      response.json(saintsByArtist);
+    } else {
+      let artist;
+  
+      for (let i = 0; i < artists.length; i++) {
+        if (artists[i].id === request.params.id) {
+          artist = artists[i];
+        }
+      }
+
+      if (artist) {
+        const saintsByArtist = saints.filter(saint => artist.id === saint.artistSaint || artist.id === saint.artistCloth);
+      
+        response.json(saintsByArtist);
+      } else {
+        response.status(404).json({ message: 'Artist not found' });
+      }
     }
   },
   async getClassesByDebut(request, response) {
@@ -447,22 +510,29 @@ module.exports = {
       }
     }
 
-    let debut;
+    let saintsByDebut = []
 
-    for (let i = 0; i < debuts.length; i++) {
-      if (debuts[i].id === request.params.id) {
-        debut = debuts[i];
-      }
-    }
+    if(request.params.id === '0') {
+      saintsByDebut = saints.filter(saint => saint.debut === "");
 
-    if (debut) {
-      const saintsByDebut = saints.filter(saint => debut.name === saint.debut && debut.midia === saint.midia);
-    
       response.json(saintsByDebut);
     } else {
-      response.status(404).json({ message: 'Debut not found' });
-    }
+      let debut;
+  
+      for (let i = 0; i < debuts.length; i++) {
+        if (debuts[i].id === request.params.id) {
+          debut = debuts[i];
+        }
+      }
 
+      if (debut) {
+        const saintsByDebut = saints.filter(saint => debut.name === saint.debut && debut.midia === saint.midia);
+      
+        response.json(saintsByDebut);
+      } else {
+        response.status(404).json({ message: 'Debut not found' });
+      }
+    }
   },
   async getSaint(request, response) {
     const collections = await Content.getColletions();

@@ -2,8 +2,8 @@
   <h1>{{ pageTitle }}</h1>
 
   <ng-container *ngIf="!pageContent.loading && pageContent.groups.length">
-    <h3 *ngIf="pageContent.site">
-      <a href="{{pageContent.site}}" target="_blank" rel="noopener noreferrer">
+    <h3 *ngIf="site.length > 0">
+      <a href="{{site}}" target="_blank" rel="noopener noreferrer">
         Go to personal page
       </a>
     </h3>
@@ -26,8 +26,8 @@
   </ng-container>
 
   <ng-container *ngIf="!pageContent.loading && pageContent.groups.length === 0">
-    <h3 *ngIf="pageContent.site">
-      <a href="{{ pageContent.site }}" target="_blank" rel="noopener noreferrer">
+    <h3 *ngIf="site.length > 0">
+      <a href="{{ site }}" target="_blank" rel="noopener noreferrer">
         Go to personal page
       </a>
     </h3>

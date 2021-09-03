@@ -56,6 +56,8 @@ export class HeaderComponent implements OnInit {
     });
 
     this.debuts = this.debuts.sort((a, b) => a.title == b.title ? 0 : + (a.title > b.title) || -1);
+
+    this.debuts.push({ id: "0", title: "Unknown debuts" });
   }
 
   async getArtists() {

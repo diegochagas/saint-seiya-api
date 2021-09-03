@@ -15,11 +15,11 @@ export class SeparatedByComponent implements OnInit {
 
   path = 'classes/';
 
+  site = ''
+
   constructor(
     private activatedRoute: ActivatedRoute,
-    private artistsService: ArtistsService,
     private classesService: ClassesService,
-    private debutsService: DebutsService,
     private router: Router,
   ) {
     this.router.events.subscribe((event) => {
@@ -38,39 +38,28 @@ export class SeparatedByComponent implements OnInit {
   }
 
   async getSaints(id: string, path: string) {
-    const responseSaints: any = await this.classesService.getAllClasses().toPromise();
-
     let saints: any = [];
+    let response: any = {};
 
-    if (id !== "0") {
-      let response: any = {};
+    if (path === "artist") {
+      response = await this.classesService.getClassesByArtist(id).toPromise();
 
-      if (path === "artist") {
-        response = await this.artistsService.getArtist(id).toPromise();
+      const artist = this.findArtist(response, id);
 
-        this.pageTitle = `Artist: ${response.name}`;
+      this.site = artist.site || '';
 
-        saints = responseSaints.filter(saint => id === saint.artistSaint || id === saint.artistCloth);
-      } else if (path === "debut") {
-        response = await this.classesService.getClassesByDebut(id).toPromise();
+      this.pageTitle = id === '0' ? 'Unknown artists' : `Artist: ${artist.name}`;
 
-        this.pageTitle = `Debut: ${response.midia}: ${response.name}`;
+      saints = response
+    } else if (path === "debut") {
+      response = await this.classesService.getClassesByDebut(id).toPromise();
 
-        saints = response;
-      }
+      this.pageTitle = id === '0' ? 'Not revealed' : `Debut: ${response[0].midia}: ${response[0].debut}`;
 
-      this.pageContent = { ...response, groups: [] };
-    } else {
-      if (path === "artist") {
-        this.pageTitle = "Unknown artists";
-
-        saints = responseSaints.filter(saint => saint.artistSaint === "" || saint.artistCloth === "");
-      } else if (path === "debut") {
-        this.pageTitle = "Not revealed";
-
-        saints = responseSaints.filter(saint => saint.debut === "");
-      }
+      saints = response;
     }
+
+    this.pageContent = { ...response, groups: [] };
 
     const grouped: any = this.groupBy(saints, "class", "classSingular");
 
@@ -97,4 +86,27 @@ export class SeparatedByComponent implements OnInit {
     );
   }
 
+  findArtist(saints, id): any {
+    let artist = {}
+
+    for(let i = 0; i < saints.length; i++) {
+      if (Object.values(artist).length > 0) {
+        break;
+      } else {
+        if (saints[i].artists) {
+          for(let j = 0; j < saints[i].artists.length; j++) {
+            if(saints[i].artists[j].details.id == id) {
+              artist = saints[i].artists[i].details;
+            }
+
+            if (Object.values(artist).length > 0) {
+              break;
+            }
+          }
+        }
+      }
+    }
+
+    return artist;
+  }
 }

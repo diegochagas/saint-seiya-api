@@ -45,12 +45,17 @@ export class ClassesService {
     return this.http.get(`${this.api}/evil-star/${id}`, { headers: this.headers });
   }
 
+  getClassesByArtist(id: string) {
+    return this.http.get(`${this.api}/classes/artist/${id}`, { headers: this.headers });
+  }
+
   getClassesByDebut(id: string) {
     return this.http.get(`${this.api}/classes/debut/${id}`, { headers: this.headers });
   }
 
   getClassNames() {
     return [
+      { name: 'Anunnakis', route: 'anunnakis' },
       { name: 'Berserkers / Martians', route: 'berserkers' },
       { name: 'Blue Warriors / God Warriors', route: 'god-warriors' },
       { name: 'Corona Saints', route: 'corona-saints' },

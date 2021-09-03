@@ -7,6 +7,7 @@ const curiosities = require('./json/curiosities.json')
 const debuts = require('./json/debuts.json')
 const familyMembers = require('./json/familyMembers.json')
 const groupsAbel = require('./json/groupsAbel.json')
+const groupsApsu = require('./json/groupsApsu.json')
 const groupsAres = require('./json/groupsAres.json')
 const groupsArtemis = require('./json/groupsArtemis.json')
 const groupsArthur = require('./json/groupsArthur.json')
@@ -46,6 +47,7 @@ module.exports = {
     debuts,
     familyMembers,
     groupsAbel,
+    groupsApsu,
     groupsAres,
     groupsArtemis,
     groupsArthur,

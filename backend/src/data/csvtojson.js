@@ -11,6 +11,7 @@ const files = [
   'debuts',
   'familyMembers',
   'groupsAbel',
+  'groupsApsu',
   'groupsAres',
   'groupsArtemis',
   'groupsArthur',
