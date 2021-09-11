@@ -238,7 +238,7 @@
 237,213,376,athena-saints-13,4,582,assets/cloth-schemes/athena-saints/canes-venatici-judo.png,,,7
 238,214,288,poseidon-gods,9,494,assets/cloth-schemes/poseidon-mariners/poseidon-julian.jpg,1,1,1
 239,215,70,athena-saints-22,5,582,assets/cloth-schemes/athena-saints/chamaeleon-june.jpg,1,1,1
-240,216,384,athena-saints-50,5,582,assets/cloth-schemes/athena-saints/lupus-nachi.jpg,1,1,6
+240,216,384,athena-saints-50,5,582,,,,6
 241,217,46,hades-celestial-star-34,13,168,assets/cloth-schemes/hades-specters/bennu-kagaho-v1.jpg,3,3,6
 242,218,,hades-terrestrial-star-80,14,168,assets/cloth-schemes/hades-specters/kageboshi.jpg,,6,7
 243,219,,other-characters,9,524,assets/cloth-schemes/others/kairos.jpg,6,6,6
@@ -737,7 +737,7 @@
 736,,230,hades-celestial-star-8,,168,assets/cloth-schemes/hades-specters/wyrm-god.jpg,6,6,29
 737,498,460,cyclops,,,assets/cloth-schemes/cyclops/steropes-blue-god.jpg,,,36
 738,497,457,cyclops,,,assets/cloth-schemes/cyclops/brontes-dark-god.jpg,,,36
-739,499,63,athena-saints-18,5,582,assets/cloth-schemes/athena-saints/cassiopeia-rebecca.jpg,,,5
+739,499,63,athena-saints-18,5,582,assets/cloth-schemes/athena-saints/cassiopeia-rebecca.jpg,15,3,5
 740,500,,athena-unknown-saints,4,582,assets/cloth-schemes/athena-saints/the-trio-of-darkness-1.jpg,20,,12
 741,501,,athena-unknown-saints,4,582,assets/cloth-schemes/athena-saints/the-trio-of-darkness-2.jpg,20,,12
 742,502,,athena-unknown-saints,4,582,assets/cloth-schemes/athena-saints/the-trio-of-darkness-3.jpg,20,,12
