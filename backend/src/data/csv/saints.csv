@@ -48,7 +48,7 @@
 47,42,57,athena-saints-13,6,582,assets/cloth-schemes/athena-saints/canes-venatici-asterion.jpg,1,1,1
 48,43,145,odin-chamber-4,,495,assets/cloth-schemes/odin-god-warriors/garmr-utgardar.png,5,5,14
 49,44,,hades-terrestrial-star-37,14,168,assets/cloth-schemes/hades-specters/atavaka.jpg,3,3,7
-50,45,299,eris-dryads,,308,assets/cloth-schemes/eris-dryads/ruin-ate.png,10,,5
+50,45,299,eris-dryads,,308,assets/cloth-schemes/eris-dryads/ruin-ate.jpg,6,6,5
 51,46,,athena-soldiers,1,582,assets/cloth-schemes/athena-saints/soldier-atla.jpg,,,6
 52,47,61,athena-saints-17,5,582,assets/cloth-schemes/athena-saints/carina-atlas.jpg,5,5,23
 53,48,,cronus-other-titans,9,84,assets/cloth-schemes/cronus-titans/atlas.png,,,8
@@ -101,7 +101,7 @@
 100,96,66,athena-former-saints-13,6,582,assets/cloth-schemes/athena-saints/cerberus-dante.jpg,1,1,1
 101,97,55,athena-saints-12,7,582,assets/cloth-schemes/athena-saints/cancer-deathmask.jpg,1,1,1
 102,97,56,athena-saints-12,9,582,assets/cloth-schemes/athena-saints/cancer-deathmask-god.jpg,5,5,14
-103,97,289,eris-dryads,,308,assets/cloth-schemes/eris-dryads/punishment-deathmask.png,,,5
+103,97,289,eris-dryads,,308,assets/cloth-schemes/eris-dryads/punishment-deathmask.jpg,6,6,5
 104,98,55,athena-saints-12,7,582,assets/cloth-schemes/athena-saints/cancer-deathtoll.png,16,,4
 105,99,148,athena-saints-38,7,582,assets/cloth-schemes/athena-saints/gemini-defteros.png,16,16,6
 106,100,18,athena-saints-4,7,582,assets/cloth-schemes/athena-saints/aquarius-degel.jpg,20,20,6
@@ -118,7 +118,7 @@
 117,110,,hades-faceless,,168,assets/cloth-schemes/hades-faceless/dragon.png,,,10
 118,111,213,typhon-gigas-7,,444,assets/cloth-schemes/typhon-gigas/margarites-drakon.jpg,27,27,8
 119,112,120,odin-god-warriors-representative,31,495,assets/cloth-schemes/odin-god-warriors/drbal.png,5,5,22
-120,113,7,eris-dryads,,308,assets/cloth-schemes/eris-dryads/anarchy-dysnomia.jpg,,,5
+120,113,7,eris-dryads,,308,assets/cloth-schemes/eris-dryads/anarchy-dysnomia.jpg,6,6,5
 121,114,354,hades-celestial-star-26,13,168,assets/cloth-schemes/hades-specters/vampire-erhart.jpg,,6,7
 122,115,127,typhon-gods,9,444,assets/cloth-schemes/typhon-gigas/echidna.jpg,5,,27
 123,116,76,pallas-weapon-thirdclass-2,34,323,assets/cloth-schemes/pallas-pallasites/club-impulse-mace-eden.png,,8,16
@@ -364,7 +364,7 @@
 363,338,234,eris-dryads,,308,assets/cloth-schemes/eris-dryads/murder-phonos.jpg,,6,5
 364,339,,blue-warrior-representative,,495,assets/cloth-schemes/odin-blue-warriors/piotr.jpg,,,1
 365,340,258,athena-saints-61,6,582,assets/cloth-schemes/athena-saints/pavo-pavlin.png,5,,16
-366,341,297,eris-dryads,,308,assets/cloth-schemes/eris-dryads/revenge-poena.jpg,,,5
+366,341,297,eris-dryads,,308,assets/cloth-schemes/eris-dryads/revenge-poena.jpg,6,6,5
 367,342,29,other-characters,9,144,assets/cloth-schemes/others/pontos.jpg,,,8
 368,343,,cronus-other-titans,9,84,assets/cloth-schemes/cronus-titans/prometheus.jpg,10,,8
 369,344,301,athena-saints-71,6,582,assets/cloth-schemes/athena-saints/sagitta-ptolemy.jpg,1,1,1
