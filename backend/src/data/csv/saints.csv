@@ -131,7 +131,7 @@
 130,120,63,athena-saints-18,5,582,assets/cloth-schemes/athena-saints/cassiopeia-elda.png,4,4,5
 131,121,358,zeus-fallen-angels,17,306,assets/cloth-schemes/zeus-angels/virtues-eligor.jpg,5,5,24
 132,122,39,athena-unknown-saints,3,582,assets/cloth-schemes/athena-saints/emma.png,,11,16
-133,123,210,eris-dryads,,308,assets/cloth-schemes/eris-dryads/malice-emony.png,10,,5
+133,123,210,eris-dryads,,308,assets/cloth-schemes/eris-dryads/malice-emony.jpg,6,6,5
 134,124,363,typhon-brothers-4,20,444,assets/cloth-schemes/typhon-gigas/warcry-enceladus.jpg,5,,27
 135,125,307,athena-saints-75,6,582,assets/cloth-schemes/athena-saints/scutum-ennead.jpg,15,6,16
 136,126,39,athena-unknown-saints,3,582,assets/cloth-schemes/athena-saints/elna.png,,11,16
@@ -205,7 +205,7 @@
 204,186,126,cronus-titans-3,9,444,assets/cloth-schemes/cronus-titans/ebony-hyperion.jpg,5,25,8
 205,187,329,pallas-weapon-firstclass-2,32,323,assets/cloth-schemes/pallas-pallasites/destruction-hyperion.png,5,5,16
 206,188,174,hades-gods,9,168,assets/cloth-schemes/hades-specters/hypnos.jpg,1,1,1
-207,189,123,eris-dryads,,308,assets/cloth-schemes/eris-dryads/duel-hysmie.jpg,6,,5
+207,189,123,eris-dryads,,308,assets/cloth-schemes/eris-dryads/duel-hysmie.jpg,6,6,5
 208,190,108,cronus-titans-5,9,444,assets/cloth-schemes/cronus-titans/dimension-iapetos.jpg,5,25,8
 209,191,176,hades-gods,9,168,assets/cloth-schemes/hades-specters/illusion-icelus.jpg,3,3,6
 210,192,172,athena-saints-42,5,582,assets/cloth-schemes/athena-saints/hydra-ichi.jpg,1,1,42
@@ -290,7 +290,7 @@
 289,262,209,eris-dryads,,308,assets/cloth-schemes/eris-dryads/madness-mania.jpg,4,6,5
 290,263,55,athena-saints-12,7,582,assets/cloth-schemes/athena-saints/cancer-manigold.png,21,21,6
 291,264,217,mars-martians,15,33,assets/cloth-schemes/ares-martians/martian-commander.png,,8,16
-292,265,245,eris-dryads,,308,assets/cloth-schemes/eris-dryads/oblivion-maria.png,,,5
+292,265,245,eris-dryads,,308,assets/cloth-schemes/eris-dryads/oblivion-maria.jpg,6,6,5
 293,266,20,athena-saints-5,6,582,assets/cloth-schemes/athena-saints/aquila-marin.jpg,1,1,1
 294,565,215,poseidon-mariner-soldiers,1,494,assets/cloth-schemes/poseidon-mariners/mariner-soldiers.jpg,11,11,1
 295,268,317,hades-skeleton,1,168,assets/cloth-schemes/hades-specters/skeleton-markino.jpg,1,1,1
@@ -361,7 +361,7 @@
 360,334,206,hades-celestial-star-29,13,168,assets/cloth-schemes/hades-specters/lycaon-phlegyas.jpg,1,1,1
 361,335,277,hades-gods,9,168,assets/cloth-schemes/hades-specters/phobetor.jpg,6,6,7
 362,337,229,cronus-titans-8,9,84,assets/cloth-schemes/cronus-titans/moon-phoebe.jpg,5,25,8
-363,338,234,eris-dryads,,308,assets/cloth-schemes/eris-dryads/murder-phonos.jpg,,6,5
+363,338,234,eris-dryads,,308,assets/cloth-schemes/eris-dryads/murder-phonos.jpg,6,6,5
 364,339,,blue-warrior-representative,,495,assets/cloth-schemes/odin-blue-warriors/piotr.jpg,,,1
 365,340,258,athena-saints-61,6,582,assets/cloth-schemes/athena-saints/pavo-pavlin.png,5,,16
 366,341,297,eris-dryads,,308,assets/cloth-schemes/eris-dryads/revenge-poena.jpg,6,6,5
@@ -382,7 +382,7 @@
 381,357,142,pallas-unknown-secondclass,33,323,assets/cloth-schemes/pallas-pallasites/perfect-pawn-rhea.png,,8,16
 382,358,283,typhon-gigas-1,,444,assets/cloth-schemes/typhon-gigas/phoinikeos-rhuax.jpg,27,27,8
 383,359,252,athena-saints-60,6,582,assets/cloth-schemes/athena-saints/orion-rigel.png,5,5,5
-384,359,255,eris-dryads,45,308,assets/cloth-schemes/eris-dryads/pain-rigel.png,10,10,5
+384,359,255,eris-dryads,45,308,assets/cloth-schemes/eris-dryads/pain-rigel.jpg,6,6,5
 385,360,392,athena-saints-64,4,582,assets/cloth-schemes/athena-saints/phoenix-ritahoa.jpg,,,32
 386,361,152,hades-other-specters-9,13,168,assets/cloth-schemes/hades-specters/golem-rock.jpg,1,1,1
 387,362,261,athena-saints-62,5,582,assets/cloth-schemes/athena-saints/pegasus-rodorio.jpg,,,29
@@ -524,7 +524,7 @@
 523,464,,other-characters,43,,assets/cloth-schemes/others/yoshimi-morigakure-masataka.png,,,16
 524,465,30,athena-gods,9,582,assets/cloth-schemes/athena-saints/athena-yoshino-hino.png,,,10
 525,466,203,athena-saints-50,5,582,assets/cloth-schemes/athena-saints/lupus-yoshitomi.jpg,15,8,16
-526,467,171,eris-dryads,,308,assets/cloth-schemes/eris-dryads/famine-yufa.jpg,,,5
+526,467,171,eris-dryads,,308,assets/cloth-schemes/eris-dryads/famine-yufa.jpg,6,6,5
 527,468,314,athena-saints-77,5,582,assets/cloth-schemes/athena-saints/sextans-yulij.jpg,5,5,27
 528,469,21,athena-saints-5,5,582,assets/cloth-schemes/athena-saints/aquila-yuna-1.png,5,,16
 529,469,22,athena-saints-5,5,582,assets/cloth-schemes/athena-saints/aquila-yuna-2.png,5,,16
@@ -577,9 +577,9 @@
 576,487,1,hades-celestial-star-4,13,168,assets/cloth-schemes/hades-specters/acheron-nyan.png,6,6,4
 577,488,400,arthur-gladiators-king,,582,assets/cloth-schemes/arthur-gladiators/excalibur-arthur-pendragon.png,,,10
 578,,402,hades-celestial-star-8,,168,assets/cloth-schemes/hades-specters/wyrm-1.jpg,6,6,29
-579,490,403,eris-dryads,,308,assets/cloth-schemes/eris-dryads/oath-edward.jpg,,,5
-580,101,408,ares-phantoms,9,308,assets/cloth-schemes/eris-dryads/fear-deimos.png,,,5
-581,336,407,ares-phantoms,9,308,assets/cloth-schemes/eris-dryads/defeat-phobos.png,,,5
+579,490,403,eris-dryads,,308,assets/cloth-schemes/eris-dryads/oath-edward.jpg,6,6,5
+580,101,408,eris-phantoms,9,308,assets/cloth-schemes/eris-dryads/fear-deimos.png,,,5
+581,336,407,eris-phantoms,9,308,assets/cloth-schemes/eris-dryads/defeat-phobos.png,,,5
 582,,409,athena-saints-15,5,582,assets/cloth-schemes/athena-saints/canis-minor-saint.jpg,,,29
 583,317,410,athena-saints-52,9,582,assets/cloth-schemes/athena-saints/lyra-orphee-god.png,16,16,29
 584,,20,athena-saints-5,6,582,assets/cloth-schemes/athena-saints/aquila-saint.jpg,6,6,29
@@ -629,7 +629,7 @@
 628,365,295,athena-former-saints-66,5,582,assets/cloth-schemes/athena-saints/rangifer-rudolph-online.jpg,6,6,29
 629,549,295,athena-former-saints-66,5,582,assets/cloth-schemes/athena-saints/rangifer-saint-woman.jpg,,,29
 630,53,433,athena-saints-70,6,582,assets/cloth-schemes/athena-saints/reticulum-balazo-online.jpg,6,6,29
-631,505,451,ares-phantoms,9,308,assets/cloth-schemes/eris-dryads/harmony-harmonia.jpg,,,5
+631,505,451,eris-phantoms,9,308,assets/cloth-schemes/eris-dryads/harmony-harmonia.jpg,,,5
 632,,307,athena-saints-75,5,582,assets/cloth-schemes/athena-saints/scutum-juan-online.jpg,6,6,29
 633,,314,athena-saints-77,5,582,assets/cloth-schemes/athena-saints/sextante-saint.jpg,6,6,29
 634,558,434,athena-unknown-saints,6,582,assets/cloth-schemes/athena-saints/tornado-ellan-1.jpg,6,6,29

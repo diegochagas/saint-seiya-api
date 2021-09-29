@@ -213,7 +213,7 @@ module.exports = {
         {
           title: "Berserkers",
           items: [
-            ...orderGroups(groupSaints(collection, 'ares'), ['gods', 'phantoms', 'legion']),
+            ...orderGroups(groupSaints(collection, 'ares'), ['gods', 'legion']),
             ...getRestOfTheCollection(collection, 'ares-legions', collections),
           ],
         },
@@ -243,9 +243,9 @@ module.exports = {
     } else if (request.params.class === 'dryads') {
       response.json([
         {
-          title: 'Corona Saints',
+          title: 'Dryads',
           items: [
-            ...orderGroups(groupSaints(collection, 'eris'), ['gods', 'dryads', 'soldiers']),
+            ...orderGroups(groupSaints(collection, 'eris'), ['gods', 'phantoms', 'dryads', 'soldiers']),
           ],
         },
       ]);
