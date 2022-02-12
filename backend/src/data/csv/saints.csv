@@ -239,7 +239,7 @@
 238,215,70,athena-saints-22,5,582,assets/cloth-schemes/athena-saints/chamaeleon-june.jpg,1,1,1
 239,216,384,athena-saints-50,5,582,,,,6
 240,217,46,hades-celestial-star-34,13,168,assets/cloth-schemes/hades-specters/bennu-kagaho-v1.jpg,3,3,6
-241,218,,hades-terrestrial-star-80,14,168,assets/cloth-schemes/hades-specters/kageboshi.jpg,,6,7
+241,218,,hades-terrestrial-star-80,14,168,assets/cloth-schemes/hades-specters/kageboshi.jpg,6,6,7
 242,219,,other-characters,9,524,assets/cloth-schemes/others/kairos.jpg,6,6,6
 243,220,189,athena-saints-46,7,582,assets/cloth-schemes/athena-saints/leo-kaiser.jpg,5,5,4
 244,221,148,athena-saints-38,7,582,assets/cloth-schemes/athena-saints/gemini-kanon.jpg,22,22,1
@@ -540,7 +540,7 @@
 539,,,ra-legionaries,1,348,assets/cloth-schemes/ra-legionaries/legionaries.jpg,,,8
 540,,322,mars-soldiers,1,33,assets/cloth-schemes/ares-martians/martian-soldiers.png,11,11,16
 541,,383,artemis-satellites,1,38,assets/cloth-schemes/artemis-satellites/callisto-satellites.jpg,5,8,4
-542,,389,artemis-satellites,1,38,assets/cloth-schemes/artemis-satellites/satellites-lascoumoune-1.png,5,,4
+542,,389,artemis-satellites,1,38,assets/cloth-schemes/artemis-satellites/satellites-lascoumoune.jpg,5,8,4
 543,,14,mars-soldiers,1,33,assets/cloth-schemes/ares-martians/ant-squad-soldier.jpg,15,8,16
 544,510,31,athena-unknown-saints,6,582,assets/cloth-schemes/athena-saints/atrium-matthew.jpg,6,6,29
 545,511,62,athena-saints-18,6,582,assets/cloth-schemes/athena-saints/cassiopeia-shion.jpg,6,6,29
@@ -652,11 +652,11 @@
 651,,,hades-terrestrial-star-102,14,168,assets/cloth-schemes/hades-specters/star-execute-centopiedi.png,5,5,19
 652,,,hades-terrestrial-star-77,14,168,assets/cloth-schemes/hades-specters/star-of-music-surplice.jpg,,6,19
 653,,,hades-terrestrial-star-79,14,168,assets/cloth-schemes/hades-specters/star-speed-surplice.png,5,5,19
-654,,,hades-terrestrial-star-63,14,168,assets/cloth-schemes/hades-specters/star-crazy-surplice.jpg,,6,19
+654,,,hades-terrestrial-star-63,14,168,assets/cloth-schemes/hades-specters/star-crazy.jpg,6,6,19
 655,,,hades-terrestrial-star-93,14,168,assets/cloth-schemes/hades-specters/star-hidden.jpg,,6,19
 656,,,hades-terrestrial-star-96,14,168,assets/cloth-schemes/hades-specters/star-slave.jpg,5,5,19
-657,,,hades-terrestrial-star-56,14,168,assets/cloth-schemes/hades-specters/star-efficacious.jpg,,6,19
-658,,,hades-terrestrial-star-67,14,168,assets/cloth-schemes/hades-specters/star-bright.jpg,,6,19
+657,,,hades-terrestrial-star-56,14,168,assets/cloth-schemes/hades-specters/star-efficacious.jpg,6,6,19
+658,,,hades-terrestrial-star-67,14,168,assets/cloth-schemes/hades-specters/star-bright.jpg,6,6,19
 659,,,hades-terrestrial-star-69,14,168,assets/cloth-schemes/hades-specters/star-retreating.jpg,,6,19
 660,,,hades-terrestrial-star-71,14,168,assets/cloth-schemes/hades-specters/star-succeed.jpg,,6,19
 661,,,hades-terrestrial-star-75,14,168,assets/cloth-schemes/hades-specters/star-manage.jpg,,6,19
@@ -706,7 +706,7 @@
 705,,,arthur-gladiators-low,25,582,assets/cloth-schemes/arthur-gladiators/unknown-gladiator-2.jpg,7,7,10
 706,605,,hades-faceless,,168,assets/cloth-schemes/hades-faceless/thunder-clouds.png,,,10
 707,,,hades-faceless,,168,assets/cloth-schemes/hades-faceless/unnamed-faceless.png,,,10
-708,,,arthur-gladiators-low,25,582,assets/cloth-schemes/arthur-gladiators/unknown-gladiator-3.png,,,10
+708,,,arthur-gladiators-low,25,582,assets/cloth-schemes/arthur-gladiators/unknown-gladiator-3.jpg,7,7,10
 709,606,,other-characters,40,84,assets/cloth-schemes/others/euryale-gorgon.png,,,8
 710,607,,hades-other-specters-5,13,168,assets/cloth-schemes/hades-specters/stone.jpg,6,6,29
 711,,,hades-other-specters-2,,168,assets/cloth-schemes/hades-specters/star-matter.jpg,6,6,29
@@ -778,6 +778,6 @@
 777,532,478,hades-terrestrial-star-108,14,168,assets/cloth-schemes/hades-specters/laelaps-suzuri.jpg,28,,39
 778,,,cyclops-soldiers,1,,assets/cloth-schemes/cyclops/soldier-cyclops.jpg,,,36
 779,259,405,mars-gods,9,33,assets/cloth-schemes/ares-martians/mars-ludwig-v2.jpg,5,,16
-780,527,314,athena-saints-77,5,582,assets/cloth-schemes/athena-saints/sextans-luna.jpg,5,5,40
+780,527,314,athena-saints-77,5,582,assets/cloth-schemes/athena-saints/sextans-luna.jpg,,5,40
 781,257,394,zeus-angels,17,306,assets/cloth-schemes/zeus-angels/lucifer-angel.jpg,10,,24
 782,330,272,hades-gods,9,168,assets/cloth-schemes/hades-specters/persephone-awakening.jpg,,,40
