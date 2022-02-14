@@ -649,7 +649,7 @@
 648,208,386,abel-saints-51,,28,assets/cloth-schemes/athena-saints/lynx-jao.jpg,5,5,23
 649,413,438,pallas-gods,9,84,assets/cloth-schemes/pallas-pallasites/saturn-subaru-v2.jpg,5,5,16
 650,315,439,hades-gods,9,168,assets/cloth-schemes/hades-specters/dream-oneiros-fusion.jpg,6,6,6
-651,,,hades-terrestrial-star-102,14,168,assets/cloth-schemes/hades-specters/star-execute-centopiedi.png,5,5,19
+651,,,hades-terrestrial-star-102,14,168,assets/cloth-schemes/hades-specters/star-execute-centopiedi.jpg,6,6,19
 652,,,hades-terrestrial-star-77,14,168,assets/cloth-schemes/hades-specters/star-of-music-surplice.jpg,,6,19
 653,,,hades-terrestrial-star-79,14,168,assets/cloth-schemes/hades-specters/star-speed-surplice.png,5,5,19
 654,,,hades-terrestrial-star-63,14,168,assets/cloth-schemes/hades-specters/star-crazy.jpg,6,6,19
@@ -662,7 +662,7 @@
 661,,,hades-terrestrial-star-75,14,168,assets/cloth-schemes/hades-specters/star-manage.jpg,,6,19
 662,596,,hades-terrestrial-star-87,14,168,assets/cloth-schemes/hades-specters/fabio.jpg,6,6,19
 663,,,hades-terrestrial-star-94,14,168,assets/cloth-schemes/hades-specters/star-level.jpg,,6,19
-664,,,hades-terrestrial-star-45,14,168,assets/cloth-schemes/hades-specters/star-fierce.jpg,,6,19
+664,,,hades-terrestrial-star-45,14,168,assets/cloth-schemes/hades-specters/star-fierce.jpg,6,6,19
 665,,,hades-terrestrial-star-68,14,168,assets/cloth-schemes/hades-specters/star-forward.jpg,,6,19
 666,,,hades-terrestrial-star-42,14,168,assets/cloth-schemes/hades-specters/star-majestic.jpg,,6,19
 667,,,hades-terrestrial-star-100,14,168,assets/cloth-schemes/hades-specters/star-number.jpg,,6,19
@@ -678,7 +678,7 @@
 677,602,,other-characters,,582,assets/cloth-schemes/others/asamori-hakase.jpg,23,23,12
 678,352,,other-characters,,,assets/cloth-schemes/others/misha.png,,,16
 679,238,136,eris-gods,9,308,assets/cloth-schemes/eris-dryads/eris-kyoko.jpg,4,4,5
-680,308,136,eris-gods,9,308,assets/cloth-schemes/eris-dryads/eris.jpg,6,6,21
+680,308,136,eris-gods,9,308,assets/cloth-schemes/eris-dryads/eris.jpg,6,,21
 681,139,,blue-warriors,,495,assets/cloth-schemes/odin-blue-warriors/alexei.jpg,6,6,1
 682,307,250,athena-saints-59,7,582,assets/cloth-schemes/athena-saints/ophiuchus-asclepius.png,,,4
 683,76,388,athena-saints-62,4,582,assets/cloth-schemes/athena-saints/black-saint-cassios.jpg,5,6,30
