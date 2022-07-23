@@ -41,7 +41,7 @@
 40,35,30,athena-gods,9,582,assets/cloth-schemes/athena-saints/athena-aria.png,14,,16
 41,36,,other-characters,41,28,assets/cloth-schemes/others/arkhes.png,10,,7
 42,37,472,athena-saints-48,5,582,assets/cloth-schemes/athena-saints/lepus-arne.jpg,6,6,16
-43,38,475,zeus-gods,9,306,assets/cloth-schemes/zeus-gods/artemis.jpg,5,,4
+43,38,475,zeus-gods,9,306,assets/cloth-schemes/zeus-gods/artemis-nd-movie.jpg,10,,25
 44,39,71,zeus-fallen-angels,17,306,assets/cloth-schemes/zeus-angels/cherub-ashtaroth.jpg,5,5,24
 45,40,356,athena-saints-86,7,582,assets/cloth-schemes/athena-saints/virgo-asmita.png,21,21,6
 46,41,148,athena-saints-38,7,582,assets/cloth-schemes/athena-saints/gemini-aspros.png,16,16,6
@@ -782,3 +782,5 @@
 781,257,394,zeus-angels,17,306,assets/cloth-schemes/zeus-angels/lucifer-angel.jpg,10,,24
 782,330,272,hades-gods,9,168,assets/cloth-schemes/hades-specters/persephone-awakening.jpg,,,40
 783,497,395,hades-celestial-star-21,13,,assets/cloth-schemes/hades-specters/dawon.jpg,,,44
+784,533,30,athena-gods,9,582,assets/cloth-schemes/athena-saints/athena-sao.jpg,10,,36
+785,38,,artemis-gods,9,306,assets/cloth-schemes/artemis-satellites/artemis.jpg,10,,4
