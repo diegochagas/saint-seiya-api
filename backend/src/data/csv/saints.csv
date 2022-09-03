@@ -118,7 +118,7 @@
 117,111,213,typhon-gigas-7,,444,assets/cloth-schemes/typhon-gigas/margarites-drakon.jpg,27,27,8
 118,112,120,odin-god-warriors-representative,31,495,assets/cloth-schemes/odin-god-warriors/drbal.png,5,5,22
 119,113,7,eris-dryads,,308,assets/cloth-schemes/eris-dryads/anarchy-dysnomia.jpg,6,6,5
-120,114,354,hades-celestial-star-26,13,168,assets/cloth-schemes/hades-specters/vampire-erhart.jpg,,6,7
+120,114,354,hades-celestial-star-26,13,168,assets/cloth-schemes/hades-specters/vampire-erhart.jpg,6,6,7
 121,115,127,typhon-gods,9,444,assets/cloth-schemes/typhon-gigas/echidna.jpg,5,,27
 122,116,76,pallas-weapon-thirdclass-2,34,323,assets/cloth-schemes/pallas-pallasites/club-impulse-mace-eden.png,,8,16
 123,116,253,athena-saints-60,5,582,assets/cloth-schemes/athena-saints/orion-eden-1.png,5,5,16
@@ -775,12 +775,12 @@
 774,530,,apsu-anunnakis,9,30,assets/cloth-schemes/apsu-anunnaki/enki.jpg,6,6,43
 775,,,apsu-weapons,1,30,assets/cloth-schemes/apsu-anunnaki/humbaba-weapons.jpg,6,6,43
 776,531,,athena-soldiers,1,582,assets/cloth-schemes/athena-saints/soldier-iga-zen.jpg,,,36
-777,532,478,hades-terrestrial-star-108,14,168,assets/cloth-schemes/hades-specters/laelaps-suzuri.jpg,28,,39
+777,532,478,hades-terrestrial-star-108,14,168,assets/cloth-schemes/hades-specters/laelaps-suzuri.jpg,28,6,39
 778,,,cyclops-soldiers,1,,assets/cloth-schemes/cyclops/soldier-cyclops.jpg,,,36
 779,259,405,mars-gods,9,33,assets/cloth-schemes/ares-martians/mars-ludwig-v2.jpg,5,,16
 780,527,314,athena-saints-77,5,582,assets/cloth-schemes/athena-saints/sextans-luna.jpg,,5,40
-781,257,394,zeus-angels,17,306,assets/cloth-schemes/zeus-angels/lucifer-angel.jpg,10,,24
-782,330,272,hades-gods,9,168,assets/cloth-schemes/hades-specters/persephone-awakening.jpg,,,40
-783,497,395,hades-celestial-star-21,13,,assets/cloth-schemes/hades-specters/dawon.jpg,,,44
+781,257,394,zeus-angels,17,306,assets/cloth-schemes/zeus-angels/lucifer-angel.jpg,6,6,24
+782,330,272,hades-gods,9,168,assets/cloth-schemes/hades-specters/persephone-awakening.jpg,10,6,40
+783,497,395,hades-celestial-star-21,13,,assets/cloth-schemes/hades-specters/dawon-erythro.jpg,6,6,44
 784,533,30,athena-gods,9,582,assets/cloth-schemes/athena-saints/athena-sao.jpg,10,,36
 785,38,,artemis-gods,9,306,assets/cloth-schemes/artemis-satellites/artemis.jpg,10,,4
