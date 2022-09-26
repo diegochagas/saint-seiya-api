@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiRest: 'https://saint-seiya-api.herokuapp.com/api'
+  apiRest: 'https://diegochagas.com/saint-seiya-api/'
 };
