@@ -44,6 +44,16 @@ const files = [
 
 files.forEach(file => {
   csv().fromFile(`./csv/${file}.csv`).then(jsonObj=>{
-    FileSystem.writeFileSync(`../../../../saint-seiya-api-data/${file}.json`, JSON.stringify(jsonObj));
+    let directoryPath = `../../../../saint-seiya-api-data/${file}`;
+    let filePath = `${directoryPath}/index.json`;
+
+    // If target is a directory, a new file with the same name will be created
+    if (FileSystem.existsSync(directoryPath)) {
+      FileSystem.writeFileSync(filePath, JSON.stringify(jsonObj));
+    } else {
+      FileSystem.mkdirSync(directoryPath);
+
+      FileSystem.writeFileSync(filePath, JSON.stringify(jsonObj));
+    }
   });
 });

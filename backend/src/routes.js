@@ -7,28 +7,28 @@ const ClassesController = require('./controllers/Classes.js');
 
 const routes = express.Router();
 
-routes.get('/api/artists', ArtistsController.getArtists);
+routes.get('/artists', ArtistsController.getArtists);
 
-routes.get('/api/artist/:id', ArtistsController.getArtist);
+routes.get('/artist/:id', ArtistsController.getArtist);
 
-routes.get('/api/debuts', DebutsController.getDebuts);
+routes.get('/debuts', DebutsController.getDebuts);
 
-routes.get('/api/debut/:id', DebutsController.getDebut);
+routes.get('/debut/:id', DebutsController.getDebut);
 
-routes.get('/api/characters', CharactersController.getCharacters);
+routes.get('/characters', CharactersController.getCharacters);
 
-routes.get('/api/character/:id', CharactersController.getCharacter);
+routes.get('/character/:id', CharactersController.getCharacter);
 
-routes.get('/api/curiosities', CharactersController.getCuriosities);
+routes.get('/curiosities', CharactersController.getCuriosities);
 
-routes.get('/api/all-classes', ClassesController.getAllClasses);
+routes.get('/all-classes', ClassesController.getAllClasses);
 
-routes.get('/api/:class', ClassesController.getClassSaints);
+routes.get('/:class', ClassesController.getClassSaints);
 
-routes.get('/api/:class/:id', ClassesController.getSaint);
+routes.get('/:class/:id', ClassesController.getSaint);
 
-routes.get('/api/classes/debut/:id', ClassesController.getClassesByDebut);
+routes.get('/classes/debut/:id', ClassesController.getClassesByDebut);
 
-routes.get('/api/classes/artist/:id', ClassesController.getClassesByArtist);
+routes.get('/classes/artist/:id', ClassesController.getClassesByArtist);
 
 module.exports = routes;
