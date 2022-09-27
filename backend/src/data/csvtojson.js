@@ -44,6 +44,6 @@ const files = [
 
 files.forEach(file => {
   csv().fromFile(`./csv/${file}.csv`).then(jsonObj=>{
-    FileSystem.writeFileSync(`./json/${file}.json`, JSON.stringify(jsonObj));
+    FileSystem.writeFileSync(`../../../../saint-seiya-api-data/${file}.json`, JSON.stringify(jsonObj));
   });
 });
