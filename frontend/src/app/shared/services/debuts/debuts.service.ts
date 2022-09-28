@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 import { environment } from 'src/environments/environment';
+import { getDebutsData } from './debuts.controllers'
 
 @Injectable({
   providedIn: 'root'
@@ -18,7 +19,11 @@ export class DebutsService {
   constructor( private  http: HttpClient ) { }
 
   getDebuts() {
-    return this.http.get(`${this.api}/debuts`, { headers: this.headers });
+    if (environment.production) {
+      return this.http.get(`${this.api}/debuts`, { headers: this.headers });
+    } else {
+      return getDebutsData();
+    }
   }
 
   getDebut(id) {
