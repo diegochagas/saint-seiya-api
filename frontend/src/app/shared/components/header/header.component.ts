@@ -39,11 +39,8 @@ export class HeaderComponent implements OnInit {
   async getDebuts() {
     let response: any;
 
-    if (environment.production) {
-      response = await this.debutsService.getDebuts().toPromise();
-    } else {
-      response = this.debutsService.getDebuts()
-    }
+    if (environment.production) response = await this.debutsService.getDebuts().toPromise();
+    else response = this.debutsService.getDebuts();
 
     this.debuts = response.filter(debut => {
       if (debut.id !== "2" &&

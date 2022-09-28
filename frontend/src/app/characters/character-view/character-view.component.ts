@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 
+import { environment } from 'src/environments/environment';
 import { CharactersService, ClassesService } from '../../shared';
 
 @Component({
@@ -43,15 +44,30 @@ export class CharacterViewComponent implements OnInit {
 
   async getCharacter() {
     if (this.detailsType === 'personal') {
-      this.character = await this.charactersService.getCharacter(this.id).toPromise();
+      if (environment.production) {
+        this.character = await this.charactersService.getCharacter(this.id).toPromise();
+      } else {
+        this.character = this.charactersService.getCharacter(this.id);
+      }
     } else if (this.detailsType === 'classes') {
-      this.character = await this.classService.getSaint(this.className, this.id).toPromise();
+      if (environment.production) {
+        this.character = await this.classService.getSaint(this.className, this.id).toPromise();
+      } else {
+        this.character = this.classService.getSaint(this.className, this.id);
+      }
     } else if (this.detailsType === 'constellation') {
-      this.character = await this.classService.getConstellation(this.id).toPromise();
+      if (environment.production) {
+        this.character = await this.classService.getConstellation(this.id).toPromise();
+      } else {
+        this.character = this.classService.getConstellation(this.id);
+      }
     } else if (this.detailsType === 'evil-star') {
-      this.character = await this.classService.getEvilStar(this.id).toPromise();
+      if (environment.production) {
+        this.character = await this.classService.getEvilStar(this.id).toPromise();
+      } else {
+        this.character = this.classService.getEvilStar(this.id);
+      }
     }
-
     if (this.character.symbolTag) {
       const symbols = this.character.symbolTag.split('-');
 

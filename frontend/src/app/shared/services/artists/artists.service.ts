@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 import { environment } from 'src/environments/environment';
-import { artists } from './artists.controllers'
+import { getArtistsData, getArtistData } from './artists.controllers'
 
 @Injectable({
   providedIn: 'root'
@@ -19,14 +19,12 @@ export class ArtistsService {
   constructor( private  http: HttpClient ) { }
 
   getArtists() {
-    if (environment.production) {
-      return this.http.get(`${this.api}/artists`, { headers: this.headers });
-    } else {
-      return artists;
-    }
+    if (environment.production) return this.http.get(`${this.api}/artists`, { headers: this.headers });
+    else return getArtistsData();
   }
 
   getArtist(id) {
-    return this.http.get(`${this.api}/artist/${id}`, { headers: this.headers });
+    if (environment.production) return this.http.get(`${this.api}/artist/${id}`, { headers: this.headers });
+    else return getArtistData(id);
   }
 }

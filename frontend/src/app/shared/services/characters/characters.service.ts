@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 import { environment } from 'src/environments/environment';
+import { getCharactersData, getCharacterData, getCuriositiesData } from './characters.controllers'
 
 @Injectable({
   providedIn: 'root'
@@ -18,14 +19,17 @@ export class CharactersService {
   constructor( private  http: HttpClient ) { }
 
   getCharacters() {
-    return this.http.get(`${this.api}/characters`, { headers: this.headers });
+    if (environment.production) return this.http.get(`${this.api}/characters`, { headers: this.headers });
+    else return getCharactersData()
   }
 
   getCharacter(id) {
-    return this.http.get(`${this.api}/character/${id}`, { headers: this.headers });
+    if (environment.production) return this.http.get(`${this.api}/character/${id}`, { headers: this.headers });
+    else return getCharacterData(id);
   }
 
   getCuriosities() {
-    return this.http.get(`${this.api}/curiosities`, { headers: this.headers });
+    if (environment.production) return this.http.get(`${this.api}/curiosities`, { headers: this.headers });
+    else return getCuriositiesData();
   }
 }

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
 import { MatTableDataSource } from '@angular/material';
 
+import { environment } from 'src/environments/environment';
 import { CharactersService } from '../../shared';
 
 @Component({
@@ -43,10 +44,13 @@ export class CharactersListComponent implements OnInit {
 
     this.displayedColumns = ['image', 'id', 'cloth', 'name'];
 
-    const response: any = await this.charactersService.getCharacters().toPromise();
+    let response: any;
+
+    if (environment.production) response = await this.charactersService.getCharacters().toPromise();
+    else response = this.charactersService.getCharacters();
 
     const data = response.map(({ id, name, image, cloths }) => {
-      const cloth = cloths.length ? cloths[0].cloth : '';
+      const cloth = cloths?.length ? cloths[0].cloth : '';
 
       return { id, name, image, cloth };
     });
