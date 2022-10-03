@@ -1,10 +1,10 @@
 <div class="personal-details">
   <div class="card text-white bg-dark">
     <div class="card-body">
-      <img *ngIf="character.cloths.length <= 1" class="card-img" src="{{ character.image }}" alt="Character scheme">
+      <img *ngIf="character.clothes.length <= 1" class="card-img" src="{{ character.image }}" alt="Character scheme">
 
-      <ngb-carousel *ngIf="character.cloths.length > 1" class="card-carousel">
-        <ng-template ngbSlide *ngFor="let cloth of character.cloths">
+      <ngb-carousel *ngIf="character.clothes.length > 1" class="card-carousel">
+        <ng-template ngbSlide *ngFor="let cloth of character.clothes">
           <div class="picsum-img-wrapper">
             <img [src]="cloth.image" class="card-img" alt="{{ cloth.cloth }}">
           </div>
@@ -138,13 +138,13 @@
       </div>
     </div>
 
-    <ng-container *ngIf="character.cloths.length > 0">
-      <div class="card-footer" *ngIf="character.cloths[0].class.class !== 'Others'">
-        <h6 class="card-subtitle">Cloths:</h6>
+    <ng-container *ngIf="character.clothes.length > 0">
+      <div class="card-footer" *ngIf="character.clothes[0].class.class !== 'Others'">
+        <h6 class="card-subtitle">Clothes:</h6>
 
         <a
           class="cloth"
-          *ngFor="let cloth of character.cloths"
+          *ngFor="let cloth of character.clothes"
           [routerLink]="['/characters/classes/' + cloth.class.class.toLowerCase().replace(' ', '-') + '/' + cloth.id]"
         >
           <img src="{{ cloth.image }}" alt="Cloth scheme" class="card-img-icon">

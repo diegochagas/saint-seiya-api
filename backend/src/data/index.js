@@ -2,7 +2,7 @@ const artists = require('../../../../saint-seiya-api-data/artists/index.json')
 const attackers = require('../../../../saint-seiya-api-data/attackers/index.json')
 const attacks = require('../../../../saint-seiya-api-data/attacks/index.json')
 const characters = require('../../../../saint-seiya-api-data/characters/index.json')
-const cloths = require('../../../../saint-seiya-api-data/cloths/index.json')
+const clothes = require('../../../../saint-seiya-api-data/clothes/index.json')
 const curiosities = require('../../../../saint-seiya-api-data/curiosities/index.json')
 const debuts = require('../../../../saint-seiya-api-data/debuts/index.json')
 const familyMembers = require('../../../../saint-seiya-api-data/familyMembers/index.json')
@@ -42,7 +42,7 @@ module.exports = {
     attackers,
     attacks,
     characters,
-    cloths,
+    clothes,
     curiosities,
     debuts,
     familyMembers,

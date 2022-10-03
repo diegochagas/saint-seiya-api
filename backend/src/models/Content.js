@@ -42,7 +42,7 @@ const loadSaintsData = (saints, content) => {
       }
     });
 
-    content.cloths.forEach(cloth => {
+    content.clothes.forEach(cloth => {
       if (cloth.id === saint.cloth) {
         saint.cloth = cloth.name;
       }
@@ -253,9 +253,9 @@ const loadCharactersData = content => {
 
     const saints = content.saints.filter(saint => saint.name === character.id);
 
-    character.cloths = loadSaintsData(saints, content);
+    character.clothes = loadSaintsData(saints, content);
 
-    character.image = character.cloths.length ? character.cloths[0].image : noSchemeImage;
+    character.image = character.clothes.length ? character.clothes[0].image : noSchemeImage;
 
     character.family = [];
 
@@ -287,8 +287,6 @@ const getColletions = async () => {
   collections.push({ collectionPath: 'characters', collection: loadCharactersData(content) });
 
   collections.push({ collectionPath: 'curiosities', collection: content.curiosities });
-
-  collections.push({ collectionPath: 'classNames', collection: content.classes });
 
   collections.push({ collectionPath: 'saints', collection: loadSaintsData(content.saints, content) });
 

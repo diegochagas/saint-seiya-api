@@ -49,8 +49,8 @@ export class CharactersListComponent implements OnInit {
     if (environment.production) response = await this.charactersService.getCharacters().toPromise();
     else response = this.charactersService.getCharacters();
 
-    const data = response.map(({ id, name, image, cloths }) => {
-      const cloth = cloths?.length ? cloths[0].cloth : '';
+    const data = response.map(({ id, name, image, clothes }) => {
+      const cloth = clothes?.length ? clothes[0].cloth : '';
 
       return { id, name, image, cloth };
     });

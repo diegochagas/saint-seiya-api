@@ -11,11 +11,12 @@ const nationalities = require('../../../../../../../saint-seiya-api-data/nationa
 const places = require('../../../../../../../saint-seiya-api-data/places/index.json')
 const saints = require('../../../../../../../saint-seiya-api-data/saints/index.json')
 
-const { loadSaintData, noSchemeImage } = require('../classes/classes.controllers')
+const { loadSaintData } = require('../classes/classes.controllers')
+
+export const noSchemeImage = "assets/cloth-schemes/others/no-scheme.png";
 
 const genders = ['Male', 'Female'];
 const bloodTypes = ['A', 'B', 'AB', 'O', 'Ikhor'];
-
 
 const getCharacterBirthDate = character => {
   if (character.age && character.birthDay && character.birthMonth && character.actualDate) {
@@ -133,9 +134,9 @@ const loadCharacterData = characterObject => {
 
   const filteredSaints = saints.filter(saint => saint.name === character.id);
 
-  character.cloths = filteredSaints.map(saint => loadSaintData(saint));
+  character.clothes = filteredSaints.map(saint => loadSaintData(saint));
 
-  character.image = character.cloths.length ? character.cloths[0].image : noSchemeImage;
+  character.image = character.clothes.length ? character.clothes[0].image : noSchemeImage;
 
   character.family = getCharacterKinship();
 
