@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 import { environment } from 'src/environments/environment';
-import { getArtistsData, getArtistData } from './artists.controllers'
+import { getArtistsData, getArtistData, artistsData } from './artists.controllers'
 
 @Injectable({
   providedIn: 'root'
@@ -16,15 +16,21 @@ export class ArtistsService {
     'Access-Control-Allow-Methods': 'GET,OPTIONS'
   });
 
-  constructor( private  http: HttpClient ) { }
+  artists: any = []
+
+  constructor( private  http: HttpClient ) {
+    if (environment.production) {
+      this.artists = this.http.get(`${this.api}/artists`, { headers: this.headers });
+    } else {
+      this.artists = artistsData
+    }
+  }
 
   getArtists() {
-    if (environment.production) return this.http.get(`${this.api}/artists`, { headers: this.headers });
-    else return getArtistsData();
+    return getArtistsData(this.artists);
   }
 
   getArtist(id) {
-    if (environment.production) return this.http.get(`${this.api}/artist/${id}`, { headers: this.headers });
-    else return getArtistData(id);
+    return getArtistData(this.artists, id);
   }
 }

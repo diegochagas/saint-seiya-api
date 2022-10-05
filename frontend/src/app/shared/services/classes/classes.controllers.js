@@ -260,54 +260,64 @@ export function getAllClasses() {
 }
 
 export function getClassSaints(className) {
-  // saintsData === collection
+  const collections = getColletions();
+
+  let collection = [];
+
+  for (let i = 0; i < collections.length; i++) {
+    if (collections[i].collectionPath === 'saints') {
+      collection = collections[i].collection;
+
+      break;
+    }
+  }
 
   if (className === 'saints') {
     let unknownSaintsCounter = 0;
 
-    const saints = [...groupSaints('athena-saints')]
+    const saints = [...groupSaints(collection, 'athena-saints')]
 
     saints.forEach(constellation => {
       if(constellation.saints.length > 0) unknownSaintsCounter++;
     });
 
-    response.json([
+    return [
       {
         title: 'Gods',
-        items: [...groupSaints('athena-gods')],
+        items: [...groupSaints(collection, 'athena-gods')],
       },
       {
         title: `88 Athena Saints (${unknownSaintsCounter} appeared)`,
         items: [
           ...saints,
-          ...getRestOfTheCollection('constellations'),
+          ...getRestOfTheCollection(collection, 'constellations', collections),
         ].sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)
       },
       {
         title: 'Saints with former constellations',
-        items: [...groupSaints('athena-former-saints')]
+        items: [...groupSaints(collection, 'athena-former-saints')]
       },
       {
         title: 'Saints with Hindu constellations',
-        items: [...groupSaints('athena-hindu-saints')]
+        items: [...groupSaints(collection, 'athena-hindu-saints')]
       },
       {
         title: 'Saints with Chinese constellations',
-        items: [...groupSaints('athena-chinese-saints')]
+        items: [...groupSaints(collection, 'athena-chinese-saints')]
       },
       {
         title: 'Saints without constellation',
-        items: [...groupSaints('athena-unknown-saints')]
+        items: [...groupSaints(collection, 'athena-unknown-saints')]
       },
       {
         title: 'Soldiers Saints',
-        items: [...groupSaints('athena-soldiers')]
+        items: [...groupSaints(collection, 'athena-soldiers')]
       },
-    ]);
+    ];
   } else if (className === 'specters') {
     let unknownSpectersCounter = 0;
 
-    const specters = [...groupSaints('ial-star')]
+    const specters = [...groupSaints(collection, 'ial-star')]
 
     specters.forEach(evilStar => {
       if(evilStar.saints.length > 0) unknownSpectersCounter++;
@@ -316,309 +326,309 @@ export function getClassSaints(className) {
     return [
       {
         title: 'Gods',
-        items: [...groupSaints('hades-gods')],
+        items: [...groupSaints(collection, 'hades-gods')],
       },
       {
         title: 'Hades Representative',
-        items: [...groupSaints('hades-representative')]
+        items: [...groupSaints(collection, 'hades-representative')]
       },
       {
         title: `108 Hades Specters (${unknownSpectersCounter} appeared)`,
         items: [
           ...specters,
-          ...getRestOfTheCollection('evil-stars'),
+          ...getRestOfTheCollection(collection, 'evil-stars', collections),
         ].sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)
       },
       {
         title: 'Other Specters',
-        items: [...groupSaints('hades-other-specters').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)]
+        items: [...groupSaints(collection, 'hades-other-specters').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)]
       },
       {
         title: 'Skeleton soldiers',
-        items: [...groupSaints('hades-skeleton')]
+        items: [...groupSaints(collection, 'hades-skeleton')]
       },
       {
         title: 'Pluto Faceless',
-        items: [...groupSaints('hades-faceless')]
+        items: [...groupSaints(collection, 'hades-faceless')]
       },
     ];
   } else if (className === 'pallasites') {
     return [
       {
         title: 'Gods',
-        items: [...groupSaints('pallas-gods').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)],
+        items: [...groupSaints(collection, 'pallas-gods').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)],
       },
       {
         title: 'First class pallasites',
-        items: [...groupSaints('pallas-weapon-firstclass').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)],
+        items: [...groupSaints(collection, 'pallas-weapon-firstclass').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)],
       },
       {
         title: 'Second class pallasites',
         items: [
-          ...groupSaints('pallas-weapon-secondclass').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1),
-          ...groupSaints('pallas-unknown-secondclass')
+          ...groupSaints(collection, 'pallas-weapon-secondclass').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1),
+          ...groupSaints(collection, 'pallas-unknown-secondclass')
         ],
       },
       {
         title: 'Third class pallasites',
-        items: [...groupSaints('pallas-weapon-thirdclass').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)],
+        items: [...groupSaints(collection, 'pallas-weapon-thirdclass').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)],
       },
       {
         title: 'Unknown Class',
-        items: [...groupSaints('pallas-unknown-unknownclass')],
+        items: [...groupSaints(collection, 'pallas-unknown-unknownclass')],
       },
       {
         title: 'Soldiers',
-        items: [...groupSaints('pallas-pallasite-soldiers')],
+        items: [...groupSaints(collection, 'pallas-pallasite-soldiers')],
       },
     ];
   } else if (className === 'olympus') {
-    response.json([
+    return [
       {
         title: "Olympus",
         items: [
-          ...orderGroups(groupSaints('zeus'), ['gods', 'angels', 'fallen-angels']),
+          ...orderGroups(groupSaints(collection, 'zeus'), ['gods', 'angels', 'fallen-angels']),
         ]
       }
-    ]);
+    ];
   } else if (className === 'berserkers' || className === 'martians') {
-    response.json([
+    return [
       {
         title: "Berserkers",
         items: [
-          ...orderGroups(groupSaints('ares'), ['gods', 'legion']),
-          ...getRestOfTheCollection('ares-legions'),
+          ...orderGroups(groupSaints(collection, 'ares'), ['gods', 'legion']),
+          ...getRestOfTheCollection(collection, 'ares-legions', collections),
         ],
       },
       {
         title: "Martians",
         items: [
-          ...orderGroups(groupSaints('mars'), ['gods', 'representative', 'heavenly', 'martians', 'soldier'])
+          ...orderGroups(groupSaints(collection, 'mars'), ['gods', 'representative', 'heavenly', 'martians', 'soldier'])
         ]
       }
-    ]);
+    ];
   } else if (className === 'corona-saints') {
-    response.json([
+    return [
       {
         title: 'Corona Saints',
         items: [
-          ...orderGroups(groupSaints('abel'), ['gods', 'constellation']),
+          ...orderGroups(groupSaints(collection, 'abel'), ['gods', 'constellation']),
         ],
       },
-    ]);
+    ];
   } else if (className === 'cyclops') {
-    response.json([
+    return [
       {
         title: 'Cyclops',
-        items: [ ...groupSaints('cyclops')],
+        items: [ ...groupSaints(collection, 'cyclops')],
       },
-    ]);
+    ];
   } else if (className === 'dryads') {
-    response.json([
+    return [
       {
         title: 'Dryads',
         items: [
-          ...orderGroups(groupSaints('eris'), ['gods', 'phantoms', 'dryads', 'soldiers']),
+          ...orderGroups(groupSaints(collection, 'eris'), ['gods', 'phantoms', 'dryads', 'soldiers']),
         ],
       },
-    ]);
+    ];
   } else if (className === 'fairies') {
-    response.json([
+    return [
       {
         title: 'Fairies',
         items: [
-          ...orderGroups(groupSaints('balor'), ['gods', 'fairies']),
+          ...orderGroups(groupSaints(collection, 'balor'), ['gods', 'fairies']),
         ],
       },
-    ]);
+    ];
   } else if (className === 'gigas') {
-    response.json([
+    return [
       {
         title: 'Gods',
         items: [
-          ...groupSaints('typhon-gods'),
+          ...groupSaints(collection, 'typhon-gods'),
         ],
       },
       {
         title: 'Typhon brothers',
         items: [
-          ...groupSaints('typhon-brothers'),
+          ...groupSaints(collection, 'typhon-brothers'),
         ],
       },
       {
         title: 'Typhon sons',
         items: [
-          ...groupSaints('typhon-sons'),
+          ...groupSaints(collection, 'typhon-sons'),
         ],
       },
       {
         title: 'Cronus gigas',
         items: [
-          ...groupSaints('typhon-gigas'),
+          ...groupSaints(collection, 'typhon-gigas'),
         ],
       },
-    ]);
+    ];
   } else if (className === 'gladiators') {
-    response.json([
+    return [
       {
         title: 'Gladiators',
         items: [
-          ...orderGroups(groupSaints('arthur'), ['king', 'gladiators', 'low']),
+          ...orderGroups(groupSaints(collection, 'arthur'), ['king', 'gladiators', 'low']),
         ],
       },
-    ]);
+    ];
   } else if (className === 'god-warriors' || className === 'blue-warriors') {
-    response.json([
+    return [
       {
         title: 'Blue warriors',
         items: [
-          ...orderGroups(groupSaints('blue-warrior'), ['representative', 'warriors', 'low', 'soldiers']),
+          ...orderGroups(groupSaints(collection, 'blue-warrior'), ['representative', 'warriors', 'low', 'soldiers']),
         ],
       },
       {
         title: 'Gods',
         items: [
-          ...groupSaints('odin-gods'),
+          ...groupSaints(collection, 'odin-gods'),
         ],
       },
       {
         title: 'Drbal god warriors',
         items: [
-          ...orderGroups(groupSaints('odin-god-warriors'), ['representative', 'warriors']),
+          ...orderGroups(groupSaints(collection, 'odin-god-warriors'), ['representative', 'warriors']),
         ],
       },
       {
         title: 'Hilda god warriors',
         items: [
-          ...orderGroups(groupSaints('odin-ursa-major'), ['representative', 'star']),
+          ...orderGroups(groupSaints(collection, 'odin-ursa-major'), ['representative', 'star']),
         ],
       },
       {
         title: 'Andreas god warriors',
         items: [
-          ...orderGroups(groupSaints('odin-chamber'), ['representative', 'chamber']),
+          ...orderGroups(groupSaints(collection, 'odin-chamber'), ['representative', 'chamber']),
         ],
       },
       {
         title: 'Asgard soldiers',
         items: [
-          ...groupSaints('odin-asgard-soldiers'),
+          ...groupSaints(collection, 'odin-asgard-soldiers'),
         ],
       },
-    ]);
+    ];
   } else if (className === 'golden-tribe') {
-    response.json([
+    return [
       {
         title: 'Golden Tribe',
         items: [
-          ...orderGroups(groupSaints('astraea'), ['gods', 'golden']),
+          ...orderGroups(groupSaints(collection, 'astraea'), ['gods', 'golden']),
         ],
       },
-    ]);
+    ];
   } else if (className === 'jaguars') {
-    response.json([
+    return [
       {
         title: 'Jaguars',
         items: [
-          ...orderGroups(groupSaints('tezcatlipoca'), ['gods', 'jaguars', 'soldiers'	]),
+          ...orderGroups(groupSaints(collection, 'tezcatlipoca'), ['gods', 'jaguars', 'soldiers'	]),
         ],
       },
-    ]);
+    ];
   } else if (className === 'jewels') {
-    response.json([
+    return [
       {
         title: 'Jewels',
         items: [
-          ...orderGroups(groupSaints('garnet'), ['leader', 'jewels'	]),
+          ...orderGroups(groupSaints(collection, 'garnet'), ['leader', 'jewels'	]),
         ],
       },
-    ]);
+    ];
   } else if (className === 'lamech-servants') {
-    response.json([
+    return [
       {
         title: 'Lamech Servants',
         items: [
-          ...orderGroups(groupSaints('lamech'), ['gods', 'servants']),
+          ...orderGroups(groupSaints(collection, 'lamech'), ['gods', 'servants']),
         ],
       },
-    ]);
+    ];
   } else if (className === 'legionaries') {
-    response.json([
+    return [
       {
         title: 'Legionaries',
         items: [
-          ...orderGroups(groupSaints('ra-'), ['gods', 'legionaries']),
+          ...orderGroups(groupSaints(collection, 'ra-'), ['gods', 'legionaries']),
         ],
       },
-    ]);
+    ];
   } else if (className === 'mariners') {
-    response.json([
+    return [
       {
         title: 'Mariners',
         items: [
-          ...orderGroups(groupSaints('poseidon'), ['gods', 'generals', 'mariners', 'soldiers']),
+          ...orderGroups(groupSaints(collection, 'poseidon'), ['gods', 'generals', 'mariners', 'soldiers']),
         ],
       },
-    ]);
+    ];
   } else if (className === 'others') {
-    response.json([
+    return [
       {
         title: 'Others',
         items: [
-          ...groupSaints('other-characters'),
+          ...groupSaints(collection, 'other-characters'),
         ],
       },
-    ]);
+    ];
   } else if (className === 'satellites') {
-    response.json([
+    return [
       {
         title: 'Satellites',
         items: [
-          ...orderGroups(groupSaints('artemis'), ['gods', 'representative', 'captain', 'satellites']),
+          ...orderGroups(groupSaints(collection, 'artemis'), ['gods', 'representative', 'captain', 'satellites']),
         ],
       },
-    ]);
+    ];
   } else if (className === 'taonias') {
-    response.json([
+    return [
       {
         title: 'Taonias',
         items: [
-          ...orderGroups(groupSaints('hakuryu'), ['gods', 'taonias', 'high', 'low']),
+          ...orderGroups(groupSaints(collection, 'hakuryu'), ['gods', 'taonias', 'high', 'low']),
         ],
       },
-    ]);
+    ];
   } else if (className === 'anunnakis') {
-    response.json([
+    return [
       {
         title: 'Anunnakis',
         items: [
-          ...orderGroups(groupSaints('apsu'), ['anunnakis', 'weapons']),
+          ...orderGroups(groupSaints(collection, 'apsu'), ['anunnakis', 'weapons']),
         ],
       },
-    ]);
+    ];
   } else if (className === 'titans') {
-    response.json([
+    return [
       {
         title: '12 Titans',
         items: [
-          ...groupSaints('cronus-titans'),
+          ...groupSaints(collection, 'cronus-titans'),
         ],
       },
       {
         title: 'Titan Soldiers',
         items: [
-          ...groupSaints('cronus-titan-soldiers'),
+          ...groupSaints(collection, 'cronus-titan-soldiers'),
         ],
       },
       {
         title: 'Others',
         items: [
-          ...groupSaints('cronus-other'),
+          ...groupSaints(collection, 'cronus-other'),
         ],
       },
-    ]);
+    ];
   } else {
-    response.status(404).json({ message: `${className} not found in Classes Controler` });
+    return { message: `${className} not found in Classes Controler` };
   }
 }
 
