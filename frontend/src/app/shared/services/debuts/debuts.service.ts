@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 import { environment } from 'src/environments/environment';
-import { getDebutsData, getDebutData } from './debuts.controllers'
+import { getDebutsData, getDebutData, debutsData, midiasData } from './debuts.controllers'
 
 @Injectable({
   providedIn: 'root'
@@ -16,15 +16,24 @@ export class DebutsService {
     'Access-Control-Allow-Methods': 'GET,OPTIONS'
   });
 
-  constructor( private  http: HttpClient ) { }
+  midias: any = []
+  debuts: any = []
+
+  constructor( private  http: HttpClient ) {
+    if (environment.production) {
+      this.debuts = this.http.get(`${this.api}/debuts`, { headers: this.headers });
+      this.midias = this.http.get(`${this.api}/midias`, { headers: this.headers });
+    } else {
+      this.debuts = debutsData;
+      this.midias = midiasData;
+    }
+  }
 
   getDebuts() {
-    if (environment.production) return this.http.get(`${this.api}/debuts`, { headers: this.headers });
-    else return getDebutsData();
+    return getDebutsData(this.debuts, this.midias);
   }
 
   getDebut(id) {
-    if (environment.production) return this.http.get(`${this.api}/debut/${id}`, { headers: this.headers });
-    else return getDebutData(id);
+    return getDebutData(this.debuts, this.midias, id);
   }
 }

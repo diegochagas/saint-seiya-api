@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 import { environment } from 'src/environments/environment';
-import { getArtistsData, getArtistData, artistsData } from './artists.controllers'
+import { getArtistData, artistsData } from './artists.controllers'
 
 @Injectable({
   providedIn: 'root'
@@ -27,7 +27,7 @@ export class ArtistsService {
   }
 
   getArtists() {
-    return getArtistsData(this.artists);
+    return this.artists;
   }
 
   getArtist(id) {

@@ -55,6 +55,7 @@ export class CharacterViewComponent implements OnInit {
       } else {
         this.character = this.classService.getSaint(this.className, this.id);
       }
+    /* unused functions
     } else if (this.detailsType === 'constellation') {
       if (environment.production) {
         this.character = await this.classService.getConstellation(this.id).toPromise();
@@ -67,6 +68,7 @@ export class CharacterViewComponent implements OnInit {
       } else {
         this.character = this.classService.getEvilStar(this.id);
       }
+    */
     }
     if (this.character.symbolTag) {
       const symbols = this.character.symbolTag.split('-');

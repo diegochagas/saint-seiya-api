@@ -6,6 +6,7 @@ const files = [
   'attackers',
   'attacks',
   'characters',
+  'classNames',
   'clothes',
   'curiosities',
   'debuts',

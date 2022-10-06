@@ -1,34 +1,37 @@
-const artists = require('../../../../../../../saint-seiya-api-data/artists/index.json')
-const charactersData = require('../../../../../../../saint-seiya-api-data/characters/index.json')
-const clothes = require('../../../../../../../saint-seiya-api-data/clothes/index.json')
-const curiosities = require('../../../../../../../saint-seiya-api-data/curiosities/index.json')
-const debuts = require('../../../../../../../saint-seiya-api-data/debuts/index.json')
-const groupsAbel = require('../../../../../../../saint-seiya-api-data/groupsAbel/index.json')
-const groupsApsu = require('../../../../../../../saint-seiya-api-data/groupsApsu/index.json')
-const groupsAres = require('../../../../../../../saint-seiya-api-data/groupsAres/index.json')
-const groupsArtemis = require('../../../../../../../saint-seiya-api-data/groupsArtemis/index.json')
-const groupsArthur = require('../../../../../../../saint-seiya-api-data/groupsArthur/index.json')
-const groupsAstraea = require('../../../../../../../saint-seiya-api-data/groupsAstraea/index.json')
-const groupsAthena = require('../../../../../../../saint-seiya-api-data/groupsAthena/index.json')
-const groupsBalor = require('../../../../../../../saint-seiya-api-data/groupsBalor/index.json')
-const groupsCronus = require('../../../../../../../saint-seiya-api-data/groupsCronus/index.json')
-const groupsCyclops = require('../../../../../../../saint-seiya-api-data/groupsCyclops/index.json')
-const groupsEris = require('../../../../../../../saint-seiya-api-data/groupsEris/index.json')
-const groupsGarnet = require('../../../../../../../saint-seiya-api-data/groupsGarnet/index.json')
-const groupsHades = require('../../../../../../../saint-seiya-api-data/groupsHades/index.json')
-const groupsHakuryu = require('../../../../../../../saint-seiya-api-data/groupsHakuryu/index.json')
-const groupsLamech = require('../../../../../../../saint-seiya-api-data/groupsLamech/index.json')
-const groupsOdin = require('../../../../../../../saint-seiya-api-data/groupsOdin/index.json')
-const groupsOthers = require('../../../../../../../saint-seiya-api-data/groupsOthers/index.json')
-const groupsPallas = require('../../../../../../../saint-seiya-api-data/groupsPallas/index.json')
-const groupsPoseidon = require('../../../../../../../saint-seiya-api-data/groupsPoseidon/index.json')
-const groupsRa = require('../../../../../../../saint-seiya-api-data/groupsRa/index.json')
-const groupsTezcatlipoca = require('../../../../../../../saint-seiya-api-data/groupsTezcatlipoca/index.json')
-const groupsTyphon = require('../../../../../../../saint-seiya-api-data/groupsTyphon/index.json')
-const groupsZeus = require('../../../../../../../saint-seiya-api-data/groupsZeus/index.json')
-const midias = require('../../../../../../../saint-seiya-api-data/midias/index.json')
-const ranks = require('../../../../../../../saint-seiya-api-data/ranks/index.json')
-const saintsData = require('../../../../../../../saint-seiya-api-data/saints/index.json')
+//#region imports jsons
+export const artistsData = require('../../../../../../../saint-seiya-api-data/artists/index.json')
+export const charactersData = require('../../../../../../../saint-seiya-api-data/characters/index.json')
+export const classNamesData = require('../../../../../../../saint-seiya-api-data/classNames/index.json')
+export const clothesData = require('../../../../../../../saint-seiya-api-data/clothes/index.json')
+export const curiositiesData = require('../../../../../../../saint-seiya-api-data/curiosities/index.json')
+export const debutsData = require('../../../../../../../saint-seiya-api-data/debuts/index.json')
+export const groupsAbelData = require('../../../../../../../saint-seiya-api-data/groupsAbel/index.json')
+export const groupsApsuData = require('../../../../../../../saint-seiya-api-data/groupsApsu/index.json')
+export const groupsAresData = require('../../../../../../../saint-seiya-api-data/groupsAres/index.json')
+export const groupsArtemisData = require('../../../../../../../saint-seiya-api-data/groupsArtemis/index.json')
+export const groupsArthurData = require('../../../../../../../saint-seiya-api-data/groupsArthur/index.json')
+export const groupsAstraeaData = require('../../../../../../../saint-seiya-api-data/groupsAstraea/index.json')
+export const groupsAthenaData = require('../../../../../../../saint-seiya-api-data/groupsAthena/index.json')
+export const groupsBalorData = require('../../../../../../../saint-seiya-api-data/groupsBalor/index.json')
+export const groupsCronusData = require('../../../../../../../saint-seiya-api-data/groupsCronus/index.json')
+export const groupsCyclopsData = require('../../../../../../../saint-seiya-api-data/groupsCyclops/index.json')
+export const groupsErisData = require('../../../../../../../saint-seiya-api-data/groupsEris/index.json')
+export const groupsGarnetData = require('../../../../../../../saint-seiya-api-data/groupsGarnet/index.json')
+export const groupsHadesData = require('../../../../../../../saint-seiya-api-data/groupsHades/index.json')
+export const groupsHakuryuData = require('../../../../../../../saint-seiya-api-data/groupsHakuryu/index.json')
+export const groupsLamechData = require('../../../../../../../saint-seiya-api-data/groupsLamech/index.json')
+export const groupsOdinData = require('../../../../../../../saint-seiya-api-data/groupsOdin/index.json')
+export const groupsOthersData = require('../../../../../../../saint-seiya-api-data/groupsOthers/index.json')
+export const groupsPallasData = require('../../../../../../../saint-seiya-api-data/groupsPallas/index.json')
+export const groupsPoseidonData = require('../../../../../../../saint-seiya-api-data/groupsPoseidon/index.json')
+export const groupsRaData = require('../../../../../../../saint-seiya-api-data/groupsRa/index.json')
+export const groupsTezcatlipocaData = require('../../../../../../../saint-seiya-api-data/groupsTezcatlipoca/index.json')
+export const groupsTyphonData = require('../../../../../../../saint-seiya-api-data/groupsTyphon/index.json')
+export const groupsZeusData = require('../../../../../../../saint-seiya-api-data/groupsZeus/index.json')
+export const midiasData = require('../../../../../../../saint-seiya-api-data/midias/index.json')
+export const ranksData = require('../../../../../../../saint-seiya-api-data/ranks/index.json')
+export const saintsData = require('../../../../../../../saint-seiya-api-data/saints/index.json')
+//#endregion
 
 const { loadCharacterData } = require('../characters/characters.controllers')
 
@@ -45,7 +48,38 @@ const getGroup = (groups, saint) => {
   }
 }
 
-export const loadSaintData = saintObject => {
+export const loadSaintData = (
+  artists,
+  characters,
+  clothes,
+  debuts,
+  groupsAbel,
+  groupsApsu,
+  groupsAres,
+  groupsArtemis,
+  groupsArthur,
+  groupsAstraea,
+  groupsAthena,
+  groupsBalor,
+  groupsCronus,
+  groupsCyclops,
+  groupsEris,
+  groupsGarnet,
+  groupsHades,
+  groupsHakuryu,
+  groupsLamech,
+  groupsOdin,
+  groupsOthers,
+  groupsPallas,
+  groupsPoseidon,
+  groupsRa,
+  groupsTezcatlipoca,
+  groupsTyphon,
+  groupsZeus,
+  midias,
+  ranks,
+  saintObject
+) => {
   const saint = Object.assign({}, saintObject);
 
   const characterId = saint.name;
@@ -65,6 +99,8 @@ export const loadSaintData = saintObject => {
   });
 
   let group;
+
+  console.log(saint)
 
   if (saint.group.includes('abel')) group = getGroup(groupsAbel, saint);
   if (saint.group.includes('apsu')) group = getGroup(groupsApsu, saint);
@@ -161,16 +197,117 @@ const loadDebutsData = () => {
   });
 }
 
-const getColletions = () => {
+const getColletions = (
+  artists,
+  characters,
+  clothes,
+  debuts,
+  groupsAbel,
+  groupsApsu,
+  groupsAres,
+  groupsArtemis,
+  groupsArthur,
+  groupsAstraea,
+  groupsAthena,
+  groupsBalor,
+  groupsCronus,
+  groupsCyclops,
+  groupsEris,
+  groupsGarnet,
+  groupsHades,
+  groupsHakuryu,
+  groupsLamech,
+  groupsOdin,
+  groupsOthers,
+  groupsPallas,
+  groupsPoseidon,
+  groupsRa,
+  groupsTezcatlipoca,
+  groupsTyphon,
+  groupsZeus,
+  midias,
+  ranks,
+  saints,
+) => {
   const collections = [];
 
   collections.push({ collectionPath: 'artists', collection: artists });
 
-  collections.push({ collectionPath: 'characters', collection: charactersData.map(character => loadCharacterData(character)) });
+  collections.push({ collectionPath: 'characters', collection: characters.map(character => loadCharacterData(
+    artists,
+    attackers,
+    attacks,
+    characters,
+    clothes,
+    debuts,
+    familyMembers,
+    groupsAbel,
+    groupsApsu,
+    groupsAres,
+    groupsArtemis,
+    groupsArthur,
+    groupsAstraea,
+    groupsAthena,
+    groupsBalor,
+    groupsCronus,
+    groupsCyclops,
+    groupsEris,
+    groupsGarnet,
+    groupsHades,
+    groupsHakuryu,
+    groupsLamech,
+    groupsOdin,
+    groupsOthers,
+    groupsPallas,
+    groupsPoseidon,
+    groupsRa,
+    groupsTezcatlipoca,
+    groupsTyphon,
+    groupsZeus,
+    kinships,
+    masters,
+    midias,
+    nationalities,
+    places,
+    ranks,
+    saints,
+    character
+  )) });
 
   collections.push({ collectionPath: 'curiosities', collection: curiosities });
 
-  collections.push({ collectionPath: 'saints', collection: saintsData.map(saint => loadSaintsData(saint)) });
+  collections.push({ collectionPath: 'saints', collection: saints.map(saint => loadSaintData(
+    artists,
+    characters,
+    clothes,
+    debuts,
+    groupsAbel,
+    groupsApsu,
+    groupsAres,
+    groupsArtemis,
+    groupsArthur,
+    groupsAstraea,
+    groupsAthena,
+    groupsBalor,
+    groupsCronus,
+    groupsCyclops,
+    groupsEris,
+    groupsGarnet,
+    groupsHades,
+    groupsHakuryu,
+    groupsLamech,
+    groupsOdin,
+    groupsOthers,
+    groupsPallas,
+    groupsPoseidon,
+    groupsRa,
+    groupsTezcatlipoca,
+    groupsTyphon,
+    groupsZeus,
+    midias,
+    ranks,
+    saint
+  )) });
 
   collections.push({
     collectionPath: 'constellations',
@@ -255,8 +392,80 @@ function orderGroups(groups, order) {
   return orderedGroups
 }
 
-export function getAllClasses() {
-  return saintsData;
+export function getAllClasses(
+  artists,
+  characters,
+  clothes,
+  debuts,
+  groupsAbel,
+  groupsApsu,
+  groupsAres,
+  groupsArtemis,
+  groupsArthur,
+  groupsAstraea,
+  groupsAthena,
+  groupsBalor,
+  groupsCronus,
+  groupsCyclops,
+  groupsEris,
+  groupsGarnet,
+  groupsHades,
+  groupsHakuryu,
+  groupsLamech,
+  groupsOdin,
+  groupsOthers,
+  groupsPallas,
+  groupsPoseidon,
+  groupsRa,
+  groupsTezcatlipoca,
+  groupsTyphon,
+  groupsZeus,
+  midias,
+  ranks,
+  saints,
+) {
+  const collections = getColletions(
+    artists,
+    characters,
+    clothes,
+    debuts,
+    groupsAbel,
+    groupsApsu,
+    groupsAres,
+    groupsArtemis,
+    groupsArthur,
+    groupsAstraea,
+    groupsAthena,
+    groupsBalor,
+    groupsCronus,
+    groupsCyclops,
+    groupsEris,
+    groupsGarnet,
+    groupsHades,
+    groupsHakuryu,
+    groupsLamech,
+    groupsOdin,
+    groupsOthers,
+    groupsPallas,
+    groupsPoseidon,
+    groupsRa,
+    groupsTezcatlipoca,
+    groupsTyphon,
+    groupsZeus,
+    midias,
+    ranks,
+    saints,
+  );
+
+  let saintsFullData = [];
+
+  for (let i = 0; i < collections.length; i++) {
+    if (collections[i].collectionPath === 'saints') {
+      saintsFullData = collections[i].collection;
+    }
+  }
+
+  return saintsFullData;
 }
 
 export function getClassSaints(className) {
@@ -632,7 +841,7 @@ export function getClassSaints(className) {
   }
 }
 
-export function getClassesByArtist(request, response) {
+export function getClassesByArtist(id) {
   const collections = getColletions();
 
   let saints = [];
@@ -653,7 +862,7 @@ export function getClassesByArtist(request, response) {
 
   let saintsByArtist = []
 
-  if(request.params.id === '0') {
+  if(id === '0') {
     saintsByArtist = saints.filter(saint => saint.artistSaint === "" || saint.artistCloth === "");
 
     response.json(saintsByArtist);
@@ -661,7 +870,7 @@ export function getClassesByArtist(request, response) {
     let artist;
 
     for (let i = 0; i < artists.length; i++) {
-      if (artists[i].id === request.params.id) {
+      if (artists[i].id === id) {
         artist = artists[i];
       }
     }
@@ -669,14 +878,14 @@ export function getClassesByArtist(request, response) {
     if (artist) {
       const saintsByArtist = saints.filter(saint => artist.id === saint.artistSaint || artist.id === saint.artistCloth);
 
-      response.json(saintsByArtist);
+      return saintsByArtist;
     } else {
-      response.status(404).json({ message: 'Artist not found' });
+      return { message: 'Artist not found' };
     }
   }
 }
 
-export function getClassesByDebut(request, response) {
+export function getClassesByDebut(id) {
   const collections = getColletions();
 
   let saints = [];
@@ -697,15 +906,15 @@ export function getClassesByDebut(request, response) {
 
   let saintsByDebut = []
 
-  if(request.params.id === '0') {
+  if(id === '0') {
     saintsByDebut = saints.filter(saint => saint.debut === "");
 
-    response.json(saintsByDebut);
+    return saintsByDebut;
   } else {
     let debut;
 
     for (let i = 0; i < debuts.length; i++) {
-      if (debuts[i].id === request.params.id) {
+      if (debuts[i].id === id) {
         debut = debuts[i];
       }
     }
@@ -713,14 +922,14 @@ export function getClassesByDebut(request, response) {
     if (debut) {
       const saintsByDebut = saints.filter(saint => debut.name === saint.debut && debut.midia === saint.midia);
 
-      response.json(saintsByDebut);
+      return saintsByDebut;
     } else {
-      response.status(404).json({ message: 'Debut not found' });
+      return { message: 'Debut not found' };
     }
   }
 }
 
-export function getSaint(request, response) {
+export function getSaintData(className, id) {
   const collections = getColletions();
 
   let saints = [];
@@ -736,7 +945,7 @@ export function getSaint(request, response) {
   let saint;
 
   for (let i = 0; i < saints.length; i++) {
-    if (request.params.id === saints[i].id) {
+    if (id === saints[i].id) {
       saint = saints[i];
 
       break;
@@ -744,8 +953,8 @@ export function getSaint(request, response) {
   }
 
   if (saint) {
-    response.json(saint);
+    return saint;
   } else {
-    response.status(404).json({ message: `${className} not found` });
+    return { message: `${className} not found` };
   }
 }

@@ -1,9 +1,5 @@
 export const artistsData = require('../../../../../../../saint-seiya-api-data/artists/index.json')
 
-export function getArtistsData(artists) {
-  return artists;
-}
-
 export function getArtistData(artists, id) {
   let artist;
 
