@@ -4,54 +4,47 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 import { environment } from 'src/environments/environment';
 
-//#region controllers
-import {
-  artistsData,
-  attackersData,
-  attacksData,
-  charactersData,
-  classNamesData,
-  clothesData,
-  curiositiesData,
-  debutsData,
-  familyMembersData,
-  getAllClasses,
-  getClassSaints,
-  getClassesByArtist,
-  getClassesByDebut,
-  getSaintData,
-  groupsAbelData,
-  groupsApsuData,
-  groupsAresData,
-  groupsArtemisData,
-  groupsArthurData,
-  groupsAstraeaData,
-  groupsAthenaData,
-  groupsBalorData,
-  groupsCronusData,
-  groupsCyclopsData,
-  groupsErisData,
-  groupsGarnetData,
-  groupsHadesData,
-  groupsHakuryuData,
-  groupsLamechData,
-  groupsOdinData,
-  groupsOthersData,
-  groupsPallasData,
-  groupsPoseidonData,
-  groupsRaData,
-  groupsTezcatlipocaData,
-  groupsTyphonData,
-  groupsZeusData,
-  kinshipsData,
-  mastersData,
-  midiasData,
-  nationalitiesData,
-  placesData,
-  ranksData,
-  saintsData,
-} from './classes.controllers'
-//#endregion
+import { getAllClasses, getClassSaints, getClassesByArtist, getClassesByDebut, getSaintData } from './classes.controllers'
+
+import artistsData from '../../../api/artists.json';
+import attackersData from '../../../api/attackers.json';
+import attacksData from '../../../api/attacks.json';
+import charactersData from '../../../api/characters.json';
+import classNamesData from '../../../api/classNames.json';
+import clothesData from '../../../api/clothes.json';
+import curiositiesData from '../../../api/curiosities.json';
+import debutsData from '../../../api/debuts.json';
+import familyMembersData from '../../../api/familyMembers.json';
+import groupsAbelData from '../../../api/groupsAbel.json';
+import groupsApsuData from '../../../api/groupsApsu.json';
+import groupsAresData from '../../../api/groupsAres.json';
+import groupsArtemisData from '../../../api/groupsArtemis.json';
+import groupsArthurData from '../../../api/groupsArthur.json';
+import groupsAstraeaData from '../../../api/groupsAstraea.json';
+import groupsAthenaData from '../../../api/groupsAthena.json';
+import groupsBalorData from '../../../api/groupsBalor.json';
+import groupsCronusData from '../../../api/groupsCronus.json';
+import groupsCyclopsData from '../../../api/groupsCyclops.json';
+import groupsErisData from '../../../api/groupsEris.json';
+import groupsGarnetData from '../../../api/groupsGarnet.json';
+import groupsHadesData from '../../../api/groupsHades.json';
+import groupsHakuryuData from '../../../api/groupsHakuryu.json';
+import groupsLamechData from '../../../api/groupsLamech.json';
+import groupsOdinData from '../../../api/groupsOdin.json';
+import groupsOthersData from '../../../api/groupsOthers.json';
+import groupsPallasData from '../../../api/groupsPallas.json';
+import groupsPoseidonData from '../../../api/groupsPoseidon.json';
+import groupsRaData from '../../../api/groupsRa.json';
+import groupsTezcatlipocaData from '../../../api/groupsTezcatlipoca.json';
+import groupsTyphonData from '../../../api/groupsTyphon.json';
+import groupsZeusData from '../../../api/groupsZeus.json';
+import kinshipsData from '../../../api/kinships.json';
+import mastersData from '../../../api/masters.json';
+import midiasData from '../../../api/midias.json';
+import nationalitiesData from '../../../api/nationality.json';
+import placesData from '../../../api/places.json';
+import ranksData from '../../../api/ranks.json';
+import saintsData from '../../../api/saints.json';
 
 @Injectable({
   providedIn: 'root'
