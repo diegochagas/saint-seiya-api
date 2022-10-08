@@ -103,7 +103,7 @@ export class ClassesService {
       this.attackers = this.http.get(`${this.api}/attackers`, { headers: this.headers });
       this.attacks = this.http.get(`${this.api}/attacks`, { headers: this.headers });
       this.characters = this.http.get(`${this.api}/characters`, { headers: this.headers });
-      this.classNames = this.http.get(`${this.api}/classNamesData`, { headers: this.headers });
+      this.classNames = this.http.get(`${this.api}/classNames`, { headers: this.headers });
       this.clothes = this.http.get(`${this.api}/clothes`, { headers: this.headers });
       this.curiosities = this.http.get(`${this.api}/curiosities`, { headers: this.headers });
       this.debuts = this.http.get(`${this.api}/debuts`, { headers: this.headers });
@@ -134,7 +134,7 @@ export class ClassesService {
       this.kinships = this.http.get(`${this.api}/kinships`, { headers: this.headers });
       this.masters = this.http.get(`${this.api}/masters`, { headers: this.headers });
       this.midias = this.http.get(`${this.api}/midias`, { headers: this.headers });
-      this.nationalities = this.http.get(`${this.api}/nationalitie`, { headers: this.headers });
+      this.nationalities = this.http.get(`${this.api}/nationalities`, { headers: this.headers });
       this.places = this.http.get(`${this.api}/places`, { headers: this.headers });
       this.ranks = this.http.get(`${this.api}/ranks`, { headers: this.headers });
       this.saints = this.http.get(`${this.api}/saints`, { headers: this.headers });
