@@ -1,10 +1,13 @@
 //#region imports jsons
 export const artistsData = require('../../../../../../../saint-seiya-api-data/artists/index.json')
+export const attackersData = require('../../../../../../../saint-seiya-api-data/attackers/index.json')
+export const attacksData = require('../../../../../../../saint-seiya-api-data/attacks/index.json')
 export const charactersData = require('../../../../../../../saint-seiya-api-data/characters/index.json')
 export const classNamesData = require('../../../../../../../saint-seiya-api-data/classNames/index.json')
 export const clothesData = require('../../../../../../../saint-seiya-api-data/clothes/index.json')
 export const curiositiesData = require('../../../../../../../saint-seiya-api-data/curiosities/index.json')
 export const debutsData = require('../../../../../../../saint-seiya-api-data/debuts/index.json')
+export const familyMembersData = require('../../../../../../../saint-seiya-api-data/familyMembers/index.json')
 export const groupsAbelData = require('../../../../../../../saint-seiya-api-data/groupsAbel/index.json')
 export const groupsApsuData = require('../../../../../../../saint-seiya-api-data/groupsApsu/index.json')
 export const groupsAresData = require('../../../../../../../saint-seiya-api-data/groupsAres/index.json')
@@ -28,12 +31,216 @@ export const groupsRaData = require('../../../../../../../saint-seiya-api-data/g
 export const groupsTezcatlipocaData = require('../../../../../../../saint-seiya-api-data/groupsTezcatlipoca/index.json')
 export const groupsTyphonData = require('../../../../../../../saint-seiya-api-data/groupsTyphon/index.json')
 export const groupsZeusData = require('../../../../../../../saint-seiya-api-data/groupsZeus/index.json')
+export const kinshipsData = require('../../../../../../../saint-seiya-api-data/kinships/index.json')
+export const mastersData = require('../../../../../../../saint-seiya-api-data/masters/index.json')
 export const midiasData = require('../../../../../../../saint-seiya-api-data/midias/index.json')
+export const nationalitiesData = require('../../../../../../../saint-seiya-api-data/nationality/index.json')
+export const placesData = require('../../../../../../../saint-seiya-api-data/places/index.json')
 export const ranksData = require('../../../../../../../saint-seiya-api-data/ranks/index.json')
 export const saintsData = require('../../../../../../../saint-seiya-api-data/saints/index.json')
 //#endregion
 
-const { loadCharacterData } = require('../characters/characters.controllers')
+export const noSchemeImage = "assets/cloth-schemes/others/no-scheme.png";
+
+const genders = ['Male', 'Female'];
+const bloodTypes = ['A', 'B', 'AB', 'O', 'Ikhor'];
+
+const getCharacterBirthDate = character => {
+  if (character.age && character.birthDay && character.birthMonth && character.actualDate) {
+    const age = parseInt(character.age);
+    const day = parseInt(character.birthDay);
+    const month = parseInt(character.birthMonth);
+    const date = new Date(character.actualDate);
+    let year = date.getFullYear() - age;
+
+    if ((date.getMonth() + 1) < month || ((date.getMonth() + 1) == month && date.getDate() < day)) {
+        year--;
+    }
+
+    return `${day}/${month}/${year}`;
+  } else if (character.birthDay && character.birthMonth) {
+    return `${character.birthDay}/${character.birthMonth}`;
+  } else {
+    return "";
+  }
+}
+
+const getCharacterKinship = (characters, familyMembers, kinships) => {
+  return characters.map(character => {
+    const families = [];
+
+    familyMembers.forEach(family => {
+      if (family.character === character.id) {
+        const member = characters.find(character => character.id === family.member);
+        const kinship = kinships.find(kinship => kinship.id === family.kinship);
+
+        if(member && kinship) {
+          let additionalKinship = ''
+
+          if(family.twin) additionalKinship = 'twin ' + additionalKinship;
+          if(family.half) additionalKinship = 'half ' + additionalKinship;
+          if(family.adopt) additionalKinship = 'adopt ' + additionalKinship;
+          if(family.step) additionalKinship = 'step ' + additionalKinship;
+
+          families.push({ id: member.id, member: `${member.name} (${additionalKinship}${kinship.name})` });
+        }
+      }
+    })
+
+    character.family = families.sort((a, b) => a.member == b.member ? 0 : + (a.member > b.member) || -1);
+
+    return character;
+  });
+}
+
+export const loadCharacterData = (
+  artists,
+  attackers,
+  attacks,
+  characters,
+  clothes,
+  debuts,
+  familyMembers,
+  groupsAbel,
+  groupsApsu,
+  groupsAres,
+  groupsArtemis,
+  groupsArthur,
+  groupsAstraea,
+  groupsAthena,
+  groupsBalor,
+  groupsCronus,
+  groupsCyclops,
+  groupsEris,
+  groupsGarnet,
+  groupsHades,
+  groupsHakuryu,
+  groupsLamech,
+  groupsOdin,
+  groupsOthers,
+  groupsPallas,
+  groupsPoseidon,
+  groupsRa,
+  groupsTezcatlipoca,
+  groupsTyphon,
+  groupsZeus,
+  kinships,
+  masters,
+  midias,
+  nationalities,
+  places,
+  ranks,
+  saints,
+  characterObject
+ ) => {
+  const character = Object.assign({}, characterObject);
+  character.birth = getCharacterBirthDate(character);
+
+  character.gender = genders[character.gender];
+
+  nationalities.forEach(nationality => {
+    if (nationality.num_code === character.nationality) {
+      character.nationality = nationality.nationality;
+    }
+
+    if (nationality.num_code === character.training) {
+      const place = places.find(place => place.id === character.place);
+
+      character.training = place ? `${place.name}, ${nationality.en_short_name}` : nationality.en_short_name;
+    }
+  });
+
+  delete character.place;
+
+  character.master = [];
+  character.apprentice = [];
+  masters.forEach(master => {
+    if (master.apprentice === character.id) {
+      characters.forEach(masterInformations => {
+        if (masterInformations.id === master.master) {
+          character.master.push({ id: masterInformations.id, name: masterInformations.name });
+        }
+      });
+    }
+
+    if (master.master === character.id) {
+      characters.forEach(apprentice => {
+        if (apprentice.id === master.apprentice) {
+          character.apprentice.push({ id: apprentice.id, name: apprentice.name });
+        }
+      });
+    }
+  });
+
+  character.attacks = [];
+  attackers.forEach(attacker => {
+    if (attacker.character === character.id) {
+      const attack = attacks.find(attack => attack.id === attacker.attack);
+      character.attacks.push(attack.name);
+    }
+  });
+
+  character.height = character.height ? `${character.height}cm` : "";
+  character.weight = character.weight ? `${character.weight}kg` : "";
+
+  const bloodType = bloodTypes[character.blood];
+  character.blood = bloodType ? bloodType : "";
+
+  debuts.forEach(debut => {
+    if (debut.id === character.debut) {
+      midias.forEach(midia => {
+        if (midia.id === debut.midia) {
+          character.debut = debut.name;
+
+          character.midia = midia.name;
+        }
+      });
+    }
+  });
+
+  const filteredSaints = saints.filter(saint => saint.name === character.id);
+
+  character.clothes = filteredSaints.map(saint => loadSaintData(
+    artists,
+    attackers,
+    attacks,
+    characters,
+    clothes,
+    debuts,
+    groupsAbel,
+    groupsApsu,
+    groupsAres,
+    groupsArtemis,
+    groupsArthur,
+    groupsAstraea,
+    groupsAthena,
+    groupsBalor,
+    groupsCronus,
+    groupsCyclops,
+    groupsEris,
+    groupsGarnet,
+    groupsHades,
+    groupsHakuryu,
+    groupsLamech,
+    groupsOdin,
+    groupsOthers,
+    groupsPallas,
+    groupsPoseidon,
+    groupsRa,
+    groupsTezcatlipoca,
+    groupsTyphon,
+    groupsZeus,
+    midias,
+    ranks,
+    saint
+  ));
+
+  character.image = character.clothes.length ? character.clothes[0].image : noSchemeImage;
+
+  character.family = getCharacterKinship(characters, familyMembers, kinships);
+
+  return character;
+}
 
 const getGroup = (groups, saint) => {
   try {
@@ -50,6 +257,8 @@ const getGroup = (groups, saint) => {
 
 export const loadSaintData = (
   artists,
+  attackers,
+  attacks,
   characters,
   clothes,
   debuts,
@@ -99,8 +308,6 @@ export const loadSaintData = (
   });
 
   let group;
-
-  console.log(saint)
 
   if (saint.group.includes('abel')) group = getGroup(groupsAbel, saint);
   if (saint.group.includes('apsu')) group = getGroup(groupsApsu, saint);
@@ -185,7 +392,7 @@ export const loadSaintData = (
   return saint;
 }
 
-const loadDebutsData = () => {
+const loadDebutsData = (debuts, midias) => {
   return debuts.map(debutObject => {
     const debut = Object.assign({}, debutObject);
 
@@ -199,9 +406,13 @@ const loadDebutsData = () => {
 
 const getColletions = (
   artists,
+  attackers,
+  attacks,
   characters,
   clothes,
+  curiosities,
   debuts,
+  familyMembers,
   groupsAbel,
   groupsApsu,
   groupsAres,
@@ -225,7 +436,11 @@ const getColletions = (
   groupsTezcatlipoca,
   groupsTyphon,
   groupsZeus,
+  kinships,
+  masters,
   midias,
+  nationalities,
+  places,
   ranks,
   saints,
 ) => {
@@ -239,6 +454,7 @@ const getColletions = (
     attacks,
     characters,
     clothes,
+    curiosities,
     debuts,
     familyMembers,
     groupsAbel,
@@ -278,6 +494,8 @@ const getColletions = (
 
   collections.push({ collectionPath: 'saints', collection: saints.map(saint => loadSaintData(
     artists,
+    attackers,
+    attacks,
     characters,
     clothes,
     debuts,
@@ -325,7 +543,7 @@ const getColletions = (
     collection: groupsAres.filter(group => group.group.includes('ares-legions')),
   });
 
-  collections.push({ collectionPath: 'debuts', collection: loadDebutsData() });
+  collections.push({ collectionPath: 'debuts', collection: loadDebutsData(debuts, midias) });
 
   return collections;
 }
@@ -352,13 +570,13 @@ function getRestOfTheCollection(collection, collectionName, collections) {
   return newCollection.sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1);
 }
 
-function groupSaints(group) {
+function groupSaints(saints, group) {
   const groupedSaints = [];
 
   try {
     const filteredSaints = saints.filter(saint => saint.group.includes(group));
 
-    const groupSaints = filteredSaints.reduce((accumulator, currentValue) => {
+    const groupFilteredSaints = filteredSaints.reduce((accumulator, currentValue) => {
       if (currentValue && currentValue.class) {
         accumulator[currentValue.class.name] = [...accumulator[currentValue.class.name] || [], currentValue];
       } else {
@@ -370,8 +588,8 @@ function groupSaints(group) {
       return accumulator;
     }, {});
 
-    for (let key in groupSaints) {
-      groupedSaints.push({ name: key, saints: groupSaints[key].sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)});
+    for (let key in groupFilteredSaints) {
+      groupedSaints.push({ name: key, saints: groupFilteredSaints[key].sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)});
     }
 
     return groupedSaints.sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1);
@@ -394,9 +612,13 @@ function orderGroups(groups, order) {
 
 export function getAllClasses(
   artists,
+  attackers,
+  attacks,
   characters,
   clothes,
+  curiosities,
   debuts,
+  familyMembers,
   groupsAbel,
   groupsApsu,
   groupsAres,
@@ -420,15 +642,23 @@ export function getAllClasses(
   groupsTezcatlipoca,
   groupsTyphon,
   groupsZeus,
+  kinships,
+  masters,
   midias,
+  nationalities,
+  places,
   ranks,
   saints,
 ) {
   const collections = getColletions(
     artists,
+    attackers,
+    attacks,
     characters,
     clothes,
+    curiosities,
     debuts,
+    familyMembers,
     groupsAbel,
     groupsApsu,
     groupsAres,
@@ -452,7 +682,11 @@ export function getAllClasses(
     groupsTezcatlipoca,
     groupsTyphon,
     groupsZeus,
+    kinships,
+    masters,
     midias,
+    nationalities,
+    places,
     ranks,
     saints,
   );
@@ -468,8 +702,87 @@ export function getAllClasses(
   return saintsFullData;
 }
 
-export function getClassSaints(className) {
-  const collections = getColletions();
+export function getClassSaints(
+  artists,
+  attackers,
+  attacks,
+  characters,
+  clothes,
+  curiosities,
+  debuts,
+  familyMembers,
+  groupsAbel,
+  groupsApsu,
+  groupsAres,
+  groupsArtemis,
+  groupsArthur,
+  groupsAstraea,
+  groupsAthena,
+  groupsBalor,
+  groupsCronus,
+  groupsCyclops,
+  groupsEris,
+  groupsGarnet,
+  groupsHades,
+  groupsHakuryu,
+  groupsLamech,
+  groupsOdin,
+  groupsOthers,
+  groupsPallas,
+  groupsPoseidon,
+  groupsRa,
+  groupsTezcatlipoca,
+  groupsTyphon,
+  groupsZeus,
+  kinships,
+  masters,
+  midias,
+  nationalities,
+  places,
+  ranks,
+  saints,
+  className
+) {
+  const collections = getColletions(
+    artists,
+    attackers,
+    attacks,
+    characters,
+    clothes,
+    curiosities,
+    debuts,
+    familyMembers,
+    groupsAbel,
+    groupsApsu,
+    groupsAres,
+    groupsArtemis,
+    groupsArthur,
+    groupsAstraea,
+    groupsAthena,
+    groupsBalor,
+    groupsCronus,
+    groupsCyclops,
+    groupsEris,
+    groupsGarnet,
+    groupsHades,
+    groupsHakuryu,
+    groupsLamech,
+    groupsOdin,
+    groupsOthers,
+    groupsPallas,
+    groupsPoseidon,
+    groupsRa,
+    groupsTezcatlipoca,
+    groupsTyphon,
+    groupsZeus,
+    kinships,
+    masters,
+    midias,
+    nationalities,
+    places,
+    ranks,
+    saints,
+  );
 
   let collection = [];
 
@@ -841,42 +1154,121 @@ export function getClassSaints(className) {
   }
 }
 
-export function getClassesByArtist(id) {
-  const collections = getColletions();
+export function getClassesByArtist(
+  artists,
+  attackers,
+  attacks,
+  characters,
+  clothes,
+  curiosities,
+  debuts,
+  familyMembers,
+  groupsAbel,
+  groupsApsu,
+  groupsAres,
+  groupsArtemis,
+  groupsArthur,
+  groupsAstraea,
+  groupsAthena,
+  groupsBalor,
+  groupsCronus,
+  groupsCyclops,
+  groupsEris,
+  groupsGarnet,
+  groupsHades,
+  groupsHakuryu,
+  groupsLamech,
+  groupsOdin,
+  groupsOthers,
+  groupsPallas,
+  groupsPoseidon,
+  groupsRa,
+  groupsTezcatlipoca,
+  groupsTyphon,
+  groupsZeus,
+  kinships,
+  masters,
+  midias,
+  nationalities,
+  places,
+  ranks,
+  saints,
+  id
+) {
+  const collections = getColletions(
+    artists,
+    attackers,
+    attacks,
+    characters,
+    clothes,
+    curiosities,
+    debuts,
+    familyMembers,
+    groupsAbel,
+    groupsApsu,
+    groupsAres,
+    groupsArtemis,
+    groupsArthur,
+    groupsAstraea,
+    groupsAthena,
+    groupsBalor,
+    groupsCronus,
+    groupsCyclops,
+    groupsEris,
+    groupsGarnet,
+    groupsHades,
+    groupsHakuryu,
+    groupsLamech,
+    groupsOdin,
+    groupsOthers,
+    groupsPallas,
+    groupsPoseidon,
+    groupsRa,
+    groupsTezcatlipoca,
+    groupsTyphon,
+    groupsZeus,
+    kinships,
+    masters,
+    midias,
+    nationalities,
+    places,
+    ranks,
+    saints,
+  );
 
-  let saints = [];
+  let saintsColection = [];
 
   for (let i = 0; i < collections.length; i++) {
     if (collections[i].collectionPath === 'saints') {
-      saints = collections[i].collection;
+      saintsColection = collections[i].collection;
     }
   }
 
-  let artists = [];
+  let artistsCollection = [];
 
   for (let i = 0; i < collections.length; i++) {
     if (collections[i].collectionPath === 'artists') {
-      artists = collections[i].collection;
+      artistsCollection = collections[i].collection;
     }
   }
 
   let saintsByArtist = []
 
   if(id === '0') {
-    saintsByArtist = saints.filter(saint => saint.artistSaint === "" || saint.artistCloth === "");
+    saintsByArtist = saintsColection.filter(saint => saint.artistSaint === "" || saint.artistCloth === "");
 
-    response.json(saintsByArtist);
+    return saintsByArtist;
   } else {
     let artist;
 
-    for (let i = 0; i < artists.length; i++) {
-      if (artists[i].id === id) {
-        artist = artists[i];
+    for (let i = 0; i < artistsCollection.length; i++) {
+      if (artistsCollection[i].id === id) {
+        artist = artistsCollection[i];
       }
     }
 
     if (artist) {
-      const saintsByArtist = saints.filter(saint => artist.id === saint.artistSaint || artist.id === saint.artistCloth);
+      const saintsByArtist = saintsColection.filter(saint => artist.id === saint.artistSaint || artist.id === saint.artistCloth);
 
       return saintsByArtist;
     } else {
@@ -885,42 +1277,121 @@ export function getClassesByArtist(id) {
   }
 }
 
-export function getClassesByDebut(id) {
-  const collections = getColletions();
+export function getClassesByDebut(
+  artists,
+  attackers,
+  attacks,
+  characters,
+  clothes,
+  curiosities,
+  debuts,
+  familyMembers,
+  groupsAbel,
+  groupsApsu,
+  groupsAres,
+  groupsArtemis,
+  groupsArthur,
+  groupsAstraea,
+  groupsAthena,
+  groupsBalor,
+  groupsCronus,
+  groupsCyclops,
+  groupsEris,
+  groupsGarnet,
+  groupsHades,
+  groupsHakuryu,
+  groupsLamech,
+  groupsOdin,
+  groupsOthers,
+  groupsPallas,
+  groupsPoseidon,
+  groupsRa,
+  groupsTezcatlipoca,
+  groupsTyphon,
+  groupsZeus,
+  kinships,
+  masters,
+  midias,
+  nationalities,
+  places,
+  ranks,
+  saints,
+  id
+) {
+  const collections = getColletions(
+    artists,
+    attackers,
+    attacks,
+    characters,
+    clothes,
+    curiosities,
+    debuts,
+    familyMembers,
+    groupsAbel,
+    groupsApsu,
+    groupsAres,
+    groupsArtemis,
+    groupsArthur,
+    groupsAstraea,
+    groupsAthena,
+    groupsBalor,
+    groupsCronus,
+    groupsCyclops,
+    groupsEris,
+    groupsGarnet,
+    groupsHades,
+    groupsHakuryu,
+    groupsLamech,
+    groupsOdin,
+    groupsOthers,
+    groupsPallas,
+    groupsPoseidon,
+    groupsRa,
+    groupsTezcatlipoca,
+    groupsTyphon,
+    groupsZeus,
+    kinships,
+    masters,
+    midias,
+    nationalities,
+    places,
+    ranks,
+    saints,
+  );
 
-  let saints = [];
+  let saintsCollection = [];
 
   for (let i = 0; i < collections.length; i++) {
     if (collections[i].collectionPath === 'saints') {
-      saints = collections[i].collection;
+      saintsCollection = collections[i].collection;
     }
   }
 
-  let debuts = [];
+  let debutsCollection = [];
 
   for (let i = 0; i < collections.length; i++) {
     if (collections[i].collectionPath === 'debuts') {
-      debuts = collections[i].collection;
+      debutsCollection = collections[i].collection;
     }
   }
 
   let saintsByDebut = []
 
   if(id === '0') {
-    saintsByDebut = saints.filter(saint => saint.debut === "");
+    saintsByDebut = saintsCollection.filter(saint => saint.debut === "");
 
     return saintsByDebut;
   } else {
     let debut;
 
-    for (let i = 0; i < debuts.length; i++) {
-      if (debuts[i].id === id) {
-        debut = debuts[i];
+    for (let i = 0; i < debutsCollection.length; i++) {
+      if (debutsCollection[i].id === id) {
+        debut = debutsCollection[i];
       }
     }
 
     if (debut) {
-      const saintsByDebut = saints.filter(saint => debut.name === saint.debut && debut.midia === saint.midia);
+      const saintsByDebut = saintsCollection.filter(saint => debut.name === saint.debut && debut.midia === saint.midia);
 
       return saintsByDebut;
     } else {
@@ -929,14 +1400,94 @@ export function getClassesByDebut(id) {
   }
 }
 
-export function getSaintData(className, id) {
-  const collections = getColletions();
+export function getSaintData(
+  artists,
+  attackers,
+  attacks,
+  characters,
+  clothes,
+  curiosities,
+  debuts,
+  familyMembers,
+  groupsAbel,
+  groupsApsu,
+  groupsAres,
+  groupsArtemis,
+  groupsArthur,
+  groupsAstraea,
+  groupsAthena,
+  groupsBalor,
+  groupsCronus,
+  groupsCyclops,
+  groupsEris,
+  groupsGarnet,
+  groupsHades,
+  groupsHakuryu,
+  groupsLamech,
+  groupsOdin,
+  groupsOthers,
+  groupsPallas,
+  groupsPoseidon,
+  groupsRa,
+  groupsTezcatlipoca,
+  groupsTyphon,
+  groupsZeus,
+  kinships,
+  masters,
+  midias,
+  nationalities,
+  places,
+  ranks,
+  saints,
+  className,
+  id
+) {
+  const collections = getColletions(
+    artists,
+    attackers,
+    attacks,
+    characters,
+    clothes,
+    curiosities,
+    debuts,
+    familyMembers,
+    groupsAbel,
+    groupsApsu,
+    groupsAres,
+    groupsArtemis,
+    groupsArthur,
+    groupsAstraea,
+    groupsAthena,
+    groupsBalor,
+    groupsCronus,
+    groupsCyclops,
+    groupsEris,
+    groupsGarnet,
+    groupsHades,
+    groupsHakuryu,
+    groupsLamech,
+    groupsOdin,
+    groupsOthers,
+    groupsPallas,
+    groupsPoseidon,
+    groupsRa,
+    groupsTezcatlipoca,
+    groupsTyphon,
+    groupsZeus,
+    kinships,
+    masters,
+    midias,
+    nationalities,
+    places,
+    ranks,
+    saints,
+  );
 
-  let saints = [];
+  let saintsCollection = [];
 
   for (let i = 0; i < collections.length; i++) {
     if (collections[i].collectionPath === 'saints') {
-      saints = collections[i].collection;
+      saintsCollection = collections[i].collection;
 
       break;
     }
@@ -944,9 +1495,9 @@ export function getSaintData(className, id) {
 
   let saint;
 
-  for (let i = 0; i < saints.length; i++) {
-    if (id === saints[i].id) {
-      saint = saints[i];
+  for (let i = 0; i < saintsCollection.length; i++) {
+    if (id === saintsCollection[i].id) {
+      saint = saintsCollection[i];
 
       break;
     }

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, NavigationEnd } from '@angular/router';
 
+import { environment } from 'src/environments/environment';
 import { ClassesService } from '../../shared';
 
 @Component({
@@ -52,7 +53,10 @@ export class SaintsListComponent implements OnInit {
 
       this.path = 'classes/';
 
-      const response: any = await this.classesService.getClass(this.className).toPromise();
+      let response: any;
+
+      if (environment.production) response = await this.classesService.getClass(this.className).toPromise();
+      else response = this.classesService.getClass(this.className);
 
       this.groups = response;
     }

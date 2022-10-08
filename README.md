@@ -31,13 +31,12 @@ On backend folder:
 npm i
 ```
 
-To run backend local server:
+To run the backend local server: **[DEPRECATED] - (Heroku closed its free database service, so the backend of this project lost its functionality** 
 ```bash
 npm start
 ```
 
 To convert CSVs to JSONs files:
-
 ```bash
 cd backend\source\data
 ```
@@ -47,9 +46,14 @@ and
 ```bash
 node csvtojson.js
 ```
+**[Now the json data are stored on [saint-seiya-api-data](https://github.com/diegochagas/saint-seiya-api-data) repo, so to run the project locally, you need to have both repos on the same folder]**
 
 To execute a deploy on Github Pages:
+```bash
+cd frontend
+```
 
+and
 ```bash
 npm run deploy
 ```
