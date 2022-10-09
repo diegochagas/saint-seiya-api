@@ -137,6 +137,8 @@ export class CharactersService {
       this.places = this.http.get(`${this.api}/places`, { headers: this.headers });
       this.ranks = this.http.get(`${this.api}/ranks`, { headers: this.headers });
       this.saints = this.http.get(`${this.api}/saints`, { headers: this.headers });
+
+      console.log(this.saints)
     } else {
       this.artists = artistsData;
       this.attackers = attackersData;
