@@ -37,10 +37,7 @@ export class HeaderComponent implements OnInit {
   }
 
   async getDebuts() {
-    let response: any;
-
-    if (environment.production) response = await this.debutsService.getDebuts().toPromise();
-    else response = this.debutsService.getDebuts();
+    const response: any = this.debutsService.getDebuts();
 
     this.debuts = response.filter(debut => {
       if (debut.id !== "2" &&
@@ -65,13 +62,7 @@ export class HeaderComponent implements OnInit {
   }
 
   async getArtists() {
-    let response: any;
-
-    if (environment.production) {
-      response = await this.artistsService.getArtists().toPromise();
-    } else {
-      response = this.artistsService.getArtists()
-    }
+    const response: any = this.artistsService.getArtists();
 
     response.forEach(artist => {
       if (artist.name !== "") this.artists.push(artist);

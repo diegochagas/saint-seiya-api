@@ -42,7 +42,7 @@ export class SeparatedByComponent implements OnInit {
     let response: any = {};
 
     if (path === "artist") {
-      response = await this.classesService.getClassesByArtist(id).toPromise();
+      response = this.classesService.getClassesByArtist(id);
 
       const artist = this.findArtist(response, id);
 
@@ -52,7 +52,7 @@ export class SeparatedByComponent implements OnInit {
 
       saints = response
     } else if (path === "debut") {
-      response = await this.classesService.getClassesByDebut(id).toPromise();
+      response = this.classesService.getClassesByDebut(id);
 
       this.pageTitle = id === '0' ? 'Not revealed' : `Debut: ${response[0].midia}: ${response[0].debut}`;
 

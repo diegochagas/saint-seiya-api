@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { environment } from 'src/environments/environment';
+
 import { CharactersService } from '../../shared';
 
 @Component({
@@ -17,15 +17,10 @@ export class CuriositiesComponent implements OnInit {
   }
 
   async loadCharacters() {
-    let curiosities: any;
-
-    if (environment.production) curiosities = await this.charactersService.getCuriosities().toPromise();
-    else curiosities = this.charactersService.getCuriosities();
+    const curiosities: any = this.charactersService.getCuriosities();
 
     curiosities.forEach(async character => {
-      let response: any;
-      if (environment.production) response = await this.charactersService.getCharacter(character.id).toPromise();
-      else response = this.charactersService.getCharacter(character.id);
+      const response: any = this.charactersService.getCharacter(character.id);
 
       const { name, image } = response;
 

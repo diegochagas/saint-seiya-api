@@ -1,28 +1,28 @@
-export const debutsData = require('../../../../../../../saint-seiya-api-data/debuts/index.json')
-export const midiasData = require('../../../../../../../saint-seiya-api-data/midias/index.json')
+export const debutsData = require('../../../api/debuts.json')
+export const midiasData = require('../../../api/midias.json')
 
-const loadDebutData = (debutObject, midias) => {
+const loadDebutData = (debutObject) => {
   const debut = Object.assign({}, debutObject);
 
-  const midia = midias.find(midia => midia.id === debut.midia);
+  const midia = midiasData.find(midia => midia.id === debut.midia);
 
   debut.midia = midia.name;
 
   return debut;
 }
 
-export const getDebutsData = (debuts, midias) => {
-  return debuts.map(debut => loadDebutData(debut, midias));
+export const getDebutsData = () => {
+  return debutsData.map(debut => loadDebutData(debut));
 }
 
-export const getDebutData = (debuts, midias, id) => {
+export const getDebutData = (id) => {
   let debut;
 
-  for (let i = 0; i < debuts.length; i++) {
-    if (debuts[i].id === id) {
-      debut = debuts[i];
+  for (let i = 0; i < debutsData.length; i++) {
+    if (debutsData[i].id === id) {
+      debut = debutsData[i];
     }
   }
 
-  return loadDebutData(debut, midias)
+  return loadDebutData(debut)
 }

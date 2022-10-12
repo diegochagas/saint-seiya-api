@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 
-import { environment } from 'src/environments/environment';
 import { CharactersService, ClassesService } from '../../shared';
 
 @Component({
@@ -44,17 +43,9 @@ export class CharacterViewComponent implements OnInit {
 
   async getCharacter() {
     if (this.detailsType === 'personal') {
-      if (environment.production) {
-        this.character = await this.charactersService.getCharacter(this.id).toPromise();
-      } else {
         this.character = this.charactersService.getCharacter(this.id);
-      }
     } else if (this.detailsType === 'classes') {
-      if (environment.production) {
-        this.character = await this.classService.getSaint(this.className, this.id).toPromise();
-      } else {
-        this.character = this.classService.getSaint(this.className, this.id);
-      }
+      this.character = this.classService.getSaint(this.className, this.id);
     /* unused functions
     } else if (this.detailsType === 'constellation') {
       if (environment.production) {

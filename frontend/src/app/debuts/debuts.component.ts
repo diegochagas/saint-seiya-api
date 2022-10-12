@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, NavigationEnd } from '@angular/router';
 
-import { environment } from 'src/environments/environment';
 import { DebutsService } from '../shared';
 
 @Component({
@@ -32,13 +31,7 @@ export class DebutsComponent implements OnInit {
   }
 
   async getDebuts() {
-    let response: any;
-
-    if (environment.production) {
-      response = await this.debutsService.getDebuts().toPromise();
-    } else {
-      response = this.debutsService.getDebuts()
-    }
+    const response: any = this.debutsService.getDebuts();
 
     const orderedDebuts = response.sort((a, b) => a.release - b.release);
 

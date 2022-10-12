@@ -58,7 +58,7 @@ function writeFileOnDataRepository(file, jsonObj) {
 }
 
 function writeFileOnFrontEndSide(file, jsonObj) {
-  FileSystem.writeFileSync(`../../../frontend/src/app/api/${file}.json`, JSON.stringify(jsonObj));
+  FileSystem.writeFileSync(`../../../frontend/src/app/api/data/${file}.json`, JSON.stringify(jsonObj));
 }
 
 files.forEach(file => {

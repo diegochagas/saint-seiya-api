@@ -25,7 +25,7 @@ And after install all the packages:
 npm start
 ```
 
-On backend folder:
+On backend folder: **[DEPRECATED] - (Heroku closed its free database service, so the backend of this project lost its functionality** 
 
 ```bash
 npm i
@@ -46,7 +46,7 @@ and
 ```bash
 node csvtojson.js
 ```
-**[Now the json data are stored on [saint-seiya-api-data](https://github.com/diegochagas/saint-seiya-api-data) repo, so to run the project locally, you need to have both repos on the same folder]**
+**[Now the json data are stored on the front-end side and on [saint-seiya-api-data](https://github.com/diegochagas/saint-seiya-api-data) repo, so to run the project locally, you need to have both repos on the same folder]**
 
 To execute a deploy on Github Pages:
 ```bash

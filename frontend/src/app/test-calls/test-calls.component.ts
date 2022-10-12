@@ -93,7 +93,7 @@ export class TestCallsComponent implements OnInit {
   async getCharacters() {
     this.isLoadingCharacters = true;
 
-    const response: any = await this.charactersService.getCharacters().toPromise();
+    const response: any = this.charactersService.getCharacters();
 
     this.charactersResponse = JSON.stringify(response.slice(0, 10));
 
@@ -103,7 +103,7 @@ export class TestCallsComponent implements OnInit {
   async getCharacter() {
     this.isLoadingCharacter = true;
 
-    const response: any = await this.charactersService.getCharacter(this.characterId).toPromise();
+    const response: any = this.charactersService.getCharacter(this.characterId);
 
     this.characterResponse = JSON.stringify(response);
 
@@ -113,7 +113,7 @@ export class TestCallsComponent implements OnInit {
   async getCuriosities() {
     this.isLoadingCuriosities = true;
 
-    const response: any = await this.charactersService.getCuriosities().toPromise();
+    const response: any = this.charactersService.getCuriosities();
 
     this.curiositiesResponse = JSON.stringify(response);
 
@@ -123,7 +123,7 @@ export class TestCallsComponent implements OnInit {
   async getClasses() {
     this.isLoadingAllClasses = true;
 
-    const response: any = await this.classesService.getAllClasses().toPromise();
+    const response: any = this.classesService.getAllClasses();
 
     this.allClassesResponse = JSON.stringify(response.slice(0, 10));
 
@@ -133,7 +133,7 @@ export class TestCallsComponent implements OnInit {
   async getClass() {
     this.isLoadingClasses = true;
 
-    const response: any = await this.classesService.getClass(this.className).toPromise();
+    const response: any = this.classesService.getClass(this.className);
 
     let allSaintsResponse: any = {};
 
@@ -153,7 +153,7 @@ export class TestCallsComponent implements OnInit {
   async selectClassName(className) {
     this.classNameId = className;
 
-    const response: any = await this.classesService.getClass(className).toPromise();
+    const response: any = this.classesService.getClass(className);
 
     if (className.toLocaleLowerCase().includes('constellations')) {
       this.classIds = [
@@ -183,7 +183,7 @@ export class TestCallsComponent implements OnInit {
   async getSaint() {
     this.isLoadingClass = true;
 
-    const response: any = await this.classesService.getSaint(this.classNameId, this.classId).toPromise();
+    const response: any = this.classesService.getSaint(this.classNameId, this.classId);
 
     this.classResponse = JSON.stringify(response);
 
@@ -193,7 +193,7 @@ export class TestCallsComponent implements OnInit {
   async getDebuts() {
     this.isLoadingDebuts = true;
 
-    const response: any = await this.debutsService.getDebuts().toPromise();
+    const response: any = this.debutsService.getDebuts();
 
     this.debutsResponse = JSON.stringify(response.slice(0, 10));
 
@@ -203,7 +203,7 @@ export class TestCallsComponent implements OnInit {
   async getDebut() {
     this.isLoadingDebut = true;
 
-    const response: any = await this.debutsService.getDebut(this.debutId).toPromise();
+    const response: any = this.debutsService.getDebut(this.debutId);
 
     this.debutResponse = JSON.stringify(response);
 
