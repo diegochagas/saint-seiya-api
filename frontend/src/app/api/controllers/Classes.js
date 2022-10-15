@@ -343,6 +343,33 @@ export function getClassSaints(className) {
         ],
       },
     ];
+  } else if (className === 'hours') {
+    return [
+      {
+        title: 'Gods',
+        items: [
+          ...groupSaints(collection, 'chronos-gods'),
+        ],
+      },
+      {
+        title: 'Hours',
+        items: [
+          ...groupSaints(collection, 'chronos-hours'),
+        ],
+      },
+      {
+        title: 'Leptas',
+        items: [
+          ...groupSaints(collection, 'chronos-leptas'),
+        ],
+      },
+      {
+        title: 'Stigmas',
+        items: [
+          ...groupSaints(collection, 'chronos-stigmas'),
+        ],
+      }
+    ];
   } else if (className === 'jaguars') {
     return [
       {

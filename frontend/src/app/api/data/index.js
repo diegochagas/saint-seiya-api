@@ -15,6 +15,7 @@ import groupsArthur from './groupsArthur.json';
 import groupsAstraea from './groupsAstraea.json';
 import groupsAthena from './groupsAthena.json';
 import groupsBalor from './groupsBalor.json';
+import groupsChronos from './groupsChronos.json';
 import groupsCronus from './groupsCronus.json';
 import groupsCyclops from './groupsCyclops.json';
 import groupsEris from './groupsEris.json';
@@ -56,6 +57,7 @@ export {
   groupsAstraea,
   groupsAthena,
   groupsBalor,
+  groupsChronos,
   groupsCronus,
   groupsCyclops,
   groupsEris,

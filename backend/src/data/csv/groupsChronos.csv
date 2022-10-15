@@ -1,0 +1,21 @@
+﻿id,group,class,classSingular,name
+1,chronos-gods,Hours,Hour,Gods
+,,,,
+1,chronos-hours,Hours,Hour,I
+2,chronos-hours,Hours,Hour,II
+3,chronos-hours,Hours,Hour,III
+4,chronos-hours,Hours,Hour,IV
+5,chronos-hours,Hours,Hour,V
+6,chronos-hours,Hours,Hour,VI
+7,chronos-hours,Hours,Hour,VII
+8,chronos-hours,Hours,Hour,VIII
+9,chronos-hours,Hours,Hour,IX
+10,chronos-hours,Hours,Hour,X
+11,chronos-hours,Hours,Hour,XI
+12,chronos-hours,Hours,Hour,XII
+,,,,
+12-5,chronos-leptas,Hours,Hour,XII-V
+,,,,
+2-36-54,chronos-stigmas,Hours,Hour,II-XXXVI-LIV
+4-9-54,chronos-stigmas,Hours,Hour,"IV-IX-LIV	"
+7-48-6,chronos-stigmas,Hours,Hour,"VII-XLVIII-VI	"

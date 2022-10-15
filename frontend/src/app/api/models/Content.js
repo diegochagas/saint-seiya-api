@@ -58,6 +58,7 @@ const loadSaintsData = (saints, content) => {
     if (saint.group.includes('astraea')) group = getGroup(content.groupsAstraea, saint);
     if (saint.group.includes('athena')) group = getGroup(content.groupsAthena, saint);
     if (saint.group.includes('balor')) group = getGroup(content.groupsBalor, saint);
+    if (saint.group.includes('chronos')) group = getGroup(content.groupsChronos, saint);
     if (saint.group.includes('cronus')) group = getGroup(content.groupsCronus, saint);
     if (saint.group.includes('cyclops')) group = getGroup(content.groupsCyclops, saint);
     if (saint.group.includes('eris')) group = getGroup(content.groupsEris, saint);
