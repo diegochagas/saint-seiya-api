@@ -521,7 +521,7 @@ export function getClassesByArtist(id) {
   }
 }
 
-export function getClassesByDebut() {
+export function getClassesByDebut(id) {
   const collections = Content.getColletions();
 
   let saints = [];
