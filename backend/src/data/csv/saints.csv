@@ -231,7 +231,7 @@
 230,206,307,athena-saints-75,6,582,assets/cloth-schemes/athena-saints/scutum-jan.jpg,5,5,21
 231,207,,athena-unknown-saints,4,582,assets/cloth-schemes/athena-saints/jango.jpg,6,6,1
 232,208,386,athena-saints-51,5,582,assets/cloth-schemes/athena-saints/lynx-jao.jpg,5,5,23
-233,210,393,athena-saints-31,4,582,assets/cloth-schemes/athena-saints/cygnus-jid.jpg,,,32
+233,210,393,athena-saints-31,4,582,assets/cloth-schemes/athena-saints/cygnus-jid.jpg,6,6,32
 234,211,82,athena-saints-28,6,582,assets/cloth-schemes/athena-saints/corvus-johann.png,31,8,16
 235,212,307,athena-saints-75,6,582,assets/cloth-schemes/athena-saints/scutum-juan.jpg,6,6,5
 236,213,376,athena-saints-13,4,582,assets/cloth-schemes/athena-saints/canes-venatici-judo.jpg,6,6,7
@@ -520,7 +520,7 @@
 519,460,228,athena-saints-55,5,582,assets/cloth-schemes/athena-saints/monoceros-yato.jpg,3,3,6
 520,462,75,pallas-weapon-thirdclass-1,34,323,assets/cloth-schemes/pallas-pallasites/claw-max-brilliants-ymir.png,31,8,16
 521,463,222,hades-celestial-star-1,13,168,assets/cloth-schemes/hades-specters/mephistopheles-yoma.jpg,3,3,6
-522,464,,other-characters,43,,assets/cloth-schemes/others/yoshimi-morigakure-masataka.png,31,,16
+522,464,,other-characters,43,,assets/cloth-schemes/others/yoshimi-morigakure-masataka.png,31,31,16
 523,465,30,athena-gods,9,582,assets/cloth-schemes/athena-saints/athena-yoshino-hino.png,,,10
 524,466,203,athena-saints-50,5,582,assets/cloth-schemes/athena-saints/lupus-yoshitomi.jpg,15,8,16
 525,467,171,eris-dryads,,308,assets/cloth-schemes/eris-dryads/famine-yufa.jpg,6,6,5
@@ -676,7 +676,7 @@
 675,152,447,athena-saints-83,3,582,assets/cloth-schemes/athena-saints/ursa-major-geki-steel.png,31,8,16
 676,3,,athena-unknown-saints,,582,assets/cloth-schemes/athena-saints/vice-principal.jpg,31,31,16
 677,602,,other-characters,,582,assets/cloth-schemes/others/asamori-hakase.jpg,23,23,12
-678,352,,other-characters,,,assets/cloth-schemes/others/misha.png,31,,16
+678,352,,other-characters,,,assets/cloth-schemes/others/misha.png,31,31,16
 679,238,136,eris-gods,9,308,assets/cloth-schemes/eris-dryads/eris-kyoko.jpg,4,4,5
 680,308,136,eris-gods,9,308,assets/cloth-schemes/eris-dryads/eris.jpg,6,10,21
 681,139,,blue-warriors,,495,assets/cloth-schemes/odin-blue-warriors/alexei.jpg,6,6,1
