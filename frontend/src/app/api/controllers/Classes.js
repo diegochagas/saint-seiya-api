@@ -1,5 +1,4 @@
 const Content = require('../models/Content.js');
-const data = require('../data')
 
 function groupSaints(collection, group) {
   const groupedCollection = [];
@@ -543,7 +542,7 @@ export function getClassesByDebut(id) {
   let saintsByDebut = []
 
   if(id === '0') {
-    saintsByDebut = saints.filter(saint => saint.debut === "");
+    saintsByDebut = saints.filter(saint => saint.debut.id === "");
 
     return saintsByDebut;
   } else {
@@ -556,7 +555,7 @@ export function getClassesByDebut(id) {
     }
 
     if (debut) {
-      const saintsByDebut = saints.filter(saint => debut.name === saint.debut && debut.midia === saint.midia);
+      const saintsByDebut = saints.filter(saint => (debut.name === saint.debut.name) && (debut.midia === saint.debut.midia));
 
       return saintsByDebut;
     } else {

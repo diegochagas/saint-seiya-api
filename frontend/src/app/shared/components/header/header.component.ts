@@ -1,5 +1,4 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
-import { environment } from 'src/environments/environment';
 import { DebutsService, ClassesService, ArtistsService } from '../../services';
 
 @Component({
@@ -43,14 +42,13 @@ export class HeaderComponent implements OnInit {
       if (debut.id !== "2" &&
           debut.id !== "11" &&
           debut.id !== "13" &&
-          debut.id !== "15" &&
           debut.id !== "17" &&
           debut.id !== "20" &&
           debut.id !== "26" &&
           debut.id !== "31" &&
           debut.id !== "33" &&
           debut.id !== "34") {
-        debut.title = `${debut.midia}: ${debut.name}`
+        debut.title = `${debut.midia.name}: ${debut.name}`
 
         return debut;
       }

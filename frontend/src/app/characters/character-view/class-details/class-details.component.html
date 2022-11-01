@@ -99,11 +99,11 @@
 
         <p>
           <b>Debut: </b>
-          <a *ngIf="cls.midia" [routerLink]="['/debuts/' + cls.midia.replace(' ', '-').toLowerCase()]">
-            {{ cls.midia }}: Saint Seiya {{ cls.debut }}
+          <a *ngIf="cls?.debut?.midia" [routerLink]="['/characters/debut/' + cls.debut.id]">
+            {{ cls.debut.midia.name }}: Saint Seiya {{ cls.debut.name }}
           </a>
 
-          <span *ngIf="cls.midia === undefined">Not revealed</span>
+          <span *ngIf="cls.debut === undefined">Not revealed</span>
         </p>
       </div>
     </div>

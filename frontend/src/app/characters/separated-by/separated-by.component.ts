@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, NavigationEnd } from '@angular/router';
 
-import { ArtistsService, ClassesService, DebutsService } from 'src/app/shared';
+import { ClassesService } from 'src/app/shared';
 
 @Component({
   selector: 'app-separated-by',
@@ -54,7 +54,7 @@ export class SeparatedByComponent implements OnInit {
     } else if (path === "debut") {
       response = this.classesService.getClassesByDebut(id);
 
-      this.pageTitle = id === '0' ? 'Not revealed' : `Debut: ${response[0].midia}: ${response[0].debut}`;
+      this.pageTitle = id === '0' ? 'Not revealed' : `Debut: ${response[0].debut.midia.name}: ${response[0].debut.name}`;
 
       saints = response;
     }

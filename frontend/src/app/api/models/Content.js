@@ -123,9 +123,7 @@ const loadSaintsData = (saints, content) => {
       if (debut.id === saint.debut) {
         content.midias.forEach(midia => {
           if (midia.id === debut.midia) {
-            saint.debut = debut.name;
-
-            saint.midia = midia.name;
+            saint.debut = { ...debut, midia };
           }
         });
       }
@@ -244,9 +242,7 @@ const loadCharactersData = content => {
       if (debut.id === character.debut) {
         content.midias.forEach(midia => {
           if (midia.id === debut.midia) {
-            character.debut = debut.name;
-
-            character.midia = midia.name;
+            character.debut = { ...debut, midia };
           }
         });
       }
@@ -270,9 +266,7 @@ const loadDebutsData = content => {
   return content.debuts.map(debutObject => {
     const debut = Object.assign({}, debutObject);
 
-    const midia = content.midias.find(midia => midia.id === debut.midia);
-
-    debut.midia = midia.name;
+    debut.midia = content.midias.find(midia => midia.id === debut.midia);
 
     return debut;
   });
