@@ -45,21 +45,21 @@ const files = [
 ];
 
 function writeFileOnDataRepository(file, jsonObj) {
-  let directoryPath = `../../../../saint-seiya-api-data/${file}`;
-  let filePath = `${directoryPath}/index.json`;
-  
+  let directoryPath = `./json`;
+  let filePath = `${directoryPath}/${file}.json`;
+
   // If target is a directory, a new file with the same name will be created
   if (FileSystem.existsSync(directoryPath)) {
     FileSystem.writeFileSync(filePath, JSON.stringify(jsonObj));
   } else {
     FileSystem.mkdirSync(directoryPath);
-  
+
     FileSystem.writeFileSync(filePath, JSON.stringify(jsonObj));
   }
 }
 
 function writeFileOnFrontEndSide(file, jsonObj) {
-  FileSystem.writeFileSync(`../../../frontend/src/app/api/data/${file}.json`, JSON.stringify(jsonObj));
+  FileSystem.writeFileSync(`../../../src/app/api/data/${file}.json`, JSON.stringify(jsonObj));
 }
 
 files.forEach(file => {

@@ -1,22 +1,62 @@
 {
   "name": "saint-seiya-api",
-  "version": "1.0.0",
-  "description": "Saint Seiya API init",
-  "main": "index.js",
+  "version": "0.0.0",
   "scripts": {
-    "start": "cd backend && npm install && cd src && node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ng": "ng",
+    "start": "ng serve --open",
+    "build": "ng build",
+    "deploy": "ng build --prod --base-href https://diegochagas.com/saint-seiya-api/ && ngh --dir=dist/saint-seiya-api",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "postinstall": "ng build --output-path dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/diegochagas/saint-seiya-api.git"
+  "private": true,
+  "dependencies": {
+    "@angular-devkit/schematics": "^12.0.0",
+    "@angular/animations": "~12.0.0",
+    "@angular/cdk": "~8.2.1",
+    "@angular/cli": "^12.0.0",
+    "@angular/common": "~12.0.0",
+    "@angular/compiler": "~12.0.0",
+    "@angular/compiler-cli": "~12.0.0",
+    "@angular/core": "~12.0.0",
+    "@angular/fire": "^5.2.1",
+    "@angular/forms": "~12.0.0",
+    "@angular/localize": "~12.0.0",
+    "@angular/material": "^8.2.1",
+    "@angular/platform-browser": "~12.0.0",
+    "@angular/platform-browser-dynamic": "~12.0.0",
+    "@angular/router": "~12.0.0",
+    "@ng-bootstrap/ng-bootstrap": "^6.2.0",
+    "angular-cli-ghpages": "^0.6.0",
+    "bootstrap": "^4.3.1",
+    "hammerjs": "^2.0.8",
+    "rxjs": "~6.5.4",
+    "tslib": "^1.10.0",
+    "zone.js": "~0.11.4"
   },
-  "author": "Diego Chagas",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/diegochagas/saint-seiya-api/issues"
-  },
-  "homepage": "https://github.com/diegochagas/saint-seiya-api#readme",
-  "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "@angular-devkit/architect": "0.1200.0",
+    "@angular-devkit/build-angular": "^12.0.0",
+    "@angular/language-service": "~12.0.0",
+    "@types/jasmine": "~3.3.8",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~8.9.4",
+    "codelyzer": "^5.0.0",
+    "fuzzy": "^0.1.3",
+    "inquirer": "^6.2.2",
+    "inquirer-autocomplete-prompt": "^1.0.1",
+    "jasmine-core": "~3.4.0",
+    "jasmine-spec-reporter": "~4.2.1",
+    "karma": "^6.3.2",
+    "karma-chrome-launcher": "~2.2.0",
+    "karma-coverage-istanbul-reporter": "~2.0.1",
+    "karma-jasmine": "~2.0.1",
+    "karma-jasmine-html-reporter": "^1.4.0",
+    "protractor": "^7.0.0",
+    "ts-node": "^8.8.1",
+    "tslint": "~6.1.3",
+    "typescript": "~4.2.4"
+  }
 }
