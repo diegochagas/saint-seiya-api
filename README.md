@@ -112,5 +112,6 @@ npm run deploy
 - [KatsuX (Portuguese)](https://www.youtube.com/c/KatsuX)
 - [Sempre Quis Saber (Portuguese)](https://www.youtube.com/c/SempreQuisSaber20)
 
+---
 
 # God be praised!
