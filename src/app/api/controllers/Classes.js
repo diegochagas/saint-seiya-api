@@ -1,4 +1,4 @@
-const Content = require('../models/Content.js');
+const Content = require('../models/Content.js')
 
 function groupSaints(collection, group) {
   const groupedCollection = [];
@@ -343,6 +343,8 @@ export function getClassSaints(className) {
       },
     ];
   } else if (className === 'hours') {
+    const romanNumberals = { I: 1, II: 2, III: 3, IV: 4, V: 5, VI: 6, VII: 7, VIII: 8, IX: 9, X: 10, XI: 11, XII: 12 }
+
     return [
       {
         title: 'Gods',
@@ -354,7 +356,9 @@ export function getClassSaints(className) {
         title: 'Hours',
         items: [
           ...groupSaints(collection, 'chronos-hours'),
-        ],
+          ...getRestOfTheCollection(collection, 'chronos-hours', collections),
+        ].sort((a, b) => romanNumberals[a.name] == romanNumberals[b.name] ? 0 :
+          + (romanNumberals[a.name] > romanNumberals[b.name]) || -1),
       },
       {
         title: 'Leptas',

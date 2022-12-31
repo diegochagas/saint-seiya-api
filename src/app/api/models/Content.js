@@ -300,6 +300,11 @@ const getColletions = () => {
     collection: content.groupsAres.filter(group => group.group.includes('ares-legions')),
   });
 
+  collections.push({
+    collectionPath: 'chronos-hours',
+    collection: content.groupsChronos.filter(group => group.group.includes('chronos-hours')),
+  });
+
   collections.push({ collectionPath: 'debuts', collection: loadDebutsData(content) });
 
   collections.push({ collectionPath: 'classNames', collection: content.classNames });
