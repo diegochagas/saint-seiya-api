@@ -722,7 +722,7 @@
 721,,,blue-warrior-soldiers,1,495,assets/cloth-schemes/odin-blue-warriors/blue-graad-soldier.jpg,6,6,1
 722,620,,poseidon-mariners,,494,assets/cloth-schemes/poseidon-mariners/asceta.jpg,6,6,29
 723,33,458,ares-gods,9,33,assets/cloth-schemes/ares-berserkers/ares-lost-canvas.jpg,6,6,7
-724,395,8,athena-saints-1,5,582,assets/cloth-schemes/athena-saints/andromeda-shun-anime-1.png,17,17,12
+724,395,8,athena-saints-1,5,582,assets/cloth-schemes/athena-saints/andromeda-shun-1-anime.jpg,17,17,12
 725,572,,other-characters,,,assets/cloth-schemes/others/miho.jpg,17,,1
 726,481,,other-characters,,,assets/cloth-schemes/others/mi-jeong.jpg,,,15
 727,482,,other-characters,,,assets/cloth-schemes/others/cerberus.jpg,,,1
@@ -834,3 +834,8 @@
 833,387,380,athena-saints-34,4,582,assets/cloth-schemes/athena-saints/draco-shinadekuro-anime.jpg,17,26,12
 834,227,391,athena-saints-62,4,582,assets/cloth-schemes/athena-saints/pegasus-kenuma-anime.jpg,17,26,12
 835,360,392,athena-saints-64,4,582,assets/cloth-schemes/athena-saints/phoenix-ritahoa-anime.jpg,17,26,12
+836,395,10,athena-saints-1,5,582,assets/cloth-schemes/athena-saints/andromeda-shun-2-anime.jpg,17,17,12
+837,395,10,athena-saints-1,7,582,assets/cloth-schemes/athena-saints/andromeda-shun-2-gold-anime.jpg,17,10,12
+838,395,11,athena-saints-1,5,582,assets/cloth-schemes/athena-saints/andromeda-shun-3-anime.jpg,17,17,12
+839,395,12,athena-saints-1,9,582,assets/cloth-schemes/athena-saints/andromeda-shun-god-anime.jpg,5,5,12
+840,215,70,athena-saints-22,5,582,assets/cloth-schemes/athena-saints/chamaeleon-june-anime.jpg,5,5,12
