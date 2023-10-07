@@ -517,7 +517,7 @@
 516,457,338,tezcatlipoca-gods,9,163,assets/cloth-schemes/tezcatlipoca-jaguars/tezcatlipoca-wesda.jpg,3,3,7
 517,458,41,hades-terrestrial-star-97,14,168,assets/cloth-schemes/hades-specters/bat-wimber.jpg,3,3,6
 518,459,352,athena-saints-84,5,582,assets/cloth-schemes/athena-saints/ursa-minor-xiaoling.png,4,4,5
-519,460,228,athena-saints-55,5,582,assets/cloth-schemes/athena-saints/monoceros-yato.jpg,3,3,6
+519,460,260,athena-saints-55,5,582,assets/cloth-schemes/athena-saints/monoceros-yato-2.jpg,3,3,6
 520,462,75,pallas-weapon-thirdclass-1,34,323,assets/cloth-schemes/pallas-pallasites/claw-max-brilliants-ymir.png,31,8,16
 521,463,222,hades-celestial-star-1,13,168,assets/cloth-schemes/hades-specters/mephistopheles-yoma.jpg,3,3,6
 522,464,,other-characters,43,,assets/cloth-schemes/others/yoshimi-morigakure-masataka.png,31,31,16
@@ -820,11 +820,11 @@
 819,404,316,poseidon-mariners-generals,18,494,assets/cloth-schemes/poseidon-mariners/siren-sorrento-omega.jpg,5,5,37
 820,374,30,athena-gods,9,582,assets/cloth-schemes/athena-saints/athena-saori-kido-anime.jpg,5,5,12
 821,424,261,athena-saints-62,5,582,,,,6
-822,460,228,athena-saints-55,5,582,,,,15
+822,460,228,athena-saints-55,5,582,assets/cloth-schemes/athena-saints/monoceros-yato-1-anime.jpg,21,21,15
 823,368,293,athena-saints-69,5,582,,,,15
 824,386,482,athena-saints-59,7,582,assets/cloth-schemes/athena-saints/ophiuchus-shaina-gold.jpg,5,5,46
 825,424,266,athena-saints-62,9,582,,,,15
-826,424,265,athena-saints-62,5,582,,,,15
+826,424,265,athena-saints-62,5,582,assets/cloth-schemes/athena-saints/pegasus-tenma-5-anime.jpg,10,10,15
 827,379,264,athena-saints-62,5,582,assets/cloth-schemes/athena-saints/pegasus-seiya-4-anime.jpg,17,17,12
 828,379,265,athena-saints-62,5,582,assets/cloth-schemes/athena-saints/pegasus-seiya-5-anime.jpg,17,17,12
 829,379,264,athena-saints-62,7,582,assets/cloth-schemes/athena-saints/pegasus-seiya-4-gold-anime.jpg,17,17,12
@@ -853,3 +853,5 @@
 852,193,281,athena-saints-64,5,582,assets/cloth-schemes/athena-saints/phoenix-ikki-3-anime.jpg,17,17,12
 853,193,280,athena-saints-64,7,582,assets/cloth-schemes/athena-saints/phoenix-ikki-2-gold-anime.jpg,17,10,12
 854,152,351,athena-saints-83,5,582,assets/cloth-schemes/athena-saints/ursa-major-geki-anime.jpg,17,17,12
+855,460,228,athena-saints-55,5,582,,,,6
+856,460,260,athena-saints-55,5,582,assets/cloth-schemes/athena-saints/monoceros-yato-2-anime.jpg,21,21,15
