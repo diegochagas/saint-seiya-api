@@ -2,10 +2,10 @@ const Content = require('../models/Content.js');
 
 function groupSaints(collection, group) {
   const groupedCollection = [];
-  
-  try {          
+
+  try {
     const filteredCollection = collection.filter(saint => saint.group.includes(group));
-    
+
     const groupCollection = filteredCollection.reduce((accumulator, currentValue) => {
       if (currentValue && currentValue.class) {
         accumulator[currentValue.class.name] = [...accumulator[currentValue.class.name] || [], currentValue];
@@ -13,15 +13,15 @@ function groupSaints(collection, group) {
         console.log('===================');
         console.error(currentValue)
         console.log('===================');
-      }    
-          
+      }
+
       return accumulator;
     }, {});
 
     for (let key in groupCollection) {
       groupedCollection.push({ name: key, saints: groupCollection[key].sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)});
     }
-  
+
     return groupedCollection.sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1);
   } catch (err) {
     console.error(err);
@@ -30,35 +30,35 @@ function groupSaints(collection, group) {
 
 function getRestOfTheCollection(collection, collectionName, collections) {
   const newCollection = [];
-  
+
   const collectionsObjects = collections.find(item => item.collectionPath === collectionName);
 
   if (collectionsObjects) {
     for (let j = 0; j < collectionsObjects.collection.length; j++) {
       const collectionsObject = collectionsObjects.collection[j];
-  
+
       const group = `${collectionsObject.group}-${collectionsObject.id}`;
-  
+
       const foundSaint = collection.some(saint => saint.group === group);
-      
+
       if (!foundSaint) newCollection.push({ ...collectionsObject, saints: [] });
     }
   } else {
     console.error(`collectionName ${collectionName} not found in collections`);
-  }      
+  }
 
   return newCollection.sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1);
 }
 
 function orderGroups(groups, order) {
   const orderedGroups = [];
-  
+
   for (let i = 0; i < order.length; i++) {
     const group = groups.filter(item => item.name.toLowerCase().includes(order[i]));
 
     if (group) orderedGroups.push(...group);
   }
-  
+
   return orderedGroups
 }
 
@@ -73,7 +73,7 @@ module.exports = {
         saints = collections[i].collection;
       }
     }
-  
+
     response.json(saints);
   },
   async getClassSaints(request, response) {
@@ -88,7 +88,7 @@ module.exports = {
         break;
       }
     }
-  
+
     if (request.params.class === 'saints') {
       let unknownSaintsCounter = 0;
 
@@ -218,7 +218,7 @@ module.exports = {
           ],
         },
         {
-          title: "Martians", 
+          title: "Martians",
           items: [
             ...orderGroups(groupSaints(collection, 'mars'), ['gods', 'representative', 'heavenly', 'martians', 'soldier'])
           ]
@@ -475,7 +475,7 @@ module.exports = {
       response.json(saintsByArtist);
     } else {
       let artist;
-  
+
       for (let i = 0; i < artists.length; i++) {
         if (artists[i].id === request.params.id) {
           artist = artists[i];
@@ -484,7 +484,7 @@ module.exports = {
 
       if (artist) {
         const saintsByArtist = saints.filter(saint => artist.id === saint.artistSaint || artist.id === saint.artistCloth);
-      
+
         response.json(saintsByArtist);
       } else {
         response.status(404).json({ message: 'Artist not found' });
@@ -518,7 +518,7 @@ module.exports = {
       response.json(saintsByDebut);
     } else {
       let debut;
-  
+
       for (let i = 0; i < debuts.length; i++) {
         if (debuts[i].id === request.params.id) {
           debut = debuts[i];
@@ -527,7 +527,7 @@ module.exports = {
 
       if (debut) {
         const saintsByDebut = saints.filter(saint => debut.name === saint.debut && debut.midia === saint.midia);
-      
+
         response.json(saintsByDebut);
       } else {
         response.status(404).json({ message: 'Debut not found' });
@@ -542,7 +542,7 @@ module.exports = {
     for (let i = 0; i < collections.length; i++) {
       if (collections[i].collectionPath === 'saints') {
         saints = collections[i].collection;
-        
+
         break;
       }
     }

@@ -227,10 +227,16 @@ export function getClassSaints(className) {
   } else if (className === 'corona-saints') {
     return [
       {
+        title: 'Gods',
+        items: [...groupSaints(collection, 'abel-gods').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)],
+      },
+      {
         title: 'Corona Saints',
-        items: [
-          ...orderGroups(groupSaints(collection, 'abel'), ['gods', 'constellation']),
-        ],
+        items: [...groupSaints(collection, 'abel-saints').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)],
+      },
+      {
+        title: 'Revived Saints',
+        items: [...groupSaints(collection, 'abel-revived-saints').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)],
       },
     ];
   } else if (className === 'cyclops') {
@@ -245,7 +251,7 @@ export function getClassSaints(className) {
       {
         title: 'Dryads',
         items: [
-          ...orderGroups(groupSaints(collection, 'eris'), ['gods', 'phantoms', 'dryads', 'soldiers']),
+          ...orderGroups(groupSaints(collection, 'eris'), ['gods', 'phantoms', 'dryads', 'soldiers', 'ghost']),
         ],
       },
     ];
