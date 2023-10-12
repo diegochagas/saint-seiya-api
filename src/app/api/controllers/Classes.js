@@ -19,7 +19,12 @@ function groupSaints(collection, group) {
     }, {});
 
     for (let key in groupCollection) {
-      groupedCollection.push({ name: key, saints: groupCollection[key].sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)});
+      groupedCollection.push({ name: key, saints: groupCollection[key].sort((a, b) => {
+        const nameComparison = a.name.localeCompare(b.name);
+
+        if (nameComparison !== 0) return nameComparison;
+        else return a.cloth.localeCompare(b.cloth);
+      })});
     }
 
     return groupedCollection.sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1);
