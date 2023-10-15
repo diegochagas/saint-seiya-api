@@ -57,13 +57,10 @@ function getRestOfTheCollection(collection, collectionName, collections) {
 
 function orderGroups(groups, order) {
   const orderedGroups = [];
-
   for (let i = 0; i < order.length; i++) {
     const group = groups.filter(item => item.name.toLowerCase().includes(order[i]));
-
     if (group) orderedGroups.push(...group);
   }
-
   return orderedGroups
 }
 
@@ -166,11 +163,18 @@ export function getClassSaints(className) {
         items: [...groupSaints(collection, 'hades-other-specters').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)]
       },
       {
+        title: 'Revived Saints',
+        items: [...groupSaints(collection, 'hades-ressurected-saints').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)]
+      },
+      {
         title: 'Skeleton soldiers',
         items: [...groupSaints(collection, 'hades-skeleton')]
       },
+    ];
+  } else if (className === 'faceless') {
+    return [
       {
-        title: 'Pluto Faceless',
+        title: 'Faceless',
         items: [...groupSaints(collection, 'hades-faceless')]
       },
     ];
@@ -204,16 +208,23 @@ export function getClassSaints(className) {
         items: [...groupSaints(collection, 'pallas-pallasite-soldiers')],
       },
     ];
-  } else if (className === 'olympus') {
+  } else if (className === 'angels') {
     return [
       {
-        title: "Olympus",
+        title: "Angels",
         items: [
-          ...orderGroups(groupSaints(collection, 'zeus'), ['gods', 'angels', 'fallen-angels']),
+          ...orderGroups(groupSaints(collection, 'zeus'), ['celestial', 'fallen']),
         ]
       }
     ];
-  } else if (className === 'berserkers' || className === 'martians') {
+  } else if (className === 'gods') {
+    return [
+      {
+        title: "Gods",
+        items: [...groupSaints(collection, 'zeus-gods').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)],
+      }
+    ];
+  } else if (className === 'berserkers') {
     return [
       {
         title: "Berserkers",
@@ -222,6 +233,9 @@ export function getClassSaints(className) {
           ...getRestOfTheCollection(collection, 'ares-legions', collections),
         ],
       },
+    ];
+  } else if (className === 'martians') {
+    return [
       {
         title: "Martians",
         items: [
@@ -305,14 +319,17 @@ export function getClassSaints(className) {
         ],
       },
     ];
-  } else if (className === 'god-warriors' || className === 'blue-warriors') {
+  } else if (className === 'blue-warriors') {
     return [
       {
         title: 'Blue warriors',
         items: [
           ...orderGroups(groupSaints(collection, 'blue-warrior'), ['representative', 'warriors', 'low', 'soldiers']),
         ],
-      },
+      }
+    ];
+  } else if (className === 'god-warriors') {
+    return [
       {
         title: 'Gods',
         items: [
