@@ -460,7 +460,7 @@ export function getClassSaints(className) {
       {
         title: 'Satellites',
         items: [
-          ...orderGroups(groupSaints(collection, 'artemis'), ['gods', 'representative', 'captain', 'satellites']),
+          ...orderGroups(groupSaints(collection, 'artemis'), ['gods', 'representative', 'witch', 'captain', 'satellites']),
         ],
       },
     ];
@@ -574,7 +574,7 @@ export function getClassesByDebut(id) {
   let saintsByDebut = []
 
   if(id === '0') {
-    saintsByDebut = saints.filter(saint => saint.debut.id === "");
+    saintsByDebut = saints.filter(saint => saint.debut.id === undefined);
 
     return saintsByDebut;
   } else {
