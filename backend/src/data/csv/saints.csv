@@ -349,7 +349,7 @@
 348,323,256,pallas-gods,9,323,assets/cloth-schemes/pallas-pallasites/pallas.png,5,5,16
 349,325,,hades-representative,31,168,assets/cloth-schemes/hades-specters/pandora-heinstein.png,10,10,1
 350,326,33,arthur-gladiators,,582,assets/cloth-schemes/arthur-gladiators/azoth-paracelsus.png,,,10
-351,327,17,athena-saints-3,5,582,assets/cloth-schemes/athena-saints/apus-paradise.png,30,8,29
+351,327,17,athena-saints-3,5,582,assets/cloth-schemes/athena-saints/apus-paradise.png,30,,29
 352,328,148,athena-saints-38,7,582,assets/cloth-schemes/athena-saints/gemini-paradox.png,5,5,16
 353,328,326,pallas-weapon-secondclass-4,33,323,assets/cloth-schemes/pallas-pallasites/staff-scarlet-janus-paradox.png,31,8,16
 354,329,242,hades-ressurected-saints,,168,assets/cloth-schemes/hades-specters/owl-partita.jpg,3,3,6
@@ -1037,3 +1037,12 @@
 1036,241,365,hades-terrestrial-star-85,14,168,assets/cloth-schemes/hades-specters/worm-laimi-lost-canvas-anime.jpg,21,21,15
 1037,,,hades-terrestrial-star-84,14,168,assets/cloth-schemes/hades-specters/star-tranquil-saint-seiya-online.jpg,6,6,29
 1038,102,54,athena-saints-11,6,582,assets/cloth-schemes/athena-saints/camelopardalis-naya.jpg,,,40
+1039,522,,hades-representative,31,168,assets/cloth-schemes/hades-specters/pandora-yoruhime-tsukishima.jpg,,,39
+1040,540,366,hades-celestial-star-7,13,168,assets/cloth-schemes/hades-specters/wyvern-shoichiro-tokito.jpeg,,,39
+1041,540,,athena-saints-62,4,582,assets/cloth-schemes/athena-saints/pegasus-shoichiro-tokito.jpg,,,39
+1042,541,30,athena-gods,9,582,assets/cloth-schemes/athena-saints/athena-cattleya-mikagami.jpg,,,39
+1043,542,148,athena-saints-38,7,582,assets/cloth-schemes/athena-saints/gemini-sojiro-tokito.jpg,,,39
+1044,544,,nemesis-gods,9,544,assets/cloth-schemes/nemesis-spirits/nemesis.jpg,,,47
+1045,545,62,nemesis-spirits,,544,assets/cloth-schemes/nemesis-spirits/arliss-bellerophon.jpg,10,10,47
+1046,546,81,nemesis-spirits,,544,assets/cloth-schemes/nemesis-spirits/dracodent-cadmus.jpg,,,47
+1047,547,85,nemesis-spirits,,544,assets/cloth-schemes/nemesis-spirits/musica-terpsichore.jpg,10,10,47

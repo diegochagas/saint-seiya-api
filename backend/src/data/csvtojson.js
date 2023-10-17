@@ -27,6 +27,7 @@ const files = [
   'groupsHades',
   'groupsHakuryu',
   'groupsLamech',
+  'groupsNemesis',
   'groupsOdin',
   'groupsOthers',
   'groupsPallas',

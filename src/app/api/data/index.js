@@ -23,6 +23,7 @@ import groupsGarnet from './groupsGarnet.json';
 import groupsHades from './groupsHades.json';
 import groupsHakuryu from './groupsHakuryu.json';
 import groupsLamech from './groupsLamech.json';
+import groupsNemesis from './groupsNemesis.json';
 import groupsOdin from './groupsOdin.json';
 import groupsOthers from './groupsOthers.json';
 import groupsPallas from './groupsPallas.json';
@@ -65,6 +66,7 @@ export {
   groupsHades,
   groupsHakuryu,
   groupsLamech,
+  groupsNemesis,
   groupsOdin,
   groupsOthers,
   groupsPallas,

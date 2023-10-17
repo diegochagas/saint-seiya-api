@@ -428,6 +428,15 @@ export function getClassSaints(className) {
         ],
       },
     ];
+  } else if (className === 'spirits') {
+    return [
+      {
+        title: 'Spirits',
+        items: [
+          ...orderGroups(groupSaints(collection, 'nemesis'), ['gods', 'spirits']),
+        ],
+      },
+    ];
   } else if (className === 'legionaries') {
     return [
       {

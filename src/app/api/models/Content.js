@@ -66,6 +66,7 @@ const loadSaintsData = (saints, content) => {
     if (saint.group.includes('hades')) group = getGroup(content.groupsHades, saint);
     if (saint.group.includes('hakuryu')) group = getGroup(content.groupsHakuryu, saint);
     if (saint.group.includes('lamech')) group = getGroup(content.groupsLamech, saint);
+    if (saint.group.includes('nemesis')) group = getGroup(content.groupsNemesis, saint);
     if (saint.group.includes('odin') || saint.group.includes('blue-warrior')) group = getGroup(content.groupsOdin, saint);
     if (saint.group.includes('other-characters')) group = getGroup(content.groupsOthers, saint);
     if (saint.group.includes('pallas')) group = getGroup(content.groupsPallas, saint);
