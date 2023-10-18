@@ -163,12 +163,12 @@ export function getClassSaints(className) {
         items: [...groupSaints(collection, 'hades-other-specters').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)]
       },
       {
-        title: 'Revived Saints',
-        items: [...groupSaints(collection, 'hades-ressurected-saints').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)]
+        title: 'Skeleton soldiers',
+        items: [...groupSaints(collection, 'hades-skeleton').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)]
       },
       {
-        title: 'Skeleton soldiers',
-        items: [...groupSaints(collection, 'hades-skeleton')]
+        title: 'Revived',
+        items: [...orderGroups(groupSaints(collection, 'hades'), ['saints', 'mariners'])]
       },
     ];
   } else if (className === 'faceless') {
@@ -258,11 +258,23 @@ export function getClassSaints(className) {
         items: [...groupSaints(collection, 'abel-revived-saints').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)],
       },
     ];
-  } else if (className === 'cyclops') {
+  } else if (className === 'primordial-gods') {
     return [
       {
+        title: 'Primordial Gods',
+        items: [...groupSaints(collection, 'pontos-primordial').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)],
+      },
+      {
         title: 'Cyclops',
-        items: [ ...groupSaints(collection, 'cyclops')],
+        items: [ ...groupSaints(collection, 'cyclops').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)],
+      },
+      {
+        title: 'Grigoris',
+        items: [ ...groupSaints(collection, 'grigoris').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)],
+      },
+      {
+        title: 'Hecatonchires',
+        items: [ ...groupSaints(collection, 'hecatonchires').sort((a, b) => a.name == b.name ? 0 : + (a.name > b.name) || -1)],
       },
     ];
   } else if (className === 'dryads') {

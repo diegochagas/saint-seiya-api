@@ -60,7 +60,6 @@ const loadSaintsData = (saints, content) => {
     if (saint.group.includes('balor')) group = getGroup(content.groupsBalor, saint);
     if (saint.group.includes('chronos')) group = getGroup(content.groupsChronos, saint);
     if (saint.group.includes('cronus')) group = getGroup(content.groupsCronus, saint);
-    if (saint.group.includes('cyclops')) group = getGroup(content.groupsCyclops, saint);
     if (saint.group.includes('eris')) group = getGroup(content.groupsEris, saint);
     if (saint.group.includes('garnet')) group = getGroup(content.groupsGarnet, saint);
     if (saint.group.includes('hades')) group = getGroup(content.groupsHades, saint);
@@ -70,6 +69,7 @@ const loadSaintsData = (saints, content) => {
     if (saint.group.includes('odin') || saint.group.includes('blue-warrior')) group = getGroup(content.groupsOdin, saint);
     if (saint.group.includes('other-characters')) group = getGroup(content.groupsOthers, saint);
     if (saint.group.includes('pallas')) group = getGroup(content.groupsPallas, saint);
+    if (saint.group.includes('pontos')) group = getGroup(content.groupsPontos, saint);
     if (saint.group.includes('poseidon')) group = getGroup(content.groupsPoseidon, saint);
     if (saint.group.includes('ra-')) group = getGroup(content.groupsRa, saint);
     if (saint.group.includes('tezcatlipoca')) group = getGroup(content.groupsTezcatlipoca, saint);

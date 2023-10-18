@@ -17,7 +17,6 @@ import groupsAthena from './groupsAthena.json';
 import groupsBalor from './groupsBalor.json';
 import groupsChronos from './groupsChronos.json';
 import groupsCronus from './groupsCronus.json';
-import groupsCyclops from './groupsCyclops.json';
 import groupsEris from './groupsEris.json';
 import groupsGarnet from './groupsGarnet.json';
 import groupsHades from './groupsHades.json';
@@ -27,6 +26,7 @@ import groupsNemesis from './groupsNemesis.json';
 import groupsOdin from './groupsOdin.json';
 import groupsOthers from './groupsOthers.json';
 import groupsPallas from './groupsPallas.json';
+import groupsPontos from './groupsPontos.json';
 import groupsPoseidon from './groupsPoseidon.json';
 import groupsRa from './groupsRa.json';
 import groupsTezcatlipoca from './groupsTezcatlipoca.json';
@@ -60,7 +60,6 @@ export {
   groupsBalor,
   groupsChronos,
   groupsCronus,
-  groupsCyclops,
   groupsEris,
   groupsGarnet,
   groupsHades,
@@ -70,6 +69,7 @@ export {
   groupsOdin,
   groupsOthers,
   groupsPallas,
+  groupsPontos,
   groupsPoseidon,
   groupsRa,
   groupsTezcatlipoca,
