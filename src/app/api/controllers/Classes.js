@@ -463,7 +463,7 @@ export function getClassSaints(className) {
       {
         title: 'Mariners',
         items: [
-          ...orderGroups(groupSaints(collection, 'poseidon'), ['gods', 'generals', 'mariners', 'soldiers']),
+          ...orderGroups(groupSaints(collection, 'poseidon'), ['gods', 'archetypes', 'generals', 'mariners', 'soldiers']),
         ],
       },
     ];
